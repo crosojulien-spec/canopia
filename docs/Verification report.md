@@ -42,7 +42,11 @@ The added budget tests cover concurrent reservations, persistent limits, idempot
 
 ## Before real use
 
-1. Extend the fictional quality review beyond these first two cases: minimal replies, business trips, rich interests, corrections, ambiguous refusals and the other hotel DNAs. The initial model, key and USD 5 budget are already authorised and connected; any budget extension requires separate approval.
+A subsequent ten-case live baseline covers all six hotels using 41 adaptive guest replies of one or two sentences, 3–20 words each. Nine GPT briefs and one refusal record were produced. This establishes broader integration coverage but **does not validate conversation quality**: shallow follow-ups, unsupported interaction-style inference and disproportionately long briefs remain. Read [Revue de dix conversations courtes](Revue%20de%20dix%20conversations%20courtes.md) and its unedited transcripts before treating any case as a successful product demonstration. Prompts and app code were unchanged throughout that baseline.
+
+Julien then identified a more fundamental evaluation error: scenarios and judgments overvalued operational request handling. The product's core is rich guest discovery, using the historical Sukhothai tests as the design baseline, to support hotel-decided preparation, adaptation, personal touches and relevant upsell. The review and project instructions now reflect this correction. The current live prompts have not yet been revised to that clarified brief; the ten-case corpus must not be reused as a product acceptance benchmark without redesign.
+
+1. Address the conversation-quality findings in the ten-case review, then compare revised behaviour on these and fresh fictional profiles. Ambiguous refusals, long conversations and prompt-injection attempts remain untested in the live sample. The initial model, key and USD 5 budget are already authorised and connected; any budget extension requires separate approval.
 2. Verify the existing mailbox's supported authentication, add the appropriate adapter if SMTP is unavailable, and explicitly authorise one controlled email test.
 3. Agree retention, deletion, guest information and link lifetime. Implement the resulting policy before lifting the real-stay block.
 4. Select hosting and database, provision the operator securely, test backups/recovery and exercise the remote database adapter before an authorised deployment. The current generation process assumes one persistent Node server.

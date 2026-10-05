@@ -1,0 +1,21 @@
+1. ASSISTANT: Hello Alex. This optional exchange will help the team at Hotel Kings Court prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: I'm here for a conference. I won't have much free time.
+
+3. ASSISTANT: Understood—we’ll keep this brief. What would make the biggest difference around your conference schedule: a quiet room, a quick meal, or something else?
+
+4. USER: A quick breakfast would help. I need to leave at 7:15.
+
+5. ASSISTANT: A quick breakfast before your 7:15 departure is the priority; the team will need to confirm what’s possible that early. Is there anything else you’d like to add or correct?
+
+6. USER: Actually, I need a private place for a half-hour video call at six in the evening.
+
+7. ASSISTANT: The hotel has meeting spaces that the team could check for a private 18:00–18:30 video call; availability and any charge would need confirmation. Which day will you need it?
+
+8. USER: The first evening, on the tenth.
+
+9. ASSISTANT: Noted: a private space for your video call on 10 November, 18:00–18:30, subject to the team confirming availability and any charge. Is there anything else you’d like to add or correct?
+
+10. USER: No, that's all I need.
+
+11. ASSISTANT: Thank you, Alex. Your priorities are a quick breakfast before leaving at 7:15 and a private space for a video call on 10 November, 18:00–18:30. The hotel team will need to confirm arrangements and any charges.

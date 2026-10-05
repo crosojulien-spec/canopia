@@ -1,0 +1,109 @@
+{
+  "stay": {
+    "id": "672d3ce5-98b0-4994-b2c9-fcce8998313f",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose",
+        "value": "Stopover; sleep is the main priority.",
+        "sourceQuote": "It's just a stopover. I mainly need to sleep.",
+        "sourceMessageId": "43b1f1fc-2e6b-454b-980b-534f2a430c42"
+      },
+      {
+        "label": "Room preference",
+        "value": "Would prefer a quiet room.",
+        "sourceQuote": "A quiet room would help.",
+        "sourceMessageId": "3e8a59c6-ffc6-4eb6-8a0e-a3c50486ab49"
+      },
+      {
+        "label": "Expected stay hours",
+        "value": "Approximately 11:30 pm to 3:30 am.",
+        "sourceQuote": "I'll only be there from about 11:30 pm to 3:30 am.",
+        "sourceMessageId": "3e8a59c6-ffc6-4eb6-8a0e-a3c50486ab49"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 10,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.118Z",
+    "departure": "2026-11-11",
+    "expiresAt": "2026-10-12T16:12:06.118Z",
+    "guestName": "Jo — Short replies 07",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 1,
+    "updatedAt": "2026-10-05T16:15:52.109Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "7562c006-85aa-4391-91ea-1033bb814566",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "5494db8d-25ee-46ba-a85b-bafb1b3b2b26",
+      "role": "assistant",
+      "content": "Hello Jo. This optional exchange will help the team at The Sukhothai Bangkok prepare your stay from 2026-11-10 to 2026-11-11. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.118Z"
+    },
+    {
+      "id": "43b1f1fc-2e6b-454b-980b-534f2a430c42",
+      "role": "user",
+      "content": "It's just a stopover. I mainly need to sleep.",
+      "createdAt": "2026-10-05T16:12:48.474Z"
+    },
+    {
+      "id": "62eafd85-90df-41cb-bc62-ccc5d6436550",
+      "role": "assistant",
+      "content": "Understood—sleep is the priority. Is there one thing that would help you rest, such as a quieter room location? The team would need to confirm availability.",
+      "createdAt": "2026-10-05T16:12:51.942Z"
+    },
+    {
+      "id": "3e8a59c6-ffc6-4eb6-8a0e-a3c50486ab49",
+      "role": "user",
+      "content": "A quiet room would help. I'll only be there from about 11:30 pm to 3:30 am.",
+      "createdAt": "2026-10-05T16:13:42.313Z"
+    },
+    {
+      "id": "0447ff9c-edda-491d-beb7-acae48ab5028",
+      "role": "assistant",
+      "content": "With such a short overnight stop, I’ll note your approximate 11:30 pm arrival and 3:30 am departure, with sleep and a quiet room as priorities. Reception will need to confirm a suitable room. Is there anything you’d like to add or correct?",
+      "createdAt": "2026-10-05T16:13:49.042Z"
+    },
+    {
+      "id": "154d9fbe-95b1-4296-ac3c-a311e75cb903",
+      "role": "user",
+      "content": "No, that's it.",
+      "createdAt": "2026-10-05T16:14:44.502Z"
+    },
+    {
+      "id": "b9e181b8-c2d1-462f-bfdc-d6cd24c7dc7e",
+      "role": "assistant",
+      "content": "Thank you, Jo. Your note for the team will focus on a quiet room and sleep during your short overnight stop, approximately 11:30 pm–3:30 am. Room availability remains for reception to confirm.",
+      "createdAt": "2026-10-05T16:14:50.871Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "7562c006-85aa-4391-91ea-1033bb814566",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Jo — Short replies 07; addressed as Jo in the conversation.\nParty: 1 guest.\nExplicitly stated language: Unknown.\nDates: 10–11 November 2026, one night. Expected presence approximately 11:30 pm on arrival night to 3:30 am the following morning.\nPurpose: Stopover; sleep is the priority.\nInteraction style: Brief replies; guest confirmed there was nothing further to add. Keep contact concise and practical.\nSpecial occasion: None stated.\n\nB) COORDINATION\nAssigned owner: Concierge; current individual handoff owner to be confirmed.\nConcierge to coordinate the overnight timing with Reception and the quiet-room preparation request with Reception and Housekeeping.\nReception to confirm booked room category/wing, a suitable quiet location within the booking, and overnight arrival/departure procedures. Room availability and quietness are not guaranteed.\nHotel DNA is publicly researched, with operator review pending and no operational confirmation; relevant arrangements require staff verification.\n\nC) GUEST PROFILE\nWhat matters: Maximising sleep during an approximately four-hour overnight stay.\nComfort constraint: Explicit request for a quiet room.\nDietary constraints and allergies: Unknown; none disclosed.\nRequested personal note and placement: None.\nBest outcome: A straightforward arrival, a prepared room in the quietest feasible location within the booked category, and a straightforward early departure.\nWhat already works: The guest has supplied the essential timing and room preference; further personalisation questions are unnecessary.\nWatch outs: Do not interpret the sleep priority as a request for wellness services, food amenities, a wake-up call or a broader itinerary.\nExperience suggestions: None proposed. Section F focuses on practical support for this short stopover.\n\nD) RECEPTION\nFlag approximate arrival at 11:30 pm and departure at 3:30 am for overnight staff.\nConfirm late-arrival handling and early-departure/check-out arrangements, keeping guest-facing explanations short.\nReview room-location options for the quiet-room request within the booked category; do not imply an upgrade or guaranteed silence.\nConfirm room readiness with Housekeeping before arrival where operationally possible.\nNo wake-up call, transfer or meal has been requested; do not arrange these by default.\n\nE) ROOM PREPARATION\nOwner: Housekeeping for room preparation; Reception for room allocation.\nPrepare the allocated room for immediate use on arrival. Subject to actual procedures, complete routine preparation before the guest arrives to minimise the need for overnight visits.\nQuiet location requires room-specific confirmation. Coordinate known noise considerations with Reception; do not promise a noise-free room.\nRoom category/wing, bedding preferences, pillow requirements and temperature preferences: Unknown. Do not assume Main Wing specifications, Club benefits or a confirmed pillow menu.\nNo personal note, decorative setup or additional in-room amenity is requested.\n\nF) CONCIERGE\nKeep support limited to the stated sleep priority and overnight logistics.\nCoordinate the quiet-room request and approximate stay window with Reception and Housekeeping; leave room allocation and preparation decisions with those teams.\nNo experience composition or external research request is warranted from the guest’s stated interests. Do not add dining, spa, sightseeing or surprise arrangements.\nTransport needs are Unknown. If the guest later requests transport support, confirm destination, required timing, availability and charges before proposing an option; nothing is currently arranged.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "672d3ce5-98b0-4994-b2c9-fcce8998313f",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:15:52.108Z",
+      "updatedAt": "2026-10-05T16:15:52.108Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Jo — Short replies 07; addressed as Jo in the conversation.\nParty: 1 guest.\nExplicitly stated language: Unknown.\nDates: 10–11 November 2026, one night. Expected presence approximately 11:30 pm on arrival night to 3:30 am the following morning.\nPurpose: Stopover; sleep is the priority.\nInteraction style: Brief replies; guest confirmed there was nothing further to add. Keep contact concise and practical.\nSpecial occasion: None stated.\n\nB) COORDINATION\nAssigned owner: Concierge; current individual handoff owner to be confirmed.\nConcierge to coordinate the overnight timing with Reception and the quiet-room preparation request with Reception and Housekeeping.\nReception to confirm booked room category/wing, a suitable quiet location within the booking, and overnight arrival/departure procedures. Room availability and quietness are not guaranteed.\nHotel DNA is publicly researched, with operator review pending and no operational confirmation; relevant arrangements require staff verification.\n\nC) GUEST PROFILE\nWhat matters: Maximising sleep during an approximately four-hour overnight stay.\nComfort constraint: Explicit request for a quiet room.\nDietary constraints and allergies: Unknown; none disclosed.\nRequested personal note and placement: None.\nBest outcome: A straightforward arrival, a prepared room in the quietest feasible location within the booked category, and a straightforward early departure.\nWhat already works: The guest has supplied the essential timing and room preference; further personalisation questions are unnecessary.\nWatch outs: Do not interpret the sleep priority as a request for wellness services, food amenities, a wake-up call or a broader itinerary.\nExperience suggestions: None proposed. Section F focuses on practical support for this short stopover.\n\nD) RECEPTION\nFlag approximate arrival at 11:30 pm and departure at 3:30 am for overnight staff.\nConfirm late-arrival handling and early-departure/check-out arrangements, keeping guest-facing explanations short.\nReview room-location options for the quiet-room request within the booked category; do not imply an upgrade or guaranteed silence.\nConfirm room readiness with Housekeeping before arrival where operationally possible.\nNo wake-up call, transfer or meal has been requested; do not arrange these by default.\n\nE) ROOM PREPARATION\nOwner: Housekeeping for room preparation; Reception for room allocation.\nPrepare the allocated room for immediate use on arrival. Subject to actual procedures, complete routine preparation before the guest arrives to minimise the need for overnight visits.\nQuiet location requires room-specific confirmation. Coordinate known noise considerations with Reception; do not promise a noise-free room.\nRoom category/wing, bedding preferences, pillow requirements and temperature preferences: Unknown. Do not assume Main Wing specifications, Club benefits or a confirmed pillow menu.\nNo personal note, decorative setup or additional in-room amenity is requested.\n\nF) CONCIERGE\nKeep support limited to the stated sleep priority and overnight logistics.\nCoordinate the quiet-room request and approximate stay window with Reception and Housekeeping; leave room allocation and preparation decisions with those teams.\nNo experience composition or external research request is warranted from the guest’s stated interests. Do not add dining, spa, sightseeing or surprise arrangements.\nTransport needs are Unknown. If the guest later requests transport support, confirm destination, required timing, availability and charges before proposing an option; nothing is currently arranged.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

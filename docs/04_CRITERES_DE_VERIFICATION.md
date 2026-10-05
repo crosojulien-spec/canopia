@@ -9,6 +9,10 @@ Ces critères traduisent les décisions produit. Leur état d'exécution et leur
 | Invitation | L'opérateur vérifie le destinataire et déclenche l'envoi ; succès ou erreur sont visibles ; un double clic ne crée pas deux invitations involontaires. |
 | Confidentialité d'accès | L'accès invité donne accès à son séjour seulement ; la console opérateur est protégée. |
 | Conversation souple | Un intérêt pertinent entraîne un approfondissement ; une réponse courte ou un sujet absent n'impose pas un questionnaire complet. |
+| Découverte personnelle — critère central | À partir de réponses de une ou deux phrases, l'agent fait émerger des intentions, goûts, habitudes ou détails propres aux personnes, comme dans les cas Sukhothai. Distinguer ce qu'il a découvert par ses relances de ce que le client a spontanément ajouté. |
+| Potentiel de personnalisation et d'upsell | Les informations découvertes donnent à l'hôtel des possibilités concrètes de préparation, d'adaptation, d'attention et de prestations payantes pertinentes. Le client n'a pas à concevoir lui-même ces possibilités ; chaque proposition garde sa justification et la décision de l'hôtel. |
+| Rôle de la conversation | L'ADN oriente les rebonds sans transformer l'échange en présentation des règles, des menus ou des tarifs. Une bonne vérification d'horaire ne suffit pas à valider la découverte. |
+| Style d'interaction | Le brief ne déduit pas une préférence de discrétion ou de faible interaction de la seule brièveté des réponses ; cette préférence doit être comprise auprès du voyageur. |
 | Adaptation aux capacités | Le bot ne développe pas une option connue comme indisponible et peut explorer une adaptation réaliste d'une capacité existante. |
 | Génération automatique | Une fin normale déclenche un brouillon ; une erreur IA reste visible et ne présente pas le brief comme prêt. |
 | Fidélité | Les préférences explicites et contraintes importantes du transcript sont conservées ; les inconnues restent identifiables. |

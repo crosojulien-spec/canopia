@@ -1,0 +1,13 @@
+1. ASSISTANT: Hello Chris. This optional exchange will help the team at Golden Well / U Zlate Studne prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: Just a weekend away, nothing special.
+
+3. ASSISTANT: A simple getaway—understood. What would make it enjoyable for you: relaxing at the hotel, exploring Prague, or good food?
+
+4. USER: Probably just wander around. We haven't planned anything.
+
+5. ASSISTANT: Understood—wandering around Prague without a fixed itinerary. Is there anything else you’d like the team to know, or shall we keep it at that?
+
+6. USER: Let's leave it there, thanks.
+
+7. ASSISTANT: Of course, thank you. We’ll keep the note simple: a casual getaway, with time to wander around Prague and no fixed plans.

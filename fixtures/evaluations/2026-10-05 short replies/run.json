@@ -1,0 +1,22 @@
+{
+  "startedAt": "2026-10-05T16:12:06.133Z",
+  "model": "gpt-6.1-sol",
+  "baselineCommit": "b9884d8",
+  "conversationPromptSha256": "a302438df53f7fdcfb43dd06f81ebaa9e8e49813db94645163a45e905b9ca3fe",
+  "briefPromptSha256": "b6324bc15c948000430712e9f66b31362dc896988f6ab7f58fa70721c18ee4ec",
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 0.082086,
+    "remainingUsd": 4.917914,
+    "uncertainCalls": 0,
+    "blocked": false
+  },
+  "finishedAt": "2026-10-05T16:18:38.511Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 1.074447,
+    "remainingUsd": 3.925553,
+    "uncertainCalls": 0,
+    "blocked": false
+  }
+}

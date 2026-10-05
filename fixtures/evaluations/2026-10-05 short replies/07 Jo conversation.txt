@@ -1,0 +1,13 @@
+1. ASSISTANT: Hello Jo. This optional exchange will help the team at The Sukhothai Bangkok prepare your stay from 2026-11-10 to 2026-11-11. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: It's just a stopover. I mainly need to sleep.
+
+3. ASSISTANT: Understood—sleep is the priority. Is there one thing that would help you rest, such as a quieter room location? The team would need to confirm availability.
+
+4. USER: A quiet room would help. I'll only be there from about 11:30 pm to 3:30 am.
+
+5. ASSISTANT: With such a short overnight stop, I’ll note your approximate 11:30 pm arrival and 3:30 am departure, with sleep and a quiet room as priorities. Reception will need to confirm a suitable room. Is there anything you’d like to add or correct?
+
+6. USER: No, that's it.
+
+7. ASSISTANT: Thank you, Jo. Your note for the team will focus on a quiet room and sleep during your short overnight stop, approximately 11:30 pm–3:30 am. Room availability remains for reception to confirm.

@@ -19,12 +19,12 @@
       "sha256": "7c51d9691a2c0e596709038190d47bf636d5727d0054fcc3f752c81e9c606e7a"
     },
     "AGENTS.md": {
-      "bytes": 4653,
-      "sha256": "1c6dd88451946e4497c8c2f38fa88e459164a0edb4c8cbf06ded58a569121e1e"
+      "bytes": 5809,
+      "sha256": "645536590c5e1113ad59d725f17da8e7f68351ed79a1e0b744570754bff74716"
     },
     "README.md": {
-      "bytes": 7010,
-      "sha256": "c90d4f13b8dec011d40e420fb4fa0c98427625b094acfb72911c687dd035cbfe"
+      "bytes": 7356,
+      "sha256": "3819aa86d867d4416c78728e4f0dc492685fe490e65db57a67e22a5bd33c7a8f"
     },
     "START_HERE.txt": {
       "bytes": 1781,
@@ -95,20 +95,20 @@
       "sha256": "981ef6524d11b4f453ad4f99d9181b70cae33921d5e6e2e5e7df5d14e775d13a"
     },
     "docs/01_DECISIONS_VALIDEES.md": {
-      "bytes": 9825,
-      "sha256": "95830e79a95c11d142f0c601b1c3be25819f29da2559a708bbe0d97436443add"
+      "bytes": 13861,
+      "sha256": "cd2443da7ed214ffba136bff88b3ff96a5a696f24cb8acbc1036447e9e942a85"
     },
     "docs/02_PLAN_DE_RECONSTRUCTION.md": {
       "bytes": 5714,
       "sha256": "19db9d4c11e4318126c82dfccc6f46c92dacec925195e9702eb83f5c662b347c"
     },
     "docs/03_QUESTIONS_OUVERTES.md": {
-      "bytes": 5023,
-      "sha256": "ba6dbac61fa6ae2e5ae6fedae8a9ba3a969b31066de1b73f809b6da1f5fc0626"
+      "bytes": 5329,
+      "sha256": "8231d028815c8cc0d281048194fbd11a2e025151bf84a56dcf65798cc98d8c35"
     },
     "docs/04_CRITERES_DE_VERIFICATION.md": {
-      "bytes": 3604,
-      "sha256": "9b909e70526a267bb26df780dfaef4752703cb371a7dddf6d47302f8717c481a"
+      "bytes": 4681,
+      "sha256": "cf7f61e0a0588e113ba6da7127eba638805f1dc30c3b2e4cb110619bb167f610"
     },
     "docs/05_EXTENSION_HACKATHON.md": {
       "bytes": 3639,
@@ -122,9 +122,145 @@
       "bytes": 5477,
       "sha256": "a208949aa65e3750a87e3f8c478972e8fd8346f6460d03725a012f99d74db2fd"
     },
+    "docs/Revue de dix conversations courtes.md": {
+      "bytes": 17504,
+      "sha256": "ec2d7bb8d790e7854a6940f9e5d3c0d95f7892e151a3f43d473291d71253f0db"
+    },
     "docs/Verification report.md": {
-      "bytes": 8248,
-      "sha256": "cdbff1f3bc9a7ca31db4bfa93352a6ae99a454743cd44c0ea2ce97b6474e1c1b"
+      "bytes": 9497,
+      "sha256": "faefe43611020a75c5ba3567b2bb75ea6af8f2add090733c5bec73bbea7cc2cb"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/01 Nina brief.txt": {
+      "bytes": 6505,
+      "sha256": "2167413c0aa24237724f1d3db303acd40a7f65d4663ee0f18962c41ec29f03ac"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/01 Nina conversation.txt": {
+      "bytes": 2112,
+      "sha256": "305fbcb05aa70fe2219165d2b979a7751b1cb823ff0e4e5d757178a8b1af193a"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/01 Nina.json": {
+      "bytes": 20247,
+      "sha256": "cb62752f66698c5916a8c07fed314630d8a0220e6fbb18b5ab667dbb00eeeeb9"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/02 Alex brief.txt": {
+      "bytes": 4611,
+      "sha256": "285ad48a054e108dea325482800f733b5e76270aebaa3604d8feb64b3ce2973c"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/02 Alex conversation.txt": {
+      "bytes": 1587,
+      "sha256": "5bb020dd0af5e0929e6f34c9614477cc0571ed9e213386c46ea7b167bd8f05e1"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/02 Alex.json": {
+      "bytes": 14860,
+      "sha256": "9aaa593384caf1e51a97aa141587ac3460391c67379e80d6c5c1dd1214fde4ba"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/03 Sam brief.txt": {
+      "bytes": 4034,
+      "sha256": "24a5c779ecafb4fa421faaa61fee3f2be5bfdb228f89fbdb0e16cfeb7a211c8e"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/03 Sam conversation.txt": {
+      "bytes": 1380,
+      "sha256": "6c78819b59abc14d0eb08f6b7d1f974e36853fcdb0917233831250d7a89d01c3"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/03 Sam.json": {
+      "bytes": 13617,
+      "sha256": "764b353d2f7127b3277868c334fae82e8c3aab7c85acf0bda236d643d8f78ae1"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/04 Rose brief.txt": {
+      "bytes": 5117,
+      "sha256": "3b83dc9b464250eeca1e4172cbd593931e7c6d4a9d5132525e4edc48df1bf5c2"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/04 Rose conversation.txt": {
+      "bytes": 1809,
+      "sha256": "7d5b1ce6ea4e1348ad1df76e95779cd24f06453dabdc39c1257ccd7185d142f5"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/04 Rose.json": {
+      "bytes": 16218,
+      "sha256": "4df37b914eeefee8945b93985364286f68b0305cfb9171f7a7b5c04fb8d4923f"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/05 Jules brief.txt": {
+      "bytes": 4285,
+      "sha256": "58531e2394f966f3ac6f91b0f3bc7120000b96c97f789569d3a8da0ec4801bd0"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/05 Jules conversation.txt": {
+      "bytes": 1084,
+      "sha256": "53021418933970fbf690c907bd42667c545cd1803b9b2b8d5addb343e87d3be6"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/05 Jules.json": {
+      "bytes": 12636,
+      "sha256": "9cacf875f933e4d6a23a444252245e1258c30eb52d0eadc1776c65641289d971"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/06 Eli brief.txt": {
+      "bytes": 4682,
+      "sha256": "3bbc1931a1648b443cec1c35fbfc607a23f30571a9c57b1d3f1dc17df97be966"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/06 Eli conversation.txt": {
+      "bytes": 1638,
+      "sha256": "8cbf1b7615f1b9a3111b7524e90fc7a47b4dd90170ec007b8c0dde8999cefb0f"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/06 Eli.json": {
+      "bytes": 15410,
+      "sha256": "ea8e57e953ac7a2fd56c9c67c0213aed1f7c18e52de1244751955cae5bee1264"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/07 Jo brief.txt": {
+      "bytes": 3627,
+      "sha256": "39be44927a98cee33986b3d38e4a002e01b9468080eea2f28ecb55f84c767603"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/07 Jo conversation.txt": {
+      "bytes": 1111,
+      "sha256": "0b5094860b3b34a5b3cc7b41d1776dcffaf9d388c94c054214a0759cc933e882"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/07 Jo.json": {
+      "bytes": 11439,
+      "sha256": "5dcb5cfb56523edb84ace69fdc673731f2496f2f7837e0c857cca74648080437"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/08 Luca brief.txt": {
+      "bytes": 4121,
+      "sha256": "699b4f525a7c4fe45d6b1b34a69667c04759bfb1e7a53b67f8439c94bb9871ca"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/08 Luca conversation.txt": {
+      "bytes": 1364,
+      "sha256": "214a3a9342d9781cb0fdd70deaba61fd9e6fe5e488ac635be1c323ec3692fd5d"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/08 Luca.json": {
+      "bytes": 13247,
+      "sha256": "7f36ecf1890aaec584db0a8d90605c3ad0197107e6764a631cd6401106e6ea4f"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/09 Morgan brief.txt": {
+      "bytes": 1158,
+      "sha256": "0628d820c0aa52578b169d2133f4d56acbdb5fd4fae0795fea4b45551e7aa8de"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/09 Morgan conversation.txt": {
+      "bytes": 1008,
+      "sha256": "1fc2f88676c252a4293d6f7428bce2e097855cbd8f54ecbcf799b14c1912424d"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/09 Morgan.json": {
+      "bytes": 6009,
+      "sha256": "b56870ea0b5db833ec92cacdb2fb146cfb26b120b23bc71fbeee70dfd15da2c5"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/10 Chris brief.txt": {
+      "bytes": 3668,
+      "sha256": "d9bf8dc5fd2a2761a131b85d6e64fc0e907138a6c99f9ea75d156f52807e669c"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/10 Chris conversation.txt": {
+      "bytes": 907,
+      "sha256": "6053f56abd321ec5c5b220d3d03266b35162c1d909dda7aebfebdf0992ac06c3"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/10 Chris.json": {
+      "bytes": 11107,
+      "sha256": "ca1b1ddbf1f1161bd54a1459fd5e9a752ccd94b5292200180e11e1888ff19d87"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/run.json": {
+      "bytes": 637,
+      "sha256": "73c3a554e70b3357beb89e641dd1fe261aa294bb83d8ce1dcc44e343f79a9ac1"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/scenarios.json": {
+      "bytes": 6849,
+      "sha256": "c1d456c88dc0f0b0e33f58654526e003ef37965dfd250e830d372c9c2ba41e49"
+    },
+    "fixtures/evaluations/2026-10-05 short replies/turn review.json": {
+      "bytes": 22680,
+      "sha256": "2f65a56973fd3d38ce09736e3096cf34d428b513db659660d8f3de88476688f7"
     },
     "fixtures/historical/README.md": {
       "bytes": 1629,

@@ -1,0 +1,17 @@
+1. ASSISTANT: Hello Sam. This optional exchange will help the team at Hotel Amour Nice prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: It's our anniversary, but we're really not into big romantic gestures.
+
+3. ASSISTANT: Understood—an anniversary without the big romantic gestures. Would you enjoy a relaxed meal at the hotel’s Greek restaurant, or prefer to keep things unplanned?
+
+4. USER: A relaxed meal sounds good. My girlfriend and I hate being the centre of attention.
+
+5. ASSISTANT: A relaxed meal with no spotlight on your anniversary—understood. Is there anything you particularly enjoy eating or prefer to avoid?
+
+6. USER: We like sharing little dishes, and neither of us drinks alcohol.
+
+7. ASSISTANT: Sharing small dishes sounds well suited to the hotel’s Greek restaurant, and I’ll note alcohol-free drinks for both of you, with no public anniversary fuss. The team can check suitable options. Is there anything else you’d like to add or correct?
+
+8. USER: No, that's all.
+
+9. ASSISTANT: Thank you, Sam. Your preferences are noted for the team: a relaxed anniversary meal with small dishes to share, alcohol-free drinks for both of you, and no public fuss or big romantic gestures.

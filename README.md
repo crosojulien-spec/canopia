@@ -45,6 +45,8 @@ Les essais navigateur utilisent une base isolée sur le port 4311 et un profil E
 
 Voir [Connections and operation](docs/Connections%20and%20operation.md) pour les accès nécessaires et [Verification report](docs/Verification%20report.md) pour la portée des contrôles. `.env.example` contient seulement les noms de configuration. Aucune clé réelle ne doit être copiée dans le code ou la conversation.
 
+Une [revue de dix conversations courtes](docs/Revue%20de%20dix%20conversations%20courtes.md) couvre ensuite les six hôtels, avec 41 réponses client de 1–2 phrases et les dix briefs originaux. Elle montre des limites de profondeur, de ton et de longueur des briefs : le fonctionnement technique ne vaut pas validation de la qualité d'hôte.
+
 ## Ordre de lecture
 
 | Fichier | Utilité |

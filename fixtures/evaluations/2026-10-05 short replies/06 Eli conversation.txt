@@ -1,0 +1,21 @@
+1. ASSISTANT: Hello Eli. This optional exchange will help the team at Seven Secrets by Hanging Gardens prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: It's our honeymoon. Honestly, we'll probably be exhausted when we get there.
+
+3. ASSISTANT: Congratulations on your honeymoon. Would a quiet first evening with a simple dinner in your suite suit you, subject to the team confirming dining options?
+
+4. USER: Yes, that sounds right. We probably won't arrive until around 11 pm.
+
+5. ASSISTANT: A quiet first evening sounds sensible. With arrival around 11 pm, the team will need to confirm what late dining is possible. Is there anything you’d prefer to eat—or avoid—for that simple dinner?
+
+6. USER: Something light and vegetarian. I'd rather avoid dairy too.
+
+7. ASSISTANT: Light, vegetarian and preferably dairy-free—understood. The team will need to confirm a suitable option for your late arrival. Is there anything else you’d like them to know, or anything to correct?
+
+8. USER: Actually, yoghurt is fine; I just don't want a heavy cheesy meal.
+
+9. ASSISTANT: Thanks for clarifying: yoghurt is fine; you’d prefer a light vegetarian dinner without a heavy, cheesy dish. The team will need to confirm what’s possible around 11 pm. Anything else to add or correct?
+
+10. USER: No, that's enough for now.
+
+11. ASSISTANT: Thank you—no more questions. Your preferences are noted, with late-night dining still subject to the hotel team’s confirmation.

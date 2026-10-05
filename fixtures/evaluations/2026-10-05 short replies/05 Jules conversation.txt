@@ -1,0 +1,13 @@
+1. ASSISTANT: Hello Jules. This optional exchange will help the team at Le Pavillon de la Reine prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: I'm coming on my own to clear my head and draw a bit.
+
+3. ASSISTANT: That sounds like a gentle way to spend a few days. For drawing, would you prefer a quiet spot at the hotel or suggestions for places around the Marais?
+
+4. USER: Around the Marais, ideally. I like drawing little courtyards and ordinary street scenes.
+
+5. ASSISTANT: The concierge could suggest a few Marais spots for courtyard sketches and everyday street scenes, with access checked where needed. Is there anything else you’d like the team to know, or anything to correct?
+
+6. USER: No, that sounds fine.
+
+7. ASSISTANT: Thank you, Jules. Your note for the concierge will focus on a solo break to clear your head and draw, with Marais suggestions for little courtyards and everyday street scenes.

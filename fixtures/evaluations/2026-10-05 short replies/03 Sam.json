@@ -1,0 +1,139 @@
+{
+  "stay": {
+    "id": "3ed8a056-985a-41f9-a6ab-cb939eaf3290",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Occasion",
+        "value": "Anniversary stay.",
+        "sourceQuote": "It's our anniversary, but we're really not into big romantic gestures.",
+        "sourceMessageId": "5f561fa7-ee7d-4cc6-abf6-b2fee9d0c892"
+      },
+      {
+        "label": "Anniversary style",
+        "value": "Does not want big romantic gestures.",
+        "sourceQuote": "It's our anniversary, but we're really not into big romantic gestures.",
+        "sourceMessageId": "5f561fa7-ee7d-4cc6-abf6-b2fee9d0c892"
+      },
+      {
+        "label": "Meal preference",
+        "value": "Would enjoy a relaxed meal.",
+        "sourceQuote": "A relaxed meal sounds good.",
+        "sourceMessageId": "5c24245b-0ee5-4c8c-969c-d37a9efc0188"
+      },
+      {
+        "label": "Discretion",
+        "value": "Guest and girlfriend dislike being the centre of attention.",
+        "sourceQuote": "My girlfriend and I hate being the centre of attention.",
+        "sourceMessageId": "5c24245b-0ee5-4c8c-969c-d37a9efc0188"
+      },
+      {
+        "label": "Dining style",
+        "value": "Both like sharing small dishes.",
+        "sourceQuote": "We like sharing little dishes, and neither of us drinks alcohol.",
+        "sourceMessageId": "5223cb53-d7fa-4707-a9c5-fa8c46aa2428"
+      },
+      {
+        "label": "Alcohol",
+        "value": "Neither guest drinks alcohol.",
+        "sourceQuote": "We like sharing little dishes, and neither of us drinks alcohol.",
+        "sourceMessageId": "5223cb53-d7fa-4707-a9c5-fa8c46aa2428"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "hotel_amour_nice",
+    "revoked": false,
+    "revision": 12,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.102Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.102Z",
+    "guestName": "Sam — Short replies 03",
+    "hotelName": "Hotel Amour Nice",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:16:28.915Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "5cfc3b49-96f3-4a9a-9f4c-ae455510819e",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "823137ab-4a01-4dbc-b6b3-efdc370fc6f4",
+      "role": "assistant",
+      "content": "Hello Sam. This optional exchange will help the team at Hotel Amour Nice prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.102Z"
+    },
+    {
+      "id": "5f561fa7-ee7d-4cc6-abf6-b2fee9d0c892",
+      "role": "user",
+      "content": "It's our anniversary, but we're really not into big romantic gestures.",
+      "createdAt": "2026-10-05T16:12:36.952Z"
+    },
+    {
+      "id": "b649784d-2bf5-413e-b431-9d4148f08341",
+      "role": "assistant",
+      "content": "Understood—an anniversary without the big romantic gestures. Would you enjoy a relaxed meal at the hotel’s Greek restaurant, or prefer to keep things unplanned?",
+      "createdAt": "2026-10-05T16:12:42.356Z"
+    },
+    {
+      "id": "5c24245b-0ee5-4c8c-969c-d37a9efc0188",
+      "role": "user",
+      "content": "A relaxed meal sounds good. My girlfriend and I hate being the centre of attention.",
+      "createdAt": "2026-10-05T16:13:28.710Z"
+    },
+    {
+      "id": "dbbd8f19-f314-4b26-a9fe-e1c654299116",
+      "role": "assistant",
+      "content": "A relaxed meal with no spotlight on your anniversary—understood. Is there anything you particularly enjoy eating or prefer to avoid?",
+      "createdAt": "2026-10-05T16:13:35.137Z"
+    },
+    {
+      "id": "5223cb53-d7fa-4707-a9c5-fa8c46aa2428",
+      "role": "user",
+      "content": "We like sharing little dishes, and neither of us drinks alcohol.",
+      "createdAt": "2026-10-05T16:14:29.949Z"
+    },
+    {
+      "id": "7e6bc56d-47b9-44b3-be4b-6889f5de9f05",
+      "role": "assistant",
+      "content": "Sharing small dishes sounds well suited to the hotel’s Greek restaurant, and I’ll note alcohol-free drinks for both of you, with no public anniversary fuss. The team can check suitable options. Is there anything else you’d like to add or correct?",
+      "createdAt": "2026-10-05T16:14:37.676Z"
+    },
+    {
+      "id": "b98d0f8a-918c-448d-ab56-038b9a3c3211",
+      "role": "user",
+      "content": "No, that's all.",
+      "createdAt": "2026-10-05T16:15:18.553Z"
+    },
+    {
+      "id": "391c2996-d540-4553-987f-552de3eba4ee",
+      "role": "assistant",
+      "content": "Thank you, Sam. Your preferences are noted for the team: a relaxed anniversary meal with small dishes to share, alcohol-free drinks for both of you, and no public fuss or big romantic gestures.",
+      "createdAt": "2026-10-05T16:15:25.980Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "5cfc3b49-96f3-4a9a-9f4c-ae455510819e",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Sam — Short replies 03.\nParty: Two; Sam and girlfriend.\nExplicitly stated language: Unknown; exchange conducted in English.\nStay: 10–13 November 2026, Hotel Amour Nice.\nPurpose / occasion: Anniversary stay; exact anniversary date Unknown.\nInteraction style: Keep communication brief and discreet. Both dislike being the centre of attention and do not want big romantic gestures.\n\nB) COORDINATION\nOwner: Reception, as assigned handoff.\nReception to coordinate any optional meal proposal with the restaurant manager and alcohol-free drink choices with the bar.\nHotel DNA is public preparation material, checked 5 October 2026; operator review and operational confirmation remain pending. Confirm current service details before presenting arrangements as available.\nNo further preference interview is needed: Sam indicated there was nothing else to add.\n\nC) GUEST PROFILE\nWhat matters: A relaxed meal together, small dishes to share, and no public anniversary fuss.\nDietary / comfort constraints: Neither guest drinks alcohol. Allergies and other dietary requirements: Unknown; absence of disclosure is not confirmation of no allergies.\nRequested personal note and placement: None.\nBest outcome: An understated stay with the option of an easy sharing meal and suitable alcohol-free drinks, without ceremonial service or attention from other guests.\nWhat already works: The guests welcomed the idea of a relaxed meal at the hotel’s Greek restaurant.\nWatch outs: Do not add announcements, romantic decoration, surprise cake or other anniversary gestures. Do not infer preferences for sweetness, particular ingredients or a quiet room.\nExperience suggestions: The restaurant’s Greek/Cypriot sharing preparations and the hotel’s published alcohol-free drink resources are relevant to the stated preferences; see F for a conditional proposal.\n\nD) RECEPTION\nUse a normal, discreet welcome; do not publicly highlight the anniversary.\nIf the guests wish to proceed with a meal, confirm their preferred timing and briefly check allergies or other dietary needs before passing requirements to the restaurant and bar.\nCheck the actual booked room and ordinary readiness; room category, arrival time and entitlements are Unknown. Do not imply early access or an upgrade.\nKeep experience support with reception; a dedicated concierge is not established.\n\nE) ROOM PREPARATION\nOwner: Housekeeping through reception.\nNo special room setup, in-room food, drinks or personal note was requested. Use the normal preparation for the booked room; do not add anniversary decoration or romantic touches.\nRoom layout, bedding preferences and in-room service scope: Unknown. No special adaptation is indicated by the conversation.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nOptional hotel meal composition:\nThe guests’ interest in sharing little dishes fits the restaurant’s published Greek/Cypriot cooking and sharing preparations. Reception may ask the restaurant manager to explore a small selection for two, served at a relaxed pace with no public anniversary acknowledgement. This is a proposed adjustment, not an existing package.\nRestaurant manager and kitchen to confirm current dishes, portions, recipes, allergens and handling under their actual protocols, service timing, table suitability and cost. A patio table should not be assumed suitable or available in November; check weather and service arrangements.\n\nAlcohol-free accompaniment:\nBoth guests avoid alcohol. The bar’s published resources include mocktails, juices, teas and coffee; offer a straightforward choice alongside the meal rather than inventing a bespoke welcome drink.\nBar to confirm genuinely alcohol-free recipes, current stock, hours, venue attribution of the linked drinks list and charges. Do not assume complimentary drinks, cross-venue stock or a preference for sweet or less-sweet options.\n\nExternal research:\nNone indicated. The only stated experience interest is the hotel meal; do not add excursions, venues or a wider anniversary programme.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "3ed8a056-985a-41f9-a6ab-cb939eaf3290",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:16:28.913Z",
+      "updatedAt": "2026-10-05T16:16:28.913Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Sam — Short replies 03.\nParty: Two; Sam and girlfriend.\nExplicitly stated language: Unknown; exchange conducted in English.\nStay: 10–13 November 2026, Hotel Amour Nice.\nPurpose / occasion: Anniversary stay; exact anniversary date Unknown.\nInteraction style: Keep communication brief and discreet. Both dislike being the centre of attention and do not want big romantic gestures.\n\nB) COORDINATION\nOwner: Reception, as assigned handoff.\nReception to coordinate any optional meal proposal with the restaurant manager and alcohol-free drink choices with the bar.\nHotel DNA is public preparation material, checked 5 October 2026; operator review and operational confirmation remain pending. Confirm current service details before presenting arrangements as available.\nNo further preference interview is needed: Sam indicated there was nothing else to add.\n\nC) GUEST PROFILE\nWhat matters: A relaxed meal together, small dishes to share, and no public anniversary fuss.\nDietary / comfort constraints: Neither guest drinks alcohol. Allergies and other dietary requirements: Unknown; absence of disclosure is not confirmation of no allergies.\nRequested personal note and placement: None.\nBest outcome: An understated stay with the option of an easy sharing meal and suitable alcohol-free drinks, without ceremonial service or attention from other guests.\nWhat already works: The guests welcomed the idea of a relaxed meal at the hotel’s Greek restaurant.\nWatch outs: Do not add announcements, romantic decoration, surprise cake or other anniversary gestures. Do not infer preferences for sweetness, particular ingredients or a quiet room.\nExperience suggestions: The restaurant’s Greek/Cypriot sharing preparations and the hotel’s published alcohol-free drink resources are relevant to the stated preferences; see F for a conditional proposal.\n\nD) RECEPTION\nUse a normal, discreet welcome; do not publicly highlight the anniversary.\nIf the guests wish to proceed with a meal, confirm their preferred timing and briefly check allergies or other dietary needs before passing requirements to the restaurant and bar.\nCheck the actual booked room and ordinary readiness; room category, arrival time and entitlements are Unknown. Do not imply early access or an upgrade.\nKeep experience support with reception; a dedicated concierge is not established.\n\nE) ROOM PREPARATION\nOwner: Housekeeping through reception.\nNo special room setup, in-room food, drinks or personal note was requested. Use the normal preparation for the booked room; do not add anniversary decoration or romantic touches.\nRoom layout, bedding preferences and in-room service scope: Unknown. No special adaptation is indicated by the conversation.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nOptional hotel meal composition:\nThe guests’ interest in sharing little dishes fits the restaurant’s published Greek/Cypriot cooking and sharing preparations. Reception may ask the restaurant manager to explore a small selection for two, served at a relaxed pace with no public anniversary acknowledgement. This is a proposed adjustment, not an existing package.\nRestaurant manager and kitchen to confirm current dishes, portions, recipes, allergens and handling under their actual protocols, service timing, table suitability and cost. A patio table should not be assumed suitable or available in November; check weather and service arrangements.\n\nAlcohol-free accompaniment:\nBoth guests avoid alcohol. The bar’s published resources include mocktails, juices, teas and coffee; offer a straightforward choice alongside the meal rather than inventing a bespoke welcome drink.\nBar to confirm genuinely alcohol-free recipes, current stock, hours, venue attribution of the linked drinks list and charges. Do not assume complimentary drinks, cross-venue stock or a preference for sweet or less-sweet options.\n\nExternal research:\nNone indicated. The only stated experience interest is the hotel meal; do not add excursions, venues or a wider anniversary programme.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

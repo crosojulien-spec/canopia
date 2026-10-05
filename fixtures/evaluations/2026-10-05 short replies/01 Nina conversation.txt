@@ -1,0 +1,25 @@
+1. ASSISTANT: Hello Nina. This optional exchange will help the team at The Sukhothai Bangkok prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: We haven't had a family holiday in ages. Mostly we just want some time together.
+
+3. ASSISTANT: Some unhurried time together sounds lovely. Would you most enjoy relaxing by the pool, sharing good meals, or exploring Bangkok together?
+
+4. USER: A bit of exploring, but not rushing around. Our son gets bored if it's all temples.
+
+5. ASSISTANT: A little exploring without packing the day makes sense. What does your son enjoy that would make an outing fun for him?
+
+6. USER: He's five and loves animals. He's also very into Spider-Man.
+
+7. ASSISTANT: Animals and Spider-Man—helpful clues for the concierge when suggesting a relaxed outing. What would make the stay especially enjoyable for you?
+
+8. USER: I love live music, and my wife likes art. We don't want to drag him round galleries all day, though.
+
+9. ASSISTANT: Live music for you, art for your wife, and short outings that keep your son interested—a helpful balance for the concierge to consider. Is there anything else you’d like the team to know, or anything to correct?
+
+10. USER: One important thing: our son has a severe peanut allergy. Even traces are a problem.
+
+11. ASSISTANT: Thank you for flagging this. Your son’s severe peanut allergy, including traces, is an important note for the hotel and dining teams. The kitchens will need to confirm ingredients and cross-contact precautions directly; I can’t guarantee allergy-safe preparation. Is there anything else you’d like to add or correct before we wrap up?
+
+12. USER: Please don't leave any food surprises for him. That's everything.
+
+13. ASSISTANT: Understood—no food surprises for your son. That request will be clearly noted alongside his severe peanut allergy, including traces, for the hotel team. Thank you for sharing what matters for your family’s stay.

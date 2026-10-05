@@ -1,0 +1,674 @@
+[
+  {
+    "id": "01",
+    "name": "Nina",
+    "hotel": "The Sukhothai Bangkok",
+    "dnaVersion": 2,
+    "guestTurns": 6,
+    "guestWordCounts": [
+      15,
+      16,
+      10,
+      20,
+      15,
+      10
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "firstReadyTurn": 4,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 926,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "We haven't had a family holiday in ages. Mostly we just want some time together.",
+        "reply": "Some unhurried time together sounds lovely. Would you most enjoy relaxing by the pool, sharing good meals, or exploring Bangkok together?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5514,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "A bit of exploring, but not rushing around. Our son gets bored if it's all temples.",
+        "reply": "A little exploring without packing the day makes sense. What does your son enjoy that would make an outing fun for him?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5906,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "He's five and loves animals. He's also very into Spider-Man.",
+        "reply": "Animals and Spider-Man—helpful clues for the concierge when suggesting a relaxed outing. What would make the stay especially enjoyable for you?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6830,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "I love live music, and my wife likes art. We don't want to drag him round galleries all day, though.",
+        "reply": "Live music for you, art for your wife, and short outings that keep your son interested—a helpful balance for the concierge to consider. Is there anything else you’d like the team to know, or anything to correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7889,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "One important thing: our son has a severe peanut allergy. Even traces are a problem.",
+        "reply": "Thank you for flagging this. Your son’s severe peanut allergy, including traces, is an important note for the hotel and dining teams. The kitchens will need to confirm ingredients and cross-contact precautions directly; I can’t guarantee allergy-safe preparation. Is there anything else you’d like to add or correct before we wrap up?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 8567,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 6,
+        "guest": "Please don't leave any food surprises for him. That's everything.",
+        "reply": "Understood—no food surprises for your son. That request will be clearly noted alongside his severe peanut allergy, including traces, for the hotel team. Thank you for sharing what matters for your family’s stay.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 8395,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "name": "Alex",
+    "hotel": "Hotel Kings Court",
+    "dnaVersion": 2,
+    "guestTurns": 5,
+    "guestWordCounts": [
+      11,
+      11,
+      16,
+      6,
+      5
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "firstReadyTurn": 2,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 628,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "I'm here for a conference. I won't have much free time.",
+        "reply": "Understood—we’ll keep this brief. What would make the biggest difference around your conference schedule: a quiet room, a quick meal, or something else?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5396,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "A quick breakfast would help. I need to leave at 7:15.",
+        "reply": "A quick breakfast before your 7:15 departure is the priority; the team will need to confirm what’s possible that early. Is there anything else you’d like to add or correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 5649,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Actually, I need a private place for a half-hour video call at six in the evening.",
+        "reply": "The hotel has meeting spaces that the team could check for a private 18:00–18:30 video call; availability and any charge would need confirmation. Which day will you need it?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6669,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "The first evening, on the tenth.",
+        "reply": "Noted: a private space for your video call on 10 November, 18:00–18:30, subject to the team confirming availability and any charge. Is there anything else you’d like to add or correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6613,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "No, that's all I need.",
+        "reply": "Thank you, Alex. Your priorities are a quick breakfast before leaving at 7:15 and a private space for a video call on 10 November, 18:00–18:30. The hotel team will need to confirm arrangements and any charges.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6816,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "name": "Sam",
+    "hotel": "Hotel Amour Nice",
+    "dnaVersion": 2,
+    "guestTurns": 4,
+    "guestWordCounts": [
+      11,
+      15,
+      11,
+      3
+    ],
+    "guestSentenceCounts": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "firstReadyTurn": 3,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 577,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "It's our anniversary, but we're really not into big romantic gestures.",
+        "reply": "Understood—an anniversary without the big romantic gestures. Would you enjoy a relaxed meal at the hotel’s Greek restaurant, or prefer to keep things unplanned?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5448,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "A relaxed meal sounds good. My girlfriend and I hate being the centre of attention.",
+        "reply": "A relaxed meal with no spotlight on your anniversary—understood. Is there anything you particularly enjoy eating or prefer to avoid?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6448,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "We like sharing little dishes, and neither of us drinks alcohol.",
+        "reply": "Sharing small dishes sounds well suited to the hotel’s Greek restaurant, and I’ll note alcohol-free drinks for both of you, with no public anniversary fuss. The team can check suitable options. Is there anything else you’d like to add or correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7745,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "No, that's all.",
+        "reply": "Thank you, Sam. Your preferences are noted for the team: a relaxed anniversary meal with small dishes to share, alcohol-free drinks for both of you, and no public fuss or big romantic gestures.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7446,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "name": "Rose",
+    "hotel": "Golden Well / U Zlate Studne",
+    "dnaVersion": 2,
+    "guestTurns": 5,
+    "guestWordCounts": [
+      14,
+      11,
+      12,
+      11,
+      3
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "firstReadyTurn": 4,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 728,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "I'm bringing my mum to see Prague. She's been wanting to come for years.",
+        "reply": "How lovely to help your mum finally see Prague. What is she most looking forward to seeing or doing?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5044,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "The old buildings and views. She can't walk very far, though.",
+        "reply": "The hotel may be able to tailor a private history walk with breaks, subject to confirming a suitable route. Roughly how long can your mum comfortably walk before needing a rest?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 7154,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "About twenty minutes if it's flat, then a sit-down. Stairs are harder.",
+        "reply": "Thank you—that gives the team a useful guide: around twenty minutes on flat ground, then a seated break, with stairs harder. The hotel’s approach is cobbled and traffic-free, so access is worth checking too. Would you like the team to look into a gently paced private tour focused on old buildings and views?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6600,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "Yes, if it's really gentle. She wouldn't want a three-hour tour.",
+        "reply": "A really gentle tour, shorter than three hours, with seated breaks—the team would need to confirm a suitable route and duration, as well as the hotel access. Is there anything else you’d like to add or correct before we leave these preferences for reception?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7319,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "No, that's fine.",
+        "reply": "Thank you, Rose. The notes for reception will focus on your mum’s interest in old buildings and views, and a very gentle, shorter tour with seated breaks. The team will need to confirm the route, access, availability and cost.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7233,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "name": "Jules",
+    "hotel": "Le Pavillon de la Reine",
+    "dnaVersion": 2,
+    "guestTurns": 3,
+    "guestWordCounts": [
+      13,
+      13,
+      4
+    ],
+    "guestSentenceCounts": [
+      1,
+      2,
+      1
+    ],
+    "firstReadyTurn": 2,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 595,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "I'm coming on my own to clear my head and draw a bit.",
+        "reply": "That sounds like a gentle way to spend a few days. For drawing, would you prefer a quiet spot at the hotel or suggestions for places around the Marais?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 4209,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "Around the Marais, ideally. I like drawing little courtyards and ordinary street scenes.",
+        "reply": "The concierge could suggest a few Marais spots for courtyard sketches and everyday street scenes, with access checked where needed. Is there anything else you’d like the team to know, or anything to correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 5624,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "No, that sounds fine.",
+        "reply": "Thank you, Jules. Your note for the concierge will focus on a solo break to clear your head and draw, with Marais suggestions for little courtyards and everyday street scenes.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 5033,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "name": "Eli",
+    "hotel": "Seven Secrets by Hanging Gardens",
+    "dnaVersion": 2,
+    "guestTurns": 5,
+    "guestWordCounts": [
+      12,
+      12,
+      9,
+      12,
+      5
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "firstReadyTurn": 3,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 658,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "It's our honeymoon. Honestly, we'll probably be exhausted when we get there.",
+        "reply": "Congratulations on your honeymoon. Would a quiet first evening with a simple dinner in your suite suit you, subject to the team confirming dining options?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6043,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "Yes, that sounds right. We probably won't arrive until around 11 pm.",
+        "reply": "A quiet first evening sounds sensible. With arrival around 11 pm, the team will need to confirm what late dining is possible. Is there anything you’d prefer to eat—or avoid—for that simple dinner?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6986,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Something light and vegetarian. I'd rather avoid dairy too.",
+        "reply": "Light, vegetarian and preferably dairy-free—understood. The team will need to confirm a suitable option for your late arrival. Is there anything else you’d like them to know, or anything to correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6803,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "Actually, yoghurt is fine; I just don't want a heavy cheesy meal.",
+        "reply": "Thanks for clarifying: yoghurt is fine; you’d prefer a light vegetarian dinner without a heavy, cheesy dish. The team will need to confirm what’s possible around 11 pm. Anything else to add or correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 7074,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "No, that's enough for now.",
+        "reply": "Thank you—no more questions. Your preferences are noted, with late-night dining still subject to the hotel team’s confirmation.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 9234,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "name": "Jo",
+    "hotel": "The Sukhothai Bangkok",
+    "dnaVersion": 2,
+    "guestTurns": 3,
+    "guestWordCounts": [
+      9,
+      16,
+      3
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      1
+    ],
+    "firstReadyTurn": 2,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 494,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "It's just a stopover. I mainly need to sleep.",
+        "reply": "Understood—sleep is the priority. Is there one thing that would help you rest, such as a quieter room location? The team would need to confirm availability.",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 3478,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "A quiet room would help. I'll only be there from about 11:30 pm to 3:30 am.",
+        "reply": "With such a short overnight stop, I’ll note your approximate 11:30 pm arrival and 3:30 am departure, with sleep and a quiet room as priorities. Reception will need to confirm a suitable room. Is there anything you’d like to add or correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6748,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "No, that's it.",
+        "reply": "Thank you, Jo. Your note for the team will focus on a quiet room and sleep during your short overnight stop, approximately 11:30 pm–3:30 am. Room availability remains for reception to confirm.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6389,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "name": "Luca",
+    "hotel": "Hotel Kings Court",
+    "dnaVersion": 2,
+    "guestTurns": 4,
+    "guestWordCounts": [
+      13,
+      10,
+      7,
+      5
+    ],
+    "guestSentenceCounts": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "firstReadyTurn": 3,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 569,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "We're taking our son away for half-term. He's mostly excited about the pool.",
+        "reply": "Pool time sounds like the priority for your family break. The published spa guidance gives accompanied children under 12 a 10:00–16:00 window, though the team will need to confirm access. How old is your son?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5510,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "He's eight. We thought we'd go after sightseeing, around six.",
+        "reply": "At eight, your son’s planned 18:00 swim falls outside the published children’s window of 10:00–16:00; reception will need to confirm the policy. Would an earlier swim fit your sightseeing plans?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 6265,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "We could go in the morning instead.",
+        "reply": "A morning swim from 10:00 could fit the published children’s hours, subject to the team confirming access. Is there anything else you’d like the hotel to know or correct before we wrap up?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 5681,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "No, that's the main thing.",
+        "reply": "Thank you—your son’s pool time is the main priority, and a morning swim could work. Reception will need to confirm child access and the applicable hours.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 6726,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "name": "Morgan",
+    "hotel": "Hotel Amour Nice",
+    "dnaVersion": 2,
+    "guestTurns": 3,
+    "guestWordCounts": [
+      11,
+      5,
+      13
+    ],
+    "guestSentenceCounts": [
+      2,
+      1,
+      2
+    ],
+    "firstReadyTurn": 2,
+    "status": "stopped",
+    "briefStatus": "ready",
+    "briefWords": 171,
+    "briefSource": "minimal-record",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "I'm visiting for a family matter. I'd rather keep things low-key.",
+        "reply": "Of course—no need to explain the family matter. What would help keep your stay low-key: a quiet room, minimal interaction, or something else?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 4619,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "Just a quiet room, really.",
+        "reply": "Understood—a quiet room is your main priority. Reception will need to confirm what’s available. Is there anything you’d like to add or correct before we leave it there?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 5475,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Actually, please stop. I don't want my information used to personalise this stay.",
+        "reply": "Understood—we’ll stop here. The team will receive a minimal record clearly stating that you do not want personalization for this stay.",
+        "ready": false,
+        "status": "stopped",
+        "elapsedMs": 4109,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Chris",
+    "hotel": "Golden Well / U Zlate Studne",
+    "dnaVersion": 2,
+    "guestTurns": 3,
+    "guestWordCounts": [
+      6,
+      8,
+      5
+    ],
+    "guestSentenceCounts": [
+      1,
+      2,
+      1
+    ],
+    "firstReadyTurn": 2,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 511,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "Just a weekend away, nothing special.",
+        "reply": "A simple getaway—understood. What would make it enjoyable for you: relaxing at the hotel, exploring Prague, or good food?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 5410,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "Probably just wander around. We haven't planned anything.",
+        "reply": "Understood—wandering around Prague without a fixed itinerary. Is there anything else you’d like the team to know, or shall we keep it at that?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 4405,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Let's leave it there, thanks.",
+        "reply": "Of course, thank you. We’ll keep the note simple: a casual getaway, with time to wander around Prague and no fixed plans.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 4927,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  }
+]

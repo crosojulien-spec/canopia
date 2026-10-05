@@ -1,0 +1,97 @@
+{
+  "stay": {
+    "id": "dfae1bf1-7465-4663-9e9f-db2e392d7ab8",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Personalization declined",
+        "value": "Does not want information used to personalize this stay; requests the exchange stop.",
+        "sourceQuote": "Actually, please stop. I don't want my information used to personalise this stay.",
+        "sourceMessageId": "2f832100-0813-4c41-b599-15b01b0c8089"
+      }
+    ],
+    "status": "stopped",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "hotel_amour_nice",
+    "revoked": false,
+    "revision": 9,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.125Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.125Z",
+    "guestName": "Morgan — Short replies 09",
+    "hotelName": "Hotel Amour Nice",
+    "partySize": 1,
+    "updatedAt": "2026-10-05T16:14:48.593Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "e297c443-be27-4fb1-bada-85794ac4472f",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "fb5b2f47-ead2-4d58-ba48-5cfec2ea184a",
+      "role": "assistant",
+      "content": "Hello Morgan. This optional exchange will help the team at Hotel Amour Nice prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.125Z"
+    },
+    {
+      "id": "3f256cb6-9c01-472a-a23d-82199ed93d60",
+      "role": "user",
+      "content": "I'm visiting for a family matter. I'd rather keep things low-key.",
+      "createdAt": "2026-10-05T16:12:48.482Z"
+    },
+    {
+      "id": "7538dbc4-4b59-44ee-a0ac-43289645a29c",
+      "role": "assistant",
+      "content": "Of course—no need to explain the family matter. What would help keep your stay low-key: a quiet room, minimal interaction, or something else?",
+      "createdAt": "2026-10-05T16:12:53.083Z"
+    },
+    {
+      "id": "8874a708-54be-4010-9040-049371c62503",
+      "role": "user",
+      "content": "Just a quiet room, really.",
+      "createdAt": "2026-10-05T16:13:42.320Z"
+    },
+    {
+      "id": "24c04d12-b45d-4543-a689-3466724e9678",
+      "role": "assistant",
+      "content": "Understood—a quiet room is your main priority. Reception will need to confirm what’s available. Is there anything you’d like to add or correct before we leave it there?",
+      "createdAt": "2026-10-05T16:13:47.770Z"
+    },
+    {
+      "id": "2f832100-0813-4c41-b599-15b01b0c8089",
+      "role": "user",
+      "content": "Actually, please stop. I don't want my information used to personalise this stay.",
+      "createdAt": "2026-10-05T16:14:44.509Z"
+    },
+    {
+      "id": "c1c01f10-e7a6-43e7-b3e3-701fcb4717ca",
+      "role": "assistant",
+      "content": "Understood—we’ll stop here. The team will receive a minimal record clearly stating that you do not want personalization for this stay.",
+      "createdAt": "2026-10-05T16:14:48.580Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "e297c443-be27-4fb1-bada-85794ac4472f",
+      "kind": "minimal",
+      "text": "PERSONALIZATION DECLINED — THE GUEST HAS ASKED NOT TO HAVE THEIR INFORMATION USED FOR PERSONALIZATION.\nCollected information below is a minimal record only. Do not use it to prepare personalized attentions, experiences or outreach. Any change requires a new explicit instruction from the guest through a human contact.\n\nA) BASIC INFO\nGuest: Morgan — Short replies 09\nHotel: Hotel Amour Nice\nDates: 2026-11-10 to 2026-11-13\nParty: 1\n\nB) COORDINATION\nReception: respect the guest’s request. No personalization.\n\nC) COLLECTED INFORMATION — DO NOT ACT ON IT\n- Guest statement (verbatim): I'm visiting for a family matter. I'd rather keep things low-key.\n- Guest statement (verbatim): Just a quiet room, really.\n- Guest statement (verbatim): Actually, please stop. I don't want my information used to personalise this stay.\n\nD) RECEPTION\nThe guest stopped the conversation and does not want the information used for personalization. Offer a human channel if requested.\n\nE) ROOM PREPARATION\nNo personalized preparation instructions.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nNo experience suggestions or research requests. Respect the guest’s expressed wish.",
+      "model": "deterministic-minimal-record",
+      "source": "minimal-record",
+      "stayId": "dfae1bf1-7465-4663-9e9f-db2e392d7ab8",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:14:48.592Z",
+      "updatedAt": "2026-10-05T16:14:48.592Z",
+      "dnaVersion": 2,
+      "generatedText": "PERSONALIZATION DECLINED — THE GUEST HAS ASKED NOT TO HAVE THEIR INFORMATION USED FOR PERSONALIZATION.\nCollected information below is a minimal record only. Do not use it to prepare personalized attentions, experiences or outreach. Any change requires a new explicit instruction from the guest through a human contact.\n\nA) BASIC INFO\nGuest: Morgan — Short replies 09\nHotel: Hotel Amour Nice\nDates: 2026-11-10 to 2026-11-13\nParty: 1\n\nB) COORDINATION\nReception: respect the guest’s request. No personalization.\n\nC) COLLECTED INFORMATION — DO NOT ACT ON IT\n- Guest statement (verbatim): I'm visiting for a family matter. I'd rather keep things low-key.\n- Guest statement (verbatim): Just a quiet room, really.\n- Guest statement (verbatim): Actually, please stop. I don't want my information used to personalise this stay.\n\nD) RECEPTION\nThe guest stopped the conversation and does not want the information used for personalization. Offer a human channel if requested.\n\nE) ROOM PREPARATION\nNo personalized preparation instructions.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nNo experience suggestions or research requests. Respect the guest’s expressed wish.",
+      "promptVersion": "withdrawal-v1"
+    }
+  ],
+  "invitations": []
+}

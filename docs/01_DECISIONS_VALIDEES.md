@@ -8,6 +8,22 @@ Reconstruire une application Canopia propre, réutilisable et testable pour disp
 
 L'événement est préparé sous le nom d'équipe Once Upon a Stay. Le nom produit reste Canopia.
 
+## Valeur centrale — clarification explicite de Julien après les essais
+
+Canopia apprend à connaître le voyageur dans le contexte de ce séjour. Cette connaissance doit permettre à l'hôtel de décider ce qu'il peut préparer, ajuster, composer ou proposer pour ces personnes, y compris sur des choses qu'elles n'auraient pas pensé à demander. Cela couvre les besoins pratiques et les contraintes autant que les envies, le plaisir ou les surprises.
+
+La découverte cherche une matière riche : intentions du séjour, personnes présentes et leurs liens, première visite ou retour et souvenirs associés, occasion éventuelle, centres d'intérêt, petits rituels, habitudes alimentaires et de boisson, sommeil et confort, goûts sensoriels, façon d'interagir et d'être accompagné. Ces axes donnent de la curiosité à l'agent ; ils ne constituent ni un ordre fixe de questions ni une obligation de tout renseigner.
+
+Le client répond naturellement en une ou deux phrases. L'agent rebondit, précise ce qui compte, relie des détails et ouvre d'autres pistes utiles tant que la personne participe. Il ne doit pas conclure après avoir qualifié une seule demande de service. Il cherche autant d'informations utiles que l'échange volontaire le permet, sans relancer un refus ni transformer une absence de préférence sur un sujet en rejet de toute la découverte.
+
+Les tests Sukhothai fournis par Julien constituent la base de conception de cette découverte, avec leurs notes de revue. Ils montrent notamment le rituel du fils sous la couverture et son intérêt pour Spider-Man (cas 02), les goûts musicaux, le café et les surnoms du couple en lune de miel (cas 04), les deux couvertures séparées et le moment de repos sur le canapé (cas 07). Ce sont des exemples de compréhension personnelle qui peuvent inspirer une préparation ou une attention. Ils ne deviennent pas un catalogue d'attentions à reproduire. Les répétitions, promesses, erreurs de faits ou capacités historiques non confirmées de ces essais restent à corriger.
+
+L'ADN travaille en coulisses : il aide l'agent à découvrir des détails sur lesquels l'hôtel peut agir et à composer ensuite des possibilités à partir de ses capacités. Le dialogue n'est pas centré sur l'explication des politiques, menus ou tarifs. Le voyageur n'a pas à répondre à « comment personnaliser votre séjour ? » ni à imaginer lui-même toutes les attentions. La création d'idées appartient au travail de composition ; l'hôtel en garde la décision.
+
+Julien confirme aussi l'objectif commercial : cette connaissance doit aider à repérer un maximum d'opportunités d'upsell pertinentes pour les intentions et préférences recueillies. Le brief peut ainsi distinguer préparation/adaptation, attention éventuelle et prestation ou composition payante que l'hôtel pourrait proposer. Aucun prix, disponibilité, gratuité, offre ferme ou achat n'est présumé. Le périmètre actuel reste une proposition interne relue par l'opérateur et décidée par l'hôtel ; aucune vente ou transmission automatique au voyageur n'est autorisée.
+
+Le critère de qualité principal est la connaissance obtenue et ce qu'elle permet de préparer ou de composer pour ce client. La capacité à répondre correctement sur un horaire de piscine, à respecter une règle ou à conclure vite vérifie des comportements secondaires ; elle ne démontre pas la valeur de Canopia.
+
 ## Exploitation et réservation
 
 - Une console unique pour l'opérateur, pour cette version.
@@ -38,7 +54,8 @@ Le WindsoR a été remplacé par l'Hôtel Amour Nice. La sélection comporte six
 - Comprendre pourquoi le voyageur vient et ce qui compte pour lui.
 - Approfondir les pistes pertinentes en fonction de ses réponses ET des capacités de l'hôtel ; éviter de creuser des options qu'on sait impossibles.
 - Recueillir les préférences pratiques lorsqu'elles sont utiles : confort, alimentation, rythme, interaction, etc. Ne pas en faire un questionnaire imposant tous les thèmes.
-- Ne pas redemander une information déjà donnée. Ne pas insister à partir d'une réponse minimale.
+- Ne pas redemander une information déjà donnée. Une réponse courte n'est pas un désengagement : approfondir un indice utile ou changer naturellement de sujet. Respecter une absence d'intérêt pour un sujet et un souhait explicite de terminer.
+- Précision de Julien lors des essais du 5 octobre : les réponses client tiennent normalement en une ou deux phrases. Leur brièveté ne signifie pas désengagement ou souhait de finir. L'agent doit être chaleureux, naturel et inclusif, rebondir intelligemment sur un indice utile, adapter son ton et savoir arrêter au bon moment. L'échange Sukhothai illustre l'intention de collecte progressive, avec les réserves historiques conservées.
 - Permettre un dernier ajout ou une correction avant la fin normale.
 - Viser un échange de 3 à 5 minutes, qui peut se prolonger si le voyageur souhaite en dire davantage. Ce n'est ni un chronomètre ni une limite automatique de messages.
 - Réviser le déroulé historique pour retirer répétitions et questions hors contexte ; le déroulé de principe ci-dessus est accepté, le prompt détaillé reste à préparer et à relire.

@@ -21,6 +21,9 @@
 
 ## Principes produit
 
+- Le cœur de Canopia est la découverte du voyageur : comprendre intentions, goûts, habitudes, confort, liens, occasions et rapport au lieu pour donner à l'hôtel de la matière à préparer, adapter et rendre le séjour singulier. Lire le cadrage « Valeur centrale » dans les décisions validées et les conversations Sukhothai avec leurs notes avant de modifier ou d'évaluer les prompts.
+- Rechercher une connaissance riche au fil d'un échange naturel, chaleureux et inclusif. Une réponse de une ou deux phrases peut contenir une piste à approfondir ; sa longueur ne prouve pas un souhait de finir ou de recevoir un accueil distant. Le voyageur n'a pas à concevoir lui-même ses attentions ou adaptations.
+- L'ADN guide la découverte en coulisses et la composition dans le brief. Les opportunités de préparation, de personnalisation, de surprise et d'upsell pertinent sont soumises à l'hôtel, qui décide. Le dialogue de découverte n'a pas pour objectif de présenter les règles, menus, tarifs ou offres de l'hôtel. La vérification opérationnelle reste nécessaire mais ne constitue pas le principal critère de réussite du produit.
 - Une console opérateur unique gère six hôtels. Chaque séjour et chaque conversation sont associés explicitement au bon hôtel.
 - L'ADN intervient dans la conversation ET dans la génération du brief.
 - L'ADN décrit une identité, des ressources, des savoir-faire, des façons de travailler, des possibilités d'adaptation et des limites. Ne pas le réduire à un catalogue ou à une liste de cases.

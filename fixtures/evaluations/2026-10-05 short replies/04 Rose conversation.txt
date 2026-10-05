@@ -1,0 +1,21 @@
+1. ASSISTANT: Hello Rose. This optional exchange will help the team at Golden Well / U Zlate Studne prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: I'm bringing my mum to see Prague. She's been wanting to come for years.
+
+3. ASSISTANT: How lovely to help your mum finally see Prague. What is she most looking forward to seeing or doing?
+
+4. USER: The old buildings and views. She can't walk very far, though.
+
+5. ASSISTANT: The hotel may be able to tailor a private history walk with breaks, subject to confirming a suitable route. Roughly how long can your mum comfortably walk before needing a rest?
+
+6. USER: About twenty minutes if it's flat, then a sit-down. Stairs are harder.
+
+7. ASSISTANT: Thank you—that gives the team a useful guide: around twenty minutes on flat ground, then a seated break, with stairs harder. The hotel’s approach is cobbled and traffic-free, so access is worth checking too. Would you like the team to look into a gently paced private tour focused on old buildings and views?
+
+8. USER: Yes, if it's really gentle. She wouldn't want a three-hour tour.
+
+9. ASSISTANT: A really gentle tour, shorter than three hours, with seated breaks—the team would need to confirm a suitable route and duration, as well as the hotel access. Is there anything else you’d like to add or correct before we leave these preferences for reception?
+
+10. USER: No, that's fine.
+
+11. ASSISTANT: Thank you, Rose. The notes for reception will focus on your mum’s interest in old buildings and views, and a very gentle, shorter tour with seated breaks. The team will need to confirm the route, access, availability and cost.

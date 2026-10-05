@@ -1,0 +1,103 @@
+{
+  "stay": {
+    "id": "10ae2964-8371-4343-878b-24978236d077",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "Coming alone to clear their head and draw.",
+        "sourceQuote": "I'm coming on my own to clear my head and draw a bit.",
+        "sourceMessageId": "f3f25bc1-f4ac-4237-8382-0e308416bb4f"
+      },
+      {
+        "label": "Drawing interests",
+        "value": "Prefers drawing around the Marais, especially little courtyards and ordinary street scenes.",
+        "sourceQuote": "Around the Marais, ideally. I like drawing little courtyards and ordinary street scenes.",
+        "sourceMessageId": "6bc5de52-051e-45b1-b9e3-b3ba7999401b"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "concierge",
+    "hotelId": "pavillon_reine_paris",
+    "revoked": false,
+    "revision": 10,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.109Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.109Z",
+    "guestName": "Jules — Short replies 05",
+    "hotelName": "Le Pavillon de la Reine",
+    "partySize": 1,
+    "updatedAt": "2026-10-05T16:15:46.920Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "0faa4ae5-9f51-47c0-9459-563b0446a1bb",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "b06a9b7d-6f2c-4dde-9933-78a49ea4381d",
+      "role": "assistant",
+      "content": "Hello Jules. This optional exchange will help the team at Le Pavillon de la Reine prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.109Z"
+    },
+    {
+      "id": "f3f25bc1-f4ac-4237-8382-0e308416bb4f",
+      "role": "user",
+      "content": "I'm coming on my own to clear my head and draw a bit.",
+      "createdAt": "2026-10-05T16:12:42.433Z"
+    },
+    {
+      "id": "0377a4fd-dba9-4e0a-96ca-bc6d57c3292d",
+      "role": "assistant",
+      "content": "That sounds like a gentle way to spend a few days. For drawing, would you prefer a quiet spot at the hotel or suggestions for places around the Marais?",
+      "createdAt": "2026-10-05T16:12:46.627Z"
+    },
+    {
+      "id": "6bc5de52-051e-45b1-b9e3-b3ba7999401b",
+      "role": "user",
+      "content": "Around the Marais, ideally. I like drawing little courtyards and ordinary street scenes.",
+      "createdAt": "2026-10-05T16:13:35.152Z"
+    },
+    {
+      "id": "a3ccecc1-cd2c-4c25-9da3-0ee880cfaca2",
+      "role": "assistant",
+      "content": "The concierge could suggest a few Marais spots for courtyard sketches and everyday street scenes, with access checked where needed. Is there anything else you’d like the team to know, or anything to correct?",
+      "createdAt": "2026-10-05T16:13:40.763Z"
+    },
+    {
+      "id": "1b575b31-9408-4437-a7f3-2d04bbb0c0b7",
+      "role": "user",
+      "content": "No, that sounds fine.",
+      "createdAt": "2026-10-05T16:14:37.699Z"
+    },
+    {
+      "id": "378c0229-73bf-4d07-99fd-30b23de97282",
+      "role": "assistant",
+      "content": "Thank you, Jules. Your note for the concierge will focus on a solo break to clear your head and draw, with Marais suggestions for little courtyards and everyday street scenes.",
+      "createdAt": "2026-10-05T16:14:42.711Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "0faa4ae5-9f51-47c0-9459-563b0446a1bb",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Jules — Short replies 05; addressed as Jules in the conversation.\nParty: One guest, travelling alone.\nDates: 10–13 November 2026.\nExplicitly stated language: Unknown; exchange conducted in English.\nPurpose: A solo break to clear their head and draw.\nInteraction style: Brief replies; accepted focused concierge suggestions and indicated nothing further to add. Keep contact concise.\nSpecial occasion: Unknown.\n\nB) COORDINATION\nHandoff owner: Concierge. Confirm the named concierge contact and escalation route.\nPrimary task: Prepare a small selection of Marais sketching locations suited to little courtyards and ordinary street scenes.\nThe supplied hotel information is publicly researched, not operationally confirmed. Concierge should verify access and practical conditions before presenting recommendations. Reception owns reservation and room checks; route any room preparation through reception to housekeeping.\n\nC) GUEST PROFILE\nWhat matters: Independent time to draw around the Marais, particularly small courtyards and everyday street life.\nComfort and dietary constraints: Unknown; no allergies, dietary requirements or specific comfort needs disclosed.\nPersonal note and placement: None requested.\nBest outcome: A few useful, access-checked suggestions that leave Jules free to explore without a structured itinerary.\nWhat already works: Jules accepted the proposed concierge support and did not request further personalisation.\nWatch outs: Do not interpret “clear my head” as a health condition or a request for wellness services. Do not assume a preference for guided outings, art supplies, dining arrangements or surprises.\nExperience suggestions: Focus on the stated drawing interest and the hotel’s documented tailored-outing capability; see F.\n\nD) RECEPTION\nKeep the welcome brief and practical. Let Jules know the concierge can provide the requested Marais sketching suggestions, without requiring an extended consultation.\nConfirm booked room category and ordinary arrival arrangements; room category and arrival time are Unknown. No early-room or upgrade expectation has been stated.\nNo allergy information was disclosed. If subsequently provided, relay it to the responsible food-service teams for confirmation under their actual protocols.\n\nE) ROOM PREPARATION\nNo bespoke room setup, bedding preference, in-room routine or personal note was requested.\nReception to confirm the assigned room and pass normal preparation requirements to housekeeping. Do not add drawing materials, refreshments or decorative touches without a guest request and operational approval.\n\nF) CONCIERGE\nContext: Jules wants to sketch around the Marais rather than primarily at the hotel. The hotel’s published Clefs d’Or concierge capability supports tailored local suggestions; the daily owner remains to be confirmed.\n\nExternal research request:\nIdentify a small selection of little courtyards and ordinary street scenes in the Marais that offer suitable viewpoints for independent sketching. Prioritise accessible public locations, and distinguish them clearly from private or restricted courtyards.\n\nFor each suggestion, confirm:\n- Access permissions and opening conditions during 10–13 November 2026.\n- Any restrictions on lingering or sketching, entry charges and temporary closures.\n- Practical walking directions from the hotel and whether drawing would require standing or has a permitted seating option.\n- Exposure to November weather and available daylight; describe conditions without promising quietness or shelter.\n\nPresent the results concisely, with an optional short walking sequence rather than a fixed schedule. This is a proposed use of the concierge’s existing coordination capability, not an established hotel package. No guide, booking or purchase has been requested.\n\nOptional hotel fallback:\nOnly if weather makes outdoor drawing impractical and Jules wants an alternative, concierge may check whether a lounge or garden area can accommodate unobtrusive sketching. These are documented hotel spaces, but suitable seating, current access, weather conditions and any restrictions need confirmation with the responsible hotel team — confirm owner. Do not replace the requested Marais focus with an unsolicited hotel activity.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "10ae2964-8371-4343-878b-24978236d077",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:15:46.917Z",
+      "updatedAt": "2026-10-05T16:15:46.917Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Jules — Short replies 05; addressed as Jules in the conversation.\nParty: One guest, travelling alone.\nDates: 10–13 November 2026.\nExplicitly stated language: Unknown; exchange conducted in English.\nPurpose: A solo break to clear their head and draw.\nInteraction style: Brief replies; accepted focused concierge suggestions and indicated nothing further to add. Keep contact concise.\nSpecial occasion: Unknown.\n\nB) COORDINATION\nHandoff owner: Concierge. Confirm the named concierge contact and escalation route.\nPrimary task: Prepare a small selection of Marais sketching locations suited to little courtyards and ordinary street scenes.\nThe supplied hotel information is publicly researched, not operationally confirmed. Concierge should verify access and practical conditions before presenting recommendations. Reception owns reservation and room checks; route any room preparation through reception to housekeeping.\n\nC) GUEST PROFILE\nWhat matters: Independent time to draw around the Marais, particularly small courtyards and everyday street life.\nComfort and dietary constraints: Unknown; no allergies, dietary requirements or specific comfort needs disclosed.\nPersonal note and placement: None requested.\nBest outcome: A few useful, access-checked suggestions that leave Jules free to explore without a structured itinerary.\nWhat already works: Jules accepted the proposed concierge support and did not request further personalisation.\nWatch outs: Do not interpret “clear my head” as a health condition or a request for wellness services. Do not assume a preference for guided outings, art supplies, dining arrangements or surprises.\nExperience suggestions: Focus on the stated drawing interest and the hotel’s documented tailored-outing capability; see F.\n\nD) RECEPTION\nKeep the welcome brief and practical. Let Jules know the concierge can provide the requested Marais sketching suggestions, without requiring an extended consultation.\nConfirm booked room category and ordinary arrival arrangements; room category and arrival time are Unknown. No early-room or upgrade expectation has been stated.\nNo allergy information was disclosed. If subsequently provided, relay it to the responsible food-service teams for confirmation under their actual protocols.\n\nE) ROOM PREPARATION\nNo bespoke room setup, bedding preference, in-room routine or personal note was requested.\nReception to confirm the assigned room and pass normal preparation requirements to housekeeping. Do not add drawing materials, refreshments or decorative touches without a guest request and operational approval.\n\nF) CONCIERGE\nContext: Jules wants to sketch around the Marais rather than primarily at the hotel. The hotel’s published Clefs d’Or concierge capability supports tailored local suggestions; the daily owner remains to be confirmed.\n\nExternal research request:\nIdentify a small selection of little courtyards and ordinary street scenes in the Marais that offer suitable viewpoints for independent sketching. Prioritise accessible public locations, and distinguish them clearly from private or restricted courtyards.\n\nFor each suggestion, confirm:\n- Access permissions and opening conditions during 10–13 November 2026.\n- Any restrictions on lingering or sketching, entry charges and temporary closures.\n- Practical walking directions from the hotel and whether drawing would require standing or has a permitted seating option.\n- Exposure to November weather and available daylight; describe conditions without promising quietness or shelter.\n\nPresent the results concisely, with an optional short walking sequence rather than a fixed schedule. This is a proposed use of the concierge’s existing coordination capability, not an established hotel package. No guide, booking or purchase has been requested.\n\nOptional hotel fallback:\nOnly if weather makes outdoor drawing impractical and Jules wants an alternative, concierge may check whether a lounge or garden area can accommodate unobtrusive sketching. These are documented hotel spaces, but suitable seating, current access, weather conditions and any restrictions need confirmation with the responsible hotel team — confirm owner. Do not replace the requested Marais focus with an unsolicited hotel activity.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

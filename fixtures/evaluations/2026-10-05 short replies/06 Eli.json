@@ -1,0 +1,151 @@
+{
+  "stay": {
+    "id": "e69328b4-3d8f-4ef6-8d82-9ddfac7613ad",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Occasion",
+        "value": "Honeymoon.",
+        "sourceQuote": "It's our honeymoon.",
+        "sourceMessageId": "c298a557-d4a5-4984-9020-3f87d1d0f7ba"
+      },
+      {
+        "label": "Arrival energy",
+        "value": "Expect to be exhausted on arrival.",
+        "sourceQuote": "Honestly, we'll probably be exhausted when we get there.",
+        "sourceMessageId": "c298a557-d4a5-4984-9020-3f87d1d0f7ba"
+      },
+      {
+        "label": "First evening",
+        "value": "Would like a quiet first evening with a simple dinner in the suite.",
+        "sourceQuote": "Yes, that sounds right.",
+        "sourceMessageId": "d36306a2-5bb3-4b09-a390-6ed6377bc2aa"
+      },
+      {
+        "label": "Expected arrival",
+        "value": "Probably arriving around 11 pm.",
+        "sourceQuote": "We probably won't arrive until around 11 pm.",
+        "sourceMessageId": "d36306a2-5bb3-4b09-a390-6ed6377bc2aa"
+      },
+      {
+        "label": "Dinner preference",
+        "value": "Light and vegetarian.",
+        "sourceQuote": "Something light and vegetarian.",
+        "sourceMessageId": "52c4d184-8794-4050-b785-d278f646472a"
+      },
+      {
+        "label": "Dairy clarification",
+        "value": "Yoghurt is fine; does not want a heavy cheesy meal.",
+        "sourceQuote": "Actually, yoghurt is fine; I just don't want a heavy cheesy meal.",
+        "sourceMessageId": "2bc24f83-6634-4b43-9d3e-0b1081f8a0e0"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "concierge",
+    "hotelId": "seven_secrets_lombok",
+    "revoked": false,
+    "revision": 14,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.113Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.113Z",
+    "guestName": "Eli — Short replies 06",
+    "hotelName": "Seven Secrets by Hanging Gardens",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:17:30.575Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "d4eb5d46-4d79-43cc-8d53-0af128f4e904",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "360f56cb-009e-42e2-b754-b868d14a957f",
+      "role": "assistant",
+      "content": "Hello Eli. This optional exchange will help the team at Seven Secrets by Hanging Gardens prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.113Z"
+    },
+    {
+      "id": "c298a557-d4a5-4984-9020-3f87d1d0f7ba",
+      "role": "user",
+      "content": "It's our honeymoon. Honestly, we'll probably be exhausted when we get there.",
+      "createdAt": "2026-10-05T16:12:42.438Z"
+    },
+    {
+      "id": "88f134f6-d5ef-43a8-a1f1-3946f943c9d4",
+      "role": "assistant",
+      "content": "Congratulations on your honeymoon. Would a quiet first evening with a simple dinner in your suite suit you, subject to the team confirming dining options?",
+      "createdAt": "2026-10-05T16:12:48.462Z"
+    },
+    {
+      "id": "d36306a2-5bb3-4b09-a390-6ed6377bc2aa",
+      "role": "user",
+      "content": "Yes, that sounds right. We probably won't arrive until around 11 pm.",
+      "createdAt": "2026-10-05T16:13:35.157Z"
+    },
+    {
+      "id": "2a8585b1-6624-4a15-949a-4c9661cc9078",
+      "role": "assistant",
+      "content": "A quiet first evening sounds sensible. With arrival around 11 pm, the team will need to confirm what late dining is possible. Is there anything you’d prefer to eat—or avoid—for that simple dinner?",
+      "createdAt": "2026-10-05T16:13:42.123Z"
+    },
+    {
+      "id": "52c4d184-8794-4050-b785-d278f646472a",
+      "role": "user",
+      "content": "Something light and vegetarian. I'd rather avoid dairy too.",
+      "createdAt": "2026-10-05T16:14:37.703Z"
+    },
+    {
+      "id": "5517fbdb-2028-4e7e-a7be-da34acb52051",
+      "role": "assistant",
+      "content": "Light, vegetarian and preferably dairy-free—understood. The team will need to confirm a suitable option for your late arrival. Is there anything else you’d like them to know, or anything to correct?",
+      "createdAt": "2026-10-05T16:14:44.481Z"
+    },
+    {
+      "id": "2bc24f83-6634-4b43-9d3e-0b1081f8a0e0",
+      "role": "user",
+      "content": "Actually, yoghurt is fine; I just don't want a heavy cheesy meal.",
+      "createdAt": "2026-10-05T16:15:26.448Z"
+    },
+    {
+      "id": "0476115b-b9fc-4310-bb06-88ca7edd2116",
+      "role": "assistant",
+      "content": "Thanks for clarifying: yoghurt is fine; you’d prefer a light vegetarian dinner without a heavy, cheesy dish. The team will need to confirm what’s possible around 11 pm. Anything else to add or correct?",
+      "createdAt": "2026-10-05T16:15:33.494Z"
+    },
+    {
+      "id": "d747e0a3-a198-4252-ae39-0af05ad5dbf7",
+      "role": "user",
+      "content": "No, that's enough for now.",
+      "createdAt": "2026-10-05T16:16:18.188Z"
+    },
+    {
+      "id": "9f87a632-be22-4080-90f1-3f5d86103988",
+      "role": "assistant",
+      "content": "Thank you—no more questions. Your preferences are noted, with late-night dining still subject to the hotel team’s confirmation.",
+      "createdAt": "2026-10-05T16:16:27.404Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "d4eb5d46-4d79-43cc-8d53-0af128f4e904",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Eli — Short replies 06.\nParty: 2; companion name and ages Unknown.\nLanguage: Unknown; exchange conducted in English.\nStay: 10–13 November 2026, three nights.\nPurpose / occasion: Honeymoon.\nExpected arrival: Around 11 pm on arrival day.\nInteraction style: Brief replies; guest ended the exchange with “that's enough for now.” Keep contact concise and limited to essential operational matters.\n\nB) COORDINATION\nAssigned handoff: Concierge. Confirm the current concierge role and named operational owner; the hotel’s concierge scope is not operationally verified.\nPrimary coordination owner: Assigned concierge contact, subject to role confirmation.\nPriority: Coordinate late arrival and a possible light in-suite dinner with reception and F&B. F&B owns menu, preparation and service-hours confirmation; housekeeping owns room preparation.\nThe supplied hotel capabilities are publicly described but await operational confirmation. Do not treat the honeymoon purpose as package entitlement.\n\nC) GUEST PROFILE\nWhat matters: The couple expects to be exhausted on arrival. Eli accepted a quiet first evening with a simple dinner in the suite, subject to confirmation.\n\nComfort and dietary preferences: Light vegetarian dinner; avoid a heavy, cheesy meal. Yoghurt is acceptable. The later clarification supersedes a blanket dairy-free interpretation. Allergy status: Unknown; no allergy disclosed. Whether the same dietary preference applies to the companion is Unknown.\n\nRequested personal note and placement: None requested.\n\nBest outcome: A low-effort late arrival, a restful room and a suitable light meal if late service can be confirmed.\n\nWhat already works: The guest has accepted the proposed quiet in-suite approach; no broader itinerary is needed.\n\nWatch outs: Arrival around 11 pm is later than the dining page’s published hours. Do not promise dinner, impose honeymoon decorations or add a surprise programme. Avoid further preference questionnaires.\n\nExperience suggestions: Focus only on the accepted arrival-evening dining adaptation in F.\n\nD) RECEPTION\nPrepare for the stated arrival around 11 pm; confirm the actual late check-in process internally.\nKeep the welcome brief and practical, avoiding a lengthy introduction or activity discussion when the couple is tired.\nEnsure reception knows the confirmed late-dining outcome and can explain it concisely on arrival. No early-room or upgrade request was made.\nRelay the vegetarian preference and precise dairy clarification to F&B. Do not record this as a dairy allergy.\nThe handoff is designated concierge, but the role’s current operation must be verified before introducing a concierge service to the guest.\n\nE) ROOM PREPARATION\nOwner: Housekeeping for room readiness; F&B for any in-room meal service.\nBooked room category, bedding configuration and specific room entitlement: Unknown; verify against the reservation.\nPrepare the booked room for straightforward rest after late arrival using normal hotel procedures. Any additional setup remains optional and subject to staff approval.\nNo special pillow, aroma, jacuzzi preparation, decorations or personal note was requested. Do not add these merely because it is a honeymoon.\nCoordinate any confirmed meal delivery separately with F&B so room preparation does not imply dining availability.\n\nF) CONCIERGE\nPriority proposal: Quiet late-arrival dinner in the suite.\nGuest cue: Expected exhaustion, arrival around 11 pm, and explicit acceptance of a simple in-suite dinner.\nPublished resources: Flexible in-room dining and Indonesian/international cooking at L'Angelo Bianco. Room pages advertise 24-hour room service, while the dining page lists 07:00–21:00; the discrepancy is unresolved.\nProposed adjustment: Ask F&B whether a light vegetarian meal without a heavy cheese-based dish can be served around the expected arrival. Yoghurt is acceptable, not required. This is a proposed adaptation, not an existing package or included honeymoon benefit.\nOwner and checks: Assigned concierge coordinates; F&B confirms actual late-service hours, suitable dishes and ingredients, current stock, room-delivery arrangements and charges. Any advance-preparation alternative requires F&B confirmation of safe holding and service procedures. Do not assume historical vegetarian breakfast reporting establishes a current late-night option.\nIf late dining is unavailable, establish the operational limitation and any feasible alternative internally before giving the guest a concise update.\nNo external experience research or additional activity proposals are warranted from the stated interests. No bookings, holds or procurement are requested.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "e69328b4-3d8f-4ef6-8d82-9ddfac7613ad",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:17:30.573Z",
+      "updatedAt": "2026-10-05T16:17:30.573Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Eli — Short replies 06.\nParty: 2; companion name and ages Unknown.\nLanguage: Unknown; exchange conducted in English.\nStay: 10–13 November 2026, three nights.\nPurpose / occasion: Honeymoon.\nExpected arrival: Around 11 pm on arrival day.\nInteraction style: Brief replies; guest ended the exchange with “that's enough for now.” Keep contact concise and limited to essential operational matters.\n\nB) COORDINATION\nAssigned handoff: Concierge. Confirm the current concierge role and named operational owner; the hotel’s concierge scope is not operationally verified.\nPrimary coordination owner: Assigned concierge contact, subject to role confirmation.\nPriority: Coordinate late arrival and a possible light in-suite dinner with reception and F&B. F&B owns menu, preparation and service-hours confirmation; housekeeping owns room preparation.\nThe supplied hotel capabilities are publicly described but await operational confirmation. Do not treat the honeymoon purpose as package entitlement.\n\nC) GUEST PROFILE\nWhat matters: The couple expects to be exhausted on arrival. Eli accepted a quiet first evening with a simple dinner in the suite, subject to confirmation.\n\nComfort and dietary preferences: Light vegetarian dinner; avoid a heavy, cheesy meal. Yoghurt is acceptable. The later clarification supersedes a blanket dairy-free interpretation. Allergy status: Unknown; no allergy disclosed. Whether the same dietary preference applies to the companion is Unknown.\n\nRequested personal note and placement: None requested.\n\nBest outcome: A low-effort late arrival, a restful room and a suitable light meal if late service can be confirmed.\n\nWhat already works: The guest has accepted the proposed quiet in-suite approach; no broader itinerary is needed.\n\nWatch outs: Arrival around 11 pm is later than the dining page’s published hours. Do not promise dinner, impose honeymoon decorations or add a surprise programme. Avoid further preference questionnaires.\n\nExperience suggestions: Focus only on the accepted arrival-evening dining adaptation in F.\n\nD) RECEPTION\nPrepare for the stated arrival around 11 pm; confirm the actual late check-in process internally.\nKeep the welcome brief and practical, avoiding a lengthy introduction or activity discussion when the couple is tired.\nEnsure reception knows the confirmed late-dining outcome and can explain it concisely on arrival. No early-room or upgrade request was made.\nRelay the vegetarian preference and precise dairy clarification to F&B. Do not record this as a dairy allergy.\nThe handoff is designated concierge, but the role’s current operation must be verified before introducing a concierge service to the guest.\n\nE) ROOM PREPARATION\nOwner: Housekeeping for room readiness; F&B for any in-room meal service.\nBooked room category, bedding configuration and specific room entitlement: Unknown; verify against the reservation.\nPrepare the booked room for straightforward rest after late arrival using normal hotel procedures. Any additional setup remains optional and subject to staff approval.\nNo special pillow, aroma, jacuzzi preparation, decorations or personal note was requested. Do not add these merely because it is a honeymoon.\nCoordinate any confirmed meal delivery separately with F&B so room preparation does not imply dining availability.\n\nF) CONCIERGE\nPriority proposal: Quiet late-arrival dinner in the suite.\nGuest cue: Expected exhaustion, arrival around 11 pm, and explicit acceptance of a simple in-suite dinner.\nPublished resources: Flexible in-room dining and Indonesian/international cooking at L'Angelo Bianco. Room pages advertise 24-hour room service, while the dining page lists 07:00–21:00; the discrepancy is unresolved.\nProposed adjustment: Ask F&B whether a light vegetarian meal without a heavy cheese-based dish can be served around the expected arrival. Yoghurt is acceptable, not required. This is a proposed adaptation, not an existing package or included honeymoon benefit.\nOwner and checks: Assigned concierge coordinates; F&B confirms actual late-service hours, suitable dishes and ingredients, current stock, room-delivery arrangements and charges. Any advance-preparation alternative requires F&B confirmation of safe holding and service procedures. Do not assume historical vegetarian breakfast reporting establishes a current late-night option.\nIf late dining is unavailable, establish the operational limitation and any feasible alternative internally before giving the guest a concise update.\nNo external experience research or additional activity proposals are warranted from the stated interests. No bookings, holds or procurement are requested.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

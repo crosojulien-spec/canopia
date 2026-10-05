@@ -1,0 +1,163 @@
+{
+  "stay": {
+    "id": "bb24a55c-0266-462c-bc15-c07f739ed7a0",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose",
+        "value": "Family holiday focused on time together.",
+        "sourceQuote": "We haven't had a family holiday in ages. Mostly we just want some time together.",
+        "sourceMessageId": "a97c689d-ac0f-47b8-af99-e486f388b392"
+      },
+      {
+        "label": "Exploring pace",
+        "value": "Some exploring without rushing; son gets bored with temple-only outings.",
+        "sourceQuote": "A bit of exploring, but not rushing around. Our son gets bored if it's all temples.",
+        "sourceMessageId": "c6ade6b8-844f-4916-b586-976229db9993"
+      },
+      {
+        "label": "Son’s age and interests",
+        "value": "Son is five and loves animals and Spider-Man.",
+        "sourceQuote": "He's five and loves animals. He's also very into Spider-Man.",
+        "sourceMessageId": "5070c437-8500-4567-bd9e-58fbd7e281b5"
+      },
+      {
+        "label": "Music and art",
+        "value": "Traveller loves live music; wife likes art. They do not want all-day gallery outings with their son.",
+        "sourceQuote": "I love live music, and my wife likes art. We don't want to drag him round galleries all day, though.",
+        "sourceMessageId": "0f6d1a1f-f5e8-4201-80b3-e7894c6e9397"
+      },
+      {
+        "label": "Severe peanut allergy",
+        "value": "Son has a severe peanut allergy; even traces are a problem.",
+        "sourceQuote": "One important thing: our son has a severe peanut allergy. Even traces are a problem.",
+        "sourceMessageId": "7eeaec30-e679-4ddd-a74c-c4a3e5fdffe0"
+      },
+      {
+        "label": "No food surprises",
+        "value": "Do not leave any food surprises for their son.",
+        "sourceQuote": "Please don't leave any food surprises for him.",
+        "sourceMessageId": "6bd1aacf-f5ca-4fe1-bac4-1016d4974849"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 16,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.083Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.084Z",
+    "guestName": "Nina — Short replies 01",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 3,
+    "updatedAt": "2026-10-05T16:18:06.559Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "b99c9694-e1fa-4b7a-8070-ac3492bfc802",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "15c37301-49d8-4bf7-80e3-7da0a408a8b9",
+      "role": "assistant",
+      "content": "Hello Nina. This optional exchange will help the team at The Sukhothai Bangkok prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.083Z"
+    },
+    {
+      "id": "a97c689d-ac0f-47b8-af99-e486f388b392",
+      "role": "user",
+      "content": "We haven't had a family holiday in ages. Mostly we just want some time together.",
+      "createdAt": "2026-10-05T16:12:36.937Z"
+    },
+    {
+      "id": "0dafd728-9f2b-4958-ad04-ddbe49e5cd12",
+      "role": "assistant",
+      "content": "Some unhurried time together sounds lovely. Would you most enjoy relaxing by the pool, sharing good meals, or exploring Bangkok together?",
+      "createdAt": "2026-10-05T16:12:42.417Z"
+    },
+    {
+      "id": "c6ade6b8-844f-4916-b586-976229db9993",
+      "role": "user",
+      "content": "A bit of exploring, but not rushing around. Our son gets bored if it's all temples.",
+      "createdAt": "2026-10-05T16:13:28.701Z"
+    },
+    {
+      "id": "fc1c9a2a-1ca3-412b-ac2a-9454dd7dc6c9",
+      "role": "assistant",
+      "content": "A little exploring without packing the day makes sense. What does your son enjoy that would make an outing fun for him?",
+      "createdAt": "2026-10-05T16:13:34.591Z"
+    },
+    {
+      "id": "5070c437-8500-4567-bd9e-58fbd7e281b5",
+      "role": "user",
+      "content": "He's five and loves animals. He's also very into Spider-Man.",
+      "createdAt": "2026-10-05T16:14:29.941Z"
+    },
+    {
+      "id": "efc9bf16-8964-4e16-99f9-ca8ed9bc673b",
+      "role": "assistant",
+      "content": "Animals and Spider-Man—helpful clues for the concierge when suggesting a relaxed outing. What would make the stay especially enjoyable for you?",
+      "createdAt": "2026-10-05T16:14:36.755Z"
+    },
+    {
+      "id": "0f6d1a1f-f5e8-4201-80b3-e7894c6e9397",
+      "role": "user",
+      "content": "I love live music, and my wife likes art. We don't want to drag him round galleries all day, though.",
+      "createdAt": "2026-10-05T16:15:18.546Z"
+    },
+    {
+      "id": "55f89454-2a24-49d9-b816-964f1db8fd68",
+      "role": "assistant",
+      "content": "Live music for you, art for your wife, and short outings that keep your son interested—a helpful balance for the concierge to consider. Is there anything else you’d like the team to know, or anything to correct?",
+      "createdAt": "2026-10-05T16:15:26.419Z"
+    },
+    {
+      "id": "7eeaec30-e679-4ddd-a74c-c4a3e5fdffe0",
+      "role": "user",
+      "content": "One important thing: our son has a severe peanut allergy. Even traces are a problem.",
+      "createdAt": "2026-10-05T16:16:09.624Z"
+    },
+    {
+      "id": "459ff5cc-3299-404a-a9df-59de872fd55b",
+      "role": "assistant",
+      "content": "Thank you for flagging this. Your son’s severe peanut allergy, including traces, is an important note for the hotel and dining teams. The kitchens will need to confirm ingredients and cross-contact precautions directly; I can’t guarantee allergy-safe preparation. Is there anything else you’d like to add or correct before we wrap up?",
+      "createdAt": "2026-10-05T16:16:18.171Z"
+    },
+    {
+      "id": "6bd1aacf-f5ca-4fe1-bac4-1016d4974849",
+      "role": "user",
+      "content": "Please don't leave any food surprises for him. That's everything.",
+      "createdAt": "2026-10-05T16:16:59.871Z"
+    },
+    {
+      "id": "d22e5951-4613-4b81-840a-fc3cdd77825f",
+      "role": "assistant",
+      "content": "Understood—no food surprises for your son. That request will be clearly noted alongside his severe peanut allergy, including traces, for the hotel team. Thank you for sharing what matters for your family’s stay.",
+      "createdAt": "2026-10-05T16:17:08.240Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "b99c9694-e1fa-4b7a-8070-ac3492bfc802",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nName: Nina — Short replies 01.\nParty: Three — Nina, wife and five-year-old son.\nExplicitly stated language: Unknown; conversation conducted in English.\nDates: 10–13 November 2026.\nPurpose: Family holiday after a long gap, primarily to spend time together.\nInteraction style: Brief replies; guest closed the exchange with “That’s everything.” Keep contact concise and focused on essential confirmations.\nSpecial occasion: None stated.\n\nB) COORDINATION\n\nLead owner: Concierge; confirm current staff contact.\n\nConcierge to coordinate a small, optional selection of family outings and relay the severe peanut allergy, including traces, and the instruction not to leave food surprises for the son.\n\nReception, relevant F&B outlets, in-room dining and housekeeping should receive the information necessary for their work. Each food-service team must confirm its own ingredient and cross-contact procedures; concierge cannot establish allergy safety.\n\nHotel information is publicly researched, not operationally confirmed. Verify current services, permissions and availability before presenting options.\n\nC) GUEST PROFILE\n\nWhat matters:\nUnhurried family time with some exploring, rather than a packed itinerary. Their son loves animals and Spider-Man and becomes bored with temple-only outings. Nina enjoys live music; wife enjoys art. Avoid spending all day in galleries with their son.\n\nComfort and dietary constraints:\nSon has a severe peanut allergy; even traces are a problem. No food surprises for him. Other dietary needs and comfort routines: Unknown.\n\nRequested personal note and placement:\nNone requested.\n\nBest outcome:\nA relaxed stay with a few manageable, child-inclusive choices and clear, responsible handling of the allergy.\n\nWhat already works:\nThe family has provided distinct interests and clear limits. Offer a short shortlist rather than further broad preference gathering.\n\nWatch outs:\nDo not infer that the five-year-old can join adult-oriented music settings or wellness activities. Do not turn Spider-Man into a room theme or arrange gifts without a request. Avoid unsolicited edible amenities for the son, including treats incorporated into an activity.\n\nExperience suggestions:\nUse short animal-focused outings as the strongest family cue, with brief art or family-accessible live music options only where they fit the pace. See F for research and hotel-based possibilities.\n\nD) RECEPTION\n\nConfirm the booked room category, wing, occupancy arrangement for three and arrival details as needed. Room entitlement and arrival time are Unknown; do not imply early access, upgrades or Club Lounge benefits.\n\nFlag the son’s severe peanut allergy, including traces, to relevant F&B teams and in-room dining for direct confirmation under their actual protocols. Relay “no food surprises for him” to housekeeping and any team placing amenities.\n\nIntroduce the assigned concierge with a concise offer of optional outing choices. Avoid reopening the completed preference interview unless an essential operational clarification is needed.\n\nE) ROOM PREPARATION\n\nHousekeeping:\nCheck the room’s planned amenities and ensure no food surprise is placed for the son. If edible amenities are normally included, coordinate with F&B and reception before placement; do not substitute another food on the assumption that it is safe.\n\nReception + housekeeping:\nConfirm the booked sleeping arrangement for three, including the five-year-old. Bedding preferences, room location preferences and any connecting-room requirement are Unknown. Do not add a cot, themed setup or special bedding without a confirmed need and room-specific feasibility.\n\nIn-room dining:\nIf the family requests food, confirm ingredient and cross-contact handling directly before offering it. Published menus do not establish allergy-safe preparation.\n\nPersonal note:\nNone requested; no special note or surprise setup proposed.\n\nF) CONCIERGE\n\nKeep suggestions optional, brief and unhurried. No bookings, holds or procurement are requested.\n\nExternal research — animals:\nFind a short, age-appropriate animal-focused outing that serves the son’s strongest stated interest. Assess animal welfare and the nature of any contact or feeding activities. Confirm operating dates during the stay, travel burden, visit length, child access, supervision requirements, costs and whether food or peanut-containing feed is involved. Ask the operator about relevant exposure controls; do not describe an outing as allergy-safe without substantiation.\n\nExternal research — live music and art:\nLook for family-accessible live music and a compact, visually engaging art visit that need not occupy a full day. These may be separate choices, not a combined itinerary. Confirm the actual programme during 10–13 November, five-year-old admission, setting, noise level, duration, seating, travel time, costs and any food-service arrangements. Avoid adult-only venues and long gallery circuits.\n\nExternal research — Spider-Man:\nOnly if a credible, age-appropriate activity is available during the stay, include it as an alternative for the son. Confirm dates, child access, duration, location and costs. Do not imply that a themed event exists or commission a character appearance.\n\nOptional hotel-based family pause:\nThe published gardens and 25-metre saltwater pool offer a possible low-effort break between outings, consistent with the family’s wish not to rush. Concierge to check with the pool team on child access, actual pool hours, supervision rules and current conditions before suggesting swimming. Café hours are not proof of pool opening hours. No accompanying food treat is proposed.\n\nOptional shared meal:\nIf the family asks for dining help, Celadon’s Thai kitchen or La Scala’s Italian kitchen could provide a shared-meal setting. Concierge should connect the family with the chosen restaurant to assess recipes, peanut ingredients, cross-contact controls and whether suitable preparation is feasible under its protocols. Celadon’s published menu includes peanut accompaniments; neither vegetarian labels nor ingredient omissions establish safety. Confirm current menu, hours, child arrangements and charges. Do not default to the published sharing menu or present a custom meal as an existing package.\n\nAge boundary:\nThe published spa, health club and wellness centre minimum age is 12, so these are not suitable family activity suggestions for the five-year-old. No wellness plan is proposed.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "bb24a55c-0266-462c-bc15-c07f739ed7a0",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:18:06.557Z",
+      "updatedAt": "2026-10-05T16:18:06.557Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nName: Nina — Short replies 01.\nParty: Three — Nina, wife and five-year-old son.\nExplicitly stated language: Unknown; conversation conducted in English.\nDates: 10–13 November 2026.\nPurpose: Family holiday after a long gap, primarily to spend time together.\nInteraction style: Brief replies; guest closed the exchange with “That’s everything.” Keep contact concise and focused on essential confirmations.\nSpecial occasion: None stated.\n\nB) COORDINATION\n\nLead owner: Concierge; confirm current staff contact.\n\nConcierge to coordinate a small, optional selection of family outings and relay the severe peanut allergy, including traces, and the instruction not to leave food surprises for the son.\n\nReception, relevant F&B outlets, in-room dining and housekeeping should receive the information necessary for their work. Each food-service team must confirm its own ingredient and cross-contact procedures; concierge cannot establish allergy safety.\n\nHotel information is publicly researched, not operationally confirmed. Verify current services, permissions and availability before presenting options.\n\nC) GUEST PROFILE\n\nWhat matters:\nUnhurried family time with some exploring, rather than a packed itinerary. Their son loves animals and Spider-Man and becomes bored with temple-only outings. Nina enjoys live music; wife enjoys art. Avoid spending all day in galleries with their son.\n\nComfort and dietary constraints:\nSon has a severe peanut allergy; even traces are a problem. No food surprises for him. Other dietary needs and comfort routines: Unknown.\n\nRequested personal note and placement:\nNone requested.\n\nBest outcome:\nA relaxed stay with a few manageable, child-inclusive choices and clear, responsible handling of the allergy.\n\nWhat already works:\nThe family has provided distinct interests and clear limits. Offer a short shortlist rather than further broad preference gathering.\n\nWatch outs:\nDo not infer that the five-year-old can join adult-oriented music settings or wellness activities. Do not turn Spider-Man into a room theme or arrange gifts without a request. Avoid unsolicited edible amenities for the son, including treats incorporated into an activity.\n\nExperience suggestions:\nUse short animal-focused outings as the strongest family cue, with brief art or family-accessible live music options only where they fit the pace. See F for research and hotel-based possibilities.\n\nD) RECEPTION\n\nConfirm the booked room category, wing, occupancy arrangement for three and arrival details as needed. Room entitlement and arrival time are Unknown; do not imply early access, upgrades or Club Lounge benefits.\n\nFlag the son’s severe peanut allergy, including traces, to relevant F&B teams and in-room dining for direct confirmation under their actual protocols. Relay “no food surprises for him” to housekeeping and any team placing amenities.\n\nIntroduce the assigned concierge with a concise offer of optional outing choices. Avoid reopening the completed preference interview unless an essential operational clarification is needed.\n\nE) ROOM PREPARATION\n\nHousekeeping:\nCheck the room’s planned amenities and ensure no food surprise is placed for the son. If edible amenities are normally included, coordinate with F&B and reception before placement; do not substitute another food on the assumption that it is safe.\n\nReception + housekeeping:\nConfirm the booked sleeping arrangement for three, including the five-year-old. Bedding preferences, room location preferences and any connecting-room requirement are Unknown. Do not add a cot, themed setup or special bedding without a confirmed need and room-specific feasibility.\n\nIn-room dining:\nIf the family requests food, confirm ingredient and cross-contact handling directly before offering it. Published menus do not establish allergy-safe preparation.\n\nPersonal note:\nNone requested; no special note or surprise setup proposed.\n\nF) CONCIERGE\n\nKeep suggestions optional, brief and unhurried. No bookings, holds or procurement are requested.\n\nExternal research — animals:\nFind a short, age-appropriate animal-focused outing that serves the son’s strongest stated interest. Assess animal welfare and the nature of any contact or feeding activities. Confirm operating dates during the stay, travel burden, visit length, child access, supervision requirements, costs and whether food or peanut-containing feed is involved. Ask the operator about relevant exposure controls; do not describe an outing as allergy-safe without substantiation.\n\nExternal research — live music and art:\nLook for family-accessible live music and a compact, visually engaging art visit that need not occupy a full day. These may be separate choices, not a combined itinerary. Confirm the actual programme during 10–13 November, five-year-old admission, setting, noise level, duration, seating, travel time, costs and any food-service arrangements. Avoid adult-only venues and long gallery circuits.\n\nExternal research — Spider-Man:\nOnly if a credible, age-appropriate activity is available during the stay, include it as an alternative for the son. Confirm dates, child access, duration, location and costs. Do not imply that a themed event exists or commission a character appearance.\n\nOptional hotel-based family pause:\nThe published gardens and 25-metre saltwater pool offer a possible low-effort break between outings, consistent with the family’s wish not to rush. Concierge to check with the pool team on child access, actual pool hours, supervision rules and current conditions before suggesting swimming. Café hours are not proof of pool opening hours. No accompanying food treat is proposed.\n\nOptional shared meal:\nIf the family asks for dining help, Celadon’s Thai kitchen or La Scala’s Italian kitchen could provide a shared-meal setting. Concierge should connect the family with the chosen restaurant to assess recipes, peanut ingredients, cross-contact controls and whether suitable preparation is feasible under its protocols. Celadon’s published menu includes peanut accompaniments; neither vegetarian labels nor ingredient omissions establish safety. Confirm current menu, hours, child arrangements and charges. Do not default to the published sharing menu or present a custom meal as an existing package.\n\nAge boundary:\nThe published spa, health club and wellness centre minimum age is 12, so these are not suitable family activity suggestions for the five-year-old. No wellness plan is proposed.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

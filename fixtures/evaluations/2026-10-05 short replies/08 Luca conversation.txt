@@ -1,0 +1,17 @@
+1. ASSISTANT: Hello Luca. This optional exchange will help the team at Hotel Kings Court prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: We're taking our son away for half-term. He's mostly excited about the pool.
+
+3. ASSISTANT: Pool time sounds like the priority for your family break. The published spa guidance gives accompanied children under 12 a 10:00–16:00 window, though the team will need to confirm access. How old is your son?
+
+4. USER: He's eight. We thought we'd go after sightseeing, around six.
+
+5. ASSISTANT: At eight, your son’s planned 18:00 swim falls outside the published children’s window of 10:00–16:00; reception will need to confirm the policy. Would an earlier swim fit your sightseeing plans?
+
+6. USER: We could go in the morning instead.
+
+7. ASSISTANT: A morning swim from 10:00 could fit the published children’s hours, subject to the team confirming access. Is there anything else you’d like the hotel to know or correct before we wrap up?
+
+8. USER: No, that's the main thing.
+
+9. ASSISTANT: Thank you—your son’s pool time is the main priority, and a morning swim could work. Reception will need to confirm child access and the applicable hours.

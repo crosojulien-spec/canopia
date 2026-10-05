@@ -1,0 +1,139 @@
+{
+  "stay": {
+    "id": "fa3a2adc-3dd0-4f1c-a93c-6e68992fca33",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "Bringing her mum to see Prague, which her mum has wanted to visit for years.",
+        "sourceQuote": "I'm bringing my mum to see Prague. She's been wanting to come for years.",
+        "sourceMessageId": "dfec2783-f595-4869-a854-632b50a80d5a"
+      },
+      {
+        "label": "Mum’s sightseeing interests",
+        "value": "Old buildings and views.",
+        "sourceQuote": "The old buildings and views.",
+        "sourceMessageId": "faae99a4-c8d6-49a5-81af-20cb0b48204a"
+      },
+      {
+        "label": "Mum’s walking needs",
+        "value": "Can walk about twenty minutes on flat ground before needing a seated break; stairs are harder.",
+        "sourceQuote": "About twenty minutes if it's flat, then a sit-down. Stairs are harder.",
+        "sourceMessageId": "9146379e-9a31-4fc7-9e46-424153af9ebb"
+      },
+      {
+        "label": "Tour preference",
+        "value": "Interested in a private tour only if really gentle; her mum would not want a three-hour tour.",
+        "sourceQuote": "Yes, if it's really gentle. She wouldn't want a three-hour tour.",
+        "sourceMessageId": "e7a69bb2-aea0-4973-ac2e-83e195ef88f0"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "golden_well_prague",
+    "revoked": false,
+    "revision": 14,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.106Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.106Z",
+    "guestName": "Rose — Short replies 04",
+    "hotelName": "Golden Well / U Zlate Studne",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:17:23.505Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "24967270-4317-4504-84e0-1b50418786fe",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "75abf3ea-3849-4699-a7e1-a1a398c7c0df",
+      "role": "assistant",
+      "content": "Hello Rose. This optional exchange will help the team at Golden Well / U Zlate Studne prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.106Z"
+    },
+    {
+      "id": "dfec2783-f595-4869-a854-632b50a80d5a",
+      "role": "user",
+      "content": "I'm bringing my mum to see Prague. She's been wanting to come for years.",
+      "createdAt": "2026-10-05T16:12:42.429Z"
+    },
+    {
+      "id": "70a5e9ad-870b-4ff8-8152-b099a144f674",
+      "role": "assistant",
+      "content": "How lovely to help your mum finally see Prague. What is she most looking forward to seeing or doing?",
+      "createdAt": "2026-10-05T16:12:47.462Z"
+    },
+    {
+      "id": "faae99a4-c8d6-49a5-81af-20cb0b48204a",
+      "role": "user",
+      "content": "The old buildings and views. She can't walk very far, though.",
+      "createdAt": "2026-10-05T16:13:35.148Z"
+    },
+    {
+      "id": "22b54043-2689-464c-b4d1-d348d1463035",
+      "role": "assistant",
+      "content": "The hotel may be able to tailor a private history walk with breaks, subject to confirming a suitable route. Roughly how long can your mum comfortably walk before needing a rest?",
+      "createdAt": "2026-10-05T16:13:42.292Z"
+    },
+    {
+      "id": "9146379e-9a31-4fc7-9e46-424153af9ebb",
+      "role": "user",
+      "content": "About twenty minutes if it's flat, then a sit-down. Stairs are harder.",
+      "createdAt": "2026-10-05T16:14:37.696Z"
+    },
+    {
+      "id": "dde10d90-0b78-4579-8caf-8e27dd8a239b",
+      "role": "assistant",
+      "content": "Thank you—that gives the team a useful guide: around twenty minutes on flat ground, then a seated break, with stairs harder. The hotel’s approach is cobbled and traffic-free, so access is worth checking too. Would you like the team to look into a gently paced private tour focused on old buildings and views?",
+      "createdAt": "2026-10-05T16:14:44.276Z"
+    },
+    {
+      "id": "e7a69bb2-aea0-4973-ac2e-83e195ef88f0",
+      "role": "user",
+      "content": "Yes, if it's really gentle. She wouldn't want a three-hour tour.",
+      "createdAt": "2026-10-05T16:15:26.444Z"
+    },
+    {
+      "id": "ca867fb6-6188-461f-ae66-555d727a304f",
+      "role": "assistant",
+      "content": "A really gentle tour, shorter than three hours, with seated breaks—the team would need to confirm a suitable route and duration, as well as the hotel access. Is there anything else you’d like to add or correct before we leave these preferences for reception?",
+      "createdAt": "2026-10-05T16:15:33.739Z"
+    },
+    {
+      "id": "b4c0338e-25a6-489c-a35e-0f914fabc9e1",
+      "role": "user",
+      "content": "No, that's fine.",
+      "createdAt": "2026-10-05T16:16:18.185Z"
+    },
+    {
+      "id": "f162f40b-5866-4ada-a4b8-e98006f6b42b",
+      "role": "assistant",
+      "content": "Thank you, Rose. The notes for reception will focus on your mum’s interest in old buildings and views, and a very gentle, shorter tour with seated breaks. The team will need to confirm the route, access, availability and cost.",
+      "createdAt": "2026-10-05T16:16:25.406Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "24967270-4317-4504-84e0-1b50418786fe",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Rose — Short replies 04.\nParty: Two; Rose and her mother.\nDates: 10–13 November 2026.\nPurpose: Bringing her mother to see Prague, a visit she has wanted for years.\nExplicitly stated language: Unknown; exchange conducted in English.\nInteraction style: Brief replies; Rose accepted the summary and closed the exchange. Keep follow-up concise and limited to necessary checks.\nSpecial occasion: No formal occasion stated.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff contact, to coordinate access checks, room preparation and experience research. A dedicated concierge role is unconfirmed.\n\nReception should confirm the practical arrival route and room access with the relevant hotel teams, and investigate a genuinely gentle private tour. Hotel capabilities are publicly described but not operationally confirmed; route suitability, staffing, availability and costs require hotel review.\n\nC) GUEST PROFILE\nWhat matters: Her mother wants to see old buildings and views. The priority is making this long-awaited visit enjoyable without excessive walking.\n\nComfort constraints: Her mother can walk about twenty minutes on flat ground before needing a seated rest. Stairs are harder. No health condition or mobility aid was stated.\n\nDietary constraints and allergies: Unknown.\nPersonal note and placement: None requested.\n\nBest outcome: Meaningful sightseeing at a gentle pace, with dependable seated breaks and manageable hotel access.\nWhat already works: Rose has agreed to research into a private tour, provided it is really gentle. Her mother does not want a three-hour tour.\nWatch outs: Do not interpret “shorter” as sufficient on its own; gradients, cobbles, stairs, standing time and distances between seats matter. Do not assume the historic hotel or a scenic route is accessible.\n\nExperience suggestions: A shorter, adapted history-and-views outing could draw on the hotel’s published private-guiding coordination. See F for the research brief. No surprise or celebration treatment is indicated.\n\nD) RECEPTION\nKeep the welcome straightforward and avoid a lengthy feature discussion.\n\nBefore arrival, check the traffic-free, cobbled approach: vehicle drop-off point, remaining walking distance, gradients, steps, seating opportunities and any assistance the hotel can actually provide. Explain unresolved limitations clearly.\n\nConfirm the allocated room category and the route from entrance to reception and room, including lift access and unavoidable stairs. Any more suitable allocation remains subject to availability and guest agreement; no upgrade or early-room promise.\n\nNo allergy information was supplied. Do not record this as confirmation that there are no allergies.\n\nE) ROOM PREPARATION\nReception to coordinate with housekeeping on practical preparation.\n\nRoom category, bed configuration, floor and specific room entitlement: Unknown. No pillow, bedding, bathroom or other in-room preference was requested.\n\nGiven the stated difficulty with stairs, reception should check whether the allocated room minimises stair use before housekeeping prepares it. Do not assume a lower floor alone resolves access.\n\nAvoid adding decorative or wellness arrangements without a guest cue. No personal note is requested.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nGuest cue: Rose’s mother is interested in old buildings and views, can manage roughly twenty minutes of flat walking before a seated break, finds stairs harder and does not want a three-hour tour.\n\nProposed adaptation: Use the hotel’s published private-guiding coordination to investigate a substantially shorter, genuinely gentle architecture/history outing with seated breaks. This is a proposed adaptation, not the published three-hour package walk or an existing bespoke package.\n\nReception research request:\nLook for a guide and route that prioritise historic buildings and views while limiting walking segments to her stated tolerance, allowing earlier rests and avoiding stairs and steep sections where possible. Establish actual walking and standing time, surfaces, gradients, dependable seating, shelter and toilet opportunities. Check the start and finish in relation to the hotel’s cobbled approach. If transport could reduce walking, investigate it only as an optional adaptation and confirm boarding demands and drop-off access.\n\nConfirm guide availability, language, proposed total duration, route demands, November weather alternatives, price and cancellation terms before presenting a concise option to Rose. Ask only for essential missing details, including preferred guiding language and whether the proposed route feels manageable. Do not reserve or hold anything.\n\nOptional hotel-based pause: The published guest-only Bohemia lounge offers tea and coffee and could provide an unhurried rest before or after an outing. Reception should first confirm the access route and suitability; it is not a private booked space.\n\nDo not rely on outdoor terraces or garden access for November views. Any indoor viewing option would need confirmation of access, opening conditions and purchase requirements.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "fa3a2adc-3dd0-4f1c-a93c-6e68992fca33",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:17:23.504Z",
+      "updatedAt": "2026-10-05T16:17:23.504Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Rose — Short replies 04.\nParty: Two; Rose and her mother.\nDates: 10–13 November 2026.\nPurpose: Bringing her mother to see Prague, a visit she has wanted for years.\nExplicitly stated language: Unknown; exchange conducted in English.\nInteraction style: Brief replies; Rose accepted the summary and closed the exchange. Keep follow-up concise and limited to necessary checks.\nSpecial occasion: No formal occasion stated.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff contact, to coordinate access checks, room preparation and experience research. A dedicated concierge role is unconfirmed.\n\nReception should confirm the practical arrival route and room access with the relevant hotel teams, and investigate a genuinely gentle private tour. Hotel capabilities are publicly described but not operationally confirmed; route suitability, staffing, availability and costs require hotel review.\n\nC) GUEST PROFILE\nWhat matters: Her mother wants to see old buildings and views. The priority is making this long-awaited visit enjoyable without excessive walking.\n\nComfort constraints: Her mother can walk about twenty minutes on flat ground before needing a seated rest. Stairs are harder. No health condition or mobility aid was stated.\n\nDietary constraints and allergies: Unknown.\nPersonal note and placement: None requested.\n\nBest outcome: Meaningful sightseeing at a gentle pace, with dependable seated breaks and manageable hotel access.\nWhat already works: Rose has agreed to research into a private tour, provided it is really gentle. Her mother does not want a three-hour tour.\nWatch outs: Do not interpret “shorter” as sufficient on its own; gradients, cobbles, stairs, standing time and distances between seats matter. Do not assume the historic hotel or a scenic route is accessible.\n\nExperience suggestions: A shorter, adapted history-and-views outing could draw on the hotel’s published private-guiding coordination. See F for the research brief. No surprise or celebration treatment is indicated.\n\nD) RECEPTION\nKeep the welcome straightforward and avoid a lengthy feature discussion.\n\nBefore arrival, check the traffic-free, cobbled approach: vehicle drop-off point, remaining walking distance, gradients, steps, seating opportunities and any assistance the hotel can actually provide. Explain unresolved limitations clearly.\n\nConfirm the allocated room category and the route from entrance to reception and room, including lift access and unavoidable stairs. Any more suitable allocation remains subject to availability and guest agreement; no upgrade or early-room promise.\n\nNo allergy information was supplied. Do not record this as confirmation that there are no allergies.\n\nE) ROOM PREPARATION\nReception to coordinate with housekeeping on practical preparation.\n\nRoom category, bed configuration, floor and specific room entitlement: Unknown. No pillow, bedding, bathroom or other in-room preference was requested.\n\nGiven the stated difficulty with stairs, reception should check whether the allocated room minimises stair use before housekeeping prepares it. Do not assume a lower floor alone resolves access.\n\nAvoid adding decorative or wellness arrangements without a guest cue. No personal note is requested.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nGuest cue: Rose’s mother is interested in old buildings and views, can manage roughly twenty minutes of flat walking before a seated break, finds stairs harder and does not want a three-hour tour.\n\nProposed adaptation: Use the hotel’s published private-guiding coordination to investigate a substantially shorter, genuinely gentle architecture/history outing with seated breaks. This is a proposed adaptation, not the published three-hour package walk or an existing bespoke package.\n\nReception research request:\nLook for a guide and route that prioritise historic buildings and views while limiting walking segments to her stated tolerance, allowing earlier rests and avoiding stairs and steep sections where possible. Establish actual walking and standing time, surfaces, gradients, dependable seating, shelter and toilet opportunities. Check the start and finish in relation to the hotel’s cobbled approach. If transport could reduce walking, investigate it only as an optional adaptation and confirm boarding demands and drop-off access.\n\nConfirm guide availability, language, proposed total duration, route demands, November weather alternatives, price and cancellation terms before presenting a concise option to Rose. Ask only for essential missing details, including preferred guiding language and whether the proposed route feels manageable. Do not reserve or hold anything.\n\nOptional hotel-based pause: The published guest-only Bohemia lounge offers tea and coffee and could provide an unhurried rest before or after an outing. Reception should first confirm the access route and suitability; it is not a private booked space.\n\nDo not rely on outdoor terraces or garden access for November views. Any indoor viewing option would need confirmation of access, opening conditions and purchase requirements.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

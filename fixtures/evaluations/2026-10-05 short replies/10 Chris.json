@@ -1,0 +1,103 @@
+{
+  "stay": {
+    "id": "d7298a60-6f2f-465d-8b6e-e71de01c43f2",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose",
+        "value": "A casual getaway, with no special occasion.",
+        "sourceQuote": "Just a weekend away, nothing special.",
+        "sourceMessageId": "4fd03362-fe22-4010-b6cd-3f6939c2c210"
+      },
+      {
+        "label": "Plans",
+        "value": "Likely to wander around; nothing planned.",
+        "sourceQuote": "Probably just wander around. We haven't planned anything.",
+        "sourceMessageId": "30ed15a4-9b2f-42e9-8bdd-0e35e7a2cd1a"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "golden_well_prague",
+    "revoked": false,
+    "revision": 10,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.130Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.130Z",
+    "guestName": "Chris — Short replies 10",
+    "hotelName": "Golden Well / U Zlate Studne",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:16:46.690Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "0b4486db-c626-4d78-8255-255d37bbf98b",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "3ac6db04-0780-4551-8f54-b573e7d261d2",
+      "role": "assistant",
+      "content": "Hello Chris. This optional exchange will help the team at Golden Well / U Zlate Studne prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.130Z"
+    },
+    {
+      "id": "4fd03362-fe22-4010-b6cd-3f6939c2c210",
+      "role": "user",
+      "content": "Just a weekend away, nothing special.",
+      "createdAt": "2026-10-05T16:12:53.991Z"
+    },
+    {
+      "id": "f17eb70b-aab7-4d08-a7f3-f8644858feb6",
+      "role": "assistant",
+      "content": "A simple getaway—understood. What would make it enjoyable for you: relaxing at the hotel, exploring Prague, or good food?",
+      "createdAt": "2026-10-05T16:12:59.384Z"
+    },
+    {
+      "id": "30ed15a4-9b2f-42e9-8bdd-0e35e7a2cd1a",
+      "role": "user",
+      "content": "Probably just wander around. We haven't planned anything.",
+      "createdAt": "2026-10-05T16:13:49.061Z"
+    },
+    {
+      "id": "48600942-aecb-4b3e-82d4-c074a7eec5ba",
+      "role": "assistant",
+      "content": "Understood—wandering around Prague without a fixed itinerary. Is there anything else you’d like the team to know, or shall we keep it at that?",
+      "createdAt": "2026-10-05T16:13:53.448Z"
+    },
+    {
+      "id": "5ddf91b7-bd95-47e3-9e2b-a7098689d3e5",
+      "role": "user",
+      "content": "Let's leave it there, thanks.",
+      "createdAt": "2026-10-05T16:14:50.892Z"
+    },
+    {
+      "id": "0b92757d-a98f-48f9-a899-8c6bc82b045b",
+      "role": "assistant",
+      "content": "Of course, thank you. We’ll keep the note simple: a casual getaway, with time to wander around Prague and no fixed plans.",
+      "createdAt": "2026-10-05T16:14:55.795Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "0b4486db-c626-4d78-8255-255d37bbf98b",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Chris — reservation label “Chris — Short replies 10”.\nParty: Two guests; companion details unknown.\nLanguage: Not explicitly stated; exchange conducted in English.\nDates: 10–13 November 2026.\nPurpose: Casual getaway, described by the guest as a “weekend away”; retain the booked dates.\nInteraction style: Brief, low-key communication. Guest explicitly ended the optional questions.\nSpecial occasion: None stated; guest said nothing special.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff contact.\nKeep preparation light and avoid further preference discovery unless needed for essential stay arrangements. Dedicated concierge availability is unknown; experience support remains with reception.\nThe hotel’s published capabilities are not operationally confirmed. Check current arrangements only where relevant to a guest request.\n\nC) GUEST PROFILE\nWhat matters: Time to wander around Prague without a fixed itinerary. No activities planned.\nComfort and dietary constraints: Unknown; no allergies, dietary needs, sleep preferences or mobility requirements disclosed.\nPersonal note and placement: None requested.\nBest outcome: An uncomplicated stay with freedom to explore spontaneously and brief practical help when wanted.\nWhat already works: The guest accepted a simple summary and asked to leave the conversation there.\nWatch outs: Do not turn the stay into a celebration, assume romance, add surprises or initiate a feature questionnaire.\nExperience suggestions: At most, offer optional, concise help with independent wandering; see F. No organised experience is currently requested.\n\nD) RECEPTION\nUse a brief welcome and standard arrival checks. Room category, bed arrangement, arrival time and rate inclusions are unknown; verify against the operational reservation rather than infer from party size.\nPublished check-in is 14:00 and checkout is 12:00; confirm current policy. Do not promise early access or an upgrade.\nThe hotel approach is traffic-free and cobbled. Provide practical arrival guidance if needed without assuming accessibility requirements.\nNo allergy information was supplied; do not interpret this as confirmation that there are no allergies.\nDo not reopen the optional interview. Let the guest initiate additional assistance.\n\nE) ROOM PREPARATION\nReception to coordinate standard preparation with housekeeping according to the confirmed room allocation.\nNo bespoke bedding, bath, fragrance, turndown, food delivery or decorative setup requested. Retain the normal room setup; do not add personalised amenities or notes.\nRoom category, specific features and in-room preferences are unknown. Any later request should be checked with the relevant responsible team.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nGuest cue: Casual wandering in Prague, with no fixed plans.\n\nOptional support: If the guest asks, reception can offer a short, flexible orientation from the hotel below Prague Castle, rather than a scheduled tour. This uses the hotel’s location and published guiding-coordination capability without implying that a guide or package has been requested.\n\nResearch request for reception, only if wanted: Identify a small number of nearby self-guided walking options suited to spontaneous exploration, with clear route demands, cobbled sections, steps and possible indoor alternatives for November weather. Confirm current access, opening hours, admission conditions and any costs before recommending them. Walking tolerance and interests beyond wandering are unknown; do not assume a long route or a history-focused itinerary.\n\nNo bookings, holds, private guiding or additional arrangements requested.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "d7298a60-6f2f-465d-8b6e-e71de01c43f2",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:16:46.689Z",
+      "updatedAt": "2026-10-05T16:16:46.689Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Chris — reservation label “Chris — Short replies 10”.\nParty: Two guests; companion details unknown.\nLanguage: Not explicitly stated; exchange conducted in English.\nDates: 10–13 November 2026.\nPurpose: Casual getaway, described by the guest as a “weekend away”; retain the booked dates.\nInteraction style: Brief, low-key communication. Guest explicitly ended the optional questions.\nSpecial occasion: None stated; guest said nothing special.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff contact.\nKeep preparation light and avoid further preference discovery unless needed for essential stay arrangements. Dedicated concierge availability is unknown; experience support remains with reception.\nThe hotel’s published capabilities are not operationally confirmed. Check current arrangements only where relevant to a guest request.\n\nC) GUEST PROFILE\nWhat matters: Time to wander around Prague without a fixed itinerary. No activities planned.\nComfort and dietary constraints: Unknown; no allergies, dietary needs, sleep preferences or mobility requirements disclosed.\nPersonal note and placement: None requested.\nBest outcome: An uncomplicated stay with freedom to explore spontaneously and brief practical help when wanted.\nWhat already works: The guest accepted a simple summary and asked to leave the conversation there.\nWatch outs: Do not turn the stay into a celebration, assume romance, add surprises or initiate a feature questionnaire.\nExperience suggestions: At most, offer optional, concise help with independent wandering; see F. No organised experience is currently requested.\n\nD) RECEPTION\nUse a brief welcome and standard arrival checks. Room category, bed arrangement, arrival time and rate inclusions are unknown; verify against the operational reservation rather than infer from party size.\nPublished check-in is 14:00 and checkout is 12:00; confirm current policy. Do not promise early access or an upgrade.\nThe hotel approach is traffic-free and cobbled. Provide practical arrival guidance if needed without assuming accessibility requirements.\nNo allergy information was supplied; do not interpret this as confirmation that there are no allergies.\nDo not reopen the optional interview. Let the guest initiate additional assistance.\n\nE) ROOM PREPARATION\nReception to coordinate standard preparation with housekeeping according to the confirmed room allocation.\nNo bespoke bedding, bath, fragrance, turndown, food delivery or decorative setup requested. Retain the normal room setup; do not add personalised amenities or notes.\nRoom category, specific features and in-room preferences are unknown. Any later request should be checked with the relevant responsible team.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nGuest cue: Casual wandering in Prague, with no fixed plans.\n\nOptional support: If the guest asks, reception can offer a short, flexible orientation from the hotel below Prague Castle, rather than a scheduled tour. This uses the hotel’s location and published guiding-coordination capability without implying that a guide or package has been requested.\n\nResearch request for reception, only if wanted: Identify a small number of nearby self-guided walking options suited to spontaneous exploration, with clear route demands, cobbled sections, steps and possible indoor alternatives for November weather. Confirm current access, opening hours, admission conditions and any costs before recommending them. Walking tolerance and interests beyond wandering are unknown; do not assume a long route or a history-focused itinerary.\n\nNo bookings, holds, private guiding or additional arrangements requested.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

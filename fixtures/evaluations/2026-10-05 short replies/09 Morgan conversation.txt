@@ -1,0 +1,13 @@
+1. ASSISTANT: Hello Morgan. This optional exchange will help the team at Hotel Amour Nice prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?
+
+2. USER: I'm visiting for a family matter. I'd rather keep things low-key.
+
+3. ASSISTANT: Of course—no need to explain the family matter. What would help keep your stay low-key: a quiet room, minimal interaction, or something else?
+
+4. USER: Just a quiet room, really.
+
+5. ASSISTANT: Understood—a quiet room is your main priority. Reception will need to confirm what’s available. Is there anything you’d like to add or correct before we leave it there?
+
+6. USER: Actually, please stop. I don't want my information used to personalise this stay.
+
+7. ASSISTANT: Understood—we’ll stop here. The team will receive a minimal record clearly stating that you do not want personalization for this stay.

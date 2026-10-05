@@ -1,0 +1,139 @@
+{
+  "stay": {
+    "id": "d931c038-5e20-4987-8cc9-ba486897a7c1",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose",
+        "value": "Attending a conference, with little free time.",
+        "sourceQuote": "I'm here for a conference. I won't have much free time.",
+        "sourceMessageId": "550c03de-145f-4656-9cec-2bd9e46f4fd5"
+      },
+      {
+        "label": "Breakfast priority",
+        "value": "Wants a quick breakfast before leaving at 7:15.",
+        "sourceQuote": "A quick breakfast would help. I need to leave at 7:15.",
+        "sourceMessageId": "649168f0-c6e6-47b7-a422-eaf411e1131a"
+      },
+      {
+        "label": "Private video call",
+        "value": "Needs a private place for a half-hour video call at 18:00.",
+        "sourceQuote": "Actually, I need a private place for a half-hour video call at six in the evening.",
+        "sourceMessageId": "80178622-9511-410a-b4ff-d4bd276305ae"
+      },
+      {
+        "label": "Video call date",
+        "value": "The call is on the first evening, 10 November.",
+        "sourceQuote": "The first evening, on the tenth.",
+        "sourceMessageId": "14392be6-6688-417f-8cb6-b2df4e9faa29"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "kings_court_prague",
+    "revoked": false,
+    "revision": 14,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.098Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.098Z",
+    "guestName": "Alex — Short replies 02",
+    "hotelName": "Hotel Kings Court",
+    "partySize": 1,
+    "updatedAt": "2026-10-05T16:17:23.998Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "bd2ffd8a-c1de-4eea-8737-85c6214b158b",
+    "reservationNotes": "Deluxe room booked."
+  },
+  "messages": [
+    {
+      "id": "c65389a5-582c-47dc-8f71-fa7fdc237c3b",
+      "role": "assistant",
+      "content": "Hello Alex. This optional exchange will help the team at Hotel Kings Court prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.098Z"
+    },
+    {
+      "id": "550c03de-145f-4656-9cec-2bd9e46f4fd5",
+      "role": "user",
+      "content": "I'm here for a conference. I won't have much free time.",
+      "createdAt": "2026-10-05T16:12:36.947Z"
+    },
+    {
+      "id": "76a35905-0a77-4257-8c06-cd5104b9aa1d",
+      "role": "assistant",
+      "content": "Understood—we’ll keep this brief. What would make the biggest difference around your conference schedule: a quiet room, a quick meal, or something else?",
+      "createdAt": "2026-10-05T16:12:42.300Z"
+    },
+    {
+      "id": "649168f0-c6e6-47b7-a422-eaf411e1131a",
+      "role": "user",
+      "content": "A quick breakfast would help. I need to leave at 7:15.",
+      "createdAt": "2026-10-05T16:13:28.706Z"
+    },
+    {
+      "id": "927535b7-9063-40f1-9ec6-47500c12a702",
+      "role": "assistant",
+      "content": "A quick breakfast before your 7:15 departure is the priority; the team will need to confirm what’s possible that early. Is there anything else you’d like to add or correct?",
+      "createdAt": "2026-10-05T16:13:34.335Z"
+    },
+    {
+      "id": "80178622-9511-410a-b4ff-d4bd276305ae",
+      "role": "user",
+      "content": "Actually, I need a private place for a half-hour video call at six in the evening.",
+      "createdAt": "2026-10-05T16:14:29.945Z"
+    },
+    {
+      "id": "14daee10-ec7c-4311-9801-ae789324fdce",
+      "role": "assistant",
+      "content": "The hotel has meeting spaces that the team could check for a private 18:00–18:30 video call; availability and any charge would need confirmation. Which day will you need it?",
+      "createdAt": "2026-10-05T16:14:36.593Z"
+    },
+    {
+      "id": "14392be6-6688-417f-8cb6-b2df4e9faa29",
+      "role": "user",
+      "content": "The first evening, on the tenth.",
+      "createdAt": "2026-10-05T16:15:18.550Z"
+    },
+    {
+      "id": "edd3e5e7-2ea3-4e38-b3eb-b179f54746f7",
+      "role": "assistant",
+      "content": "Noted: a private space for your video call on 10 November, 18:00–18:30, subject to the team confirming availability and any charge. Is there anything else you’d like to add or correct?",
+      "createdAt": "2026-10-05T16:15:25.141Z"
+    },
+    {
+      "id": "5459b72f-0a41-4b6f-acc4-3eb817c374b6",
+      "role": "user",
+      "content": "No, that's all I need.",
+      "createdAt": "2026-10-05T16:16:09.628Z"
+    },
+    {
+      "id": "be54be1d-19e0-42de-956a-bfe333f126f2",
+      "role": "assistant",
+      "content": "Thank you, Alex. Your priorities are a quick breakfast before leaving at 7:15 and a private space for a video call on 10 November, 18:00–18:30. The hotel team will need to confirm arrangements and any charges.",
+      "createdAt": "2026-10-05T16:16:16.423Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "bd2ffd8a-c1de-4eea-8737-85c6214b158b",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Alex — Short replies 02.\nParty: 1 guest; Deluxe room booked.\nLanguage: Unknown; conversation conducted in English, but no language preference explicitly stated.\nDates: 10–13 November 2026.\nPurpose: Conference attendance, with little free time.\nInteraction style: Brief, practical replies; guest has finished adding requests. Keep follow-up focused on essential confirmations.\nSpecial occasion: Unknown.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff role. Confirm the individual contact.\n\nReception to coordinate breakfast feasibility with the responsible food-and-beverage team and the private video-call space with the dedicated meetings/events manager. Return a concise summary of options, outstanding decisions and any charges.\n\nThe supplied hotel information is public preparation material, pending operator review and not operationally confirmed. Check current services and Deluxe entitlements before presenting arrangements as available. No reservation or hold has been made.\n\nC) GUEST PROFILE\nWhat matters: Efficient breakfast before leaving at 07:15 and privacy for a half-hour video call on the first evening.\nComfort and dietary constraints: Allergies, dietary requirements and sleep preferences are Unknown.\nPersonal note and placement: None requested.\nBest outcome: Minimal time spent arranging essentials, with breakfast logistics clarified and a suitable private call space confirmed.\nWhat already works: The call date and duration are clear: 10 November, 18:00–18:30.\nWatch outs: Breakfast dates and required eating time remain Unknown. Do not infer that the conference is at the hotel, offer unrelated leisure plans or assume Executive benefits apply.\nExperience suggestions: Limit support to the two stated practical needs; see F. No surprise or additional itinerary is warranted.\n\nD) RECEPTION\nKeep the welcome short and task-focused. Confirm the status of breakfast and call-space requests, including any guest decision or charge.\n\nAsk only essential unresolved questions: which mornings require breakfast before the 07:15 departure, and whether there are dietary requirements or allergies relevant to that service. Relay any significant allergy information to the responsible food team for verification under its actual handling protocols.\n\nCheck the booked Deluxe category’s actual inclusions. Do not promise an early room, upgrade, complimentary breakfast or private meeting space. Continue through the assigned reception contact; concierge ownership and remit are unconfirmed.\n\nE) ROOM PREPARATION\nNo specific room setup, bedding, temperature, refreshment or personal-note request was made.\nOwner for routine preparation: responsible hotel team — confirm owner.\n\nPrepare the booked Deluxe room according to confirmed category standards. Executive-room amenities and pillow options are not established for this booking. No additional in-room adaptation is proposed.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nQuick breakfast before departure\nGuest cue: Alex needs a quick breakfast before leaving at 07:15 and has little free time.\nKnown resource: Published hotel business-breakfast capability includes continental or English breakfast through event catering. This does not establish an early individual breakfast service; ADELE’s published service begins at 11:30.\nProposed adjustment: Reception to ask the responsible breakfast/food-and-beverage team for the simplest feasible individual breakfast option that fits the departure deadline, without unnecessarily creating an event arrangement.\nChecks: Required mornings, actual early-service hours, preparation and collection or serving method, time needed, dietary/allergy requirements, booking inclusions and any charge. Takeaway or in-room service is not confirmed.\n\nPrivate video call\nGuest cue: A private place is needed on 10 November 2026, 18:00–18:30.\nKnown resources: Smaller meeting spaces, AV support and a dedicated meetings/events manager are published.\nProposed adjustment: Reception to ask the meetings/events manager about a suitably sized private space for a solo half-hour video call, rather than a larger meeting setup.\nChecks: Availability, exclusive use and acoustic privacy, internet suitability, power, seating, any required equipment, access/setup arrangements, minimum hire period and total charge. This is a proposed short-use arrangement, not an existing package. The executive lounge is not a private meeting space and its published hours end at 18:00.\n\nExternal research: None requested or justified by the guest’s stated needs. Prioritize the hotel-based checks above.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "d931c038-5e20-4987-8cc9-ba486897a7c1",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:17:23.996Z",
+      "updatedAt": "2026-10-05T16:17:23.996Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Alex — Short replies 02.\nParty: 1 guest; Deluxe room booked.\nLanguage: Unknown; conversation conducted in English, but no language preference explicitly stated.\nDates: 10–13 November 2026.\nPurpose: Conference attendance, with little free time.\nInteraction style: Brief, practical replies; guest has finished adding requests. Keep follow-up focused on essential confirmations.\nSpecial occasion: Unknown.\n\nB) COORDINATION\nOwner: Reception, the assigned handoff role. Confirm the individual contact.\n\nReception to coordinate breakfast feasibility with the responsible food-and-beverage team and the private video-call space with the dedicated meetings/events manager. Return a concise summary of options, outstanding decisions and any charges.\n\nThe supplied hotel information is public preparation material, pending operator review and not operationally confirmed. Check current services and Deluxe entitlements before presenting arrangements as available. No reservation or hold has been made.\n\nC) GUEST PROFILE\nWhat matters: Efficient breakfast before leaving at 07:15 and privacy for a half-hour video call on the first evening.\nComfort and dietary constraints: Allergies, dietary requirements and sleep preferences are Unknown.\nPersonal note and placement: None requested.\nBest outcome: Minimal time spent arranging essentials, with breakfast logistics clarified and a suitable private call space confirmed.\nWhat already works: The call date and duration are clear: 10 November, 18:00–18:30.\nWatch outs: Breakfast dates and required eating time remain Unknown. Do not infer that the conference is at the hotel, offer unrelated leisure plans or assume Executive benefits apply.\nExperience suggestions: Limit support to the two stated practical needs; see F. No surprise or additional itinerary is warranted.\n\nD) RECEPTION\nKeep the welcome short and task-focused. Confirm the status of breakfast and call-space requests, including any guest decision or charge.\n\nAsk only essential unresolved questions: which mornings require breakfast before the 07:15 departure, and whether there are dietary requirements or allergies relevant to that service. Relay any significant allergy information to the responsible food team for verification under its actual handling protocols.\n\nCheck the booked Deluxe category’s actual inclusions. Do not promise an early room, upgrade, complimentary breakfast or private meeting space. Continue through the assigned reception contact; concierge ownership and remit are unconfirmed.\n\nE) ROOM PREPARATION\nNo specific room setup, bedding, temperature, refreshment or personal-note request was made.\nOwner for routine preparation: responsible hotel team — confirm owner.\n\nPrepare the booked Deluxe room according to confirmed category standards. Executive-room amenities and pillow options are not established for this booking. No additional in-room adaptation is proposed.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nQuick breakfast before departure\nGuest cue: Alex needs a quick breakfast before leaving at 07:15 and has little free time.\nKnown resource: Published hotel business-breakfast capability includes continental or English breakfast through event catering. This does not establish an early individual breakfast service; ADELE’s published service begins at 11:30.\nProposed adjustment: Reception to ask the responsible breakfast/food-and-beverage team for the simplest feasible individual breakfast option that fits the departure deadline, without unnecessarily creating an event arrangement.\nChecks: Required mornings, actual early-service hours, preparation and collection or serving method, time needed, dietary/allergy requirements, booking inclusions and any charge. Takeaway or in-room service is not confirmed.\n\nPrivate video call\nGuest cue: A private place is needed on 10 November 2026, 18:00–18:30.\nKnown resources: Smaller meeting spaces, AV support and a dedicated meetings/events manager are published.\nProposed adjustment: Reception to ask the meetings/events manager about a suitably sized private space for a solo half-hour video call, rather than a larger meeting setup.\nChecks: Availability, exclusive use and acoustic privacy, internet suitability, power, seating, any required equipment, access/setup arrangements, minimum hire period and total charge. This is a proposed short-use arrangement, not an existing package. The executive lounge is not a private meeting space and its published hours end at 18:00.\n\nExternal research: None requested or justified by the guest’s stated needs. Prioritize the hotel-based checks above.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}

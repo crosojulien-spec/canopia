@@ -1,0 +1,127 @@
+{
+  "stay": {
+    "id": "dc7825f1-dd10-4252-983e-6898dc64b7b7",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose",
+        "value": "Family half-term trip with their son.",
+        "sourceQuote": "We're taking our son away for half-term.",
+        "sourceMessageId": "0f0460a9-92ac-483f-a50f-c3c06ec39d65"
+      },
+      {
+        "label": "Main priority",
+        "value": "Their son is especially excited about the pool; pool time is the main priority.",
+        "sourceQuote": "He's mostly excited about the pool.",
+        "sourceMessageId": "0f0460a9-92ac-483f-a50f-c3c06ec39d65"
+      },
+      {
+        "label": "Son's age",
+        "value": "Their son is eight.",
+        "sourceQuote": "He's eight.",
+        "sourceMessageId": "1ae7e35a-3c84-44b9-b32f-3697c337aceb"
+      },
+      {
+        "label": "Pool timing flexibility",
+        "value": "A morning swim could work instead of the originally planned evening swim.",
+        "sourceQuote": "We could go in the morning instead.",
+        "sourceMessageId": "9c1a34d6-6d2e-4693-8dc0-d8e17a4da22a"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-10",
+    "handoff": "reception",
+    "hotelId": "kings_court_prague",
+    "revoked": false,
+    "revision": 12,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:12:06.121Z",
+    "departure": "2026-11-13",
+    "expiresAt": "2026-10-12T16:12:06.121Z",
+    "guestName": "Luca — Short replies 08",
+    "hotelName": "Hotel Kings Court",
+    "partySize": 3,
+    "updatedAt": "2026-10-05T16:16:38.868Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "1fc3b66e-cbff-44d2-8fd4-3f3d86d1670f",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "496d1be8-8cc0-4e24-9b97-9a16b945c3ee",
+      "role": "assistant",
+      "content": "Hello Luca. This optional exchange will help the team at Hotel Kings Court prepare your stay from 2026-11-10 to 2026-11-13. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?",
+      "createdAt": "2026-10-05T16:12:06.121Z"
+    },
+    {
+      "id": "0f0460a9-92ac-483f-a50f-c3c06ec39d65",
+      "role": "user",
+      "content": "We're taking our son away for half-term. He's mostly excited about the pool.",
+      "createdAt": "2026-10-05T16:12:48.478Z"
+    },
+    {
+      "id": "6c3c3d35-b300-4d87-b8ee-14c9f83597f9",
+      "role": "assistant",
+      "content": "Pool time sounds like the priority for your family break. The published spa guidance gives accompanied children under 12 a 10:00–16:00 window, though the team will need to confirm access. How old is your son?",
+      "createdAt": "2026-10-05T16:12:53.973Z"
+    },
+    {
+      "id": "1ae7e35a-3c84-44b9-b32f-3697c337aceb",
+      "role": "user",
+      "content": "He's eight. We thought we'd go after sightseeing, around six.",
+      "createdAt": "2026-10-05T16:13:42.317Z"
+    },
+    {
+      "id": "d7515598-a9ed-4ce7-9bdc-a7267d8f4dbf",
+      "role": "assistant",
+      "content": "At eight, your son’s planned 18:00 swim falls outside the published children’s window of 10:00–16:00; reception will need to confirm the policy. Would an earlier swim fit your sightseeing plans?",
+      "createdAt": "2026-10-05T16:13:48.559Z"
+    },
+    {
+      "id": "9c1a34d6-6d2e-4693-8dc0-d8e17a4da22a",
+      "role": "user",
+      "content": "We could go in the morning instead.",
+      "createdAt": "2026-10-05T16:14:44.506Z"
+    },
+    {
+      "id": "0a3a261a-4d44-4bc7-9c77-af67bd74018a",
+      "role": "assistant",
+      "content": "A morning swim from 10:00 could fit the published children’s hours, subject to the team confirming access. Is there anything else you’d like the hotel to know or correct before we wrap up?",
+      "createdAt": "2026-10-05T16:14:50.163Z"
+    },
+    {
+      "id": "00bce661-6d2a-485e-b2d7-5b93426e765c",
+      "role": "user",
+      "content": "No, that's the main thing.",
+      "createdAt": "2026-10-05T16:15:33.755Z"
+    },
+    {
+      "id": "6907551c-65cb-4ddb-aecc-c52f9cdc92d1",
+      "role": "assistant",
+      "content": "Thank you—your son’s pool time is the main priority, and a morning swim could work. Reception will need to confirm child access and the applicable hours.",
+      "createdAt": "2026-10-05T16:15:40.468Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "1fc3b66e-cbff-44d2-8fd4-3f3d86d1670f",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nName: Luca — Short replies 08.\nParty: 3 guests, including Luca’s eight-year-old son; other guest’s relationship and age Unknown.\nExplicitly stated language: Unknown; conversation conducted in English.\nDates: 10–13 November 2026.\nPurpose: Family half-term break with sightseeing; son is especially excited about the pool.\nInteraction style: Brief replies; guest confirmed pool access is the main point and had nothing further to add. Keep communication focused.\nSpecial occasion: None stated.\n\nB) COORDINATION\nOwner: Reception; individual contact to confirm. Reception should coordinate with Spa Kings Court on child access and communicate the confirmed position to the family.\n\nPriority checks: Applicable child hours, accompanied access, capacity or advance-arrangement requirements, booked room category, access entitlement and any charges. The supplied hotel information is public preparation, not operationally confirmed. Dedicated spa guidance and general FAQ conflict; spa confirmation is needed before presenting access as available.\n\nC) GUEST PROFILE\nWhat matters: A family sightseeing break that includes pool time for the eight-year-old son.\n\nRoutine and flexibility: Family initially expected to swim after sightseeing, around 18:00. After learning this falls outside the published child window, Luca said a morning swim could work. This is flexibility, not a confirmed schedule.\n\nComfort, dietary constraints and allergies: Unknown; none disclosed.\nPersonal note and placement: None requested.\nBest outcome: Clear advance guidance on whether and how the family can use the pool in the morning, avoiding disappointment on arrival.\nWhat already works: Willingness to move swimming earlier.\nWatch outs: Do not imply that 18:00 child access is permitted, that a morning slot is secured, or that pool access includes childcare.\nExperience suggestions: Keep support centred on the stated pool priority; see F. No additional surprise or unrelated experience is indicated.\n\nD) RECEPTION\nConfirm the room category and practical accommodation arrangements for three guests, including the child; room type and bed configuration are Unknown.\n\nExplain the spa-confirmed child policy concisely. The dedicated page’s working reference allows accompanied children under 12 from 10:00–16:00, but conflicting general FAQ guidance requires resolution. The originally requested 18:00 swim is outside that published window.\n\nConfirm access costs and inclusions for the booked category rather than assuming Executive/Suite benefits. Relay any subsequently disclosed allergy or other relevant constraint to the responsible team for handling confirmation.\n\nE) ROOM PREPARATION\nOwner: Responsible hotel team — confirm owner.\nNo specific bedding, temperature, amenities or in-room service preferences were requested. Verify the booked sleeping arrangement is suitable for the party of three through the hotel’s normal room-preparation process.\n\nPersonal note: None requested. No themed setup, gifts or additional room preparation proposed.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nOptional pool-and-sightseeing adjustment:\nGuest cue: The son’s main interest is swimming; the family can move pool time from around 18:00 to the morning.\nKnown resource: Spa Kings Court has a relaxation pool. Published wellness hours are 10:00–22:00, with accompanied under-12 access documented as 10:00–16:00, subject to resolving the policy conflict.\nProposed adjustment: If the spa confirms access, offer the family guidance for a morning swim from 10:00 before sightseeing. This is a proposed schedule adjustment, not an existing package or reserved slot.\nOwner and checks: Reception coordinates; spa confirms child policy, adult accompaniment, capacity, any booking process, room-category entitlement, charges and pool-use requirements. Swimming costumes are required under the published guidance.\n\nExternal research: No request warranted at present. Sightseeing interests and practical constraints beyond the pool timing are Unknown; do not generate an itinerary or alternative venue without a further guest signal.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "dc7825f1-dd10-4252-983e-6898dc64b7b7",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:16:38.866Z",
+      "updatedAt": "2026-10-05T16:16:38.866Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nName: Luca — Short replies 08.\nParty: 3 guests, including Luca’s eight-year-old son; other guest’s relationship and age Unknown.\nExplicitly stated language: Unknown; conversation conducted in English.\nDates: 10–13 November 2026.\nPurpose: Family half-term break with sightseeing; son is especially excited about the pool.\nInteraction style: Brief replies; guest confirmed pool access is the main point and had nothing further to add. Keep communication focused.\nSpecial occasion: None stated.\n\nB) COORDINATION\nOwner: Reception; individual contact to confirm. Reception should coordinate with Spa Kings Court on child access and communicate the confirmed position to the family.\n\nPriority checks: Applicable child hours, accompanied access, capacity or advance-arrangement requirements, booked room category, access entitlement and any charges. The supplied hotel information is public preparation, not operationally confirmed. Dedicated spa guidance and general FAQ conflict; spa confirmation is needed before presenting access as available.\n\nC) GUEST PROFILE\nWhat matters: A family sightseeing break that includes pool time for the eight-year-old son.\n\nRoutine and flexibility: Family initially expected to swim after sightseeing, around 18:00. After learning this falls outside the published child window, Luca said a morning swim could work. This is flexibility, not a confirmed schedule.\n\nComfort, dietary constraints and allergies: Unknown; none disclosed.\nPersonal note and placement: None requested.\nBest outcome: Clear advance guidance on whether and how the family can use the pool in the morning, avoiding disappointment on arrival.\nWhat already works: Willingness to move swimming earlier.\nWatch outs: Do not imply that 18:00 child access is permitted, that a morning slot is secured, or that pool access includes childcare.\nExperience suggestions: Keep support centred on the stated pool priority; see F. No additional surprise or unrelated experience is indicated.\n\nD) RECEPTION\nConfirm the room category and practical accommodation arrangements for three guests, including the child; room type and bed configuration are Unknown.\n\nExplain the spa-confirmed child policy concisely. The dedicated page’s working reference allows accompanied children under 12 from 10:00–16:00, but conflicting general FAQ guidance requires resolution. The originally requested 18:00 swim is outside that published window.\n\nConfirm access costs and inclusions for the booked category rather than assuming Executive/Suite benefits. Relay any subsequently disclosed allergy or other relevant constraint to the responsible team for handling confirmation.\n\nE) ROOM PREPARATION\nOwner: Responsible hotel team — confirm owner.\nNo specific bedding, temperature, amenities or in-room service preferences were requested. Verify the booked sleeping arrangement is suitable for the party of three through the hotel’s normal room-preparation process.\n\nPersonal note: None requested. No themed setup, gifts or additional room preparation proposed.\n\nF) RECEPTION — EXPERIENCE SUPPORT\nOptional pool-and-sightseeing adjustment:\nGuest cue: The son’s main interest is swimming; the family can move pool time from around 18:00 to the morning.\nKnown resource: Spa Kings Court has a relaxation pool. Published wellness hours are 10:00–22:00, with accompanied under-12 access documented as 10:00–16:00, subject to resolving the policy conflict.\nProposed adjustment: If the spa confirms access, offer the family guidance for a morning swim from 10:00 before sightseeing. This is a proposed schedule adjustment, not an existing package or reserved slot.\nOwner and checks: Reception coordinates; spa confirms child policy, adult accompaniment, capacity, any booking process, room-category entitlement, charges and pool-use requirements. Swimming costumes are required under the published guidance.\n\nExternal research: No request warranted at present. Sightseeing interests and practical constraints beyond the pool timing are Unknown; do not generate an itinerary or alternative venue without a further guest signal.",
+      "promptVersion": "brief-v1"
+    }
+  ],
+  "invitations": []
+}
