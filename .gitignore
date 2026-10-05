@@ -21,7 +21,6 @@ secrets/
 *.sqlite
 *.sqlite3
 *.sqlite-*
-*.sql
 *.dump
 *.bak
 *.zip
@@ -36,6 +35,7 @@ data/private/
 data/real/
 tmp/
 .tmp/
+.local/
 
 # Dependencies and generated output
 node_modules/

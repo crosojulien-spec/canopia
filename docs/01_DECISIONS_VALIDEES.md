@@ -62,7 +62,7 @@ Les informations publiques sont des sources de préparation. Une validation de l
 - Le brouillon apparaît dans le dashboard, rattaché au séjour.
 - L'opérateur peut relire, modifier, copier et exporter le brief, notamment en fichier .txt.
 - Julien réalise ensuite manuellement la mise en forme dans Gamma ou dans le template approprié à l'hôtel, puis la transmission finale.
-- La structure A–F du GPT actuel est une référence complète disponible, pas une preuve que son format répond déjà à tous les hôtels. Le détail du format cible reste à arbitrer lorsqu'une différence est nécessaire.
+- Structure A–F conservée après validation, « Experience suggestions » et intitulés adaptés aux rôles de chaque hôtel. Les anciens exemples restent des références avec leurs réserves, pas des sorties irréprochables.
 
 ## Propositions de service et routage
 
@@ -78,6 +78,14 @@ Le socle ne recherche pas lui-même sur Internet des partenaires, événements o
 Les propositions restent soumises à l'équipe de l'hôtel. Le produit ne réserve pas, ne promet pas et n'envoie pas une offre d'expérience au voyageur automatiquement.
 
 ## Construction et autonomie
+
+### Lancement et arbitrages confirmés dans la session de développement
+
+- Le 5 octobre 2026, Julien a demandé « Developpe » : la construction du socle est lancée dans ce projet. Les interdictions de dépense, d'envoi réel et de déploiement restent en vigueur.
+- En cas d'arrêt/refus : produire un brief minimal à partir des informations déjà recueillies, avec une mention très visible du souhait du client de ne pas les voir utilisées pour personnaliser son séjour. Aucune nouvelle suggestion d'expérience dans cette branche. Le délai de conservation des données reste à décider.
+- Format validé : structure A–F conservée, « BlooM Experience Tips » remplacé par « Experience suggestions », intitulés adaptés aux rôles connus de l'hôtel, réception en l'absence de concierge.
+- Édition/régénération validée : chaque régénération crée une nouvelle version sans écraser les précédentes ; l'export utilise la version sélectionnée et enregistrée dans le dashboard.
+- Langue confirmée : toute l'application est en anglais, y compris la console opérateur, la conversation et les briefs.
 
 - Développement direct avec Codex, dans un projet Git indépendant et privé.
 - Dépôt confirmé par Julien le 5 octobre 2026 : `crosojulien-spec/canopia`, privé, lié au dossier local `C:\Users\croso\Desktop\Canopia_Codex_Preparation`. La mise en place de Git ne vaut pas autorisation de lancer la construction.

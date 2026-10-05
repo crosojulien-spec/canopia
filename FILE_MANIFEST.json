@@ -1,50 +1,106 @@
 {
   "created_on": "2026-10-05",
-  "description": "Preparation package; no application implementation.",
+  "description": "Canopia local application, preparation documents, prompts, DNA and fictional historical examples. Excludes private runtime data and secrets.",
   "files": {
+    ".env.example": {
+      "bytes": 861,
+      "sha256": "77223f4bf86105e210c482fe1b7e0d666a857b1d9f0ec37cee4a1788548ef21e"
+    },
     ".gitattributes": {
       "bytes": 345,
       "sha256": "ea196037a1c77eebad9382f8a5a0bf273c042cbeff4672ad83e86234853c0cd8"
     },
     ".gitignore": {
-      "bytes": 679,
-      "sha256": "3b40bac15f65ed56c49f220c79d817fae1b1c3b33023b1354458a14750740a05"
+      "bytes": 681,
+      "sha256": "312863b65e01aef35f77daacbe766792fdac9dffeaa393a2e1ae30642721eeca"
+    },
+    ".prettierrc.json": {
+      "bytes": 73,
+      "sha256": "7c51d9691a2c0e596709038190d47bf636d5727d0054fcc3f752c81e9c606e7a"
     },
     "AGENTS.md": {
       "bytes": 4653,
       "sha256": "1c6dd88451946e4497c8c2f38fa88e459164a0edb4c8cbf06ded58a569121e1e"
     },
     "README.md": {
-      "bytes": 4072,
-      "sha256": "de80f6e1aa1660714c86ced85a5bacbef9132e25fc05955f1c2a1233c2871573"
+      "bytes": 6228,
+      "sha256": "501dbbaefba6f73922081626c4eee15e6979344b53c272d0d1c5430c43e56507"
     },
     "START_HERE.txt": {
       "bytes": 1781,
       "sha256": "e4d37445998c6fa2073509d219924f0d6db7db8369585ee3e58b0cb0f5de6f04"
     },
+    "client/App.tsx": {
+      "bytes": 36879,
+      "sha256": "cce7a901245dc476cef3efcf97d6a914c5ff71a9fea5c879ed6b0451bc27274d"
+    },
+    "client/Guest.tsx": {
+      "bytes": 8799,
+      "sha256": "b4c3cc2e3799ba8838050de45d95148fb171dcb247df97a479a8d2ba5f4db560"
+    },
+    "client/StayWorkspace.tsx": {
+      "bytes": 19790,
+      "sha256": "2cf96611c05bbd4ce6f0a0480b8b9347de27c5f5d8040d0ba2163ec838f35708"
+    },
+    "client/api.ts": {
+      "bytes": 508,
+      "sha256": "fb244bee7a8b122d65ea2f1049deeb1a027e0afb8c7a5445754175a46c3e924a"
+    },
+    "client/main.tsx": {
+      "bytes": 242,
+      "sha256": "6cbf32e5dd4efb807b04f3fd79c196e84e1e46ed152a4d7279439276ef525826"
+    },
+    "client/styles.css": {
+      "bytes": 34057,
+      "sha256": "701fd085724608aa86bf3dd9367c837559495eeb4ac7d0001c64cf13a2695c88"
+    },
+    "data/dna/Golden Well.md": {
+      "bytes": 2034,
+      "sha256": "945da6eecb401e482596ed930505444047aa8c041abe05dbf0cce5d756fa29ef"
+    },
+    "data/dna/Hotel Amour Nice.md": {
+      "bytes": 1987,
+      "sha256": "8bc5ee4615230fcd43e48cf499d58aed93fd10e02e2be3619d2c6bc89c34fef2"
+    },
+    "data/dna/Kings Court.md": {
+      "bytes": 2133,
+      "sha256": "ff1d8269b69ec9c6a3ca7bf06791a126ec24790579cafe0bb5383d2bdba9b797"
+    },
+    "data/dna/Pavillon de la Reine.md": {
+      "bytes": 1951,
+      "sha256": "02ea6b6127c5c6bed5c4eecd888a995ca7d49209570265e287b6e1b8626da061"
+    },
     "data/hotel_selection.json": {
-      "bytes": 4337,
-      "sha256": "41c3f8a9734be6243e5d65c0ae7776e0ab18c451d931bb7d790596a94ac7c1ef"
+      "bytes": 4769,
+      "sha256": "52d18b0fb5f5fd99a3169b558ef79179ce58982f96201bae6b472dc0bd843511"
     },
     "docs/01_DECISIONS_VALIDEES.md": {
-      "bytes": 7511,
-      "sha256": "43e80ebd3a8d2aedb142b83165d6d65eb8d62c518fd3594a331a2b5a2da8a523"
+      "bytes": 8644,
+      "sha256": "92a9d4489b616d56d8061d446c8c76704a24f506efbcabba04c9ad704b1534fb"
     },
     "docs/02_PLAN_DE_RECONSTRUCTION.md": {
-      "bytes": 5506,
-      "sha256": "1e6c4c42437f03330aeb48e3aea8bbf3195a362049a6cfff81a3ccc9e5d2d61c"
+      "bytes": 5714,
+      "sha256": "19db9d4c11e4318126c82dfccc6f46c92dacec925195e9702eb83f5c662b347c"
     },
     "docs/03_QUESTIONS_OUVERTES.md": {
-      "bytes": 4531,
-      "sha256": "1c985e249bcb4533cb4aabbbb4f80ee4bc47190d62448ecac76aa0739b8193bc"
+      "bytes": 4639,
+      "sha256": "be530990a390672ffa947add848240dd14d5d48f024dac3a7bea8b78552d61f3"
     },
     "docs/04_CRITERES_DE_VERIFICATION.md": {
-      "bytes": 3557,
-      "sha256": "7faa0e30231dc1fb6d34a99c3201e1f8687f20e9e794f0397514c3a468849c3d"
+      "bytes": 3604,
+      "sha256": "9b909e70526a267bb26df780dfaef4752703cb371a7dddf6d47302f8717c481a"
     },
     "docs/05_EXTENSION_HACKATHON.md": {
       "bytes": 3639,
       "sha256": "8ed29106afa4168250c6337f59a66f20a21b35a4786d974c8a1f20ab6ff5782e"
+    },
+    "docs/Connections and operation.md": {
+      "bytes": 5250,
+      "sha256": "d39ddd5b366040228ea780b2b98565c4164b42119de6f95363324e749bc7a195"
+    },
+    "docs/Verification report.md": {
+      "bytes": 4886,
+      "sha256": "a6890961689137dd79112520f47d461a86216ae1cdfe850ee856ff8b69535bfc"
     },
     "fixtures/historical/README.md": {
       "bytes": 1629,
@@ -154,6 +210,30 @@
       "bytes": 3604,
       "sha256": "489f7a3a57c9d6ba54ef90882a80f1bd367f8fb060ccb96280f8563f0f881a51"
     },
+    "index.html": {
+      "bytes": 451,
+      "sha256": "21443c1deccc73f12d7b189ac3a302c11a4833665549d8569c86956ccbaf4e46"
+    },
+    "package-lock.json": {
+      "bytes": 116921,
+      "sha256": "b82c0eb1b6582e51edb9249e8ba85d14ad1dc1a3b38fe68a4d9f24153b9a14a0"
+    },
+    "package.json": {
+      "bytes": 1311,
+      "sha256": "f5d9ecac5a128929b7beb8815fcdda7e03b2f8c86eca71d0efe1e7224c888251"
+    },
+    "playwright.config.ts": {
+      "bytes": 1167,
+      "sha256": "8a2df2e974d2fb92ba10730d250ebb2e9a217009316308ba44cabd422232d989"
+    },
+    "prompts/brief-v1.txt": {
+      "bytes": 3768,
+      "sha256": "ccffc4234bbcbb43daa6f9fa9ab962559d4ffedfa24cf28a39d7e94e177d391b"
+    },
+    "prompts/conversation-v1.txt": {
+      "bytes": 3277,
+      "sha256": "170f2efbff83f6b46e31e60ecafdbfaba1d0098430b88388668873263a503747"
+    },
     "prompts/legacy/README.md": {
       "bytes": 864,
       "sha256": "e991addd92766457c021ea6ff16bc4308c884af95976deeed7a0336cfaa3e2c3"
@@ -210,6 +290,46 @@
       "bytes": 8814,
       "sha256": "93e77f164d17118f9cf30ec93d88426b1519742b6bb777f29b1b26a3324794d4"
     },
+    "scripts/demo.ts": {
+      "bytes": 388,
+      "sha256": "45a12091ff8311faa435924468295ebbf63f4dd0cc0870017cf86bff9a2a754f"
+    },
+    "server/ai.ts": {
+      "bytes": 7685,
+      "sha256": "a4b11696656d318325b3eb23d32a8bedac6e972ed44f5c800712416838d3a288"
+    },
+    "server/app.ts": {
+      "bytes": 12897,
+      "sha256": "f7ab6524a9febf988cb43f283fb9063b3efef575b85617a76a8c1e796f4c5ba3"
+    },
+    "server/config.ts": {
+      "bytes": 2945,
+      "sha256": "c7fe3887dcaa0a7788a13de92ebd7b016070be4d84471947934fda39d9fcb5be"
+    },
+    "server/db.ts": {
+      "bytes": 3310,
+      "sha256": "9f64a8bf18039ad9214a6571ce32557f082dcc24960bb7ba0f35f32850b40910"
+    },
+    "server/index.ts": {
+      "bytes": 1623,
+      "sha256": "e46b8e2986eb1e0c6d5350cc304a803dd79c72811d5836db4dc80080f40b555b"
+    },
+    "server/security.ts": {
+      "bytes": 1756,
+      "sha256": "b21778450d731113fcc48eb565c077c513a735a6a248dca9efdb1a8112c98638"
+    },
+    "server/seed.ts": {
+      "bytes": 2650,
+      "sha256": "0e5a7fc05ec7acbc53cd8b3a013cff45b98ec8dafa1b4d89f89d2016c1beebbe"
+    },
+    "server/service.ts": {
+      "bytes": 24479,
+      "sha256": "5359b18a01b5b730f1f630565a71702b1300d64c6036cf188002b8b359dc79dd"
+    },
+    "shared/types.ts": {
+      "bytes": 3697,
+      "sha256": "e8ae4b2c2333c3d333e2127a57f9e1ac4894807465e60e99a24d64327ee38195"
+    },
     "sources/README.md": {
       "bytes": 685,
       "sha256": "0b69063456c8e0c70bb6a771a4e505e4584d97bd9b908152ff9545dd5a12aa6f"
@@ -217,7 +337,22 @@
     "sources/source_index.json": {
       "bytes": 17997,
       "sha256": "04ff978f29350987fb6da16b25142c7bc380ca7d68eef32223be4907888af150"
+    },
+    "tests/browser/journey.spec.ts": {
+      "bytes": 8104,
+      "sha256": "4b47add10d76f7deb1c294f89136293992b631afec492ea3510043f8324c4bc3"
+    },
+    "tests/workflows.test.ts": {
+      "bytes": 12666,
+      "sha256": "610db0cc05e7aea41dd36ec904cc881990f4694d2851d3fc2627356c96d3f39e"
+    },
+    "tsconfig.json": {
+      "bytes": 568,
+      "sha256": "2e369738c2225ef70e7a115243fad208e84f1e1c1f1406ab6e2364eb45eee462"
+    },
+    "vite.config.ts": {
+      "bytes": 159,
+      "sha256": "c688bbccbb01af74f753931f0d63a4b4d5acc46dd8ba370018b3bd74e0f9a14f"
     }
-  },
-  "updated_on": "2026-10-05"
+  }
 }

@@ -1,6 +1,6 @@
 # Plan de reconstruction proposé
 
-Ce plan décrit une séquence de travail. Aucun fournisseur, modèle, framework ou hébergement n'est réputé validé par ce document.
+Ce plan conserve la séquence proposée avant le lancement. La construction a été autorisée le 5 octobre 2026 ; voir `README.md` et `Verification report.md` pour l'état réel. Les choix techniques réversibles sont React/TypeScript, Express et PostgreSQL local via PGlite. Aucun modèle payant ni hébergement n'est choisi par ce document.
 
 ## 1. Vérifier et compléter le dossier
 

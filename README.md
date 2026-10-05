@@ -1,19 +1,49 @@
-# Canopia — préparation de la reconstruction avec Codex
+# Canopia — application locale
 
-Version de cadrage du 5 octobre 2026, après les décisions de Julien jusqu'à 15 h 22 (heure de Paris).
+État du 5 octobre 2026. La construction a été lancée par Julien dans cette session.
 
-Ce dossier contient le cadrage validé, les instructions historiques et des exemples récupérés. Il ne contient pas encore la nouvelle application, l'export intégral du code Replit ni les quatre nouvelles fiches ADN complètes. Aucun développement, déploiement ou envoi d'invitation n'a été effectué pour constituer ce dossier.
+Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN et les exemples historiques. La console, la conversation et les briefs sont en anglais. Aucun appel IA payant, envoi d'e-mail ou déploiement n'a été effectué. Les quatre nouveaux ADN sont des fiches de préparation issues des sources publiques ; ils ne sont pas validés par les hôtels.
 
 ## Utilisation
 
-1. Extraire ce dossier dans un répertoire dédié sur l'ordinateur qui servira au développement.
-2. Ouvrir ce répertoire dans Codex.
-3. Copier le texte de `START_HERE.txt` dans la nouvelle session pour préparer le plan et vérifier les accès.
-4. Résoudre avec Julien les choix bloquants, puis lancer la construction lorsqu'il le demande.
+Node.js 22.12+ requis (24.18 utilisé ici). Depuis ce dossier :
 
-Git a été initialisé dans ce dossier le 5 octobre 2026. Le dépôt privé confirmé par Julien est [crosojulien-spec/canopia](https://github.com/crosojulien-spec/canopia), sur la branche `main`. Le commit initial `a7a9ed4` conserve le paquet de préparation original. L'environnement d'hébergement reste à choisir et le lancement de la construction reste à confirmer. Ne pas supposer que les connecteurs ou l'historique de cette conversation seront accessibles dans une autre session.
+```powershell
+npm ci
+npm run dev
+```
 
-Le dépôt contient la documentation, les prompts, les fiches ADN et les exemples historiques. Le code applicatif y sera ajouté après autorisation de lancement. Les secrets, bases locales, journaux et exports non triés sont exclus par `.gitignore` ; tout nouvel import doit aussi être contrôlé avant commit. `FILE_MANIFEST.json` décrit les fichiers de préparation courants, hors lui-même et hors métadonnées Git.
+Ouvrir **http://127.0.0.1:4310**, puis créer ton compte opérateur avec ton propre mot de passe. Aucun compte n'est préconfiguré. Les données persistent dans `.local/postgres` et une clé locale est créée dans `.local/installation.key`. Conserver ces deux éléments ensemble pour déplacer une installation. Ils sont exclus de Git.
+
+L'IA et l'envoi d'e-mails sont désactivés par défaut. Pour répéter le parcours sans appel externe, avec une base distincte :
+
+```powershell
+$env:CANOPIA_AI_MODE='simulation'
+$env:CANOPIA_DATA_DIR='.local/rehearsal'
+npm run dev
+```
+
+Le raccourci `npm run demo` active aussi ce mode avec une base distincte et force les connexions externes à rester désactivées. Les réponses simulées sont fixes et explicitement signalées. Elles ne prouvent ni la qualité du dialogue GPT ni la faisabilité des propositions. Fermer la session PowerShell pour retirer ses réglages temporaires. Ne pas lancer deux serveurs sur le même dossier de données.
+
+Git a été initialisé dans ce dossier le 5 octobre 2026. Le dépôt privé confirmé par Julien est [crosojulien-spec/canopia](https://github.com/crosojulien-spec/canopia), sur la branche `main`. Le commit initial `a7a9ed4` conserve le paquet de préparation original. L'environnement d'hébergement reste à choisir. Ne pas supposer que les connecteurs ou l'historique de cette conversation seront accessibles dans une autre session.
+
+Le dépôt contient le code applicatif, la documentation, les prompts, les fiches ADN et les exemples historiques. Les secrets, bases locales, journaux et exports non triés sont exclus par `.gitignore`. `FILE_MANIFEST.json` décrit les fichiers versionnés, hors lui-même et hors métadonnées Git.
+
+## Fonctionnalités et vérification
+
+Console protégée par mot de passe, ADN versionnés avec documents texte/Markdown, création de séjour, lien invité aléatoire expirant et révocable, invitation éditable, conversation, génération automatique, relecture, versions séparées et export `.txt`. Un refus produit un relevé minimal qui interdit clairement la personnalisation. Les corrections enregistrées sont protégées contre les sauvegardes concurrentes.
+
+React/TypeScript/Vite pour les écrans ; Express pour le serveur ; PostgreSQL local avec PGlite. `DATABASE_URL` permet un raccordement PostgreSQL ultérieur, non testé à distance. L'ancien Replit reste intact. L'agent de recherche n'est pas construit : seul son contrat de raccordement existe.
+
+```powershell
+npm run build
+npm test
+npm run test:e2e
+```
+
+Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Les appels OpenAI et SMTP réels restent à vérifier après autorisation. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
+
+Voir [Connections and operation](docs/Connections%20and%20operation.md) pour les accès nécessaires et [Verification report](docs/Verification%20report.md) pour la portée des contrôles. `.env.example` contient seulement les noms de configuration. Aucune clé réelle ne doit être copiée dans le code ou la conversation.
 
 ## Ordre de lecture
 
@@ -36,7 +66,7 @@ Le dépôt contient la documentation, les prompts, les fiches ADN et les exemple
 
 Les nouvelles instructions de Julien priment sur ce dossier. Dans ce dossier, `docs/01_DECISIONS_VALIDEES.md` prime sur les anciens prompts, les briefs de test et le rapport d'audit. Un document historique n'établit pas à lui seul qu'une fonction est active ou correcte.
 
-En particulier : l'ADN est un contexte riche pour comprendre et composer du service ; la conversation s'adapte déjà à cet ADN ; le brief texte sera généré automatiquement ; sa mise en forme finale restera manuelle ; la recherche complémentaire sur la personne est une expérimentation séparée pour le hackathon.
+En particulier : l'ADN est un contexte riche pour comprendre et composer du service ; le brief texte est généré automatiquement à la clôture normale ; la qualité du dialogue réel reste à évaluer avec le modèle choisi. La mise en forme finale et la transmission restent manuelles. La recherche complémentaire est réservée au hackathon.
 
 ## Statut des données incluses
 

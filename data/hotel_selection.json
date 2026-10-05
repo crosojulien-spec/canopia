@@ -39,7 +39,7 @@
       "city": "Prague",
       "country": "Czech Republic",
       "selected_by_julien": true,
-      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_status": "public_preparation_profile_operator_review_pending",
       "knowledge_file": null,
       "official_url": "https://www.hotelkingscourt.cz/",
       "research_starting_points": [
@@ -48,7 +48,8 @@
         "https://www.hotelkingscourt.cz/restaurant",
         "https://www.hotelkingscourt.cz/rooms-in-prague/executive-room-with-lounge-and-spa-access"
       ],
-      "note": "Larger Prague case. Preliminary sources show room-category-dependent spa access, treatment policies and event capabilities. Operator and real availability not confirmed."
+      "note": "Larger Prague case. Preliminary sources show room-category-dependent spa access, treatment policies and event capabilities. Operator and real availability not confirmed.",
+      "preparation_file": "data/dna/Kings Court.md"
     },
     {
       "id": "golden_well_prague",
@@ -56,7 +57,7 @@
       "city": "Prague",
       "country": "Czech Republic",
       "selected_by_julien": true,
-      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_status": "public_preparation_profile_operator_review_pending",
       "knowledge_file": null,
       "official_url": "https://www.goldenwell.cz/",
       "research_starting_points": [
@@ -64,7 +65,8 @@
         "https://www.goldenwell.cz/packages/discover-your-prague",
         "https://www.terasauzlatestudne.cz/"
       ],
-      "note": "Small boutique Prague case, publicly described as 17 rooms and 2 suites. Rich hospitality and restaurant context; do not infer missing facilities."
+      "note": "Small boutique Prague case, publicly described as 17 rooms and 2 suites. Rich hospitality and restaurant context; do not infer missing facilities.",
+      "preparation_file": "data/dna/Golden Well.md"
     },
     {
       "id": "pavillon_reine_paris",
@@ -72,7 +74,7 @@
       "city": "Paris",
       "country": "France",
       "selected_by_julien": true,
-      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_status": "public_preparation_profile_operator_review_pending",
       "knowledge_file": null,
       "official_url": "https://www.pavillon-de-la-reine.com/",
       "research_starting_points": [
@@ -80,7 +82,8 @@
         "https://en.chevalier-paris.com/notre-histoire",
         "https://uploads-ssl.webflow.com/61922acc89d695f4154d50a0/61fd55c657ab0d22d3de8344_FACT%20SHEET-PDLR-EN-WEB-V2.pdf"
       ],
-      "note": "Independent family collection Chevalier Paris. Detailed factsheet available but some restaurant details are historical and must be checked against current sources."
+      "note": "Independent family collection Chevalier Paris. Detailed factsheet available but some restaurant details are historical and must be checked against current sources.",
+      "preparation_file": "data/dna/Pavillon de la Reine.md"
     },
     {
       "id": "hotel_amour_nice",
@@ -88,11 +91,14 @@
       "city": "Nice",
       "country": "France",
       "selected_by_julien": true,
-      "knowledge_status": "research_and_full_profile_to_prepare",
+      "knowledge_status": "public_preparation_profile_operator_review_pending",
       "knowledge_file": null,
-      "official_url": null,
-      "research_starting_points": [],
-      "note": "Explicit replacement for WindsoR. Verify official property identity, services and ownership before preparing its profile; no facts invented from its name."
+      "official_url": "https://hotelamourparis.fr/hotel-amour-nice/",
+      "research_starting_points": [
+        "https://hotelamourparis.fr/hotel-amour-plage/"
+      ],
+      "note": "Official Nice property and beach pages read on 2026-10-05. Current seasonal closure notices and operational unknowns remain explicit in the preparation profile.",
+      "preparation_file": "data/dna/Hotel Amour Nice.md"
     }
   ]
 }

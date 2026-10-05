@@ -1,6 +1,6 @@
 # Critères de vérification proposés
 
-Ces critères sont une traduction technique proposée des décisions produit. Ils ne décrivent pas des tests déjà exécutés sur la future app.
+Ces critères traduisent les décisions produit. Leur état d'exécution et leurs limites sont décrits dans `Verification report.md` ; un critère listé ici n'est pas automatiquement validé.
 
 | Parcours / risque | Vérification utile |
 |---|---|
