@@ -102,6 +102,11 @@ test('operator, traveller, review, versions and refusal — simulated AI', async
   await expect(page.getByRole('heading', { name: 'Six hotels. Six distinct worlds.' })).toBeVisible();
   await page.screenshot({ path: '.local/screenshots/hotels.png', fullPage: true });
   await page.getByRole('button', { name: /Golden Well/ }).click();
+  await expect(page.getByText('1. Review status and use', { exact: true })).toBeVisible();
+  await page.getByText('8. Composition possibilities — proposals for staff', { exact: true }).click();
+  await expect(page.getByRole('cell', { name: /Avoids feather pillows/ })).toBeVisible();
+  await page.screenshot({ path: '.local/screenshots/dna-review.png', fullPage: true });
+  await page.getByRole('button', { name: 'Edit text', exact: true }).click();
   await page
     .getByLabel('Hotel DNA text')
     .fill(

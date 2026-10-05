@@ -55,6 +55,8 @@ L'ADN intervient avant et pendant le dialogue, puis à nouveau pendant la géné
 
 Les informations publiques sont des sources de préparation. Une validation de l'opérateur n'est pas présentée comme une confirmation reçue de l'hôtel.
 
+Le 5 octobre 2026, Julien a demandé un enrichissement approfondi et standardisé des six hôtels, y compris les deux fiches historiques : documents publics, menus/ingrédients, tarifs avec conditions, confort/oreillers, services et possibilités d'adaptation. L'objectif est de permettre des compositions nouvelles à partir des capacités réellement documentées. La présence d'un ingrédient ou d'un service donne une base de proposition, pas une autorisation ni une inclusion gratuite. Les inconnues, sources secondaires, informations historiques et contradictions restent explicites pour la relecture.
+
 ## Génération et usage du brief
 
 - À la fin normale de la conversation, génération automatique d'un brouillon texte à partir du séjour, de la conversation et de la fiche ADN correspondante.

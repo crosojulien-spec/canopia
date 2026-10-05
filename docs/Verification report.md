@@ -1,13 +1,13 @@
 # Verification report — 5 October 2026
 
-The local implementation passes compilation, eight server workflow tests and one complete browser journey. This is a working local rehearsal with simulated responses. Live GPT quality, email delivery, remote PostgreSQL and hosting are **not verified**.
+The local implementation passes compilation, nine server/data tests and one complete browser journey. This is a working local rehearsal with simulated responses. Live GPT quality, email delivery, remote PostgreSQL and hosting are **not verified**.
 
 ## Checks completed
 
 | Evidence | Result and scope |
 |---|---|
 | `npm run build` | Strict TypeScript check and Vite production bundle pass. |
-| `npm test` | Eight tests pass against real in-memory PGlite and Express endpoints; AI is simulated or deliberately made to fail. |
+| `npm test` | Nine tests pass against real in-memory PGlite and Express endpoints, including research refresh protection; AI is simulated or deliberately made to fail. |
 | `npm run test:e2e` | One full journey passes in a fresh Edge context using a separate local database. |
 | `npm run format:check` | Source formatting passes. |
 | Screenshot inspection | Desktop console, six-hotel collection, guest conversation on desktop/mobile, edited brief, refusal record and mobile console inspected. Mobile overflow found during testing and corrected. |
@@ -23,7 +23,9 @@ Export evidence: the browser emitted a download with the expected `.txt` filenam
 
 The original GPT instructions, Sukhothai DNA and case 02 conversation/brief were read, along with the refusal scenario and Seven Secrets references and reviews. Historical briefs remain examples with known errors, not golden outputs. Case 02 can be loaded explicitly in the console with an unvalidated-history banner; original generation model/prompt provenance is unknown.
 
-Four public preparation profiles were added for Kings Court, Golden Well, Pavillon de la Reine and Hôtel Amour Nice. Their URLs and checks are recorded in the profiles. Public facilities and packages do not establish permission to adapt them or operational availability. Both historical profiles still need revalidation. No hotel has approved these profiles in this session.
+All six profiles were enriched through public research, including a fresh review of Seven Secrets and Sukhothai. The profiles share eleven sections and contain 88 source entries. Official pages and linked menus/brochures provide prices, ingredients, spaces and operational conditions; dated reporting and OTA leads are explicitly separated. Missing menus, ambiguous charges, seasonal closures and conflicting rules remain visible. The historical source texts remain unchanged. No hotel has approved these profiles in this session.
+
+The DNA reader was checked in the browser: expandable sections, composition tables, source links and raw-text editing. The Golden Well review screenshot was visually inspected. The migration test verifies that changed text, attachments, operator review and hotel confirmation prevent automatic replacement; earlier versions and existing stay snapshots remain intact. The live local rehearsal's six unchanged preparation profiles were updated to version 2, then the server was restarted on port 4310. A before/after hash confirmed that existing stay snapshots did not change. New stays use the enriched active profiles; the older stays deliberately retain their earlier DNA. Simulation still returns scripted replies; no real model composition was evaluated.
 
 The Replit connector performed a read-only inspection of the old Admin Console. It reported no filtered archive or usable external Git remote. Its Replit-managed AI connection is not a portable API key. A separate local frontend prototype was inspected but did not contain the required backend. Neither old project was modified; the new code is independent.
 

@@ -23,16 +23,20 @@
       "sha256": "1c6dd88451946e4497c8c2f38fa88e459164a0edb4c8cbf06ded58a569121e1e"
     },
     "README.md": {
-      "bytes": 6228,
-      "sha256": "501dbbaefba6f73922081626c4eee15e6979344b53c272d0d1c5430c43e56507"
+      "bytes": 6446,
+      "sha256": "6b804683e7c8d31601f5f7ba13d40b77c01a4ccbb54831e665eb06c827b4556e"
     },
     "START_HERE.txt": {
       "bytes": 1781,
       "sha256": "e4d37445998c6fa2073509d219924f0d6db7db8369585ee3e58b0cb0f5de6f04"
     },
     "client/App.tsx": {
-      "bytes": 36879,
-      "sha256": "cce7a901245dc476cef3efcf97d6a914c5ff71a9fea5c879ed6b0451bc27274d"
+      "bytes": 37744,
+      "sha256": "d0d5db983f104e3877de31f813807a7c8eb3bfb2794163eb9c6a1b73dd829ca0"
+    },
+    "client/DnaReview.tsx": {
+      "bytes": 2707,
+      "sha256": "3fe4b945c35282cc095529506244daf1bbae12c511607b73a8cb5398f33103cf"
     },
     "client/Guest.tsx": {
       "bytes": 8799,
@@ -51,40 +55,56 @@
       "sha256": "6cbf32e5dd4efb807b04f3fd79c196e84e1e46ed152a4d7279439276ef525826"
     },
     "client/styles.css": {
-      "bytes": 34057,
-      "sha256": "701fd085724608aa86bf3dd9367c837559495eeb4ac7d0001c64cf13a2695c88"
+      "bytes": 35328,
+      "sha256": "d3639cb6d9acef26dbaba3c900a80b8f3b19ceba414d3a615c40e334940406af"
     },
     "data/dna/Golden Well.md": {
-      "bytes": 2034,
-      "sha256": "945da6eecb401e482596ed930505444047aa8c041abe05dbf0cce5d756fa29ef"
+      "bytes": 9986,
+      "sha256": "cf089a27c12f0cef5c257fd865006a699222940143e865bbc20bb4bb96e02f0b"
     },
     "data/dna/Hotel Amour Nice.md": {
-      "bytes": 1987,
-      "sha256": "8bc5ee4615230fcd43e48cf499d58aed93fd10e02e2be3619d2c6bc89c34fef2"
+      "bytes": 10409,
+      "sha256": "d9040c9476697fb7cc40ec87b802f2bbdcd93299b0abd535d7e348772db6376c"
     },
     "data/dna/Kings Court.md": {
-      "bytes": 2133,
-      "sha256": "ff1d8269b69ec9c6a3ca7bf06791a126ec24790579cafe0bb5383d2bdba9b797"
+      "bytes": 11421,
+      "sha256": "c9e064b731c4a556cf6f1f1eceea6ebe22c33c496e2d5b8ad50cb2b0a87fbd07"
     },
     "data/dna/Pavillon de la Reine.md": {
-      "bytes": 1951,
-      "sha256": "02ea6b6127c5c6bed5c4eecd888a995ca7d49209570265e287b6e1b8626da061"
+      "bytes": 11573,
+      "sha256": "3054eff854141c0a5437b55560e09e14e4723aee1505336bd35ed3846b3171a1"
+    },
+    "data/dna/Review guide.md": {
+      "bytes": 5873,
+      "sha256": "f33f30125062113ed41bba83e43082a46c4b17da18de5ea1b7d44122c7bcd750"
+    },
+    "data/dna/Seven Secrets.md": {
+      "bytes": 13254,
+      "sha256": "7393b0f7b39ca68f57a067c58c9b055dc94b515c59e95a2b5939173892206f0c"
+    },
+    "data/dna/Sukhothai Bangkok.md": {
+      "bytes": 15177,
+      "sha256": "608fc784ccd516476016c09714e9596e8f6a116863f6dbf9f74552c3ece742ef"
+    },
+    "data/dna/release.json": {
+      "bytes": 1283,
+      "sha256": "ef427e9a0715597ba66b8ffda6067093134cc0951f85371ca8afb4d86bbfa246"
     },
     "data/hotel_selection.json": {
-      "bytes": 4769,
-      "sha256": "52d18b0fb5f5fd99a3169b558ef79179ce58982f96201bae6b472dc0bd843511"
+      "bytes": 5177,
+      "sha256": "981ef6524d11b4f453ad4f99d9181b70cae33921d5e6e2e5e7df5d14e775d13a"
     },
     "docs/01_DECISIONS_VALIDEES.md": {
-      "bytes": 8644,
-      "sha256": "92a9d4489b616d56d8061d446c8c76704a24f506efbcabba04c9ad704b1534fb"
+      "bytes": 9254,
+      "sha256": "1a00563734011dc824e022e8e6c0edbc30e1a9246fe1d0389e238e50f7df5aa6"
     },
     "docs/02_PLAN_DE_RECONSTRUCTION.md": {
       "bytes": 5714,
       "sha256": "19db9d4c11e4318126c82dfccc6f46c92dacec925195e9702eb83f5c662b347c"
     },
     "docs/03_QUESTIONS_OUVERTES.md": {
-      "bytes": 4639,
-      "sha256": "be530990a390672ffa947add848240dd14d5d48f024dac3a7bea8b78552d61f3"
+      "bytes": 4945,
+      "sha256": "6955d354ff8c539a80db7204235ec0e18d6e98f6953d7cc3e21b563c1473a679"
     },
     "docs/04_CRITERES_DE_VERIFICATION.md": {
       "bytes": 3604,
@@ -99,8 +119,8 @@
       "sha256": "d39ddd5b366040228ea780b2b98565c4164b42119de6f95363324e749bc7a195"
     },
     "docs/Verification report.md": {
-      "bytes": 4886,
-      "sha256": "a6890961689137dd79112520f47d461a86216ae1cdfe850ee856ff8b69535bfc"
+      "bytes": 5833,
+      "sha256": "b9b69c3ec75c065165518ad9c805828862637f70f672d06208cf1b294159d8da"
     },
     "fixtures/historical/README.md": {
       "bytes": 1629,
@@ -227,12 +247,12 @@
       "sha256": "8a2df2e974d2fb92ba10730d250ebb2e9a217009316308ba44cabd422232d989"
     },
     "prompts/brief-v1.txt": {
-      "bytes": 3768,
-      "sha256": "ccffc4234bbcbb43daa6f9fa9ab962559d4ffedfa24cf28a39d7e94e177d391b"
+      "bytes": 4451,
+      "sha256": "b6324bc15c948000430712e9f66b31362dc896988f6ab7f58fa70721c18ee4ec"
     },
     "prompts/conversation-v1.txt": {
-      "bytes": 3277,
-      "sha256": "170f2efbff83f6b46e31e60ecafdbfaba1d0098430b88388668873263a503747"
+      "bytes": 3736,
+      "sha256": "a302438df53f7fdcfb43dd06f81ebaa9e8e49813db94645163a45e905b9ca3fe"
     },
     "prompts/legacy/README.md": {
       "bytes": 864,
@@ -279,8 +299,8 @@
       "sha256": "0b53fdd9707494f988b8cd8f02958fd5f07de6245dcd5609d956f83f33d9f4dc"
     },
     "references/knowledge/README.md": {
-      "bytes": 678,
-      "sha256": "c5d0fe3099375a0f126e71e2b4af332861e76bf5889cb0f6d9f04e4ebaab8e5e"
+      "bytes": 898,
+      "sha256": "1519e26bf2c9d7924a92d3fb35661e8509e844329c3407a664d1d31fcd57f661"
     },
     "references/knowledge/seven_secrets_capability_profile.txt": {
       "bytes": 11974,
@@ -310,25 +330,29 @@
       "bytes": 3310,
       "sha256": "9f64a8bf18039ad9214a6571ce32557f082dcc24960bb7ba0f35f32850b40910"
     },
+    "server/hotel-profiles.ts": {
+      "bytes": 1881,
+      "sha256": "8b98a3225de40f4ae0f2d72ba2910dd70b62131a389828ca8bc1be7c04331aa5"
+    },
     "server/index.ts": {
-      "bytes": 1623,
-      "sha256": "e46b8e2986eb1e0c6d5350cc304a803dd79c72811d5836db4dc80080f40b555b"
+      "bytes": 1934,
+      "sha256": "116484b9ae11cda0b89eadbfa219a55b2fb5337d898aa4a4d1d96492c4d61897"
     },
     "server/security.ts": {
       "bytes": 1756,
       "sha256": "b21778450d731113fcc48eb565c077c513a735a6a248dca9efdb1a8112c98638"
     },
     "server/seed.ts": {
-      "bytes": 2650,
-      "sha256": "0e5a7fc05ec7acbc53cd8b3a013cff45b98ec8dafa1b4d89f89d2016c1beebbe"
+      "bytes": 2159,
+      "sha256": "3e7b8f4687509a86acd52a0b6bda71f430e513fcc7f231c4b22037c3ea8ba55e"
     },
     "server/service.ts": {
       "bytes": 24479,
       "sha256": "5359b18a01b5b730f1f630565a71702b1300d64c6036cf188002b8b359dc79dd"
     },
     "shared/types.ts": {
-      "bytes": 3697,
-      "sha256": "e8ae4b2c2333c3d333e2127a57f9e1ac4894807465e60e99a24d64327ee38195"
+      "bytes": 3710,
+      "sha256": "1c90ba81e02cb55742e4722e3620b354e123be5b17f6622e0e9d96d0cebcf7ee"
     },
     "sources/README.md": {
       "bytes": 685,
@@ -339,8 +363,12 @@
       "sha256": "04ff978f29350987fb6da16b25142c7bc380ca7d68eef32223be4907888af150"
     },
     "tests/browser/journey.spec.ts": {
-      "bytes": 8104,
-      "sha256": "4b47add10d76f7deb1c294f89136293992b631afec492ea3510043f8324c4bc3"
+      "bytes": 8556,
+      "sha256": "37c88174b5ff5fedfb4d507c9c50ea85ab9533376883dcf5dc103c6d07d73965"
+    },
+    "tests/hotel-profiles.test.ts": {
+      "bytes": 3320,
+      "sha256": "948018be32bdbaac6f3c8ea2972af6dfe8582630e40ca5f42a70078793efd625"
     },
     "tests/workflows.test.ts": {
       "bytes": 12666,

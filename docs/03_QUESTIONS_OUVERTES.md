@@ -9,8 +9,8 @@ Une inconnue n'est pas un défaut démontré. Vérifier d'abord les éléments a
 | Modèle et budget | Modèle cible, estimation d'usage et plafond si des dépenses nouvelles sont nécessaires | Avant les appels payants et engagements |
 | Expéditeur d'invitation | Adresse, nom affiché, domaine et autorisation technique d'envoi | Avant les essais e-mail réels |
 | Destinataire de test | Adresse contrôlée choisie par Julien | Avant tout envoi d'essai |
-| ADN des quatre nouveaux hôtels | Quatre fiches préparatoires sourcées sont dans `data/dna/`. Relecture opérateur et vérification opérationnelle restent nécessaires. | Avant de présenter des capacités comme confirmées |
-| Fiches historiques | Actualité, règles manquantes, validation reçue de l'hôtel ou non | Avant de considérer les fiches comme opérationnelles |
+| ADN des six hôtels | Six fiches enrichies et standardisées dans `data/dna/`, avec 88 références, menus/tarifs publiés, capacités et compositions conditionnelles. Manques et contradictions propres à chaque hôtel : rubrique 10 et guide de relecture. | Relecture opérateur et confirmation hôtel avant de présenter les capacités comme opérationnelles |
+| Fiches historiques | Les originaux sont conservés ; Seven Secrets et Sukhothai ont désormais une fiche actualisée sur sources publiques. Prix anciens, informations secondaires et règles historiques non corroborées restent séparés. | Ne pas réintroduire les anciens faits non vérifiés dans les nouvelles fiches |
 | Rôles d'équipe | Concierge, réception, guest relations et autres responsabilités réelles | Lors de la préparation des ADN et du routage |
 | Format du brief | Résolu : A–F, « Experience suggestions », rôles adaptés. | Décision consignée dans `01_DECISIONS_VALIDEES.md` |
 | Arrêt et refus | Résolu : brief minimal avec informations recueillies et refus très visible ; aucune nouvelle suggestion. Le délai de conservation reste ouvert. | Branche implémentée ; conservation avant vrais voyageurs |

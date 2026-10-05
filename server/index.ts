@@ -9,7 +9,14 @@ import { CanopiaService } from './service.ts';
 import { createApp } from './app.ts';
 const config = loadConfig();
 const db = await openDatabase(config.dataDir, config.databaseUrl);
-await seedHotels(db);
+const profileUpdates = await seedHotels(db);
+for (const result of profileUpdates) {
+  if (result.action === 'updated' || result.action === 'preserved') {
+    console.log(
+      `Hotel DNA ${result.id}: ${result.action}${result.action === 'preserved' ? ' — operator review needed to merge the research edition' : ''}`,
+    );
+  }
+}
 const service = new CanopiaService(db, config, makeProvider(config));
 await service.recover();
 const app = createApp(service);

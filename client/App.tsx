@@ -20,6 +20,7 @@ import type { Hotel, RuntimeInfo, Stay, StayDetail as Detail } from '../shared/t
 import { api } from './api.ts';
 import { StayWorkspace } from './StayWorkspace.tsx';
 import { Guest } from './Guest.tsx';
+import { DnaReview } from './DnaReview.tsx';
 
 export function Brand() {
   return (
@@ -779,6 +780,7 @@ function Hotels({
   onDirty: (v: boolean) => void;
 }) {
   const [selected, setSelected] = useState<Hotel | null>(null),
+    [editing, setEditing] = useState(false),
     [dna, setDna] = useState(''),
     [role, setRole] = useState<Hotel['conciergeStatus']>('unknown'),
     [reviewed, setReviewed] = useState(false),
@@ -794,6 +796,7 @@ function Hotels({
   function open(h: Hotel | null) {
     if (dirty && !confirm('Discard unsaved DNA edits?')) return;
     setSelected(h);
+    setEditing(false);
     setDna(h?.dna || '');
     setRole(h?.conciergeStatus || 'unknown');
     setReviewed(h?.reviewed || false);
@@ -868,18 +871,30 @@ function Hotels({
         {saved && <Notice>{saved}</Notice>}
         <div className="dna-layout">
           <section className="card dna-editor">
-            <label>
-              Hotel DNA
-              <textarea
-                aria-label="Hotel DNA text"
-                value={dna}
-                onChange={(e) => {
-                  setDna(e.target.value);
-                  mark();
-                }}
-                rows={28}
-              />
-            </label>
+            <div className="dna-view-switch" role="group" aria-label="DNA display">
+              <button type="button" aria-pressed={!editing} onClick={() => setEditing(false)}>
+                Read profile
+              </button>
+              <button type="button" aria-pressed={editing} onClick={() => setEditing(true)}>
+                Edit text
+              </button>
+            </div>
+            {!editing ? (
+              <DnaReview text={dna} key={`${selected.id}-${selected.version}`} />
+            ) : (
+              <label>
+                Hotel DNA
+                <textarea
+                  aria-label="Hotel DNA text"
+                  value={dna}
+                  onChange={(e) => {
+                    setDna(e.target.value);
+                    mark();
+                  }}
+                  rows={28}
+                />
+              </label>
+            )}
           </section>
           <aside className="stack">
             <section className="card">
@@ -915,14 +930,18 @@ function Hotels({
               </p>
             </section>
             <section className="card">
-              <h3>Reference sources</h3>
-              {selected.sources.map((s, i) => (
-                <a className="source-link" href={s.url} target="_blank" rel="noreferrer" key={i}>
-                  {s.title}
-                  <ArrowUpRight size={14} />
-                  <small>{s.checkedAt}</small>
-                </a>
-              ))}
+              <details className="dna-sources">
+                <summary>Reference sources ({selected.sources.length})</summary>
+                {selected.sources.map((s, i) => (
+                  <a className="source-link" href={s.url} target="_blank" rel="noreferrer" key={i}>
+                    {s.title}
+                    <ArrowUpRight size={14} />
+                    <small>
+                      {s.status} · checked {s.checkedAt}
+                    </small>
+                  </a>
+                ))}
+              </details>
             </section>
             <section className="card">
               <h3>Supporting documents</h3>

@@ -6,7 +6,7 @@ export interface Source {
   title: string;
   url: string;
   checkedAt: string;
-  status: 'public' | 'historical' | 'operator';
+  status: 'public' | 'historical' | 'reported' | 'operator';
 }
 export interface Hotel {
   id: string;

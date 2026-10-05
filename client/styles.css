@@ -1912,6 +1912,76 @@ tbody tr:hover {
   font-size: 9px;
   color: var(--muted);
 }
+.dna-view-switch {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.dna-view-switch button {
+  padding: 8px 13px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.dna-view-switch button[aria-pressed='true'] {
+  background: #e7eee7;
+  color: #254837;
+}
+.dna-review {
+  min-width: 0;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.dna-review details {
+  border-top: 1px solid var(--line);
+  padding: 15px 0;
+}
+.dna-review summary,
+.dna-sources summary {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.dna-section-body {
+  padding-top: 5px;
+}
+.dna-section-body p {
+  margin: 12px 0;
+}
+.dna-section-body li {
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+}
+.dna-review a {
+  text-decoration: underline;
+}
+.dna-table-scroll {
+  overflow-x: auto;
+  margin: 15px 0;
+}
+.dna-table-scroll table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  min-width: 500px;
+}
+.dna-table-scroll th,
+.dna-table-scroll td {
+  padding: 10px 9px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.dna-table-scroll th {
+  font-weight: 600;
+  background: #f4f5f0;
+}
+.dna-sources .source-link {
+  overflow-wrap: anywhere;
+}
 .setup-note {
   margin-top: 23px;
 }

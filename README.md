@@ -2,7 +2,7 @@
 
 État du 5 octobre 2026. La construction a été lancée par Julien dans cette session.
 
-Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN et les exemples historiques. La console, la conversation et les briefs sont en anglais. Aucun appel IA payant, envoi d'e-mail ou déploiement n'a été effectué. Les quatre nouveaux ADN sont des fiches de préparation issues des sources publiques ; ils ne sont pas validés par les hôtels.
+Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN enrichies et les exemples historiques. La console, la conversation et les briefs sont en anglais. Aucun appel IA payant, envoi d'e-mail ou déploiement n'a été effectué. Les six ADN ont été documentés sur le web le 5 octobre 2026, avec menus, prix, capacités, propositions et limites distincts ; ils ne sont pas validés par les hôtels. Le [guide de relecture](data/dna/Review%20guide.md) décrit leur structure, les manques et l'import versionné qui protège les corrections et les anciens séjours.
 
 ## Utilisation
 

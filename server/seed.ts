@@ -1,65 +1,53 @@
-import { readFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
 import type { Database } from './db.ts';
 import type { Hotel } from '../shared/types.ts';
+import { dnaHash, loadHotelProfiles, type PreparedHotel } from './hotel-profiles.ts';
+
 export async function seedHotels(db: Database) {
-  const selection = JSON.parse(await readFile(resolve('data/hotel_selection.json'), 'utf8'));
-  const files: Record<string, string> = {
-    kings_court_prague: 'data/dna/Kings Court.md',
-    golden_well_prague: 'data/dna/Golden Well.md',
-    pavillon_reine_paris: 'data/dna/Pavillon de la Reine.md',
-    hotel_amour_nice: 'data/dna/Hotel Amour Nice.md',
-  };
-  for (const item of selection.hotels) {
-    const existing = await db.query('SELECT id FROM hotels WHERE id=$1', [item.id]);
-    if (existing.rows.length) continue;
-    const dna = await readFile(resolve(files[item.id] || item.knowledge_file), 'utf8');
-    const checked: Record<string, string[]> = {
-      kings_court_prague: [
-        'https://www.hotelkingscourt.cz/',
-        'https://www.hotelkingscourt.cz/spa-in-prague',
-        'https://www.hotelkingscourt.cz/meetings-in-prague',
-      ],
-      golden_well_prague: [
-        'https://www.goldenwell.cz/',
-        'https://www.goldenwell.cz/packages/discover-your-prague',
-      ],
-      pavillon_reine_paris: [
-        'https://www.pavillon-de-la-reine.com/',
-        'https://www.pavillon-de-la-reine.com/spa',
-      ],
-      hotel_amour_nice: [
-        'https://hotelamourparis.fr/hotel-amour-nice/',
-        'https://hotelamourparis.fr/hotel-amour-plage/',
-      ],
-    };
-    const urls = checked[item.id] || ([item.official_url].filter(Boolean) as string[]);
-    const historical = Boolean(item.knowledge_file);
-    const hotel: Hotel = {
-      id: item.id,
-      name: item.name,
-      city: item.city,
-      country: item.country,
-      dna,
-      version: 1,
-      conciergeStatus:
-        item.id === 'pavillon_reine_paris' || item.id === 'sukhothai_bangkok' ? 'present' : 'unknown',
-      reviewed: false,
-      operationallyConfirmed: false,
-      documents: [],
-      sources: urls.map((url: string) => ({
-        title: historical ? 'Historical profile reference — refresh needed' : 'Official preparation source',
-        url,
-        checkedAt: historical ? 'Historical; current validity unverified' : '2026-10-05',
-        status: historical ? 'historical' : 'public',
-      })),
-    };
-    await db.transaction(async (tx) => {
-      await tx.query('INSERT INTO hotels(id,data) VALUES($1,$2)', [hotel.id, JSON.stringify(hotel)]);
-      await tx.query('INSERT INTO dna_versions(hotel_id,version,data) VALUES($1,1,$2)', [
+  return installHotelProfiles(db, await loadHotelProfiles());
+}
+
+export async function installHotelProfiles(db: Database, profiles: PreparedHotel[]) {
+  const results: { id: string; action: 'created' | 'updated' | 'unchanged' | 'preserved' }[] = [];
+  for (const profile of profiles) {
+    const action = await db.transaction(async (tx) => {
+      const existing = (
+        await tx.query<{ data: Hotel }>('SELECT data FROM hotels WHERE id=$1 FOR UPDATE', [profile.hotel.id])
+      ).rows[0]?.data;
+      if (existing && dnaHash(existing.dna) === dnaHash(profile.hotel.dna)) return 'unchanged' as const;
+      // Only replace the exact original unreviewed preparation. Never overwrite
+      // operator text, attachments or a hotel-confirmed/reviewed profile on startup.
+      if (
+        existing &&
+        (existing.reviewed ||
+          existing.operationallyConfirmed ||
+          existing.documents.length > 0 ||
+          !profile.previousUnreviewedHashes.includes(dnaHash(existing.dna)))
+      ) {
+        return 'preserved' as const;
+      }
+      const hotel: Hotel = existing
+        ? {
+            ...existing,
+            dna: profile.hotel.dna,
+            sources: profile.hotel.sources,
+            version: existing.version + 1,
+            reviewed: false,
+            operationallyConfirmed: false,
+          }
+        : profile.hotel;
+      if (existing) {
+        await tx.query('UPDATE hotels SET data=$2 WHERE id=$1', [hotel.id, JSON.stringify(hotel)]);
+      } else {
+        await tx.query('INSERT INTO hotels(id,data) VALUES($1,$2)', [hotel.id, JSON.stringify(hotel)]);
+      }
+      await tx.query('INSERT INTO dna_versions(hotel_id,version,data) VALUES($1,$2,$3)', [
         hotel.id,
+        hotel.version,
         JSON.stringify(hotel),
       ]);
+      return existing ? ('updated' as const) : ('created' as const);
     });
+    results.push({ id: profile.hotel.id, action });
   }
+  return results;
 }

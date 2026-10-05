@@ -4,4 +4,4 @@ Deux textes extraits sont fournis : Sukhothai hotel input 2.0 (huit pages dans l
 
 Ils fournissent une identité et des possibilités de service riches, mais ne démontrent pas à eux seuls l'approbation de l'établissement ni la disponibilité actuelle de chaque prestation. Leurs versions de référence pour la nouvelle app devront être relues.
 
-Les quatre autres hôtels sont identifiés dans `data/hotel_selection.json`. Leurs fiches complètes restent à préparer. Ne pas créer une fiche prétendument complète avec des capacités supposées.
+Les six fiches de préparation enrichies sont maintenant dans `data/dna/`, avec un registre de sources et une file de vérification par hôtel. Les deux textes de ce dossier restent des références historiques intactes ; ils ne sont plus utilisés comme ADN initial par l'application. Les profils publics ne valent pas validation opérationnelle. Voir `data/dna/Review guide.md` pour les niveaux de preuve et les limites.
