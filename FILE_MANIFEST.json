@@ -2,13 +2,21 @@
   "created_on": "2026-10-05",
   "description": "Preparation package; no application implementation.",
   "files": {
+    ".gitattributes": {
+      "bytes": 345,
+      "sha256": "ea196037a1c77eebad9382f8a5a0bf273c042cbeff4672ad83e86234853c0cd8"
+    },
+    ".gitignore": {
+      "bytes": 679,
+      "sha256": "3b40bac15f65ed56c49f220c79d817fae1b1c3b33023b1354458a14750740a05"
+    },
     "AGENTS.md": {
       "bytes": 4653,
       "sha256": "1c6dd88451946e4497c8c2f38fa88e459164a0edb4c8cbf06ded58a569121e1e"
     },
     "README.md": {
-      "bytes": 3412,
-      "sha256": "c58123fe4a2839e9f310ff5a86f18e3205f3c6b235fd4300555c1df99d5919a2"
+      "bytes": 4072,
+      "sha256": "de80f6e1aa1660714c86ced85a5bacbef9132e25fc05955f1c2a1233c2871573"
     },
     "START_HERE.txt": {
       "bytes": 1781,
@@ -19,16 +27,16 @@
       "sha256": "41c3f8a9734be6243e5d65c0ae7776e0ab18c451d931bb7d790596a94ac7c1ef"
     },
     "docs/01_DECISIONS_VALIDEES.md": {
-      "bytes": 7274,
-      "sha256": "ad0c1f7640c5f0215e5c4505bb85308b68a6fcd109a4fc98fb06b20f277fd1fc"
+      "bytes": 7511,
+      "sha256": "43e80ebd3a8d2aedb142b83165d6d65eb8d62c518fd3594a331a2b5a2da8a523"
     },
     "docs/02_PLAN_DE_RECONSTRUCTION.md": {
       "bytes": 5506,
       "sha256": "1e6c4c42437f03330aeb48e3aea8bbf3195a362049a6cfff81a3ccc9e5d2d61c"
     },
     "docs/03_QUESTIONS_OUVERTES.md": {
-      "bytes": 4304,
-      "sha256": "42fa7ec9a5bbcf527bee7585178a1b3c483e74f1e30445a3baf56d3310237279"
+      "bytes": 4531,
+      "sha256": "1c985e249bcb4533cb4aabbbb4f80ee4bc47190d62448ecac76aa0739b8193bc"
     },
     "docs/04_CRITERES_DE_VERIFICATION.md": {
       "bytes": 3557,
@@ -210,5 +218,6 @@
       "bytes": 17997,
       "sha256": "04ff978f29350987fb6da16b25142c7bc380ca7d68eef32223be4907888af150"
     }
-  }
+  },
+  "updated_on": "2026-10-05"
 }

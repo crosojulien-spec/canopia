@@ -80,6 +80,7 @@ Les propositions restent soumises à l'équipe de l'hôtel. Le produit ne réser
 ## Construction et autonomie
 
 - Développement direct avec Codex, dans un projet Git indépendant et privé.
+- Dépôt confirmé par Julien le 5 octobre 2026 : `crosojulien-spec/canopia`, privé, lié au dossier local `C:\Users\croso\Desktop\Canopia_Codex_Preparation`. La mise en place de Git ne vaut pas autorisation de lancer la construction.
 - Développement et hébergement hors Replit ; l'ancien Replit sert de référence et doit rester intact.
 - Priorité aux comptes et services existants pour l'IA, l'e-mail, la base et l'hébergement ; aucun nouveau budget chiffré n'a été validé.
 - Préparation ici, puis construction dans une session Codex liée au dossier local et au dépôt choisi.

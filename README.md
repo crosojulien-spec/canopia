@@ -11,7 +11,9 @@ Ce dossier contient le cadrage validé, les instructions historiques et des exem
 3. Copier le texte de `START_HERE.txt` dans la nouvelle session pour préparer le plan et vérifier les accès.
 4. Résoudre avec Julien les choix bloquants, puis lancer la construction lorsqu'il le demande.
 
-Le dossier n'est pas un dépôt Git initialisé. Le compte, le nom du dépôt privé et l'environnement d'hébergement restent à choisir. Ne pas supposer que les connecteurs ou l'historique de cette conversation seront accessibles dans une autre session.
+Git a été initialisé dans ce dossier le 5 octobre 2026. Le dépôt privé confirmé par Julien est [crosojulien-spec/canopia](https://github.com/crosojulien-spec/canopia), sur la branche `main`. Le commit initial `a7a9ed4` conserve le paquet de préparation original. L'environnement d'hébergement reste à choisir et le lancement de la construction reste à confirmer. Ne pas supposer que les connecteurs ou l'historique de cette conversation seront accessibles dans une autre session.
+
+Le dépôt contient la documentation, les prompts, les fiches ADN et les exemples historiques. Le code applicatif y sera ajouté après autorisation de lancement. Les secrets, bases locales, journaux et exports non triés sont exclus par `.gitignore` ; tout nouvel import doit aussi être contrôlé avant commit. `FILE_MANIFEST.json` décrit les fichiers de préparation courants, hors lui-même et hors métadonnées Git.
 
 ## Ordre de lecture
 

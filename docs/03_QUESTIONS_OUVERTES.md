@@ -4,7 +4,6 @@ Une inconnue n'est pas un défaut démontré. Vérifier d'abord les éléments a
 
 | Sujet | Ce qui manque | Moment utile |
 |---|---|---|
-| Dossier et Git | Machine/dossier cible, compte, nom du dépôt privé et accès | Avant publication du code dans le dépôt |
 | Code historique | Export complet, filtré et disponible hors Replit | Avant de choisir ce qui est repris ou réécrit |
 | Comptes techniques | Services IA, base, hébergement et e-mail réellement accessibles ; tarifs/crédits éventuels | Avant de figer l'architecture |
 | Modèle et budget | Modèle cible, estimation d'usage et plafond si des dépenses nouvelles sont nécessaires | Avant les appels payants et engagements |
@@ -21,6 +20,10 @@ Une inconnue n'est pas un défaut démontré. Vérifier d'abord les éléments a
 | Interface opérateur | Langue et direction visuelle détaillée non choisies ; proposition possible : anglais pour faciliter la reprise par l'équipe | Avant de figer les écrans |
 | Cas de référence | Choix final des exemples pour la démo et critères de qualité acceptés | Avant de déclarer la démonstration prête |
 | Hackathon | Conditions de réemploi du code antérieur, personnes/sources de test et placement exact du module | Avant le travail de recherche pendant l'événement |
+
+## Point résolu le 5 octobre 2026
+
+Le dossier cible est `C:\Users\croso\Desktop\Canopia_Codex_Preparation`. Le compte GitHub `crosojulien-spec` et sa connexion Git ont été vérifiés. Julien a confirmé le nom `canopia` ; le dépôt `crosojulien-spec/canopia` a été créé et sa visibilité privée vérifiée. Le choix d'hébergement reste ouvert.
 
 ## Tensions historiques à ne pas corriger silencieusement
 
