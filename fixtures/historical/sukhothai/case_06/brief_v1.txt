@@ -1,0 +1,75 @@
+A) BASIC INFO
+Name: Sixth Tester 
+Amount of people: 1 
+Nationality & language: Unknown nationality; English (en) 
+Dates: Check-in 2026-01-21 / Check-out 2026-01-24 
+Purpose of visit: City visit / general exploration 
+Interaction style: Flexible; “depends on the day” → default to discreet, low-friction service 
+Special event: None 
+B) EVENT OWNER
+Event owner: Guest Relations 
+C) GUEST PROFILE (Template Fields)
+Guest Intro (2–3 sentences max)
+Solo guest visiting Bangkok for a general city experience with minimal stated preferences. Comfortable with standard settings and does not seek extensive engagement; interaction preference varies by day. Prioritize calm, discreet service with simple, optional touchpoints. 
+Preferred scent: Forest / green-woody (keep subtle; avoid heavy scenting) 
+Food restrictions or allergies: None stated 
+Note to leave in the room: “Welcome to The Sukhothai Bangkok. We’ve set the room to a comfortable temperature; please dial Guest Relations anytime if you’d like any adjustments.” 
+Place for the note: Desk or bedside table 
+Best thing possible: Seamless, non-intrusive stay—room ready, settings “normal,” and concierge support offered as a simple option (not a conversation). 
+Already good: Guest is easygoing (“normal” temperature/pillows; eats everything; no special occasion). 
+Watch outs:
+Avoid prolonged questioning; guest opted to stop the discovery early. 
+Avoid asking about blackout curtains / sleep aids unless guest initiates. 
+Keep in-room touches minimal and uncluttered. 
+Special surprise: Consider a single understated green foliage touch (small arrangement) and/or a concise “forest/green” tonal cue via existing in-room amenities if available—no sprays, no strong diffusers. 
+BlooM Experience Tips (internal add-on; 3–6 bullets max)
+Default to “quiet luxury” pacing; offer help once, then step back. 
+Use binary choices if needed (“Would you like 22°C or 24°C?”) vs open-ended questions. 
+Keep room surfaces clear; avoid multiple amenities laid out at once. 
+If engaging, suggest 1–2 options only (not a long list). 
+D) RECEPTION
+Guest Intro (1–2 sentences max; can reuse shortened version)
+Solo guest on a general Bangkok visit; prefers discreet, low-friction support and minimal questioning. 
+Room ready information (to be confirmed by Event owner) (3–6 bullets)
+Prepare room temperature set to 22–24°C (target 23°C). 
+Set standard/medium pillows as default (no specialty swaps unless requested). 
+Keep turn-down/service touches minimal; prioritize tidy, uncluttered look. 
+Place welcome note at desk/bedside; keep messaging concise. 
+Flag “avoid extra preference interviews” across teams. 
+Introduce Concierge to offer personalised assistance (2–4 bullets)
+Offer concierge support as an option, not a conversation: “If you’d like, Concierge can share a short list for temples, modern spots, and food.” 
+Keep it to 1–2 follow-up questions max (time of day + interest mix). 
+Provide a simple contact path (QR/extension) so guest can initiate later. 
+E) ROOM SERVICE (Room Setup / In-Room Preferences)
+Guest Intro (1–2 sentences max)
+Easygoing solo guest; prefers “normal” settings and minimal fuss. 
+Temperature: 22–24°C (set 23°C as default) 
+Pillows: Standard/medium “normal pillows” 
+Blankets: Standard duvet; no additional layering unless requested (keep bed presentation simple) 
+Flowers: Small green foliage arrangement only (if available); avoid strong florals 
+Colour: Green / natural tones 
+Fruits & small snacks: Minimal set—small seasonal fruit plate (green-toned where possible) + water; avoid cluttered snack displays 
+To take away from the room: Remove excess collateral/extras; keep only essentials visible 
+Best thing possible: Guest returns to a room that feels calm, neutral, and ready—temperature set, surfaces clear, subtle “forest/green” tone. 
+Already good: No restrictions and flexible service preference—simple baseline likely to satisfy. 
+Watch outs: Avoid heavy scenting (no sprays); avoid over-amenitizing; avoid check-in style questioning in-room. 
+F) CONCIERGE
+Guest Intro (1–2 sentences max)
+Solo guest seeking “a bit of everything” in Bangkok; prefers optional help and minimal back-and-forth. 
+Guest background (2–4 bullets max)
+General city exploration; no specific hobby focus stated. 
+Flexible interaction preference; default to discreet approach. 
+Preferred scent: Forest / green 
+Food restrictions or allergies: None stated 
+Welcome check (1 suggested line/question that can enrich recommendations; operational tone)
+“For your city time, would you prefer a calm/heritage day, a modern/neighbourhood day, or a food-led day—so I can keep the list short?” 
+Potential actions (3–6 bullets; things concierge can prepare; use placeholders where needed)
+Prepare 2–3 concise itineraries (half-day each) aligned to “bit of everything.” 
+[Concierge to fill: 2–3 cultural/heritage highlights suitable for Jan 21–24]
+[Concierge to fill: 2–3 modern/neighbourhood areas for walking + cafes]
+[Concierge to fill: 2–3 food options (Thai + casual + refined) that fit discreet dining tone] 
+Offer practical support: transfers/taxis timing, simple booking handling, and low-touch check-ins via message if guest prefers. 
+Potential actions based on guest intro (2–5 bullets; fan-out of scent/allergy/interactions to bookings)
+Keep recommendations calm, refined, and non-party oriented (property alignment). 
+Offer 1–2 options per category (not an exhaustive list); allow guest to decide quickly. 
+If proposing any spa/wellness, position as optional “reset time” rather than a programmed schedule.

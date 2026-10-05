@@ -1,0 +1,98 @@
+{
+  "as_of": "2026-10-05",
+  "count": 6,
+  "status": "selected_hotels_not_validated_operational_profiles",
+  "hotels": [
+    {
+      "id": "seven_secrets_lombok",
+      "name": "Seven Secrets by Hanging Gardens",
+      "city": "Lombok",
+      "country": "Indonesia",
+      "selected_by_julien": true,
+      "knowledge_status": "historical_text_included_review_needed",
+      "knowledge_file": "references/knowledge/seven_secrets_capability_profile.txt",
+      "official_url": "https://www.sevensecretsresorts.com/",
+      "research_starting_points": [
+        "https://www.sevensecretsresorts.com/activities",
+        "https://sevensecretsresorts.com/accommodations",
+        "https://www.sevensecretsresorts.com/offers"
+      ],
+      "note": "Historical conversation, briefs and suggestions included. Revalidate dated facts; do not imply current operational approval."
+    },
+    {
+      "id": "sukhothai_bangkok",
+      "name": "The Sukhothai Bangkok",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "selected_by_julien": true,
+      "knowledge_status": "historical_text_included_review_needed",
+      "knowledge_file": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+      "official_url": "https://bangkok.sukhothai.com/",
+      "research_starting_points": [
+        "https://scadmin.hkri.com/en/Our-Businesses/Hotel-Operations-and-Leisure-Businesses/Thailand/The-Sukhothai-Bangkok"
+      ],
+      "note": "Historical test corpus and knowledge file included. Part of HKR International; retained explicitly for continuity."
+    },
+    {
+      "id": "kings_court_prague",
+      "name": "Hotel Kings Court",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "selected_by_julien": true,
+      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_file": null,
+      "official_url": "https://www.hotelkingscourt.cz/",
+      "research_starting_points": [
+        "https://www.hotelkingscourt.cz/spa-in-prague",
+        "https://www.hotelkingscourt.cz/meetings-in-prague",
+        "https://www.hotelkingscourt.cz/restaurant",
+        "https://www.hotelkingscourt.cz/rooms-in-prague/executive-room-with-lounge-and-spa-access"
+      ],
+      "note": "Larger Prague case. Preliminary sources show room-category-dependent spa access, treatment policies and event capabilities. Operator and real availability not confirmed."
+    },
+    {
+      "id": "golden_well_prague",
+      "name": "Golden Well / U Zlate Studne",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "selected_by_julien": true,
+      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_file": null,
+      "official_url": "https://www.goldenwell.cz/",
+      "research_starting_points": [
+        "https://www.goldenwell.cz/rooms-suites",
+        "https://www.goldenwell.cz/packages/discover-your-prague",
+        "https://www.terasauzlatestudne.cz/"
+      ],
+      "note": "Small boutique Prague case, publicly described as 17 rooms and 2 suites. Rich hospitality and restaurant context; do not infer missing facilities."
+    },
+    {
+      "id": "pavillon_reine_paris",
+      "name": "Le Pavillon de la Reine",
+      "city": "Paris",
+      "country": "France",
+      "selected_by_julien": true,
+      "knowledge_status": "full_profile_to_prepare",
+      "knowledge_file": null,
+      "official_url": "https://www.pavillon-de-la-reine.com/",
+      "research_starting_points": [
+        "https://www.pavillon-de-la-reine.com/spa",
+        "https://en.chevalier-paris.com/notre-histoire",
+        "https://uploads-ssl.webflow.com/61922acc89d695f4154d50a0/61fd55c657ab0d22d3de8344_FACT%20SHEET-PDLR-EN-WEB-V2.pdf"
+      ],
+      "note": "Independent family collection Chevalier Paris. Detailed factsheet available but some restaurant details are historical and must be checked against current sources."
+    },
+    {
+      "id": "hotel_amour_nice",
+      "name": "Hotel Amour Nice",
+      "city": "Nice",
+      "country": "France",
+      "selected_by_julien": true,
+      "knowledge_status": "research_and_full_profile_to_prepare",
+      "knowledge_file": null,
+      "official_url": null,
+      "research_starting_points": [],
+      "note": "Explicit replacement for WindsoR. Verify official property identity, services and ownership before preparing its profile; no facts invented from its name."
+    }
+  ]
+}

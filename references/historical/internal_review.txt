@@ -1,0 +1,53 @@
+Test 1 Ultra tired couple
+There should already be eye masks prepared and closed curtains. In case the guest is alone, the eye mask should be placed on the night stand on the side of the bed where the guest sleeps
+At third answer of the guest this should trigger a spa recommendation – this needs to be highlighted by the reception at arrival
+Preferences: citruses and calm and relax and orchideis and bannanas and healthy snacks
+Actions: welcome drink with lemon, towels for cleaning hands with lemon scent, spa informed about lemon preference; orchideis everywhere where possible; bannanas in the room; cereal based / unprocessed bars in the room
+Reception to propose newspapers and options – do you want any of them to be delivered into your room?
+Small gift – if markapage with hotel logo exists, put it on one of the nightstands or both
+Actions for guest manager: if possible, check if guests rested well after first night and if they would be in mood for exploration 
+Test 2 Family with child, severe allergy
+Preferences: jasmin, any flowers in the room, mangoes
+Actions: similar as Test 1
+Actions for guest manager: introduce concierge options (very high level: we have many options on things you can do around hotel connected to art, music or animals – opening door on things that are possible but not in intrusive way – creates interest) >> especially if reinforced by the fact they like to talk to people
+Test 3 Solo business guest, short stay
+Business guest should have laundry, executive services if possible for the hotel, such as monitor, possibility of printing documents at the reception
+Preferences: coffee
+Actions: reception to ask if the guest has routine when it comes to coffee – type and to be delivered at certain times
+Reception to mention gym as the guest likes to run – show where it is (specify)
+Actions for guest manager: introduce concierge options (discuss with guest how many km he likes to run and propose possible routes around the hotel – if specified park – recommendation how to get to different parks is possible; recommend music bars around as the guest likes music – to disconnect from work for a bit
+Overall: careful approach considering the tone of the conversation – guest doesn’t have time to chit chat, busy
+Test 4 Celebration couple, honeymoon
+Guest open to do a lot of things but not overdo it >> best approach is to keep everything opened while proposing good phase of activities
+Preferences: vanilla, rose peadles on bed, mangoes, oreos, French rap
+ Actions: vanilla needs to be used (it’s liked by both) – can be scent in the room or even real vanilla, welcome drink – if liked by both, use vanilla as much as possible; place rose peadles on bed if possible, mangoes and oreos (or similar) in the room
+Reception mention ‘Congratulations’ or honeymoon process if exists
+Actions for guest manager: honeymoon process if exists; introduce concierge options
+Side note unicorn: it’s tricky but it’s also big value as product – take the initiative on doing something else with the teddybear and the unicorn; example: in case of pick-up at the airport there can be same picture as placed on the bed placed on the backseats of the car or create moment of surprises, like in case of booking at hotel restaurant and on the level of interaction accessed on site by the personal welcome them with confirming their booking under teddybear and unicorn
+Test 5 Sarcastic ironic guest
+Conversation is being strange, extra attention on addressing the guest is necessary
+High risk move but to be considered as the one on the teddybear level: banana on one night stand and peach on the other
+In the end considering the tone, the only thing to consider as data is flowers and little note – recommendation of placement not on the toilet, but close
+Test 6 Very minimalist guest
+Actions for guest manager: introduce concierge options – he can propose sight seeing tours or best places to visit
+Forest and green are not precise enough; scents and flowers not enough to recommend anything
+Not much to be taken except room comfort info
+Test 7 Very talkative, oversharing guest
+Important: separate blankets – it’s a must; if possible ticket blanket option for wife as temperature of room might be cold for her; eye mask for wife
+Back pain warning (of wife) – spa should be aware
+Avoid strong scents, avoid that smell in the room due to sensitivity to pollen – only possibility is orchid in the bathroom
+Preferences: fruits and healthy snack
+Actions for guest manager: introduce concierge - encourage support on outside activities tours discoveries, as guest highlights interest in having hassle free experience
+Note is missing due to too general answer from the guest >> needs to be created based on comment and acknowledgment in the conversation, although the wording is not clearly stated
+Test 8 Culture clash
+Preferences: dates, flowers, sweet scents
+Guests comment on sweet heavy scent – not enough info to do a bet
+Reception to mention
+Actions for guest manager: introduce concierge - need of transportation assistance has been explicitly requested by the guest – needs to be action on
+Test 9 Long stay
+Guest mentioned need of taking a nap after journey – put sleeping masks into the room; placement of the room mentioned – to be considered by hotel if possible
+Preferences: scent mentioned as grepfruit or citrus (recommended to action already in welcome drink, room and to be communicated for potential spa bookings
+Scent should be among info for room service but it’s missing the preferred scent
+The note although clearly not stated (text not clearly stated) >> should be ‘I am glad we’re doing this together’ >> if the sentence is not clearly stated by the guest but gesture validated by the customer, gpt needs to simulate the wording based on what has been given by the guest on the question
+Test 10 Annoyed, distrustful guest
+Mistrust from the guest, request to end the conversation done >> no output for the experience else there might be challenge that his data was still used

@@ -1,0 +1,214 @@
+{
+  "created_on": "2026-10-05",
+  "description": "Preparation package; no application implementation.",
+  "files": {
+    "AGENTS.md": {
+      "bytes": 4653,
+      "sha256": "1c6dd88451946e4497c8c2f38fa88e459164a0edb4c8cbf06ded58a569121e1e"
+    },
+    "README.md": {
+      "bytes": 3412,
+      "sha256": "c58123fe4a2839e9f310ff5a86f18e3205f3c6b235fd4300555c1df99d5919a2"
+    },
+    "START_HERE.txt": {
+      "bytes": 1781,
+      "sha256": "e4d37445998c6fa2073509d219924f0d6db7db8369585ee3e58b0cb0f5de6f04"
+    },
+    "data/hotel_selection.json": {
+      "bytes": 4337,
+      "sha256": "41c3f8a9734be6243e5d65c0ae7776e0ab18c451d931bb7d790596a94ac7c1ef"
+    },
+    "docs/01_DECISIONS_VALIDEES.md": {
+      "bytes": 7274,
+      "sha256": "ad0c1f7640c5f0215e5c4505bb85308b68a6fcd109a4fc98fb06b20f277fd1fc"
+    },
+    "docs/02_PLAN_DE_RECONSTRUCTION.md": {
+      "bytes": 5506,
+      "sha256": "1e6c4c42437f03330aeb48e3aea8bbf3195a362049a6cfff81a3ccc9e5d2d61c"
+    },
+    "docs/03_QUESTIONS_OUVERTES.md": {
+      "bytes": 4304,
+      "sha256": "42fa7ec9a5bbcf527bee7585178a1b3c483e74f1e30445a3baf56d3310237279"
+    },
+    "docs/04_CRITERES_DE_VERIFICATION.md": {
+      "bytes": 3557,
+      "sha256": "7faa0e30231dc1fb6d34a99c3201e1f8687f20e9e794f0397514c3a468849c3d"
+    },
+    "docs/05_EXTENSION_HACKATHON.md": {
+      "bytes": 3639,
+      "sha256": "8ed29106afa4168250c6337f59a66f20a21b35a4786d974c8a1f20ab6ff5782e"
+    },
+    "fixtures/historical/README.md": {
+      "bytes": 1629,
+      "sha256": "179416746f4a20eed9ff7d796fec61ddaa19c56b4c616b7ed5cdde243d9cb588"
+    },
+    "fixtures/historical/case_index.json": {
+      "bytes": 4197,
+      "sha256": "d38c76374c1a90ac4a5cba8b4656b872eeac1a1e5f87145597dbfb9d6a66b533"
+    },
+    "fixtures/historical/seven_secrets/brief_bahasa_historical.txt": {
+      "bytes": 8813,
+      "sha256": "7a90707d0d0e384c297988e85561649f05ab80772016fb7cff676fe78ca5257a"
+    },
+    "fixtures/historical/seven_secrets/brief_coordinator_en.txt": {
+      "bytes": 7628,
+      "sha256": "467d529c914dc8cc7fb0f53337371fb6c1dbf472d6ffbf7d2933fa05ef035057"
+    },
+    "fixtures/historical/seven_secrets/conversation.txt": {
+      "bytes": 6014,
+      "sha256": "4a49da0f162c3ca6b89fbe719bc186a530fc132b74e049d12072dfb37a78127f"
+    },
+    "fixtures/historical/seven_secrets/experience_suggestions.txt": {
+      "bytes": 4532,
+      "sha256": "c8945e5dbd97dbeac654946d8626823d0fb369d4c32c3b092e7de4a6e6d7617b"
+    },
+    "fixtures/historical/sukhothai/case_01/brief_v1.txt": {
+      "bytes": 6806,
+      "sha256": "1e9515f398ad1298e4236a83e8b85891352aaf6e71b8a26b56f5b056c4f8eb0b"
+    },
+    "fixtures/historical/sukhothai/case_01/conversation.txt": {
+      "bytes": 3850,
+      "sha256": "73f5f319f53d080def562f92340c60b2f254f3c940b73562f0c8b5c096259f6c"
+    },
+    "fixtures/historical/sukhothai/case_02/brief_v1.txt": {
+      "bytes": 6869,
+      "sha256": "5984f9d4951ff6ae7c65decc722c9581a3b01b8d74d0a4ac28f568c3cc114acc"
+    },
+    "fixtures/historical/sukhothai/case_02/brief_v2.txt": {
+      "bytes": 6777,
+      "sha256": "ff07af951a491269fbdfccd1c03f00e9f2ef2aef63a9dc3c653f0a5a599a0df6"
+    },
+    "fixtures/historical/sukhothai/case_02/conversation.txt": {
+      "bytes": 3563,
+      "sha256": "c9ba61f22bc02d4c9221e7e8ff4a56346250b76c06d0674cf2d979191f2b88e8"
+    },
+    "fixtures/historical/sukhothai/case_03/brief_v1.txt": {
+      "bytes": 5734,
+      "sha256": "03a66c2f8d5a038d11f93e83cea9c8791302a2de09bfd2c57e57bcdf402a17a8"
+    },
+    "fixtures/historical/sukhothai/case_03/conversation.txt": {
+      "bytes": 3681,
+      "sha256": "168036c73b238b2180d6437dba6fa94179898971b16534ac48c201ab5d27eafe"
+    },
+    "fixtures/historical/sukhothai/case_04/brief_v1.txt": {
+      "bytes": 6562,
+      "sha256": "eb3a4bab771e8e56e531004008e10abcde21c5174408f300b47480d14c876630"
+    },
+    "fixtures/historical/sukhothai/case_04/conversation.txt": {
+      "bytes": 4423,
+      "sha256": "4d58a1f9a87aa0ca7d552d43d087a6267ecfbbf301288e2169bf14ad2c202193"
+    },
+    "fixtures/historical/sukhothai/case_05/brief_v1.txt": {
+      "bytes": 7059,
+      "sha256": "fc96ab404230b1fa001b16599f4960aff8dd099f8660b829bbc01c52788fd1e4"
+    },
+    "fixtures/historical/sukhothai/case_05/conversation.txt": {
+      "bytes": 6719,
+      "sha256": "164c943dcfb1d2ab95cd3e1a11b8b61061863fa6b545c6483aeb94c3865f8510"
+    },
+    "fixtures/historical/sukhothai/case_06/brief_v1.txt": {
+      "bytes": 5698,
+      "sha256": "380d4b286f68cc489186c788279d1f2b0739af71830669b391a8750038a85f31"
+    },
+    "fixtures/historical/sukhothai/case_06/conversation.txt": {
+      "bytes": 2507,
+      "sha256": "5e74bf9a8526992bdfe5841bd4a863598828b8f36f40f4f72db47ddedfaf5ce7"
+    },
+    "fixtures/historical/sukhothai/case_07/brief_v1.txt": {
+      "bytes": 9213,
+      "sha256": "c72718c979c39ed062dbfa683ac49aafdf4ad0980bde21fd81c8337084e84391"
+    },
+    "fixtures/historical/sukhothai/case_07/conversation.txt": {
+      "bytes": 12747,
+      "sha256": "09a64970967af6d317385dbff4221b45c6e7472a6f1e7218ec005fa7cbde4ff5"
+    },
+    "fixtures/historical/sukhothai/case_08/brief_v1.txt": {
+      "bytes": 6768,
+      "sha256": "a73999b931ecc1dd4890dbc7f48e131ac893edffae48633d383985d4e79fe718"
+    },
+    "fixtures/historical/sukhothai/case_08/conversation.txt": {
+      "bytes": 3910,
+      "sha256": "acd82ebc5432845514e8809ac1b99a0df023ef7c173d0d03672a4b5f1e5099d0"
+    },
+    "fixtures/historical/sukhothai/case_09/brief_v1.txt": {
+      "bytes": 6883,
+      "sha256": "923d6370fa307ad861050544756a0d28ceb0988d6a1b26c7703b9097eb8b859f"
+    },
+    "fixtures/historical/sukhothai/case_09/conversation.txt": {
+      "bytes": 6471,
+      "sha256": "a57b7befe3154d5518f13108e8799fad21693b51ffd09a12ae97e70e116174d8"
+    },
+    "fixtures/historical/sukhothai/case_10/brief_v1.txt": {
+      "bytes": 6043,
+      "sha256": "a231a4c8290438b27ed4b45fe00ab22cf9a7b33e11822f2de5ce22ea9fa77c9b"
+    },
+    "fixtures/historical/sukhothai/case_10/conversation.txt": {
+      "bytes": 3604,
+      "sha256": "489f7a3a57c9d6ba54ef90882a80f1bd367f8fb060ccb96280f8563f0f881a51"
+    },
+    "prompts/legacy/README.md": {
+      "bytes": 864,
+      "sha256": "e991addd92766457c021ea6ff16bc4308c884af95976deeed7a0336cfaa3e2c3"
+    },
+    "prompts/legacy/hotel_ops_brief_v1.txt": {
+      "bytes": 7006,
+      "sha256": "1d2b1f08399a9e61dd79edbc668ec31bc4dc55dda4dae7e1ab83d6c8dd0e20d9"
+    },
+    "references/audit/Canopia_etat_des_lieux_2026-10-05.docx": {
+      "bytes": 275495,
+      "sha256": "69634288c22f360a867ad909df1f5c574a5c1156edb15ab8066cec75fce5408e"
+    },
+    "references/audit/README.md": {
+      "bytes": 927,
+      "sha256": "32939abca56142c3238449675910624b164a5410b955c476c8ae9a65c85c226a"
+    },
+    "references/historical/brief_format_template_v1.txt": {
+      "bytes": 1338,
+      "sha256": "b252a9cb3b3c5723bd7f2aad2a5a84253cc033649959c5e55a51ee1a5468145a"
+    },
+    "references/historical/claims_limits_historical.md": {
+      "bytes": 2473,
+      "sha256": "3825dcf57d4f1fed89b5be8015f2bb2f6246cc799cf62e706b8668aed4e02a47"
+    },
+    "references/historical/evidence_history_historical.md": {
+      "bytes": 3911,
+      "sha256": "3042d2e56dde2400c5ac63191c1c05cbadfb7e28e878945d75503dbc0e28e4f6"
+    },
+    "references/historical/internal_review.txt": {
+      "bytes": 6077,
+      "sha256": "e671a09c8db3ac13e12d188828047316e4e3bc16df913511ea1cf1864e19f833"
+    },
+    "references/historical/product_contract_historical.md": {
+      "bytes": 4867,
+      "sha256": "72c202b6888f3d8c28d03a0530f72e5bafd41f0a027c93878cf8207778984de8"
+    },
+    "references/historical/testing_notes.txt": {
+      "bytes": 2979,
+      "sha256": "992d373276743863b8154539b6acb99a6c0320b3e5b7b7f8adc1626eade9bd0b"
+    },
+    "references/historical/testing_notes_v3.txt": {
+      "bytes": 1782,
+      "sha256": "0b53fdd9707494f988b8cd8f02958fd5f07de6245dcd5609d956f83f33d9f4dc"
+    },
+    "references/knowledge/README.md": {
+      "bytes": 678,
+      "sha256": "c5d0fe3099375a0f126e71e2b4af332861e76bf5889cb0f6d9f04e4ebaab8e5e"
+    },
+    "references/knowledge/seven_secrets_capability_profile.txt": {
+      "bytes": 11974,
+      "sha256": "076d216cb88eb82aef81798e39cecf72e728ef79165bf6d3b384d0f6491d9115"
+    },
+    "references/knowledge/sukhothai_hotel_input_2_0.txt": {
+      "bytes": 8814,
+      "sha256": "93e77f164d17118f9cf30ec93d88426b1519742b6bb777f29b1b26a3324794d4"
+    },
+    "sources/README.md": {
+      "bytes": 685,
+      "sha256": "0b69063456c8e0c70bb6a771a4e505e4584d97bd9b908152ff9545dd5a12aa6f"
+    },
+    "sources/source_index.json": {
+      "bytes": 17997,
+      "sha256": "04ff978f29350987fb6da16b25142c7bc380ca7d68eef32223be4907888af150"
+    }
+  }
+}

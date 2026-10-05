@@ -1,0 +1,104 @@
+A) BASIC INFO
+Name: Second Tester
+Amount of people: 3 (2 adults + 1 child, age 5)
+Nationality & language: Unknown nationality; English (en)
+Dates: 2026-01-19 to 2026-01-25
+Purpose of visit: Family vacation / reconnection time
+Interaction style: Engaging (warm conversation + local recommendations), while respecting high privacy sensitivity
+Special event: None stated
+B) EVENT OWNER
+Event owner: Guest Relations
+C) GUEST PROFILE (Template Fields)
+Guest Intro (2–3 sentences max)
+Family of three travelling for a long-overdue vacation. Adults enjoy music and art; child (5) is excited by animals and superheroes. Service should feel friendly and engaging, while staying discreet and privacy-aware.
+Preferred scent
+Jasmine (subtle only; avoid heavy scenting/sprays)
+Food restrictions or allergies
+SEVERE peanut allergy (child) — P0 critical. Avoid snacks and any peanut exposure/cross-contact risk.
+Note to leave in the room
+A short “Spiderman-style” welcome note for the child, placed as a surprise when he jumps into bed.
+Place for the note
+Under the blanket on the child’s bed area (or under the top fold of duvet), so it’s discovered immediately.
+Best thing possible
+Flawless allergy-safe handling across all touchpoints (in-room, dining, amenities) + warm, personalised concierge guidance for music/art/family-friendly outings.
+Already good
+Calm, discreet property atmosphere supports family downtime and reconnection.
+Watch outs
+Peanut allergy risk management must be consistent across teams (amenities, minibar, welcome items, dining, kids touches).
+Avoid “complimentary snacks” and any shared bowls/mini-bar items that could carry trace allergens.
+Child may touch surfaces then mouth/fingers; keep high-risk items out of reach.
+Special surprise
+Spiderman-themed note placement as above; consider a small non-food kid-friendly superhero touch only if available and allergy-safe (no edible items).
+BlooM Experience Tips (internal add-on; 3–6 bullets max)
+Flag allergy as P0 in PMS/profile + communicate to Restaurants, Room Service, Housekeeping, Minibar, and Concierge.
+Set in-room welcome to fruit-only (mango prioritised if available; otherwise safe fruit alternatives).
+Brief staff to be engaging with recommendations, but keep interactions discreet and non-intrusive.
+Use jasmine in a restrained way (e.g., gentle ambient approach if standard; no sprays).
+Keep kid “superhero moment” simple, tidy, and quick to discover (under blanket).
+D) RECEPTION
+Guest Intro (1–2 sentences max; can reuse shortened version)
+Family of three on vacation; engaging style preferred. Child has P0 severe peanut allergy.
+Room ready information (to be confirmed by Event owner) (3–6 bullets)
+Prepare room with 21°C set before arrival (or set immediately upon assignment).
+Confirm bedding: 2 soft pillows per adult; child no preference.
+Confirm welcome amenity plan: fruit-only (no snacks).
+Confirm minibar/amenities are checked for peanut-containing items; remove/lock away as needed per hotel practice.
+Confirm discreetly at check-in that allergy is flagged across teams (F&B, Room Service, Housekeeping).
+Introduce Concierge to offer personalised assistance (2–4 bullets)
+Offer concierge connection on arrival for: music interests, art interests, and child-friendly animals/superhero themes.
+Encourage quick preference capture: “quiet cultural spots vs. lively,” timing windows, transport comfort.
+Offer to pre-arrange dining reservations with allergy notes embedded.
+E) ROOM SERVICE (Room Setup / In-Room Preferences)
+Guest Intro (1–2 sentences max)
+Family stay; adults like music/art; child loves animals/superheroes. P0 peanut allergy requires strict in-room food handling.
+Temperature
+21°C
+Pillows
+Adults: 2 soft pillows each
+Child: no preference
+Blankets
+Unknown (but note: child rolls into blanket immediately on arrival)
+Flowers
+Any flowers would be nice (keep simple, elegant; avoid heavy fragrance)
+Colour
+Unknown
+Fruits & small snacks
+Fruit-only due to P0 peanut allergy: mango prioritised if available; otherwise safe seasonal fruit alternatives. No snacks.
+To take away from the room
+Unknown
+Best thing possible
+Consistent allergy-safe setup (no snack items; careful minibar/amenities) + calm, ready-to-rest room on arrival.
+Already good
+Guests report no sleep issues; keep setup minimal and comfortable.
+Watch outs
+Remove all snack presentations (nuts, cookies, mixed treats) and avoid shared bowls/mini bar items with trace-risk.
+If any children’s amenity is considered, keep it non-food and confirm materials are safe/clean.
+F) CONCIERGE
+Guest Intro (1–2 sentences max)
+Family of three visiting Bangkok for vacation; adults enjoy music and art; child (5) loves animals and superheroes. Prefer engaging, friendly guidance while maintaining discretion.
+Guest background (2–4 bullets max)
+Long-overdue family vacation; looking for local recommendations.
+Adult interests: music + art.
+Child interests: animals + superheroes.
+P0 peanut allergy (child) impacts dining and activity planning.
+Preferred scent
+Jasmine (subtle)
+Food restrictions or allergies
+P0 severe peanut allergy (child): plan allergy-aware dining and avoid food-centric activities with unclear allergen controls.
+Welcome check (1 suggested line/question that can enrich recommendations; operational tone)
+“To tailor plans safely: should we assume strict peanut avoidance for all venues (including peanut oil/trace risk), and do you prefer we prioritise places used to handling severe allergies?”
+Potential actions (3–6 bullets; things concierge can prepare; use placeholders where needed)
+Prepare a short, family-friendly itinerary draft aligned to interests and dates.
+Pre-select allergy-aware dining options and note peanut allergy P0 on all reservations.
+Arrange transport support as preferred (hotel car/taxi coordination) for family comfort.
+Provide options that match: music for one adult, art for the other, plus child-friendly animal moments.
+Placeholders (do not fill with specific venues):
+[Concierge to fill: 2–3 live music options during dates]
+[Concierge to fill: 2–3 art exhibitions/galleries]
+[Concierge to fill: 1–2 animal outings suitable for age]
+[Concierge to fill: 1 superhero-adjacent kid activity]
+Potential actions based on guest intro (2–5 bullets; fan-out of scent/allergy/interactions to bookings)
+Add allergy note to all F&B bookings and reconfirm day-of with venues; avoid any “shared snack” setups.
+Suggest quieter, refined options consistent with a discreet luxury base, but keep engagement warm and conversational.
+If proposing any kid surprise, keep it non-food, small, and easy to manage in-room.
+Consider timing recommendations around family energy (midday rest/pool/garden moments as a calm reset between outings).

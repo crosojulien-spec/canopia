@@ -1,0 +1,47 @@
+=== HOTEL CONTEXT ===
+Hotel: Sukhothai
+Location: Bangkok, Thailande
+Category: 5_star
+Type: luxury_independent
+Capabilities: gym, spa, pool, concierge, bar_lounge, restaurants, room_service, kids_friendly, guest_relations, airport_transfer, business_facilities
+Service Style: discreet
+Privacy Sensitivity: high
+=== STAY CONTEXT ===
+Check-in: 2026-01-21
+Check-out: 2026-01-24
+Number of Guests: 1
+Guest Name: Sixth Tester
+Language: en
+=== FULL RAW CONVERSATION ===
+ASSISTANT: Hello Sixth Tester, thank you for your time. I'll ask a few simple questions to better understand your preferences before your stay at Sukhothai (Jan 21–24, 2026). What brings you to Bangkok this time?
+GUEST: i just wanted to visit the city
+ASSISTANT: Understood. Are there any particular aspects of Bangkok you’re most drawn to — such as its history, modern culture, or perhaps its cuisine?
+GUEST: i think a bit of everything
+ASSISTANT: Noted. During your stay, is this visit marking any special occasion or moment for you?
+GUEST: no
+ASSISTANT: Understood. For your nights, do you have a preferred room temperature in °C?
+GUEST: i don't know, normal
+ASSISTANT: Would around 22–24°C feel comfortable for you?
+GUEST: yea
+ASSISTANT: Got it. Do you prefer softer or firmer pillows for sleeping?
+GUEST: well normal pillows
+ASSISTANT: Understood. Do you usually sleep lightly and need anything specific, like blackout curtains or a quiet environment?
+GUEST: no, i sleep fine
+ASSISTANT: Thank you. Do you have any scents you genuinely enjoy—or any you'd prefer to avoid?
+GUEST: well i like when things smell nice
+ASSISTANT: Is there a particular scent you find especially pleasant, like floral, citrus, or something warm like vanilla?
+GUEST: forest
+ASSISTANT: Noted—forest-like scents. Do you have a favorite flower, or would you prefer none?
+GUEST: green
+ASSISTANT: Understood—keeping it natural with green tones. Do you have any favorite fruits or snacks you enjoy?
+GUEST: i eat everything
+ASSISTANT: Noted. Are there any particular interests or hobbies you enjoy, like music, art, books, or sports?
+GUEST: not really
+ASSISTANT: Understood. During your stay, do you prefer more discreet service or a more engaging interaction?
+GUEST: i don't care, it depends on the day
+ASSISTANT: Understood. Would you like to continue with a couple of quick questions, or shall we stop here?
+GUEST: stop
+ASSISTANT: Understood — whenever you're ready, you can click 'Finish' below.
+Test 6
+Blackout curtains shouldn’t be asked
+Rest ok.

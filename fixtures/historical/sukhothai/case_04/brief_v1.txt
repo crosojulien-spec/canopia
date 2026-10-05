@@ -1,0 +1,104 @@
+A) BASIC INFO 
+Name: Forth Tester
+Amount of people: 2 (guest + husband)
+Nationality & language: Unknown nationality; English
+Dates: 2026-02-02 to 2026-02-08
+Purpose of visit: Honeymoon / just married
+Interaction style: Warm, conversational, “good energy people”; prefers service delivered discreetly
+Special event: Newlyweds / honeymoon surprise for husband
+B) EVENT OWNER 
+Event owner: Guest Relations
+C) GUEST PROFILE (Template Fields) 
+Guest Intro (2–3 sentences max)
+Newlywed couple on honeymoon seeking a balanced mix of Bangkok exploration and enjoying the hotel. They value romantic touches, calm privacy, and comfortable sleep conditions. Husband enjoys music (French rap) and social interaction; couple is wellness-oriented (four-hand massage request).
+Preferred scent
+Vanilla (subtle)
+Food restrictions or allergies
+None declared
+Note to leave in the room
+“Just married” themed note referencing a teddy bear (for him) + unicorn (for her). Keep it sweet, short, and romantic.
+Place for the note
+On the bed arrangement or on bedside table (whichever suits housekeeping flow best)
+Best thing possible
+A refined honeymoon setup: abundant flowers + rose petals on bed, plus a discreetly coordinated four-hand massage experience for husband at the spa.
+Already good
+Couple is excited to enjoy the property; aligned with calm, discreet service style.
+Watch outs
+Avoid A/C airflow directed at the bed (guest reports getting sick easily).
+Prioritize a very dark room at night (blackout effectiveness) and quiet placement.
+Pillows must be soft, not too high; avoid firm/high profiles.
+Keep all gestures elegant and non-theatrical (privacy sensitivity).
+Special surprise
+Flag a “four-hand massage” appointment option at the spa (timing to be coordinated discreetly with guest). Consider a small, occasion-aware dessert/amenity acknowledgment through Dining if available.
+BlooM Experience Tips (internal add-on; 3–6 bullets max)
+Brief teams to keep interactions warm but non-intrusive; offer help without over-scripting.
+Sequence romance + wellness: first-night room touch, then spa highlight mid-stay.
+Use vanilla subtly (no sprays; consider if available via standard amenities).
+Encourage calm “urban sanctuary” moments (garden / poolside downtime) alongside city time.
+Keep surprise coordination discreet; avoid calling attention in public areas.
+D) RECEPTION 
+Guest Intro (1–2 sentences max; can reuse shortened version)
+Newlywed honeymoon couple seeking a mix of city time and calm hotel enjoyment; appreciates warm, discreet service and romantic touches.
+Room ready information (to be confirmed by Event owner) (3–6 bullets)
+Confirm room assignment away from noise sources where possible; prioritize quiet placement.
+Confirm blackout curtains and night-time light leakage minimized.
+Confirm A/C set to 23°C with vents directed away from bed.
+Confirm pillow request: two pillows each, soft, medium height (not firm / not high).
+Confirm honeymoon setup timing (flowers + rose petals + “just married” bed note).
+Confirm extra in-room coffee stock (espresso preference; black coffee; normal coffee acceptable in room).
+Introduce Concierge to offer personalised assistance (2–4 bullets)
+Offer light planning support: balance hotel enjoyment with a few curated city moments.
+Ask about preferred “music vibe” nights (lounge/jazz/DJ/live sets) and social energy level.
+Offer spa booking coordination (four-hand massage request) with privacy-sensitive handling.
+Offer airport transfers / transport planning if helpful.
+E) ROOM SERVICE (Room Setup / In-Room Preferences) 
+Guest Intro (1–2 sentences max)
+Honeymoon couple prioritizing comfort (cool, dark, quiet) with romantic touches and easy in-room coffee.
+Temperature
+23°C; avoid airflow directly on bed
+Pillows
+Two pillows per person; soft; not hard; not too high
+Blankets
+Unknown (default to standard; offer extra blanket if requested)
+Flowers
+“A lot of flowers”; romantic presentation
+Colour
+Unknown (default to hotel’s refined palette; avoid loud colors)
+Fruits & small snacks
+Mango preferred; Oreos requested for husband
+To take away from the room
+Unknown
+Best thing possible
+First-night romantic setup (flowers + rose petals) plus a neatly placed “just married” teddy bear/unicorn visual on bed; coffee well-stocked for easy mornings.
+Already good
+Strong alignment with in-room calm/quiet luxury preferences.
+Watch outs
+Do not over-scent the room; keep vanilla subtle and only via standard practice.
+Keep setup elegant and uncluttered (avoid “theatrical” décor density).
+Ensure petals/flowers do not interfere with sleep comfort (keep bed surfaces neat).
+F) CONCIERGE 
+Guest Intro (1–2 sentences max)
+Newlywed honeymoon couple seeking a balanced itinerary: a few Bangkok highlights plus calm hotel time; husband enjoys music and friendly conversation.
+Guest background (2–4 bullets max)
+Honeymoon / just married; romantic gestures welcomed
+Music interest (French rap artists mentioned: IAM, Georgio)
+Enjoys “good energy people” and chatting/social warmth
+Wellness interest: four-hand massage
+Preferred scent
+Vanilla (subtle)
+Food restrictions or allergies
+None declared
+Welcome check (1 suggested line/question that can enrich recommendations; operational tone)
+“To tailor plans: would you prefer evenings that are quiet-romantic, or a bit more social with music—while still keeping it relaxed?”
+Potential actions (3–6 bullets; things concierge can prepare; use placeholders where needed)
+Coordinate spa scheduling options for a four-hand massage (confirm availability, duration, preferred time window).
+Prepare a “light exploration” plan that fits their pace (avoid overbooking).
+[Concierge to fill: 2–3 relaxed live-music / lounge options during dates (not high-energy clubs)]
+[Concierge to fill: 2–3 arts/culture options suited to a honeymoon pace]
+Offer transport planning (hotel car / taxi support) for 1–2 key outings.
+Coordinate one romantic dining moment (quiet table placement, timing, discreet acknowledgment).
+Potential actions based on guest intro (2–5 bullets; fan-out of scent/allergy/interactions to bookings)
+Brief spa team: privacy-forward handling; confirm “four-hand massage” request without public discussion.
+If arranging music-oriented night: prioritize refined venues with conversation-friendly seating.
+If planning city days: keep gaps for pool/garden time; avoid back-to-back tours.
+If supporting in-room romance: align setup timing with couple’s likely arrival/outing windows via Guest Relations.

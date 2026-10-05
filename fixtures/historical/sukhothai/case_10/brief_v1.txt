@@ -1,0 +1,85 @@
+A) BASIC INFO
+Name: Tenth Tester
+Amount of people: 2 (guest + wife)
+Nationality & language: Unknown nationality; English
+Dates: 2026-01-28 to 2026-01-31
+Purpose of visit: Vacation / leisure
+Interaction style: Distrustful of data collection; privacy-sensitive; prefers a real person; may prefer email over chatbot; can disengage quickly if pushed
+Special event: None stated
+B) EVENT OWNER
+Event owner: Guest Relations
+C) GUEST PROFILE (Template Fields)
+Guest Intro (2–3 sentences max)
+Guest is privacy-sensitive and expressed distrust toward automated pre-arrival questions, requesting to speak with a real hotel team member. Traveling with spouse; spouse likes floral scents and roses. Keep interactions discreet, minimal, and consent-led to rebuild trust.
+Preferred scent: Floral/roses (wife). Avoid heavy scenting; no sprays.
+Food restrictions or allergies: Unknown
+Note to leave in the room:
+“Welcome to The Sukhothai Bangkok. Guest Relations is available to assist and to confirm any preferences only if you wish. If you’d like any details removed from your profile, please let us know and we will action it.”
+Place for the note: Writing desk or bedside table (single, visible but discreet placement)
+Best thing possible:
+Prioritize trust repair—offer a direct Guest Relations contact and confirm preferences only with permission; keep service quiet and non-intrusive.
+Already good:
+Guest provided clear basics (dates, vacation purpose, ~22°C, soft pillows) and a simple floral preference for spouse (roses).
+Watch outs:
+Avoid repeated personal questions; avoid “profiling” tone.
+Avoid overt personalization that could feel “tracked” (e.g., elaborate themed setups).
+Avoid forcing the digital flow; offer human channel (call/email) immediately.
+Special surprise:
+Consider a very subtle rose touch for spouse only if guest consents at/after check-in (e.g., a small rose arrangement without added fragrance).
+BlooM Experience Tips (internal add-on; 3–6 bullets max)
+Brief teams: “Consent-first, minimal questions; offer human support channel.”
+Set service tone to discreet; avoid scripted upsell questions.
+Confirm whether guest prefers email or phone for any follow-up.
+Flag privacy sensitivity in PMS/GR notes; restrict access to need-to-know teams.
+D) RECEPTION
+Guest Intro (1–2 sentences max; can reuse shortened version)
+Privacy-sensitive guest traveling with spouse; prefers human support and minimal personal questioning. Keep check-in calm, efficient, and discreet.
+Room ready information (to be confirmed by Event owner) (3–6 bullets)
+Prepare key packet with minimal verbal interrogation; prioritize speed and clarity.
+Set room temperature target to ~22°C prior to arrival (if controllable).
+Place soft pillows (confirm inventory; consider an extra soft pillow set if available).
+Brief Front Office/GR to offer human contact option (call/email) for any preference edits.
+Confirm whether any personalization (flowers) is desired before placing in room.
+Introduce Concierge to offer personalised assistance (2–4 bullets)
+Offer concierge as optional support: dining/spa reservations, airport transfer coordination, and city planning—no pressure.
+Use a single, light check-in question: “Would you like assistance planning anything, or prefer complete privacy?”
+Provide a direct contact card/WhatsApp line (if standard) without requiring further data.
+E) ROOM SERVICE (Room Setup / In-Room Preferences)
+Guest Intro (1–2 sentences max)
+Privacy-sensitive guest; keep in-room touches understated and consent-led.
+Temperature: ~22°C
+Pillows: Soft
+Blankets: Unknown
+Flowers: Roses preferred (wife) — consider only if guest confirms; keep minimal, no added fragrance
+Colour: Unknown
+Fruits & small snacks: Fruit plate (standard, quiet presentation). Avoid overly curated/snacky assortments unless requested.
+To take away from the room: Unknown
+Best thing possible:
+Set a calm, uncluttered room; ensure comfort basics are correct; keep service interactions minimal and respectful.
+Already good:
+Temperature and pillow preference captured.
+Watch outs:
+Avoid strong scenting or “surprise” items that may feel intrusive.
+Avoid leaving any materials that imply extensive data collection; keep messaging simple and reassuring.
+F) CONCIERGE
+Guest Intro (1–2 sentences max)
+Leisure stay with spouse; privacy-sensitive and distrustful of automated questioning. Provide optional planning support with minimal questions.
+Guest background (2–4 bullets max)
+Traveling as a couple (guest + wife).
+Purpose: vacation.
+Prefers human contact; may respond better to email-based suggestions.
+Spouse likes roses/floral notes.
+Preferred scent: Roses/floral (wife); keep subtle
+Food restrictions or allergies: Unknown
+Welcome check (1 suggested line/question that can enrich recommendations; operational tone)
+“Would you prefer a very private itinerary with minimal reservations, or would you like us to pre-book a few key items (dining/spa/transport)?”
+Potential actions (3–6 bullets; things concierge can prepare; use placeholders where needed)
+Prepare a short, opt-in one-page plan with 2–3 calm daytime options + 2 dining options (no personal assumptions).
+Hold spa appointment options (2–3 time windows) for 2026-01-29 and 2026-01-30; confirm only upon request.
+Prepare airport transfer options (if needed) with clear pricing/terms; confirm consent before booking.
+[Concierge to fill: 2–3 quiet cultural/heritage options suitable for a couple during dates]
+[Concierge to fill: 2–3 evening options that are calm/non-party (jazz, lounge, river cruise—if aligned)]
+Potential actions based on guest intro (2–5 bullets; fan-out of scent/allergy/interactions to bookings)
+Consider a “discreet communications” approach: offer email message with curated options instead of in-person questioning.
+If guest approves, coordinate a small rose arrangement (unscented/low scent) timed before evening return.
+Avoid pushing nightlife; prioritize calm, restorative suggestions consistent with hotel style.

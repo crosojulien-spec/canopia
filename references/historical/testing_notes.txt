@@ -1,0 +1,36 @@
+Test 1
+Testing notes:
+-Question on blackout curtains is to be taken away form all discovery. 
+- as the guest already sai they like quiet as possible, we don’t need to ask for anything on sleeping aids as we will provide automatically as signal is already considered as sleeping quietly important.
+-at this point: GUEST: i like quiet moments with books i always carry and i like to read newspapers.   Next question should be what newspapers do you like or general info you like to readd about, should have asked a follow up question.
+TEST 2
+-To this point; ASSISTANT: Got it: 2 soft pillows each for you and your husband, with no preference for your child’s. Do you or anyone in the family use any specific sleep aids, like blackout curtains or white noise?
+The bot shouldn’t propose blackout curtains and white noise…never anywhere… and just ask if they usually need sleeping aides. Depending on answer even a yes is enough. We don’t need to ask more details if not provided in the answer.
+- to point: GUEST: i love music, my wife art and our son is 5, so he likes animals and superheroes
+The bot should ask if aany example of music styles or artist same for art and try to atch favourite animal or superheroes.
+Test 3
+To this point:GUEST: business
+ASSISTANT: Understood. Is this trip tied to any personal milestone or special occasion you'd like us to be aware of?
+Answer is weird. It should be more business related. Like if traveler is alone and purpose is business then we need to capture different elements like the : temperature, pillows, scent, flowers, sleep aid, routine like coffee etc, business related services the hotel can provide like office and laundry. We needto adapts queeestions as different for business solo travelers.
+Like potential extra screen or office setup?
+TEST 4:
+PASS no real additional points
+Test 5
+Needs to not propose blackout curtains
+REST OK
+Should have asked on the desire staff interacton level and principle.Like with all conversations . it needs to become a very important point that needs to be asked to all profiles no matter the guest.
+Test 6
+Blackout curtains shouldn’t be asked
+Rest ok.
+TEST 7.
+OK -pass
+Test 8.
+-Should have asked on the interaction level of the staff.
+Test 9. 
+-Question on light and ambiance in the room not needed
+-Question o n interaction missing .. needs to be asked.
+Test 10.
+GUEST: Why are you asking me such question?
+To this question from the guest, the bot needs to qnswer more professionnqly and detailed on the privacy of the data and who will only use it. He already needs to express and give the chance to the person to close the conversation if he wishes and that all related data will be deleted.something like that.
+
+If it comes again as it did later, then the customer needs to be proposed to close the process and maybe invite him to reach out on our policy if he laters wishes to experience the service as we do not zqnt to push any answer or behaviour he would not be at ease with.

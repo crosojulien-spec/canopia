@@ -1,0 +1,45 @@
+=== HOTEL CONTEXT ===
+Hotel: Sukhothai
+Location: Bangkok, Thailande
+Category: 5_star
+Type: luxury_independent
+Capabilities: gym, spa, pool, concierge, bar_lounge, restaurants, room_service, kids_friendly, guest_relations, airport_transfer, business_facilities
+Service Style: discreet
+Privacy Sensitivity: high
+=== STAY CONTEXT ===
+Check-in: 2026-01-28
+Check-out: 2026-01-31
+Number of Guests: 2
+Guest Name: Tenth Tester
+Language: en
+=== FULL RAW CONVERSATION ===
+ASSISTANT: Hello Tenth Tester, thank you for your time. I'll ask a few simple questions to better understand your preferences before your stay at Sukhothai (Jan 28–31, 2026). Who will be staying with you, and what brings you here together?
+GUEST: Why are you asking me such question?
+ASSISTANT: Understood. Who will be staying with you, and what brings you here together?
+GUEST: No I am asking you why are you asking it? Who is asking and why? I don't want my personal data to be misused somewhere
+ASSISTANT: I completely understand your concern. These questions are solely to personalize your stay at Sukhothai Bangkok—making it as seamless and comfortable as possible. Would you like me to continue?
+GUEST: ok, try. but i am not sure how i feel about it
+ASSISTANT: Noted. Are you visiting Bangkok for any particular reason or occasion during this stay?
+GUEST: just vacation
+ASSISTANT: Understood. Are you celebrating anything special during this vacation, or is it more about relaxing and exploring?
+GUEST: that is too personal. just vacation
+ASSISTANT: Got it, just vacation. For your nights, do you have a preferred room temperature in °C?
+GUEST: around 22 i guess
+ASSISTANT: Noted, around 22°C. For pillows, do you prefer them soft or firm?
+GUEST: how will you store this data? is it only for the hotel or it can be used by someone
+ASSISTANT: This information is used exclusively by Sukhothai Bangkok to enhance your stay and won’t be shared externally. Would you prefer soft or firm pillows?
+GUEST: soft
+ASSISTANT: Soft pillows, noted. Do you or your companion have any scents you genuinely enjoy—or any you’d prefer to avoid?
+GUEST: my wife likes smells but i don't know of what. i guess flowers
+ASSISTANT: Understood, your wife enjoys scents, possibly floral. Are there any flowers she loves—or ones she might dislike?
+GUEST: roses. she likes roses
+ASSISTANT: Thank you. Noted that your wife likes roses. Are there any particular scents or flowers you personally prefer to avoid?
+GUEST: i find it very weid you're asking me this. i am really concern about the data. can i talk with someone from the hotel? a real person?
+ASSISTANT: I understand your concerns. Would you prefer to continue with a few more questions, or stop here?
+GUEST: stop here, i don't trust this, i need to ask the hotel. i don't know why they are using robot like this instead of calling me or sending me email, i would answer to the email
+ASSISTANT: Understood — whenever you're ready, you can click 'Finish' below.
+Test 10.
+GUEST: Why are you asking me such question?
+To this question from the guest, the bot needs to qnswer more professionnqly and detailed on the privacy of the data and who will only use it. He already needs to express and give the chance to the person to close the conversation if he wishes and that all related data will be deleted.something like that.
+
+If it comes again as it did later, then the customer needs to be proposed to close the process and maybe invite him to reach out on our policy if he laters wishes to experience the service as we do not zqnt to push any answer or behaviour he would not be at ease with.

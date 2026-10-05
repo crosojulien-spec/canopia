@@ -1,0 +1,348 @@
+[
+  {
+    "file": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "source_title": "Sukhothai hotel input 2.0.docx",
+    "source_url": "https://mail.google.com/mail/u/?authuser=crosojulien%40gmail.com#all/19b9bbb23abe8ead",
+    "source_date": "2026-01-08",
+    "format": "text extracted from an eight-page DOCX attachment",
+    "status": "Historical hotel knowledge file seen in GPT screenshot; current hotel validation not established.",
+    "content_edited": false
+  },
+  {
+    "file": "references/knowledge/seven_secrets_capability_profile.txt",
+    "source_title": "SevenSecrets_Capability_Profile.pdf",
+    "source_url": "https://drive.google.com/file/d/1TfKTPUIoI_zAwr6cACP05GRbEJIp7Biz",
+    "source_id": "1TfKTPUIoI_zAwr6cACP05GRbEJIp7Biz",
+    "format": "text extraction of historical document",
+    "status": "Historical pre-visit profile; contains fields to complete and unverified operational details.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/seven_secrets/conversation.txt",
+    "source_title": "SevenSecrets_Conversation_Chat.pdf",
+    "source_url": "https://drive.google.com/file/d/1Ye7vaIWVKSf_LfoRNtMnDbG0gZfjRZzx",
+    "source_id": "1Ye7vaIWVKSf_LfoRNtMnDbG0gZfjRZzx",
+    "format": "text extraction of historical document",
+    "status": "Explicitly simulated conversation; not a real guest stay.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/seven_secrets/brief_coordinator_en.txt",
+    "source_title": "COORDINATOR-EXPERIENCE-CONTROL-PANEL (3).pdf",
+    "source_url": "https://drive.google.com/file/d/1e2M4m5A8tLBoHl9zlGb-yAjBbMESJfpl",
+    "source_id": "1e2M4m5A8tLBoHl9zlGb-yAjBbMESJfpl",
+    "format": "text extraction of historical document",
+    "status": "Historical operational output; not a verified execution or a strict golden output.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/seven_secrets/brief_bahasa_historical.txt",
+    "source_title": "KOORDINATOR-PUSAT-KONTROL-PENGALAMAN.pdf",
+    "source_url": "https://drive.google.com/file/d/1R2Jp1c8EmsgsQk9l8xoNT2wy46SXP9cW",
+    "source_id": "1R2Jp1c8EmsgsQk9l8xoNT2wy46SXP9cW",
+    "format": "text extraction of historical document",
+    "status": "Historical translation only; new version requires English briefs. Human translation validation not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/seven_secrets/experience_suggestions.txt",
+    "source_title": "SevenSecrets_ExperienceSuggestions Test 10th anniversat seven secrets.pdf",
+    "source_url": "https://drive.google.com/file/d/1kT-sI2yvWDFgNsnEsKzPpDRhgARYpTZi",
+    "source_id": "1kT-sI2yvWDFgNsnEsKzPpDRhgARYpTZi",
+    "format": "text extraction of historical document",
+    "status": "Historical composed suggestions; prices, availability and feasibility not revalidated; no realized revenue established.",
+    "content_edited": false
+  },
+  {
+    "file": "references/historical/brief_format_template_v1.txt",
+    "source_title": "Brief Format Template v1_1401.docx",
+    "source_url": "https://drive.google.com/file/d/1CcToE8Mu8v0klo-c0sPbyJrd_gRj--HC",
+    "source_id": "1CcToE8Mu8v0klo-c0sPbyJrd_gRj--HC",
+    "format": "text extraction of historical document",
+    "status": "Historical source to interpret, not automatically adopted as current requirements.",
+    "content_edited": false
+  },
+  {
+    "file": "references/historical/testing_notes.txt",
+    "source_title": "Test v1 our notes.docx",
+    "source_url": "https://drive.google.com/file/d/160C762ZABdjiXTzVT_yIZqs5jV-ntfZy",
+    "source_id": "160C762ZABdjiXTzVT_yIZqs5jV-ntfZy",
+    "format": "text extraction of historical document",
+    "status": "Historical source to interpret, not automatically adopted as current requirements.",
+    "content_edited": false
+  },
+  {
+    "file": "references/historical/internal_review.txt",
+    "source_title": "Testing Internal Reveiw and Ideas.docx",
+    "source_url": "https://drive.google.com/file/d/1-66ZbDbZAbdAa0GTFui32k4IfKG95aGc",
+    "source_id": "1-66ZbDbZAbdAa0GTFui32k4IfKG95aGc",
+    "format": "text extraction of historical document",
+    "status": "Historical source to interpret, not automatically adopted as current requirements.",
+    "content_edited": false
+  },
+  {
+    "file": "references/historical/testing_notes_v3.txt",
+    "source_title": "Testing notes.docx",
+    "source_url": "https://drive.google.com/file/d/17LwMBYl8p3LwO44HxFE8-gPLojUswpmZ",
+    "source_id": "17LwMBYl8p3LwO44HxFE8-gPLojUswpmZ",
+    "format": "text extraction of historical document",
+    "status": "Historical source to interpret, not automatically adopted as current requirements.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_01/conversation.txt",
+    "source_title": "Test 1_Ultra-tired couple, luxory baseline.docx",
+    "source_url": "https://drive.google.com/file/d/1C0JpEQlINR2PLAmDdMh0N2_B3Sqlykjs",
+    "source_id": "1C0JpEQlINR2PLAmDdMh0N2_B3Sqlykjs",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_02/conversation.txt",
+    "source_title": "Test 2_Family with child, severe allergies.docx",
+    "source_url": "https://drive.google.com/file/d/1EmA_FOZ-A_LXPWMNz2otUGFGiOCPSUrP",
+    "source_id": "1EmA_FOZ-A_LXPWMNz2otUGFGiOCPSUrP",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_10/conversation.txt",
+    "source_title": "Test 10_Annoyed, distrustful guest.docx",
+    "source_url": "https://drive.google.com/file/d/11W-fI94BmvEJpx30NPNtath5JXUkZ_hL",
+    "source_id": "11W-fI94BmvEJpx30NPNtath5JXUkZ_hL",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_09/conversation.txt",
+    "source_title": "Test 9_Long stay.docx",
+    "source_url": "https://drive.google.com/file/d/1F7A-NO5FWSb71NA5fAB1CFa_A_gydLwK",
+    "source_id": "1F7A-NO5FWSb71NA5fAB1CFa_A_gydLwK",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_08/conversation.txt",
+    "source_title": "Test 8_Culture clash_2nd version.docx",
+    "source_url": "https://drive.google.com/file/d/1j-WpkJsoJ01qYjdsxkOGAGW8KI1PqbPF",
+    "source_id": "1j-WpkJsoJ01qYjdsxkOGAGW8KI1PqbPF",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_07/conversation.txt",
+    "source_title": "Test 7_Very talkative, oversharing guest.docx",
+    "source_url": "https://drive.google.com/file/d/1tP132j1l7TvxVh0_nKoULXo4laXoGQtt",
+    "source_id": "1tP132j1l7TvxVh0_nKoULXo4laXoGQtt",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_06/conversation.txt",
+    "source_title": "Test 6_Very minimalist guest.docx",
+    "source_url": "https://drive.google.com/file/d/1oZWY0Vmnd4GMa_7n5cyP3DzwRE3a6ZIG",
+    "source_id": "1oZWY0Vmnd4GMa_7n5cyP3DzwRE3a6ZIG",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_05/conversation.txt",
+    "source_title": "Test 5_Sarcastic ironic guest.docx",
+    "source_url": "https://drive.google.com/file/d/193mTNi-Vl4G5Gfxq8tBYbELAZkehvbty",
+    "source_id": "193mTNi-Vl4G5Gfxq8tBYbELAZkehvbty",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_04/conversation.txt",
+    "source_title": "Test 4_Celebration couple, honeymoon.docx",
+    "source_url": "https://drive.google.com/file/d/1Ibxt42I5lW0LPmnbNLGA2P69H15qC4ry",
+    "source_id": "1Ibxt42I5lW0LPmnbNLGA2P69H15qC4ry",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_03/conversation.txt",
+    "source_title": "Test 3_Solo business guest, short stay.docx",
+    "source_url": "https://drive.google.com/file/d/1U_1y3-bQsranXav2YOTF-_0LhnLW2zEi",
+    "source_id": "1U_1y3-bQsranXav2YOTF-_0LhnLW2zEi",
+    "kind": "discovery",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_02/brief_v2.txt",
+    "source_title": "Test 2_Family with child, severe allergies_V2.docx",
+    "source_url": "https://drive.google.com/file/d/1NS0UzeheyEI3IYcj95cNXtMXtTLDS3sG",
+    "source_id": "1NS0UzeheyEI3IYcj95cNXtMXtTLDS3sG",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_01/brief_v1.txt",
+    "source_title": "Test 1_Ultra-tired couple, luxory baseline.docx",
+    "source_url": "https://drive.google.com/file/d/1MFzCNnbH68OV-DQs4VDMxubNjEB31cFv",
+    "source_id": "1MFzCNnbH68OV-DQs4VDMxubNjEB31cFv",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_09/brief_v1.txt",
+    "source_title": "Test 9_Long stay.docx",
+    "source_url": "https://drive.google.com/file/d/1hE9CGw4lejBE8-JqFnB1Hk95FjojKb-u",
+    "source_id": "1hE9CGw4lejBE8-JqFnB1Hk95FjojKb-u",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_10/brief_v1.txt",
+    "source_title": "Test 10_Annoyed, distrustful guest.docx",
+    "source_url": "https://drive.google.com/file/d/1kG9JtgVsUCiWGYPQTjPnDLHBphOpicpf",
+    "source_id": "1kG9JtgVsUCiWGYPQTjPnDLHBphOpicpf",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_07/brief_v1.txt",
+    "source_title": "Test 7_Very talkative, oversharing guest.docx",
+    "source_url": "https://drive.google.com/file/d/1JSkTvVrveNfz7GlacDms-XnXqHbGUzgd",
+    "source_id": "1JSkTvVrveNfz7GlacDms-XnXqHbGUzgd",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_08/brief_v1.txt",
+    "source_title": "Test 8_Culture clash_2nd version.docx",
+    "source_url": "https://drive.google.com/file/d/1Z-X1HnZzF_-GLnK-X5TPArTtSHCVXCGl",
+    "source_id": "1Z-X1HnZzF_-GLnK-X5TPArTtSHCVXCGl",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_05/brief_v1.txt",
+    "source_title": "Test 5_Sarcastic ironic guest.docx",
+    "source_url": "https://drive.google.com/file/d/1OjlbqA_fnH1tKB_XxC4OUrJWF9zJ4TZu",
+    "source_id": "1OjlbqA_fnH1tKB_XxC4OUrJWF9zJ4TZu",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_06/brief_v1.txt",
+    "source_title": "Test 6_Very minimalist guest.docx",
+    "source_url": "https://drive.google.com/file/d/1K3HC1noMnER4beHK2LH_Re1M3eP0rqET",
+    "source_id": "1K3HC1noMnER4beHK2LH_Re1M3eP0rqET",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_04/brief_v1.txt",
+    "source_title": "Test 4_Celebration couple, honeymoon.docx",
+    "source_url": "https://drive.google.com/file/d/1bPgB57AOjJJLyvhscJSRH8fq6C-pKQgG",
+    "source_id": "1bPgB57AOjJJLyvhscJSRH8fq6C-pKQgG",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_03/brief_v1.txt",
+    "source_title": "Test 3_Solo business guest, short stay.docx",
+    "source_url": "https://drive.google.com/file/d/1aEqP-wcunl1q98sicF7D-eYRwaQvCtcM",
+    "source_id": "1aEqP-wcunl1q98sicF7D-eYRwaQvCtcM",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "fixtures/historical/sukhothai/case_02/brief_v1.txt",
+    "source_title": "Test 2_Family with child, severe allergies.docx",
+    "source_url": "https://drive.google.com/file/d/1ZRnyi9_Y5UlNHcZ8WBrct2-0p9wS4UKp",
+    "source_id": "1ZRnyi9_Y5UlNHcZ8WBrct2-0p9wS4UKp",
+    "kind": "brief",
+    "format": "historical DOCX text extraction",
+    "status": "Test scenario or historical output; known defects exist. Exact generating prompt and knowledge-file version not established.",
+    "content_edited": false
+  },
+  {
+    "file": "references/historical/product_contract_historical.md",
+    "source_url": "https://github.com/crosojulien-spec/iamnova-gtm-agent/blob/main/offers/canopia/00_PRODUCT_CONTRACT.md",
+    "source_title": "00_PRODUCT_CONTRACT.md",
+    "source_sha": "a7606436a6a7c2b3c53bf231fb0b5ab27e08b32e",
+    "status": "Historical GTM repository documentation; current decisions take precedence."
+  },
+  {
+    "file": "references/historical/evidence_history_historical.md",
+    "source_url": "https://github.com/crosojulien-spec/iamnova-gtm-agent/blob/main/offers/canopia/02_EVIDENCE_AND_HISTORY.md",
+    "source_title": "02_EVIDENCE_AND_HISTORY.md",
+    "source_sha": "e5061b296e55dde4bff758950ae07882227f6e05",
+    "status": "Historical GTM repository documentation; current decisions take precedence."
+  },
+  {
+    "file": "references/historical/claims_limits_historical.md",
+    "source_url": "https://github.com/crosojulien-spec/iamnova-gtm-agent/blob/main/offers/canopia/04_CLAIMS_AND_LIMITS.md",
+    "source_title": "04_CLAIMS_AND_LIMITS.md",
+    "source_sha": "0fc0968ec5e4786c492e2ee33e9115c62536b451",
+    "status": "Historical GTM repository documentation; current decisions take precedence."
+  },
+  {
+    "file": "prompts/legacy/hotel_ops_brief_v1.txt",
+    "source_title": "Full GPT instructions pasted by Julien",
+    "source_date": "2026-10-05",
+    "source_kind": "current_conversation",
+    "status": "Historical instructions preserved verbatim apart from newline serialization."
+  },
+  {
+    "file": "docs/01_DECISIONS_VALIDEES.md",
+    "source_title": "Julien decisions in this conversation and supplied voice transcripts",
+    "source_date": "2026-10-05",
+    "source_kind": "current_conversation",
+    "status": "Consolidation of confirmed choices; open decisions are tracked separately."
+  },
+  {
+    "file": "references/audit/Canopia_etat_des_lieux_2026-10-05.docx",
+    "source_title": "Canopia audit, corrected 17-page report",
+    "status": "Historical audit preceding the reconstruction decisions; copied unchanged."
+  },
+  {
+    "file": "data/hotel_selection.json",
+    "source_title": "Hotel selection validated by Julien with Hotel Amour Nice replacing WindsoR",
+    "source_date": "2026-10-05",
+    "status": "Selection plus preliminary source locations; not complete DNA profiles."
+  }
+]

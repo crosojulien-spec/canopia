@@ -1,0 +1,103 @@
+[
+  {
+    "case_number": 1,
+    "files": [
+      "fixtures/historical/sukhothai/case_01/conversation.txt",
+      "fixtures/historical/sukhothai/case_01/brief_v1.txt"
+    ],
+    "review_focus": "Recovery, quiet, fidelity of individual preferences, restrained service.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 2,
+    "files": [
+      "fixtures/historical/sukhothai/case_02/conversation.txt",
+      "fixtures/historical/sukhothai/case_02/brief_v2.txt",
+      "fixtures/historical/sukhothai/case_02/brief_v1.txt"
+    ],
+    "review_focus": "Family and explicitly declared allergy; consistency of operational instructions.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 3,
+    "files": [
+      "fixtures/historical/sukhothai/case_03/conversation.txt",
+      "fixtures/historical/sukhothai/case_03/brief_v1.txt"
+    ],
+    "review_focus": "Short business stay; relevant questions and time-poor guest.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 4,
+    "files": [
+      "fixtures/historical/sukhothai/case_04/conversation.txt",
+      "fixtures/historical/sukhothai/case_04/brief_v1.txt"
+    ],
+    "review_focus": "Celebration; meaningful optional suggestions without overpromising.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 5,
+    "files": [
+      "fixtures/historical/sukhothai/case_05/conversation.txt",
+      "fixtures/historical/sukhothai/case_05/brief_v1.txt"
+    ],
+    "review_focus": "Humour and irony; confidence rather than literal execution.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 6,
+    "files": [
+      "fixtures/historical/sukhothai/case_06/conversation.txt",
+      "fixtures/historical/sukhothai/case_06/brief_v1.txt"
+    ],
+    "review_focus": "Minimal signals; restraint and no invented specificity.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 7,
+    "files": [
+      "fixtures/historical/sukhothai/case_07/conversation.txt",
+      "fixtures/historical/sukhothai/case_07/brief_v1.txt"
+    ],
+    "review_focus": "Long conversation; preserve relevant details without indiscriminate propagation.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 8,
+    "files": [
+      "fixtures/historical/sukhothai/case_08/conversation.txt",
+      "fixtures/historical/sukhothai/case_08/brief_v1.txt"
+    ],
+    "review_focus": "Use stated preferences; avoid cultural stereotypes or inferred traits.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 9,
+    "files": [
+      "fixtures/historical/sukhothai/case_09/conversation.txt",
+      "fixtures/historical/sukhothai/case_09/brief_v1.txt"
+    ],
+    "review_focus": "Long stay; preserve routines and preferences in the brief.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  },
+  {
+    "case_number": 10,
+    "files": [
+      "fixtures/historical/sukhothai/case_10/conversation.txt",
+      "fixtures/historical/sukhothai/case_10/brief_v1.txt"
+    ],
+    "review_focus": "Distrust or refusal; historical brief exists, inspect against the minimal-stub rule and decide target behaviour.",
+    "hotel_knowledge_candidate": "references/knowledge/sukhothai_hotel_input_2_0.txt",
+    "exact_historical_knowledge_version_proven": false
+  }
+]
