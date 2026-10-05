@@ -58,7 +58,7 @@ Le WindsoR a été remplacé par l'Hôtel Amour Nice. La sélection comporte six
 - Précision de Julien lors des essais du 5 octobre : les réponses client tiennent normalement en une ou deux phrases. Leur brièveté ne signifie pas désengagement ou souhait de finir. L'agent doit être chaleureux, naturel et inclusif, rebondir intelligemment sur un indice utile, adapter son ton et savoir arrêter au bon moment. L'échange Sukhothai illustre l'intention de collecte progressive, avec les réserves historiques conservées.
 - Permettre un dernier ajout ou une correction avant la fin normale.
 - Viser un échange de 3 à 5 minutes, qui peut se prolonger si le voyageur souhaite en dire davantage. Ce n'est ni un chronomètre ni une limite automatique de messages.
-- Réviser le déroulé historique pour retirer répétitions et questions hors contexte ; le déroulé de principe ci-dessus est accepté, le prompt détaillé reste à préparer et à relire.
+- Réviser le déroulé historique pour retirer répétitions et questions hors contexte ; le déroulé de principe ci-dessus est accepté. État d'exécution du 5 octobre : les prompts détaillés v2 ont été préparés et testés sur six nouveaux profils. Leur qualité n'est pas encore validée ; voir le rapport des six tests de découverte. Cette observation ne modifie pas le cadrage produit.
 
 ## ADN hôtel : compréhension et composition
 

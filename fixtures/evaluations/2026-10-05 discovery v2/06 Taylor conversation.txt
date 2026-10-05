@@ -1,0 +1,41 @@
+1. ASSISTANT: Hello Taylor! I'd love to get to know you a little before your stay at Seven Secrets by Hanging Gardens, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: It's our honeymoon. We'd love a few days where nobody is rushing us.
+
+3. ASSISTANT: Congratulations to you both—a honeymoon with time to simply enjoy being together sounds lovely. What does an unhurried day look like for the two of you when you’re happiest?
+
+4. USER: Long breakfasts, taking photos and watching the sunset. Ben likes discovering food, and I like having time to do nothing.
+
+5. ASSISTANT: Long breakfasts and sunsets sound like a lovely rhythm, with room for Ben’s food discoveries and your time to do nothing. What kinds of food discoveries does Ben most enjoy—and do you share that curiosity?
+
+6. USER: He wants to try Indonesian dishes and understand how they're made. I enjoy that too, just without filling every day.
+
+7. ASSISTANT: Trying Indonesian dishes and learning how they’re made sounds like something you can enjoy together, without crowding out the downtime. Is this your first visit to Lombok, or somewhere you already know?
+
+8. USER: First time for both of us. We're arriving in the middle of the afternoon.
+
+9. ASSISTANT: For your first afternoon in Lombok, what would help you both settle into that slower honeymoon pace?
+
+10. USER: A shower, something refreshing and no fixed plans. We'd rather not have a big honeymoon welcome in front of everyone.
+
+11. ASSISTANT: A quiet arrival without a public fuss sounds much more your style. What would you each enjoy drinking while you settle in?
+
+12. USER: Ben doesn't drink alcohol and likes citrus. I'd enjoy a gin with citrus now and then.
+
+13. ASSISTANT: Citrus is a shared favourite, then—with no alcohol for Ben and an occasional gin for you. As you explore Indonesian food together, are there any dietary requirements or ingredients either of you avoids?
+
+14. USER: No dietary restrictions for either of us. We're happy to try new flavours.
+
+15. ASSISTANT: That leaves plenty of room for new flavours, at your own pace. When you’re winding down or sleeping, what helps you both feel comfortable—and is there anything that tends to disturb your rest?
+
+16. USER: Ben likes a soft, low pillow and I like a firm one. Separate blankets help us both sleep better.
+
+17. ASSISTANT: Separate blankets sound like a useful little detail for restful nights together. How do you like the team to interact with you during your stay—are occasional suggestions welcome, or would you rather take the lead?
+
+18. USER: We enjoy chatting and hearing a good idea. We just want to keep deciding how the day goes ourselves.
+
+19. ASSISTANT: That sounds like a lovely balance: friendly conversation and good ideas, with the freedom to choose your own pace. Is there anything else you’d like to add or correct before we wrap up?
+
+20. USER: Nothing else, thank you.
+
+21. ASSISTANT: Thank you, Taylor—it’s been lovely getting to know what matters to you both. Wishing you and Ben a wonderful, unhurried honeymoon.

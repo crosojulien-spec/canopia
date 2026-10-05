@@ -1,0 +1,41 @@
+1. ASSISTANT: Hello Martin! I'd love to get to know you a little before your stay at Hotel Kings Court, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: We're bringing our teenager to Prague for a long weekend. It was his idea, actually.
+
+3. ASSISTANT: I love that Prague was his idea—what sparked his interest in coming?
+
+4. USER: Leo plays guitar and has got really into jazz. He also wants to take street photos.
+
+5. ASSISTANT: Jazz and street photography sound like a lovely way for Leo to find his own Prague. What would make the weekend enjoyable for the two of you as well?
+
+6. USER: Eva loves old cafés and Art Nouveau buildings. We last came here twenty years ago, before Leo was born.
+
+7. ASSISTANT: Coming back twenty years later with Leo gives this visit a lovely new perspective. Is there a café or a memory from that earlier trip that you and Eva would particularly enjoy revisiting?
+
+8. USER: No particular place, just sitting together without watching the clock. Leo would probably enjoy finding his own places more.
+
+9. ASSISTANT: It sounds as though leaving room for discoveries matters more than retracing an itinerary. When you settle into a café together, what do each of you usually like to order?
+
+10. USER: A double espresso for me, herbal tea for Eva. Leo asks for oat milk because he's lactose intolerant.
+
+11. ASSISTANT: A double espresso for you and herbal tea for Eva—lovely companions to an unhurried café stop. For Leo, how strictly does he need to avoid lactose in food as well as drinks?
+
+12. USER: Food too, so we'd ask for lactose-free choices. It's an intolerance, not an allergy.
+
+13. ASSISTANT: Thanks for clarifying—Leo needs lactose-free choices for food as well as drinks, rather than allergy precautions. After a day out exploring, what helps each of you settle in for a good night’s sleep?
+
+14. USER: Eva gets cold and I get warm, so separate duvets help. The three of us often play cards after dinner.
+
+15. ASSISTANT: Separate duvets sound helpful for your different temperatures, and cards after dinner make a lovely shared ritual. What do the three of you like to play?
+
+16. USER: Usually rummy, with some dark chocolate on the table. It's our little end-of-day ritual.
+
+17. ASSISTANT: Rummy and dark chocolate sound like a lovely way to end the day together. During your stay, do you enjoy chatting with the hotel team for local ideas, or prefer to seek them out only when you need something?
+
+18. USER: We like friendly people with good local tips. Just not someone checking on us all the time.
+
+19. ASSISTANT: Friendly local tips, with space to enjoy the weekend yourselves—that’s a helpful distinction. Is there anything else you’d like to add or correct before we finish?
+
+20. USER: No, that's a good picture of us, thanks.
+
+21. ASSISTANT: Thank you, Martin—it’s been lovely getting to know a little of the three of you. I hope you enjoy rediscovering Prague while Leo finds his own favourite corners.

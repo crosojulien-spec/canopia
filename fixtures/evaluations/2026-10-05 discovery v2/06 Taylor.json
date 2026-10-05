@@ -1,0 +1,229 @@
+{
+  "stay": {
+    "id": "62129af6-1355-4bfe-bf20-da039a50bda5",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Occasion and desired pace",
+        "value": "Their honeymoon; they want a few days without being rushed.",
+        "sourceQuote": "It's our honeymoon. We'd love a few days where nobody is rushing us.",
+        "sourceMessageId": "2cd58490-3b11-41a2-a389-7a162d458b11"
+      },
+      {
+        "label": "Shared pleasures and individual interests",
+        "value": "Enjoy long breakfasts, taking photos and watching sunsets. Ben enjoys discovering food; Taylor enjoys time to do nothing.",
+        "sourceQuote": "Long breakfasts, taking photos and watching the sunset. Ben likes discovering food, and I like having time to do nothing.",
+        "sourceMessageId": "a47f1b74-1665-47ec-bc91-8ce13b75ccbb"
+      },
+      {
+        "label": "Food discovery",
+        "value": "Ben wants to try Indonesian dishes and understand how they are made. Taylor shares that interest but does not want every day filled.",
+        "sourceQuote": "He wants to try Indonesian dishes and understand how they're made. I enjoy that too, just without filling every day.",
+        "sourceMessageId": "3ad2b6aa-7909-43dd-9fb6-399cb27dfe76"
+      },
+      {
+        "label": "Destination familiarity and arrival",
+        "value": "First visit to Lombok for both; arriving in the middle of the afternoon.",
+        "sourceQuote": "First time for both of us. We're arriving in the middle of the afternoon.",
+        "sourceMessageId": "baac6329-2e58-4282-bd41-2697fdb3f618"
+      },
+      {
+        "label": "Arrival preferences",
+        "value": "Want a shower, something refreshing and no fixed plans; prefer no big public honeymoon welcome.",
+        "sourceQuote": "A shower, something refreshing and no fixed plans. We'd rather not have a big honeymoon welcome in front of everyone.",
+        "sourceMessageId": "48799e7c-c333-460f-b1bb-a2275cf770d6"
+      },
+      {
+        "label": "Drink preferences",
+        "value": "Ben does not drink alcohol and likes citrus. Taylor enjoys an occasional gin with citrus.",
+        "sourceQuote": "Ben doesn't drink alcohol and likes citrus. I'd enjoy a gin with citrus now and then.",
+        "sourceMessageId": "41f33840-893d-45ac-a1e6-c07e1913f329"
+      },
+      {
+        "label": "Dietary preferences",
+        "value": "Neither has dietary restrictions; both are happy to try new flavours.",
+        "sourceQuote": "No dietary restrictions for either of us. We're happy to try new flavours.",
+        "sourceMessageId": "d6e75a02-25c0-4fb8-b2f6-62db1d5ee501"
+      },
+      {
+        "label": "Sleep comfort",
+        "value": "Ben prefers a soft, low pillow; Taylor prefers a firm pillow. Separate blankets help both sleep better.",
+        "sourceQuote": "Ben likes a soft, low pillow and I like a firm one. Separate blankets help us both sleep better.",
+        "sourceMessageId": "379bd135-6d44-40a2-b284-ad42a99eced3"
+      },
+      {
+        "label": "Team interaction and autonomy",
+        "value": "Enjoy chatting and hearing good ideas, while deciding for themselves how each day goes.",
+        "sourceQuote": "We enjoy chatting and hearing a good idea. We just want to keep deciding how the day goes ourselves.",
+        "sourceMessageId": "9ce5bcdc-35a1-4008-b7f2-94a6b59dc80b"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-15",
+    "handoff": "concierge",
+    "hotelId": "seven_secrets_lombok",
+    "revoked": false,
+    "revision": 24,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.038Z",
+    "departure": "2026-11-20",
+    "expiresAt": "2026-10-12T16:39:37.038Z",
+    "guestName": "Taylor — Discovery v2 06",
+    "hotelName": "Seven Secrets by Hanging Gardens",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:51:53.690Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "aa0a570f-e182-4675-a3e2-aa666b3f5e62",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "b93c2745-7fa9-4917-9621-e24058070917",
+      "role": "assistant",
+      "content": "Hello Taylor! I'd love to get to know you a little before your stay at Seven Secrets by Hanging Gardens, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.038Z"
+    },
+    {
+      "id": "2cd58490-3b11-41a2-a389-7a162d458b11",
+      "role": "user",
+      "content": "It's our honeymoon. We'd love a few days where nobody is rushing us.",
+      "createdAt": "2026-10-05T16:43:59.155Z"
+    },
+    {
+      "id": "98aa00a5-31b8-47fe-af77-08917f149e6a",
+      "role": "assistant",
+      "content": "Congratulations to you both—a honeymoon with time to simply enjoy being together sounds lovely. What does an unhurried day look like for the two of you when you’re happiest?",
+      "createdAt": "2026-10-05T16:44:05.511Z"
+    },
+    {
+      "id": "a47f1b74-1665-47ec-bc91-8ce13b75ccbb",
+      "role": "user",
+      "content": "Long breakfasts, taking photos and watching the sunset. Ben likes discovering food, and I like having time to do nothing.",
+      "createdAt": "2026-10-05T16:44:54.306Z"
+    },
+    {
+      "id": "24326621-390e-426e-8cb1-f911889ac3c8",
+      "role": "assistant",
+      "content": "Long breakfasts and sunsets sound like a lovely rhythm, with room for Ben’s food discoveries and your time to do nothing. What kinds of food discoveries does Ben most enjoy—and do you share that curiosity?",
+      "createdAt": "2026-10-05T16:45:00.219Z"
+    },
+    {
+      "id": "3ad2b6aa-7909-43dd-9fb6-399cb27dfe76",
+      "role": "user",
+      "content": "He wants to try Indonesian dishes and understand how they're made. I enjoy that too, just without filling every day.",
+      "createdAt": "2026-10-05T16:45:31.434Z"
+    },
+    {
+      "id": "e6ffe1e3-d620-4bea-bb0d-97110d1d7838",
+      "role": "assistant",
+      "content": "Trying Indonesian dishes and learning how they’re made sounds like something you can enjoy together, without crowding out the downtime. Is this your first visit to Lombok, or somewhere you already know?",
+      "createdAt": "2026-10-05T16:45:38.919Z"
+    },
+    {
+      "id": "baac6329-2e58-4282-bd41-2697fdb3f618",
+      "role": "user",
+      "content": "First time for both of us. We're arriving in the middle of the afternoon.",
+      "createdAt": "2026-10-05T16:46:06.249Z"
+    },
+    {
+      "id": "53ed95ae-5be1-4d9c-aea9-f2cae15ec254",
+      "role": "assistant",
+      "content": "For your first afternoon in Lombok, what would help you both settle into that slower honeymoon pace?",
+      "createdAt": "2026-10-05T16:46:13.896Z"
+    },
+    {
+      "id": "48799e7c-c333-460f-b1bb-a2275cf770d6",
+      "role": "user",
+      "content": "A shower, something refreshing and no fixed plans. We'd rather not have a big honeymoon welcome in front of everyone.",
+      "createdAt": "2026-10-05T16:46:46.082Z"
+    },
+    {
+      "id": "59276c83-1f2e-494b-8987-273af04e436c",
+      "role": "assistant",
+      "content": "A quiet arrival without a public fuss sounds much more your style. What would you each enjoy drinking while you settle in?",
+      "createdAt": "2026-10-05T16:46:55.081Z"
+    },
+    {
+      "id": "41f33840-893d-45ac-a1e6-c07e1913f329",
+      "role": "user",
+      "content": "Ben doesn't drink alcohol and likes citrus. I'd enjoy a gin with citrus now and then.",
+      "createdAt": "2026-10-05T16:47:28.927Z"
+    },
+    {
+      "id": "6581fb2a-536c-4d42-a74f-b801f56afd4f",
+      "role": "assistant",
+      "content": "Citrus is a shared favourite, then—with no alcohol for Ben and an occasional gin for you. As you explore Indonesian food together, are there any dietary requirements or ingredients either of you avoids?",
+      "createdAt": "2026-10-05T16:47:41.375Z"
+    },
+    {
+      "id": "d6e75a02-25c0-4fb8-b2f6-62db1d5ee501",
+      "role": "user",
+      "content": "No dietary restrictions for either of us. We're happy to try new flavours.",
+      "createdAt": "2026-10-05T16:48:09.347Z"
+    },
+    {
+      "id": "41271fca-c242-4131-8209-c7a3d1b5defc",
+      "role": "assistant",
+      "content": "That leaves plenty of room for new flavours, at your own pace. When you’re winding down or sleeping, what helps you both feel comfortable—and is there anything that tends to disturb your rest?",
+      "createdAt": "2026-10-05T16:48:19.855Z"
+    },
+    {
+      "id": "379bd135-6d44-40a2-b284-ad42a99eced3",
+      "role": "user",
+      "content": "Ben likes a soft, low pillow and I like a firm one. Separate blankets help us both sleep better.",
+      "createdAt": "2026-10-05T16:49:36.079Z"
+    },
+    {
+      "id": "69a5dc66-d684-48b2-a63d-8ab91c2435fd",
+      "role": "assistant",
+      "content": "Separate blankets sound like a useful little detail for restful nights together. How do you like the team to interact with you during your stay—are occasional suggestions welcome, or would you rather take the lead?",
+      "createdAt": "2026-10-05T16:49:48.803Z"
+    },
+    {
+      "id": "9ce5bcdc-35a1-4008-b7f2-94a6b59dc80b",
+      "role": "user",
+      "content": "We enjoy chatting and hearing a good idea. We just want to keep deciding how the day goes ourselves.",
+      "createdAt": "2026-10-05T16:50:27.279Z"
+    },
+    {
+      "id": "5224f191-e30e-435e-956f-e94ccba6e428",
+      "role": "assistant",
+      "content": "That sounds like a lovely balance: friendly conversation and good ideas, with the freedom to choose your own pace. Is there anything else you’d like to add or correct before we wrap up?",
+      "createdAt": "2026-10-05T16:50:41.681Z"
+    },
+    {
+      "id": "0cb9c815-fbf7-4f05-a4e6-0f8d1ffaeeff",
+      "role": "user",
+      "content": "Nothing else, thank you.",
+      "createdAt": "2026-10-05T16:51:13.524Z"
+    },
+    {
+      "id": "727c09ec-2191-488a-a0fd-aa3ee25bce07",
+      "role": "assistant",
+      "content": "Thank you, Taylor—it’s been lovely getting to know what matters to you both. Wishing you and Ben a wonderful, unhurried honeymoon.",
+      "createdAt": "2026-10-05T16:51:26.743Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "aa0a570f-e182-4675-a3e2-aa666b3f5e62",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nTaylor — Discovery v2 06; Seven Secrets by Hanging Gardens, Lombok.\n15–20 November 2026, five nights; two guests, Taylor and Ben.\nHoneymoon; first visit to Lombok for both. Arriving mid-afternoon, exact time unconfirmed. They want an unhurried stay, not a full itinerary.\nInteraction preference: friendly conversation and good suggestions are welcome; they want to decide how each day unfolds. No big public honeymoon welcome.\n\nB) COORDINATION\nAssigned concierge to lead experience proposals; reception to confirm the operational handoff. Hotel DNA is public/historical preparation, not operational confirmation; capabilities, availability and charges require checking.\nShare discreetly: no public honeymoon fuss, no fixed arrival plans, and Ben does not drink alcohol. Reception/housekeeping own bedding preparation; kitchen/bar own food and drinks. No arrangements or purchases are authorised.\n\nC) GUEST PROFILE\nLong breakfasts, photography and sunset-watching are shared pleasures. Ben wants to discover Indonesian dishes and understand how they are made. Taylor shares that curiosity but particularly values time to do nothing; avoid filling every day.\nArrival preference: shower, something refreshing, then freedom from plans.\nBen likes citrus drinks without alcohol; Taylor enjoys an occasional gin with citrus. Both report no dietary restrictions and are happy to try new flavours.\nSleep preferences: Ben likes a soft, low pillow; Taylor a firm pillow. Separate blankets help both sleep better.\n\nD) RECEPTION\nExpressed preference: keep the arrival discreet and unhurried. Reception should prioritise access to their suite and shower, with only essential orientation; do not schedule an arrival activity.\nSuggested attention: offer a refreshing drink when they are ready, rather than delaying room access. Bar to check a genuinely alcohol-free citrus option for Ben and a citrus gin option for Taylor if wanted; confirm ingredients, availability and any charge before serving.\nGive breakfast service hours so they can enjoy a long breakfast without discovering a closing-time constraint.\n\nE) ROOM PREPARATION\nExpressed requests: reception/housekeeping to check availability of a soft, low pillow for Ben, a firm pillow for Taylor, and separate blankets. Room category and bedding configuration are not supplied; confirm these before preparation. Published pillow-menu references do not establish current stock or entitlement.\nOptional attention, for hotel approval: a discreet hotel-authored note in the suite, “Welcome, Taylor and Ben. Wishing you an unhurried honeymoon.” No public presentation or elaborate setup is needed; do not assume decoration or gifts are wanted.\n\nF) CONCIERGE\n- Indonesian food discovery — optional paid proposal: ask L’Angelo Bianco’s kitchen whether a relaxed meal featuring current Indonesian dishes could include brief explanations of ingredients and preparation. This serves Ben’s learning interest and Taylor’s wish to participate without a packed programme. Concierge coordinates; kitchen confirms dishes, staff capacity, format and pricing. Do not imply an established cooking class.\n- Sunset and photography — suggested support: identify suitable on-property viewpoints and the actual sunset/noise conditions during their dates. Optional paid extension: a leisurely dinner in an appropriate terrace, beach or pool setting, with Ben’s alcohol-free citrus drink and Taylor’s preferred drink if requested. Concierge and F&B must check setting, weather, privacy, hours, setup fees and menu; offer a choice, not a surprise.\n- Protect downtime: present these as separate possibilities, leaving unscheduled days intact. No honeymoon-package entitlement follows from the occasion.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "62129af6-1355-4bfe-bf20-da039a50bda5",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:51:53.689Z",
+      "updatedAt": "2026-10-05T16:51:53.689Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nTaylor — Discovery v2 06; Seven Secrets by Hanging Gardens, Lombok.\n15–20 November 2026, five nights; two guests, Taylor and Ben.\nHoneymoon; first visit to Lombok for both. Arriving mid-afternoon, exact time unconfirmed. They want an unhurried stay, not a full itinerary.\nInteraction preference: friendly conversation and good suggestions are welcome; they want to decide how each day unfolds. No big public honeymoon welcome.\n\nB) COORDINATION\nAssigned concierge to lead experience proposals; reception to confirm the operational handoff. Hotel DNA is public/historical preparation, not operational confirmation; capabilities, availability and charges require checking.\nShare discreetly: no public honeymoon fuss, no fixed arrival plans, and Ben does not drink alcohol. Reception/housekeeping own bedding preparation; kitchen/bar own food and drinks. No arrangements or purchases are authorised.\n\nC) GUEST PROFILE\nLong breakfasts, photography and sunset-watching are shared pleasures. Ben wants to discover Indonesian dishes and understand how they are made. Taylor shares that curiosity but particularly values time to do nothing; avoid filling every day.\nArrival preference: shower, something refreshing, then freedom from plans.\nBen likes citrus drinks without alcohol; Taylor enjoys an occasional gin with citrus. Both report no dietary restrictions and are happy to try new flavours.\nSleep preferences: Ben likes a soft, low pillow; Taylor a firm pillow. Separate blankets help both sleep better.\n\nD) RECEPTION\nExpressed preference: keep the arrival discreet and unhurried. Reception should prioritise access to their suite and shower, with only essential orientation; do not schedule an arrival activity.\nSuggested attention: offer a refreshing drink when they are ready, rather than delaying room access. Bar to check a genuinely alcohol-free citrus option for Ben and a citrus gin option for Taylor if wanted; confirm ingredients, availability and any charge before serving.\nGive breakfast service hours so they can enjoy a long breakfast without discovering a closing-time constraint.\n\nE) ROOM PREPARATION\nExpressed requests: reception/housekeeping to check availability of a soft, low pillow for Ben, a firm pillow for Taylor, and separate blankets. Room category and bedding configuration are not supplied; confirm these before preparation. Published pillow-menu references do not establish current stock or entitlement.\nOptional attention, for hotel approval: a discreet hotel-authored note in the suite, “Welcome, Taylor and Ben. Wishing you an unhurried honeymoon.” No public presentation or elaborate setup is needed; do not assume decoration or gifts are wanted.\n\nF) CONCIERGE\n- Indonesian food discovery — optional paid proposal: ask L’Angelo Bianco’s kitchen whether a relaxed meal featuring current Indonesian dishes could include brief explanations of ingredients and preparation. This serves Ben’s learning interest and Taylor’s wish to participate without a packed programme. Concierge coordinates; kitchen confirms dishes, staff capacity, format and pricing. Do not imply an established cooking class.\n- Sunset and photography — suggested support: identify suitable on-property viewpoints and the actual sunset/noise conditions during their dates. Optional paid extension: a leisurely dinner in an appropriate terrace, beach or pool setting, with Ben’s alcohol-free citrus drink and Taylor’s preferred drink if requested. Concierge and F&B must check setting, weather, privacy, hours, setup fees and menu; offer a choice, not a surprise.\n- Protect downtime: present these as separate possibilities, leaving unscheduled days intact. No honeymoon-package entitlement follows from the occasion.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

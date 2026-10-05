@@ -1,0 +1,33 @@
+1. ASSISTANT: Hello Camille! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: A weekend by the sea with the kids. We've all had a busy few months.
+
+3. ASSISTANT: A weekend by the sea sounds like a welcome pause after those busy months. What do you and the kids most enjoy doing together when you have time to slow down?
+
+4. USER: Wandering without a plan, mostly. Alex and I used to do that in Nice before we had children.
+
+5. ASSISTANT: It sounds like Nice holds some lovely memories for you and Alex. How old are the kids, and what tends to catch their attention when you're out wandering together?
+
+6. USER: Noa is eight, nearly nine, and draws cats on everything. Adam is eleven and likes taking photos.
+
+7. ASSISTANT: Noa’s cats and Adam’s photos sound like two lovely ways of capturing a weekend. When you and Alex think back to your wanders in Nice, is there a favourite place or little ritual you’d enjoy revisiting with them?
+
+8. USER: Just walking along the sea, really. These days our little family ritual is hot chocolate and something sweet in the evening.
+
+9. ASSISTANT: Hot chocolate and something sweet sounds like a cosy way to end a day by the sea. What does each of you usually choose for the sweet part?
+
+10. USER: Strawberry sweets are the favourite. None of us really likes the usual bowl of nuts.
+
+11. ASSISTANT: Strawberry sweets rather than a bowl of nuts—a lovely detail for your evening ritual. With two rooms for this weekend, what helps everyone settle in and sleep comfortably?
+
+12. USER: Nothing special for bedding. I do struggle with strongly perfumed rooms, though.
+
+13. ASSISTANT: Strongly perfumed rooms can make it hard to settle in; that’s a useful detail to share. When you’re away, do you enjoy a little conversation and local guidance from the hotel team, or prefer to find your own way?
+
+14. USER: We like chatting with people who know the area. A little local story is often better than a list of places.
+
+15. ASSISTANT: A local story sounds very much in keeping with your unplanned wanders. Is there anything else you’d like to add or correct before we wrap up?
+
+16. USER: Nothing else comes to mind, thank you.
+
+17. ASSISTANT: Thank you, Camille—it’s been lovely hearing about your family’s seaside wanders and evening ritual. Wishing you all a restful weekend back in Nice.

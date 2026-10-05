@@ -1,0 +1,29 @@
+1. ASSISTANT: Hello Sofia! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: I'm here for work, but I've kept a day just for myself afterwards.
+
+3. ASSISTANT: A day to yourself after work sounds lovely. Is Paris familiar to you, and what would make that free day feel well spent?
+
+4. USER: I usually only see meeting rooms here. A long breakfast and wandering with my camera would feel like a proper day off.
+
+5. ASSISTANT: A slow breakfast and time behind the camera sound like a lovely change from meeting rooms. What tends to catch your eye when you’re taking photographs?
+
+6. USER: Old doorways and everyday street scenes, mostly in black and white. I always seem to rush past them on work trips.
+
+7. ASSISTANT: It sounds like this is your chance to linger over the details you usually rush past. What do you like to settle in with over a long breakfast?
+
+8. USER: Black coffee and a lemon pastry, if there's one. Usually I eat standing up, so just sitting down matters.
+
+9. ASSISTANT: Having time to sit and enjoy your coffee sounds like part of the treat. On the work days, what helps you unwind and sleep well when you get back to the hotel?
+
+10. USER: A cool, quiet room and a firm pillow. My shoulders are usually tight after a whole day at a laptop.
+
+11. ASSISTANT: A cool, quiet room and a firm pillow sound like useful comforts after those laptop-heavy days. When you’re staying for work, do you enjoy a little conversation and local guidance from the team, or prefer to seek them out only when you need something?
+
+12. USER: I like being recognised and a friendly hello. I'll come over when I fancy a longer chat.
+
+13. ASSISTANT: A friendly hello, with longer conversations on your terms—that’s helpful to know. Is there anything else you’d like to add or correct before we finish?
+
+14. USER: No, that covers it, thanks.
+
+15. ASSISTANT: You’re very welcome, Sofia. I hope your day to yourself brings plenty of time to sit, wander and enjoy the details you usually pass by.

@@ -8,7 +8,7 @@ Run the regular server with npm start (or npm run dev), not npm run demo: the la
 
 Create a new fictional stay in the console, choose a hotel and handoff, open the guest view, converse in English, and select Finish and share. The automatic A–F draft appears in Brief & review. Existing stays retain their original DNA snapshot. A guest who declines personalisation receives a minimal record, without experience suggestions.
 
-The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context and transcript, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
+The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v2 and brief-v2; previous versions remain in source control. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context and transcript, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
 
 ## How the local allowance works
 
@@ -27,6 +27,8 @@ The Connections screen shows the limit, accounted amount and remaining allowance
 Automated checks exercise concurrent reservations, refusal before dispatch, uncertain network outcomes, repeated settlement, blocked usage anomalies and restart persistence. Existing workflow and browser tests remain simulated and are reported separately from live trials. A few real fictional scenarios establish that the integration works; they do not validate conversation quality across all hotels and guest situations.
 
 The first live checks covered two chat turns and a normal A–F brief for Hôtel Amour Nice, plus a refusal turn and deterministic minimal record for Golden Well. All passed through the application service. The conservative allowance accounted for USD 0.082086 across four generations, leaving USD 4.917914 immediately after these checks, with no uncertain calls. See the [verification report](Verification%20report.md) for observations and limits. The console was then restarted in OpenAI mode with the same local account and database.
+
+Following the ten-case baseline, six new discovery profiles used 52 short guest replies and generated six live briefs. That campaign accounted for USD 1.481970, including the retained reservation for one timed-out chat call. A deliberate retry succeeded; the uncertain reservation was not removed or refunded. After export, cumulative accounting was USD 2.556417, leaving USD 2.443583 of the original USD 5, with one uncertain call. These are dated ledger readings, not a provider invoice or a claim about subsequent use. See the [six-case report](Rapport%20des%20six%20tests%20de%20découverte.md).
 
 Official OpenAI documentation checked on 5 October 2026:
 

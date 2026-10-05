@@ -41,11 +41,13 @@ npm test
 npm run test:e2e
 ```
 
-Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Deux scénarios fictifs ont aussi été testés avec GPT‑6.1 Sol : dialogue et brief pour Hôtel Amour Nice, puis refus de personnalisation pour Golden Well. Ces premiers essais vérifient le raccordement ; l'évaluation de qualité sur tous les hôtels reste à mener. SMTP n'a pas été testé en réel. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
+Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Les premiers essais GPT‑6.1 Sol ont vérifié le dialogue/brief pour Hôtel Amour Nice et le refus pour Golden Well. Deux campagnes de conversations courtes ont ensuite couvert les six hôtels ; leurs résultats et limites figurent ci-dessous. SMTP n'a pas été testé en réel. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
 
 Voir [Connections and operation](docs/Connections%20and%20operation.md) pour les accès nécessaires et [Verification report](docs/Verification%20report.md) pour la portée des contrôles. `.env.example` contient seulement les noms de configuration. Aucune clé réelle ne doit être copiée dans le code ou la conversation.
 
 Une [revue de dix conversations courtes](docs/Revue%20de%20dix%20conversations%20courtes.md) couvre ensuite les six hôtels, avec 41 réponses client de 1–2 phrases et les dix briefs originaux. Elle montre des limites de profondeur, de ton et de longueur des briefs : le fonctionnement technique ne vaut pas validation de la qualité d'hôte.
+
+Le [rapport des six nouveaux tests de découverte](docs/Rapport%20des%20six%20tests%20de%20découverte.md) évalue les prompts actifs `conversation-v2` et `brief-v2`, fondés sur les exemples Sukhothai et le cadrage de Julien. Trois familles à Nice, Bangkok et Prague, puis retrouvailles entre amies, séjour professionnel avec journée personnelle et lune de miel : 52 réponses client de 4–23 mots, six briefs réels conservés sans correction. Des préparations et offres pertinentes émergent, mais la découverte manque encore des indices importants et le ton reste répétitif. Ce résultat ne constitue pas une validation produit ou terrain.
 
 ## Ordre de lecture
 

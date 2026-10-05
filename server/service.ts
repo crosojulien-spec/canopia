@@ -15,7 +15,7 @@ import type {
   StayDetail,
 } from '../shared/types.ts';
 import { AppError, assert, hash, seal, token, unseal } from './security.ts';
-import { minimalBrief, withdrawalNotice } from './ai.ts';
+import { briefPromptVersion, minimalBrief, withdrawalNotice } from './ai.ts';
 
 type StayRow = { data: Stay; hotel_snapshot: Hotel; token_cipher: string; chat_busy: boolean };
 const now = () => new Date().toISOString();
@@ -165,7 +165,7 @@ export class CanopiaService {
       id: randomUUID(),
       role: 'assistant',
       createdAt,
-      content: `Hello ${values.guestName.split(' ')[0]}. This optional exchange will help the team at ${hotel.name} prepare your stay from ${values.arrival} to ${values.departure}. We already have the reservation details shared with the team. You can skip a question or stop at any time. What would you like us to understand about this stay?`,
+      content: `Hello ${values.guestName.split(' ')[0]}! I'd love to get to know you a little before your stay at ${hotel.name}, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?`,
     };
     await this.db.transaction(async (tx) => {
       await tx.query(
@@ -386,7 +386,7 @@ export class CanopiaService {
         kind,
         source,
         dnaVersion: row.data.dnaVersion,
-        promptVersion: kind === 'minimal' ? 'withdrawal-v1' : 'brief-v1',
+        promptVersion: kind === 'minimal' ? 'withdrawal-v1' : briefPromptVersion,
         model: kind === 'minimal' ? 'deterministic-minimal-record' : this.ai.model,
         createdAt,
         updatedAt: createdAt,

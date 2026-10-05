@@ -1,0 +1,33 @@
+1. ASSISTANT: Hello Anika! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: Our first proper family holiday in years. We're finally taking our daughter to Thailand.
+
+3. ASSISTANT: A first proper family holiday in years sounds worth making room to enjoy together. How old is your daughter, and what are you all most looking forward to about Thailand?
+
+4. USER: Hana is ten and wants to see dragons everywhere. My wife Mei is mostly excited about the food.
+
+5. ASSISTANT: Hana’s dragon quest sounds like a lovely thread for the trip, alongside Mei’s food discoveries. What sparked Hana’s fascination with dragons?
+
+6. USER: The stories we read together at bedtime. She loves making up her own versions and drawing the places in them.
+
+7. ASSISTANT: So the dragons come with stories you share at bedtime—and places Hana imagines and draws herself. What would make this holiday feel special for you personally?
+
+8. USER: A gentle start to the day, some yoga and a coffee. And afternoons where none of us has to be anywhere.
+
+9. ASSISTANT: Yoga and coffee, with afternoons left open, sounds like a welcome change of pace. What kind of food discoveries is Mei hoping for—and what does Hana enjoy eating?
+
+10. USER: Mei wants to understand Thai flavours, while Hana prefers mild food. Mei has a severe shellfish allergy, including cross-contact.
+
+11. ASSISTANT: Mei’s severe shellfish allergy, including cross-contact, is important for the dining team to discuss with you directly. With gentle mornings in mind, is there anything that helps the three of you sleep comfortably when you’re away from home?
+
+12. USER: I sleep hot, but Mei likes an extra blanket of her own. We also prefer not to have strong perfume in the room.
+
+13. ASSISTANT: Your different sleep preferences and the wish to avoid strong perfume are helpful to know. How do you like the team to interact with you during a stay—are you happy with occasional suggestions, or would you rather take the lead?
+
+14. USER: We enjoy warm, friendly conversation and a thoughtful suggestion. We just don't want the afternoons filled for us.
+
+15. ASSISTANT: Warm conversation and a thoughtful suggestion, while leaving your afternoons open—that’s a lovely balance. Is there anything else you’d like the team to know, or anything you’d like to correct before we finish?
+
+16. USER: No, that's everything for now, thanks.
+
+17. ASSISTANT: Thank you, Anika—it’s been lovely hearing about the three of you. Wishing you a wonderful family holiday, with plenty of time for stories, discoveries and unhurried afternoons.

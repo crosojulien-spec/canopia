@@ -1,0 +1,37 @@
+1. ASSISTANT: Hello Ruth! I'd love to get to know you a little before your stay at Golden Well / U Zlate Studne, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: I'm meeting an old friend in Prague. We haven't had a trip together since our twenties.
+
+3. ASSISTANT: That sounds like a lovely chance to reconnect. What did you most enjoy about travelling together back then—and what would you like this reunion to feel like?
+
+4. USER: We spent whole afternoons over coffee and cake as students here. Helen has just retired, so we finally have time again.
+
+5. ASSISTANT: Those long afternoons over coffee and cake sound worth returning to, especially now that Helen has more time. Is there a café you remember fondly, or a particular cake that takes you both back?
+
+6. USER: Honestly, I remember the talking more than the cakes. We want that feeling again, with time for Helen's architecture obsession.
+
+7. ASSISTANT: So it’s the unhurried conversation you’re hoping to recapture. What especially draws Helen to architecture—are there buildings or details she loves to linger over?
+
+8. USER: Old libraries and the details above street level. I tend to get distracted by somewhere serving interesting wine.
+
+9. ASSISTANT: Helen looks up at the buildings while you keep an eye out for an interesting glass—a lovely balance. What makes a wine interesting to you, and do you enjoy exploring local Czech wines?
+
+10. USER: Something local I haven't tried before. Helen doesn't drink alcohol, though.
+
+11. ASSISTANT: You enjoy discovering something local and new, while Helen doesn’t drink alcohol. What does she enjoy sipping when you settle in for a long conversation?
+
+12. USER: I'm not sure what she'd choose instead, actually. I'd rather let her say.
+
+13. ASSISTANT: Of course—Helen can speak for herself on that. For your own comfort, what helps you settle in and sleep well when you’re away?
+
+14. USER: A detective novel in bed and peppermint tea. I like a firm pillow, while Helen likes a soft one.
+
+15. ASSISTANT: A detective novel and peppermint tea sound like a gentle end to the day, with different pillows for you and Helen. How do you like the hotel team to be involved during your stay?
+
+16. USER: We like a friendly conversation and a good suggestion. There's no need to make a fuss about Helen's retirement.
+
+17. ASSISTANT: Friendly conversation and thoughtful suggestions, without making Helen’s retirement a ceremony—that’s helpful to know. Is there anything else you’d like to add or correct before we leave it there?
+
+18. USER: No, I think that's all, thank you.
+
+19. ASSISTANT: Thank you, Ruth. I hope you and Helen enjoy plenty of time to talk and rediscover Prague together.

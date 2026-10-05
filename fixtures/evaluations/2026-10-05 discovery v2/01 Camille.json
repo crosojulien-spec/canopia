@@ -1,0 +1,199 @@
+{
+  "stay": {
+    "id": "21379965-d44c-4333-964b-20e5cd748806",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "A weekend by the sea with the kids after a busy few months.",
+        "sourceQuote": "A weekend by the sea with the kids. We've all had a busy few months.",
+        "sourceMessageId": "d1dee030-95ff-4dc7-a7c8-c84054b5c842"
+      },
+      {
+        "label": "Shared enjoyment and familiarity with Nice",
+        "value": "Enjoy wandering without a plan; Camille and Alex used to do this in Nice before having children.",
+        "sourceQuote": "Wandering without a plan, mostly. Alex and I used to do that in Nice before we had children.",
+        "sourceMessageId": "911f85a8-9c81-4798-9aa6-55684b3b70d2"
+      },
+      {
+        "label": "Noa's age and interest",
+        "value": "Noa is eight, nearly nine, and draws cats on everything.",
+        "sourceQuote": "Noa is eight, nearly nine, and draws cats on everything.",
+        "sourceMessageId": "2528dd58-3299-426a-a6de-e43949e3be29"
+      },
+      {
+        "label": "Adam's age and interest",
+        "value": "Adam is eleven and likes taking photos.",
+        "sourceQuote": "Adam is eleven and likes taking photos.",
+        "sourceMessageId": "2528dd58-3299-426a-a6de-e43949e3be29"
+      },
+      {
+        "label": "Seaside enjoyment and evening family ritual",
+        "value": "Enjoy walking along the sea; the family's evening ritual is hot chocolate and something sweet.",
+        "sourceQuote": "Just walking along the sea, really. These days our little family ritual is hot chocolate and something sweet in the evening.",
+        "sourceMessageId": "f4456fef-c87c-4e85-a79c-d67cdd68ab54"
+      },
+      {
+        "label": "Sweet preference and nut dislike",
+        "value": "Strawberry sweets are the favourite; none of the family really likes the usual bowl of nuts.",
+        "sourceQuote": "Strawberry sweets are the favourite. None of us really likes the usual bowl of nuts.",
+        "sourceMessageId": "c1091b81-e92c-462a-98bc-66d8121d9694"
+      },
+      {
+        "label": "Bedding and room fragrance",
+        "value": "No special bedding needs stated; Camille struggles with strongly perfumed rooms.",
+        "sourceQuote": "Nothing special for bedding. I do struggle with strongly perfumed rooms, though.",
+        "sourceMessageId": "0d652049-9a89-4f5a-ad22-9a531ff69af0"
+      },
+      {
+        "label": "Interaction and local discovery preference",
+        "value": "Enjoy chatting with people who know the area; value a little local story more than a list of places.",
+        "sourceQuote": "We like chatting with people who know the area. A little local story is often better than a list of places.",
+        "sourceMessageId": "9936c92e-36ad-45fa-9023-deccb3c07241"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-06",
+    "handoff": "reception",
+    "hotelId": "hotel_amour_nice",
+    "revoked": false,
+    "revision": 22,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.009Z",
+    "departure": "2026-11-08",
+    "expiresAt": "2026-10-12T16:39:37.010Z",
+    "guestName": "Camille — Discovery v2 01",
+    "hotelName": "Hotel Amour Nice",
+    "partySize": 4,
+    "updatedAt": "2026-10-05T16:51:15.933Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "a3a13112-777b-4b70-89fe-dd4047d3f873",
+    "reservationNotes": "Two rooms reserved for four guests."
+  },
+  "messages": [
+    {
+      "id": "e8536460-931f-4537-b1c6-6197a2d2df0a",
+      "role": "assistant",
+      "content": "Hello Camille! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.009Z"
+    },
+    {
+      "id": "d1dee030-95ff-4dc7-a7c8-c84054b5c842",
+      "role": "user",
+      "content": "A weekend by the sea with the kids. We've all had a busy few months.",
+      "createdAt": "2026-10-05T16:43:53.420Z"
+    },
+    {
+      "id": "d3c9c2b9-5a1a-4652-aa59-7994c662ab67",
+      "role": "assistant",
+      "content": "A weekend by the sea sounds like a welcome pause after those busy months. What do you and the kids most enjoy doing together when you have time to slow down?",
+      "createdAt": "2026-10-05T16:43:59.114Z"
+    },
+    {
+      "id": "911f85a8-9c81-4798-9aa6-55684b3b70d2",
+      "role": "user",
+      "content": "Wandering without a plan, mostly. Alex and I used to do that in Nice before we had children.",
+      "createdAt": "2026-10-05T16:44:47.677Z"
+    },
+    {
+      "id": "546df8e0-bb76-4969-87b6-3f527f7d096e",
+      "role": "assistant",
+      "content": "It sounds like Nice holds some lovely memories for you and Alex. How old are the kids, and what tends to catch their attention when you're out wandering together?",
+      "createdAt": "2026-10-05T16:44:53.281Z"
+    },
+    {
+      "id": "2528dd58-3299-426a-a6de-e43949e3be29",
+      "role": "user",
+      "content": "Noa is eight, nearly nine, and draws cats on everything. Adam is eleven and likes taking photos.",
+      "createdAt": "2026-10-05T16:45:21.604Z"
+    },
+    {
+      "id": "1d12e7ad-dedc-4469-b2a3-5dc982d9c391",
+      "role": "assistant",
+      "content": "Noa’s cats and Adam’s photos sound like two lovely ways of capturing a weekend. When you and Alex think back to your wanders in Nice, is there a favourite place or little ritual you’d enjoy revisiting with them?",
+      "createdAt": "2026-10-05T16:45:31.412Z"
+    },
+    {
+      "id": "f4456fef-c87c-4e85-a79c-d67cdd68ab54",
+      "role": "user",
+      "content": "Just walking along the sea, really. These days our little family ritual is hot chocolate and something sweet in the evening.",
+      "createdAt": "2026-10-05T16:45:57.179Z"
+    },
+    {
+      "id": "1b33bb9a-1474-42c1-80f7-4397cdfc7c37",
+      "role": "assistant",
+      "content": "Hot chocolate and something sweet sounds like a cosy way to end a day by the sea. What does each of you usually choose for the sweet part?",
+      "createdAt": "2026-10-05T16:46:05.598Z"
+    },
+    {
+      "id": "c1091b81-e92c-462a-98bc-66d8121d9694",
+      "role": "user",
+      "content": "Strawberry sweets are the favourite. None of us really likes the usual bowl of nuts.",
+      "createdAt": "2026-10-05T16:46:34.090Z"
+    },
+    {
+      "id": "1a646d74-5070-468e-b802-83f8c77ba125",
+      "role": "assistant",
+      "content": "Strawberry sweets rather than a bowl of nuts—a lovely detail for your evening ritual. With two rooms for this weekend, what helps everyone settle in and sleep comfortably?",
+      "createdAt": "2026-10-05T16:46:43.483Z"
+    },
+    {
+      "id": "0d652049-9a89-4f5a-ad22-9a531ff69af0",
+      "role": "user",
+      "content": "Nothing special for bedding. I do struggle with strongly perfumed rooms, though.",
+      "createdAt": "2026-10-05T16:47:16.733Z"
+    },
+    {
+      "id": "b09be997-6e14-4aca-9489-24e43d83c885",
+      "role": "assistant",
+      "content": "Strongly perfumed rooms can make it hard to settle in; that’s a useful detail to share. When you’re away, do you enjoy a little conversation and local guidance from the hotel team, or prefer to find your own way?",
+      "createdAt": "2026-10-05T16:47:27.917Z"
+    },
+    {
+      "id": "9936c92e-36ad-45fa-9023-deccb3c07241",
+      "role": "user",
+      "content": "We like chatting with people who know the area. A little local story is often better than a list of places.",
+      "createdAt": "2026-10-05T16:47:56.714Z"
+    },
+    {
+      "id": "32c07cd0-0ad2-49d4-a0bd-999472448b9f",
+      "role": "assistant",
+      "content": "A local story sounds very much in keeping with your unplanned wanders. Is there anything else you’d like to add or correct before we wrap up?",
+      "createdAt": "2026-10-05T16:48:08.732Z"
+    },
+    {
+      "id": "eb6bb124-92fe-4b72-b201-68ec95713341",
+      "role": "user",
+      "content": "Nothing else comes to mind, thank you.",
+      "createdAt": "2026-10-05T16:48:35.477Z"
+    },
+    {
+      "id": "b9086c56-d63e-4f40-880f-7ff43396010e",
+      "role": "assistant",
+      "content": "Thank you, Camille—it’s been lovely hearing about your family’s seaside wanders and evening ritual. Wishing you all a restful weekend back in Nice.",
+      "createdAt": "2026-10-05T16:50:24.697Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "a3a13112-777b-4b70-89fe-dd4047d3f873",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nCamille — Discovery v2 01. Hotel Amour Nice, 6–8 November 2026; four guests, two rooms.\nFamily: Camille, Alex, Noa (eight, nearly nine) and Adam (eleven). A restorative weekend by the sea after busy months. Camille and Alex previously enjoyed unplanned walks in Nice before having children.\nExpressed interaction preference: enjoys chatting with people who know the area; a small local story is more welcome than a list of places.\n\nB) COORDINATION\nReception is the assigned lead, coordinating room preparation with housekeeping and food possibilities with the restaurant/bar.\nHotel DNA is public preparation, not operational confirmation; published prices are references, not quotes or inclusions. No arrangements have been made.\nKey checks: actual room allocation; ability to minimise strong fragrance; feasibility and pricing of the evening ritual below. Nut dislike is a taste preference, not a reported allergy. Dietary restrictions/allergies were not established: clarify before any edible attention.\n\nC) GUEST PROFILE\n• Wants wandering without a plan, especially along the sea—not a packed programme.\n• Noa draws cats on everything; Adam enjoys taking photographs.\n• Family evening ritual: hot chocolate and something sweet. Strawberry sweets are the favourite; none enjoys the usual bowl of nuts.\n• No special bedding needs expressed. Camille struggles with strongly perfumed rooms.\n• Nice has shared personal history for Camille and Alex; no celebration was stated.\n\nD) RECEPTION\nWelcome with brief, genuine local conversation rather than an itinerary. Suggested preparation: have one verified seaside anecdote ready, with a simple optional walking direction that leaves the family free to explore. Reception owns this; check accuracy and current access/weather rather than inventing local lore.\nFor food planning, clarify what “strawberry sweets” means to them and any dietary restrictions only if progressing an offer. Do not turn arrival into another general questionnaire.\n\nE) ROOM PREPARATION\n• Expressed comfort need: avoid strong room perfume. Reception/housekeeping should identify Camille’s room and assess cleaning-product fragrance, air fresheners and any scented amenities; omit discretionary scenting and ventilate where practical. Do not promise an entirely fragrance-free environment.\n• Optional hotel-approved touch: a small plain drawing sheet for Noa, if suitable materials are available, with a short hotel-authored note such as “For a cat sketch from your Nice weekend.” Reception/housekeeping to approve placement and any cost; no birthday framing, food gift or special bedding setup.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n• Flexible seaside discovery: using the family’s return-to-Nice memories, Noa’s drawing and Adam’s photography, reception could research one easy seaside stretch with optional pauses for sketching and photographs. Check November weather, access and a nearby shelter option. Offer it conversationally, without a schedule or invented venues.\n• Paid proposal for hotel consideration: an evening hot-chocolate-and-sweet stop at the hotel restaurant/bar. Their ritual gives this more relevance than a standard welcome drink. Restaurant/bar must confirm hot chocolate capability, strawberry-sweet availability or a guest-approved alternative, evening service, ingredients and price; neither item is established stock. Avoid a nut-bowl accompaniment.\n• Optional paid extension: a relaxed family meal followed by that evening ritual, using the hotel’s Greek/Cypriot kitchen. Reception coordinates; restaurant checks child-suitable choices, portions, pacing, table location and total price. Keep it an ordinary four-person meal, not a group package, and offer only as a flexible option after their wander.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "21379965-d44c-4333-964b-20e5cd748806",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:51:15.932Z",
+      "updatedAt": "2026-10-05T16:51:15.932Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nCamille — Discovery v2 01. Hotel Amour Nice, 6–8 November 2026; four guests, two rooms.\nFamily: Camille, Alex, Noa (eight, nearly nine) and Adam (eleven). A restorative weekend by the sea after busy months. Camille and Alex previously enjoyed unplanned walks in Nice before having children.\nExpressed interaction preference: enjoys chatting with people who know the area; a small local story is more welcome than a list of places.\n\nB) COORDINATION\nReception is the assigned lead, coordinating room preparation with housekeeping and food possibilities with the restaurant/bar.\nHotel DNA is public preparation, not operational confirmation; published prices are references, not quotes or inclusions. No arrangements have been made.\nKey checks: actual room allocation; ability to minimise strong fragrance; feasibility and pricing of the evening ritual below. Nut dislike is a taste preference, not a reported allergy. Dietary restrictions/allergies were not established: clarify before any edible attention.\n\nC) GUEST PROFILE\n• Wants wandering without a plan, especially along the sea—not a packed programme.\n• Noa draws cats on everything; Adam enjoys taking photographs.\n• Family evening ritual: hot chocolate and something sweet. Strawberry sweets are the favourite; none enjoys the usual bowl of nuts.\n• No special bedding needs expressed. Camille struggles with strongly perfumed rooms.\n• Nice has shared personal history for Camille and Alex; no celebration was stated.\n\nD) RECEPTION\nWelcome with brief, genuine local conversation rather than an itinerary. Suggested preparation: have one verified seaside anecdote ready, with a simple optional walking direction that leaves the family free to explore. Reception owns this; check accuracy and current access/weather rather than inventing local lore.\nFor food planning, clarify what “strawberry sweets” means to them and any dietary restrictions only if progressing an offer. Do not turn arrival into another general questionnaire.\n\nE) ROOM PREPARATION\n• Expressed comfort need: avoid strong room perfume. Reception/housekeeping should identify Camille’s room and assess cleaning-product fragrance, air fresheners and any scented amenities; omit discretionary scenting and ventilate where practical. Do not promise an entirely fragrance-free environment.\n• Optional hotel-approved touch: a small plain drawing sheet for Noa, if suitable materials are available, with a short hotel-authored note such as “For a cat sketch from your Nice weekend.” Reception/housekeeping to approve placement and any cost; no birthday framing, food gift or special bedding setup.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n• Flexible seaside discovery: using the family’s return-to-Nice memories, Noa’s drawing and Adam’s photography, reception could research one easy seaside stretch with optional pauses for sketching and photographs. Check November weather, access and a nearby shelter option. Offer it conversationally, without a schedule or invented venues.\n• Paid proposal for hotel consideration: an evening hot-chocolate-and-sweet stop at the hotel restaurant/bar. Their ritual gives this more relevance than a standard welcome drink. Restaurant/bar must confirm hot chocolate capability, strawberry-sweet availability or a guest-approved alternative, evening service, ingredients and price; neither item is established stock. Avoid a nut-bowl accompaniment.\n• Optional paid extension: a relaxed family meal followed by that evening ritual, using the hotel’s Greek/Cypriot kitchen. Reception coordinates; restaurant checks child-suitable choices, portions, pacing, table location and total price. Keep it an ordinary four-person meal, not a group package, and offer only as a flexible option after their wander.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

@@ -1,0 +1,31 @@
+{
+  "cases": 6,
+  "guestTurns": 52,
+  "guestWords": {
+    "min": 4,
+    "max": 23
+  },
+  "assistantReplies": 52,
+  "lovelyReplies": 21,
+  "extractedFactsWithMatchingUserQuote": 51,
+  "successfulChatCalls": 52,
+  "failedChatCalls": 1,
+  "medianChatMs": 9954.5,
+  "maxSuccessfulChatMs": 20261,
+  "failures": [
+    {
+      "case": "01",
+      "elapsedMs": 60598,
+      "error": "The AI response could not be completed. Your message is saved. Please retry or ask the operator."
+    }
+  ],
+  "accountedForRunUsd": 1.48197,
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 2.556417,
+    "remainingUsd": 2.443583,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "checks": "Six completed fictional stays; six unedited OpenAI brief-v2 drafts with A-F; one or two short sentences per guest turn; all retained fact quotes match a guest message; no invitations; prompt hashes unchanged during evaluation."
+}

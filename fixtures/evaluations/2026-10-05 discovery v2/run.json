@@ -1,0 +1,63 @@
+{
+  "startedAt": "2026-10-05T16:39:37.041Z",
+  "model": "gpt-6.1-sol",
+  "baselineCommit": "30804d8",
+  "promptEdition": "v2 discovery and composition",
+  "chatReasoning": "low",
+  "briefReasoning": "medium",
+  "conversationPromptSha256": "de611f04df60f35dc24932b6bb647fa9ee1799069445aba5a03122ed86d40bbc",
+  "briefPromptSha256": "9fe75717bb159a5eae7ef8f03fca2bd9dc97658bc0a1d3e19d76090617135a79",
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 1.074447,
+    "remainingUsd": 3.925553,
+    "uncertainCalls": 0,
+    "blocked": false
+  },
+  "finishedAt": "2026-10-05T16:52:18.245Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 2.556417,
+    "remainingUsd": 2.443583,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "hotelSnapshots": [
+    {
+      "case": "01",
+      "hotelId": "hotel_amour_nice",
+      "version": 2,
+      "sha256": "f025403765946d1116a6f3ccbd7e4754710da56a04cd3527ba8a971074b65ffa"
+    },
+    {
+      "case": "02",
+      "hotelId": "sukhothai_bangkok",
+      "version": 2,
+      "sha256": "34237740c09f97ee76d715e59746625119dc513b0b94517ed52f75a7789805fd"
+    },
+    {
+      "case": "03",
+      "hotelId": "kings_court_prague",
+      "version": 2,
+      "sha256": "cc3c5541ae3c372d0ac2f32147c57c0561c40059620cdc1ab4f412e1610fff1f"
+    },
+    {
+      "case": "04",
+      "hotelId": "golden_well_prague",
+      "version": 2,
+      "sha256": "a09ac669d04af702b2196d5d134af1ae3ce07d25da2ad3445156951df77c1018"
+    },
+    {
+      "case": "05",
+      "hotelId": "pavillon_reine_paris",
+      "version": 2,
+      "sha256": "74657704b405e7986f140a8678fe042fbdfd0e188704b374c1d3c6f78e4dff5c"
+    },
+    {
+      "case": "06",
+      "hotelId": "seven_secrets_lombok",
+      "version": 2,
+      "sha256": "52911d9dbcae94ef68c22cd4e7652c6be5a2d35eeef305f3e9648738547e94c3"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "stay": {
+    "id": "a951cb3c-9c68-444c-8d6f-1ea21fa00342",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of visit",
+        "value": "Bringing their teenager to Prague for a long weekend; the destination was his idea.",
+        "sourceQuote": "We're bringing our teenager to Prague for a long weekend. It was his idea, actually.",
+        "sourceMessageId": "71619366-f8df-49ee-9905-71f8fb861231"
+      },
+      {
+        "label": "Leo’s interests",
+        "value": "Leo plays guitar, has become very interested in jazz, and wants to take street photographs.",
+        "sourceQuote": "Leo plays guitar and has got really into jazz. He also wants to take street photos.",
+        "sourceMessageId": "9416e57f-84f9-4ef0-aa9d-5587c3960361"
+      },
+      {
+        "label": "Eva’s interests and previous visit",
+        "value": "Eva loves old cafés and Art Nouveau buildings. They last visited Prague twenty years ago, before Leo was born.",
+        "sourceQuote": "Eva loves old cafés and Art Nouveau buildings. We last came here twenty years ago, before Leo was born.",
+        "sourceMessageId": "5d6a5c0f-744f-4796-9632-9558f402ca97"
+      },
+      {
+        "label": "Desired pace",
+        "value": "No particular place to revisit; values sitting together without watching the clock. Thinks Leo would enjoy discovering his own places.",
+        "sourceQuote": "No particular place, just sitting together without watching the clock. Leo would probably enjoy finding his own places more.",
+        "sourceMessageId": "fd44cbc2-4a2c-4ed4-bdc7-81cad1218756"
+      },
+      {
+        "label": "Café drinks",
+        "value": "Martin likes a double espresso, Eva herbal tea, and Leo asks for oat milk because he is lactose intolerant.",
+        "sourceQuote": "A double espresso for me, herbal tea for Eva. Leo asks for oat milk because he's lactose intolerant.",
+        "sourceMessageId": "632fd014-756b-4468-a702-07d4cf7d13b2"
+      },
+      {
+        "label": "Leo’s dietary requirement",
+        "value": "Requests lactose-free choices in food as well as drinks. Lactose intolerance, not an allergy.",
+        "sourceQuote": "Food too, so we'd ask for lactose-free choices. It's an intolerance, not an allergy.",
+        "sourceMessageId": "dce909d8-b995-4038-9b7f-457dbbcac834"
+      },
+      {
+        "label": "Sleep comfort",
+        "value": "Eva gets cold and Martin gets warm; separate duvets help.",
+        "sourceQuote": "Eva gets cold and I get warm, so separate duvets help.",
+        "sourceMessageId": "7e24ddc5-973b-4769-ba46-85b13d01e02e"
+      },
+      {
+        "label": "Shared evening ritual",
+        "value": "The three usually play rummy after dinner with dark chocolate on the table as their end-of-day ritual.",
+        "sourceQuote": "Usually rummy, with some dark chocolate on the table. It's our little end-of-day ritual.",
+        "sourceMessageId": "e74730c3-2570-4d18-8452-52cd07a524b9"
+      },
+      {
+        "label": "Team interaction preference",
+        "value": "Likes friendly people offering good local tips, but not frequent check-ins.",
+        "sourceQuote": "We like friendly people with good local tips. Just not someone checking on us all the time.",
+        "sourceMessageId": "eec930c7-4645-422d-9dc7-2a916f630bbb"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-13",
+    "handoff": "reception",
+    "hotelId": "kings_court_prague",
+    "revoked": false,
+    "revision": 24,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.027Z",
+    "departure": "2026-11-16",
+    "expiresAt": "2026-10-12T16:39:37.027Z",
+    "guestName": "Martin — Discovery v2 03",
+    "hotelName": "Hotel Kings Court",
+    "partySize": 3,
+    "updatedAt": "2026-10-05T16:51:55.438Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "174bbd30-7fc9-4638-b8cc-a7e2c6e7b580",
+    "reservationNotes": "Deluxe category reserved for the stay."
+  },
+  "messages": [
+    {
+      "id": "edea2a45-2bcf-4252-a1bd-7380cf27e811",
+      "role": "assistant",
+      "content": "Hello Martin! I'd love to get to know you a little before your stay at Hotel Kings Court, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.027Z"
+    },
+    {
+      "id": "71619366-f8df-49ee-9905-71f8fb861231",
+      "role": "user",
+      "content": "We're bringing our teenager to Prague for a long weekend. It was his idea, actually.",
+      "createdAt": "2026-10-05T16:43:53.434Z"
+    },
+    {
+      "id": "dd1439f2-4c3c-40e6-b4d0-f8658d0483f2",
+      "role": "assistant",
+      "content": "I love that Prague was his idea—what sparked his interest in coming?",
+      "createdAt": "2026-10-05T16:43:58.970Z"
+    },
+    {
+      "id": "9416e57f-84f9-4ef0-aa9d-5587c3960361",
+      "role": "user",
+      "content": "Leo plays guitar and has got really into jazz. He also wants to take street photos.",
+      "createdAt": "2026-10-05T16:44:47.685Z"
+    },
+    {
+      "id": "cbe8738e-7e9d-41fb-8222-190e5e0a40d9",
+      "role": "assistant",
+      "content": "Jazz and street photography sound like a lovely way for Leo to find his own Prague. What would make the weekend enjoyable for the two of you as well?",
+      "createdAt": "2026-10-05T16:44:53.350Z"
+    },
+    {
+      "id": "5d6a5c0f-744f-4796-9632-9558f402ca97",
+      "role": "user",
+      "content": "Eva loves old cafés and Art Nouveau buildings. We last came here twenty years ago, before Leo was born.",
+      "createdAt": "2026-10-05T16:45:21.613Z"
+    },
+    {
+      "id": "390e5d20-a4b0-4888-8634-62407fb41660",
+      "role": "assistant",
+      "content": "Coming back twenty years later with Leo gives this visit a lovely new perspective. Is there a café or a memory from that earlier trip that you and Eva would particularly enjoy revisiting?",
+      "createdAt": "2026-10-05T16:45:29.382Z"
+    },
+    {
+      "id": "fd44cbc2-4a2c-4ed4-bdc7-81cad1218756",
+      "role": "user",
+      "content": "No particular place, just sitting together without watching the clock. Leo would probably enjoy finding his own places more.",
+      "createdAt": "2026-10-05T16:45:57.187Z"
+    },
+    {
+      "id": "1a14994a-9672-4055-bedc-15d2d78ff4af",
+      "role": "assistant",
+      "content": "It sounds as though leaving room for discoveries matters more than retracing an itinerary. When you settle into a café together, what do each of you usually like to order?",
+      "createdAt": "2026-10-05T16:46:06.205Z"
+    },
+    {
+      "id": "632fd014-756b-4468-a702-07d4cf7d13b2",
+      "role": "user",
+      "content": "A double espresso for me, herbal tea for Eva. Leo asks for oat milk because he's lactose intolerant.",
+      "createdAt": "2026-10-05T16:46:34.099Z"
+    },
+    {
+      "id": "9b337e23-a254-488f-a1ad-730108aadcfa",
+      "role": "assistant",
+      "content": "A double espresso for you and herbal tea for Eva—lovely companions to an unhurried café stop. For Leo, how strictly does he need to avoid lactose in food as well as drinks?",
+      "createdAt": "2026-10-05T16:46:44.566Z"
+    },
+    {
+      "id": "dce909d8-b995-4038-9b7f-457dbbcac834",
+      "role": "user",
+      "content": "Food too, so we'd ask for lactose-free choices. It's an intolerance, not an allergy.",
+      "createdAt": "2026-10-05T16:47:16.741Z"
+    },
+    {
+      "id": "514db151-722c-4d1c-99db-4d59d71435e3",
+      "role": "assistant",
+      "content": "Thanks for clarifying—Leo needs lactose-free choices for food as well as drinks, rather than allergy precautions. After a day out exploring, what helps each of you settle in for a good night’s sleep?",
+      "createdAt": "2026-10-05T16:47:26.800Z"
+    },
+    {
+      "id": "7e24ddc5-973b-4769-ba46-85b13d01e02e",
+      "role": "user",
+      "content": "Eva gets cold and I get warm, so separate duvets help. The three of us often play cards after dinner.",
+      "createdAt": "2026-10-05T16:47:56.722Z"
+    },
+    {
+      "id": "6045dfa3-e05e-402b-a2c1-ad4504389e9a",
+      "role": "assistant",
+      "content": "Separate duvets sound helpful for your different temperatures, and cards after dinner make a lovely shared ritual. What do the three of you like to play?",
+      "createdAt": "2026-10-05T16:48:08.860Z"
+    },
+    {
+      "id": "e74730c3-2570-4d18-8452-52cd07a524b9",
+      "role": "user",
+      "content": "Usually rummy, with some dark chocolate on the table. It's our little end-of-day ritual.",
+      "createdAt": "2026-10-05T16:48:35.485Z"
+    },
+    {
+      "id": "decdc52f-f7e9-4385-b241-274b5d069927",
+      "role": "assistant",
+      "content": "Rummy and dark chocolate sound like a lovely way to end the day together. During your stay, do you enjoy chatting with the hotel team for local ideas, or prefer to seek them out only when you need something?",
+      "createdAt": "2026-10-05T16:48:48.239Z"
+    },
+    {
+      "id": "eec930c7-4645-422d-9dc7-2a916f630bbb",
+      "role": "user",
+      "content": "We like friendly people with good local tips. Just not someone checking on us all the time.",
+      "createdAt": "2026-10-05T16:50:12.671Z"
+    },
+    {
+      "id": "948f267a-3250-4f0f-a45e-d92df69cf438",
+      "role": "assistant",
+      "content": "Friendly local tips, with space to enjoy the weekend yourselves—that’s a helpful distinction. Is there anything else you’d like to add or correct before we finish?",
+      "createdAt": "2026-10-05T16:50:27.268Z"
+    },
+    {
+      "id": "fbd9c9f2-cd34-4e4b-a84b-68ac01453d17",
+      "role": "user",
+      "content": "No, that's a good picture of us, thanks.",
+      "createdAt": "2026-10-05T16:50:53.278Z"
+    },
+    {
+      "id": "6c2cb80c-23f1-415a-82e2-6fc82bebff97",
+      "role": "assistant",
+      "content": "Thank you, Martin—it’s been lovely getting to know a little of the three of you. I hope you enjoy rediscovering Prague while Leo finds his own favourite corners.",
+      "createdAt": "2026-10-05T16:51:13.516Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "174bbd30-7fc9-4638-b8cc-a7e2c6e7b580",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nMartin — Discovery v2 03; Hotel Kings Court, Prague.\n13–16 November 2026, three nights; three guests: Martin, Eva and their teenage son Leo. Deluxe category reserved.\n\nFamily long weekend, initiated by Leo. Martin and Eva last visited Prague twenty years ago, before Leo was born. They want unhurried time together rather than a fixed nostalgia itinerary.\n\nB) COORDINATION\nReception is the assigned lead, coordinating with housekeeping and ADELE’s restaurant/kitchen team. Hotel DNA is public preparation checked 5 October 2026, pending operator confirmation; capabilities and reference prices are not guaranteed.\n\nCarry one clear dietary instruction to food-service teams: Leo is lactose intolerant, not allergic, and needs lactose-free food as well as drinks; he requests oat milk. Kitchen/bar must verify actual recipes and suitable options rather than treating “dark chocolate” or vegetable-labelled dishes as lactose-free.\n\nConfirm the booked room’s three-person sleeping arrangement and separate-duvet feasibility. Obtain Leo’s exact age only when needed for jazz venue admission.\n\nC) GUEST PROFILE\n- Leo plays guitar, has become very interested in jazz and wants to take street photographs. He would enjoy discovering his own places.\n- Eva loves old cafés and Art Nouveau buildings; her usual drink is herbal tea.\n- Martin prefers a double espresso.\n- No particular café from the earlier visit needs revisiting. Sitting together without watching the clock matters more.\n- Eva gets cold; Martin gets warm. Separate duvets help.\n- All three often play rummy after dinner, with dark chocolate on the table: a valued end-of-day ritual.\n- They welcome friendly staff and useful local tips, but explicitly do not want continual check-ins.\n\nD) RECEPTION\nOffer a warm welcome and a concise, optional set of local ideas, then leave the family space. Avoid repeated satisfaction calls or a tightly scheduled itinerary.\n\nAt a natural contact point, ask only whether they would like help choosing a jazz evening and whether separate duvets are still wanted. Do not assume Leo wants to explore alone.\n\nE) ROOM PREPARATION\nReception/housekeeping: prepare separate duvets for Martin and Eva if confirmed and feasible in the Deluxe configuration; check available bedding rather than promising different weights. Avoid imposing one temperature solution on both guests.\n\nFor hotel approval: a short hotel-authored welcome note could acknowledge returning to Prague while Leo discovers it for himself. Keep it discreet, with no celebration styling or implied personal declaration.\n\nTheir rummy ritual supports considering a usable card-playing surface if the actual room permits; housekeeping should check layout without promising furniture or card-deck stock. Do not place chocolate automatically.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Flexible discovery route: reception to research a short, optional route combining Art Nouveau exteriors, an old café and street-photography opportunities. Basis: Eva’s architecture interest, Leo’s photography and the family’s wish for unhurried discovery. Check November opening hours and daylight; offer choices, not a timed programme.\n- Jazz evening: research performances during 13–16 November suited to a teenage guitar player and accompanying adults. Check exact age admission, set times, seating, ticket costs and cancellation terms. Ticketed options are potential paid opportunities, not bookings.\n- ADELE evening proposal: reception and restaurant could offer a relaxed family dinner with verified lactose-free choices for Leo, followed by rummy if table use permits. Kitchen/bar to check oat milk, herbal tea and double-espresso availability. Optional dark chocolate should be considered only if suitable stock and ingredients are verified. Quote food, drinks and any requested additions; do not imply an included amenity or guaranteed extended table use.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "a951cb3c-9c68-444c-8d6f-1ea21fa00342",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:51:55.437Z",
+      "updatedAt": "2026-10-05T16:51:55.437Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nMartin — Discovery v2 03; Hotel Kings Court, Prague.\n13–16 November 2026, three nights; three guests: Martin, Eva and their teenage son Leo. Deluxe category reserved.\n\nFamily long weekend, initiated by Leo. Martin and Eva last visited Prague twenty years ago, before Leo was born. They want unhurried time together rather than a fixed nostalgia itinerary.\n\nB) COORDINATION\nReception is the assigned lead, coordinating with housekeeping and ADELE’s restaurant/kitchen team. Hotel DNA is public preparation checked 5 October 2026, pending operator confirmation; capabilities and reference prices are not guaranteed.\n\nCarry one clear dietary instruction to food-service teams: Leo is lactose intolerant, not allergic, and needs lactose-free food as well as drinks; he requests oat milk. Kitchen/bar must verify actual recipes and suitable options rather than treating “dark chocolate” or vegetable-labelled dishes as lactose-free.\n\nConfirm the booked room’s three-person sleeping arrangement and separate-duvet feasibility. Obtain Leo’s exact age only when needed for jazz venue admission.\n\nC) GUEST PROFILE\n- Leo plays guitar, has become very interested in jazz and wants to take street photographs. He would enjoy discovering his own places.\n- Eva loves old cafés and Art Nouveau buildings; her usual drink is herbal tea.\n- Martin prefers a double espresso.\n- No particular café from the earlier visit needs revisiting. Sitting together without watching the clock matters more.\n- Eva gets cold; Martin gets warm. Separate duvets help.\n- All three often play rummy after dinner, with dark chocolate on the table: a valued end-of-day ritual.\n- They welcome friendly staff and useful local tips, but explicitly do not want continual check-ins.\n\nD) RECEPTION\nOffer a warm welcome and a concise, optional set of local ideas, then leave the family space. Avoid repeated satisfaction calls or a tightly scheduled itinerary.\n\nAt a natural contact point, ask only whether they would like help choosing a jazz evening and whether separate duvets are still wanted. Do not assume Leo wants to explore alone.\n\nE) ROOM PREPARATION\nReception/housekeeping: prepare separate duvets for Martin and Eva if confirmed and feasible in the Deluxe configuration; check available bedding rather than promising different weights. Avoid imposing one temperature solution on both guests.\n\nFor hotel approval: a short hotel-authored welcome note could acknowledge returning to Prague while Leo discovers it for himself. Keep it discreet, with no celebration styling or implied personal declaration.\n\nTheir rummy ritual supports considering a usable card-playing surface if the actual room permits; housekeeping should check layout without promising furniture or card-deck stock. Do not place chocolate automatically.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Flexible discovery route: reception to research a short, optional route combining Art Nouveau exteriors, an old café and street-photography opportunities. Basis: Eva’s architecture interest, Leo’s photography and the family’s wish for unhurried discovery. Check November opening hours and daylight; offer choices, not a timed programme.\n- Jazz evening: research performances during 13–16 November suited to a teenage guitar player and accompanying adults. Check exact age admission, set times, seating, ticket costs and cancellation terms. Ticketed options are potential paid opportunities, not bookings.\n- ADELE evening proposal: reception and restaurant could offer a relaxed family dinner with verified lactose-free choices for Leo, followed by rummy if table use permits. Kitchen/bar to check oat milk, herbal tea and double-espresso availability. Optional dark chocolate should be considered only if suitable stock and ingredients are verified. Quote food, drinks and any requested additions; do not imply an included amenity or guaranteed extended table use.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

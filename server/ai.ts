@@ -8,6 +8,9 @@ import type { Config } from './config.ts';
 import { AppError, assert } from './security.ts';
 import { AiBudget, approvedModel } from './ai-budget.ts';
 
+export const conversationPromptVersion = 'conversation-v2';
+export const briefPromptVersion = 'brief-v2';
+
 const resultSchema = z.object({
   reply: z.string().min(1).max(3000),
   readyToFinish: z.boolean(),
@@ -120,7 +123,7 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
           store: false,
           max_output_tokens: 4000,
           reasoning: { effort: 'low' },
-          instructions: await readFile('prompts/conversation-v1.txt', 'utf8'),
+          instructions: await readFile(`prompts/${conversationPromptVersion}.txt`, 'utf8'),
           input: inputData(input),
           text: { format: zodTextFormat(resultSchema, 'canopia_turn') },
         },
@@ -157,7 +160,7 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
           store: false,
           max_output_tokens: 7000,
           reasoning: { effort: 'medium' },
-          instructions: await readFile('prompts/brief-v1.txt', 'utf8'),
+          instructions: await readFile(`prompts/${briefPromptVersion}.txt`, 'utf8'),
           input: inputData(input),
         },
         'brief',

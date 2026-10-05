@@ -1,0 +1,47 @@
+{
+  "method": "Six fresh fictional profiles, one per hotel, defined before live calls. Codex plays each guest with one or two short sentences after reading each actual bot question. Hidden details are available to the evaluator only; they are not inserted into the reservation or model input. No prompt edits, retries for a better answer or brief rewrites during the run. Evaluate information actually elicited and its use for hotel-decided preparation, personal touches and relevant paid opportunities, not FAQ performance.",
+  "cases": [
+    {
+      "id":"01","name":"Camille","hotelId":"hotel_amour_nice","partySize":4,"handoff":"reception","arrival":"2026-11-06","departure":"2026-11-08","reservation":"Two rooms reserved for four guests.",
+      "purpose":"Family weekend in Nice",
+      "opening":"A weekend by the sea with the kids. We've all had a busy few months.",
+      "hidden":"Camille and partner Alex bring Noa, eight turning nine on Sunday, and Adam, eleven. Parents visited Nice before the children and liked wandering by the sea; first visit for the children. Noa draws funny cats and likes finding a little note in her lunchbox. Adam takes photographs. Family winds down together with hot chocolate and strawberry sweets; no nuts preference is not an allergy, no declared allergies. Adults like small shared dishes and sparkling water with lemon. Noa dislikes being sung to publicly; a quiet birthday detail would be welcome. Camille dislikes heavy room perfume. Family likes friendly staff chatting and little local stories, but no packed schedule.",
+      "evaluate":"Does the agent discover the family members, the meaning of the weekend, birthday and child interests/rituals without asking the family to design a hotel package? Does it learn a useful food or comfort detail and interaction preference? Potential room note, food adjustment and discreet paid celebration must stay hotel proposals; no automatic birthday show or beach entitlement."
+    },
+    {
+      "id":"02","name":"Anika","hotelId":"sukhothai_bangkok","partySize":3,"handoff":"concierge","arrival":"2026-11-14","departure":"2026-11-19",
+      "purpose":"First Thailand trip as a family",
+      "opening":"Our first proper family holiday in years. We're finally taking our daughter to Thailand.",
+      "hidden":"Anika travels with wife Mei and daughter Hana, ten. Hana loves dragons, stories and drawing elaborate buildings; bedtime is reading a chapter together. Mei is fascinated by cooking and wants to understand Thai flavours. Anika likes gentle morning yoga followed by coffee; both like ginger and lime, little sugar, and want warmth from staff. Mei has a severe shellfish allergy, including cross-contact; this is relevant if food is explored and must not become a decorative theme. They enjoy some spice but Hana prefers mild food. Room should not be over-perfumed; Anika sleeps hot, Mei likes an extra separate blanket. First Bangkok visit, no celebration, family curiosity with free afternoons.",
+      "evaluate":"Does discovery reveal distinct family interests and routines, usable flavour/comfort preferences and staff interaction, rather than only a sightseeing category? Can the brief connect personal details with hotel preparation, dining expertise or adult wellness, while treating allergy handling and age/stock limits internally?"
+    },
+    {
+      "id":"03","name":"Martin","hotelId":"kings_court_prague","partySize":3,"handoff":"reception","arrival":"2026-11-13","departure":"2026-11-16","reservation":"Deluxe category reserved for the stay.",
+      "purpose":"Prague weekend chosen by a teenager",
+      "opening":"We're bringing our teenager to Prague for a long weekend. It was his idea, actually.",
+      "hidden":"Martin, wife Eva and fifteen-year-old Leo. Leo plays guitar and has become interested in jazz and street photography; wants to feel grown-up, no childish surprises. Eva loves Art Nouveau buildings and cafés; parents were last in Prague twenty years ago. Martin wants mornings together before wandering. Their ritual is cards after dinner, sometimes with dark chocolate. Leo is lactose intolerant, not allergic; oat milk is useful. Martin likes a double espresso, Eva herbal tea. Eva is often cold while Martin sleeps warm; they prefer separate duvets. They appreciate friendly conversation and informed tips, not constant check-ins. No occasion beyond being together; no pool question planted.",
+      "evaluate":"Does the bot discover Leo's individual interests, the family's shared rituals and preferences useful to room/F&B preparation? Does it avoid turning the teenager into a child-theme package, preserve lactose intolerance and respect Deluxe entitlement in possible paid suggestions?"
+    },
+    {
+      "id":"04","name":"Ruth","hotelId":"golden_well_prague","partySize":2,"handoff":"reception","arrival":"2026-11-20","departure":"2026-11-23",
+      "purpose":"Old friends reunited after retirement",
+      "opening":"I'm meeting an old friend in Prague. We haven't had a trip together since our twenties.",
+      "hidden":"Ruth and friend Helen, not a couple; Helen has just retired. They last visited Prague as students and remember long conversations over coffee and cake. Helen loves architecture and old libraries; Ruth enjoys discovering wines but Helen avoids alcohol. Both savour dinner but dislike long formal ceremonies. Ruth reads a detective novel in bed with peppermint tea; Helen likes a warm bath, hates floral perfume. Twin beds and different pillows: Ruth firm, Helen soft. Walking is comfortable; no mobility problem assumed from retirement. Friendly conversation with staff is welcome. A lighthearted note about a new chapter could fit; no romantic decoration.",
+      "evaluate":"Does the bot discover the relationship, shared memory, retirement and asymmetric tastes? Can the hotel distinguish a thoughtful reunion attention from a paid dining/bath adaptation without assuming romance, alcohol for both or age-related limitations?"
+    },
+    {
+      "id":"05","name":"Sofia","hotelId":"pavillon_reine_paris","partySize":1,"handoff":"concierge","arrival":"2026-11-12","departure":"2026-11-15",
+      "purpose":"Work trip followed by a personal day",
+      "opening":"I'm here for work, but I've kept a day just for myself afterwards.",
+      "hidden":"Sofia is presenting a project on Friday then has Saturday free. Wants to reclaim some unhurried time, not a recovery diagnosis. Enjoys black-and-white photography and opera, has visited Paris for work but never properly wandered. Loves a proper long breakfast with black coffee and something lemony, then photographing doorways. Vegetarian but eggs/dairy fine, no allergies. Shoulders feel tense after computer work; might enjoy a short shoulder-focused treatment if hotel can propose, not an all-day spa. Likes a cool room, no fragrance and a firm pillow. Prefers staff who recognise her but let her initiate long conversations. No birthday or occasion beyond finishing the project.",
+      "evaluate":"Does the bot go beyond business logistics to discover the personal day's meaning, tastes and routines? Does it elicit enough to connect a relevant short treatment, breakfast and cultural help without making a shopping list, diagnosing stress or overloading her schedule?"
+    },
+    {
+      "id":"06","name":"Taylor","hotelId":"seven_secrets_lombok","partySize":2,"handoff":"concierge","arrival":"2026-11-15","departure":"2026-11-20",
+      "purpose":"Honeymoon with distinct shared and individual tastes",
+      "opening":"It's our honeymoon. We'd love a few days where nobody is rushing us.",
+      "hidden":"Taylor and husband Ben. Taylor loves landscape photography, Ben likes cooking and Indonesian food; both enjoy an easy sunset and a long breakfast. Ben calls Taylor Otter, Taylor calls Ben Bear; a private playful note could fit if this comes up naturally. Ben does not drink alcohol, Taylor sometimes likes a gin and citrus drink. They snack on salted popcorn while choosing the day's favourite photographs. Prefer gentle massages, not strenuous activities, and no public honeymoon fuss. Ben likes soft low pillows and Taylor a firmer one; separate blankets help. First Lombok trip, arriving mid-afternoon. Warm staff conversation welcome. Interested in meaningful paid food/wellness moments, not a full preset package.",
+      "evaluate":"Does discovery reveal the couple's distinct personalities, shared ritual and food/drink/comfort preferences? Can the brief compose a private personal attention and targeted dining/wellness opportunities without automatically assigning a honeymoon package, alcohol for both or invented menu stock?"
+    }
+  ]
+}

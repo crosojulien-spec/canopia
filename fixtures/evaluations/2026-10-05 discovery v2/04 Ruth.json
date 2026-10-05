@@ -1,0 +1,229 @@
+{
+  "stay": {
+    "id": "eac70f09-b72e-47da-a49d-19be5a257f00",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "Meeting an old friend in Prague; their first trip together since their twenties.",
+        "sourceQuote": "I'm meeting an old friend in Prague. We haven't had a trip together since our twenties.",
+        "sourceMessageId": "9fe216e4-5adc-4bee-a99e-d51a062635ee"
+      },
+      {
+        "label": "Shared history and retirement",
+        "value": "Ruth and Helen spent afternoons over coffee and cake as students in Prague. Helen has just retired, giving them time together again.",
+        "sourceQuote": "We spent whole afternoons over coffee and cake as students here. Helen has just retired, so we finally have time again.",
+        "sourceMessageId": "5fa86aa6-8223-4370-9138-431aebcbc2fc"
+      },
+      {
+        "label": "Desired feel of stay",
+        "value": "Wants to recapture the feeling of long conversations, with time for Helen's architecture interest.",
+        "sourceQuote": "Honestly, I remember the talking more than the cakes. We want that feeling again, with time for Helen's architecture obsession.",
+        "sourceMessageId": "54a428a6-8d33-466f-a9c5-08faaa7dd4e2"
+      },
+      {
+        "label": "Helen's architecture interests",
+        "value": "Old libraries and architectural details above street level.",
+        "sourceQuote": "Old libraries and the details above street level.",
+        "sourceMessageId": "0df03c45-62e7-4d62-8c21-ee2af197f400"
+      },
+      {
+        "label": "Ruth's wine interest",
+        "value": "Enjoys discovering local wines she has not tried before.",
+        "sourceQuote": "Something local I haven't tried before.",
+        "sourceMessageId": "47c4f983-5d4b-40a1-b76c-6359dbdd771d"
+      },
+      {
+        "label": "Helen and alcohol",
+        "value": "Helen does not drink alcohol.",
+        "sourceQuote": "Helen doesn't drink alcohol, though.",
+        "sourceMessageId": "47c4f983-5d4b-40a1-b76c-6359dbdd771d"
+      },
+      {
+        "label": "Helen's alternative drink preference",
+        "value": "Ruth does not know what Helen would choose instead and prefers to let Helen say herself.",
+        "sourceQuote": "I'm not sure what she'd choose instead, actually. I'd rather let her say.",
+        "sourceMessageId": "86edd421-8167-410d-b73d-2d6319c486ee"
+      },
+      {
+        "label": "Ruth's bedtime ritual",
+        "value": "A detective novel in bed and peppermint tea.",
+        "sourceQuote": "A detective novel in bed and peppermint tea.",
+        "sourceMessageId": "a88df7f2-0a80-441e-85dc-af4ab71fd75a"
+      },
+      {
+        "label": "Pillow preferences",
+        "value": "Ruth likes a firm pillow; Helen likes a soft one.",
+        "sourceQuote": "I like a firm pillow, while Helen likes a soft one.",
+        "sourceMessageId": "a88df7f2-0a80-441e-85dc-af4ab71fd75a"
+      },
+      {
+        "label": "Interaction with hotel team",
+        "value": "They enjoy friendly conversation and good suggestions.",
+        "sourceQuote": "We like a friendly conversation and a good suggestion.",
+        "sourceMessageId": "92b8cbe4-9397-4569-a67a-750633dc8114"
+      },
+      {
+        "label": "Retirement discretion",
+        "value": "No fuss about Helen's retirement.",
+        "sourceQuote": "There's no need to make a fuss about Helen's retirement.",
+        "sourceMessageId": "92b8cbe4-9397-4569-a67a-750633dc8114"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-20",
+    "handoff": "reception",
+    "hotelId": "golden_well_prague",
+    "revoked": false,
+    "revision": 22,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.030Z",
+    "departure": "2026-11-23",
+    "expiresAt": "2026-10-12T16:39:37.030Z",
+    "guestName": "Ruth — Discovery v2 04",
+    "hotelName": "Golden Well / U Zlate Studne",
+    "partySize": 2,
+    "updatedAt": "2026-10-05T16:51:13.757Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "14f19810-5da4-4ba7-bef0-11a78d518121",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "eada2fb7-e054-4c2e-be5b-b984a7b3d938",
+      "role": "assistant",
+      "content": "Hello Ruth! I'd love to get to know you a little before your stay at Golden Well / U Zlate Studne, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.030Z"
+    },
+    {
+      "id": "9fe216e4-5adc-4bee-a99e-d51a062635ee",
+      "role": "user",
+      "content": "I'm meeting an old friend in Prague. We haven't had a trip together since our twenties.",
+      "createdAt": "2026-10-05T16:43:59.146Z"
+    },
+    {
+      "id": "79d30b5f-5b86-4e7f-87f7-cf3bc485c8dd",
+      "role": "assistant",
+      "content": "That sounds like a lovely chance to reconnect. What did you most enjoy about travelling together back then—and what would you like this reunion to feel like?",
+      "createdAt": "2026-10-05T16:44:08.113Z"
+    },
+    {
+      "id": "5fa86aa6-8223-4370-9138-431aebcbc2fc",
+      "role": "user",
+      "content": "We spent whole afternoons over coffee and cake as students here. Helen has just retired, so we finally have time again.",
+      "createdAt": "2026-10-05T16:44:54.298Z"
+    },
+    {
+      "id": "7204c177-dc71-4967-a573-a34dd9cdf760",
+      "role": "assistant",
+      "content": "Those long afternoons over coffee and cake sound worth returning to, especially now that Helen has more time. Is there a café you remember fondly, or a particular cake that takes you both back?",
+      "createdAt": "2026-10-05T16:45:00.941Z"
+    },
+    {
+      "id": "54a428a6-8d33-466f-a9c5-08faaa7dd4e2",
+      "role": "user",
+      "content": "Honestly, I remember the talking more than the cakes. We want that feeling again, with time for Helen's architecture obsession.",
+      "createdAt": "2026-10-05T16:45:31.426Z"
+    },
+    {
+      "id": "30789396-4c75-4bfd-8a17-03966d241ba7",
+      "role": "assistant",
+      "content": "So it’s the unhurried conversation you’re hoping to recapture. What especially draws Helen to architecture—are there buildings or details she loves to linger over?",
+      "createdAt": "2026-10-05T16:45:38.924Z"
+    },
+    {
+      "id": "0df03c45-62e7-4d62-8c21-ee2af197f400",
+      "role": "user",
+      "content": "Old libraries and the details above street level. I tend to get distracted by somewhere serving interesting wine.",
+      "createdAt": "2026-10-05T16:46:06.242Z"
+    },
+    {
+      "id": "c31c01df-4ef2-4251-ba78-d0fb70c0c466",
+      "role": "assistant",
+      "content": "Helen looks up at the buildings while you keep an eye out for an interesting glass—a lovely balance. What makes a wine interesting to you, and do you enjoy exploring local Czech wines?",
+      "createdAt": "2026-10-05T16:46:16.053Z"
+    },
+    {
+      "id": "47c4f983-5d4b-40a1-b76c-6359dbdd771d",
+      "role": "user",
+      "content": "Something local I haven't tried before. Helen doesn't drink alcohol, though.",
+      "createdAt": "2026-10-05T16:46:46.075Z"
+    },
+    {
+      "id": "4f250b14-ac1b-4529-891c-324dda3cd4bc",
+      "role": "assistant",
+      "content": "You enjoy discovering something local and new, while Helen doesn’t drink alcohol. What does she enjoy sipping when you settle in for a long conversation?",
+      "createdAt": "2026-10-05T16:46:56.816Z"
+    },
+    {
+      "id": "86edd421-8167-410d-b73d-2d6319c486ee",
+      "role": "user",
+      "content": "I'm not sure what she'd choose instead, actually. I'd rather let her say.",
+      "createdAt": "2026-10-05T16:47:28.918Z"
+    },
+    {
+      "id": "48d24544-5698-4e00-b032-f9a7400448be",
+      "role": "assistant",
+      "content": "Of course—Helen can speak for herself on that. For your own comfort, what helps you settle in and sleep well when you’re away?",
+      "createdAt": "2026-10-05T16:47:41.390Z"
+    },
+    {
+      "id": "a88df7f2-0a80-441e-85dc-af4ab71fd75a",
+      "role": "user",
+      "content": "A detective novel in bed and peppermint tea. I like a firm pillow, while Helen likes a soft one.",
+      "createdAt": "2026-10-05T16:48:09.339Z"
+    },
+    {
+      "id": "20356d10-36a2-4952-9447-f9df0614774a",
+      "role": "assistant",
+      "content": "A detective novel and peppermint tea sound like a gentle end to the day, with different pillows for you and Helen. How do you like the hotel team to be involved during your stay?",
+      "createdAt": "2026-10-05T16:48:20.978Z"
+    },
+    {
+      "id": "92b8cbe4-9397-4569-a67a-750633dc8114",
+      "role": "user",
+      "content": "We like a friendly conversation and a good suggestion. There's no need to make a fuss about Helen's retirement.",
+      "createdAt": "2026-10-05T16:49:36.069Z"
+    },
+    {
+      "id": "d4ebbfed-f82d-4805-90df-0435a1f10e01",
+      "role": "assistant",
+      "content": "Friendly conversation and thoughtful suggestions, without making Helen’s retirement a ceremony—that’s helpful to know. Is there anything else you’d like to add or correct before we leave it there?",
+      "createdAt": "2026-10-05T16:49:49.869Z"
+    },
+    {
+      "id": "f3514343-5763-4486-b8b6-1b0ea75675e1",
+      "role": "user",
+      "content": "No, I think that's all, thank you.",
+      "createdAt": "2026-10-05T16:50:27.288Z"
+    },
+    {
+      "id": "18cd1d80-51ef-44bf-82e1-b73c332cc8ca",
+      "role": "assistant",
+      "content": "Thank you, Ruth. I hope you and Helen enjoy plenty of time to talk and rediscover Prague together.",
+      "createdAt": "2026-10-05T16:50:40.356Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "14f19810-5da4-4ba7-bef0-11a78d518121",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nRuth — Discovery v2 04; 20–23 November 2026, three nights, two guests: Ruth and her old friend Helen.\nPurpose: reconnecting on their first trip together since their twenties. They were students in Prague and remember whole afternoons talking over coffee and cake. Helen has recently retired, making time together possible.\nInteraction preference: friendly conversation and good suggestions; no fuss about Helen’s retirement.\n\nB) COORDINATION\nReception is the assigned lead for experience support and cross-team preparation.\nHotel DNA is public preparation checked on 5 October 2026, with operator review pending; capabilities, availability and prices are not operationally confirmed. Nothing is booked or authorised.\nKeep retirement as background context, not a celebration theme. Helen does not drink alcohol; let her choose her own alternative rather than assigning one on Ruth’s behalf.\n\nC) GUEST PROFILE\n- Shared priority: unhurried conversation and rediscovering Prague, not a packed itinerary or recreating a particular cake.\n- Helen: especially interested in old libraries and architectural details above street level; prefers a soft pillow.\n- Ruth: enjoys unfamiliar local wines; settles down with a detective novel in bed and peppermint tea; prefers a firm pillow.\n- No dietary constraints or allergies were disclosed. Helen’s preferred non-alcoholic drink remains deliberately open.\n\nD) RECEPTION\nWelcome them conversationally and offer a small number of well-chosen suggestions, leaving afternoons free for talking.\nBefore room setup, confirm the booked bed configuration; do not infer it from their friendship. Ask Helen about drinks only when relevant to an offer.\nFor any proposed outing, confirm preferred duration and walking comfort: the hotel’s approach is cobbled, and November routing needs weather contingencies.\n\nE) ROOM PREPARATION\n- Expressed preferences: reception/housekeeping to check the published bedding menu for a firm pillow for Ruth and a soft one for Helen. Confirm actual firmness options and stock; agree placement once bed configuration is known.\n- Proposed adaptation: housekeeping to check that bedside reading lighting works and is convenient for Ruth’s detective-novel routine. Do not assume a particular room layout or supply an unsolicited book.\n- Proposed attention, subject to hotel approval: reception to check peppermint-tea availability with the lounge/food team and whether it can be provided for Ruth’s bedtime routine. Tea facilities are published for some categories; verify the assigned room and any charge before offering. Peppermint is not confirmed stock.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Paid proposal: a tailored architecture-and-conversation outing using the hotel’s private-guiding coordination capability. Focus on old libraries and upper-level architectural details, with an unhurried café break rather than a dense sightseeing circuit. Reception to research November opening hours, library visitor access, route demands, guide availability/language and a bespoke duration/quote. No particular library, café or admission is yet selected.\n- Paid proposal: ask Terasa’s restaurant wine team whether a small Czech-wine discovery for Ruth can be offered, alongside Helen’s independently chosen non-alcoholic drink. Basis: Ruth seeks unfamiliar local wines; the published list includes Czech producers and alcohol-free options. Reception coordinates; restaurant confirms selection, format, seating and price. A bespoke tasting is not a published entitlement.\n- Low-pressure option: suggest the guest-only Bohemia lounge for lingering conversation over published tea/coffee, without implying private use or cake service. For their student-café memories, reception can research a nearby café suitable for a long conversation, checking November hours, seating atmosphere and cake availability rather than choosing a cake for them.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "eac70f09-b72e-47da-a49d-19be5a257f00",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:51:13.755Z",
+      "updatedAt": "2026-10-05T16:51:13.755Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nRuth — Discovery v2 04; 20–23 November 2026, three nights, two guests: Ruth and her old friend Helen.\nPurpose: reconnecting on their first trip together since their twenties. They were students in Prague and remember whole afternoons talking over coffee and cake. Helen has recently retired, making time together possible.\nInteraction preference: friendly conversation and good suggestions; no fuss about Helen’s retirement.\n\nB) COORDINATION\nReception is the assigned lead for experience support and cross-team preparation.\nHotel DNA is public preparation checked on 5 October 2026, with operator review pending; capabilities, availability and prices are not operationally confirmed. Nothing is booked or authorised.\nKeep retirement as background context, not a celebration theme. Helen does not drink alcohol; let her choose her own alternative rather than assigning one on Ruth’s behalf.\n\nC) GUEST PROFILE\n- Shared priority: unhurried conversation and rediscovering Prague, not a packed itinerary or recreating a particular cake.\n- Helen: especially interested in old libraries and architectural details above street level; prefers a soft pillow.\n- Ruth: enjoys unfamiliar local wines; settles down with a detective novel in bed and peppermint tea; prefers a firm pillow.\n- No dietary constraints or allergies were disclosed. Helen’s preferred non-alcoholic drink remains deliberately open.\n\nD) RECEPTION\nWelcome them conversationally and offer a small number of well-chosen suggestions, leaving afternoons free for talking.\nBefore room setup, confirm the booked bed configuration; do not infer it from their friendship. Ask Helen about drinks only when relevant to an offer.\nFor any proposed outing, confirm preferred duration and walking comfort: the hotel’s approach is cobbled, and November routing needs weather contingencies.\n\nE) ROOM PREPARATION\n- Expressed preferences: reception/housekeeping to check the published bedding menu for a firm pillow for Ruth and a soft one for Helen. Confirm actual firmness options and stock; agree placement once bed configuration is known.\n- Proposed adaptation: housekeeping to check that bedside reading lighting works and is convenient for Ruth’s detective-novel routine. Do not assume a particular room layout or supply an unsolicited book.\n- Proposed attention, subject to hotel approval: reception to check peppermint-tea availability with the lounge/food team and whether it can be provided for Ruth’s bedtime routine. Tea facilities are published for some categories; verify the assigned room and any charge before offering. Peppermint is not confirmed stock.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Paid proposal: a tailored architecture-and-conversation outing using the hotel’s private-guiding coordination capability. Focus on old libraries and upper-level architectural details, with an unhurried café break rather than a dense sightseeing circuit. Reception to research November opening hours, library visitor access, route demands, guide availability/language and a bespoke duration/quote. No particular library, café or admission is yet selected.\n- Paid proposal: ask Terasa’s restaurant wine team whether a small Czech-wine discovery for Ruth can be offered, alongside Helen’s independently chosen non-alcoholic drink. Basis: Ruth seeks unfamiliar local wines; the published list includes Czech producers and alcohol-free options. Reception coordinates; restaurant confirms selection, format, seating and price. A bespoke tasting is not a published entitlement.\n- Low-pressure option: suggest the guest-only Bohemia lounge for lingering conversation over published tea/coffee, without implying private use or cake service. For their student-café memories, reception can research a nearby café suitable for a long conversation, checking November hours, seating atmosphere and cake availability rather than choosing a cake for them.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

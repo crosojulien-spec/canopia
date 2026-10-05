@@ -1,0 +1,175 @@
+{
+  "stay": {
+    "id": "bd80296f-9af4-4c18-bb43-2b713ee5b49d",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "Travelling for work, with a day kept for herself afterwards.",
+        "sourceQuote": "I'm here for work, but I've kept a day just for myself afterwards.",
+        "sourceMessageId": "a0cb7398-6db7-434e-ab8b-c3648f3a88f3"
+      },
+      {
+        "label": "Paris experience and free-day wishes",
+        "value": "Usually sees only meeting rooms in Paris; wants a long breakfast and wandering with her camera for a proper day off.",
+        "sourceQuote": "I usually only see meeting rooms here. A long breakfast and wandering with my camera would feel like a proper day off.",
+        "sourceMessageId": "4f339433-4ebc-47b4-8793-ffd647426596"
+      },
+      {
+        "label": "Photography interests",
+        "value": "Photographs old doorways and everyday street scenes, mostly in black and white; usually rushes past them on work trips.",
+        "sourceQuote": "Old doorways and everyday street scenes, mostly in black and white. I always seem to rush past them on work trips.",
+        "sourceMessageId": "ce28b11f-6377-4c5a-8673-0722bd6ffdc2"
+      },
+      {
+        "label": "Breakfast tastes and ritual",
+        "value": "Likes black coffee and a lemon pastry if available. Usually eats standing up, so sitting down matters.",
+        "sourceQuote": "Black coffee and a lemon pastry, if there's one. Usually I eat standing up, so just sitting down matters.",
+        "sourceMessageId": "a9a72617-b92e-4638-903d-56731a1c0062"
+      },
+      {
+        "label": "Room comfort and physical tension",
+        "value": "Prefers a cool, quiet room and a firm pillow; shoulders are usually tight after a whole day at a laptop.",
+        "sourceQuote": "A cool, quiet room and a firm pillow. My shoulders are usually tight after a whole day at a laptop.",
+        "sourceMessageId": "6a98f21c-f1af-4ee5-8f2c-3065b4ede610"
+      },
+      {
+        "label": "Team interaction preference",
+        "value": "Likes being recognised and a friendly hello; will approach the team when she wants a longer chat.",
+        "sourceQuote": "I like being recognised and a friendly hello. I'll come over when I fancy a longer chat.",
+        "sourceMessageId": "f62112d0-dd16-48ff-af98-4ebe745f83d8"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-12",
+    "handoff": "concierge",
+    "hotelId": "pavillon_reine_paris",
+    "revoked": false,
+    "revision": 18,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.034Z",
+    "departure": "2026-11-15",
+    "expiresAt": "2026-10-12T16:39:37.034Z",
+    "guestName": "Sofia — Discovery v2 05",
+    "hotelName": "Le Pavillon de la Reine",
+    "partySize": 1,
+    "updatedAt": "2026-10-05T16:49:56.945Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "afeee40a-4c0b-42c9-be0e-e24f269d0e11",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "2437a45a-0649-415c-adce-e5e6d9a2f23d",
+      "role": "assistant",
+      "content": "Hello Sofia! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.034Z"
+    },
+    {
+      "id": "a0cb7398-6db7-434e-ab8b-c3648f3a88f3",
+      "role": "user",
+      "content": "I'm here for work, but I've kept a day just for myself afterwards.",
+      "createdAt": "2026-10-05T16:43:59.151Z"
+    },
+    {
+      "id": "543e7002-cad9-4af8-aa01-f1e351bc2514",
+      "role": "assistant",
+      "content": "A day to yourself after work sounds lovely. Is Paris familiar to you, and what would make that free day feel well spent?",
+      "createdAt": "2026-10-05T16:44:05.837Z"
+    },
+    {
+      "id": "4f339433-4ebc-47b4-8793-ffd647426596",
+      "role": "user",
+      "content": "I usually only see meeting rooms here. A long breakfast and wandering with my camera would feel like a proper day off.",
+      "createdAt": "2026-10-05T16:44:54.301Z"
+    },
+    {
+      "id": "6b1e2f8e-4230-48c6-9b9f-ee20fa51e678",
+      "role": "assistant",
+      "content": "A slow breakfast and time behind the camera sound like a lovely change from meeting rooms. What tends to catch your eye when you’re taking photographs?",
+      "createdAt": "2026-10-05T16:45:00.062Z"
+    },
+    {
+      "id": "ce28b11f-6377-4c5a-8673-0722bd6ffdc2",
+      "role": "user",
+      "content": "Old doorways and everyday street scenes, mostly in black and white. I always seem to rush past them on work trips.",
+      "createdAt": "2026-10-05T16:45:31.430Z"
+    },
+    {
+      "id": "6be2e54d-04bf-426a-a71a-44b4b640a70f",
+      "role": "assistant",
+      "content": "It sounds like this is your chance to linger over the details you usually rush past. What do you like to settle in with over a long breakfast?",
+      "createdAt": "2026-10-05T16:45:37.942Z"
+    },
+    {
+      "id": "a9a72617-b92e-4638-903d-56731a1c0062",
+      "role": "user",
+      "content": "Black coffee and a lemon pastry, if there's one. Usually I eat standing up, so just sitting down matters.",
+      "createdAt": "2026-10-05T16:46:06.246Z"
+    },
+    {
+      "id": "80a92c11-f925-4bf5-8f07-42eb6c97dc46",
+      "role": "assistant",
+      "content": "Having time to sit and enjoy your coffee sounds like part of the treat. On the work days, what helps you unwind and sleep well when you get back to the hotel?",
+      "createdAt": "2026-10-05T16:46:14.959Z"
+    },
+    {
+      "id": "6a98f21c-f1af-4ee5-8f2c-3065b4ede610",
+      "role": "user",
+      "content": "A cool, quiet room and a firm pillow. My shoulders are usually tight after a whole day at a laptop.",
+      "createdAt": "2026-10-05T16:46:46.078Z"
+    },
+    {
+      "id": "2579611e-8679-42f4-8b0e-b6c0c778af05",
+      "role": "assistant",
+      "content": "A cool, quiet room and a firm pillow sound like useful comforts after those laptop-heavy days. When you’re staying for work, do you enjoy a little conversation and local guidance from the team, or prefer to seek them out only when you need something?",
+      "createdAt": "2026-10-05T16:46:57.227Z"
+    },
+    {
+      "id": "f62112d0-dd16-48ff-af98-4ebe745f83d8",
+      "role": "user",
+      "content": "I like being recognised and a friendly hello. I'll come over when I fancy a longer chat.",
+      "createdAt": "2026-10-05T16:47:28.923Z"
+    },
+    {
+      "id": "5078fd02-496a-4269-b34e-c23f0dce5352",
+      "role": "assistant",
+      "content": "A friendly hello, with longer conversations on your terms—that’s helpful to know. Is there anything else you’d like to add or correct before we finish?",
+      "createdAt": "2026-10-05T16:47:39.572Z"
+    },
+    {
+      "id": "1dba7589-7edc-45f7-90b6-536eb0e6ca5d",
+      "role": "user",
+      "content": "No, that covers it, thanks.",
+      "createdAt": "2026-10-05T16:48:09.343Z"
+    },
+    {
+      "id": "e7088864-33a4-454a-b5c0-a0462fe02487",
+      "role": "assistant",
+      "content": "You’re very welcome, Sofia. I hope your day to yourself brings plenty of time to sit, wander and enjoy the details you usually pass by.",
+      "createdAt": "2026-10-05T16:48:19.402Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "afeee40a-4c0b-42c9-be0e-e24f269d0e11",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nSofia — Discovery v2 05. Solo stay at Le Pavillon de la Reine, Paris, 12–15 November 2026, three nights.\nPurpose: work, followed by one day reserved for herself. Paris is familiar mainly through meeting rooms; she wants to experience what she usually rushes past.\nInteraction preference: recognition and a friendly hello; she will approach the team when she wants a longer conversation.\n\nB) COORDINATION\nAssign a concierge lead, with reception handling room preparation and housekeeping handoff. Hotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, adaptation authority and current prices remain to be checked.\nThe key scheduling unknown is which date is her personal day. Clarify this only when coordinating breakfast, an outing or a treatment. Nothing is booked or authorised.\n\nC) GUEST PROFILE\n- Her ideal day off starts with a long, seated breakfast, then wandering with her camera.\n- Photographic interests: old doorways and everyday street scenes, mostly in black and white.\n- Breakfast tastes: black coffee and a lemon pastry “if there’s one.” Sitting down matters because she usually eats standing up.\n- Room comfort: cool, quiet and a firm pillow.\n- Laptop-heavy workdays leave her shoulders tight.\n- No dietary restrictions or allergies were discussed; establish any relevant constraints before arranging food.\n\nD) RECEPTION\nRecognise Sofia warmly without turning the welcome into an extended briefing. Let her initiate longer exchanges.\nOffer one concise handoff: the concierge can prepare a flexible photography walk and help with a leisurely breakfast on her free day. Ask for that date only if she wishes to proceed; avoid restarting discovery or imposing a timed itinerary.\n\nE) ROOM PREPARATION\nExpressed preferences — reception/housekeeping:\n- Prioritise a quiet allocation within her booked category; check the actual room and likely noise exposure rather than promising silence.\n- Prepare a cool room using available controls; no exact temperature was supplied.\n- Check whether a firm pillow can be provided. No published pillow menu establishes stock.\n\nOptional attention, for hotel approval — reception/housekeeping:\nA small hotel-authored note could acknowledge the contrast with her usual work trips: “We hope you enjoy time to linger over Paris’s everyday details.” Keep it discreet and reversible; it is not guest-provided wording or a promised inclusion.\n\nF) CONCIERGE\n- Photography wandering — proposed support. Using the concierge’s tailored-outing capability, research a walk starting from Place des Vosges with old doorways and ordinary street life, suited to black-and-white photography. Provide a compact route with optional turns rather than appointments. Check November daylight, weather and access; avoid inventing venues or guaranteeing photographic conditions.\n- Slow breakfast — proposed paid opportunity, coordinated by concierge with the breakfast kitchen/service team. Explore an unhurried seated breakfast with black coffee and a lemon pastry if available. Confirm breakfast venue, service window, pastry availability, dietary needs and current price; breakfast entitlement is not known. Align the walk afterwards without fixing an unshared departure time.\n- Post-work shoulder focus — optional paid spa proposal. Concierge may offer a Codage targeted 45-minute treatment as a possible fit, subject to the spa confirming whether shoulder/back emphasis is appropriate. Published reference: EUR 160. Spa owns suitability and treatment details; confirm current fee, slot, 15-minute early arrival and cancellation terms before acceptance. Present as relaxation, not a medical remedy.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "bd80296f-9af4-4c18-bb43-2b713ee5b49d",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:49:56.942Z",
+      "updatedAt": "2026-10-05T16:49:56.942Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nSofia — Discovery v2 05. Solo stay at Le Pavillon de la Reine, Paris, 12–15 November 2026, three nights.\nPurpose: work, followed by one day reserved for herself. Paris is familiar mainly through meeting rooms; she wants to experience what she usually rushes past.\nInteraction preference: recognition and a friendly hello; she will approach the team when she wants a longer conversation.\n\nB) COORDINATION\nAssign a concierge lead, with reception handling room preparation and housekeeping handoff. Hotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, adaptation authority and current prices remain to be checked.\nThe key scheduling unknown is which date is her personal day. Clarify this only when coordinating breakfast, an outing or a treatment. Nothing is booked or authorised.\n\nC) GUEST PROFILE\n- Her ideal day off starts with a long, seated breakfast, then wandering with her camera.\n- Photographic interests: old doorways and everyday street scenes, mostly in black and white.\n- Breakfast tastes: black coffee and a lemon pastry “if there’s one.” Sitting down matters because she usually eats standing up.\n- Room comfort: cool, quiet and a firm pillow.\n- Laptop-heavy workdays leave her shoulders tight.\n- No dietary restrictions or allergies were discussed; establish any relevant constraints before arranging food.\n\nD) RECEPTION\nRecognise Sofia warmly without turning the welcome into an extended briefing. Let her initiate longer exchanges.\nOffer one concise handoff: the concierge can prepare a flexible photography walk and help with a leisurely breakfast on her free day. Ask for that date only if she wishes to proceed; avoid restarting discovery or imposing a timed itinerary.\n\nE) ROOM PREPARATION\nExpressed preferences — reception/housekeeping:\n- Prioritise a quiet allocation within her booked category; check the actual room and likely noise exposure rather than promising silence.\n- Prepare a cool room using available controls; no exact temperature was supplied.\n- Check whether a firm pillow can be provided. No published pillow menu establishes stock.\n\nOptional attention, for hotel approval — reception/housekeeping:\nA small hotel-authored note could acknowledge the contrast with her usual work trips: “We hope you enjoy time to linger over Paris’s everyday details.” Keep it discreet and reversible; it is not guest-provided wording or a promised inclusion.\n\nF) CONCIERGE\n- Photography wandering — proposed support. Using the concierge’s tailored-outing capability, research a walk starting from Place des Vosges with old doorways and ordinary street life, suited to black-and-white photography. Provide a compact route with optional turns rather than appointments. Check November daylight, weather and access; avoid inventing venues or guaranteeing photographic conditions.\n- Slow breakfast — proposed paid opportunity, coordinated by concierge with the breakfast kitchen/service team. Explore an unhurried seated breakfast with black coffee and a lemon pastry if available. Confirm breakfast venue, service window, pastry availability, dietary needs and current price; breakfast entitlement is not known. Align the walk afterwards without fixing an unshared departure time.\n- Post-work shoulder focus — optional paid spa proposal. Concierge may offer a Codage targeted 45-minute treatment as a possible fit, subject to the spa confirming whether shoulder/back emphasis is appropriate. Published reference: EUR 160. Spa owns suitability and treatment details; confirm current fee, slot, 15-minute early arrival and cancellation terms before acceptance. Present as relaxation, not a medical remedy.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

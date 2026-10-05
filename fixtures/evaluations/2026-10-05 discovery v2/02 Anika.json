@@ -1,0 +1,199 @@
+{
+  "stay": {
+    "id": "fa49e8c1-c017-42dc-8495-2a6448a922e9",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "First proper family holiday in years; taking their daughter to Thailand.",
+        "sourceQuote": "Our first proper family holiday in years. We're finally taking our daughter to Thailand.",
+        "sourceMessageId": "b9caca6b-88f4-47b2-aec5-789a0c5c918d"
+      },
+      {
+        "label": "Companions and interests",
+        "value": "Daughter Hana is ten and wants to see dragons everywhere; wife Mei is excited about food.",
+        "sourceQuote": "Hana is ten and wants to see dragons everywhere. My wife Mei is mostly excited about the food.",
+        "sourceMessageId": "3e6d91a7-acc2-4bf6-bd99-625fb7361c58"
+      },
+      {
+        "label": "Hana's storytelling ritual",
+        "value": "Dragon interest comes from shared bedtime stories; Hana loves inventing her own versions and drawing their settings.",
+        "sourceQuote": "The stories we read together at bedtime. She loves making up her own versions and drawing the places in them.",
+        "sourceMessageId": "22963df5-fcfa-429e-a795-ca2fa5bf3931"
+      },
+      {
+        "label": "Preferred holiday rhythm",
+        "value": "Anika wants gentle mornings with yoga and coffee, and afternoons with no commitments for anyone.",
+        "sourceQuote": "A gentle start to the day, some yoga and a coffee. And afternoons where none of us has to be anywhere.",
+        "sourceMessageId": "dd8ce315-7cc9-4ae2-8d8c-3b542ed8cac6"
+      },
+      {
+        "label": "Food interests and preferences",
+        "value": "Mei wants to understand Thai flavours; Hana prefers mild food.",
+        "sourceQuote": "Mei wants to understand Thai flavours, while Hana prefers mild food.",
+        "sourceMessageId": "7aae5fca-9521-4c6c-9ec7-c74261ef4c39"
+      },
+      {
+        "label": "Severe shellfish allergy",
+        "value": "Mei has a severe shellfish allergy, including cross-contact.",
+        "sourceQuote": "Mei has a severe shellfish allergy, including cross-contact.",
+        "sourceMessageId": "7aae5fca-9521-4c6c-9ec7-c74261ef4c39"
+      },
+      {
+        "label": "Sleep and room preferences",
+        "value": "Anika sleeps hot; Mei likes an extra blanket of her own; they prefer no strong perfume in the room.",
+        "sourceQuote": "I sleep hot, but Mei likes an extra blanket of her own. We also prefer not to have strong perfume in the room.",
+        "sourceMessageId": "a1c2eacc-7c80-4e4d-8ba6-677c43e6ba51"
+      },
+      {
+        "label": "Team interaction preference",
+        "value": "Enjoy warm, friendly conversation and thoughtful suggestions, without having their afternoons filled for them.",
+        "sourceQuote": "We enjoy warm, friendly conversation and a thoughtful suggestion. We just don't want the afternoons filled for us.",
+        "sourceMessageId": "784cef4e-575d-4ef7-bb25-0ba6ef871cae"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-14",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 20,
+    "chatError": null,
+    "createdAt": "2026-10-05T16:39:37.023Z",
+    "departure": "2026-11-19",
+    "expiresAt": "2026-10-12T16:39:37.023Z",
+    "guestName": "Anika — Discovery v2 02",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 3,
+    "updatedAt": "2026-10-05T16:50:34.366Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "c64a9e05-2e3a-4bf8-ae31-e3e38383d299",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "195001b2-411a-4f9b-93f7-a8908263c0b2",
+      "role": "assistant",
+      "content": "Hello Anika! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-05T16:39:37.023Z"
+    },
+    {
+      "id": "b9caca6b-88f4-47b2-aec5-789a0c5c918d",
+      "role": "user",
+      "content": "Our first proper family holiday in years. We're finally taking our daughter to Thailand.",
+      "createdAt": "2026-10-05T16:43:53.428Z"
+    },
+    {
+      "id": "d0f39b4b-cb82-476d-8897-17bd196276d3",
+      "role": "assistant",
+      "content": "A first proper family holiday in years sounds worth making room to enjoy together. How old is your daughter, and what are you all most looking forward to about Thailand?",
+      "createdAt": "2026-10-05T16:43:58.962Z"
+    },
+    {
+      "id": "3e6d91a7-acc2-4bf6-bd99-625fb7361c58",
+      "role": "user",
+      "content": "Hana is ten and wants to see dragons everywhere. My wife Mei is mostly excited about the food.",
+      "createdAt": "2026-10-05T16:44:47.681Z"
+    },
+    {
+      "id": "692c9b75-28ba-4173-95b6-7c54b9905d3b",
+      "role": "assistant",
+      "content": "Hana’s dragon quest sounds like a lovely thread for the trip, alongside Mei’s food discoveries. What sparked Hana’s fascination with dragons?",
+      "createdAt": "2026-10-05T16:44:54.284Z"
+    },
+    {
+      "id": "22963df5-fcfa-429e-a795-ca2fa5bf3931",
+      "role": "user",
+      "content": "The stories we read together at bedtime. She loves making up her own versions and drawing the places in them.",
+      "createdAt": "2026-10-05T16:45:21.608Z"
+    },
+    {
+      "id": "12caff25-d941-4572-8139-e78e9a31a21f",
+      "role": "assistant",
+      "content": "So the dragons come with stories you share at bedtime—and places Hana imagines and draws herself. What would make this holiday feel special for you personally?",
+      "createdAt": "2026-10-05T16:45:29.499Z"
+    },
+    {
+      "id": "dd8ce315-7cc9-4ae2-8d8c-3b542ed8cac6",
+      "role": "user",
+      "content": "A gentle start to the day, some yoga and a coffee. And afternoons where none of us has to be anywhere.",
+      "createdAt": "2026-10-05T16:45:57.184Z"
+    },
+    {
+      "id": "3f393ce6-1bd8-4448-81cc-a57dcaf64284",
+      "role": "assistant",
+      "content": "Yoga and coffee, with afternoons left open, sounds like a welcome change of pace. What kind of food discoveries is Mei hoping for—and what does Hana enjoy eating?",
+      "createdAt": "2026-10-05T16:46:06.232Z"
+    },
+    {
+      "id": "7aae5fca-9521-4c6c-9ec7-c74261ef4c39",
+      "role": "user",
+      "content": "Mei wants to understand Thai flavours, while Hana prefers mild food. Mei has a severe shellfish allergy, including cross-contact.",
+      "createdAt": "2026-10-05T16:46:34.095Z"
+    },
+    {
+      "id": "396b8852-dd4b-4786-be48-97682a342459",
+      "role": "assistant",
+      "content": "Mei’s severe shellfish allergy, including cross-contact, is important for the dining team to discuss with you directly. With gentle mornings in mind, is there anything that helps the three of you sleep comfortably when you’re away from home?",
+      "createdAt": "2026-10-05T16:46:46.059Z"
+    },
+    {
+      "id": "a1c2eacc-7c80-4e4d-8ba6-677c43e6ba51",
+      "role": "user",
+      "content": "I sleep hot, but Mei likes an extra blanket of her own. We also prefer not to have strong perfume in the room.",
+      "createdAt": "2026-10-05T16:47:16.737Z"
+    },
+    {
+      "id": "0353463d-3760-43cf-bd7e-1bf3040873bf",
+      "role": "assistant",
+      "content": "Your different sleep preferences and the wish to avoid strong perfume are helpful to know. How do you like the team to interact with you during a stay—are you happy with occasional suggestions, or would you rather take the lead?",
+      "createdAt": "2026-10-05T16:47:28.893Z"
+    },
+    {
+      "id": "784cef4e-575d-4ef7-bb25-0ba6ef871cae",
+      "role": "user",
+      "content": "We enjoy warm, friendly conversation and a thoughtful suggestion. We just don't want the afternoons filled for us.",
+      "createdAt": "2026-10-05T16:47:56.718Z"
+    },
+    {
+      "id": "098f7b4b-9614-40cf-a684-549e8b61104e",
+      "role": "assistant",
+      "content": "Warm conversation and a thoughtful suggestion, while leaving your afternoons open—that’s a lovely balance. Is there anything else you’d like the team to know, or anything you’d like to correct before we finish?",
+      "createdAt": "2026-10-05T16:48:09.312Z"
+    },
+    {
+      "id": "b11b3ea1-7ef0-4451-8a74-c0847d3cd1f8",
+      "role": "user",
+      "content": "No, that's everything for now, thanks.",
+      "createdAt": "2026-10-05T16:48:35.482Z"
+    },
+    {
+      "id": "e229571d-fc0a-4a52-a39a-a2b065a29f25",
+      "role": "assistant",
+      "content": "Thank you, Anika—it’s been lovely hearing about the three of you. Wishing you a wonderful family holiday, with plenty of time for stories, discoveries and unhurried afternoons.",
+      "createdAt": "2026-10-05T16:48:48.402Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "c64a9e05-2e3a-4bf8-ae31-e3e38383d299",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nAnika — Discovery v2 02; The Sukhothai Bangkok, 14–19 November 2026, five nights. Party of three: Anika, wife Mei and daughter Hana, aged ten. Their first proper family holiday in years; taking Hana to Thailand.\nExpressed interaction preference: warm, friendly conversation and thoughtful suggestions, while leaving afternoons unplanned.\n\nB) COORDINATION\nAssigned concierge to lead experience proposals, with reception/housekeeping, relevant kitchens and spa owning their preparations. Hotel DNA is public/historical preparation, checked 5 October 2026, not operational confirmation; availability and prices require verification. No arrangements are authorised.\n\nCritical cross-team food alert: Mei has a severe shellfish allergy, including cross-contact. Each serving kitchen/bar must discuss requirements directly and confirm ingredients, sauces and cross-contact controls under its actual protocols before offering food or drinks. Vegetarian labels and mild spice do not establish safety.\n\nC) GUEST PROFILE\n• Hana wants to see dragons “everywhere,” inspired by shared bedtime stories. She invents her own versions and draws their settings; prefers mild food.\n• Mei wants to understand Thai flavours, rather than simply try a meal.\n• Anika values a gentle morning with yoga and coffee, followed by afternoons when nobody has to be anywhere.\n• Anika sleeps hot; Mei likes an extra blanket of her own. They prefer no strong perfume in the room.\n• Shared stories, food discovery and unhurried family time are the strongest personalisation cues.\n\nD) RECEPTION\nWelcome conversationally, acknowledging the family holiday without turning it into a staged celebration. Offer a small number of morning or dinner possibilities rather than a full itinerary.\nConfirm arrival timing only when needed for a proposed first-day activity. Check booked room category and sleeping configuration for three before promising comfort adjustments; do not assume Club benefits.\n\nE) ROOM PREPARATION\nReception/housekeeping: provide Mei’s separate extra blanket if available; check room-specific cooling controls and bedding options for Anika without setting an unrequested temperature. Avoid added fragrance or strongly perfumed decorative touches; confirm housekeeping products and feasible preparation.\n\nOptional hotel-approved attention: a short hotel-authored note inviting Hana to imagine and draw a story inspired by the gardens or lotus ponds. Reception/housekeeping to approve wording and placement; any paper or drawing materials require availability/budget confirmation. Do not imply the hotel contains dragons or attribute a personal message to the family.\n\nF) CONCIERGE\n• Paid proposal — gentle adult yoga followed by coffee, leaving the afternoon free. Based on Anika’s routine; spa offers private yoga at a published THB 1,800++ per 60-minute session for up to two people. Concierge/spa to check preferred pace, slot, suitability and cancellation terms; coordinate coffee with the chosen outlet and confirm separate charges. Hana is below the published wellness minimum age of 12; do not offer this as a family session.\n\n• Paid proposal — an explanatory Thai dinner with Celadon’s kitchen, helping Mei understand flavours while selecting mild dishes for Hana. Concierge to ask the restaurant whether a suitable kitchen-selected sequence with brief flavour explanations is feasible, then obtain a quote. Allergy approval is decisive; spice adaptation is separate. Check dinner timing, dress code and whether scheduled performances suit them; do not default to the seafood-containing sharing menu.\n\n• Focused external research — concierge to identify a short, child-appropriate morning outing featuring dragon imagery or related local motifs, accurately explaining distinctions rather than calling every figure a dragon. Check access, travel time, heat, dress requirements and costs. Pair with optional sketching time for Hana’s storytelling interest; keep afternoons uncommitted and seek family approval before any booking.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "fa49e8c1-c017-42dc-8495-2a6448a922e9",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-05T16:50:34.364Z",
+      "updatedAt": "2026-10-05T16:50:34.364Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nAnika — Discovery v2 02; The Sukhothai Bangkok, 14–19 November 2026, five nights. Party of three: Anika, wife Mei and daughter Hana, aged ten. Their first proper family holiday in years; taking Hana to Thailand.\nExpressed interaction preference: warm, friendly conversation and thoughtful suggestions, while leaving afternoons unplanned.\n\nB) COORDINATION\nAssigned concierge to lead experience proposals, with reception/housekeeping, relevant kitchens and spa owning their preparations. Hotel DNA is public/historical preparation, checked 5 October 2026, not operational confirmation; availability and prices require verification. No arrangements are authorised.\n\nCritical cross-team food alert: Mei has a severe shellfish allergy, including cross-contact. Each serving kitchen/bar must discuss requirements directly and confirm ingredients, sauces and cross-contact controls under its actual protocols before offering food or drinks. Vegetarian labels and mild spice do not establish safety.\n\nC) GUEST PROFILE\n• Hana wants to see dragons “everywhere,” inspired by shared bedtime stories. She invents her own versions and draws their settings; prefers mild food.\n• Mei wants to understand Thai flavours, rather than simply try a meal.\n• Anika values a gentle morning with yoga and coffee, followed by afternoons when nobody has to be anywhere.\n• Anika sleeps hot; Mei likes an extra blanket of her own. They prefer no strong perfume in the room.\n• Shared stories, food discovery and unhurried family time are the strongest personalisation cues.\n\nD) RECEPTION\nWelcome conversationally, acknowledging the family holiday without turning it into a staged celebration. Offer a small number of morning or dinner possibilities rather than a full itinerary.\nConfirm arrival timing only when needed for a proposed first-day activity. Check booked room category and sleeping configuration for three before promising comfort adjustments; do not assume Club benefits.\n\nE) ROOM PREPARATION\nReception/housekeeping: provide Mei’s separate extra blanket if available; check room-specific cooling controls and bedding options for Anika without setting an unrequested temperature. Avoid added fragrance or strongly perfumed decorative touches; confirm housekeeping products and feasible preparation.\n\nOptional hotel-approved attention: a short hotel-authored note inviting Hana to imagine and draw a story inspired by the gardens or lotus ponds. Reception/housekeeping to approve wording and placement; any paper or drawing materials require availability/budget confirmation. Do not imply the hotel contains dragons or attribute a personal message to the family.\n\nF) CONCIERGE\n• Paid proposal — gentle adult yoga followed by coffee, leaving the afternoon free. Based on Anika’s routine; spa offers private yoga at a published THB 1,800++ per 60-minute session for up to two people. Concierge/spa to check preferred pace, slot, suitability and cancellation terms; coordinate coffee with the chosen outlet and confirm separate charges. Hana is below the published wellness minimum age of 12; do not offer this as a family session.\n\n• Paid proposal — an explanatory Thai dinner with Celadon’s kitchen, helping Mei understand flavours while selecting mild dishes for Hana. Concierge to ask the restaurant whether a suitable kitchen-selected sequence with brief flavour explanations is feasible, then obtain a quote. Allergy approval is decisive; spice adaptation is separate. Check dinner timing, dress code and whether scheduled performances suit them; do not default to the seafood-containing sharing menu.\n\n• Focused external research — concierge to identify a short, child-appropriate morning outing featuring dragon imagery or related local motifs, accurately explaining distinctions rather than calling every figure a dragon. Check access, travel time, heat, dress requirements and costs. Pair with optional sketching time for Hana’s storytelling interest; keep afternoons uncommitted and seek family approval before any booking.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}
