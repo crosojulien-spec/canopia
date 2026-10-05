@@ -117,6 +117,14 @@ export interface RuntimeInfo {
   realStaysEnabled: boolean;
   database: 'local-postgres' | 'postgres';
   model: string | null;
+  aiBudget?: AiBudgetStatus | null;
+}
+export interface AiBudgetStatus {
+  limitUsd: number;
+  accountedUsd: number;
+  remainingUsd: number;
+  uncertainCalls: number;
+  blocked: boolean;
 }
 export interface ChatResult {
   reply: string;
@@ -132,6 +140,7 @@ export interface GenerationInput {
 export interface AiProvider {
   name: 'simulation' | 'openai' | 'disabled';
   model: string;
+  budget?: () => Promise<AiBudgetStatus>;
   chat(input: GenerationInput, signal?: AbortSignal): Promise<ChatResult>;
   brief(input: GenerationInput, signal?: AbortSignal): Promise<string>;
 }

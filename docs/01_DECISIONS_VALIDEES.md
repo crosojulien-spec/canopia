@@ -83,7 +83,8 @@ Les propositions restent soumises à l'équipe de l'hôtel. Le produit ne réser
 
 ### Lancement et arbitrages confirmés dans la session de développement
 
-- Le 5 octobre 2026, Julien a demandé « Developpe » : la construction du socle est lancée dans ce projet. Les interdictions de dépense, d'envoi réel et de déploiement restent en vigueur.
+- Le 5 octobre 2026, Julien a demandé « Developpe » : la construction du socle est lancée dans ce projet. Les envois réels et le déploiement restent interdits sans autorisation ; les dépenses restent soumises à validation, avec l'exception d'essai IA ci-dessous.
+- Après enregistrement local de sa clé, Julien a explicitement validé l'activation de GPT‑6.1 Sol avec une enveloppe maximale de 5 USD pour les premiers essais de conversation et de brief. Cette autorisation porte sur des séjours fictifs locaux, pas sur des e-mails, un déploiement, des vrais voyageurs ou une autre dépense. Le modèle est `gpt-6.1-sol` ; la clé n'est pas versionnée. Le compteur d'essai est conservé en base et ne se recharge pas au redémarrage.
 - En cas d'arrêt/refus : produire un brief minimal à partir des informations déjà recueillies, avec une mention très visible du souhait du client de ne pas les voir utilisées pour personnaliser son séjour. Aucune nouvelle suggestion d'expérience dans cette branche. Le délai de conservation des données reste à décider.
 - Format validé : structure A–F conservée, « BlooM Experience Tips » remplacé par « Experience suggestions », intitulés adaptés aux rôles connus de l'hôtel, réception en l'absence de concierge.
 - Édition/régénération validée : chaque régénération crée une nouvelle version sans écraser les précédentes ; l'export utilise la version sélectionnée et enregistrée dans le dashboard.
@@ -92,7 +93,7 @@ Les propositions restent soumises à l'équipe de l'hôtel. Le produit ne réser
 - Développement direct avec Codex, dans un projet Git indépendant et privé.
 - Dépôt confirmé par Julien le 5 octobre 2026 : `crosojulien-spec/canopia`, privé, lié au dossier local `C:\Users\croso\Desktop\Canopia_Codex_Preparation`. La mise en place de Git ne vaut pas autorisation de lancer la construction.
 - Développement et hébergement hors Replit ; l'ancien Replit sert de référence et doit rester intact.
-- Priorité aux comptes et services existants pour l'IA, l'e-mail, la base et l'hébergement ; aucun nouveau budget chiffré n'a été validé.
+- Priorité aux comptes et services existants pour l'IA, l'e-mail, la base et l'hébergement ; seule l'enveloppe IA initiale de 5 USD ci-dessus a été validée.
 - Préparation ici, puis construction dans une session Codex liée au dossier local et au dépôt choisi.
 - Julien doit être consulté avant de combler une inconnue ou de trancher une contradiction produit. L'agent peut avancer sur le reste.
 - L'agent additionnel de recherche est réservé au hackathon. Prévoir son point de raccordement sans le construire en avance.

@@ -31,8 +31,8 @@ function blocks(text: string) {
             .slice(1, -1)
             .map((s) => s.trim()),
         );
-      const [header, ...body] = rows.filter((row) => !row.every((cell) => /^:?-+:?$/.test(cell)));
-      if (!header) return <p key={i}>{inline(block)}</p>;
+        const [header, ...body] = rows.filter((row) => !row.every((cell) => /^:?-+:?$/.test(cell)));
+        if (!header) return <p key={i}>{inline(block)}</p>;
         return (
           <div className="dna-table-scroll" key={i}>
             <table>

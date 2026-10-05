@@ -4,18 +4,19 @@ The local application runs without another service account. These are the remain
 
 ## OpenAI: conversation and brief generation
 
-Use Julien's existing OpenAI account to access the [API platform](https://platform.openai.com/). Create or select a dedicated **Canopia** project, check its API billing/credits, agree a spending cap and create a project API key. ChatGPT and API billing are separate. The exact model and test budget still need Julien's decision.
+Julien's existing API key is now stored locally, and access to **gpt-6.1-sol** was verified. He explicitly authorised up to **USD 5** for the first fictional conversation/brief trials on 5 October 2026. The app applies a persistent local allowance before dispatching generation. See [AI trial and budget](AI%20trial%20and%20budget.md) for accounting, limits and operation. No account-wide billing setting was changed.
 
 Put the key directly into the local ignored `.env` file or process environment. Do not paste it into a conversation, browser code or Git. Codex can configure the other fields once the key is available locally, without displaying it.
 
 ```dotenv
 CANOPIA_AI_MODE=openai
-OPENAI_MODEL=<agreed model supporting Responses and structured output>
+OPENAI_MODEL=gpt-6.1-sol
 OPENAI_API_KEY=<local secret only>
 CANOPIA_ALLOW_AI_CALLS=false
+CANOPIA_AI_BUDGET_USD=5
 ```
 
-The final flag remains false until paid testing is authorised. Changing it to true activates calls. First use a fictional stay and review the dialogue and A–F draft against the DNA and transcript. Calls use `store:false`; this is not a guarantee of zero retention by the provider. The reservation context, hotel DNA and conversation go to the provider; the guest's email address is omitted from the AI input.
+The enable flag is false by default and may become true only with authorisation; Julien has now authorised this local trial. Use npm start or npm run dev with CANOPIA_DATA_DIR=.local/rehearsal to retain the current test data. npm run demo always forces simulation, regardless of the key. Review the real dialogue and A–F draft against the DNA and transcript. Calls use store:false; this is not a guarantee of zero retention by the provider. The reservation context, hotel DNA and conversation go to the provider; the guest's email address is omitted from the AI input.
 
 The adapter uses no automatic retries and exposes no web, booking, purchase or sending tools. Draft metadata records model, prompt and DNA versions.
 

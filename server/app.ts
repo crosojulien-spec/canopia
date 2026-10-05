@@ -174,7 +174,7 @@ export function createApp(service: CanopiaService) {
       return res.status(401).json({ error: 'Please sign in to the operator console.' });
     next();
   });
-  app.get('/api/runtime', (_req, res) =>
+  app.get('/api/runtime', async (_req, res) =>
     res.json({
       aiMode: service.ai.name,
       aiConfigured: service.ai.name === 'openai',
@@ -183,6 +183,7 @@ export function createApp(service: CanopiaService) {
       realStaysEnabled: config.realStays,
       database: config.databaseUrl ? 'postgres' : 'local-postgres',
       model: config.model || null,
+      aiBudget: (await service.ai.budget?.()) || null,
     }),
   );
   app.get('/api/hotels', async (_req, res) => res.json(await service.hotels()));

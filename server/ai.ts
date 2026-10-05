@@ -1,10 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import OpenAI from 'openai';
+import type { ResponseCreateParamsNonStreaming } from 'openai/resources/responses/responses';
 import { z } from 'zod';
 import { zodTextFormat } from 'openai/helpers/zod';
 import type { AiProvider, ChatResult, GenerationInput } from '../shared/types.ts';
 import type { Config } from './config.ts';
-import { AppError } from './security.ts';
+import { AppError, assert } from './security.ts';
+import { AiBudget, approvedModel } from './ai-budget.ts';
 
 const resultSchema = z.object({
   reply: z.string().min(1).max(3000),
@@ -21,7 +23,7 @@ const resultSchema = z.object({
     )
     .max(60),
 });
-export function makeProvider(config: Config): AiProvider {
+export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?: OpenAI): AiProvider {
   if (config.aiMode === 'simulation') return new SimulationProvider();
   if (config.aiMode !== 'openai' || !config.apiKey || !config.model || !config.allowAiCalls)
     return {
@@ -37,7 +39,63 @@ export function makeProvider(config: Config): AiProvider {
         throw new AppError(503, 'Connect and enable the AI provider to generate a brief.');
       },
     };
-  const client = new OpenAI({ apiKey: config.apiKey, maxRetries: 0, timeout: 60_000 });
+  assert(
+    budget && config.model === approvedModel,
+    503,
+    'The approved model and persistent trial budget must be configured before AI calls.',
+  );
+  const limiter = budget!;
+  const client = suppliedClient || new OpenAI({ apiKey: config.apiKey, maxRetries: 0, timeout: 60_000 });
+  async function response(
+    params: ResponseCreateParamsNonStreaming,
+    purpose: 'chat' | 'brief',
+    signal?: AbortSignal,
+  ) {
+    try {
+      if (signal?.aborted) throw new AppError(503, 'The request was cancelled before generation.');
+      const count = await client.responses.inputTokens.count(
+        {
+          model: params.model,
+          input: params.input,
+          instructions: params.instructions,
+          text: params.text,
+          reasoning: params.reasoning,
+        },
+        { signal },
+      );
+      if (signal?.aborted) throw new AppError(503, 'The request was cancelled before generation.');
+      const id = await limiter.reserve(config.model!, count.input_tokens, params.max_output_tokens!, purpose);
+      // Reserve before dispatch. Any unknown outcome deliberately keeps that
+      // reservation; automatic retries are disabled on the SDK client.
+      const result = await client.responses.create(
+        { ...params, service_tier: 'default', store: false },
+        { signal },
+      );
+      await limiter.settle(id, result.usage, result._request_id, result.service_tier);
+      return result;
+    } catch (error) {
+      if (error instanceof AppError) throw error;
+      if (error instanceof OpenAI.APIError) {
+        const code =
+          typeof error.code === 'string' && /^[a-z_]{1,80}$/.test(error.code) ? error.code : 'unknown';
+        console.warn(`OpenAI ${purpose} request failed: HTTP ${error.status || 'unknown'}, code ${code}`);
+        if (error.status === 429)
+          throw new AppError(
+            503,
+            'The API account has reached a credit, budget or rate limit. Your message is saved; ask the operator to check the connection.',
+          );
+        if (error.status === 401 || error.status === 403)
+          throw new AppError(
+            503,
+            'The API account could not authorise this model. Your message is saved; ask the operator to check the connection.',
+          );
+      }
+      throw new AppError(
+        502,
+        'The AI response could not be completed. Your message is saved. Please retry or ask the operator.',
+      );
+    }
+  }
   const inputData = (input: GenerationInput) =>
     JSON.stringify({
       reservation: {
@@ -54,24 +112,35 @@ export function makeProvider(config: Config): AiProvider {
   return {
     name: 'openai',
     model: config.model,
+    budget: () => limiter.status(),
     async chat(input, signal) {
-      const result = await client.responses.parse(
+      const result = await response(
         {
           model: config.model!,
           store: false,
           max_output_tokens: 4000,
+          reasoning: { effort: 'low' },
           instructions: await readFile('prompts/conversation-v1.txt', 'utf8'),
           input: inputData(input),
           text: { format: zodTextFormat(resultSchema, 'canopia_turn') },
         },
-        { signal },
+        'chat',
+        signal,
       );
-      if (!result.output_parsed)
+      if (result.status !== 'completed' || !result.output_text)
         throw new AppError(
           502,
           'The AI response could not be read. Your message is saved; retry when ready.',
         );
-      const output = resultSchema.parse(result.output_parsed);
+      let output: ChatResult;
+      try {
+        output = resultSchema.parse(JSON.parse(result.output_text));
+      } catch {
+        throw new AppError(
+          502,
+          'The AI reply format was incomplete. Your message is saved; retry when ready.',
+        );
+      }
       output.facts = output.facts.filter(
         (f) =>
           f.sourceQuote.length > 0 &&
@@ -82,19 +151,21 @@ export function makeProvider(config: Config): AiProvider {
       return output;
     },
     async brief(input, signal) {
-      const response = await client.responses.create(
+      const result = await response(
         {
           model: config.model!,
           store: false,
           max_output_tokens: 7000,
+          reasoning: { effort: 'medium' },
           instructions: await readFile('prompts/brief-v1.txt', 'utf8'),
           input: inputData(input),
         },
-        { signal },
+        'brief',
+        signal,
       );
-      const text = response.output_text?.trim();
+      const text = result.output_text?.trim();
       if (
-        response.status !== 'completed' ||
+        result.status !== 'completed' ||
         !text ||
         !['A)', 'B)', 'C)', 'D)', 'E)', 'F)'].every((h) => text.includes(h))
       )

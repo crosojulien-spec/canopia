@@ -6,7 +6,7 @@ Une inconnue n'est pas un défaut démontré. Vérifier d'abord les éléments a
 |---|---|---|
 | Code historique | Replit a confirmé l'absence d'archive filtrée et de dépôt exportable. Inspection en lecture seule effectuée ; socle indépendant construit ici. | Ne bloque plus le développement local |
 | Comptes techniques | Services IA, base, hébergement et e-mail réellement accessibles ; tarifs/crédits éventuels | Avant de figer l'architecture |
-| Modèle et budget | Modèle cible, estimation d'usage et plafond si des dépenses nouvelles sont nécessaires | Avant les appels payants et engagements |
+| Modèle et budget | Résolu pour les premiers essais : GPT‑6.1 Sol et 5 USD maximum explicitement validés. Toute extension du budget ou changement substantiel reste à confirmer. | Avant de dépasser le cadre d'essai autorisé |
 | Expéditeur d'invitation | Adresse, nom affiché, domaine et autorisation technique d'envoi | Avant les essais e-mail réels |
 | Destinataire de test | Adresse contrôlée choisie par Julien | Avant tout envoi d'essai |
 | ADN des six hôtels | Six fiches enrichies et standardisées dans `data/dna/`, avec 88 références, menus/tarifs publiés, capacités et compositions conditionnelles. Manques et contradictions propres à chaque hôtel : rubrique 10 et guide de relecture. | Relecture opérateur et confirmation hôtel avant de présenter les capacités comme opérationnelles |

@@ -15,6 +15,7 @@ export interface Config {
   apiKey?: string;
   model?: string;
   allowAiCalls: boolean;
+  aiBudgetUsd?: number;
   emailMode: 'preview' | 'smtp';
   allowEmail: boolean;
   smtpHost?: string;
@@ -61,6 +62,7 @@ export function loadConfig(): Config {
     apiKey: process.env.OPENAI_API_KEY,
     model: process.env.OPENAI_MODEL,
     allowAiCalls: process.env.CANOPIA_ALLOW_AI_CALLS === 'true',
+    aiBudgetUsd: Number(process.env.CANOPIA_AI_BUDGET_USD) || 0,
     emailMode: process.env.CANOPIA_EMAIL_MODE === 'smtp' ? 'smtp' : 'preview',
     allowEmail: process.env.CANOPIA_ALLOW_EMAIL === 'true',
     smtpHost: process.env.SMTP_HOST,

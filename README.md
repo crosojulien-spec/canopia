@@ -2,7 +2,7 @@
 
 État du 5 octobre 2026. La construction a été lancée par Julien dans cette session.
 
-Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN enrichies et les exemples historiques. La console, la conversation et les briefs sont en anglais. Aucun appel IA payant, envoi d'e-mail ou déploiement n'a été effectué. Les six ADN ont été documentés sur le web le 5 octobre 2026, avec menus, prix, capacités, propositions et limites distincts ; ils ne sont pas validés par les hôtels. Le [guide de relecture](data/dna/Review%20guide.md) décrit leur structure, les manques et l'import versionné qui protège les corrections et les anciens séjours.
+Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN enrichies et les exemples historiques. La console, la conversation et les briefs sont en anglais. Julien a autorisé les premiers essais GPT‑6.1 Sol sur séjours fictifs, dans une enveloppe de 5 USD contrôlée par l'application. Aucun e-mail réel ni déploiement n'a été effectué. Les six ADN ont été documentés sur le web le 5 octobre 2026, avec menus, prix, capacités, propositions et limites distincts ; ils ne sont pas validés par les hôtels. Le [guide de relecture](data/dna/Review%20guide.md) décrit leur structure, les manques et l'import versionné qui protège les corrections et les anciens séjours.
 
 ## Utilisation
 
@@ -15,7 +15,7 @@ npm run dev
 
 Ouvrir **http://127.0.0.1:4310**, puis créer ton compte opérateur avec ton propre mot de passe. Aucun compte n'est préconfiguré. Les données persistent dans `.local/postgres` et une clé locale est créée dans `.local/installation.key`. Conserver ces deux éléments ensemble pour déplacer une installation. Ils sont exclus de Git.
 
-L'IA et l'envoi d'e-mails sont désactivés par défaut. Pour répéter le parcours sans appel externe, avec une base distincte :
+L'IA et l'envoi d'e-mails sont désactivés par défaut dans le modèle de configuration. La configuration locale de Julien active désormais l'essai GPT autorisé ; le [guide de l'essai IA](docs/AI%20trial%20and%20budget.md) décrit le plafond et son compteur persistant. Pour répéter le parcours sans appel externe, avec une base distincte :
 
 ```powershell
 $env:CANOPIA_AI_MODE='simulation'
@@ -41,7 +41,7 @@ npm test
 npm run test:e2e
 ```
 
-Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Les appels OpenAI et SMTP réels restent à vérifier après autorisation. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
+Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Deux scénarios fictifs ont aussi été testés avec GPT‑6.1 Sol : dialogue et brief pour Hôtel Amour Nice, puis refus de personnalisation pour Golden Well. Ces premiers essais vérifient le raccordement ; l'évaluation de qualité sur tous les hôtels reste à mener. SMTP n'a pas été testé en réel. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
 
 Voir [Connections and operation](docs/Connections%20and%20operation.md) pour les accès nécessaires et [Verification report](docs/Verification%20report.md) pour la portée des contrôles. `.env.example` contient seulement les noms de configuration. Aucune clé réelle ne doit être copiée dans le code ou la conversation.
 

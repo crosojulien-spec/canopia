@@ -1050,6 +1050,23 @@ function Connections({ runtime }: { runtime: RuntimeInfo | null }) {
               ? `Model: ${runtime.model}`
               : 'Choose an API project, a model and a spending limit before activation.'}
           </p>
+          {runtime?.aiBudget && (
+            <>
+              <p>
+                <strong>Trial budget: USD {runtime.aiBudget.limitUsd.toFixed(2)}</strong>
+                <br />
+                USD {runtime.aiBudget.accountedUsd.toFixed(3)} accounted · USD{' '}
+                {runtime.aiBudget.remainingUsd.toFixed(3)} remaining
+              </p>
+              <p className="fine">
+                Conservative local allowance, including pending or uncertain calls. The provider invoice may
+                be lower. New calls stop before their maximum cost would exceed this allowance.
+              </p>
+              {runtime.aiBudget.blocked && (
+                <Notice error>AI calls are paused. Review the trial budget before continuing.</Notice>
+              )}
+            </>
+          )}
         </section>
         <section className="card">
           <CalendarDays size={24} />

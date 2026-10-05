@@ -5,6 +5,7 @@ import { loadConfig } from './config.ts';
 import { openDatabase } from './db.ts';
 import { seedHotels } from './seed.ts';
 import { makeProvider } from './ai.ts';
+import { AiBudget } from './ai-budget.ts';
 import { CanopiaService } from './service.ts';
 import { createApp } from './app.ts';
 const config = loadConfig();
@@ -17,7 +18,11 @@ for (const result of profileUpdates) {
     );
   }
 }
-const service = new CanopiaService(db, config, makeProvider(config));
+const budget =
+  config.aiMode === 'openai' && config.allowAiCalls
+    ? await AiBudget.open(db, config.aiBudgetUsd || 0)
+    : undefined;
+const service = new CanopiaService(db, config, makeProvider(config, budget));
 await service.recover();
 const app = createApp(service);
 if (config.production || process.env.CANOPIA_SERVE_BUILD === 'true') {
