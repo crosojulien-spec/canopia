@@ -1,0 +1,33 @@
+1. ASSISTANT: Hello Theo! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: Gabriel and I are marking five years since our civil partnership, with a few days in Paris and a little work squeezed in.
+
+3. ASSISTANT: Congratulations on five years together! Have you and Gabriel already made plans to mark it in Paris, or is there something you’d especially enjoy doing together?
+
+4. USER: We've booked dinner elsewhere on Monday, but Tuesday evening is open. We like relaxed bistros, and neither of us wants decorations, notes or anniversary surprises.
+
+5. ASSISTANT: No decorations, notes or surprises—thank you for making that clear. For your open Tuesday evening, would you welcome bistro suggestions, and is there any food either of you particularly enjoys or avoids?
+
+6. USER: Yes, a recommendation would help; Gabriel loves cheese, while I tend to avoid heavy cream sauces. Nothing too formal or drawn-out.
+
+7. ASSISTANT: A relaxed bistro with good cheese and lighter choices sounds a useful direction. You mentioned squeezing in some work—will that shape either of your days, or is it mostly a few emails between outings?
+
+8. USER: I have a meeting on Tuesday afternoon and should be free by 6:30; Gabriel has the whole day to himself. The other days are ours.
+
+9. ASSISTANT: That leaves the other days for time together. What do you and Gabriel most enjoy doing in Paris when you have a day to yourselves?
+
+10. USER: Gabriel loves architecture and I browse secondhand poetry books, with long bistro lunches in between. I've visited Paris for work, but it's Gabriel's first time.
+
+11. ASSISTANT: Architecture, poetry bookshops and long lunches sound like a good way to discover Paris together. Would a few walking suggestions linking those interests be useful, or do you prefer to wander without a route?
+
+12. USER: A few pointers would be great, but we'd rather wander than follow a timed route.
+
+13. ASSISTANT: A few pointers, with plenty of room to wander. After a day out, what helps you each feel comfortable and unwind back at the hotel?
+
+14. USER: Gabriel reads late while I fall asleep early. A reading light away from my pillow would help in our shared room.
+
+15. ASSISTANT: A reading light positioned away from your pillow would make those different evening rhythms easier; the exact setup would need checking. Is there anything else you’d like us to know, or anything you’d like to correct?
+
+16. USER: No other requests, and just to clarify: avoiding cream sauces is a matter of taste, not an intolerance.
+
+17. ASSISTANT: Thank you for clarifying—cream sauces are a taste preference, not an intolerance. Enjoy your time in Paris together, Theo; we look forward to welcoming you and Gabriel.

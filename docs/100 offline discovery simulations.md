@@ -6,7 +6,7 @@ Julien requested this workshop after discussing the old Replit prompt and contro
 
 ## What was actually done
 
-The same Codex assistant authored the fictional travellers, simulated the host, and reviewed the result. The active v3.1 role was the initial writing reference. Each subsequent batch used the cumulative workshop revision from the preceding review. This is an editorial design exercise, not one hundred independent model experiments, not a blind test, and not training of model weights.
+The same Codex assistant authored the fictional travellers, simulated the host, and reviewed the result. The then-active v3.1 role was the initial writing reference. Each subsequent batch used the cumulative workshop revision from the preceding review. This is an editorial design exercise, not one hundred independent model experiments, not a blind test, and not training of model weights.
 
 There are **98 exchanges from the guest's opening after the assumed welcome, plus two continuation cases**: repetition repair (078) and withdrawal after prior participation (080). All exchanges end. Together they contain **686 guest messages and 686 host messages**, between one and ten guest turns per case. Some short endings are intentionally appropriate to the guest's stated needs; the count is not a target length.
 
@@ -54,3 +54,6 @@ The next decision would be which behaviour changes to adopt. If implementation i
 Local structural checks verified exactly 100 sequential unique case IDs, ten cases per batch, alternating guest/host messages, ten review files, the baseline plus ten revision files, and 100 distinct transcript fingerprints. These checks concern completeness and integrity, not hospitality quality. All 26 files under the runtime source/prompt directories matched their pre-workshop SHA-256 values. The baseline prompt copy also matches the active prompt byte for byte.
 
 There were **zero Canopia model API calls** and no application-model spending in this workshop. Work was authored in the current Codex session, which is not a claim of free or unlimited Codex usage. No runtime tests or builds were rerun for these documentation-only additions. No email, deployment, real stay or new external account was involved.
+
+
+Subsequent implementation: Julien later authorised integrating this design work into the product and running three live anniversary journeys. The workshop files remain unchanged as evidence of the offline stage. Current runtime changes and real model outputs are documented separately in [Three anniversary journeys](Three%20anniversary%20journeys.md).

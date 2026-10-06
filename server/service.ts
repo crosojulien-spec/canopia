@@ -16,6 +16,7 @@ import type {
 } from '../shared/types.ts';
 import { AppError, assert, hash, seal, token, unseal } from './security.ts';
 import { briefPromptVersion, minimalBrief, withdrawalNotice } from './ai.ts';
+import { discoveryReady, groundedDiscovery } from './discovery.ts';
 
 type StayRow = { data: Stay; hotel_snapshot: Hotel; token_cipher: string; chat_busy: boolean };
 const now = () => new Date().toISOString();
@@ -296,7 +297,13 @@ export class CanopiaService {
           id,
           json(message),
         ]);
-        await this.patch(tx, id, { facts, readyToFinish: response.readyToFinish });
+        const discovery = response.discovery && groundedDiscovery(response.discovery, messages);
+        await this.patch(tx, id, {
+          facts,
+          ...(discovery ? { discovery } : {}),
+          readyToFinish:
+            !response.stopRequested && (discovery ? discoveryReady(discovery) : response.readyToFinish),
+        });
       });
       if (response.stopRequested) await this.stopById(id);
     } catch (error) {

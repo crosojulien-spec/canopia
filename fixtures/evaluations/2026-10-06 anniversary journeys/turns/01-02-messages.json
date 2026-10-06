@@ -1,0 +1,50 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 8979,
+  "guest": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "That paper map sounds like it earned its place in your story. Would a small anniversary note with a nod to it feel welcome, or would you rather leave the occasion just between you?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Welcome anniversary attention",
+    "threads": [
+      {
+        "topic": "Anniversary return and plans",
+        "detail": "Returning to Nice for the tenth anniversary of meeting; plan to wander back near the port, where they met over a folded paper map. Nothing else planned yet.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "4f82f6c1-3794-4986-a792-7b14b0feae8a",
+          "3c523caf-ef37-404f-80dc-9df351e8e14d"
+        ]
+      },
+      {
+        "topic": "Anniversary attention",
+        "detail": "Inviting their preference about a small anniversary note referencing the paper-map memory; no acceptance or arrangement yet.",
+        "person": "Leonie and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "3c523caf-ef37-404f-80dc-9df351e8e14d"
+        ]
+      }
+    ],
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and relationship",
+      "value": "Leonie and her partner Marc are returning to Nice for the tenth anniversary of when they met.",
+      "sourceQuote": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "sourceMessageId": "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+    },
+    {
+      "label": "Meeting memory and return plans",
+      "value": "They met near the port over a hopelessly folded paper map and plan to wander back there; nothing else is planned yet.",
+      "sourceQuote": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+      "sourceMessageId": "3c523caf-ef37-404f-80dc-9df351e8e14d"
+    }
+  ]
+}

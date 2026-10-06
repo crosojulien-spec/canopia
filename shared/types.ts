@@ -38,6 +38,19 @@ export interface Message {
   content: string;
   createdAt: string;
 }
+// Internal working interpretation, not guest-verified facts or a mandatory checklist.
+export interface DiscoveryState {
+  threads: {
+    person: string;
+    topic: string;
+    status: 'open' | 'understood' | 'unknown' | 'indifferent' | 'declined';
+    detail: string;
+    sourceMessageIds: string[];
+  }[];
+  nextMove:
+    'answer' | 'clarify' | 'deepen' | 'include' | 'bridge' | 'closing_invitation' | 'close' | 'withdraw';
+  focus: string;
+}
 export interface Stay {
   id: string;
   hotelId: string;
@@ -58,6 +71,7 @@ export interface Stay {
   expiresAt: string;
   revoked: boolean;
   facts: Fact[];
+  discovery?: DiscoveryState;
   chatError: string | null;
   briefError: string | null;
   readyToFinish: boolean;
@@ -131,6 +145,7 @@ export interface ChatResult {
   readyToFinish: boolean;
   stopRequested: boolean;
   facts: Fact[];
+  discovery?: DiscoveryState;
 }
 export interface GenerationInput {
   stay: Stay;

@@ -1,0 +1,23 @@
+{
+  "method": "Three predefined fictional couples, real application HTTP journeys and live model replies/briefs. Codex plays the guest after reading each actual question, normally in one or two short sentences. Hidden profiles never enter the application or model input. No quality retries or edited outputs. The prompts remain frozen throughout this campaign. Diagnostic roleplay, not independent guest or hotel validation.",
+  "cases": [
+    {
+      "id": "01", "name": "Leonie and Marc", "hotelId": "hotel_amour_nice", "handoff": "reception", "arrival": "2026-11-13", "departure": "2026-11-16",
+      "opening": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "hidden": "They first met over a badly folded paper map near Nice port. No celebration plan or dinner booking yet. They like the idea of a private note, sentiment: still happily getting lost together, but no public fuss or staged romance. Leonie sketches facades; Marc collects soul records, especially Bill Withers. Both like slow wandering and long cafe stops; no landmark checklist. Leonie likes lemon pastries and coffee, Marc dark chocolate and espresso; no dietary restriction if asked. Shared double bed, separate duvets because Marc gets cold and Leonie sleeps warm; no pillow preference. Both enjoy staff banter and their own local favourites. Only reveal details naturally relevant to a question; do not rescue an early close with a profile dump.",
+      "evaluate": "Return memory; personal note initiative without requiring wording; both partners' specific interests; exploration and comfort; separate duvets without nationality assumptions; reception-routed proposals grounded in DNA, no public surprise or invented booking."
+    },
+    {
+      "id": "02", "name": "Aisha and Tom", "hotelId": "sukhothai_bangkok", "handoff": "concierge", "arrival": "2026-11-20", "departure": "2026-11-24",
+      "opening": "It's our twentieth wedding anniversary, and our first visit to Bangkok, my husband Tom and me.",
+      "hidden": "Nothing booked beyond the hotel. Aisha enjoys Thai home cooking and Tom photographing gardens and architectural details. They want one special dinner and relaxed exploration, avoiding a packed itinerary. Aisha has a severe peanut allergy; Tom has none. A private non-food note would be welcome, remembering that Tom still makes her laugh after twenty years. No public singing or cake. Their wedding garden smelled of orange blossom, a memory only: neither wants room scent. Aisha does not drink alcohol; Tom enjoys a glass of red wine. Quiet nights and a cool room, but sociable with staff. Soft pillows for Tom; Aisha indifferent. They prefer not to spend the whole interview on allergy logistics. Answer only the relevant question, no hidden-profile dump.",
+      "evaluate": "Anniversary warmth, both travellers, plans and useful interests; person-specific severe allergy and alcohol preferences if disclosed; scent memory not scent request; useful service ideas with actual protocol checks, not all-food suppression or a safe-food guarantee."
+    },
+    {
+      "id": "03", "name": "Theo and Gabriel", "hotelId": "pavillon_reine_paris", "handoff": "concierge", "arrival": "2026-11-09", "departure": "2026-11-12",
+      "opening": "Gabriel and I are marking five years since our civil partnership, with a few days in Paris and a little work squeezed in.",
+      "hidden": "Theo has a Tuesday afternoon work meeting, free by 18:30; Gabriel is free throughout. Theo has visited Paris for work, Gabriel has never visited; first time at this hotel for both. Saturday-mood wandering despite weekday stay: Gabriel likes architecture and Theo secondhand poetry books; both enjoy relaxed bistro meals. They have Monday dinner booked elsewhere; Tuesday evening is open. Neither wants notes, decorations, gifts or surprises. They would welcome a suitable dinner recommendation, not an anniversary package. Theo avoids heavy cream sauces from taste, not an intolerance; Gabriel enjoys cheese. No declared allergy. Shared room: Gabriel reads late, Theo sleeps early and would appreciate reading light away from the pillow. Friendly brief staff chats welcome. If dairy restriction is wrongly inferred, correct it directly; do not add irrelevant hidden details at closure.",
+      "evaluate": "Mixed purpose; no repeated surprise offer after refusal; city familiarity by person; known dinner vs free evening; food dislike not restriction; reading/sleep compatibility; relevant optional paid dinner proposal without romance or consent invention."
+    }
+  ]
+}

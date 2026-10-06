@@ -7,14 +7,15 @@ import type { AiProvider, ChatResult, GenerationInput } from '../shared/types.ts
 import type { Config } from './config.ts';
 import { AppError, assert } from './security.ts';
 import { AiBudget, approvedModel } from './ai-budget.ts';
+import { discoverySchema, discoveryReady, groundedDiscovery } from './discovery.ts';
 
-export const conversationPromptVersion = 'conversation-v3.1';
-export const briefPromptVersion = 'brief-v2';
+export const conversationPromptVersion = 'conversation-v4';
+export const briefPromptVersion = 'brief-v3';
 
 const resultSchema = z.object({
   reply: z.string().min(1).max(3000),
-  readyToFinish: z.boolean(),
   stopRequested: z.boolean(),
+  discovery: discoverySchema,
   facts: z
     .array(
       z.object({
@@ -111,6 +112,8 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
       },
       hotelDNA: input.hotel,
       transcript: input.messages,
+      retainedFacts: input.stay.facts,
+      previousDiscovery: input.stay.discovery ?? null,
     });
   return {
     name: 'openai',
@@ -137,7 +140,15 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
         );
       let output: ChatResult;
       try {
-        output = resultSchema.parse(JSON.parse(result.output_text));
+        const parsed = resultSchema.parse(JSON.parse(result.output_text));
+        const discovery = groundedDiscovery(parsed.discovery, input.messages);
+        const stopRequested = parsed.stopRequested || discovery.nextMove === 'withdraw';
+        output = {
+          ...parsed,
+          discovery: stopRequested ? { ...discovery, nextMove: 'withdraw', focus: '' } : discovery,
+          stopRequested,
+          readyToFinish: !stopRequested && discoveryReady(discovery),
+        };
       } catch {
         throw new AppError(
           502,

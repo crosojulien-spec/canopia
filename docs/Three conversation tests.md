@@ -2,7 +2,7 @@
 
 **The role has been rewritten and activated. GPT-6.1 Sol is retained for this stage.** The three new cases yield useful conversations with personal details that survive into the briefs. They also revealed a tendency to finish early and an inconsistent completion signal; those points were refined and checked separately.
 
-The [readable role](Conversation%20agent%20role.md) and [full active prompt](../prompts/conversation-v3.1.txt) reflect Julien's decisions and lessons from `05_Tests.zip`. The stay's purpose guides discovery; the agent follows specific interests, includes companions and can invite a personal note. Cultural awareness helps it identify a useful question without assigning a preference to a country. This behaviour is shared across six hotels.
+The [readable role](Conversation%20agent%20role.md) and [prompt used for the targeted checks](../prompts/conversation-v3.1.txt) reflect Julien's decisions and lessons from `05_Tests.zip`. The stay's purpose guides discovery; the agent follows specific interests, includes companions and can invite a personal note. Cultural awareness helps it identify a useful question without assigning a preference to a country. This behaviour is shared across six hotels.
 
 ## Results of the three conversations
 

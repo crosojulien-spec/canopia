@@ -1,0 +1,169 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 20348,
+  "guest": "Nothing else, thanks.",
+  "status": "in_progress",
+  "ready": true,
+  "reply": "Thank you, Aisha. Wishing you and Tom a wonderful anniversary visit—we look forward to welcoming you both to Bangkok.",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Warm farewell",
+    "threads": [
+      {
+        "topic": "Anniversary and celebration",
+        "detail": "Twentieth wedding anniversary; nothing booked yet; want one special dinner. Private note about Tom still making Aisha laugh is welcome, not arranged. No public singing or cake.",
+        "person": "Aisha and Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9",
+          "44fff2b8-fd55-4a97-b053-b65436186185"
+        ]
+      },
+      {
+        "topic": "Bangkok exploration",
+        "detail": "First Bangkok visit; unhurried independent wandering with a few pointers, without packed days.",
+        "person": "Aisha and Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9",
+          "5fae1622-2ab1-4581-8326-2fe906daff36"
+        ]
+      },
+      {
+        "topic": "Food tastes and allergy",
+        "detail": "Loves Thai home cooking and fragrant Thai curries; severe peanut allergy.",
+        "person": "Aisha",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9",
+          "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+        ]
+      },
+      {
+        "topic": "Food restrictions",
+        "detail": "Aisha reports no food restrictions for Tom.",
+        "person": "Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+        ]
+      },
+      {
+        "topic": "Photography",
+        "detail": "Enjoys photographing gardens and little architectural details, with time to stop without holding a group up.",
+        "person": "Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9",
+          "5fae1622-2ab1-4581-8326-2fe906daff36"
+        ]
+      },
+      {
+        "topic": "Room comfort",
+        "detail": "Quiet, cool room helps; no added fragrance. Tom likes a soft pillow; Aisha is not fussy about hers.",
+        "person": "Aisha and Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "ae028c38-4b86-4550-8bae-967d15a68922"
+        ]
+      }
+    ],
+    "nextMove": "close"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay occasion",
+      "value": "Aisha and Tom's twentieth wedding anniversary.",
+      "sourceQuote": "It's our twentieth wedding anniversary",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "First Bangkok visit",
+      "value": "This is Aisha and Tom's first visit to Bangkok.",
+      "sourceQuote": "our first visit to Bangkok, my husband Tom and me.",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Companion relationship",
+      "value": "Tom is Aisha's husband.",
+      "sourceQuote": "my husband Tom",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Plans and desired pace",
+      "value": "Nothing booked yet; they would love one special dinner and time to explore without packing every day.",
+      "sourceQuote": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Aisha's food interest",
+      "value": "Aisha loves Thai home cooking.",
+      "sourceQuote": "I love Thai home cooking",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Tom's photography interest",
+      "value": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceQuote": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Aisha's curry preference",
+      "value": "Aisha loves fragrant Thai curries.",
+      "sourceQuote": "I love fragrant Thai curries",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    },
+    {
+      "label": "Aisha's severe peanut allergy",
+      "value": "Aisha has a severe peanut allergy.",
+      "sourceQuote": "I have a severe peanut allergy.",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    },
+    {
+      "label": "Tom's food restrictions",
+      "value": "Aisha reports that Tom has no food restrictions.",
+      "sourceQuote": "Tom doesn't have any food restrictions.",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    },
+    {
+      "label": "Private anniversary note wish",
+      "value": "Aisha would welcome a private note about how Tom still makes her laugh after twenty years.",
+      "sourceQuote": "A private note would be lovely, about how he still makes me laugh after twenty years.",
+      "sourceMessageId": "44fff2b8-fd55-4a97-b053-b65436186185"
+    },
+    {
+      "label": "Celebration boundaries",
+      "value": "No public singing or cake.",
+      "sourceQuote": "No public singing or cake, please.",
+      "sourceMessageId": "44fff2b8-fd55-4a97-b053-b65436186185"
+    },
+    {
+      "label": "Exploration guidance preference",
+      "value": "Mostly independent wandering with a few good pointers.",
+      "sourceQuote": "Mostly wandering on our own with a few good pointers.",
+      "sourceMessageId": "5fae1622-2ab1-4581-8326-2fe906daff36"
+    },
+    {
+      "label": "Tom's photography pace",
+      "value": "Tom likes time to stop for photographs without holding a group up.",
+      "sourceQuote": "Tom likes having time to stop for photographs without holding a group up.",
+      "sourceMessageId": "5fae1622-2ab1-4581-8326-2fe906daff36"
+    },
+    {
+      "label": "Room comfort and fragrance",
+      "value": "A quiet, cool room helps; they prefer no added fragrance.",
+      "sourceQuote": "A quiet, cool room helps, and we prefer no added fragrance.",
+      "sourceMessageId": "ae028c38-4b86-4550-8bae-967d15a68922"
+    },
+    {
+      "label": "Pillow preferences",
+      "value": "Tom likes a soft pillow; Aisha is not fussy about hers.",
+      "sourceQuote": "Tom likes a soft pillow; I'm not fussy about mine.",
+      "sourceMessageId": "ae028c38-4b86-4550-8bae-967d15a68922"
+    }
+  ]
+}

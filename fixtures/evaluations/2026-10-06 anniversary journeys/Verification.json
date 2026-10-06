@@ -1,0 +1,56 @@
+{
+  "kind": "Recorded live application evidence, with authored fictional guests; not independent quality validation",
+  "checks": "Unedited export, complete transcripts, one brief per stay, same hotel snapshot/version, current-turn source references, closure flags, 25 settled generations; no model call made by this verifier.",
+  "cases": [
+    {
+      "case": "01",
+      "hotel": "Hotel Amour Nice",
+      "userTurns": 7,
+      "finalFacts": 7,
+      "finalThreads": 6,
+      "briefWords": 504,
+      "exportMatchesGenerated": true
+    },
+    {
+      "case": "02",
+      "hotel": "The Sukhothai Bangkok",
+      "userTurns": 7,
+      "finalFacts": 15,
+      "finalThreads": 6,
+      "briefWords": 525,
+      "exportMatchesGenerated": true
+    },
+    {
+      "case": "03",
+      "hotel": "Le Pavillon de la Reine",
+      "userTurns": 8,
+      "finalFacts": 18,
+      "finalThreads": 7,
+      "briefWords": 551,
+      "exportMatchesGenerated": true
+    }
+  ],
+  "chatLatencyMedianMs": 16513,
+  "chatLatencyMaxMs": 29053,
+  "guestWordsMin": 3,
+  "guestWordsMax": 31,
+  "campaignAccountedUsd": 0.927621,
+  "remainingUsd": 0.60491,
+  "newUncertainCalls": 0,
+  "hashes": {
+    "01 brief.txt": "4849ab14502fdbb9050f27edcf21c569ce1b92aadb91a03e3e8be75394e27b17",
+    "01 conversation.txt": "d40ee409a4302e4ca2f185026907b21dd9bd3f110c169c0d29a4991499dd6556",
+    "01 hotel snapshot.json": "b5eae4a693346b30029f806f6e78311888a61ae60435b5d722eee335537b28f1",
+    "01 Leonie and Marc.json": "e31ec508deb1a6e6e6aeaf34136bd6067103f5b70f5f90670ee46076e3bfb884",
+    "02 Aisha and Tom.json": "3e9554b227f267513d00ada4c06694c55498fccf7ba0253c39bf5a91115ad6fc",
+    "02 brief.txt": "80198bdaca94b54fa4b30b11455717507e6e078e12300443f87c480d7dc527c6",
+    "02 conversation.txt": "aacefa44b74e042a067e6b61c76897db524226c0b41b91158c4310d16e6c6fb0",
+    "02 hotel snapshot.json": "347fae8302310a6fdec293aac0191f725dc95c3659b9bdfd7b4d99ffa15ee37f",
+    "03 brief.txt": "931f1df8943b3af14dada598c8a083e726000c5fdf986a88210c8e35a61f212b",
+    "03 conversation.txt": "a1f812351105f54d7d6fc512c58a93dd67897ad7aef83eca6c839d755a424d1f",
+    "03 hotel snapshot.json": "64355a6d7a159547450a6aa3ecadd6e0659b674595f1793ea50b8ea57b3b6dca",
+    "03 Theo and Gabriel.json": "42b5292575f9dbf5acfe81cb594cc0c0dd28547e060a8dee887b0ecad2e2f8cd",
+    "run.json": "3d12192c5108c3574475503690bdf94f79bab50ed24421b05f0893da7e0a2f57",
+    "scenarios.json": "ec0466d370e58b26c5801037c3085cb86fe3da5a8459403cf9b30e93fc11f435"
+  }
+}

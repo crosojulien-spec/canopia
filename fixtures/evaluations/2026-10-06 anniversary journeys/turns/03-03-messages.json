@@ -1,0 +1,105 @@
+{
+  "case": "03",
+  "action": "messages",
+  "elapsedMs": 14431,
+  "guest": "Yes, a recommendation would help; Gabriel loves cheese, while I tend to avoid heavy cream sauces. Nothing too formal or drawn-out.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "A relaxed bistro with good cheese and lighter choices sounds a useful direction. You mentioned squeezing in some work—will that shape either of your days, or is it mostly a few emails between outings?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Work and daily rhythm",
+    "threads": [
+      {
+        "topic": "Civil partnership anniversary and plans",
+        "detail": "Marking five years since their civil partnership; Monday dinner booked elsewhere, Tuesday evening open.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "c71e073c-c100-4134-a8d3-b945a3bcdc12",
+          "27c290d6-18cb-458d-accb-37b21d16e1c9"
+        ]
+      },
+      {
+        "topic": "Anniversary attentions",
+        "detail": "Neither wants decorations, notes or anniversary surprises.",
+        "person": "Theo and Gabriel",
+        "status": "declined",
+        "sourceMessageIds": [
+          "27c290d6-18cb-458d-accb-37b21d16e1c9"
+        ]
+      },
+      {
+        "topic": "Tuesday dining",
+        "detail": "Welcome a recommendation for a relaxed bistro; nothing formal or drawn-out. Gabriel loves cheese; Theo tends to avoid heavy cream sauces.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "27c290d6-18cb-458d-accb-37b21d16e1c9",
+          "7a429e08-feb5-49ea-b629-10f767e07646"
+        ]
+      },
+      {
+        "topic": "Work during the stay",
+        "detail": "Some work during the visit; whose work, timing and practical needs remain unspecified.",
+        "person": "Theo and Gabriel",
+        "status": "open",
+        "sourceMessageIds": [
+          "c71e073c-c100-4134-a8d3-b945a3bcdc12"
+        ]
+      }
+    ],
+    "nextMove": "bridge"
+  },
+  "retainedFacts": [
+    {
+      "label": "Reason for visit",
+      "value": "Theo and Gabriel are marking five years since their civil partnership with a few days in Paris and some work during the stay.",
+      "sourceQuote": "Gabriel and I are marking five years since our civil partnership, with a few days in Paris and a little work squeezed in.",
+      "sourceMessageId": "c71e073c-c100-4134-a8d3-b945a3bcdc12"
+    },
+    {
+      "label": "Dinner plans",
+      "value": "Dinner elsewhere is booked on Monday; Tuesday evening is open.",
+      "sourceQuote": "We've booked dinner elsewhere on Monday, but Tuesday evening is open.",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Dining preference",
+      "value": "Theo and Gabriel like relaxed bistros.",
+      "sourceQuote": "We like relaxed bistros",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Anniversary attention boundaries",
+      "value": "Neither Theo nor Gabriel wants decorations, notes or anniversary surprises.",
+      "sourceQuote": "neither of us wants decorations, notes or anniversary surprises.",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Recommendation welcome",
+      "value": "A dining recommendation would help.",
+      "sourceQuote": "Yes, a recommendation would help",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Gabriel's food preference",
+      "value": "Gabriel loves cheese.",
+      "sourceQuote": "Gabriel loves cheese",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Theo's food preference",
+      "value": "Theo tends to avoid heavy cream sauces.",
+      "sourceQuote": "I tend to avoid heavy cream sauces.",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Dining style and pace",
+      "value": "They want nothing too formal or drawn-out.",
+      "sourceQuote": "Nothing too formal or drawn-out.",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    }
+  ]
+}

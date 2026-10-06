@@ -1,0 +1,93 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 14987,
+  "guest": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day. I love Thai home cooking; Tom is happiest photographing gardens and little architectural details.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "A special dinner with plenty of unhurried exploring sounds like a good balance. What Thai dishes or flavours do you especially love, and is there anything either of you avoids eating?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Special dinner tastes",
+    "threads": [
+      {
+        "topic": "Anniversary and celebration plans",
+        "detail": "Twentieth wedding anniversary; nothing booked yet, and they would love one special dinner.",
+        "person": "Aisha and Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      },
+      {
+        "topic": "Bangkok exploration",
+        "detail": "First Bangkok visit; want time to explore without packing every day.",
+        "person": "Aisha and Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      },
+      {
+        "topic": "Food interests",
+        "detail": "Loves Thai home cooking; exploring favourite dishes and food restrictions for the dinner.",
+        "person": "Aisha",
+        "status": "open",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      },
+      {
+        "topic": "Photography interests",
+        "detail": "Enjoys photographing gardens and little architectural details.",
+        "person": "Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      }
+    ],
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay occasion",
+      "value": "Aisha and Tom's twentieth wedding anniversary.",
+      "sourceQuote": "It's our twentieth wedding anniversary",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "First Bangkok visit",
+      "value": "This is Aisha and Tom's first visit to Bangkok.",
+      "sourceQuote": "our first visit to Bangkok, my husband Tom and me.",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Companion relationship",
+      "value": "Tom is Aisha's husband.",
+      "sourceQuote": "my husband Tom",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Plans and desired pace",
+      "value": "Nothing booked yet; they would love one special dinner and time to explore without packing every day.",
+      "sourceQuote": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Aisha's food interest",
+      "value": "Aisha loves Thai home cooking.",
+      "sourceQuote": "I love Thai home cooking",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Tom's photography interest",
+      "value": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceQuote": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    }
+  ]
+}

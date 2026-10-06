@@ -2,14 +2,16 @@ import { before, after, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { randomUUID } from 'node:crypto';
 import request from 'supertest';
+import OpenAI from 'openai';
 import { openDatabase, type Database } from '../server/db.ts';
 import { seedHotels } from '../server/seed.ts';
 import { CanopiaService } from '../server/service.ts';
 import { createApp } from '../server/app.ts';
-import { SimulationProvider, withdrawalNotice } from '../server/ai.ts';
+import { makeProvider, SimulationProvider, withdrawalNotice } from '../server/ai.ts';
+import { AiBudget, approvedModel } from '../server/ai-budget.ts';
 import { AppError } from '../server/security.ts';
 import type { Config } from '../server/config.ts';
-import type { GenerationInput } from '../shared/types.ts';
+import type { ChatResult, GenerationInput } from '../shared/types.ts';
 
 const config: Config = {
   port: 4312,
@@ -30,10 +32,16 @@ const config: Config = {
 class ObservedProvider extends SimulationProvider {
   inputs: GenerationInput[] = [];
   fail = false;
+  nextChat: ChatResult | undefined;
   holdBrief: (() => Promise<void>) | undefined;
   override async chat(input: GenerationInput) {
     this.inputs.push(input);
     if (this.fail) throw new AppError(503, 'Fictional outage.');
+    if (this.nextChat) {
+      const response = this.nextChat;
+      this.nextChat = undefined;
+      return response;
+    }
     return super.chat(input);
   }
   override async brief(input: GenerationInput) {
@@ -302,4 +310,139 @@ test('invitations remain previews and interrupted jobs have actionable status af
   assert.equal(d.stay.briefStatus, 'failed');
   assert.equal(d.invitations[0].status, 'unknown');
   await assert.rejects(service.invitation(s.id, 'Retry', 'Retry body'), /confirmation/);
+});
+
+test('discovery survives turns and reaches the brief, corrections replace it, and guest output stays private', async () => {
+  const { s, token } = await stay();
+  const first = await service.chat(
+    token,
+    'We are celebrating; a private note would be lovely.',
+    randomUUID(),
+  );
+  const userId = first.messages.find((m) => m.role === 'user')!.id;
+  ai.nextChat = {
+    reply: 'Would you like to add or correct anything before finishing?',
+    readyToFinish: false,
+    stopRequested: false,
+    facts: [
+      {
+        label: 'Attention',
+        value: 'Private note welcome',
+        sourceMessageId: userId,
+        sourceQuote: 'a private note would be lovely',
+      },
+    ],
+    discovery: {
+      nextMove: 'closing_invitation',
+      focus: 'Final additions',
+      threads: [
+        {
+          person: 'Guest',
+          topic: 'Personal attention',
+          status: 'understood',
+          detail: 'Private note welcome.',
+          sourceMessageIds: [userId],
+        },
+      ],
+    },
+  };
+  const closing = await service.chat(token, 'We have no other plans.', randomUUID());
+  assert.equal(closing.readyToFinish, true);
+  assert.ok(!('discovery' in closing));
+  const firstState = (await service.detail(s.id)).stay.discovery;
+  assert.equal(firstState?.threads[0].detail, 'Private note welcome.');
+  ai.nextChat = {
+    reply: 'Of course, no note or surprise.',
+    readyToFinish: false,
+    stopRequested: false,
+    facts: [],
+    discovery: { nextMove: 'close', focus: 'Correction acknowledged', threads: [] },
+  };
+  await service.chat(token, 'Actually, no note or surprise please.', randomUUID());
+  assert.deepEqual(ai.inputs.at(-1)!.stay.discovery, firstState);
+  const corrected = await service.detail(s.id);
+  assert.deepEqual(corrected.stay.discovery?.threads, []);
+  assert.deepEqual(corrected.stay.facts, []);
+  await service.finish(token);
+  await service.idle();
+  assert.equal(ai.inputs.at(-1)!.stay.discovery?.nextMove, 'close');
+  assert.equal((await service.detail(s.id)).stay.briefStatus, 'ready');
+});
+
+test('real adapter contract passes prior discovery, grounds output and derives closure or withdrawal without network', async () => {
+  const { s } = await stay();
+  const input = await service.input(s.id);
+  input.messages = [{ id: 'guest-message', role: 'user', content: 'No flowers, please.', createdAt: '' }];
+  input.stay.discovery = { threads: [], nextMove: 'bridge', focus: 'Comfort' };
+  const thread = {
+    person: 'Guest',
+    topic: 'Flowers',
+    status: 'declined',
+    detail: 'No flowers.',
+    sourceMessageIds: ['guest-message'],
+  };
+  let move = 'closing_invitation';
+  const client = new OpenAI({
+    apiKey: 'fictional-key',
+    maxRetries: 0,
+    fetch: async (url, init) => {
+      const requestBody = JSON.parse(String(init?.body));
+      const context = JSON.parse(requestBody.input);
+      assert.deepEqual(context.previousDiscovery, input.stay.discovery);
+      assert.deepEqual(context.retainedFacts, input.stay.facts);
+      assert.ok(!('email' in context.reservation));
+      const value = String(url).endsWith('/input_tokens')
+        ? { object: 'response.input_tokens', input_tokens: 100 }
+        : {
+            object: 'response',
+            status: 'completed',
+            service_tier: 'default',
+            usage: { input_tokens: 100, output_tokens: 100 },
+            output: [
+              {
+                type: 'message',
+                role: 'assistant',
+                content: [
+                  {
+                    type: 'output_text',
+                    text: JSON.stringify({
+                      reply: 'Thank you.',
+                      stopRequested: false,
+                      facts: [
+                        {
+                          label: 'Flowers',
+                          value: 'No flowers',
+                          sourceMessageId: 'guest-message',
+                          sourceQuote: 'No flowers',
+                        },
+                      ],
+                      discovery: {
+                        threads: [thread, { ...thread, sourceMessageIds: ['other-stay'] }],
+                        nextMove: move,
+                        focus: '',
+                      },
+                    }),
+                  },
+                ],
+              },
+            ],
+          };
+      return new Response(JSON.stringify(value), { headers: { 'content-type': 'application/json' } });
+    },
+  });
+  const provider = makeProvider(
+    { ...config, aiMode: 'openai', apiKey: 'fictional-key', model: approvedModel, allowAiCalls: true },
+    await AiBudget.open(db, 0.2),
+    client,
+  );
+  const closing = await provider.chat(input);
+  assert.equal(closing.readyToFinish, true);
+  assert.equal(closing.discovery?.threads.length, 1);
+  assert.equal(closing.facts.length, 1);
+  move = 'clarify';
+  assert.equal((await provider.chat(input)).readyToFinish, false);
+  move = 'withdraw';
+  const withdrawal = await provider.chat(input);
+  assert.equal(withdrawal.stopRequested, true);
+  assert.equal(withdrawal.readyToFinish, false);
 });

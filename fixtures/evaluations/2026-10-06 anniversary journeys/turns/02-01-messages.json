@@ -1,0 +1,46 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 7703,
+  "guest": "It's our twentieth wedding anniversary, and our first visit to Bangkok, my husband Tom and me.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Happy twentieth anniversary to you and Tom! Have you already made any plans to celebrate in Bangkok, or is there something you’d especially enjoy doing together?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Anniversary plans",
+    "threads": [
+      {
+        "topic": "Anniversary and first Bangkok visit",
+        "detail": "Celebrating their twentieth wedding anniversary on their first visit to Bangkok; celebration plans and shared interests not yet explored.",
+        "person": "Aisha and Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+        ]
+      }
+    ],
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay occasion",
+      "value": "Aisha and Tom's twentieth wedding anniversary.",
+      "sourceQuote": "It's our twentieth wedding anniversary",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "First Bangkok visit",
+      "value": "This is Aisha and Tom's first visit to Bangkok.",
+      "sourceQuote": "our first visit to Bangkok, my husband Tom and me.",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Companion relationship",
+      "value": "Tom is Aisha's husband.",
+      "sourceQuote": "my husband Tom",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    }
+  ]
+}

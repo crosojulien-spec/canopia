@@ -1,0 +1,117 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 15783,
+  "guest": "That's everything, thank you.",
+  "status": "in_progress",
+  "ready": true,
+  "reply": "Thank you, Leonie—it’s been a pleasure hearing a little of your story. Wishing you and Marc a happy anniversary and more happy wandering in Nice.",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Exchange complete",
+    "threads": [
+      {
+        "topic": "Anniversary return and plans",
+        "detail": "Returning for the tenth anniversary of meeting; will revisit the port, where they met over a folded paper map. Nothing else planned yet.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "4f82f6c1-3794-4986-a792-7b14b0feae8a",
+          "3c523caf-ef37-404f-80dc-9df351e8e14d"
+        ]
+      },
+      {
+        "topic": "Anniversary attention and boundaries",
+        "detail": "A private note about still happily getting lost together is welcome; no public fuss or rose-petal production. A wish, not an arrangement.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "8434e76c-8e56-4166-ade1-c645adece6c1"
+        ]
+      },
+      {
+        "topic": "Exploring rhythm",
+        "detail": "Enjoy slow wandering with long coffee stops.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76"
+        ]
+      },
+      {
+        "topic": "Sketching",
+        "detail": "Stops to sketch old building facades.",
+        "person": "Leonie",
+        "status": "understood",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76"
+        ]
+      },
+      {
+        "topic": "Records and music",
+        "detail": "Enjoys secondhand record shops, old soul especially Bill Withers, and records with history.",
+        "person": "Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76",
+          "958ebc20-230e-4324-8eb7-8e2aad8b056a"
+        ]
+      },
+      {
+        "topic": "Bed and sleeping comfort",
+        "detail": "Share a double bed but use one duvet each; Marc gets cold and Leonie sleeps warm. Easy about pillows.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "ac1fb7df-2639-4e50-b4e1-12cd246e640a"
+        ]
+      }
+    ],
+    "nextMove": "close"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and relationship",
+      "value": "Leonie and her partner Marc are returning to Nice for the tenth anniversary of when they met.",
+      "sourceQuote": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "sourceMessageId": "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+    },
+    {
+      "label": "Meeting memory and return plans",
+      "value": "They met near the port over a hopelessly folded paper map and plan to wander back there; nothing else is planned yet.",
+      "sourceQuote": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+      "sourceMessageId": "3c523caf-ef37-404f-80dc-9df351e8e14d"
+    },
+    {
+      "label": "Private anniversary note and boundaries",
+      "value": "A little private note about still happily getting lost together would be welcome; no public fuss or rose-petal production.",
+      "sourceQuote": "A little private note would be lovely, something about still happily getting lost together. Just no public fuss or rose-petal production, please.",
+      "sourceMessageId": "8434e76c-8e56-4166-ade1-c645adece6c1"
+    },
+    {
+      "label": "Leonie's sketching and Marc's record-shop interest",
+      "value": "Leonie sketches old building facades; Marc enjoys spending hours in secondhand record shops.",
+      "sourceQuote": "I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours.",
+      "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+    },
+    {
+      "label": "Shared exploring pace",
+      "value": "They enjoy wandering slowly with long coffee stops.",
+      "sourceQuote": "Mostly we like wandering slowly, with long coffee stops.",
+      "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+    },
+    {
+      "label": "Marc's musical tastes",
+      "value": "Marc likes old soul, especially Bill Withers, and finding records with history.",
+      "sourceQuote": "Old soul, especially Bill Withers; he loves finding a record with a bit of history.",
+      "sourceMessageId": "958ebc20-230e-4324-8eb7-8e2aad8b056a"
+    },
+    {
+      "label": "Bed, duvets and sleep preferences",
+      "value": "They share a double bed and use one duvet each: Marc gets cold, Leonie sleeps warm, and they are easy about pillows.",
+      "sourceQuote": "We share a double bed but use a duvet each: Marc gets cold and I sleep warm. We're easy about pillows.",
+      "sourceMessageId": "ac1fb7df-2639-4e50-b4e1-12cd246e640a"
+    }
+  ]
+}

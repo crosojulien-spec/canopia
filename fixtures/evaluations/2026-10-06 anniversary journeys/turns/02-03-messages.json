@@ -1,0 +1,121 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 17782,
+  "guest": "I love fragrant Thai curries, but I have a severe peanut allergy. Tom doesn't have any food restrictions.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Thank you for telling me about the severe peanut allergy; any dinner arrangements would need the kitchen’s confirmation of ingredients and cross-contact precautions. For your anniversary, would a small private note be a welcome touch, or would you rather keep the occasion just between yourselves?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Anniversary acknowledgement boundaries",
+    "threads": [
+      {
+        "topic": "Anniversary and celebration plans",
+        "detail": "Twentieth wedding anniversary; nothing booked yet; would love one special dinner. Exploring whether a private anniversary acknowledgement would be welcome.",
+        "person": "Aisha and Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      },
+      {
+        "topic": "Bangkok exploration",
+        "detail": "First Bangkok visit; want unhurried exploring without packing every day.",
+        "person": "Aisha and Tom",
+        "status": "open",
+        "sourceMessageIds": [
+          "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      },
+      {
+        "topic": "Food tastes and allergy",
+        "detail": "Loves Thai home cooking and fragrant Thai curries; has a severe peanut allergy.",
+        "person": "Aisha",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9",
+          "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+        ]
+      },
+      {
+        "topic": "Food restrictions",
+        "detail": "Aisha reports that Tom has no food restrictions.",
+        "person": "Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+        ]
+      },
+      {
+        "topic": "Photography interests",
+        "detail": "Happiest photographing gardens and little architectural details.",
+        "person": "Tom",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a275c803-5627-48e0-9465-6acd429939d9"
+        ]
+      }
+    ],
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay occasion",
+      "value": "Aisha and Tom's twentieth wedding anniversary.",
+      "sourceQuote": "It's our twentieth wedding anniversary",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "First Bangkok visit",
+      "value": "This is Aisha and Tom's first visit to Bangkok.",
+      "sourceQuote": "our first visit to Bangkok, my husband Tom and me.",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Companion relationship",
+      "value": "Tom is Aisha's husband.",
+      "sourceQuote": "my husband Tom",
+      "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+    },
+    {
+      "label": "Plans and desired pace",
+      "value": "Nothing booked yet; they would love one special dinner and time to explore without packing every day.",
+      "sourceQuote": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Aisha's food interest",
+      "value": "Aisha loves Thai home cooking and fragrant Thai curries.",
+      "sourceQuote": "I love Thai home cooking",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Tom's photography interest",
+      "value": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceQuote": "Tom is happiest photographing gardens and little architectural details.",
+      "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+    },
+    {
+      "label": "Aisha's curry preference",
+      "value": "Aisha loves fragrant Thai curries.",
+      "sourceQuote": "I love fragrant Thai curries",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    },
+    {
+      "label": "Aisha's severe peanut allergy",
+      "value": "Aisha has a severe peanut allergy.",
+      "sourceQuote": "I have a severe peanut allergy.",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    },
+    {
+      "label": "Tom's food restrictions",
+      "value": "Aisha reports that Tom has no food restrictions.",
+      "sourceQuote": "Tom doesn't have any food restrictions.",
+      "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+    }
+  ]
+}

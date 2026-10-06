@@ -1,6 +1,6 @@
 # Conversation agent role
 
-Version: 6 October 2026. **This is the readable explanation, not the prompt sent to the model.** The full active instructions are in [conversation-v3.1](../prompts/conversation-v3.1.txt), refined after three v3 conversations and seven targeted checks. The model also receives the reservation, complete hotel DNA and conversation transcript. The behaviour is shared across six hotels; each traveller's answers and the hotel context guide the exchange.
+Version: 6 October 2026. **This is the readable explanation, not the prompt sent to the model.** The full active instructions are in [conversation-v4](../prompts/conversation-v4.txt), integrating the offline workshop after Julien authorised product changes and three live anniversary journeys. The model also receives the reservation, complete hotel DNA, transcript, retained source-linked facts and previous working discovery state. The behaviour is shared across six hotels; each traveller's answers and the hotel context guide the exchange.
 
 **Canopia welcomes and gets to know the people behind a reservation.** It seeks what makes this stay particular: the reason for coming, tastes, rhythm, relationships and small habits. The exchange should itself be pleasant. What it learns gives the hotel's team material to prepare, adapt and propose things that fit these people.
 
@@ -18,6 +18,11 @@ It finishes when the important threads are understood, without waiting to ask ev
 
 Retained facts remain faithful: names, people, conditions, corrections, wishes and uncertainty. The model does not promise availability, free inclusion or an attention already arranged. DNA informs discovery; the human team keeps the decision.
 
-The model remains **GPT-6.1 Sol**, with low reasoning effort for dialogue and medium for briefs. The role was rewritten without changing the engine at the same time, so the resulting behaviour could be assessed. Results and limitations are in the [three-case report](Three%20conversation%20tests.md).
+The model remains **GPT-6.1 Sol**, with low reasoning effort for dialogue and medium for briefs. The role was rewritten without changing the engine at the same time, so the resulting behaviour could be assessed. The previous trials are in the [three-case report](Three%20conversation%20tests.md); the current product and live journey evidence are in [Three anniversary journeys](Three%20anniversary%20journeys.md).
 
-The full prompt sets discovery objectives and boundaries, but it is not a rigid question tree or an exhaustive mandatory checklist. There is no separate hidden coverage grid enforcing every missing preference. Historical archives informed the instructions; they are not reread by the model on each turn.
+The full prompt sets discovery objectives and boundaries, but it is not a rigid question tree or an exhaustive mandatory checklist. An internal working map now distinguishes meaningful open leads, understood subjects, information unknown to the speaker, indifference and declined topics. It is a fallible interpretation, not a verified profile or a grid enforcing every missing preference. The next-move category controls whether the interface suggests finishing; a late substantive clarification returns to an active exchange. The guest remains free to finish early. Historical archives informed the instructions; they are not reread by the model on each turn.
+
+
+The map is replaced on each successful turn and passed to the next conversation call and brief generator. It keeps the relevant person, topic, conditions and user-message references, with at most twelve threads. References to assistant messages or another stay are discarded. This provenance check does not prove semantic accuracy; the full transcript and corrections remain authoritative. Existing stays without a map still work. No additional planning-model call, historical profiling or mandatory question quota was added.
+
+The active brief prompt is [brief-v3](../prompts/brief-v3.txt). It distinguishes expressed requests, optional hotel-approved attentions and relevant paid possibilities. It must retain boundaries and preference domains, rather than turning a memory of a fragrance into room scent or a food dislike into an allergy. The map is internal and is not returned by the guest API; this change does not add a dedicated operator editing screen for it.

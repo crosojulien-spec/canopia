@@ -1,0 +1,29 @@
+1. ASSISTANT: Hello Leonie! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.
+
+3. ASSISTANT: Ten years since you met—a special reason to return. Is there a place or memory in Nice you’d like to revisit together, or have you already made plans for the anniversary?
+
+4. USER: We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.
+
+5. ASSISTANT: That paper map sounds like it earned its place in your story. Would a small anniversary note with a nod to it feel welcome, or would you rather leave the occasion just between you?
+
+6. USER: A little private note would be lovely, something about still happily getting lost together. Just no public fuss or rose-petal production, please.
+
+7. ASSISTANT: “Still happily getting lost together” is a lovely thought for a private note, without any public fuss or rose petals. Beyond revisiting the port, what do you and Marc most enjoy stumbling upon when you wander?
+
+8. USER: I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours. Mostly we like wandering slowly, with long coffee stops.
+
+9. ASSISTANT: Sketches, records and long coffee stops sound like a good reason not to rush. What sort of music does Marc usually hunt for in those secondhand shops?
+
+10. USER: Old soul, especially Bill Withers; he loves finding a record with a bit of history.
+
+11. ASSISTANT: Bill Withers and a record with a story—there’s a useful lead for Marc’s wandering. When you come back to rest, are there any room or sleep comforts that matter to either of you?
+
+12. USER: We share a double bed but use a duvet each: Marc gets cold and I sleep warm. We're easy about pillows.
+
+13. ASSISTANT: A duvet each makes sense with different sleeping temperatures. Is there anything else you’d like the team to know before your anniversary stay, or anything you’d like to correct?
+
+14. USER: That's everything, thank you.
+
+15. ASSISTANT: Thank you, Leonie—it’s been a pleasure hearing a little of your story. Wishing you and Marc a happy anniversary and more happy wandering in Nice.

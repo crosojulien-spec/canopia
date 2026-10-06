@@ -1,0 +1,95 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 14614,
+  "guest": "I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours. Mostly we like wandering slowly, with long coffee stops.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Sketches, records and long coffee stops sound like a good reason not to rush. What sort of music does Marc usually hunt for in those secondhand shops?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Marc's musical tastes",
+    "threads": [
+      {
+        "topic": "Anniversary return and plans",
+        "detail": "Returning to Nice for the tenth anniversary of meeting; plan to revisit the port, where they met over a hopelessly folded paper map. Nothing else planned yet.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "4f82f6c1-3794-4986-a792-7b14b0feae8a",
+          "3c523caf-ef37-404f-80dc-9df351e8e14d"
+        ]
+      },
+      {
+        "topic": "Anniversary attention and boundaries",
+        "detail": "A little private note about still happily getting lost together would be welcome; no public fuss or rose-petal production. This is a wish, not an arrangement.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "8434e76c-8e56-4166-ade1-c645adece6c1"
+        ]
+      },
+      {
+        "topic": "Exploring rhythm",
+        "detail": "Enjoy slow wandering with long coffee stops.",
+        "person": "Leonie and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76"
+        ]
+      },
+      {
+        "topic": "Sketching",
+        "detail": "Stops to sketch old building facades.",
+        "person": "Leonie",
+        "status": "understood",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76"
+        ]
+      },
+      {
+        "topic": "Records and music",
+        "detail": "Enjoys spending hours in secondhand record shops; exploring his musical tastes.",
+        "person": "Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "139690a3-bf95-4298-9f80-22ec3c358d76"
+        ]
+      }
+    ],
+    "nextMove": "include"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and relationship",
+      "value": "Leonie and her partner Marc are returning to Nice for the tenth anniversary of when they met.",
+      "sourceQuote": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "sourceMessageId": "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+    },
+    {
+      "label": "Meeting memory and return plans",
+      "value": "They met near the port over a hopelessly folded paper map and plan to wander back there; nothing else is planned yet.",
+      "sourceQuote": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+      "sourceMessageId": "3c523caf-ef37-404f-80dc-9df351e8e14d"
+    },
+    {
+      "label": "Private anniversary note and boundaries",
+      "value": "A little private note about still happily getting lost together would be welcome; they do not want public fuss or a rose-petal production.",
+      "sourceQuote": "A little private note would be lovely, something about still happily getting lost together. Just no public fuss or rose-petal production, please.",
+      "sourceMessageId": "8434e76c-8e56-4166-ade1-c645adece6c1"
+    },
+    {
+      "label": "Leonie's sketching and Marc's record-shop interest",
+      "value": "Leonie stops to sketch old building facades; Marc enjoys spending hours in secondhand record shops.",
+      "sourceQuote": "I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours.",
+      "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+    },
+    {
+      "label": "Shared exploring pace",
+      "value": "They mostly enjoy wandering slowly with long coffee stops.",
+      "sourceQuote": "Mostly we like wandering slowly, with long coffee stops.",
+      "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+    }
+  ]
+}

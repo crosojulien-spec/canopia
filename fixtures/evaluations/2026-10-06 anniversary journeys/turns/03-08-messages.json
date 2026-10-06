@@ -1,0 +1,194 @@
+{
+  "case": "03",
+  "action": "messages",
+  "elapsedMs": 24181,
+  "guest": "No other requests, and just to clarify: avoiding cream sauces is a matter of taste, not an intolerance.",
+  "status": "in_progress",
+  "ready": true,
+  "reply": "Thank you for clarifying—cream sauces are a taste preference, not an intolerance. Enjoy your time in Paris together, Theo; we look forward to welcoming you and Gabriel.",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Preference clarification and farewell",
+    "threads": [
+      {
+        "topic": "Civil partnership anniversary and plans",
+        "detail": "Marking five years since their civil partnership; Monday dinner booked elsewhere, Tuesday evening open.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "c71e073c-c100-4134-a8d3-b945a3bcdc12",
+          "27c290d6-18cb-458d-accb-37b21d16e1c9"
+        ]
+      },
+      {
+        "topic": "Anniversary attentions",
+        "detail": "Neither wants decorations, notes or anniversary surprises.",
+        "person": "Theo and Gabriel",
+        "status": "declined",
+        "sourceMessageIds": [
+          "27c290d6-18cb-458d-accb-37b21d16e1c9"
+        ]
+      },
+      {
+        "topic": "Tuesday dining",
+        "detail": "Welcome a relaxed bistro recommendation, neither formal nor drawn-out. Gabriel loves cheese; Theo avoids heavy cream sauces as a taste preference, not an intolerance.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "27c290d6-18cb-458d-accb-37b21d16e1c9",
+          "7a429e08-feb5-49ea-b629-10f767e07646",
+          "e5ae0c4f-f9c0-4e06-8b49-2dbcb03ef393"
+        ]
+      },
+      {
+        "topic": "Work and availability",
+        "detail": "Tuesday afternoon meeting; expects to be free by 6:30. Other days are shared leisure time.",
+        "person": "Theo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1f31d032-2f67-4dde-bdf0-c8559c9aec3b"
+        ]
+      },
+      {
+        "topic": "Tuesday availability",
+        "detail": "Has Tuesday to himself.",
+        "person": "Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1f31d032-2f67-4dde-bdf0-c8559c9aec3b"
+        ]
+      },
+      {
+        "topic": "Paris exploration",
+        "detail": "Gabriel loves architecture and is visiting Paris for the first time. Theo browses secondhand poetry books and has visited for work. Enjoy long bistro lunches; welcome pointers but prefer wandering to a timed route.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "69e17211-54b8-4688-923e-6fb8c8d6e067",
+          "50476be4-e61a-43b0-bd01-82d8a7979803"
+        ]
+      },
+      {
+        "topic": "Shared-room evening comfort",
+        "detail": "Gabriel reads late while Theo falls asleep early; a reading light away from Theo's pillow would help in their shared room.",
+        "person": "Theo and Gabriel",
+        "status": "understood",
+        "sourceMessageIds": [
+          "26c114c0-37c2-4e14-ab3c-beb63cb46e82"
+        ]
+      }
+    ],
+    "nextMove": "close"
+  },
+  "retainedFacts": [
+    {
+      "label": "Reason for visit",
+      "value": "Theo and Gabriel are marking five years since their civil partnership with a few days in Paris and some work during the stay.",
+      "sourceQuote": "Gabriel and I are marking five years since our civil partnership, with a few days in Paris and a little work squeezed in.",
+      "sourceMessageId": "c71e073c-c100-4134-a8d3-b945a3bcdc12"
+    },
+    {
+      "label": "Dinner plans",
+      "value": "Dinner elsewhere is booked on Monday; Tuesday evening is open.",
+      "sourceQuote": "We've booked dinner elsewhere on Monday, but Tuesday evening is open.",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Dining preference",
+      "value": "Theo and Gabriel like relaxed bistros.",
+      "sourceQuote": "We like relaxed bistros",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Anniversary attention boundaries",
+      "value": "Neither Theo nor Gabriel wants decorations, notes or anniversary surprises.",
+      "sourceQuote": "neither of us wants decorations, notes or anniversary surprises.",
+      "sourceMessageId": "27c290d6-18cb-458d-accb-37b21d16e1c9"
+    },
+    {
+      "label": "Recommendation welcome",
+      "value": "A dining recommendation would help.",
+      "sourceQuote": "Yes, a recommendation would help",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Gabriel's food preference",
+      "value": "Gabriel loves cheese.",
+      "sourceQuote": "Gabriel loves cheese",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Theo's food preference",
+      "value": "Theo tends to avoid heavy cream sauces.",
+      "sourceQuote": "I tend to avoid heavy cream sauces.",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Cream sauce preference clarification",
+      "value": "Avoiding cream sauces is a matter of taste, not an intolerance.",
+      "sourceQuote": "avoiding cream sauces is a matter of taste, not an intolerance.",
+      "sourceMessageId": "e5ae0c4f-f9c0-4e06-8b49-2dbcb03ef393"
+    },
+    {
+      "label": "Dining style and pace",
+      "value": "They want nothing too formal or drawn-out.",
+      "sourceQuote": "Nothing too formal or drawn-out.",
+      "sourceMessageId": "7a429e08-feb5-49ea-b629-10f767e07646"
+    },
+    {
+      "label": "Theo's Tuesday work timing",
+      "value": "Theo has a meeting Tuesday afternoon and expects to be free by 6:30.",
+      "sourceQuote": "I have a meeting on Tuesday afternoon and should be free by 6:30",
+      "sourceMessageId": "1f31d032-2f67-4dde-bdf0-c8559c9aec3b"
+    },
+    {
+      "label": "Gabriel's Tuesday availability",
+      "value": "Gabriel has the whole Tuesday to himself.",
+      "sourceQuote": "Gabriel has the whole day to himself.",
+      "sourceMessageId": "1f31d032-2f67-4dde-bdf0-c8559c9aec3b"
+    },
+    {
+      "label": "Shared availability",
+      "value": "The other days are time for Theo and Gabriel together.",
+      "sourceQuote": "The other days are ours.",
+      "sourceMessageId": "1f31d032-2f67-4dde-bdf0-c8559c9aec3b"
+    },
+    {
+      "label": "Gabriel's interest",
+      "value": "Gabriel loves architecture.",
+      "sourceQuote": "Gabriel loves architecture",
+      "sourceMessageId": "69e17211-54b8-4688-923e-6fb8c8d6e067"
+    },
+    {
+      "label": "Theo's interest",
+      "value": "Theo browses secondhand poetry books.",
+      "sourceQuote": "I browse secondhand poetry books",
+      "sourceMessageId": "69e17211-54b8-4688-923e-6fb8c8d6e067"
+    },
+    {
+      "label": "Leisure lunch pace",
+      "value": "They enjoy long bistro lunches between outings.",
+      "sourceQuote": "with long bistro lunches in between.",
+      "sourceMessageId": "69e17211-54b8-4688-923e-6fb8c8d6e067"
+    },
+    {
+      "label": "Previous Paris visits",
+      "value": "Theo has visited Paris for work; this is Gabriel's first Paris visit.",
+      "sourceQuote": "I've visited Paris for work, but it's Gabriel's first time.",
+      "sourceMessageId": "69e17211-54b8-4688-923e-6fb8c8d6e067"
+    },
+    {
+      "label": "Exploration guidance and pace",
+      "value": "They welcome a few pointers but prefer to wander rather than follow a timed route.",
+      "sourceQuote": "A few pointers would be great, but we'd rather wander than follow a timed route.",
+      "sourceMessageId": "50476be4-e61a-43b0-bd01-82d8a7979803"
+    },
+    {
+      "label": "Evening habits and reading light",
+      "value": "Gabriel reads late while Theo falls asleep early. They share a room and would find a reading light away from Theo's pillow helpful.",
+      "sourceQuote": "Gabriel reads late while I fall asleep early. A reading light away from my pillow would help in our shared room.",
+      "sourceMessageId": "26c114c0-37c2-4e14-ab3c-beb63cb46e82"
+    }
+  ]
+}

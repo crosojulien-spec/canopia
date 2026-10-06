@@ -19,12 +19,12 @@
       "sha256": "7c51d9691a2c0e596709038190d47bf636d5727d0054fcc3f752c81e9c606e7a"
     },
     "AGENTS.md": {
-      "bytes": 6193,
-      "sha256": "ff6841b60f0bd313e9078a4c7bf2a64bb6c53bfadc220a006fb76145cda733f7"
+      "bytes": 6244,
+      "sha256": "2465f817f13b3925f5dbabca2c063ae518b59e3c446bffed7cc1eec7cec9005e"
     },
     "README.md": {
-      "bytes": 9459,
-      "sha256": "06fe4cb9264d9642c985098139a2bf83992d4a9a54263368f62dddc535e307f0"
+      "bytes": 9724,
+      "sha256": "1e5d63ce9b48c2c20799aa5fef855cf71e2aea12d72cfb00e28660eaf7cb767f"
     },
     "START_HERE.txt": {
       "bytes": 2287,
@@ -95,16 +95,16 @@
       "sha256": "981ef6524d11b4f453ad4f99d9181b70cae33921d5e6e2e5e7df5d14e775d13a"
     },
     "docs/01 Product decisions.md": {
-      "bytes": 14845,
-      "sha256": "52f2326e2dc43fae9654de07a5c78464faf630d2b25f8fadf14ee4ad1bc77072"
+      "bytes": 15437,
+      "sha256": "fa4253c6d30dada71d1199bffc817c8f96d96ff63d96624b348b057f592071ac"
     },
     "docs/02 Reconstruction plan.md": {
       "bytes": 5206,
       "sha256": "8b49ea7cb747fe4ecd19e335faef0c3e4ead46541f63abf88ced22b73d3d3a60"
     },
     "docs/03 Open questions.md": {
-      "bytes": 4832,
-      "sha256": "1153bf1492e99653beb6c6b4bdc11e6753ae97d17be67cb8e93da9773b7314c2"
+      "bytes": 4865,
+      "sha256": "6ab3073dd998254bf78cd52d52e15ecc321c03fef98ba2f0c924eacf3f0adb88"
     },
     "docs/04 Verification criteria.md": {
       "bytes": 3989,
@@ -115,20 +115,20 @@
       "sha256": "c664608baf92a06f82a57ae7535354369fe136b4b243877fc98b707eac02ca87"
     },
     "docs/100 offline discovery simulations.md": {
-      "bytes": 8809,
-      "sha256": "b7ed8c524162653282d110e31712c315022b33019d8e9d7a4751fbc36ca35878"
+      "bytes": 9169,
+      "sha256": "05ea7900be8b765c22f32efe0776aedcb146addc04d1de18aefe0986fe5ded18"
     },
     "docs/AI trial and budget.md": {
-      "bytes": 6931,
-      "sha256": "68b02b6bcd34e9a1171cf33e2c6cc5491b62abd0bb795b58c1f53bcb4da09924"
+      "bytes": 7534,
+      "sha256": "cbe3d51d18e7c271df1a6cd7af03412f6177b03cbc95bfb72e2edde3fca71085"
     },
     "docs/Connections and operation.md": {
       "bytes": 5477,
       "sha256": "a208949aa65e3750a87e3f8c478972e8fd8346f6460d03725a012f99d74db2fd"
     },
     "docs/Conversation agent role.md": {
-      "bytes": 3741,
-      "sha256": "933193ea1d098bbcb0522fdcf306b2eb8317405aea4f4a9c4331fee059551e0a"
+      "bytes": 5276,
+      "sha256": "693e8cc75393a2ce45b62f35b01a02898b4ca599eaf8fc3e4d4b809123cdf647"
     },
     "docs/Six discovery tests.md": {
       "bytes": 15953,
@@ -138,13 +138,17 @@
       "bytes": 15515,
       "sha256": "76748790ee3e84213bdd9fa79d1b5f0936db5445c90bc03487bfc3b8453789aa"
     },
+    "docs/Three anniversary journeys.md": {
+      "bytes": 12034,
+      "sha256": "049e515d95daf2c3e5c69df3edea4aaf54ca716193540f5d9e1a73e05b26c143"
+    },
     "docs/Three conversation tests.md": {
-      "bytes": 7247,
-      "sha256": "30c554dd9e1fb5af6c16070b1c79eccda97bcba95645c09f7256a4d46c6dfc08"
+      "bytes": 7264,
+      "sha256": "5b193ad6659c24b1ecd54978e95912b375f2f9cbb1518bcbebb51ac9cae8e8f5"
     },
     "docs/Verification report.md": {
-      "bytes": 13524,
-      "sha256": "e59544e06fc8b9ca30cad3518b13bd229921d3a5b38df8c6847790e4e8ff40af"
+      "bytes": 15639,
+      "sha256": "997c87a060f0fc00e6bd0d3046a00816c3ba273290511b4fcc2e8d6477bebebc"
     },
     "fixtures/evaluations/2026-10-05 discovery v2/01 Camille brief.txt": {
       "bytes": 3806,
@@ -373,6 +377,170 @@
     "fixtures/evaluations/2026-10-05 short replies/turn review.json": {
       "bytes": 22680,
       "sha256": "2f65a56973fd3d38ce09736e3096cf34d428b513db659660d8f3de88476688f7"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/01 Leonie and Marc.json": {
+      "bytes": 17666,
+      "sha256": "e31ec508deb1a6e6e6aeaf34136bd6067103f5b70f5f90670ee46076e3bfb884"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/01 brief.txt": {
+      "bytes": 3410,
+      "sha256": "4849ab14502fdbb9050f27edcf21c569ce1b92aadb91a03e3e8be75394e27b17"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/01 conversation.txt": {
+      "bytes": 2412,
+      "sha256": "d40ee409a4302e4ca2f185026907b21dd9bd3f110c169c0d29a4991499dd6556"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/01 hotel snapshot.json": {
+      "bytes": 13094,
+      "sha256": "b5eae4a693346b30029f806f6e78311888a61ae60435b5d722eee335537b28f1"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/02 Aisha and Tom.json": {
+      "bytes": 20243,
+      "sha256": "3e9554b227f267513d00ada4c06694c55498fccf7ba0253c39bf5a91115ad6fc"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/02 brief.txt": {
+      "bytes": 3702,
+      "sha256": "80198bdaca94b54fa4b30b11455717507e6e078e12300443f87c480d7dc527c6"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/02 conversation.txt": {
+      "bytes": 2671,
+      "sha256": "aacefa44b74e042a067e6b61c76897db524226c0b41b91158c4310d16e6c6fb0"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/02 hotel snapshot.json": {
+      "bytes": 21103,
+      "sha256": "347fae8302310a6fdec293aac0191f725dc95c3659b9bdfd7b4d99ffa15ee37f"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/03 Theo and Gabriel.json": {
+      "bytes": 22422,
+      "sha256": "42b5292575f9dbf5acfe81cb594cc0c0dd28547e060a8dee887b0ecad2e2f8cd"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/03 brief.txt": {
+      "bytes": 3821,
+      "sha256": "931f1df8943b3af14dada598c8a083e726000c5fdf986a88210c8e35a61f212b"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/03 conversation.txt": {
+      "bytes": 2927,
+      "sha256": "a1f812351105f54d7d6fc512c58a93dd67897ad7aef83eca6c839d755a424d1f"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/03 hotel snapshot.json": {
+      "bytes": 14839,
+      "sha256": "64355a6d7a159547450a6aa3ecadd6e0659b674595f1793ea50b8ea57b3b6dca"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/README.md": {
+      "bytes": 2394,
+      "sha256": "b2462f146bd253f0fe76dbf2aa9f915371178614a8fb83ae28f8a350f442ab0a"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/Verification.json": {
+      "bytes": 2487,
+      "sha256": "fe60aaee1141904934bf72490af78f5c25de0379e859c3d3105025f16781dd60"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/run.json": {
+      "bytes": 7347,
+      "sha256": "3d12192c5108c3574475503690bdf94f79bab50ed24421b05f0893da7e0a2f57"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/scenarios.json": {
+      "bytes": 4594,
+      "sha256": "ec0466d370e58b26c5801037c3085cb86fe3da5a8459403cf9b30e93fc11f435"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-01-messages.json": {
+      "bytes": 1299,
+      "sha256": "498d3cbcbf573df8a86a06a681fa17ca051fdaf345a707eec8253393b4906d04"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-02-messages.json": {
+      "bytes": 2168,
+      "sha256": "1fadcb3dd4be4a9b5df992f70ccf4e145df08dee4f15d282df22d2ed6aee290c"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-03-messages.json": {
+      "bytes": 3061,
+      "sha256": "f727c6746ab40c4b44e23aa180fef2b0b225d34fd80c4b3a96fbe3747025d922"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-04-messages.json": {
+      "bytes": 4196,
+      "sha256": "1e7833e37ba474195aa3b6905ee02d6630037547ddeb1d49e4e5f467288ff8be"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-05-messages.json": {
+      "bytes": 4475,
+      "sha256": "fdb4b3c307125cbddea790fcb90144b4f367a9e2290d5fed29114d046ff4c95d"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-06-messages.json": {
+      "bytes": 5242,
+      "sha256": "e1a335581edd55c8d0f7b3a2356a2ba3376489f2a780c89415245d04d40724c2"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-07-finish.json": {
+      "bytes": 5083,
+      "sha256": "e53a2e678f57dd29fdfc09c8fe6052af6bda96f0bfffb54a439ccd3d21a6ebb4"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/01-07-messages.json": {
+      "bytes": 5110,
+      "sha256": "d8601b80424ee1e79c3f486fe11a6cfff89216f59b8df1cbe06b80a6d198005b"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-01-messages.json": {
+      "bytes": 1641,
+      "sha256": "65c299043a780d53e64459a98370ea460170b89f626f631bf1bff824252028b6"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-02-messages.json": {
+      "bytes": 3590,
+      "sha256": "7c42254986e2143fe385991fa0ab8de7269f8a2d694388e44e3033563a22ce2e"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-03-messages.json": {
+      "bytes": 4770,
+      "sha256": "c1b5b9c7200586565e31ef4184a75a9abd381281fe67d59a0ab2954555b4cc45"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-04-messages.json": {
+      "bytes": 5369,
+      "sha256": "99858cd50af4416ed926b1d264da442d85018f3864bdfeca66a905ac46462d90"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-05-messages.json": {
+      "bytes": 6109,
+      "sha256": "ea5fe67be2cef3f510267e5fae5b4f0555dfd255dd76315a575aa1a0365e30a6"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-06-messages.json": {
+      "bytes": 6910,
+      "sha256": "18657918de54270eed6d2fe34891e0c469f965b8981bf97eac25b0d707738b5a"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-07-finish.json": {
+      "bytes": 6673,
+      "sha256": "bd4aaae8e778aff4ee4fedab4cbf6471476fcfd9c93f3521b1e689919ed3814f"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/02-07-messages.json": {
+      "bytes": 6692,
+      "sha256": "d6d4e53ce87b9460344e48805fa3c5ad96a5175e82a7c4d8867fc7985d180df8"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-01-messages.json": {
+      "bytes": 1682,
+      "sha256": "c860428462027b56c9d345427c2c304ec3d81c2aaadd06ad9ca3f993b1315d10"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-02-messages.json": {
+      "bytes": 3243,
+      "sha256": "bc31131eda3f5c45f66b31b7d66e2e51adfd4676a5100021169fcf6f21d85d48"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-03-messages.json": {
+      "bytes": 4214,
+      "sha256": "3f13ea02911f4da39f76ab8d92ea5bcf8a13fbeb52266a5ec6c69fd89f22cfad"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-04-messages.json": {
+      "bytes": 5574,
+      "sha256": "5c6ab8fb104776222dedf8829fdbe082f62cfa6bc6cf61892d580e599b7733e1"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-05-messages.json": {
+      "bytes": 6785,
+      "sha256": "03cac7ab081c0935a0212003e93f1e76f28504892390f3ca6e3a592791f39b2c"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-06-messages.json": {
+      "bytes": 6937,
+      "sha256": "bc98ded521126e71fb45091795ce38191f79f0cbf5d85ca1e1c480e6df1501a6"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-07-messages.json": {
+      "bytes": 7850,
+      "sha256": "d9adbaba61d09b2ea8ad898b3f599a608870e655f2e1a7ce9902d81a5e9283cf"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-08-finish.json": {
+      "bytes": 8063,
+      "sha256": "421e49032b65ada037d6a7396446f1e4bf3173b019ad34b174ebc2ceaec2c717"
+    },
+    "fixtures/evaluations/2026-10-06 anniversary journeys/turns/03-08-messages.json": {
+      "bytes": 8164,
+      "sha256": "0725ef15df399d48fdfc4e0269650f3cf3a739bf55cfccd4b01471bbb36f18c6"
     },
     "fixtures/evaluations/2026-10-06 conversation v3/01 Elena brief.txt": {
       "bytes": 4012,
@@ -718,6 +886,10 @@
       "bytes": 6201,
       "sha256": "9fe75717bb159a5eae7ef8f03fca2bd9dc97658bc0a1d3e19d76090617135a79"
     },
+    "prompts/brief-v3.txt": {
+      "bytes": 7235,
+      "sha256": "dee459cafdf5a49fb4f6329940777e251ce65c83cb04c834a6bea8717898a85b"
+    },
     "prompts/conversation-v1.txt": {
       "bytes": 3736,
       "sha256": "a302438df53f7fdcfb43dd06f81ebaa9e8e49813db94645163a45e905b9ca3fe"
@@ -733,6 +905,10 @@
     "prompts/conversation-v3.txt": {
       "bytes": 10346,
       "sha256": "bbd9f6d5df9b611cfd43ccd8a6a00551c0ab439e65bd3a619d7a09a77cfaf94e"
+    },
+    "prompts/conversation-v4.txt": {
+      "bytes": 11943,
+      "sha256": "1b44c99aa8cd2ac2e4ebe30d88ba7b5cfdf8d5c06eb3622f32845bc6e901831d"
     },
     "prompts/legacy/README.md": {
       "bytes": 709,
@@ -798,13 +974,17 @@
       "bytes": 388,
       "sha256": "45a12091ff8311faa435924468295ebbf63f4dd0cc0870017cf86bff9a2a754f"
     },
+    "scripts/verify-anniversary-evidence.mjs": {
+      "bytes": 4920,
+      "sha256": "f5cc00c3aa399b97190b7609c10f5d9e2129d5a11200ab26124167b94219fb21"
+    },
     "server/ai-budget.ts": {
       "bytes": 5275,
       "sha256": "cc4275c8c2402bd099f3ec0b5112c08af34c0dd2bef6392748bede3a1a7f8f4e"
     },
     "server/ai.ts": {
-      "bytes": 10734,
-      "sha256": "08597a4145f3ed6c694f3ac1f00658309c60dfef24e88ab6029d82e097a21571"
+      "bytes": 11331,
+      "sha256": "a021c500c03c960cdbf70e44e8a931765ee681f7b77a575957351276cb986436"
     },
     "server/app.ts": {
       "bytes": 12958,
@@ -817,6 +997,10 @@
     "server/db.ts": {
       "bytes": 3791,
       "sha256": "011a8594745b596ea07a9f4aeefe066bf252e86f9967a3f5b158e901957ceb7e"
+    },
+    "server/discovery.ts": {
+      "bytes": 1362,
+      "sha256": "715b0208cf948c7bd9a567e7cc4652dfde4991b241f7d5de9e9a657ebe2ca432"
     },
     "server/hotel-profiles.ts": {
       "bytes": 1881,
@@ -835,12 +1019,12 @@
       "sha256": "3e7b8f4687509a86acd52a0b6bda71f430e513fcc7f231c4b22037c3ea8ba55e"
     },
     "server/service.ts": {
-      "bytes": 24462,
-      "sha256": "06ffdb06d41c313b8a1a10a6f5a23463c07bb5d8079092522c10b45c7326e02d"
+      "bytes": 24784,
+      "sha256": "ee71f1c44ef0ad08ef13de73c8bec640dbf288bd11ecf735c7d709c18b9f7343"
     },
     "shared/types.ts": {
-      "bytes": 3938,
-      "sha256": "818e9ee3c3482819a3cb1c9c8ce7141193452b27166388a56ec02197561e3ab6"
+      "bytes": 4443,
+      "sha256": "a05cbcd4f627ca8087ce3608bd8c07d86ff63b7d80c50e31d7b7c4682dbe5fd9"
     },
     "sources/README.md": {
       "bytes": 903,
@@ -858,13 +1042,17 @@
       "bytes": 8556,
       "sha256": "37c88174b5ff5fedfb4d507c9c50ea85ab9533376883dcf5dc103c6d07d73965"
     },
+    "tests/discovery.test.ts": {
+      "bytes": 1853,
+      "sha256": "72fe99df5c9bbf6cc790f41d2bcb3a39e50e2151a9b864b9bd431ffceca6bbd3"
+    },
     "tests/hotel-profiles.test.ts": {
       "bytes": 3320,
       "sha256": "948018be32bdbaac6f3c8ea2972af6dfe8582630e40ca5f42a70078793efd625"
     },
     "tests/workflows.test.ts": {
-      "bytes": 12666,
-      "sha256": "610db0cc05e7aea41dd36ec904cc881990f4694d2851d3fc2627356c96d3f39e"
+      "bytes": 18023,
+      "sha256": "f2f0d429551b592479b641da6b6a90f4d754800e93eb5365c5c36928dfa76c8b"
     },
     "tsconfig.json": {
       "bytes": 568,

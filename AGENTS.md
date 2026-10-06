@@ -14,7 +14,7 @@
 
 - Keep relevant documentation in step with implementation and explicitly approved decisions as part of each task. Do not leave current instructions describing an obsolete product state.
 - Write maintained documentation, headings, filenames, comments and commit messages in English. Proper names, exact quotations and immutable source/test evidence keep their original spelling and language. Clearly identify original-language archives; do not translate recorded test outputs or change provenance to make them look like new results.
-- The human-readable role in `docs/Conversation agent role.md` explains the product. The model receives the active prompt selected in `server/ai.ts`, plus the reservation, hotel DNA and transcript. Keep this distinction explicit.
+- The human-readable role in `docs/Conversation agent role.md` explains the product. The model receives the active prompt selected in `server/ai.ts`, plus the reservation, hotel DNA, transcript, retained facts and previous internal discovery state. Keep this distinction explicit.
 - Julien confirmed on 6 October 2026: after authorised work is complete and verified, update relevant documents, commit the task's changes and push to the existing private repository. Do not include unrelated edits, secrets, local databases or unreviewed exports. Do not rewrite shared history. If verification or the push fails, report the actual state instead of claiming synchronisation.
 
 ## Scope boundaries

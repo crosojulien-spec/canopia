@@ -8,7 +8,7 @@ Run the regular server with npm start (or npm run dev), not npm run demo: the la
 
 Create a new fictional stay in the console, choose a hotel and handoff, open the guest view, converse in English, and select Finish and share. The automatic A–F draft appears in Brief & review. Existing stays retain their original DNA snapshot. A guest who declines personalisation receives a minimal record, without experience suggestions.
 
-The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v3.1 and brief-v2; previous versions remain in source control. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context and transcript, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
+The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v4 and brief-v3; previous versions remain in source control. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context, transcript, retained facts and the internal discovery map, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
 
 ## How the local allowance works
 
@@ -39,3 +39,6 @@ Official OpenAI documentation checked on 5 October 2026, with model comparison r
 - [Model capabilities and pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol)
 - [Input token counting and output-limit semantics](https://developers.openai.com/api/docs/guides/token-counting)
 - [Provider spend limits](https://developers.openai.com/api/docs/guides/spend-limits): provider enforcement can be delayed; this local pre-dispatch allowance is separate. No account-wide setting was changed.
+
+
+The subsequent product-integrated anniversary campaign used conversation-v4 and brief-v3 for three new couples. Twenty-two live chat replies and three briefs accounted for USD 0.927621. The ledger ended at USD 4.395090 accounted and USD 0.604910 remaining, with the same one older uncertain call and no new uncertainty. Prompts and runtime stayed frozen during the campaign; all three exported drafts match their original generations. See [Three anniversary journeys](Three%20anniversary%20journeys.md). No budget extension or model comparison was performed.

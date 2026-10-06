@@ -1,0 +1,243 @@
+{
+  "stay": {
+    "id": "a539fabd-3eab-4b25-b1c7-5fff2ec4ad96",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose and relationship",
+        "value": "Leonie and her partner Marc are returning to Nice for the tenth anniversary of when they met.",
+        "sourceQuote": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+        "sourceMessageId": "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+      },
+      {
+        "label": "Meeting memory and return plans",
+        "value": "They met near the port over a hopelessly folded paper map and plan to wander back there; nothing else is planned yet.",
+        "sourceQuote": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+        "sourceMessageId": "3c523caf-ef37-404f-80dc-9df351e8e14d"
+      },
+      {
+        "label": "Private anniversary note and boundaries",
+        "value": "A little private note about still happily getting lost together would be welcome; no public fuss or rose-petal production.",
+        "sourceQuote": "A little private note would be lovely, something about still happily getting lost together. Just no public fuss or rose-petal production, please.",
+        "sourceMessageId": "8434e76c-8e56-4166-ade1-c645adece6c1"
+      },
+      {
+        "label": "Leonie's sketching and Marc's record-shop interest",
+        "value": "Leonie sketches old building facades; Marc enjoys spending hours in secondhand record shops.",
+        "sourceQuote": "I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours.",
+        "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+      },
+      {
+        "label": "Shared exploring pace",
+        "value": "They enjoy wandering slowly with long coffee stops.",
+        "sourceQuote": "Mostly we like wandering slowly, with long coffee stops.",
+        "sourceMessageId": "139690a3-bf95-4298-9f80-22ec3c358d76"
+      },
+      {
+        "label": "Marc's musical tastes",
+        "value": "Marc likes old soul, especially Bill Withers, and finding records with history.",
+        "sourceQuote": "Old soul, especially Bill Withers; he loves finding a record with a bit of history.",
+        "sourceMessageId": "958ebc20-230e-4324-8eb7-8e2aad8b056a"
+      },
+      {
+        "label": "Bed, duvets and sleep preferences",
+        "value": "They share a double bed and use one duvet each: Marc gets cold, Leonie sleeps warm, and they are easy about pillows.",
+        "sourceQuote": "We share a double bed but use a duvet each: Marc gets cold and I sleep warm. We're easy about pillows.",
+        "sourceMessageId": "ac1fb7df-2639-4e50-b4e1-12cd246e640a"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-13",
+    "handoff": "reception",
+    "hotelId": "hotel_amour_nice",
+    "revoked": false,
+    "revision": 18,
+    "chatError": null,
+    "createdAt": "2026-10-06T11:18:31.262Z",
+    "departure": "2026-11-16",
+    "discovery": {
+      "focus": "Exchange complete",
+      "threads": [
+        {
+          "topic": "Anniversary return and plans",
+          "detail": "Returning for the tenth anniversary of meeting; will revisit the port, where they met over a folded paper map. Nothing else planned yet.",
+          "person": "Leonie and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "4f82f6c1-3794-4986-a792-7b14b0feae8a",
+            "3c523caf-ef37-404f-80dc-9df351e8e14d"
+          ]
+        },
+        {
+          "topic": "Anniversary attention and boundaries",
+          "detail": "A private note about still happily getting lost together is welcome; no public fuss or rose-petal production. A wish, not an arrangement.",
+          "person": "Leonie and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "8434e76c-8e56-4166-ade1-c645adece6c1"
+          ]
+        },
+        {
+          "topic": "Exploring rhythm",
+          "detail": "Enjoy slow wandering with long coffee stops.",
+          "person": "Leonie and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "139690a3-bf95-4298-9f80-22ec3c358d76"
+          ]
+        },
+        {
+          "topic": "Sketching",
+          "detail": "Stops to sketch old building facades.",
+          "person": "Leonie",
+          "status": "understood",
+          "sourceMessageIds": [
+            "139690a3-bf95-4298-9f80-22ec3c358d76"
+          ]
+        },
+        {
+          "topic": "Records and music",
+          "detail": "Enjoys secondhand record shops, old soul especially Bill Withers, and records with history.",
+          "person": "Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "139690a3-bf95-4298-9f80-22ec3c358d76",
+            "958ebc20-230e-4324-8eb7-8e2aad8b056a"
+          ]
+        },
+        {
+          "topic": "Bed and sleeping comfort",
+          "detail": "Share a double bed but use one duvet each; Marc gets cold and Leonie sleeps warm. Easy about pillows.",
+          "person": "Leonie and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "ac1fb7df-2639-4e50-b4e1-12cd246e640a"
+          ]
+        }
+      ],
+      "nextMove": "close"
+    },
+    "expiresAt": "2026-10-13T11:18:31.262Z",
+    "guestName": "Leonie and Marc",
+    "hotelName": "Hotel Amour Nice",
+    "partySize": 2,
+    "updatedAt": "2026-10-06T11:25:51.979Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "d676fe87-e5ed-45c7-8eaa-8eefaee9228f",
+    "reservationNotes": "Fictional anniversary evaluation, 6 October 2026."
+  },
+  "messages": [
+    {
+      "id": "540efdd8-caa8-4e8c-a7df-c86fb51d4326",
+      "role": "assistant",
+      "content": "Hello Leonie! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T11:18:31.262Z"
+    },
+    {
+      "id": "4f82f6c1-3794-4986-a792-7b14b0feae8a",
+      "role": "user",
+      "content": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "createdAt": "2026-10-06T11:18:32.516Z"
+    },
+    {
+      "id": "90266ca1-bff3-4c7a-9f45-57eaa50b322b",
+      "role": "assistant",
+      "content": "Ten years since you met—a special reason to return. Is there a place or memory in Nice you’d like to revisit together, or have you already made plans for the anniversary?",
+      "createdAt": "2026-10-06T11:18:39.644Z"
+    },
+    {
+      "id": "3c523caf-ef37-404f-80dc-9df351e8e14d",
+      "role": "user",
+      "content": "We met near the port over a hopelessly folded paper map, so we'll wander back there. Nothing else planned yet.",
+      "createdAt": "2026-10-06T11:19:05.427Z"
+    },
+    {
+      "id": "4d6a3466-625c-4893-88bd-7480f1ecfb79",
+      "role": "assistant",
+      "content": "That paper map sounds like it earned its place in your story. Would a small anniversary note with a nod to it feel welcome, or would you rather leave the occasion just between you?",
+      "createdAt": "2026-10-06T11:19:14.384Z"
+    },
+    {
+      "id": "8434e76c-8e56-4166-ade1-c645adece6c1",
+      "role": "user",
+      "content": "A little private note would be lovely, something about still happily getting lost together. Just no public fuss or rose-petal production, please.",
+      "createdAt": "2026-10-06T11:19:56.365Z"
+    },
+    {
+      "id": "390596b1-152a-4353-a37e-108bdd6b1242",
+      "role": "assistant",
+      "content": "“Still happily getting lost together” is a lovely thought for a private note, without any public fuss or rose petals. Beyond revisiting the port, what do you and Marc most enjoy stumbling upon when you wander?",
+      "createdAt": "2026-10-06T11:20:07.853Z"
+    },
+    {
+      "id": "139690a3-bf95-4298-9f80-22ec3c358d76",
+      "role": "user",
+      "content": "I stop to sketch old building facades, and Marc can disappear into a secondhand record shop for hours. Mostly we like wandering slowly, with long coffee stops.",
+      "createdAt": "2026-10-06T11:21:20.158Z"
+    },
+    {
+      "id": "eceaac54-abea-4c56-825a-946cda0a7777",
+      "role": "assistant",
+      "content": "Sketches, records and long coffee stops sound like a good reason not to rush. What sort of music does Marc usually hunt for in those secondhand shops?",
+      "createdAt": "2026-10-06T11:21:34.750Z"
+    },
+    {
+      "id": "958ebc20-230e-4324-8eb7-8e2aad8b056a",
+      "role": "user",
+      "content": "Old soul, especially Bill Withers; he loves finding a record with a bit of history.",
+      "createdAt": "2026-10-06T11:22:30.602Z"
+    },
+    {
+      "id": "33ed2ce4-f028-451d-8b77-40cbe68cad68",
+      "role": "assistant",
+      "content": "Bill Withers and a record with a story—there’s a useful lead for Marc’s wandering. When you come back to rest, are there any room or sleep comforts that matter to either of you?",
+      "createdAt": "2026-10-06T11:22:47.822Z"
+    },
+    {
+      "id": "ac1fb7df-2639-4e50-b4e1-12cd246e640a",
+      "role": "user",
+      "content": "We share a double bed but use a duvet each: Marc gets cold and I sleep warm. We're easy about pillows.",
+      "createdAt": "2026-10-06T11:23:30.867Z"
+    },
+    {
+      "id": "a1d987a7-b50c-401a-afea-aad3738a51db",
+      "role": "assistant",
+      "content": "A duvet each makes sense with different sleeping temperatures. Is there anything else you’d like the team to know before your anniversary stay, or anything you’d like to correct?",
+      "createdAt": "2026-10-06T11:23:46.476Z"
+    },
+    {
+      "id": "6b25dac7-6ad2-4610-9882-6f8da6add442",
+      "role": "user",
+      "content": "That's everything, thank you.",
+      "createdAt": "2026-10-06T11:24:31.738Z"
+    },
+    {
+      "id": "a67a6db5-1f23-486e-8a3c-6ea2a7c5eff4",
+      "role": "assistant",
+      "content": "Thank you, Leonie—it’s been a pleasure hearing a little of your story. Wishing you and Marc a happy anniversary and more happy wandering in Nice.",
+      "createdAt": "2026-10-06T11:24:47.499Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "d676fe87-e5ed-45c7-8eaa-8eefaee9228f",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nLeonie and Marc, two guests, staying 13–16 November 2026 (three nights). Returning to Nice for the tenth anniversary of when they met near the port over a hopelessly folded paper map. They plan to wander back there; nothing else was planned at discovery. This is a return to Nice, not an established return to the hotel.\n\nB) COORDINATION\nReception is the assigned lead, coordinating housekeeping, bar/restaurant and local research. Hotel DNA is public preparation only, pending operator confirmation; published services and prices are not confirmed availability, quotes or inclusions.\n\nKeep the anniversary private: no public fuss or rose-petal production. Reception should check the booked bed configuration and separate-duvet feasibility before arrival. No arrangements or purchases have been authorised.\n\nC) GUEST PROFILE\n- Leonie stops to sketch old building façades.\n- Marc enjoys spending hours in secondhand record shops, particularly looking for old soul, especially Bill Withers, and records with history.\n- Together they enjoy slow wandering and long coffee stops; leave room for lingering rather than building a timed itinerary.\n- They share a double bed but use one duvet each. Marc gets cold; Leonie sleeps warm. Both are easy about pillows.\n- Leonie welcomed a little private anniversary note, “something about still happily getting lost together.” No specific coffee order, food preferences or dietary requirements were learned; check only when relevant to an accepted food/drink proposal.\n\nD) RECEPTION\nPrepare a small, optional set of local pointers rather than a scheduled programme: port orientation, façade-sketching stops and secondhand-record leads. Offer it as something they can use at their own pace, without announcing the anniversary.\n\nIf a paper map is available, reception could discreetly mark useful locations while leaving the route flexible—a practical nod to their meeting story, subject to hotel approval. Do not assume they want a guided outing.\n\nE) ROOM PREPARATION\nReception/housekeeping: prepare a double bed with two separate duvets if the booked room and linen stock permit. Consider a lighter duvet for Leonie and warmer one for Marc only if suitable options exist; otherwise confirm the workable setup. No special pillow selection is needed.\n\nRequested attention, for hotel approval: place a small private note in the room. Proposed hotel-authored wording: “Happy tenth anniversary, Leonie and Marc. Here’s to still happily getting lost together.” This reflects their requested sentiment, not a declaration attributed to either guest. Keep presentation simple, without rose petals or public celebration.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Focused external research: identify secondhand record shops carrying older soul and worthwhile façade-sketching areas along a flexible hotel-to-port wander. Check November opening days, walking distances and coffee-stop options; do not promise Bill Withers stock or arrange purchases.\n- Optional paid coffee-and-pause proposal: their long coffee stops could translate into an unhurried break at the hotel bar or restaurant, with a light meal only if wanted. Reception coordinates with the bar/restaurant to check coffee service hours, current menu, seating suitability and pricing; a patio seat depends on weather. Offer a flexible stopping point, not an anniversary package or included treat.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "a539fabd-3eab-4b25-b1c7-5fff2ec4ad96",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T11:25:51.975Z",
+      "updatedAt": "2026-10-06T11:25:51.975Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nLeonie and Marc, two guests, staying 13–16 November 2026 (three nights). Returning to Nice for the tenth anniversary of when they met near the port over a hopelessly folded paper map. They plan to wander back there; nothing else was planned at discovery. This is a return to Nice, not an established return to the hotel.\n\nB) COORDINATION\nReception is the assigned lead, coordinating housekeeping, bar/restaurant and local research. Hotel DNA is public preparation only, pending operator confirmation; published services and prices are not confirmed availability, quotes or inclusions.\n\nKeep the anniversary private: no public fuss or rose-petal production. Reception should check the booked bed configuration and separate-duvet feasibility before arrival. No arrangements or purchases have been authorised.\n\nC) GUEST PROFILE\n- Leonie stops to sketch old building façades.\n- Marc enjoys spending hours in secondhand record shops, particularly looking for old soul, especially Bill Withers, and records with history.\n- Together they enjoy slow wandering and long coffee stops; leave room for lingering rather than building a timed itinerary.\n- They share a double bed but use one duvet each. Marc gets cold; Leonie sleeps warm. Both are easy about pillows.\n- Leonie welcomed a little private anniversary note, “something about still happily getting lost together.” No specific coffee order, food preferences or dietary requirements were learned; check only when relevant to an accepted food/drink proposal.\n\nD) RECEPTION\nPrepare a small, optional set of local pointers rather than a scheduled programme: port orientation, façade-sketching stops and secondhand-record leads. Offer it as something they can use at their own pace, without announcing the anniversary.\n\nIf a paper map is available, reception could discreetly mark useful locations while leaving the route flexible—a practical nod to their meeting story, subject to hotel approval. Do not assume they want a guided outing.\n\nE) ROOM PREPARATION\nReception/housekeeping: prepare a double bed with two separate duvets if the booked room and linen stock permit. Consider a lighter duvet for Leonie and warmer one for Marc only if suitable options exist; otherwise confirm the workable setup. No special pillow selection is needed.\n\nRequested attention, for hotel approval: place a small private note in the room. Proposed hotel-authored wording: “Happy tenth anniversary, Leonie and Marc. Here’s to still happily getting lost together.” This reflects their requested sentiment, not a declaration attributed to either guest. Keep presentation simple, without rose petals or public celebration.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Focused external research: identify secondhand record shops carrying older soul and worthwhile façade-sketching areas along a flexible hotel-to-port wander. Check November opening days, walking distances and coffee-stop options; do not promise Bill Withers stock or arrange purchases.\n- Optional paid coffee-and-pause proposal: their long coffee stops could translate into an unhurried break at the hotel bar or restaurant, with a light meal only if wanted. Reception coordinates with the bar/restaurant to check coffee service hours, current menu, seating suitability and pricing; a patio seat depends on weather. Offer a flexible stopping point, not an anniversary package or included treat.",
+      "promptVersion": "brief-v3"
+    }
+  ],
+  "invitations": []
+}

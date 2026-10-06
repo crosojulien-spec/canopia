@@ -1,0 +1,295 @@
+{
+  "stay": {
+    "id": "cfbe2838-2b01-4e08-94dd-2c130a361dc6",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay occasion",
+        "value": "Aisha and Tom's twentieth wedding anniversary.",
+        "sourceQuote": "It's our twentieth wedding anniversary",
+        "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+      },
+      {
+        "label": "First Bangkok visit",
+        "value": "This is Aisha and Tom's first visit to Bangkok.",
+        "sourceQuote": "our first visit to Bangkok, my husband Tom and me.",
+        "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+      },
+      {
+        "label": "Companion relationship",
+        "value": "Tom is Aisha's husband.",
+        "sourceQuote": "my husband Tom",
+        "sourceMessageId": "e4db94da-a168-465a-a1d8-1f7ded3ca46d"
+      },
+      {
+        "label": "Plans and desired pace",
+        "value": "Nothing booked yet; they would love one special dinner and time to explore without packing every day.",
+        "sourceQuote": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day.",
+        "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+      },
+      {
+        "label": "Aisha's food interest",
+        "value": "Aisha loves Thai home cooking.",
+        "sourceQuote": "I love Thai home cooking",
+        "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+      },
+      {
+        "label": "Tom's photography interest",
+        "value": "Tom is happiest photographing gardens and little architectural details.",
+        "sourceQuote": "Tom is happiest photographing gardens and little architectural details.",
+        "sourceMessageId": "a275c803-5627-48e0-9465-6acd429939d9"
+      },
+      {
+        "label": "Aisha's curry preference",
+        "value": "Aisha loves fragrant Thai curries.",
+        "sourceQuote": "I love fragrant Thai curries",
+        "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+      },
+      {
+        "label": "Aisha's severe peanut allergy",
+        "value": "Aisha has a severe peanut allergy.",
+        "sourceQuote": "I have a severe peanut allergy.",
+        "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+      },
+      {
+        "label": "Tom's food restrictions",
+        "value": "Aisha reports that Tom has no food restrictions.",
+        "sourceQuote": "Tom doesn't have any food restrictions.",
+        "sourceMessageId": "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+      },
+      {
+        "label": "Private anniversary note wish",
+        "value": "Aisha would welcome a private note about how Tom still makes her laugh after twenty years.",
+        "sourceQuote": "A private note would be lovely, about how he still makes me laugh after twenty years.",
+        "sourceMessageId": "44fff2b8-fd55-4a97-b053-b65436186185"
+      },
+      {
+        "label": "Celebration boundaries",
+        "value": "No public singing or cake.",
+        "sourceQuote": "No public singing or cake, please.",
+        "sourceMessageId": "44fff2b8-fd55-4a97-b053-b65436186185"
+      },
+      {
+        "label": "Exploration guidance preference",
+        "value": "Mostly independent wandering with a few good pointers.",
+        "sourceQuote": "Mostly wandering on our own with a few good pointers.",
+        "sourceMessageId": "5fae1622-2ab1-4581-8326-2fe906daff36"
+      },
+      {
+        "label": "Tom's photography pace",
+        "value": "Tom likes time to stop for photographs without holding a group up.",
+        "sourceQuote": "Tom likes having time to stop for photographs without holding a group up.",
+        "sourceMessageId": "5fae1622-2ab1-4581-8326-2fe906daff36"
+      },
+      {
+        "label": "Room comfort and fragrance",
+        "value": "A quiet, cool room helps; they prefer no added fragrance.",
+        "sourceQuote": "A quiet, cool room helps, and we prefer no added fragrance.",
+        "sourceMessageId": "ae028c38-4b86-4550-8bae-967d15a68922"
+      },
+      {
+        "label": "Pillow preferences",
+        "value": "Tom likes a soft pillow; Aisha is not fussy about hers.",
+        "sourceQuote": "Tom likes a soft pillow; I'm not fussy about mine.",
+        "sourceMessageId": "ae028c38-4b86-4550-8bae-967d15a68922"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-20",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 18,
+    "chatError": null,
+    "createdAt": "2026-10-06T11:18:31.301Z",
+    "departure": "2026-11-24",
+    "discovery": {
+      "focus": "Warm farewell",
+      "threads": [
+        {
+          "topic": "Anniversary and celebration",
+          "detail": "Twentieth wedding anniversary; nothing booked yet; want one special dinner. Private note about Tom still making Aisha laugh is welcome, not arranged. No public singing or cake.",
+          "person": "Aisha and Tom",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+            "a275c803-5627-48e0-9465-6acd429939d9",
+            "44fff2b8-fd55-4a97-b053-b65436186185"
+          ]
+        },
+        {
+          "topic": "Bangkok exploration",
+          "detail": "First Bangkok visit; unhurried independent wandering with a few pointers, without packed days.",
+          "person": "Aisha and Tom",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+            "a275c803-5627-48e0-9465-6acd429939d9",
+            "5fae1622-2ab1-4581-8326-2fe906daff36"
+          ]
+        },
+        {
+          "topic": "Food tastes and allergy",
+          "detail": "Loves Thai home cooking and fragrant Thai curries; severe peanut allergy.",
+          "person": "Aisha",
+          "status": "understood",
+          "sourceMessageIds": [
+            "a275c803-5627-48e0-9465-6acd429939d9",
+            "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+          ]
+        },
+        {
+          "topic": "Food restrictions",
+          "detail": "Aisha reports no food restrictions for Tom.",
+          "person": "Tom",
+          "status": "understood",
+          "sourceMessageIds": [
+            "5925c422-44c5-4e3f-9860-aadc0b38ee23"
+          ]
+        },
+        {
+          "topic": "Photography",
+          "detail": "Enjoys photographing gardens and little architectural details, with time to stop without holding a group up.",
+          "person": "Tom",
+          "status": "understood",
+          "sourceMessageIds": [
+            "a275c803-5627-48e0-9465-6acd429939d9",
+            "5fae1622-2ab1-4581-8326-2fe906daff36"
+          ]
+        },
+        {
+          "topic": "Room comfort",
+          "detail": "Quiet, cool room helps; no added fragrance. Tom likes a soft pillow; Aisha is not fussy about hers.",
+          "person": "Aisha and Tom",
+          "status": "understood",
+          "sourceMessageIds": [
+            "ae028c38-4b86-4550-8bae-967d15a68922"
+          ]
+        }
+      ],
+      "nextMove": "close"
+    },
+    "expiresAt": "2026-10-13T11:18:31.301Z",
+    "guestName": "Aisha and Tom",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 2,
+    "updatedAt": "2026-10-06T11:25:55.721Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "d9a816cc-0d37-4774-9875-1abadf4b0e6f",
+    "reservationNotes": "Fictional anniversary evaluation, 6 October 2026."
+  },
+  "messages": [
+    {
+      "id": "c88a3ef1-9a86-404e-9848-9cd9579d5e61",
+      "role": "assistant",
+      "content": "Hello Aisha! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T11:18:31.301Z"
+    },
+    {
+      "id": "e4db94da-a168-465a-a1d8-1f7ded3ca46d",
+      "role": "user",
+      "content": "It's our twentieth wedding anniversary, and our first visit to Bangkok, my husband Tom and me.",
+      "createdAt": "2026-10-06T11:18:32.522Z"
+    },
+    {
+      "id": "06849b54-7597-4601-bb1b-c3c6c3fc5984",
+      "role": "assistant",
+      "content": "Happy twentieth anniversary to you and Tom! Have you already made any plans to celebrate in Bangkok, or is there something you’d especially enjoy doing together?",
+      "createdAt": "2026-10-06T11:18:40.201Z"
+    },
+    {
+      "id": "a275c803-5627-48e0-9465-6acd429939d9",
+      "role": "user",
+      "content": "Nothing booked yet, but we'd love one special dinner and time to explore without packing every day. I love Thai home cooking; Tom is happiest photographing gardens and little architectural details.",
+      "createdAt": "2026-10-06T11:19:05.431Z"
+    },
+    {
+      "id": "382531e6-42cf-4c60-a9bd-dfcbd67cdefc",
+      "role": "assistant",
+      "content": "A special dinner with plenty of unhurried exploring sounds like a good balance. What Thai dishes or flavours do you especially love, and is there anything either of you avoids eating?",
+      "createdAt": "2026-10-06T11:19:20.397Z"
+    },
+    {
+      "id": "5925c422-44c5-4e3f-9860-aadc0b38ee23",
+      "role": "user",
+      "content": "I love fragrant Thai curries, but I have a severe peanut allergy. Tom doesn't have any food restrictions.",
+      "createdAt": "2026-10-06T11:19:56.370Z"
+    },
+    {
+      "id": "ddf343fb-287c-4399-a1e0-baace9a4279a",
+      "role": "assistant",
+      "content": "Thank you for telling me about the severe peanut allergy; any dinner arrangements would need the kitchen’s confirmation of ingredients and cross-contact precautions. For your anniversary, would a small private note be a welcome touch, or would you rather keep the occasion just between yourselves?",
+      "createdAt": "2026-10-06T11:20:14.132Z"
+    },
+    {
+      "id": "44fff2b8-fd55-4a97-b053-b65436186185",
+      "role": "user",
+      "content": "A private note would be lovely, about how he still makes me laugh after twenty years. No public singing or cake, please.",
+      "createdAt": "2026-10-06T11:21:20.162Z"
+    },
+    {
+      "id": "df90976f-27a1-410f-beea-e9ebef8fbebf",
+      "role": "assistant",
+      "content": "“He still makes me laugh” is a wonderful sentiment for a private note, with no public singing or cake. For your unhurried exploring, would you enjoy wandering independently with a few suggestions, or having someone guide you for part of a day?",
+      "createdAt": "2026-10-06T11:21:41.121Z"
+    },
+    {
+      "id": "5fae1622-2ab1-4581-8326-2fe906daff36",
+      "role": "user",
+      "content": "Mostly wandering on our own with a few good pointers. Tom likes having time to stop for photographs without holding a group up.",
+      "createdAt": "2026-10-06T11:22:30.606Z"
+    },
+    {
+      "id": "bb29ebc5-3ab5-4566-bb94-6732e52d570d",
+      "role": "assistant",
+      "content": "A few pointers rather than a group itinerary would leave Tom time to linger with his camera. When you come back to unwind, is there anything that makes your room especially comfortable—or anything that tends to disturb your sleep?",
+      "createdAt": "2026-10-06T11:22:50.666Z"
+    },
+    {
+      "id": "ae028c38-4b86-4550-8bae-967d15a68922",
+      "role": "user",
+      "content": "A quiet, cool room helps, and we prefer no added fragrance. Tom likes a soft pillow; I'm not fussy about mine.",
+      "createdAt": "2026-10-06T11:23:30.871Z"
+    },
+    {
+      "id": "3ecf4c4d-2acf-445d-89df-27b99a9253c6",
+      "role": "assistant",
+      "content": "A quiet, cool room without added fragrance, and a soft pillow for Tom—thank you. Is there anything else you’d like us to know, or anything you’d like to correct before we finish?",
+      "createdAt": "2026-10-06T11:23:55.989Z"
+    },
+    {
+      "id": "713c2f48-cfe4-40bd-8203-004def469a47",
+      "role": "user",
+      "content": "Nothing else, thanks.",
+      "createdAt": "2026-10-06T11:24:31.742Z"
+    },
+    {
+      "id": "1de806f4-f958-4090-8c75-12eacfe70975",
+      "role": "assistant",
+      "content": "Thank you, Aisha. Wishing you and Tom a wonderful anniversary visit—we look forward to welcoming you both to Bangkok.",
+      "createdAt": "2026-10-06T11:24:52.072Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "d9a816cc-0d37-4774-9875-1abadf4b0e6f",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nAisha and Tom, two guests, staying 20–24 November 2026 (four nights). Tom is Aisha’s husband; this visit celebrates their twentieth wedding anniversary and is their first visit to Bangkok. They want one special dinner and unhurried exploration, not packed days. Nothing was booked at discovery; the anniversary date within the stay was not specified.\n\nB) COORDINATION\nAssigned concierge to lead dining and exploration support, with reception/housekeeping owning room preparation and the relevant kitchen owning food decisions.\n\nHotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, current menus and prices require verification.\n\nCritical F&B handoff: Aisha has a severe peanut allergy. Every outlet serving her must confirm ingredients and cross-contact precautions under its actual protocols before accepting a food arrangement; menu descriptions do not establish safety. Carry this alert into any dining enquiry. Keep anniversary information limited to those delivering the agreed attention: no public singing or cake.\n\nC) GUEST PROFILE\n- Aisha loves Thai home cooking and fragrant Thai curries. Chilli tolerance and drink preferences were not established.\n- Aisha reports that Tom has no food restrictions; his food tastes remain unspecified.\n- Tom particularly enjoys photographing gardens and small architectural details, with time to stop without delaying a group.\n- They prefer mostly independent wandering with a few good pointers.\n- Both value a quiet, cool room with no added fragrance. Tom likes a soft pillow; Aisha is not fussy about hers.\n- Aisha welcomes a private note about how Tom still makes her laugh after twenty years.\n\nD) RECEPTION\nConfirm the room preparation with housekeeping before arrival. At a convenient point, offer concierge help with their single special dinner; establish the preferred evening only if they wish to proceed. Do not present a celebration package or arrangement as already included or booked.\n\nFor exploring, offer a concise set of pointers rather than a daily itinerary or group-tour default.\n\nE) ROOM PREPARATION\nReception/housekeeping: seek a quieter location within the booked category, check cooling controls, and prepare without added fragrance. Confirm the booked wing/category before allocation; do not promise silence or a particular temperature. Check available soft pillows for Tom without assuming a published pillow range.\n\nPrivate note: proposed for hotel approval and discreet room placement, reflecting Aisha’s welcomed sentiment. Possible hotel-authored wording: “Welcome, Aisha and Tom. Wishing you a wonderful twentieth anniversary and many more years of laughter together.” This is a draft, not wording supplied by Aisha. No cake or added celebratory display.\n\nF) CONCIERGE\n- Paid dinner proposal: explore one Celadon dinner centred on Aisha’s interest in fragrant Thai curries, with kitchen-selected dishes only after severe-allergy feasibility is established. Concierge coordinates; Celadon confirms recipes, cross-contact controls, availability and a quote. Check chilli preference, Tom’s choices, dress requirements and preferred evening. Explain scheduled performances when considering seating; privacy does not guarantee silence.\n- Photography-led exploration: concierge to prepare one flexible self-guided outing combining gardens and architectural details, researching current access, photography rules, travel time and opportunities to pause. Leave substantial free time. Also identify suitable hotel gardens, courtyards and lotus-pond viewpoints, checking guest access and dining-area boundaries; no guided session or exclusive access is implied.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "cfbe2838-2b01-4e08-94dd-2c130a361dc6",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T11:25:55.719Z",
+      "updatedAt": "2026-10-06T11:25:55.719Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nAisha and Tom, two guests, staying 20–24 November 2026 (four nights). Tom is Aisha’s husband; this visit celebrates their twentieth wedding anniversary and is their first visit to Bangkok. They want one special dinner and unhurried exploration, not packed days. Nothing was booked at discovery; the anniversary date within the stay was not specified.\n\nB) COORDINATION\nAssigned concierge to lead dining and exploration support, with reception/housekeeping owning room preparation and the relevant kitchen owning food decisions.\n\nHotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, current menus and prices require verification.\n\nCritical F&B handoff: Aisha has a severe peanut allergy. Every outlet serving her must confirm ingredients and cross-contact precautions under its actual protocols before accepting a food arrangement; menu descriptions do not establish safety. Carry this alert into any dining enquiry. Keep anniversary information limited to those delivering the agreed attention: no public singing or cake.\n\nC) GUEST PROFILE\n- Aisha loves Thai home cooking and fragrant Thai curries. Chilli tolerance and drink preferences were not established.\n- Aisha reports that Tom has no food restrictions; his food tastes remain unspecified.\n- Tom particularly enjoys photographing gardens and small architectural details, with time to stop without delaying a group.\n- They prefer mostly independent wandering with a few good pointers.\n- Both value a quiet, cool room with no added fragrance. Tom likes a soft pillow; Aisha is not fussy about hers.\n- Aisha welcomes a private note about how Tom still makes her laugh after twenty years.\n\nD) RECEPTION\nConfirm the room preparation with housekeeping before arrival. At a convenient point, offer concierge help with their single special dinner; establish the preferred evening only if they wish to proceed. Do not present a celebration package or arrangement as already included or booked.\n\nFor exploring, offer a concise set of pointers rather than a daily itinerary or group-tour default.\n\nE) ROOM PREPARATION\nReception/housekeeping: seek a quieter location within the booked category, check cooling controls, and prepare without added fragrance. Confirm the booked wing/category before allocation; do not promise silence or a particular temperature. Check available soft pillows for Tom without assuming a published pillow range.\n\nPrivate note: proposed for hotel approval and discreet room placement, reflecting Aisha’s welcomed sentiment. Possible hotel-authored wording: “Welcome, Aisha and Tom. Wishing you a wonderful twentieth anniversary and many more years of laughter together.” This is a draft, not wording supplied by Aisha. No cake or added celebratory display.\n\nF) CONCIERGE\n- Paid dinner proposal: explore one Celadon dinner centred on Aisha’s interest in fragrant Thai curries, with kitchen-selected dishes only after severe-allergy feasibility is established. Concierge coordinates; Celadon confirms recipes, cross-contact controls, availability and a quote. Check chilli preference, Tom’s choices, dress requirements and preferred evening. Explain scheduled performances when considering seating; privacy does not guarantee silence.\n- Photography-led exploration: concierge to prepare one flexible self-guided outing combining gardens and architectural details, researching current access, photography rules, travel time and opportunities to pause. Leave substantial free time. Also identify suitable hotel gardens, courtyards and lotus-pond viewpoints, checking guest access and dining-area boundaries; no guided session or exclusive access is implied.",
+      "promptVersion": "brief-v3"
+    }
+  ],
+  "invitations": []
+}

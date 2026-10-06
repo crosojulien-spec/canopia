@@ -1,0 +1,34 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 7154,
+  "guest": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Ten years since you met—a special reason to return. Is there a place or memory in Nice you’d like to revisit together, or have you already made plans for the anniversary?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Anniversary memories and plans",
+    "threads": [
+      {
+        "topic": "Anniversary return to Nice",
+        "detail": "Returning to Nice for the tenth anniversary of when they met; Marc is Leonie's partner. Plans and meaningful places remain open.",
+        "person": "Leonie and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+        ]
+      }
+    ],
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and relationship",
+      "value": "Leonie and her partner Marc are returning to Nice for the tenth anniversary of when they met.",
+      "sourceQuote": "My partner Marc and I are coming back to Nice for the tenth anniversary of when we met.",
+      "sourceMessageId": "4f82f6c1-3794-4986-a792-7b14b0feae8a"
+    }
+  ]
+}
