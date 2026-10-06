@@ -53,6 +53,8 @@ On 6 October, the [conversation agent role](docs/Conversation%20agent%20role.md)
 
 The role document is a readable explanation. The actual model instructions are in [conversation-v3.1.txt](prompts/conversation-v3.1.txt), selected by `server/ai.ts`; each call also includes the reservation, hotel DNA and conversation transcript.
 
+The [100 offline discovery simulations](docs/100%20offline%20discovery%20simulations.md) are a separate design workshop requested on 6 October: ten batches of self-authored roleplays, ten reviews and ten cumulative behaviour revisions, with no Canopia API calls. Their candidate remains outside the active prompts. This is editorial evidence for future changes, not model-performance or field validation.
+
 ## Reading order
 
 | File | Purpose |

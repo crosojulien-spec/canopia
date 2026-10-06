@@ -23,8 +23,8 @@
       "sha256": "ff6841b60f0bd313e9078a4c7bf2a64bb6c53bfadc220a006fb76145cda733f7"
     },
     "README.md": {
-      "bytes": 9053,
-      "sha256": "2070381f887f98b7c07bfcac44ea9fe10bef099a60c1f78f1fa37cf9eec7d17f"
+      "bytes": 9459,
+      "sha256": "06fe4cb9264d9642c985098139a2bf83992d4a9a54263368f62dddc535e307f0"
     },
     "START_HERE.txt": {
       "bytes": 2287,
@@ -113,6 +113,10 @@
     "docs/05 Hackathon extension.md": {
       "bytes": 2983,
       "sha256": "c664608baf92a06f82a57ae7535354369fe136b4b243877fc98b707eac02ca87"
+    },
+    "docs/100 offline discovery simulations.md": {
+      "bytes": 8809,
+      "sha256": "b7ed8c524162653282d110e31712c315022b33019d8e9d7a4751fbc36ca35878"
     },
     "docs/AI trial and budget.md": {
       "bytes": 6931,
@@ -445,6 +449,142 @@
     "fixtures/evaluations/2026-10-06 conversation v3/verification.json": {
       "bytes": 742,
       "sha256": "628292202ce4d07ae0e503bfbfed7f80d3b2fe748a544572272897b3425b92e2"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 01.md": {
+      "bytes": 9895,
+      "sha256": "fdd2e62e0e05ed7490f3d543eefed6f62eccc4d3401c8583525c46d1c1f30433"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 02.md": {
+      "bytes": 9206,
+      "sha256": "5dbe8f8883fa4030af96d7f12c1c9dfde9ea9a695ed23d001c4f39c021c0d50a"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 03.md": {
+      "bytes": 9758,
+      "sha256": "39f9b06514923eca2db062ff056965ad55446f3ec1f34b751f29e48bd1bbce8d"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 04.md": {
+      "bytes": 9758,
+      "sha256": "5acc0b6bff53a3f24776d0eeed289fcfa262a51a8b915a044105d8e621878360"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 05.md": {
+      "bytes": 9731,
+      "sha256": "1dafe437a9b955261992035d6ee69bf9c9a5c245ce04a280f59c9e321ee4a92a"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 06.md": {
+      "bytes": 10033,
+      "sha256": "9363f864e7e71b8d9c01d837a530eeedb77041d76fc4a99f993c47831169462b"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 07.md": {
+      "bytes": 9765,
+      "sha256": "0e95a96be84a08a4058a162957db81932822ba7a32fb997216033af2e0c2dcb1"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 08.md": {
+      "bytes": 9499,
+      "sha256": "14f280ff9737a4ee66a94424d2c6278a54d6c48c8629f9292b39075dc95c087f"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 09.md": {
+      "bytes": 9398,
+      "sha256": "f079e6350a70d080da304ae8e90ea8374ddaf3bb56ebbe7fadac465b0f0ccdd7"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Batch 10.md": {
+      "bytes": 12065,
+      "sha256": "c4072a5db37221fe14745bbcb002faeccb8559751b637b826f0e0defb95d53e1"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 00.txt": {
+      "bytes": 11253,
+      "sha256": "d2ddf818353cf69b219c0261fa7d254e64f3c7fd2d276129a9b109d34664c8fd"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 01.md": {
+      "bytes": 694,
+      "sha256": "4b1cb5c1cb3563964e2bb0c9cc084dc59c0d5ad1ec6d4c48b829ebc634803041"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 02.md": {
+      "bytes": 635,
+      "sha256": "4026b764a5282deec814d0bb0bd23c8b1feb3d9fb3f19fdf1e92d179cb053174"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 03.md": {
+      "bytes": 606,
+      "sha256": "1413aef291bdd97fe20bc2b09ce7c540b6a870dc8ac2d47ac73f39350d646fa4"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 04.md": {
+      "bytes": 743,
+      "sha256": "254b56e796991ce0b2b5fba94e142d26f028f719c354dc56b5ebb6c6c8aec9e4"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 05.md": {
+      "bytes": 926,
+      "sha256": "0369013f5b80e632dd2d69a689847ae0aae36c2bae622a062492fa5bb927e51a"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 06.md": {
+      "bytes": 941,
+      "sha256": "884e166f7b2f9a684f252cb363179b376b5a5db873f3e89f435048c0b0453c03"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 07.md": {
+      "bytes": 891,
+      "sha256": "3ba7fdec475ee70eb51f7870709083bf7b0836345138c2c9190b3050bb221fb7"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 08.md": {
+      "bytes": 822,
+      "sha256": "93b52cc2936fa4de864bb5896f8415f63ae3bd737aa5d1626bd9abef403d2891"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 09.md": {
+      "bytes": 1167,
+      "sha256": "68afca5db9f910527c251f10a07b33b77148cf1cd9b5f18247ed9b751f12996e"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Behavior 10.md": {
+      "bytes": 926,
+      "sha256": "8060aea9ccf9b9fe910dea9324eb38b46d1c09bfdde8631f6208a56e7ff8a4c4"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Discovery behavior candidate.md": {
+      "bytes": 9731,
+      "sha256": "de49c90a9c74687928d13eff5cd32d09558cd9b549e151b46578d6742ba8aa9d"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/README.md": {
+      "bytes": 6818,
+      "sha256": "7db5209650432fabb9bde7b03bb6e834daf18ebfa0d08cd336bb530dabafb66a"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 01.md": {
+      "bytes": 846,
+      "sha256": "254e132e56f75170cd4917dd42b919ca242441c061e9cb503c84381de9cbe101"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 02.md": {
+      "bytes": 695,
+      "sha256": "c2165f01a1eec6ec14cd649530d9020c67b43727938e6e8b1eef1b4471186626"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 03.md": {
+      "bytes": 685,
+      "sha256": "0ba667508816871bafa93d9693959f080b777684f7c7e98cea2798dd4f6b3d8c"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 04.md": {
+      "bytes": 505,
+      "sha256": "a655a0b2e011fed9d63857d7342dc55e589d111bc188f281f2169293a9947fde"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 05.md": {
+      "bytes": 637,
+      "sha256": "a5aac2ea2e4becf288e448405bef064a75d8caaffc0e7ad733edddba317cfc25"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 06.md": {
+      "bytes": 686,
+      "sha256": "1b88b5cc160b1762bec465f03c6a82241dbc1f330cd145a091a1eb11573402f9"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 07.md": {
+      "bytes": 773,
+      "sha256": "b556d69285b6afcf4270107c167829686da3efcecdc9065e95f7459d0ffb7352"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 08.md": {
+      "bytes": 732,
+      "sha256": "9a4541a1197310b8820b4c32f4392b61968134e013a454cc71823af403d6b36b"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 09.md": {
+      "bytes": 844,
+      "sha256": "4a4261d32559ddc328178868b8b94ea083112d7905daaa3593ad2975f4fa0181"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Review 10.md": {
+      "bytes": 1390,
+      "sha256": "14f861099957df9e9385c2bc68846d735af4404266dd4cd5c9a6d4e6a9e3e078"
+    },
+    "fixtures/evaluations/2026-10-06 offline discovery workshop/Verification.json": {
+      "bytes": 27058,
+      "sha256": "6e2f5ec9b30a3e7fec1eec6cb75a1c097afca43395235a66a0b4a5af23dc32c2"
     },
     "fixtures/historical/README.md": {
       "bytes": 1396,

@@ -1,0 +1,928 @@
+{
+  "case_count": 100,
+  "guest_turns": 686,
+  "host_turns": 686,
+  "minimum_guest_turns": 1,
+  "maximum_guest_turns": 10,
+  "batch_count": 10,
+  "review_count": 10,
+  "revision_count": 10,
+  "continuation_case_ids": [78, 80],
+  "cases": [
+    {
+      "id": 1,
+      "title": "Child birthday",
+      "batch": 1,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "8ef93d056928cfa4f32fbee67b55636e09d3f317d5617feab50ae90da8c628f3"
+    },
+    {
+      "id": 2,
+      "title": "Returning city couple",
+      "batch": 1,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "d85a7d5984143ab17125c730fafaf764a2f3ba2fc4d7291eb3548de869dc93d7"
+    },
+    {
+      "id": 3,
+      "title": "Solo work evenings",
+      "batch": 1,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "2a31a9390c76b6bba159cefec3d89a31b3e9ff3cd3746f63d694de3b7a21873d"
+    },
+    {
+      "id": 4,
+      "title": "Tired couple",
+      "batch": 1,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "44c5f9acfdca2c0d1867e47e141664095fc15ff0fe2f643ec9249ce453000f44"
+    },
+    {
+      "id": 5,
+      "title": "Mother and adult daughter",
+      "batch": 1,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "05c3314002c551314a2ad4a29ac1ab6e637f8c35aa660489d82ff2edb3f99e32"
+    },
+    {
+      "id": 6,
+      "title": "First solo holiday",
+      "batch": 1,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "75b5fbdbc01dd0887cdf12c9febae1be4ca09b08999ccaceb5382b51c7176d96"
+    },
+    {
+      "id": 7,
+      "title": "Friends with different tastes",
+      "batch": 1,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "04d78232d3203b6b54fb9906058db887c9df346b65995eb101237f0361eb51f6"
+    },
+    {
+      "id": 8,
+      "title": "Short informative replies",
+      "batch": 1,
+      "guest_turns": 9,
+      "host_turns": 9,
+      "transcript_sha256": "19edafef713aa53e0e5b01a12309f48537f21a584b3831bf4c2f443f3de68340"
+    },
+    {
+      "id": 9,
+      "title": "Private family reason",
+      "batch": 1,
+      "guest_turns": 4,
+      "host_turns": 4,
+      "transcript_sha256": "5c2f64941f7c33c8ce195271279038d79751865e48fb709996dd737ee6e20845"
+    },
+    {
+      "id": 10,
+      "title": "Anniversary, no note",
+      "batch": 1,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "106c983409156df11a5104879af8151426f3f023e87b5ef11eabcd12e5c6b4a5"
+    },
+    {
+      "id": 11,
+      "title": "Birthday without a plan",
+      "batch": 2,
+      "guest_turns": 9,
+      "host_turns": 9,
+      "transcript_sha256": "d4d812f5ee9060e091ecb3bb0a017579715998f2ed1916dfe6ccb13eb805fdf9"
+    },
+    {
+      "id": 12,
+      "title": "Work plus leisure",
+      "batch": 2,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "888085c747fc4c785ffd0ade94bf765cd289b19c5a3c3fbd106221ee7a88fdd0"
+    },
+    {
+      "id": 13,
+      "title": "Separate interests",
+      "batch": 2,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "28a4b2f4b8f6c03aa5a36182f79a074c9b0dc7b7f84f299c2bb285ba24001ccb"
+    },
+    {
+      "id": 14,
+      "title": "Late stopover",
+      "batch": 2,
+      "guest_turns": 4,
+      "host_turns": 4,
+      "transcript_sha256": "009a7b85113ddd072a4c401ff1ed18a945821bc41eae3abf6c234272125cb2bf"
+    },
+    {
+      "id": 15,
+      "title": "Unknown partner tastes",
+      "batch": 2,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "7b596f1178d70c0031f82bd4a9cd2128a4329f1bd7a75af75de7c0f34fa27132"
+    },
+    {
+      "id": 16,
+      "title": "No pillow preference",
+      "batch": 2,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "72d20fdb836dacac5ed2c7f30ce788930372ee1c9ef110d91b7bab52787e6bef"
+    },
+    {
+      "id": 17,
+      "title": "Hobby without a favourite",
+      "batch": 2,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "c64bd6cad4c0a22207a50a68afe59a23897e8112c5cb3892ea13cc4865f4e019"
+    },
+    {
+      "id": 18,
+      "title": "Bedding assumption trap",
+      "batch": 2,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "de00433848855ef526e31effd8f06e534776bed6adadc4237a1153626a4a54de"
+    },
+    {
+      "id": 19,
+      "title": "Privacy question",
+      "batch": 2,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "251434b6fbe0e7242d2f9edf3a51592e8c5b0afe3994b046b6dd0a703e2459fd"
+    },
+    {
+      "id": 20,
+      "title": "Explicit withdrawal",
+      "batch": 2,
+      "guest_turns": 2,
+      "host_turns": 2,
+      "transcript_sha256": "e11bf2733de5fdbb3b42953250ffb504aa065d8e5b0c599696210fb28ade1499"
+    },
+    {
+      "id": 21,
+      "title": "Celebration already arranged",
+      "batch": 3,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "e9f77b64f16ab2ef3833653e82b8a7ee2e118fb2b62e50b3763490b5310f2755"
+    },
+    {
+      "id": 22,
+      "title": "Spontaneous artist detail",
+      "batch": 3,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "6d00be3d83bb619b07b4c1cea114f84ab3cae5e759bc6890946b9c6e20d07c31"
+    },
+    {
+      "id": 23,
+      "title": "An unnamed memory",
+      "batch": 3,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "7e716d73ec4e1bc81434cc84f6ed68782a93588a824f32fa40cadd16a574a675"
+    },
+    {
+      "id": 24,
+      "title": "Brief replies, sociable guest",
+      "batch": 3,
+      "guest_turns": 10,
+      "host_turns": 10,
+      "transcript_sha256": "48e94b84e77d2fe8dcb0f9def9781f77c73fc02ad42d2a049f27874f996ae9f8"
+    },
+    {
+      "id": 25,
+      "title": "Late food correction",
+      "batch": 3,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "886ce7716e04ed37ba0f00a0659a719bf5c0c75f7a437b82a8225540d28a5ada"
+    },
+    {
+      "id": 26,
+      "title": "Colleague pair",
+      "batch": 3,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "452ebf9ef39d684ba93092a7bd5beb4262dee3ba24d0277274d137050ce0a175"
+    },
+    {
+      "id": 27,
+      "title": "No gym confirmation",
+      "batch": 3,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "dbd07d7384c38d7c5f0d9f172fab5b807a7930d010a9981c38f0c30435f9737a"
+    },
+    {
+      "id": 28,
+      "title": "Room request interrupts discovery",
+      "batch": 3,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "4b2f13a61743b1cbede97c98386e13114ddb8b152cb93961b74758361de91ebb"
+    },
+    {
+      "id": 29,
+      "title": "Evening availability",
+      "batch": 3,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "0c3f911bcca7a794f8793127810058c47abf8882a5d38bbde8a061674056f200"
+    },
+    {
+      "id": 30,
+      "title": "Guest leaves mid-topic",
+      "batch": 3,
+      "guest_turns": 3,
+      "host_turns": 3,
+      "transcript_sha256": "89e3b143ede66b507dd87aaaacdac8a6c21eeee9dc71e1ef53220c6b1500f5c5"
+    },
+    {
+      "id": 31,
+      "title": "Child dislikes surprises",
+      "batch": 4,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "a54b3427b24fa223fbfade39b80fd9dfba5bba8c51c323144105d1000b6030c6"
+    },
+    {
+      "id": 32,
+      "title": "Attribution correction",
+      "batch": 4,
+      "guest_turns": 9,
+      "host_turns": 9,
+      "transcript_sha256": "9454503add109084eb4d2ff2dedde3302ce81ff7e9e809ffc800abdc327a4676"
+    },
+    {
+      "id": 33,
+      "title": "Different sleep needs",
+      "batch": 4,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "6090df06acbd5ced9c42f53c1650d4f5658d39fe3904a3d925dd53ed6c9b1346"
+    },
+    {
+      "id": 34,
+      "title": "Solo birthday",
+      "batch": 4,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "74fea2685f1819cdfa2b8ea18abcb465fbbab73364d770e4f1e5d5a539e7273c"
+    },
+    {
+      "id": 35,
+      "title": "Three generations",
+      "batch": 4,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "d513883df6d1e553bc06cb7ba52c4e8acedac11b7435a2c3ca21b934ae963794"
+    },
+    {
+      "id": 36,
+      "title": "Temporary deadline",
+      "batch": 4,
+      "guest_turns": 3,
+      "host_turns": 3,
+      "transcript_sha256": "f2e9efa4f4c1592611db946580737b6c243ea566484870bb4f9ada40997aa1e3"
+    },
+    {
+      "id": 37,
+      "title": "Overwhelmed first visitor",
+      "batch": 4,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "e34696e51775d5b94458445aa833577748ab4f0cc05f63204907517dd020cd6b"
+    },
+    {
+      "id": 38,
+      "title": "Return with novelty",
+      "batch": 4,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "27d40ab6b117c0211fbf39ca8b4ab4f11900ba663a197180433b9c29c2e4d6cd"
+    },
+    {
+      "id": 39,
+      "title": "Humour",
+      "batch": 4,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "6317245f7a3c7044f3c65ed0f6de44371ecd073956d710ada4506b7b421e3ee6"
+    },
+    {
+      "id": 40,
+      "title": "Late comfort addition",
+      "batch": 4,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "a5ba88b4612e2710d7b4ebb29d34edc63561754670049d2f485aa4fdf7211424"
+    },
+    {
+      "id": 41,
+      "title": "Allergy and a drawing ritual",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "6440568f62847c1f4c61d03fb9492692b20270ffa37c5d0ca4803d3d7dffc3aa"
+    },
+    {
+      "id": 42,
+      "title": "Sensory exception",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "8b4854792e0d136b0105c51b168dc1466edfbfaa95df185a6a2fe091fc8f44ea"
+    },
+    {
+      "id": 43,
+      "title": "Scent and memory",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "5d4b2857ef303a336a42ac823b957e716ee63ac53e19dcc6d8e38994d81da1e8"
+    },
+    {
+      "id": 44,
+      "title": "Mobility without diagnosis",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "38a2a893ffa136c1997ed0c9397c87dd89a555792e96cfc8e548a02b2892711d"
+    },
+    {
+      "id": 45,
+      "title": "Private emotional context",
+      "batch": 5,
+      "guest_turns": 5,
+      "host_turns": 5,
+      "transcript_sha256": "451192c341d5dc9c3c2624e8aa8e9583142015e273a46cfa57c13662ae1fa7f4"
+    },
+    {
+      "id": 46,
+      "title": "Teen preferences unknown",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "32c2183d70df27dceaea74cfa36b3e6d177b4cc5ab0a6381541fde2d73fb56fa"
+    },
+    {
+      "id": 47,
+      "title": "Guest asks host to choose",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "d1a357abd5cff33c1747836f7453eb2a2a40b70115659b3581ba36093a6b5db6"
+    },
+    {
+      "id": 48,
+      "title": "Booking request",
+      "batch": 5,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "4e086e5b8c5eff94a31d1fddaca7965f657ea3b95b53f47f0be88d51e520b464"
+    },
+    {
+      "id": 49,
+      "title": "Note without exact wording",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "8c73217eded7f573d9b22b9144aa90daf1bf413a0fc7b48e5336fc5bf6bc4d17"
+    },
+    {
+      "id": 50,
+      "title": "Group disagreement",
+      "batch": 5,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "c7c920eb5bdd8f1ae9898e2153cd75daf7e6932beaf6554b428e416e00eba1a2"
+    },
+    {
+      "id": 51,
+      "title": "Short, rich answers",
+      "batch": 6,
+      "guest_turns": 9,
+      "host_turns": 9,
+      "transcript_sha256": "724c64ababc1c93dc4efe648a909ff889b153f4692348fc1fc226fdd6f962cb7"
+    },
+    {
+      "id": 52,
+      "title": "Efficient guest",
+      "batch": 6,
+      "guest_turns": 5,
+      "host_turns": 5,
+      "transcript_sha256": "8c7fcbed15b85e7a99c1d2d0d69d76e4d474c697fc94cdbfa3cce0b0b5faba05"
+    },
+    {
+      "id": 53,
+      "title": "Expansive storyteller",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "10c6893fad009526226e68e806051c8239a7f3f49353712b4db8f46cc222ce8f"
+    },
+    {
+      "id": 54,
+      "title": "Companion changes",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "1fda05b4993bd20d687d106a48ae046d45a5f247b37bd09b9402ac9e57547303"
+    },
+    {
+      "id": 55,
+      "title": "Refusal of one subject",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "71cae440ec63aef02a254ad28f5fce95b3c9122535a6e7a392e4ba8597bfecda"
+    },
+    {
+      "id": 56,
+      "title": "Dislike versus allergy",
+      "batch": 6,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "e316b1f131dffd24d8056a2fd8ab96c040a45ef21fd99696d5bce4ac2bdcabff"
+    },
+    {
+      "id": 57,
+      "title": "Child routine and adults",
+      "batch": 6,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "0c4a4595f3d6acc7a719eaeccfdfbf20ba948cc6bb5180ea7552af214372dd06"
+    },
+    {
+      "id": 58,
+      "title": "Past milestone",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "1be630f4004cfeaecbeff706f7583b97339f4a8b14dc92319fb5ab67ba6d3332"
+    },
+    {
+      "id": 59,
+      "title": "Work habits and free evening",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "7e0266de30877f865857e9b4d044e8fce857075080ac07d7da0247cc89698bb7"
+    },
+    {
+      "id": 60,
+      "title": "Apparent contradiction",
+      "batch": 6,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "4f0565d677ebea3f3b0e223d8f42f6aa634b50771d79eeaaf4758102e7a43175"
+    },
+    {
+      "id": 61,
+      "title": "Birthday and working parent",
+      "batch": 7,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "a434518c4013b982d5705f0ef524bb899dd99b6a61c3fc90058079a0bef4adb6"
+    },
+    {
+      "id": 62,
+      "title": "Different daily rhythms",
+      "batch": 7,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "bd3c151ce46306e7acee848746b67f617bef54f47ff8cffecde2215e7b99b7f0"
+    },
+    {
+      "id": 63,
+      "title": "Retirement trip",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "27a3eba40acc846192b865909857c1a874fc554d3f4136ce8af5257ad71d31ec"
+    },
+    {
+      "id": 64,
+      "title": "Quiet room, lively meals",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "d04013c44a5dc2626d2a5002233bc6abd7d66c294013ab6120fc31ee86e442c8"
+    },
+    {
+      "id": 65,
+      "title": "No defined preferences",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "48a28fb725e5d4fd3de134961b2d9fa5e68b69d42578b9878e9fd8d1264449a8"
+    },
+    {
+      "id": 66,
+      "title": "Changed needs on return",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "1beb2621509a709eb76e15dd52ce1cbf13b5d3eb1121fa0f825098453e79eab8"
+    },
+    {
+      "id": 67,
+      "title": "Duvet humour",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "54319025c280c59d16f2104daec4addd01547970e559c9556ab8f08811787864"
+    },
+    {
+      "id": 68,
+      "title": "Drinks and name",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "9ecc3dcfe443ef39469ce8f586d84e867618503bfc741df12af5c33e2b517ca4"
+    },
+    {
+      "id": 69,
+      "title": "Note and privacy",
+      "batch": 7,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "f85da5fb57d5e7fc616508063b1efa0f444c69afbff30ab18b62b84f06e4a95a"
+    },
+    {
+      "id": 70,
+      "title": "End after one answer",
+      "batch": 7,
+      "guest_turns": 1,
+      "host_turns": 1,
+      "transcript_sha256": "c8316bc949af540c5a16cd7b722737e8d3643d2043d30239e03af5d2a6e0137e"
+    },
+    {
+      "id": 71,
+      "title": "Sketching and a place to pause",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "58d5afe0552394466ffcb2a13b917d2c376ca7e07e58ef6d9342d006bbd557ec"
+    },
+    {
+      "id": 72,
+      "title": "Music without a concert",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "2bae353b558c0f949433d28b1b3c0a6cfccbc7d9cf1049bbd549603f5783bb02"
+    },
+    {
+      "id": 73,
+      "title": "Coffee without an upsell",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "b236ffd743f9ca620ade1206824f316b7e6e94ac59406e9b51d5a96ddd72a17f"
+    },
+    {
+      "id": 74,
+      "title": "Transport uncertainty",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "97da51291787908bc762d1a886bf40e7a42cc3b17a965094c422279fc78d1ba7"
+    },
+    {
+      "id": 75,
+      "title": "Flowers indifferent, scent matters",
+      "batch": 8,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "33a6355a51534aba083a18d5bb3cf89ab12e8b94e62f86d31c42777256fb200f"
+    },
+    {
+      "id": 76,
+      "title": "Child age not yet known",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "07e52785e4f7939d525c7633a5dc665bd1e7d9b33cf0201252e64854ee781c31"
+    },
+    {
+      "id": 77,
+      "title": "Conditional snack",
+      "batch": 8,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "8e4e559dce0a626e94c2a154b88275a5efa0139c88ebd6ead09e89f96dd9a12e"
+    },
+    {
+      "id": 78,
+      "title": "Guest flags repetition",
+      "batch": 8,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "5789a34f53456330b511e2ca0f0b7f40c97bafaa5e3ce0108d80e112423e87b2"
+    },
+    {
+      "id": 79,
+      "title": "Unknown room price",
+      "batch": 8,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "aa6d8d01d5edc277caf7ea3c6214dc343b3f90efae97980fd29babeb93d80ba0"
+    },
+    {
+      "id": 80,
+      "title": "Withdrawal after participation",
+      "batch": 8,
+      "guest_turns": 2,
+      "host_turns": 2,
+      "transcript_sha256": "77c019f55055bce6b1c659c3e7c75a18e1bb143c97550034f4b2b654b415966f"
+    },
+    {
+      "id": 81,
+      "title": "Note declined",
+      "batch": 9,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "654770039cf4a2bbd29128ea4b42fcfa0eaf80abf57ca42df0e42be2cb33317f"
+    },
+    {
+      "id": 82,
+      "title": "Hotel return versus city return",
+      "batch": 9,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "1499f0607206afaa570261e5e784fe5714f3b2a3b685cb428f763bb3b875c20b"
+    },
+    {
+      "id": 83,
+      "title": "Time boundary and evening interest",
+      "batch": 9,
+      "guest_turns": 5,
+      "host_turns": 5,
+      "transcript_sha256": "07e1cab4d2cd068f7fad7931bd3048deb174d0c5558a7478bcb8c66d22efbd82"
+    },
+    {
+      "id": 84,
+      "title": "Organiser cannot answer for everyone",
+      "batch": 9,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "627bd6cad053502eb2e061ad8e974bc8a32239d2d4400a61f7e6f46d440822a0"
+    },
+    {
+      "id": 85,
+      "title": "Interest attribution shifts",
+      "batch": 9,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "717b6e06e3628246cc6892671306e7ae3402ea789d9c3de903d8785503a596d4"
+    },
+    {
+      "id": 86,
+      "title": "Correction at farewell",
+      "batch": 9,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "91a416be1ad993364fa87cc37e5cd935bc469ca65d6976f17bcfaddd90c382bf"
+    },
+    {
+      "id": 87,
+      "title": "No organised activities",
+      "batch": 9,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "f753d699dcbd81a6cd5c27cf1c02da42a1638aae452f8240dc36897411e66fb2"
+    },
+    {
+      "id": 88,
+      "title": "Comfort fully volunteered",
+      "batch": 9,
+      "guest_turns": 6,
+      "host_turns": 6,
+      "transcript_sha256": "fba325a42792573bc9c418cba57790813a664275c0c216b0b85c901364064c22"
+    },
+    {
+      "id": 89,
+      "title": "Ambiguous help request",
+      "batch": 9,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "7cdbbd7cfab54b23273eacc38f661a8ddae461f15dc34b98b6eb87b72a0fdad4"
+    },
+    {
+      "id": 90,
+      "title": "Short stay, little appetite",
+      "batch": 9,
+      "guest_turns": 2,
+      "host_turns": 2,
+      "transcript_sha256": "6d3ab5c55eabd67a7810743886fef05bc9f9c76f18a3c53c35123b4be0dabf1d"
+    },
+    {
+      "id": 91,
+      "title": "Birthday, invented character, adults",
+      "batch": 10,
+      "guest_turns": 9,
+      "host_turns": 9,
+      "transcript_sha256": "f62b153d693a6be169233d3d873aa6c02e97ba29e26cc0788d1316fe7110c9ce"
+    },
+    {
+      "id": 92,
+      "title": "City return, tastes and bedding",
+      "batch": 10,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "f3b37e4b7d31a0fdf2d5d32fafc1e5bf03991f1915d87ae4678479e0d9f3e4d3"
+    },
+    {
+      "id": 93,
+      "title": "Complete work rhythm",
+      "batch": 10,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "fd0ef8f6bf6caf1775e5183a570b4115e23774b91a05e66cfd5b66b7d0f01582"
+    },
+    {
+      "id": 94,
+      "title": "Honeymoon and private reference",
+      "batch": 10,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "fb400a68d49530ae3a1bea999a0b3fda19eb34c6d07a964b9686353b1baeda8a"
+    },
+    {
+      "id": 95,
+      "title": "Exhausted arrival",
+      "batch": 10,
+      "guest_turns": 5,
+      "host_turns": 5,
+      "transcript_sha256": "f624e075b3d4933163bad6afd609757821810f29c00ccff8bb77bd5051c43730"
+    },
+    {
+      "id": 96,
+      "title": "Sociable solo explorer",
+      "batch": 10,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "d95baa99bc697c2adb8b430a0ee6e09940d5209b48ba8077c0459cf0f60a36db"
+    },
+    {
+      "id": 97,
+      "title": "Generations and boundaries",
+      "batch": 10,
+      "guest_turns": 8,
+      "host_turns": 8,
+      "transcript_sha256": "2f6d6d5edbf54b5dced8154b0a860a24d3fe7b54f8ca5584fe7176a692b7ae43"
+    },
+    {
+      "id": 98,
+      "title": "Direct request with an opening",
+      "batch": 10,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "9ae614711184792862d3727ddf4aaaefc21e0f7da71efddc56afc77a293effbf"
+    },
+    {
+      "id": 99,
+      "title": "Note refusal, new interest",
+      "batch": 10,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "9b814bd0c7a2e7388b8dd43babc2f9c34205beb20092c50f0f195a5caea4d351"
+    },
+    {
+      "id": 100,
+      "title": "Group, correction and final addition",
+      "batch": 10,
+      "guest_turns": 7,
+      "host_turns": 7,
+      "transcript_sha256": "dea2b529161f4c7361fa814a92d675edee111343d8592ec89199f354bfdcf5dd"
+    }
+  ],
+  "kind": "self-authored offline roleplay integrity checks, not model performance",
+  "application_api_calls": 0,
+  "application_api_cost_usd": 0,
+  "application_runtime_unchanged": true,
+  "baseline_snapshot_matches_active_prompt": true,
+  "last_revision_exercised_in_workshop": 9,
+  "final_candidate_revision": 10,
+  "final_candidate_tested": false,
+  "active_application_prompt": "conversation-v3.1",
+  "runtime_sha256": [
+    {
+      "path": "server/ai-budget.ts",
+      "sha256": "cc4275c8c2402bd099f3ec0b5112c08af34c0dd2bef6392748bede3a1a7f8f4e"
+    },
+    {
+      "path": "server/ai.ts",
+      "sha256": "08597a4145f3ed6c694f3ac1f00658309c60dfef24e88ab6029d82e097a21571"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "5a4963130e8ee13193c5131aa7f5ce9fc826bf814e389391fe06a6a63576424d"
+    },
+    {
+      "path": "server/config.ts",
+      "sha256": "912f2c383fed100093ef13ba13296186f4f6df6e34d5238ca5a7304b6794922a"
+    },
+    {
+      "path": "server/db.ts",
+      "sha256": "011a8594745b596ea07a9f4aeefe066bf252e86f9967a3f5b158e901957ceb7e"
+    },
+    {
+      "path": "server/hotel-profiles.ts",
+      "sha256": "8b98a3225de40f4ae0f2d72ba2910dd70b62131a389828ca8bc1be7c04331aa5"
+    },
+    {
+      "path": "server/index.ts",
+      "sha256": "6f66fd767912cc203974484cd1bc16663384c247cdb9127921015350e3c791da"
+    },
+    {
+      "path": "server/security.ts",
+      "sha256": "b21778450d731113fcc48eb565c077c513a735a6a248dca9efdb1a8112c98638"
+    },
+    {
+      "path": "server/seed.ts",
+      "sha256": "3e7b8f4687509a86acd52a0b6bda71f430e513fcc7f231c4b22037c3ea8ba55e"
+    },
+    {
+      "path": "server/service.ts",
+      "sha256": "06ffdb06d41c313b8a1a10a6f5a23463c07bb5d8079092522c10b45c7326e02d"
+    },
+    {
+      "path": "client/api.ts",
+      "sha256": "fb244bee7a8b122d65ea2f1049deeb1a027e0afb8c7a5445754175a46c3e924a"
+    },
+    {
+      "path": "client/App.tsx",
+      "sha256": "0d6b91b03a8d1999258241b92d22657739e4e2a7f0128334f8527967cda02efb"
+    },
+    {
+      "path": "client/DnaReview.tsx",
+      "sha256": "18d6ad7ccba2741e1ae61bd2b6fcf3e89759e6e4a63f4ff12ef15f4b6cbf1d9b"
+    },
+    {
+      "path": "client/Guest.tsx",
+      "sha256": "b4c3cc2e3799ba8838050de45d95148fb171dcb247df97a479a8d2ba5f4db560"
+    },
+    {
+      "path": "client/main.tsx",
+      "sha256": "6cbf32e5dd4efb807b04f3fd79c196e84e1e46ed152a4d7279439276ef525826"
+    },
+    {
+      "path": "client/StayWorkspace.tsx",
+      "sha256": "2cf96611c05bbd4ce6f0a0480b8b9347de27c5f5d8040d0ba2163ec838f35708"
+    },
+    {
+      "path": "client/styles.css",
+      "sha256": "d3639cb6d9acef26dbaba3c900a80b8f3b19ceba414d3a615c40e334940406af"
+    },
+    {
+      "path": "shared/types.ts",
+      "sha256": "818e9ee3c3482819a3cb1c9c8ce7141193452b27166388a56ec02197561e3ab6"
+    },
+    {
+      "path": "prompts/brief-v1.txt",
+      "sha256": "b6324bc15c948000430712e9f66b31362dc896988f6ab7f58fa70721c18ee4ec"
+    },
+    {
+      "path": "prompts/brief-v2.txt",
+      "sha256": "9fe75717bb159a5eae7ef8f03fca2bd9dc97658bc0a1d3e19d76090617135a79"
+    },
+    {
+      "path": "prompts/conversation-v1.txt",
+      "sha256": "a302438df53f7fdcfb43dd06f81ebaa9e8e49813db94645163a45e905b9ca3fe"
+    },
+    {
+      "path": "prompts/conversation-v2.txt",
+      "sha256": "de611f04df60f35dc24932b6bb647fa9ee1799069445aba5a03122ed86d40bbc"
+    },
+    {
+      "path": "prompts/conversation-v3.1.txt",
+      "sha256": "d2ddf818353cf69b219c0261fa7d254e64f3c7fd2d276129a9b109d34664c8fd"
+    },
+    {
+      "path": "prompts/conversation-v3.txt",
+      "sha256": "bbd9f6d5df9b611cfd43ccd8a6a00551c0ab439e65bd3a619d7a09a77cfaf94e"
+    },
+    {
+      "path": "prompts/legacy/hotel_ops_brief_v1.txt",
+      "sha256": "1d2b1f08399a9e61dd79edbc668ec31bc4dc55dda4dae7e1ab83d6c8dd0e20d9"
+    },
+    {
+      "path": "prompts/legacy/README.md",
+      "sha256": "b014053a06063ff1e8802187f5027954426cf4bb771f079fa836488d925e80c4"
+    }
+  ]
+}
