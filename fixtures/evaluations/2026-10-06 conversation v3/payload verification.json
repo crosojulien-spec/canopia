@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-06T08:29:42.748Z",
+  "results": [
+    {
+      "case": "01",
+      "fictitious": true,
+      "emailEmpty": true,
+      "reservationNotesEmpty": true,
+      "unmodifiedSourceDna": true,
+      "attachedPrivateDocuments": 0,
+      "existingGuestMessages": 0,
+      "hotelId": "sukhothai_bangkok",
+      "dnaSha256": "608fc784ccd516476016c09714e9596e8f6a116863f6dbf9f74552c3ece742ef"
+    },
+    {
+      "case": "02",
+      "fictitious": true,
+      "emailEmpty": true,
+      "reservationNotesEmpty": true,
+      "unmodifiedSourceDna": true,
+      "attachedPrivateDocuments": 0,
+      "existingGuestMessages": 0,
+      "hotelId": "hotel_amour_nice",
+      "dnaSha256": "d9040c9476697fb7cc40ec87b802f2bbdcd93299b0abd535d7e348772db6376c"
+    },
+    {
+      "case": "03",
+      "fictitious": true,
+      "emailEmpty": true,
+      "reservationNotesEmpty": true,
+      "unmodifiedSourceDna": true,
+      "attachedPrivateDocuments": 0,
+      "existingGuestMessages": 0,
+      "hotelId": "pavillon_reine_paris",
+      "dnaSha256": "3054eff854141c0a5437b55560e09e14e4723aee1505336bd35ed3846b3171a1"
+    }
+  ],
+  "provider": "OpenAI, existing authorised API account and gpt-6.1-sol trial",
+  "inputFields": [
+    "fictional reservation name/dates/party size/handoff",
+    "repository hotel profile (no attached documents)",
+    "fictional conversation"
+  ],
+  "excluded": [
+    "API credentials",
+    "operator account",
+    "guest links",
+    "emails",
+    "other stays"
+  ],
+  "sourceFiles": [
+    "data/dna/Sukhothai Bangkok.md",
+    "data/dna/Hotel Amour Nice.md",
+    "data/dna/Pavillon de la Reine.md"
+  ]
+}

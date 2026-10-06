@@ -1,11 +1,11 @@
-# Rapport d'audit antérieur au cadrage de reconstruction
+# Audit preceding the reconstruction decisions
 
-Le rapport joint de 17 pages documente l'existant inspecté le 5 octobre 2026. Il inclut les corrections sur le parcours manuel et le GPT, mais a été finalisé avant les décisions ultérieures sur la reconstruction, les six hôtels et la génération automatique.
+The attached 17-page audit documents the system inspected on 5 October 2026. It includes corrections about the manual workflow and GPT, but was finalised before later decisions on reconstruction, the six hotels and automatic brief generation.
 
-Pour la cible à développer, lire `docs/01_DECISIONS_VALIDEES.md`. Pour les constats sur l'ancien code et les sources historiques, consulter ce rapport. Ne pas remplacer les décisions nouvelles par son plan initial de préparation.
+The original French audit is preserved as source evidence, not maintained English product documentation. Its file content is unchanged. For the current target, read `docs/01 Product decisions.md`. Use this report for observations about old code and historical sources; do not replace later decisions with its initial preparation plan.
 
-Ancienne app publique : https://admin-console--crosojulien.replit.app/
-Projet de référence : https://replit.com/@crosojulien/Admin-Console
-Commit inspecté : 39caeb7 (1er octobre 2026). Code intégral non inclus dans ce paquet.
+Old public application: https://admin-console--crosojulien.replit.app/
+Reference project: https://replit.com/@crosojulien/Admin-Console
+Inspected commit: 39caeb7 (1 October 2026). Complete old code is not included in this package.
 
-La démo commerciale democanopia.iamnova.fr et le dépôt iamnova-gtm-agent sont des supports distincts de l'application hôtelière.
+The commercial demonstration at democanopia.iamnova.fr and the iamnova-gtm-agent repository are separate from the hotel application.

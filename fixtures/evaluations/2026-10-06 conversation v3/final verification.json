@@ -1,0 +1,27 @@
+{
+  "activeConversationPrompt": "conversation-v3.1",
+  "briefPrompt": "brief-v2",
+  "model": "gpt-6.1-sol",
+  "completeConversations": 3,
+  "mainChatCalls": 24,
+  "briefCalls": 3,
+  "targetedChecks": 7,
+  "newFailedOrUncertainCalls": 0,
+  "mainRunAccountedUsd": 0.732144,
+  "targetedAccountedUsd": 0.178908,
+  "totalAccountedUsd": 0.911052,
+  "totals": {
+    "inputTokens": 233976,
+    "outputTokens": 17427,
+    "accountedMicro": 911052
+  },
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 3.467469,
+    "remainingUsd": 1.532531,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "targetedFactsWithMatchingQuotes": 35,
+  "checks": "Original v3 corpus retained; current v3.1 hash matches both follow-up sets; every retained fact quote matches a user message; readiness false on duvet clarification and true on normal completion; all 34 generations settled. Semantic observations are in the French report, not inferred from these mechanical checks."
+}

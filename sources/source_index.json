@@ -328,21 +328,21 @@
     "status": "Historical instructions preserved verbatim apart from newline serialization."
   },
   {
-    "file": "docs/01_DECISIONS_VALIDEES.md",
+    "file": "docs/01 Product decisions.md",
     "source_title": "Julien decisions in this conversation and supplied voice transcripts",
-    "source_date": "2026-10-05",
+    "source_date": "2026-10-06",
     "source_kind": "current_conversation",
-    "status": "Consolidation of confirmed choices; open decisions are tracked separately."
+    "status": "English consolidation of confirmed choices, including repository language and automatic documentation/commit/push workflow; open decisions are tracked separately."
   },
   {
-    "file": "references/audit/Canopia_etat_des_lieux_2026-10-05.docx",
+    "file": "references/audit/Canopia audit 2026-10-05.docx",
     "source_title": "Canopia audit, corrected 17-page report",
-    "status": "Historical audit preceding the reconstruction decisions; copied unchanged."
+    "status": "Original French historical audit preceding reconstruction decisions. File renamed in English on 6 October; content unchanged."
   },
   {
     "file": "data/hotel_selection.json",
     "source_title": "Hotel selection validated by Julien with Hotel Amour Nice replacing WindsoR",
     "source_date": "2026-10-05",
-    "status": "Selection plus preliminary source locations; not complete DNA profiles."
+    "status": "Approved selection with links to six enriched public-source DNA preparations; no hotel operational confirmation."
   }
 ]

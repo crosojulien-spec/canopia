@@ -1,0 +1,344 @@
+[
+  {
+    "id": "01",
+    "name": "Elena",
+    "hotel": "The Sukhothai Bangkok",
+    "dnaVersion": 2,
+    "guestTurns": 9,
+    "guestWordCounts": [
+      15,
+      15,
+      14,
+      19,
+      21,
+      22,
+      17,
+      21,
+      18
+    ],
+    "guestSentenceCounts": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "firstReadyTurn": 8,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 573,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "We're coming with my husband and our son to explore Bangkok and celebrate his birthday.",
+        "reply": "A birthday and a Bangkok adventure—what a lovely reason to visit together! Is it your husband’s or your son’s birthday, and do you already have something in mind to celebrate?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 8676,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "Our son Milo's birthday. Nothing planned yet, and he wouldn't enjoy everyone singing at him.",
+        "reply": "We can keep Milo’s birthday in mind without putting him in the spotlight. What does he get excited about—the kind of thing that would make a birthday outing or small surprise feel really like him?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 8092,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "He's obsessed with space and makes paper rockets everywhere. He calls himself Captain Milo.",
+        "reply": "Captain Milo sounds ready for a Bangkok mission. Would he enjoy a little birthday note addressed to “Captain Milo,” with a nod to his paper rockets, for the team to consider?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 8508,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "He'd love that. Just something saying we're proud of how curious he is, you don't need our exact words.",
+        "reply": "A little nod to Captain Milo’s curiosity feels just right. When the three of you explore a new city, what do you each enjoy most, and what pace tends to keep everyone happy?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 9991,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "Daniel loves photography, I love cooking and finding everyday local food. Milo joins in happily if we aren't queuing for hours.",
+        "reply": "Photography and everyday food sound like a good way to explore together, with no marathon queues for Milo. Are there particular dishes or cooking experiences you’re curious about, and any food needs or dislikes for the three of you?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 11937,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 6,
+        "guest": "I'd enjoy understanding Thai flavours, especially ginger and lime. Milo loves banana pancakes and milk chocolate, and none of us has allergies.",
+        "reply": "Ginger and lime give us a lovely starting point for your food discoveries, and Milo has his sweet favourites. What draws Daniel’s camera most—street life, architecture, or something else?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 17401,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 7,
+        "guest": "Street life, mostly, and those everyday moments you don't get in guidebooks. It's our first Bangkok visit.",
+        "reply": "It sounds as though you and Daniel share an eye for everyday Bangkok, through food and photographs. After exploring, what helps the three of you recharge—would you enjoy time back at the hotel, or do you usually like to keep wandering?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 22666,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 8,
+        "guest": "A quiet hour back at the hotel helps. Milo still curls up with his old stuffed fox, though he'd deny it.",
+        "reply": "A quiet hour with his trusty fox sounds like a good reset after exploring. Is there anything else you’d like the team to know, or anything you’d like to correct before we leave it there?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 22145,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 9,
+        "guest": "He turns eleven on our second day. Just no strong room perfume please, and that's everything from us.",
+        "reply": "Thank you, Elena—no strong room perfume, and Milo turns eleven on your second day. Wishing you all a wonderful first Bangkok adventure and a happy birthday to Captain Milo!",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 17608,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "name": "Frederik",
+    "hotel": "Hotel Amour Nice",
+    "dnaVersion": 2,
+    "guestTurns": 8,
+    "guestWordCounts": [
+      16,
+      18,
+      15,
+      19,
+      17,
+      19,
+      18,
+      16
+    ],
+    "guestSentenceCounts": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "firstReadyTurn": 6,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 568,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.",
+        "reply": "What do you and Nora most enjoy stumbling upon when you wander—a little café, an interesting gallery, or something else entirely?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 7150,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks.",
+        "reply": "Old record shops and façades worth sketching sound like good reasons to take the side streets. What sort of music do you hunt for, and what kinds of buildings tend to catch Nora’s eye?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 10794,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.",
+        "reply": "Does a day of wandering usually start slowly over breakfast for you two, or are you keen to head out early?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 11215,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry.",
+        "reply": "A long breakfast sounds like part of the holiday in its own right. Are there any food dislikes or dietary needs for either of you that would be useful to know?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 10331,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy.",
+        "reply": "Oysters for you, but no shellfish for Nora—just a matter of taste. After a day exploring, do you two enjoy a lively place for dinner, or somewhere quieter to linger?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 16405,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 6,
+        "guest": "Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites.",
+        "reply": "Personal favourites from a good conversation sound more your style than a checklist. Is there anything else you or Nora would like us to know before your stay?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 13061,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 7,
+        "guest": "Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft.",
+        "reply": "Duvet diplomacy! Would you and Nora prefer one duvet each, if that’s possible, rather than sharing?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 13471,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 8,
+        "guest": "One each would be perfect, that's what we're used to. Nothing else to add, thank you.",
+        "reply": "Thank you, Frederik—one duvet each is your preference, rather than sharing. It’s been a pleasure getting to know a little about you and Nora; enjoy your Nice wanderings!",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 15193,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "name": "Samir",
+    "hotel": "Le Pavillon de la Reine",
+    "dnaVersion": 2,
+    "guestTurns": 7,
+    "guestWordCounts": [
+      22,
+      16,
+      15,
+      14,
+      19,
+      17,
+      19
+    ],
+    "guestSentenceCounts": [
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "firstReadyTurn": 6,
+    "status": "completed",
+    "briefStatus": "ready",
+    "briefWords": 542,
+    "briefSource": "openai",
+    "turns": [
+      {
+        "turn": 1,
+        "guest": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.",
+        "reply": "After a day of meetings, what would help you switch off and make the evening feel like your own?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 8542,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 2,
+        "guest": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening.",
+        "reply": "A counter dinner and some live blues sound like a good change of pace. What kind of food would you most enjoy, and is there anything you avoid?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 9896,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 3,
+        "guest": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.",
+        "reply": "Is there a blues artist or style you particularly enjoy, or is it more about finding a welcoming spot with good live music?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 9931,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 4,
+        "guest": "Buddy Guy is a favourite. A friendly place matters more than a big-name act.",
+        "reply": "A friendly room with good blues, rather than a headline name—that helps. On meeting mornings, what makes for a good start: do you like to take time over breakfast, or keep it quick with coffee and something small?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 11412,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 5,
+        "guest": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.",
+        "reply": "An easy half-hour run before breakfast sounds like a good way to start a meeting day. Would you appreciate a suggested running route from the hotel, or do you prefer to find your own way?",
+        "ready": false,
+        "status": "in_progress",
+        "elapsedMs": 11837,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 6,
+        "guest": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.",
+        "reply": "A simple half-hour route, with time for breakfast and your double espresso before leaving at 8:15—that gives a useful picture of your mornings. Is there anything else you’d like the team to know, or anything you’d like to correct?",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 13821,
+        "statusCode": 200,
+        "error": null
+      },
+      {
+        "turn": 7,
+        "guest": "I'm usually back around 6:30 and eat at eight. That's everything, thanks, I need to get back to work.",
+        "reply": "Thank you, Samir—back around 6:30 and dinner at eight. I’ll leave you to your work; we look forward to welcoming you.",
+        "ready": true,
+        "status": "in_progress",
+        "elapsedMs": 13249,
+        "statusCode": 200,
+        "error": null
+      }
+    ]
+  }
+]

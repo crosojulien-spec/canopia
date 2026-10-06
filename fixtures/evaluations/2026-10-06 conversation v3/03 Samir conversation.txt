@@ -1,0 +1,29 @@
+1. ASSISTANT: Hello Samir! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.
+
+3. ASSISTANT: After a day of meetings, what would help you switch off and make the evening feel like your own?
+
+4. USER: A good dinner somewhere I can sit at the counter, maybe some live blues one evening.
+
+5. ASSISTANT: A counter dinner and some live blues sound like a good change of pace. What kind of food would you most enjoy, and is there anything you avoid?
+
+6. USER: Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.
+
+7. ASSISTANT: Is there a blues artist or style you particularly enjoy, or is it more about finding a welcoming spot with good live music?
+
+8. USER: Buddy Guy is a favourite. A friendly place matters more than a big-name act.
+
+9. ASSISTANT: A friendly room with good blues, rather than a headline name—that helps. On meeting mornings, what makes for a good start: do you like to take time over breakfast, or keep it quick with coffee and something small?
+
+10. USER: A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.
+
+11. ASSISTANT: An easy half-hour run before breakfast sounds like a good way to start a meeting day. Would you appreciate a suggested running route from the hotel, or do you prefer to find your own way?
+
+12. USER: A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.
+
+13. ASSISTANT: A simple half-hour route, with time for breakfast and your double espresso before leaving at 8:15—that gives a useful picture of your mornings. Is there anything else you’d like the team to know, or anything you’d like to correct?
+
+14. USER: I'm usually back around 6:30 and eat at eight. That's everything, thanks, I need to get back to work.
+
+15. ASSISTANT: Thank you, Samir—back around 6:30 and dinner at eight. I’ll leave you to your work; we look forward to welcoming you.

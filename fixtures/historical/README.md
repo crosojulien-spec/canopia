@@ -1,18 +1,18 @@
-# Corpus historique
+# Historical corpus
 
-Ce dossier contient dix conversations de scénarios Sukhothai et onze briefs (le cas 2 comporte deux versions), plus un ensemble Seven Secrets.
+This folder contains ten Sukhothai scenario conversations and eleven briefs (case 02 has two versions), plus a Seven Secrets set.
 
-Les cas sont classés par numéro pour faciliter la comparaison. Les extraits ont été récupérés pendant l'audit ; aucune nouvelle conversation invitée ou génération de brief n'a été lancée pour ce dossier.
+Cases are numbered for comparison. Extracts were recovered during the audit; no new guest conversation or brief generation was performed to create this historical folder.
 
-## Utilisation
+## Use
 
-- Lire `case_index.json`, puis les conversations et les sorties correspondantes.
-- Lire les revues dans `references/historical/` avant de définir des attentes.
-- La fiche Sukhothai incluse est un candidat de contexte connu, mais sa version exacte lors de chaque génération historique n'est pas établie.
-- Seven Secrets rassemble la simulation Clara / Marc / Léo, une fiche préparatoire dans `references/knowledge/`, un brief de coordination, une traduction historique et des suggestions. Les prix et prestations de ces documents sont datés et à vérifier.
-- Garder les exemples historiques inchangés. Créer de nouvelles données fictives séparément si besoin et les étiqueter comme nouvelles.
-- Ne pas présenter une ancienne sortie comme un résultat approuvé, une réservation exécutée, un prix actuel ou une preuve de valeur en séjour réel.
+- Read `case_index.json`, then each conversation and its corresponding outputs.
+- Read reviews in `references/historical/` before defining expectations.
+- The included Sukhothai profile is a known candidate context, but its exact version during each historical generation is not established.
+- Seven Secrets combines the Clara / Marc / Léo simulation, a preparatory profile in `references/knowledge/`, a coordination brief, a historical translation and suggestions. Prices and services are dated and require verification.
+- Keep historical examples unchanged, including their original language. Create separate, clearly labelled fictional data when new tests are needed.
+- Do not present an old output as an approved result, executed booking, current price or proof of value in a real stay.
 
-## Préparation des essais
+## Test preparation
 
-Ne jamais envoyer d'invitation aux identités ou adresses éventuellement contenues dans ces textes. Une adresse de test contrôlée par Julien doit être désignée avant tout essai réel d'e-mail. Les notes et contraintes personnelles des scénarios restent des données d'entrée, pas des faits sur une personne réelle à rechercher.
+Never send invitations to identities or addresses contained in these texts. Julien must designate a controlled recipient before a real email test. Personal notes and constraints in scenarios are input data, not facts about a real person to research.

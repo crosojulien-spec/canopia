@@ -1,0 +1,217 @@
+{
+  "stay": {
+    "id": "f38d0bb0-8f2e-4cdc-a26a-087600513e2c",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Visit purpose and companions",
+        "value": "Elena is visiting with her husband and son to explore Bangkok and celebrate their son's birthday.",
+        "sourceQuote": "We're coming with my husband and our son to explore Bangkok and celebrate his birthday.",
+        "sourceMessageId": "3cacb0d2-c1ec-4de6-96a5-ea93ac1e8ac6"
+      },
+      {
+        "label": "Birthday preferences and plans",
+        "value": "Son Milo's birthday; nothing planned yet. He would not enjoy people singing at him.",
+        "sourceQuote": "Our son Milo's birthday. Nothing planned yet, and he wouldn't enjoy everyone singing at him.",
+        "sourceMessageId": "04edede0-4941-430d-8707-dd73e7cae0c5"
+      },
+      {
+        "label": "Milo's interests and nickname",
+        "value": "Milo is obsessed with space, makes paper rockets everywhere, and calls himself Captain Milo.",
+        "sourceQuote": "He's obsessed with space and makes paper rockets everywhere. He calls himself Captain Milo.",
+        "sourceMessageId": "9275c209-0527-413a-8433-9801b66f2a83"
+      },
+      {
+        "label": "Birthday note wish",
+        "value": "Guest welcomes the proposed Captain Milo birthday note; sentiment should express pride in his curiosity, without needing their exact wording. Not a confirmed arrangement.",
+        "sourceQuote": "He'd love that. Just something saying we're proud of how curious he is, you don't need our exact words.",
+        "sourceMessageId": "e2a4bad5-c578-48bb-89ad-00b5878b79a7"
+      },
+      {
+        "label": "Family exploration interests",
+        "value": "Daniel loves photography; Elena loves cooking and finding everyday local food. Milo joins happily provided they avoid hours of queuing.",
+        "sourceQuote": "Daniel loves photography, I love cooking and finding everyday local food. Milo joins in happily if we aren't queuing for hours.",
+        "sourceMessageId": "00d6d2cb-b6b1-4f14-90b3-fe23b98aeea4"
+      },
+      {
+        "label": "Food interests and allergies",
+        "value": "Elena wants to understand Thai flavours, especially ginger and lime. Milo loves banana pancakes and milk chocolate. Guest reports no allergies for any of them.",
+        "sourceQuote": "I'd enjoy understanding Thai flavours, especially ginger and lime. Milo loves banana pancakes and milk chocolate, and none of us has allergies.",
+        "sourceMessageId": "31902589-4e51-429b-9c23-86c029d3c860"
+      },
+      {
+        "label": "Daniel's photography and first visit",
+        "value": "Daniel primarily photographs street life and everyday moments outside guidebooks. This is their first Bangkok visit.",
+        "sourceQuote": "Street life, mostly, and those everyday moments you don't get in guidebooks. It's our first Bangkok visit.",
+        "sourceMessageId": "54b231a2-553f-4ceb-8ee0-2518843e7736"
+      },
+      {
+        "label": "Recharging and Milo's comfort",
+        "value": "A quiet hour at the hotel helps them recharge. Milo curls up with his old stuffed fox, though the guest says he would deny it.",
+        "sourceQuote": "A quiet hour back at the hotel helps. Milo still curls up with his old stuffed fox, though he'd deny it.",
+        "sourceMessageId": "d086538a-bee4-4c18-a9bc-27985427eb19"
+      },
+      {
+        "label": "Birthday timing and room scent request",
+        "value": "Milo turns eleven on their second day. Guest requests no strong room perfume.",
+        "sourceQuote": "He turns eleven on our second day. Just no strong room perfume please, and that's everything from us.",
+        "sourceMessageId": "76e7f390-6e03-49d2-be4b-de078a16fcd0"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-20",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 22,
+    "chatError": null,
+    "createdAt": "2026-10-06T08:27:51.942Z",
+    "departure": "2026-11-24",
+    "expiresAt": "2026-10-13T08:27:51.943Z",
+    "guestName": "Elena — Conversation v3 01",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 3,
+    "updatedAt": "2026-10-06T08:38:32.018Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "c46a8ea1-cc55-4dda-9c28-71fc7656acc6",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "f6a64072-4720-4d06-bc28-466c1d1f018e",
+      "role": "assistant",
+      "content": "Hello Elena! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T08:27:51.942Z"
+    },
+    {
+      "id": "3cacb0d2-c1ec-4de6-96a5-ea93ac1e8ac6",
+      "role": "user",
+      "content": "We're coming with my husband and our son to explore Bangkok and celebrate his birthday.",
+      "createdAt": "2026-10-06T08:30:18.372Z"
+    },
+    {
+      "id": "8ef25150-8468-4b98-9218-eb14c9286b72",
+      "role": "assistant",
+      "content": "A birthday and a Bangkok adventure—what a lovely reason to visit together! Is it your husband’s or your son’s birthday, and do you already have something in mind to celebrate?",
+      "createdAt": "2026-10-06T08:30:27.010Z"
+    },
+    {
+      "id": "04edede0-4941-430d-8707-dd73e7cae0c5",
+      "role": "user",
+      "content": "Our son Milo's birthday. Nothing planned yet, and he wouldn't enjoy everyone singing at him.",
+      "createdAt": "2026-10-06T08:31:00.547Z"
+    },
+    {
+      "id": "8aab23eb-5887-4c76-b378-a3b76a627037",
+      "role": "assistant",
+      "content": "We can keep Milo’s birthday in mind without putting him in the spotlight. What does he get excited about—the kind of thing that would make a birthday outing or small surprise feel really like him?",
+      "createdAt": "2026-10-06T08:31:08.615Z"
+    },
+    {
+      "id": "9275c209-0527-413a-8433-9801b66f2a83",
+      "role": "user",
+      "content": "He's obsessed with space and makes paper rockets everywhere. He calls himself Captain Milo.",
+      "createdAt": "2026-10-06T08:31:36.666Z"
+    },
+    {
+      "id": "932fd09a-86df-41a4-b0c6-5d2f86c347c4",
+      "role": "assistant",
+      "content": "Captain Milo sounds ready for a Bangkok mission. Would he enjoy a little birthday note addressed to “Captain Milo,” with a nod to his paper rockets, for the team to consider?",
+      "createdAt": "2026-10-06T08:31:45.155Z"
+    },
+    {
+      "id": "e2a4bad5-c578-48bb-89ad-00b5878b79a7",
+      "role": "user",
+      "content": "He'd love that. Just something saying we're proud of how curious he is, you don't need our exact words.",
+      "createdAt": "2026-10-06T08:32:10.507Z"
+    },
+    {
+      "id": "f496e80e-0ab6-4d10-8406-fd7ce260a991",
+      "role": "assistant",
+      "content": "A little nod to Captain Milo’s curiosity feels just right. When the three of you explore a new city, what do you each enjoy most, and what pace tends to keep everyone happy?",
+      "createdAt": "2026-10-06T08:32:20.473Z"
+    },
+    {
+      "id": "00d6d2cb-b6b1-4f14-90b3-fe23b98aeea4",
+      "role": "user",
+      "content": "Daniel loves photography, I love cooking and finding everyday local food. Milo joins in happily if we aren't queuing for hours.",
+      "createdAt": "2026-10-06T08:32:53.771Z"
+    },
+    {
+      "id": "9a97b3e5-a54a-4776-85e2-cc17b2724460",
+      "role": "assistant",
+      "content": "Photography and everyday food sound like a good way to explore together, with no marathon queues for Milo. Are there particular dishes or cooking experiences you’re curious about, and any food needs or dislikes for the three of you?",
+      "createdAt": "2026-10-06T08:33:05.691Z"
+    },
+    {
+      "id": "31902589-4e51-429b-9c23-86c029d3c860",
+      "role": "user",
+      "content": "I'd enjoy understanding Thai flavours, especially ginger and lime. Milo loves banana pancakes and milk chocolate, and none of us has allergies.",
+      "createdAt": "2026-10-06T08:33:40.076Z"
+    },
+    {
+      "id": "3559af22-6fc8-4877-8679-433eee2f46f4",
+      "role": "assistant",
+      "content": "Ginger and lime give us a lovely starting point for your food discoveries, and Milo has his sweet favourites. What draws Daniel’s camera most—street life, architecture, or something else?",
+      "createdAt": "2026-10-06T08:33:57.461Z"
+    },
+    {
+      "id": "54b231a2-553f-4ceb-8ee0-2518843e7736",
+      "role": "user",
+      "content": "Street life, mostly, and those everyday moments you don't get in guidebooks. It's our first Bangkok visit.",
+      "createdAt": "2026-10-06T08:35:35.769Z"
+    },
+    {
+      "id": "9fc91a9c-537f-4206-b23e-6f78b0debf17",
+      "role": "assistant",
+      "content": "It sounds as though you and Daniel share an eye for everyday Bangkok, through food and photographs. After exploring, what helps the three of you recharge—would you enjoy time back at the hotel, or do you usually like to keep wandering?",
+      "createdAt": "2026-10-06T08:35:58.418Z"
+    },
+    {
+      "id": "d086538a-bee4-4c18-a9bc-27985427eb19",
+      "role": "user",
+      "content": "A quiet hour back at the hotel helps. Milo still curls up with his old stuffed fox, though he'd deny it.",
+      "createdAt": "2026-10-06T08:36:31.254Z"
+    },
+    {
+      "id": "c32f0938-eb9a-44b1-95c9-5938951f2b5c",
+      "role": "assistant",
+      "content": "A quiet hour with his trusty fox sounds like a good reset after exploring. Is there anything else you’d like the team to know, or anything you’d like to correct before we leave it there?",
+      "createdAt": "2026-10-06T08:36:53.374Z"
+    },
+    {
+      "id": "76e7f390-6e03-49d2-be4b-de078a16fcd0",
+      "role": "user",
+      "content": "He turns eleven on our second day. Just no strong room perfume please, and that's everything from us.",
+      "createdAt": "2026-10-06T08:37:20.304Z"
+    },
+    {
+      "id": "941dc52f-b75b-4151-9faa-20b7aa3bce23",
+      "role": "assistant",
+      "content": "Thank you, Elena—no strong room perfume, and Milo turns eleven on your second day. Wishing you all a wonderful first Bangkok adventure and a happy birthday to Captain Milo!",
+      "createdAt": "2026-10-06T08:37:37.893Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "c46a8ea1-cc55-4dda-9c28-71fc7656acc6",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nElena — Conversation v3 01; The Sukhothai Bangkok, 20–24 November 2026, four nights, three guests: Elena, husband Daniel and son Milo.\nFirst Bangkok visit, combining city exploration with Milo’s 11th birthday on their second day, 21 November. No celebration planned. Milo would not enjoy people singing at him; keep any celebration out of the spotlight.\n\nB) COORDINATION\nAssigned concierge to coordinate experience proposals with reception, housekeeping and the relevant F&B outlet.\nHotel DNA is public preparation checked 5 October 2026, not operational confirmation; availability, pricing and capabilities require staff verification.\nCarry the no-singing boundary into any birthday arrangements. Milo is below the published minimum age of 12 for spa/health-club/wellness-centre activities; do not propose these for him.\nNo arrangements or purchases are authorised.\n\nC) GUEST PROFILE\n- Elena enjoys cooking and everyday local food; wants to understand Thai flavours, especially ginger and lime.\n- Daniel photographs street life and everyday moments beyond guidebook highlights.\n- Milo loves space, makes paper rockets and calls himself “Captain Milo.” Favourite treats: banana pancakes and milk chocolate.\n- Family exploration works best without hours of queuing, followed by a quiet hour back at the hotel.\n- Milo recharges with his old stuffed fox, although he would deny it. Treat this as private comfort information, not a public conversation starter.\n- Elena reports that none of the three has allergies. Explicit room preference: no strong room perfume.\n- Elena welcomed a birthday note addressed to Captain Milo, reflecting pride in his curiosity; exact parental wording was not required.\n\nD) RECEPTION\nPrepare a concise orientation for their first visit, with practical return-to-hotel options rather than a packed itinerary.\nAsk only action-changing follow-ups: preferred birthday format and budget if they want an offer, and timing of their quiet reset when coordinating service. Do not infer a general preference for minimal staff interaction from the interview ending.\n\nE) ROOM PREPARATION\nReception/housekeeping: flag no strong room perfume; confirm how to avoid fragranced room treatments within actual housekeeping procedures. Check booked room configuration before making any location or layout promise. A quieter available location could support their daily reset; this is a proposed adaptation, not a requested room category.\n\nOptional birthday attention, subject to hotel approval: a small paper-rocket illustration and note addressed to “Captain Milo,” placed discreetly for 21 November. Draft for Elena’s approval: “Happy 11th birthday, Captain Milo! Your family is proud of your curiosity. Keep exploring!” No singing or larger themed display. Do not move, stage or draw attention to his fox.\n\nF) CONCIERGE\n- Everyday Bangkok exploration: research a short, low-queue route combining local food and street-life photography, with easy return for their quiet hour. Check operating hours, travel time and photography etiquette. A paid guided version may be proposed after confirming provider, family suitability and price; no partner is assumed.\n- Thai flavour discovery: ask Celadon whether a kitchen-selected meal with brief explanations of ginger/lime flavour balances is feasible. This paid proposal connects Elena’s cooking interest with documented Thai-kitchen expertise; confirm dishes, family spice preferences, price and service format, without promising a cooking class.\n- Discreet chocolate birthday option: investigate the Saturday chocolate buffet on 21 November, including milk-chocolate choices and no-singing handling. Confirm programme, child charging and availability before offering. Separately, ask the breakfast kitchen whether banana pancakes are feasible and at what charge.\n- Space interest: research an age-appropriate science/space outing with manageable queues and travel time; verify programmes and tickets before suggesting it.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "f38d0bb0-8f2e-4cdc-a26a-087600513e2c",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T08:38:32.017Z",
+      "updatedAt": "2026-10-06T08:38:32.017Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nElena — Conversation v3 01; The Sukhothai Bangkok, 20–24 November 2026, four nights, three guests: Elena, husband Daniel and son Milo.\nFirst Bangkok visit, combining city exploration with Milo’s 11th birthday on their second day, 21 November. No celebration planned. Milo would not enjoy people singing at him; keep any celebration out of the spotlight.\n\nB) COORDINATION\nAssigned concierge to coordinate experience proposals with reception, housekeeping and the relevant F&B outlet.\nHotel DNA is public preparation checked 5 October 2026, not operational confirmation; availability, pricing and capabilities require staff verification.\nCarry the no-singing boundary into any birthday arrangements. Milo is below the published minimum age of 12 for spa/health-club/wellness-centre activities; do not propose these for him.\nNo arrangements or purchases are authorised.\n\nC) GUEST PROFILE\n- Elena enjoys cooking and everyday local food; wants to understand Thai flavours, especially ginger and lime.\n- Daniel photographs street life and everyday moments beyond guidebook highlights.\n- Milo loves space, makes paper rockets and calls himself “Captain Milo.” Favourite treats: banana pancakes and milk chocolate.\n- Family exploration works best without hours of queuing, followed by a quiet hour back at the hotel.\n- Milo recharges with his old stuffed fox, although he would deny it. Treat this as private comfort information, not a public conversation starter.\n- Elena reports that none of the three has allergies. Explicit room preference: no strong room perfume.\n- Elena welcomed a birthday note addressed to Captain Milo, reflecting pride in his curiosity; exact parental wording was not required.\n\nD) RECEPTION\nPrepare a concise orientation for their first visit, with practical return-to-hotel options rather than a packed itinerary.\nAsk only action-changing follow-ups: preferred birthday format and budget if they want an offer, and timing of their quiet reset when coordinating service. Do not infer a general preference for minimal staff interaction from the interview ending.\n\nE) ROOM PREPARATION\nReception/housekeeping: flag no strong room perfume; confirm how to avoid fragranced room treatments within actual housekeeping procedures. Check booked room configuration before making any location or layout promise. A quieter available location could support their daily reset; this is a proposed adaptation, not a requested room category.\n\nOptional birthday attention, subject to hotel approval: a small paper-rocket illustration and note addressed to “Captain Milo,” placed discreetly for 21 November. Draft for Elena’s approval: “Happy 11th birthday, Captain Milo! Your family is proud of your curiosity. Keep exploring!” No singing or larger themed display. Do not move, stage or draw attention to his fox.\n\nF) CONCIERGE\n- Everyday Bangkok exploration: research a short, low-queue route combining local food and street-life photography, with easy return for their quiet hour. Check operating hours, travel time and photography etiquette. A paid guided version may be proposed after confirming provider, family suitability and price; no partner is assumed.\n- Thai flavour discovery: ask Celadon whether a kitchen-selected meal with brief explanations of ginger/lime flavour balances is feasible. This paid proposal connects Elena’s cooking interest with documented Thai-kitchen expertise; confirm dishes, family spice preferences, price and service format, without promising a cooking class.\n- Discreet chocolate birthday option: investigate the Saturday chocolate buffet on 21 November, including milk-chocolate choices and no-singing handling. Confirm programme, child charging and availability before offering. Separately, ask the breakfast kitchen whether banana pancakes are feasible and at what charge.\n- Space interest: research an age-appropriate science/space outing with manageable queues and travel time; verify programmes and tickets before suggesting it.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

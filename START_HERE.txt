@@ -1,14 +1,16 @@
-Nous préparons la reconstruction de Canopia à partir du dossier joint. Commence par lire AGENTS.md, README.md, docs/01_DECISIONS_VALIDEES.md et docs/03_QUESTIONS_OUVERTES.md.
+Continue work on Canopia in this local repository. Start with AGENTS.md, README.md, docs/01 Product decisions.md and docs/03 Open questions.md.
 
-Le produit est une console unique pour six hôtels, avec invitation au voyageur, conversation en anglais adaptée à l'ADN de l'hôtel, génération automatique d'un brief texte en anglais, relecture dans le dashboard et export. La mise en forme finale et la transmission à l'hôtel restent manuelles. L'ADN doit permettre de composer des services, sans enfermer le modèle dans un catalogue.
+Construction was authorised on 5 October 2026 and the local application is implemented. The original preparation-only entry instructions are superseded by the approved product decisions and current verification report.
 
-Le développement sera effectué directement par Codex dans ce projet, hors Replit, en privilégiant mes comptes existants. L'ancienne app et les exemples sont des références à vérifier. L'agent de recherche complémentaire sera construit pendant le hackathon, pas dans ce premier chantier.
+The product is one operator console for six hotels: guest invitation, English discovery informed by hotel DNA, automatic English text brief, dashboard review and export. Final formatting and hotel delivery remain manual. DNA supports service composition rather than limiting the model to a catalogue.
 
-Pour ce premier tour :
-1. Vérifie ce qui est réellement présent dans ce dossier et les accès disponibles dans cette session.
-2. Lis les instructions GPT fournies et un ensemble cohérent conversation / ADN / brief, avec les réserves historiques.
-3. Propose un plan concret, les choix techniques nécessaires et les éléments manquants réellement bloquants. Ne redemande pas ce qui est déjà validé.
-4. Pour une inconnue, vérifie d'abord les sources. Si un choix produit est nécessaire, explique-moi le problème et demande-moi avant de trancher. Avance sur ce qui est indépendant.
-5. Ne commence pas la construction dans ce premier tour ; nous confirmerons son lancement après les derniers arbitrages. N'engage aucune dépense, aucun envoi réel et aucun déploiement.
+Develop directly with Codex here, outside Replit, using existing accounts where possible. Preserve the old application and treat historical examples as evidence to assess. Additional research is reserved for the hackathon; only its integration contract belongs in the current core.
 
-Réponds en français, de manière concise. Le dossier contient des textes historiques, pas encore une application reconstruite.
+1. Check the actual files, Git status and access available in this session. Do not assume earlier chat context or connectors are available.
+2. Before changing prompts, read the current full prompt, relevant DNA and matching conversation/brief examples with their review notes. The readable role summary is not the prompt sent to the model.
+3. Continue the current authorised scope. Do not reopen approved decisions or infer a new implementation request from a read-only question.
+4. Check sources before filling an unknown. If a product choice is needed, state the issue, impact and recommendation and consult Julien. Continue independent work.
+5. Real travellers, real emails, deployment and spending beyond the initial USD 5 trial remain blocked without corresponding approval. Keep the existing trial database and ledger; never reset or clone it to refill the budget.
+6. After completed, verified work, update relevant documents in English, commit the task's changes and push to the existing private repository. Preserve exact source evidence and exclude secrets, local data and unrelated changes.
+
+Speak to Julien in concise French. Write maintained repository content in English. Read README.md and docs/Verification report.md for the latest implementation and test evidence; do not describe this as an unbuilt preparation package.

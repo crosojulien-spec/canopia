@@ -1,0 +1,33 @@
+1. ASSISTANT: Hello Frederik! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+2. USER: We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.
+
+3. ASSISTANT: What do you and Nora most enjoy stumbling upon when you wander—a little café, an interesting gallery, or something else entirely?
+
+4. USER: I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks.
+
+5. ASSISTANT: Old record shops and façades worth sketching sound like good reasons to take the side streets. What sort of music do you hunt for, and what kinds of buildings tend to catch Nora’s eye?
+
+6. USER: Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.
+
+7. ASSISTANT: Does a day of wandering usually start slowly over breakfast for you two, or are you keen to head out early?
+
+8. USER: Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry.
+
+9. ASSISTANT: A long breakfast sounds like part of the holiday in its own right. Are there any food dislikes or dietary needs for either of you that would be useful to know?
+
+10. USER: I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy.
+
+11. ASSISTANT: Oysters for you, but no shellfish for Nora—just a matter of taste. After a day exploring, do you two enjoy a lively place for dinner, or somewhere quieter to linger?
+
+12. USER: Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites.
+
+13. ASSISTANT: Personal favourites from a good conversation sound more your style than a checklist. Is there anything else you or Nora would like us to know before your stay?
+
+14. USER: Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft.
+
+15. ASSISTANT: Duvet diplomacy! Would you and Nora prefer one duvet each, if that’s possible, rather than sharing?
+
+16. USER: One each would be perfect, that's what we're used to. Nothing else to add, thank you.
+
+17. ASSISTANT: Thank you, Frederik—one duvet each is your preference, rather than sharing. It’s been a pleasure getting to know a little about you and Nora; enjoy your Nice wanderings!

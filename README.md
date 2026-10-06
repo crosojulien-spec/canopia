@@ -1,39 +1,39 @@
-# Canopia — application locale
+# Canopia — local application
 
-État du 5 octobre 2026. La construction a été lancée par Julien dans cette session.
+Status: 6 October 2026. Julien authorised construction on 5 October.
 
-Ce dossier contient maintenant l'application locale, le cadrage validé, les prompts, six fiches ADN enrichies et les exemples historiques. La console, la conversation et les briefs sont en anglais. Julien a autorisé les premiers essais GPT‑6.1 Sol sur séjours fictifs, dans une enveloppe de 5 USD contrôlée par l'application. Aucun e-mail réel ni déploiement n'a été effectué. Les six ADN ont été documentés sur le web le 5 octobre 2026, avec menus, prix, capacités, propositions et limites distincts ; ils ne sont pas validés par les hôtels. Le [guide de relecture](data/dna/Review%20guide.md) décrit leur structure, les manques et l'import versionné qui protège les corrections et les anciens séjours.
+This repository contains the local application, approved product decisions, prompts, six enriched hotel DNA profiles and historical examples. The console, guest conversation, briefs and maintained documentation are in English. Julien authorised initial GPT-6.1 Sol trials on fictional stays within a persistent application-controlled USD 5 allowance. No real email or deployment has taken place. The six DNAs were researched on 5 October, keeping menus, prices, capabilities, proposals and limits distinct; they are not hotel-approved operational profiles. The [review guide](data/dna/Review%20guide.md) explains their structure, gaps and versioned import, which protects operator edits and existing stays.
 
-## Utilisation
+## Run locally
 
-Node.js 22.12+ requis (24.18 utilisé ici). Depuis ce dossier :
+Requires Node.js 22.12+; this installation used 24.18. From this folder:
 
 ```powershell
 npm ci
 npm run dev
 ```
 
-Ouvrir **http://127.0.0.1:4310**, puis créer ton compte opérateur avec ton propre mot de passe. Aucun compte n'est préconfiguré. Les données persistent dans `.local/postgres` et une clé locale est créée dans `.local/installation.key`. Conserver ces deux éléments ensemble pour déplacer une installation. Ils sont exclus de Git.
+Open **http://127.0.0.1:4310**. On a new installation, create your operator account with your own password; no account is preconfigured. The default database is `.local/postgres`, with a local key in `.local/installation.key`. Keep the database and its installation key together when moving an installation. They are excluded from Git. Julien's existing authorised trial uses `.local/rehearsal` and its existing account; preserve that database and its ledger.
 
-L'IA et l'envoi d'e-mails sont désactivés par défaut dans le modèle de configuration. La configuration locale de Julien active désormais l'essai GPT autorisé ; le [guide de l'essai IA](docs/AI%20trial%20and%20budget.md) décrit le plafond et son compteur persistant. Pour répéter le parcours sans appel externe, avec une base distincte :
+AI and email are disabled by default in the configuration template. Julien's ignored local configuration enables the authorised GPT trial; the [AI trial guide](docs/AI%20trial%20and%20budget.md) explains the cap and persistent accounting. For fixed scripted replies without external calls, use a separate local data directory:
 
 ```powershell
 $env:CANOPIA_AI_MODE='simulation'
-$env:CANOPIA_DATA_DIR='.local/rehearsal'
+$env:CANOPIA_DATA_DIR='.local/scripted-demo'
 npm run dev
 ```
 
-Le raccourci `npm run demo` active aussi ce mode avec une base distincte et force les connexions externes à rester désactivées. Les réponses simulées sont fixes et explicitement signalées. Elles ne prouvent ni la qualité du dialogue GPT ni la faisabilité des propositions. Fermer la session PowerShell pour retirer ses réglages temporaires. Ne pas lancer deux serveurs sur le même dossier de données.
+`npm run demo` also forces scripted mode and disables external connections, using the directory configured in `scripts/demo.ts`. Simulated replies are fixed and clearly labelled. They do not establish GPT conversation quality or proposal feasibility. Close the PowerShell session to discard its temporary settings. Never run two servers against the same data directory or create another real-AI ledger to refill the trial allowance.
 
-Git a été initialisé dans ce dossier le 5 octobre 2026. Le dépôt privé confirmé par Julien est [crosojulien-spec/canopia](https://github.com/crosojulien-spec/canopia), sur la branche `main`. Le commit initial `a7a9ed4` conserve le paquet de préparation original. L'environnement d'hébergement reste à choisir. Ne pas supposer que les connecteurs ou l'historique de cette conversation seront accessibles dans une autre session.
+Git was initialised here on 5 October. The confirmed private repository is [crosojulien-spec/canopia](https://github.com/crosojulien-spec/canopia), on `main`. Initial commit `a7a9ed4` preserves the original preparation package. Hosting remains undecided. Do not assume connectors or chat history will carry over to another session.
 
-Le dépôt contient le code applicatif, la documentation, les prompts, les fiches ADN et les exemples historiques. Les secrets, bases locales, journaux et exports non triés sont exclus par `.gitignore`. `FILE_MANIFEST.json` décrit les fichiers versionnés, hors lui-même et hors métadonnées Git.
+The repository contains application code, documentation, prompts, DNA and reviewed examples. `.gitignore` excludes secrets, local databases, logs and unscreened exports. `FILE_MANIFEST.json` inventories maintained repository files, excluding itself and Git metadata.
 
-## Fonctionnalités et vérification
+## Features and verification
 
-Console protégée par mot de passe, ADN versionnés avec documents texte/Markdown, création de séjour, lien invité aléatoire expirant et révocable, invitation éditable, conversation, génération automatique, relecture, versions séparées et export `.txt`. Un refus produit un relevé minimal qui interdit clairement la personnalisation. Les corrections enregistrées sont protégées contre les sauvegardes concurrentes.
+Password-protected console; versioned DNA with text/Markdown documents; stay creation; random, expiring, revocable guest links; editable invitations; conversation; automatic brief generation; human review; separate versions; and `.txt` export. Withdrawal creates a minimal record explicitly prohibiting personalisation. Saved edits are protected against concurrent writes.
 
-React/TypeScript/Vite pour les écrans ; Express pour le serveur ; PostgreSQL local avec PGlite. `DATABASE_URL` permet un raccordement PostgreSQL ultérieur, non testé à distance. L'ancien Replit reste intact. L'agent de recherche n'est pas construit : seul son contrat de raccordement existe.
+React/TypeScript/Vite provide the interface; Express runs the server; PGlite provides local PostgreSQL. `DATABASE_URL` enables a later PostgreSQL connection, which has not been tested remotely. The old Replit application remains intact. The research agent is not built; only its integration contract exists.
 
 ```powershell
 npm run build
@@ -41,39 +41,47 @@ npm test
 npm run test:e2e
 ```
 
-Les essais navigateur utilisent une base isolée sur le port 4311 et un profil Edge/Chrome de test, sans ouvrir ton profil personnel. Les captures sont dans `.local/screenshots`. Les premiers essais GPT‑6.1 Sol ont vérifié le dialogue/brief pour Hôtel Amour Nice et le refus pour Golden Well. Deux campagnes de conversations courtes ont ensuite couvert les six hôtels ; leurs résultats et limites figurent ci-dessous. SMTP n'a pas été testé en réel. Les vrais séjours sont bloqués tant que les règles de conservation et l'information voyageur ne sont pas décidées et implémentées.
+Browser tests use an isolated database on port 4311 and a test Edge/Chrome profile, without opening the user's personal profile. Screenshots are in `.local/screenshots`. Initial GPT tests checked dialogue/brief generation for Hôtel Amour Nice and withdrawal for Golden Well. Later short-conversation campaigns covered all six hotels; their results and limits follow below. SMTP has not been tested live. Real stays remain blocked until retention and guest-information rules are agreed and implemented.
 
-Voir [Connections and operation](docs/Connections%20and%20operation.md) pour les accès nécessaires et [Verification report](docs/Verification%20report.md) pour la portée des contrôles. `.env.example` contient seulement les noms de configuration. Aucune clé réelle ne doit être copiée dans le code ou la conversation.
+See [Connections and operation](docs/Connections%20and%20operation.md) for required access and [Verification report](docs/Verification%20report.md) for the checks performed. `.env.example` contains configuration names only. Never copy real keys into source code or chat.
 
-Une [revue de dix conversations courtes](docs/Revue%20de%20dix%20conversations%20courtes.md) couvre ensuite les six hôtels, avec 41 réponses client de 1–2 phrases et les dix briefs originaux. Elle montre des limites de profondeur, de ton et de longueur des briefs : le fonctionnement technique ne vaut pas validation de la qualité d'hôte.
+The [ten short conversations review](docs/Ten%20short%20conversations%20review.md) covers six hotels, 41 one- or two-sentence guest replies and ten original records. It identifies limited depth, mechanical tone and oversized briefs. Technical operation is not validation of hospitality quality.
 
-Le [rapport des six nouveaux tests de découverte](docs/Rapport%20des%20six%20tests%20de%20découverte.md) évalue les prompts actifs `conversation-v2` et `brief-v2`, fondés sur les exemples Sukhothai et le cadrage de Julien. Trois familles à Nice, Bangkok et Prague, puis retrouvailles entre amies, séjour professionnel avec journée personnelle et lune de miel : 52 réponses client de 4–23 mots, six briefs réels conservés sans correction. Des préparations et offres pertinentes émergent, mais la découverte manque encore des indices importants et le ton reste répétitif. Ce résultat ne constitue pas une validation produit ou terrain.
+The [six discovery tests](docs/Six%20discovery%20tests.md) evaluated the then-active `conversation-v2` and `brief-v2`, based on the Sukhothai examples and Julien's corrected product definition. Three family cases in Nice, Bangkok and Prague were followed by friends reuniting, work plus a personal day, and a honeymoon. All 52 guest replies contained 4–23 words; six real briefs remain unedited. Useful preparation and service proposals emerged, but important cues were missed and the tone remained repetitive. This is not product or field validation.
 
-## Ordre de lecture
+On 6 October, the [conversation agent role](docs/Conversation%20agent%20role.md) was rewritten from Julien's clarifications and test archive. The [three new conversation tests](docs/Three%20conversation%20tests.md) preserve 24 guest replies and three real briefs, followed by seven targeted checks of refinements. Active prompts are `conversation-v3.1` and `brief-v2`, still using GPT-6.1 Sol. Conservative accounting for that campaign was USD 0.911052, leaving USD 1.532531 of the initial allowance at the end of the checks. Tone and discovery depth still require user assessment; no qualitative comparison with Luna or Astra has been made.
 
-| Fichier | Utilité |
+The role document is a readable explanation. The actual model instructions are in [conversation-v3.1.txt](prompts/conversation-v3.1.txt), selected by `server/ai.ts`; each call also includes the reservation, hotel DNA and conversation transcript.
+
+## Reading order
+
+| File | Purpose |
 |---|---|
-| `AGENTS.md` | Règles de travail et gestion des inconnues |
-| `docs/01_DECISIONS_VALIDEES.md` | Périmètre produit de référence |
-| `docs/02_PLAN_DE_RECONSTRUCTION.md` | Ordre de travail proposé, sans choix technique imposé |
-| `docs/03_QUESTIONS_OUVERTES.md` | Choix restant à résoudre, avec leur impact |
-| `docs/04_CRITERES_DE_VERIFICATION.md` | Comment vérifier le produit reconstruit |
-| `docs/05_EXTENSION_HACKATHON.md` | Brique à construire pendant l'événement |
-| `data/hotel_selection.json` | Les six hôtels retenus et l'état de leur documentation |
-| `prompts/legacy/hotel_ops_brief_v1.txt` | Instructions complètes copiées du GPT fourni par Julien |
-| `references/knowledge/` | Textes extraits des deux fiches hôtel historiques |
-| `fixtures/historical/` | Dix conversations Sukhothai, onze briefs et dossier Seven Secrets |
-| `sources/source_index.json` | Origine et statut de chaque texte extrait |
-| `references/audit/` | Rapport antérieur de 17 pages, conservé comme historique |
+| `AGENTS.md` | Working rules, unknowns and documentation/Git workflow |
+| `docs/01 Product decisions.md` | Authoritative product scope |
+| `docs/02 Reconstruction plan.md` | Proposed work sequence and subsequent implementation context |
+| `docs/03 Open questions.md` | Remaining decisions and their impact |
+| `docs/04 Verification criteria.md` | How to assess the rebuilt product |
+| `docs/05 Hackathon extension.md` | Component reserved for the event |
+| `data/hotel_selection.json` | Six selected hotels and profile status |
+| `prompts/legacy/hotel_ops_brief_v1.txt` | Complete instructions copied from Julien's historical GPT |
+| `references/knowledge/` | Extracted historical hotel profiles |
+| `fixtures/historical/` | Ten Sukhothai conversations, eleven briefs and Seven Secrets material |
+| `sources/source_index.json` | Origin and status of extracted sources |
+| `references/audit/` | Earlier 17-page audit retained as historical evidence |
 
-## Ce qui prime
+## Authority and updates
 
-Les nouvelles instructions de Julien priment sur ce dossier. Dans ce dossier, `docs/01_DECISIONS_VALIDEES.md` prime sur les anciens prompts, les briefs de test et le rapport d'audit. Un document historique n'établit pas à lui seul qu'une fonction est active ou correcte.
+Julien's current instructions take precedence. Within the repository, `docs/01 Product decisions.md` takes precedence over old prompts, test briefs and the audit. A historical document alone does not establish that a feature is active or correct.
 
-En particulier : l'ADN est un contexte riche pour comprendre et composer du service ; le brief texte est généré automatiquement à la clôture normale ; la qualité du dialogue réel reste à évaluer avec le modèle choisi. La mise en forme finale et la transmission restent manuelles. La recherche complémentaire est réservée au hackathon.
+DNA is rich context for understanding and composing service. A text brief is generated automatically on normal completion; dialogue quality with the chosen model still requires evaluation. Final formatting and delivery remain manual. Additional research is reserved for the hackathon.
 
-## Statut des données incluses
+Julien confirmed on 6 October that relevant documentation should be updated as work changes the product, followed by a commit and push to this existing private repository once the work is complete and verified. Report local, committed and pushed states accurately. This does not authorise deployment, public sharing or committing unrelated/private runtime files.
 
-Les textes historiques sont des extractions de documents, pas les fichiers Word/PDF originaux. Les conversations sont des scénarios de test ; ne pas les présenter comme des séjours clients réellement exécutés. Les briefs servent à discuter et vérifier la fidélité du produit, pas à imposer automatiquement toutes leurs recommandations.
+## Included data and language
 
-Ce paquet est destiné au travail privé de Julien et à sa préparation. Sélectionner explicitement ce qui sera partagé avec l'équipe du hackathon ; aucune autorisation de publication publique n'est donnée par ce dossier.
+Maintained documentation, filenames, code comments and commit messages are in English. Communication with Julien remains in French. Proper names, exact source quotations and original test evidence retain their original language. The French historical audit, historical source extracts and old translated brief are labelled archives; translating them in place would change the evidence. English navigation and source descriptions explain their status.
+
+Historical texts are document extractions, not the original Word/PDF files, except for the explicitly retained audit document. Conversations are test scenarios, not evidence of real guest stays delivered. Briefs support review and fidelity checks; their recommendations are not automatically approved.
+
+This material is for Julien's private work and preparation. Explicitly select anything to share with the hackathon team; the repository does not grant public publication permission.

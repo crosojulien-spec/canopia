@@ -1,0 +1,25 @@
+{
+  "cases": 3,
+  "guestTurns": 24,
+  "guestWords": {
+    "min": 14,
+    "max": 22
+  },
+  "assistantReplies": 24,
+  "lovelyReplies": 2,
+  "extractedFactsWithMatchingUserQuote": 24,
+  "successfulChatCalls": 24,
+  "failedChatCalls": 0,
+  "medianChatMs": 11624.5,
+  "maxSuccessfulChatMs": 22666,
+  "failures": [],
+  "accountedForRunUsd": 0.732144,
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 3.288561,
+    "remainingUsd": 1.711439,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "checks": "Three completed fictional stays; three unedited OpenAI brief-v2 drafts with A-F; one or two short sentences per guest turn; all retained fact quotes match a guest message; no invitations; prompt hashes unchanged during evaluation."
+}

@@ -1,0 +1,584 @@
+{
+  "startedAt": "2026-10-06T08:40:53.666Z",
+  "model": "gpt-6.1-sol",
+  "promptVersion": "conversation-v3.1",
+  "promptSha256": "d2ddf818353cf69b219c0261fa7d254e64f3c7fd2d276129a9b109d34664c8fd",
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 3.288561,
+    "remainingUsd": 1.711439,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "method": "Five one-turn replay checks against frozen prefixes of the original three fictional conversations. Real provider and original persistent budget; outputs do not replace original replies or create new hotel briefs. Not five full conversations.",
+  "checks": [
+    {
+      "id": "02",
+      "turn": 1,
+      "check": "Ask whether the city is already familiar early",
+      "elapsedMs": 4703,
+      "inputMessages": [
+        {
+          "id": "18d48048-9cd6-496d-afeb-1b3a67715430",
+          "role": "assistant",
+          "content": "Hello Frederik! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+          "createdAt": "2026-10-06T08:27:51.962Z"
+        },
+        {
+          "id": "667e51a0-2851-477d-8652-aa05172b6e5e",
+          "role": "user",
+          "content": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.",
+          "createdAt": "2026-10-06T08:30:18.382Z"
+        }
+      ],
+      "result": {
+        "reply": "A few days wandering Nice sounds like a good escape. Have you and Nora been before, or will this be a first visit for either of you?",
+        "readyToFinish": false,
+        "stopRequested": false,
+        "facts": [
+          {
+            "label": "Purpose of visit",
+            "value": "A few days wandering around Nice.",
+            "sourceMessageId": "667e51a0-2851-477d-8652-aa05172b6e5e",
+            "sourceQuote": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me."
+          },
+          {
+            "label": "Travelling companions and origin",
+            "value": "Frederik is travelling with partner Nora; they are coming from Copenhagen.",
+            "sourceMessageId": "667e51a0-2851-477d-8652-aa05172b6e5e",
+            "sourceQuote": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "turn": 6,
+      "check": "Make room for useful comfort or unresolved practical timing before generic closure",
+      "elapsedMs": 9330,
+      "inputMessages": [
+        {
+          "id": "b11a8a1e-9f2a-4c4d-a2b2-982cc8d65795",
+          "role": "assistant",
+          "content": "Hello Samir! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+          "createdAt": "2026-10-06T08:27:51.966Z"
+        },
+        {
+          "id": "7b74b7da-297e-41b6-808f-101d51850d97",
+          "role": "user",
+          "content": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.",
+          "createdAt": "2026-10-06T08:30:18.387Z"
+        },
+        {
+          "id": "93758388-cd58-49f1-86fa-6ca56b410177",
+          "role": "assistant",
+          "content": "After a day of meetings, what would help you switch off and make the evening feel like your own?",
+          "createdAt": "2026-10-06T08:30:26.880Z"
+        },
+        {
+          "id": "2969f69a-d572-4ea4-bd52-4eefa5a21172",
+          "role": "user",
+          "content": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening.",
+          "createdAt": "2026-10-06T08:31:00.557Z"
+        },
+        {
+          "id": "ba221290-2445-41e7-b6e0-d5ad4b7262a0",
+          "role": "assistant",
+          "content": "A counter dinner and some live blues sound like a good change of pace. What kind of food would you most enjoy, and is there anything you avoid?",
+          "createdAt": "2026-10-06T08:31:10.432Z"
+        },
+        {
+          "id": "f4953830-2e5b-43e3-a2e8-0e11eae1e556",
+          "role": "user",
+          "content": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.",
+          "createdAt": "2026-10-06T08:31:36.675Z"
+        },
+        {
+          "id": "2d4930fb-b471-4a91-9311-375d9582e399",
+          "role": "assistant",
+          "content": "Is there a blues artist or style you particularly enjoy, or is it more about finding a welcoming spot with good live music?",
+          "createdAt": "2026-10-06T08:31:46.585Z"
+        },
+        {
+          "id": "47264d03-523d-40da-a2c5-7ac08852cf2c",
+          "role": "user",
+          "content": "Buddy Guy is a favourite. A friendly place matters more than a big-name act.",
+          "createdAt": "2026-10-06T08:32:10.522Z"
+        },
+        {
+          "id": "6f134cab-e972-47f5-942c-07d1bb21ff70",
+          "role": "assistant",
+          "content": "A friendly room with good blues, rather than a headline name—that helps. On meeting mornings, what makes for a good start: do you like to take time over breakfast, or keep it quick with coffee and something small?",
+          "createdAt": "2026-10-06T08:32:21.903Z"
+        },
+        {
+          "id": "c2e4562a-cefc-4324-aef1-b3910a102b2e",
+          "role": "user",
+          "content": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.",
+          "createdAt": "2026-10-06T08:32:53.779Z"
+        },
+        {
+          "id": "331487b3-964c-4cd9-a547-b2a384fc3642",
+          "role": "assistant",
+          "content": "An easy half-hour run before breakfast sounds like a good way to start a meeting day. Would you appreciate a suggested running route from the hotel, or do you prefer to find your own way?",
+          "createdAt": "2026-10-06T08:33:05.591Z"
+        },
+        {
+          "id": "69467c7f-fed3-43dc-9ddc-ac5dac06b959",
+          "role": "user",
+          "content": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.",
+          "createdAt": "2026-10-06T08:33:40.084Z"
+        }
+      ],
+      "result": {
+        "reply": "A simple half-hour route would fit that early start. Around what time do your meetings usually finish, so dinner and music suggestions fit your evenings?",
+        "readyToFinish": false,
+        "stopRequested": false,
+        "facts": [
+          {
+            "label": "Purpose of stay",
+            "value": "Travelling alone for work, with meetings most of the day; wants evenings to feel less like work.",
+            "sourceMessageId": "7b74b7da-297e-41b6-808f-101d51850d97",
+            "sourceQuote": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work."
+          },
+          {
+            "label": "Evening interests",
+            "value": "Would enjoy a good dinner seated at a counter and possibly live blues one evening.",
+            "sourceMessageId": "2969f69a-d572-4ea4-bd52-4eefa5a21172",
+            "sourceQuote": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening."
+          },
+          {
+            "label": "Food preferences and allergies",
+            "value": "Would enjoy grilled fish; avoids heavy cream sauces; reports no allergies.",
+            "sourceMessageId": "f4953830-2e5b-43e3-a2e8-0e11eae1e556",
+            "sourceQuote": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies."
+          },
+          {
+            "label": "Blues preferences",
+            "value": "Buddy Guy is a favourite; a friendly venue matters more than a big-name act.",
+            "sourceMessageId": "47264d03-523d-40da-a2c5-7ac08852cf2c",
+            "sourceQuote": "Buddy Guy is a favourite. A friendly place matters more than a big-name act."
+          },
+          {
+            "label": "Morning routine",
+            "value": "Likes an easy half-hour run followed by a quick breakfast and double espresso.",
+            "sourceMessageId": "c2e4562a-cefc-4324-aef1-b3910a102b2e",
+            "sourceQuote": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well."
+          },
+          {
+            "label": "Running route and departure timing",
+            "value": "Would appreciate a simple running route; needs to leave the hotel at 8:15 and wants nothing too ambitious.",
+            "sourceMessageId": "69467c7f-fed3-43dc-9ddc-ac5dac06b959",
+            "sourceQuote": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious."
+          }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "turn": 7,
+      "check": "Duvet clarification should keep readyToFinish false",
+      "elapsedMs": 10183,
+      "inputMessages": [
+        {
+          "id": "18d48048-9cd6-496d-afeb-1b3a67715430",
+          "role": "assistant",
+          "content": "Hello Frederik! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+          "createdAt": "2026-10-06T08:27:51.962Z"
+        },
+        {
+          "id": "667e51a0-2851-477d-8652-aa05172b6e5e",
+          "role": "user",
+          "content": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.",
+          "createdAt": "2026-10-06T08:30:18.382Z"
+        },
+        {
+          "id": "22261076-f2dd-4da8-a627-547d00fd76bc",
+          "role": "assistant",
+          "content": "What do you and Nora most enjoy stumbling upon when you wander—a little café, an interesting gallery, or something else entirely?",
+          "createdAt": "2026-10-06T08:30:25.483Z"
+        },
+        {
+          "id": "072cf699-521a-4cc4-8603-4bbd8a365a5b",
+          "role": "user",
+          "content": "I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks.",
+          "createdAt": "2026-10-06T08:31:00.552Z"
+        },
+        {
+          "id": "f4c17d41-5403-456a-8806-403ec4ea9fda",
+          "role": "assistant",
+          "content": "Old record shops and façades worth sketching sound like good reasons to take the side streets. What sort of music do you hunt for, and what kinds of buildings tend to catch Nora’s eye?",
+          "createdAt": "2026-10-06T08:31:11.329Z"
+        },
+        {
+          "id": "441c735b-0ee2-449a-b5ac-4402e591f84a",
+          "role": "user",
+          "content": "Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.",
+          "createdAt": "2026-10-06T08:31:36.671Z"
+        },
+        {
+          "id": "2be31a28-5ecb-4602-b654-8ff68b705758",
+          "role": "assistant",
+          "content": "Does a day of wandering usually start slowly over breakfast for you two, or are you keen to head out early?",
+          "createdAt": "2026-10-06T08:31:47.869Z"
+        },
+        {
+          "id": "7ee52670-4593-4c45-8434-3831eda51208",
+          "role": "user",
+          "content": "Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry.",
+          "createdAt": "2026-10-06T08:32:10.515Z"
+        },
+        {
+          "id": "456f6e0e-186e-4b38-8ede-46c5aa486acc",
+          "role": "assistant",
+          "content": "A long breakfast sounds like part of the holiday in its own right. Are there any food dislikes or dietary needs for either of you that would be useful to know?",
+          "createdAt": "2026-10-06T08:32:20.822Z"
+        },
+        {
+          "id": "ae67f59f-5389-4654-b090-54caabb54dbc",
+          "role": "user",
+          "content": "I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy.",
+          "createdAt": "2026-10-06T08:32:53.775Z"
+        },
+        {
+          "id": "664778e0-e3d5-4765-a5e8-16c167718381",
+          "role": "assistant",
+          "content": "Oysters for you, but no shellfish for Nora—just a matter of taste. After a day exploring, do you two enjoy a lively place for dinner, or somewhere quieter to linger?",
+          "createdAt": "2026-10-06T08:33:10.163Z"
+        },
+        {
+          "id": "1a17bb5b-7112-4c6c-afbc-cb8ccde26468",
+          "role": "user",
+          "content": "Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites.",
+          "createdAt": "2026-10-06T08:33:40.080Z"
+        },
+        {
+          "id": "c8c8c551-bb4e-48ed-b55d-b6c6b4d8923e",
+          "role": "assistant",
+          "content": "Personal favourites from a good conversation sound more your style than a checklist. Is there anything else you or Nora would like us to know before your stay?",
+          "createdAt": "2026-10-06T08:33:53.118Z"
+        },
+        {
+          "id": "95bc81bd-4e2e-4c18-88e5-b1a30308bc7d",
+          "role": "user",
+          "content": "Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft.",
+          "createdAt": "2026-10-06T08:35:35.774Z"
+        }
+      ],
+      "result": {
+        "reply": "Duvet theft is quite the bedtime tug-of-war! Would you and Nora prefer a duvet each rather than sharing one?",
+        "readyToFinish": false,
+        "stopRequested": false,
+        "facts": [
+          {
+            "label": "Visit purpose and companion",
+            "value": "Travelling from Copenhagen with partner Nora for a few days wandering around Nice.",
+            "sourceMessageId": "667e51a0-2851-477d-8652-aa05172b6e5e",
+            "sourceQuote": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me."
+          },
+          {
+            "label": "Exploration style and interests",
+            "value": "Frederik enjoys old record shops; Nora sketches building facades. Both prefer wandering to ticking off landmarks.",
+            "sourceMessageId": "072cf699-521a-4cc4-8603-4bbd8a365a5b",
+            "sourceQuote": "I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks."
+          },
+          {
+            "label": "Specific music and architecture tastes",
+            "value": "Frederik seeks old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.",
+            "sourceMessageId": "441c735b-0ee2-449a-b5ac-4402e591f84a",
+            "sourceQuote": "Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities."
+          },
+          {
+            "label": "Breakfast preferences",
+            "value": "Both prefer a long breakfast first and drink coffee. Nora is particularly fond of lemon pastry.",
+            "sourceMessageId": "7ee52670-4593-4c45-8434-3831eda51208",
+            "sourceQuote": "Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry."
+          },
+          {
+            "label": "Food preferences and allergies",
+            "value": "Frederik loves oysters. Nora dislikes shellfish; this is a dislike, not an allergy. Neither reports an allergy.",
+            "sourceMessageId": "ae67f59f-5389-4654-b090-54caabb54dbc",
+            "sourceQuote": "I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy."
+          },
+          {
+            "label": "Dining atmosphere and social interaction",
+            "value": "Both enjoy friendly, lively, informal places, chatting and hearing people's personal local favourites.",
+            "sourceMessageId": "1a17bb5b-7112-4c6c-afbc-cb8ccde26468",
+            "sourceQuote": "Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites."
+          },
+          {
+            "label": "Sleep comfort",
+            "value": "Nora gets cold and Frederik gets hot; they describe duvet theft when sharing a bed.",
+            "sourceMessageId": "95bc81bd-4e2e-4c18-88e5-b1a30308bc7d",
+            "sourceQuote": "Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft."
+          }
+        ]
+      }
+    },
+    {
+      "id": "01",
+      "turn": 3,
+      "check": "Keep the personal-note initiative grounded in Captain Milo and paper rockets",
+      "elapsedMs": 6252,
+      "inputMessages": [
+        {
+          "id": "f6a64072-4720-4d06-bc28-466c1d1f018e",
+          "role": "assistant",
+          "content": "Hello Elena! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+          "createdAt": "2026-10-06T08:27:51.942Z"
+        },
+        {
+          "id": "3cacb0d2-c1ec-4de6-96a5-ea93ac1e8ac6",
+          "role": "user",
+          "content": "We're coming with my husband and our son to explore Bangkok and celebrate his birthday.",
+          "createdAt": "2026-10-06T08:30:18.372Z"
+        },
+        {
+          "id": "8ef25150-8468-4b98-9218-eb14c9286b72",
+          "role": "assistant",
+          "content": "A birthday and a Bangkok adventure—what a lovely reason to visit together! Is it your husband’s or your son’s birthday, and do you already have something in mind to celebrate?",
+          "createdAt": "2026-10-06T08:30:27.010Z"
+        },
+        {
+          "id": "04edede0-4941-430d-8707-dd73e7cae0c5",
+          "role": "user",
+          "content": "Our son Milo's birthday. Nothing planned yet, and he wouldn't enjoy everyone singing at him.",
+          "createdAt": "2026-10-06T08:31:00.547Z"
+        },
+        {
+          "id": "8aab23eb-5887-4c76-b378-a3b76a627037",
+          "role": "assistant",
+          "content": "We can keep Milo’s birthday in mind without putting him in the spotlight. What does he get excited about—the kind of thing that would make a birthday outing or small surprise feel really like him?",
+          "createdAt": "2026-10-06T08:31:08.615Z"
+        },
+        {
+          "id": "9275c209-0527-413a-8433-9801b66f2a83",
+          "role": "user",
+          "content": "He's obsessed with space and makes paper rockets everywhere. He calls himself Captain Milo.",
+          "createdAt": "2026-10-06T08:31:36.666Z"
+        }
+      ],
+      "result": {
+        "reply": "Captain Milo sounds like he brings his own space programme wherever he goes! Would he enjoy a little birthday note addressed to “Captain Milo” in the room, without any public fuss?",
+        "readyToFinish": false,
+        "stopRequested": false,
+        "facts": [
+          {
+            "label": "Visit purpose and companions",
+            "value": "Elena is visiting with her husband and their son to explore Bangkok and celebrate their son's birthday.",
+            "sourceMessageId": "3cacb0d2-c1ec-4de6-96a5-ea93ac1e8ac6",
+            "sourceQuote": "We're coming with my husband and our son to explore Bangkok and celebrate his birthday."
+          },
+          {
+            "label": "Birthday plans and attention preference",
+            "value": "The birthday is their son Milo's; nothing is planned yet, and he would not enjoy everyone singing at him.",
+            "sourceMessageId": "04edede0-4941-430d-8707-dd73e7cae0c5",
+            "sourceQuote": "Our son Milo's birthday. Nothing planned yet, and he wouldn't enjoy everyone singing at him."
+          },
+          {
+            "label": "Milo's interests and nickname",
+            "value": "Milo is obsessed with space, makes paper rockets everywhere, and calls himself Captain Milo.",
+            "sourceMessageId": "9275c209-0527-413a-8433-9801b66f2a83",
+            "sourceQuote": "He's obsessed with space and makes paper rockets everywhere. He calls himself Captain Milo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "turn": 7,
+      "check": "Respect normal completion and do not interpret return to work as withdrawal",
+      "elapsedMs": 9663,
+      "inputMessages": [
+        {
+          "id": "b11a8a1e-9f2a-4c4d-a2b2-982cc8d65795",
+          "role": "assistant",
+          "content": "Hello Samir! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+          "createdAt": "2026-10-06T08:27:51.966Z"
+        },
+        {
+          "id": "7b74b7da-297e-41b6-808f-101d51850d97",
+          "role": "user",
+          "content": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.",
+          "createdAt": "2026-10-06T08:30:18.387Z"
+        },
+        {
+          "id": "93758388-cd58-49f1-86fa-6ca56b410177",
+          "role": "assistant",
+          "content": "After a day of meetings, what would help you switch off and make the evening feel like your own?",
+          "createdAt": "2026-10-06T08:30:26.880Z"
+        },
+        {
+          "id": "2969f69a-d572-4ea4-bd52-4eefa5a21172",
+          "role": "user",
+          "content": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening.",
+          "createdAt": "2026-10-06T08:31:00.557Z"
+        },
+        {
+          "id": "ba221290-2445-41e7-b6e0-d5ad4b7262a0",
+          "role": "assistant",
+          "content": "A counter dinner and some live blues sound like a good change of pace. What kind of food would you most enjoy, and is there anything you avoid?",
+          "createdAt": "2026-10-06T08:31:10.432Z"
+        },
+        {
+          "id": "f4953830-2e5b-43e3-a2e8-0e11eae1e556",
+          "role": "user",
+          "content": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.",
+          "createdAt": "2026-10-06T08:31:36.675Z"
+        },
+        {
+          "id": "2d4930fb-b471-4a91-9311-375d9582e399",
+          "role": "assistant",
+          "content": "Is there a blues artist or style you particularly enjoy, or is it more about finding a welcoming spot with good live music?",
+          "createdAt": "2026-10-06T08:31:46.585Z"
+        },
+        {
+          "id": "47264d03-523d-40da-a2c5-7ac08852cf2c",
+          "role": "user",
+          "content": "Buddy Guy is a favourite. A friendly place matters more than a big-name act.",
+          "createdAt": "2026-10-06T08:32:10.522Z"
+        },
+        {
+          "id": "6f134cab-e972-47f5-942c-07d1bb21ff70",
+          "role": "assistant",
+          "content": "A friendly room with good blues, rather than a headline name—that helps. On meeting mornings, what makes for a good start: do you like to take time over breakfast, or keep it quick with coffee and something small?",
+          "createdAt": "2026-10-06T08:32:21.903Z"
+        },
+        {
+          "id": "c2e4562a-cefc-4324-aef1-b3910a102b2e",
+          "role": "user",
+          "content": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.",
+          "createdAt": "2026-10-06T08:32:53.779Z"
+        },
+        {
+          "id": "331487b3-964c-4cd9-a547-b2a384fc3642",
+          "role": "assistant",
+          "content": "An easy half-hour run before breakfast sounds like a good way to start a meeting day. Would you appreciate a suggested running route from the hotel, or do you prefer to find your own way?",
+          "createdAt": "2026-10-06T08:33:05.591Z"
+        },
+        {
+          "id": "69467c7f-fed3-43dc-9ddc-ac5dac06b959",
+          "role": "user",
+          "content": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.",
+          "createdAt": "2026-10-06T08:33:40.084Z"
+        },
+        {
+          "id": "17710dba-3b53-444a-83a6-38e839ce9b2d",
+          "role": "assistant",
+          "content": "A simple half-hour route, with time for breakfast and your double espresso before leaving at 8:15—that gives a useful picture of your mornings. Is there anything else you’d like the team to know, or anything you’d like to correct?",
+          "createdAt": "2026-10-06T08:33:53.885Z"
+        },
+        {
+          "id": "f8f7747e-1d03-4d07-9aea-1ecc1e9f49ec",
+          "role": "user",
+          "content": "I'm usually back around 6:30 and eat at eight. That's everything, thanks, I need to get back to work.",
+          "createdAt": "2026-10-06T08:35:35.777Z"
+        }
+      ],
+      "result": {
+        "reply": "Thank you, Samir—back around 6:30 and dinner at eight. I’ll let you get back to work; we look forward to welcoming you.",
+        "readyToFinish": true,
+        "stopRequested": false,
+        "facts": [
+          {
+            "label": "Purpose and company",
+            "value": "Travelling alone for work, with meetings most of the day; wants evenings to feel less like work.",
+            "sourceMessageId": "7b74b7da-297e-41b6-808f-101d51850d97",
+            "sourceQuote": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work."
+          },
+          {
+            "label": "Evening interests",
+            "value": "Would enjoy a good dinner seated at a counter and possibly live blues one evening.",
+            "sourceMessageId": "2969f69a-d572-4ea4-bd52-4eefa5a21172",
+            "sourceQuote": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening."
+          },
+          {
+            "label": "Food preferences and allergies",
+            "value": "Likes grilled fish, avoids heavy cream sauces, and reports no allergies.",
+            "sourceMessageId": "f4953830-2e5b-43e3-a2e8-0e11eae1e556",
+            "sourceQuote": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies."
+          },
+          {
+            "label": "Blues preferences",
+            "value": "Buddy Guy is a favourite; a friendly venue matters more than a big-name act.",
+            "sourceMessageId": "47264d03-523d-40da-a2c5-7ac08852cf2c",
+            "sourceQuote": "Buddy Guy is a favourite. A friendly place matters more than a big-name act."
+          },
+          {
+            "label": "Morning routine",
+            "value": "Prefers a quick breakfast and double espresso after an easy half-hour run.",
+            "sourceMessageId": "c2e4562a-cefc-4324-aef1-b3910a102b2e",
+            "sourceQuote": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well."
+          },
+          {
+            "label": "Running route and departure timing",
+            "value": "Would appreciate a simple, unambitious running route; needs to leave the hotel at 8:15.",
+            "sourceMessageId": "69467c7f-fed3-43dc-9ddc-ac5dac06b959",
+            "sourceQuote": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious."
+          },
+          {
+            "label": "Evening timing",
+            "value": "Usually returns around 6:30 and eats at eight.",
+            "sourceMessageId": "f8f7747e-1d03-4d07-9aea-1ecc1e9f49ec",
+            "sourceQuote": "I'm usually back around 6:30 and eat at eight."
+          }
+        ]
+      }
+    }
+  ],
+  "finishedAt": "2026-10-06T08:41:33.824Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 3.418194,
+    "remainingUsd": 1.581806,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "usage": [
+    {
+      "purpose": "chat",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 5695,
+      "output_tokens": 196,
+      "reserved_micro": 66621,
+      "accounted_micro": 19437,
+      "created_at": "2026-10-06T08:40:54.210Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 6859,
+      "output_tokens": 525,
+      "reserved_micro": 70113,
+      "accounted_micro": 26877,
+      "created_at": "2026-10-06T08:40:58.705Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 6624,
+      "output_tokens": 622,
+      "reserved_micro": 69408,
+      "accounted_micro": 27336,
+      "created_at": "2026-10-06T08:41:08.014Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 8031,
+      "output_tokens": 302,
+      "reserved_micro": 73629,
+      "accounted_micro": 27717,
+      "created_at": "2026-10-06T08:41:18.180Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 7042,
+      "output_tokens": 595,
+      "reserved_micro": 70662,
+      "accounted_micro": 28266,
+      "created_at": "2026-10-06T08:41:24.431Z"
+    }
+  ]
+}

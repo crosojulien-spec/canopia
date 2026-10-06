@@ -1,7 +1,7 @@
-# Instructions du GPT historique
+# Historical GPT instructions
 
-`hotel_ops_brief_v1.txt` reproduit le texte fourni directement par Julien dans cette conversation le 5 octobre 2026. Il correspond au GPT Hotel Experience Brief Translator présenté comme référence probable, avec une fiche de connaissance par hôtel.
+`hotel_ops_brief_v1.txt` reproduces the text Julien supplied directly on 5 October 2026. It corresponds to the Hotel Experience Brief Translator GPT, presented as the likely reference with one knowledge file per hotel.
 
-Ce fichier est conservé comme source. Il n'a pas été révisé pour la nouvelle application. Les décisions plus récentes de Julien priment, notamment le routage vers la réception lorsqu'il n'y a pas de concierge, la souplesse de l'ADN et l'export du texte depuis le dashboard.
+This file is preserved as a source and has not been revised for the new application. Julien's later decisions take precedence, including routing to reception where no concierge exists, flexible DNA and text export from the dashboard.
 
-Les règles historiques détaillées doivent être examinées avant réutilisation. Le libellé BlooM ne signifie pas que le produit BlooM entre dans le périmètre. L'existence d'un fichier de connaissance ne prouve pas que chaque ancien brief a été généré avec cette version précise.
+Review the detailed historical rules before reusing them. The BlooM label does not bring the BlooM product into scope. The existence of a knowledge file does not prove every old brief was generated with that exact version.

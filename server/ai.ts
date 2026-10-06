@@ -8,7 +8,7 @@ import type { Config } from './config.ts';
 import { AppError, assert } from './security.ts';
 import { AiBudget, approvedModel } from './ai-budget.ts';
 
-export const conversationPromptVersion = 'conversation-v2';
+export const conversationPromptVersion = 'conversation-v3.1';
 export const briefPromptVersion = 'brief-v2';
 
 const resultSchema = z.object({

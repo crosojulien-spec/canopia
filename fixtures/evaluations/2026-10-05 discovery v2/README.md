@@ -1,6 +1,6 @@
 # Six live discovery conversations — 5 October 2026
 
-See the [French test report](../../../docs/Rapport%20des%20six%20tests%20de%20découverte.md) for findings and limitations.
+See the [test report](../../../docs/Six%20discovery%20tests.md) for findings and limitations.
 
 These are fictional guests played by Codex through the local application's HTTP guest routes with live GPT-6.1 Sol responses and briefs. They are not real hotel stays, human-user research or proof that proposed services were accepted or delivered.
 

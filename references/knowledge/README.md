@@ -1,7 +1,7 @@
-# Connaissances hôtel historiques
+# Historical hotel knowledge
 
-Deux textes extraits sont fournis : Sukhothai hotel input 2.0 (huit pages dans le DOCX original) et Seven Secrets Capability Profile (version préparatoire avant visite).
+Two extracted texts are included: Sukhothai hotel input 2.0 (eight pages in the original DOCX) and the Seven Secrets Capability Profile (a pre-visit preparation version).
 
-Ils fournissent une identité et des possibilités de service riches, mais ne démontrent pas à eux seuls l'approbation de l'établissement ni la disponibilité actuelle de chaque prestation. Leurs versions de référence pour la nouvelle app devront être relues.
+They offer rich identity and service possibilities, but do not by themselves establish hotel approval or current availability of each service. Any use as an operator reference requires review.
 
-Les six fiches de préparation enrichies sont maintenant dans `data/dna/`, avec un registre de sources et une file de vérification par hôtel. Les deux textes de ce dossier restent des références historiques intactes ; ils ne sont plus utilisés comme ADN initial par l'application. Les profils publics ne valent pas validation opérationnelle. Voir `data/dna/Review guide.md` pour les niveaux de preuve et les limites.
+The six enriched preparation profiles are now in `data/dna/`, with a source register and review queue for each hotel. The two files here remain unchanged historical references; the application no longer uses them as its initial DNA. Public profiles are not operational confirmation. See `data/dna/Review guide.md` for evidence levels and limitations.

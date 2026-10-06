@@ -1,5 +1,5 @@
 {
-  "created_on": "2026-10-05",
+  "created_on": "2026-10-06",
   "description": "Canopia local application, preparation documents, prompts, DNA and fictional historical examples. Excludes private runtime data and secrets.",
   "files": {
     ".env.example": {
@@ -19,16 +19,16 @@
       "sha256": "7c51d9691a2c0e596709038190d47bf636d5727d0054fcc3f752c81e9c606e7a"
     },
     "AGENTS.md": {
-      "bytes": 5809,
-      "sha256": "645536590c5e1113ad59d725f17da8e7f68351ed79a1e0b744570754bff74716"
+      "bytes": 6193,
+      "sha256": "ff6841b60f0bd313e9078a4c7bf2a64bb6c53bfadc220a006fb76145cda733f7"
     },
     "README.md": {
-      "bytes": 7983,
-      "sha256": "299b7f42fc21b6bd5efa89f559f54d495ff2fd6316c7666c9d6d00093a5484d5"
+      "bytes": 9053,
+      "sha256": "2070381f887f98b7c07bfcac44ea9fe10bef099a60c1f78f1fa37cf9eec7d17f"
     },
     "START_HERE.txt": {
-      "bytes": 1781,
-      "sha256": "e4d37445998c6fa2073509d219924f0d6db7db8369585ee3e58b0cb0f5de6f04"
+      "bytes": 2287,
+      "sha256": "a296aeb80b1385345c3f87b7f4afdd8b090b71e12cadefb2030c16492d574c6a"
     },
     "client/App.tsx": {
       "bytes": 38550,
@@ -94,45 +94,53 @@
       "bytes": 5177,
       "sha256": "981ef6524d11b4f453ad4f99d9181b70cae33921d5e6e2e5e7df5d14e775d13a"
     },
-    "docs/01_DECISIONS_VALIDEES.md": {
-      "bytes": 14067,
-      "sha256": "781855dd9a2424e4a4842ee935642228103a6af48cb224cfddfcdb9d642c70e3"
+    "docs/01 Product decisions.md": {
+      "bytes": 14845,
+      "sha256": "52f2326e2dc43fae9654de07a5c78464faf630d2b25f8fadf14ee4ad1bc77072"
     },
-    "docs/02_PLAN_DE_RECONSTRUCTION.md": {
-      "bytes": 5714,
-      "sha256": "19db9d4c11e4318126c82dfccc6f46c92dacec925195e9702eb83f5c662b347c"
+    "docs/02 Reconstruction plan.md": {
+      "bytes": 5206,
+      "sha256": "8b49ea7cb747fe4ecd19e335faef0c3e4ead46541f63abf88ced22b73d3d3a60"
     },
-    "docs/03_QUESTIONS_OUVERTES.md": {
-      "bytes": 5329,
-      "sha256": "8231d028815c8cc0d281048194fbd11a2e025151bf84a56dcf65798cc98d8c35"
+    "docs/03 Open questions.md": {
+      "bytes": 4832,
+      "sha256": "1153bf1492e99653beb6c6b4bdc11e6753ae97d17be67cb8e93da9773b7314c2"
     },
-    "docs/04_CRITERES_DE_VERIFICATION.md": {
-      "bytes": 4681,
-      "sha256": "cf7f61e0a0588e113ba6da7127eba638805f1dc30c3b2e4cb110619bb167f610"
+    "docs/04 Verification criteria.md": {
+      "bytes": 3989,
+      "sha256": "37a822876677cd9417496acee71e4c8f80746ccd90d86d7bf2a29167f80182c9"
     },
-    "docs/05_EXTENSION_HACKATHON.md": {
-      "bytes": 3639,
-      "sha256": "8ed29106afa4168250c6337f59a66f20a21b35a4786d974c8a1f20ab6ff5782e"
+    "docs/05 Hackathon extension.md": {
+      "bytes": 2983,
+      "sha256": "c664608baf92a06f82a57ae7535354369fe136b4b243877fc98b707eac02ca87"
     },
     "docs/AI trial and budget.md": {
-      "bytes": 5697,
-      "sha256": "1973be01ec4ace49f523a1f2c76ed8b4c49b8314ebb174722dd7359d92698056"
+      "bytes": 6931,
+      "sha256": "68b02b6bcd34e9a1171cf33e2c6cc5491b62abd0bb795b58c1f53bcb4da09924"
     },
     "docs/Connections and operation.md": {
       "bytes": 5477,
       "sha256": "a208949aa65e3750a87e3f8c478972e8fd8346f6460d03725a012f99d74db2fd"
     },
-    "docs/Rapport des six tests de découverte.md": {
-      "bytes": 18071,
-      "sha256": "c8aba3b0156817fc16365984bc3b9ba20348ad9e6a17ff0dd819c149dc532b5f"
+    "docs/Conversation agent role.md": {
+      "bytes": 3741,
+      "sha256": "933193ea1d098bbcb0522fdcf306b2eb8317405aea4f4a9c4331fee059551e0a"
     },
-    "docs/Revue de dix conversations courtes.md": {
-      "bytes": 17504,
-      "sha256": "ec2d7bb8d790e7854a6940f9e5d3c0d95f7892e151a3f43d473291d71253f0db"
+    "docs/Six discovery tests.md": {
+      "bytes": 15953,
+      "sha256": "c86f2f94238bc5864e1f20355715a33a583e8177f10950b20d3fd79a2986c189"
+    },
+    "docs/Ten short conversations review.md": {
+      "bytes": 15515,
+      "sha256": "76748790ee3e84213bdd9fa79d1b5f0936db5445c90bc03487bfc3b8453789aa"
+    },
+    "docs/Three conversation tests.md": {
+      "bytes": 7247,
+      "sha256": "30c554dd9e1fb5af6c16070b1c79eccda97bcba95645c09f7256a4d46c6dfc08"
     },
     "docs/Verification report.md": {
-      "bytes": 11094,
-      "sha256": "f5311117b4226d1ce54c81636842eeca5d4e14a93ca907daa664b87ebbe9bace"
+      "bytes": 13524,
+      "sha256": "e59544e06fc8b9ca30cad3518b13bd229921d3a5b38df8c6847790e4e8ff40af"
     },
     "fixtures/evaluations/2026-10-05 discovery v2/01 Camille brief.txt": {
       "bytes": 3806,
@@ -207,8 +215,8 @@
       "sha256": "b22b984cdde7ff18150d011bb7dbe5b70c25088f16bd508af861bdee81123010"
     },
     "fixtures/evaluations/2026-10-05 discovery v2/README.md": {
-      "bytes": 2274,
-      "sha256": "79784fb2abebeda7b60a170d2381d688c04200932ffa42d034aecb7485ace4ab"
+      "bytes": 2244,
+      "sha256": "83e55ca4f8d349eaf4f1f1e3984121df3c44d623e652a124af28e170ef177a1d"
     },
     "fixtures/evaluations/2026-10-05 discovery v2/call log.json": {
       "bytes": 26221,
@@ -362,9 +370,85 @@
       "bytes": 22680,
       "sha256": "2f65a56973fd3d38ce09736e3096cf34d428b513db659660d8f3de88476688f7"
     },
+    "fixtures/evaluations/2026-10-06 conversation v3/01 Elena brief.txt": {
+      "bytes": 4012,
+      "sha256": "ec7cd60d3fc892e40072c5ae097beaf42c97febfa858f7c4444314a73750c6f6"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/01 Elena conversation.txt": {
+      "bytes": 3242,
+      "sha256": "4648c851408dae732bc5caa948532781a8d44c74d0615a8f9011ea17c3c95d53"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/01 Elena.json": {
+      "bytes": 18952,
+      "sha256": "37757ac50ae75c9909260225619eaa019ed20e7dfd92ec9e6a5993123a77be4b"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/02 Frederik brief.txt": {
+      "bytes": 3983,
+      "sha256": "12a9667e72260cc3681e6c03ec9fa2569748cae4b2a3b2407857d32cba48d1b1"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/02 Frederik conversation.txt": {
+      "bytes": 2490,
+      "sha256": "29c055eb1c108b30594dbc1cd86a4949a0b0c8ef8f91d92e36690f624be08922"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/02 Frederik.json": {
+      "bytes": 17187,
+      "sha256": "e8d6f63617fa61d158423b64dccea6496dce682302c1d6836d7c920cbd04b3c7"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/03 Samir brief.txt": {
+      "bytes": 3826,
+      "sha256": "9e6bedb6846d74ce8c89cfdee801ae79414777613a2a7eebbd40634ad919550a"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/03 Samir conversation.txt": {
+      "bytes": 2240,
+      "sha256": "c7b9ac3c5dac559039b667418baedbcee4b8ee23e5e916e86fd9117b5023a3fc"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/03 Samir.json": {
+      "bytes": 15721,
+      "sha256": "a18d8150bceea233eb1e5bdead0c72eb8736daad1178ce4721ebe7279ceedae0"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/README.md": {
+      "bytes": 2715,
+      "sha256": "c38473398d72253d5656addab5d76998115cf6046a92f68bac5ffbb9e426801f"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/call log.json": {
+      "bytes": 12286,
+      "sha256": "612ed40c3c758d2ebd405a9cd9033daf7d695e44e0e9a9af2ff6aeadfc4aa54a"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/final verification.json": {
+      "bytes": 965,
+      "sha256": "b8f384c61f26284d05571c278524d4d34a3b1225a58f70af93851256560b0d0e"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/payload verification.json": {
+      "bytes": 1624,
+      "sha256": "1edc14d750170cc1d1080675fb65f6c37d4806a16a616090cffee43d10f7d4ad"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/run.json": {
+      "bytes": 7665,
+      "sha256": "cd262183bc1280d85f80baddbbee416e764f94ac9211ad558a9d0f77051f9d34"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/scenarios.json": {
+      "bytes": 4931,
+      "sha256": "cdb67d282586a036f2120e664c7c9545a6d68708a924595aa9d26a7b0acf9d67"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/targeted continuations.json": {
+      "bytes": 11774,
+      "sha256": "761f1f6e2077b0ed9280a85bc1db759a0dbbe85c0c4b8a82c650dbcacb4726e3"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/targeted follow-ups.json": {
+      "bytes": 29146,
+      "sha256": "172739551c016986755837e94bea28c1c4f75ad0c2005d5b8b3839934b2ce244"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/turn review.json": {
+      "bytes": 13038,
+      "sha256": "6084d6191a03fcecf1e79a56e6987c1b0dfeb6b58a62e72742c824433bb8755d"
+    },
+    "fixtures/evaluations/2026-10-06 conversation v3/verification.json": {
+      "bytes": 742,
+      "sha256": "628292202ce4d07ae0e503bfbfed7f80d3b2fe748a544572272897b3425b92e2"
+    },
     "fixtures/historical/README.md": {
-      "bytes": 1629,
-      "sha256": "179416746f4a20eed9ff7d796fec61ddaa19c56b4c616b7ed5cdde243d9cb588"
+      "bytes": 1396,
+      "sha256": "5fd1377778ba64cdb714d9578229a550c4f7121bc875a2b71825b8708ebb12c4"
     },
     "fixtures/historical/case_index.json": {
       "bytes": 4197,
@@ -502,21 +586,33 @@
       "bytes": 7520,
       "sha256": "de611f04df60f35dc24932b6bb647fa9ee1799069445aba5a03122ed86d40bbc"
     },
+    "prompts/conversation-v3.1.txt": {
+      "bytes": 11253,
+      "sha256": "d2ddf818353cf69b219c0261fa7d254e64f3c7fd2d276129a9b109d34664c8fd"
+    },
+    "prompts/conversation-v3.txt": {
+      "bytes": 10346,
+      "sha256": "bbd9f6d5df9b611cfd43ccd8a6a00551c0ab439e65bd3a619d7a09a77cfaf94e"
+    },
     "prompts/legacy/README.md": {
-      "bytes": 864,
-      "sha256": "e991addd92766457c021ea6ff16bc4308c884af95976deeed7a0336cfaa3e2c3"
+      "bytes": 709,
+      "sha256": "b014053a06063ff1e8802187f5027954426cf4bb771f079fa836488d925e80c4"
     },
     "prompts/legacy/hotel_ops_brief_v1.txt": {
       "bytes": 7006,
       "sha256": "1d2b1f08399a9e61dd79edbc668ec31bc4dc55dda4dae7e1ab83d6c8dd0e20d9"
     },
-    "references/audit/Canopia_etat_des_lieux_2026-10-05.docx": {
+    "references/audit/Canopia audit 2026-10-05.docx": {
       "bytes": 275495,
       "sha256": "69634288c22f360a867ad909df1f5c574a5c1156edb15ab8066cec75fce5408e"
     },
     "references/audit/README.md": {
-      "bytes": 927,
-      "sha256": "32939abca56142c3238449675910624b164a5410b955c476c8ae9a65c85c226a"
+      "bytes": 993,
+      "sha256": "55d6332d22fafaaab51bdbc5ffb1fade52a0f191d607d4c5102fd08c542332f2"
+    },
+    "references/historical/README.md": {
+      "bytes": 1584,
+      "sha256": "338bd067925029ad061ca4940cd665de885d73f9bbb512cef66381ddaaf2745c"
     },
     "references/historical/brief_format_template_v1.txt": {
       "bytes": 1338,
@@ -547,8 +643,8 @@
       "sha256": "0b53fdd9707494f988b8cd8f02958fd5f07de6245dcd5609d956f83f33d9f4dc"
     },
     "references/knowledge/README.md": {
-      "bytes": 898,
-      "sha256": "1519e26bf2c9d7924a92d3fb35661e8509e844329c3407a664d1d31fcd57f661"
+      "bytes": 747,
+      "sha256": "d38377760dc72ca620565257e850f4a699ed3dfde8802ff108b01bb9b2863ef9"
     },
     "references/knowledge/seven_secrets_capability_profile.txt": {
       "bytes": 11974,
@@ -567,8 +663,8 @@
       "sha256": "cc4275c8c2402bd099f3ec0b5112c08af34c0dd2bef6392748bede3a1a7f8f4e"
     },
     "server/ai.ts": {
-      "bytes": 10732,
-      "sha256": "a5b7fb9aee283cf8257110c8328ab09a1369ef9506d66b3537509bdef02a0cd6"
+      "bytes": 10734,
+      "sha256": "08597a4145f3ed6c694f3ac1f00658309c60dfef24e88ab6029d82e097a21571"
     },
     "server/app.ts": {
       "bytes": 12958,
@@ -607,12 +703,12 @@
       "sha256": "818e9ee3c3482819a3cb1c9c8ce7141193452b27166388a56ec02197561e3ab6"
     },
     "sources/README.md": {
-      "bytes": 685,
-      "sha256": "0b69063456c8e0c70bb6a771a4e505e4584d97bd9b908152ff9545dd5a12aa6f"
+      "bytes": 903,
+      "sha256": "bbc550d9fb3c2dd6babab3d5c888b89862e5718d8c546ee1983839da4d0a4a87"
     },
     "sources/source_index.json": {
-      "bytes": 17997,
-      "sha256": "04ff978f29350987fb6da16b25142c7bc380ca7d68eef32223be4907888af150"
+      "bytes": 18167,
+      "sha256": "e8d74e249bfed181e25b7bab6c68dc84840081d551ed3adffd7daf473198116b"
     },
     "tests/ai-budget.test.ts": {
       "bytes": 5376,

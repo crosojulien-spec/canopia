@@ -1,0 +1,199 @@
+{
+  "stay": {
+    "id": "d8ff8763-c1d4-402c-a4de-45d432e6b9b5",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Visit purpose and companion",
+        "value": "Travelling from Copenhagen with partner Nora for a few days wandering around Nice.",
+        "sourceQuote": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.",
+        "sourceMessageId": "667e51a0-2851-477d-8652-aa05172b6e5e"
+      },
+      {
+        "label": "Exploration style",
+        "value": "Prefer wandering to ticking off landmarks; Frederik enjoys old record shops and Nora sketches building façades.",
+        "sourceQuote": "I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks.",
+        "sourceMessageId": "072cf699-521a-4cc4-8603-4bbd8a365a5b"
+      },
+      {
+        "label": "Specific interests",
+        "value": "Frederik enjoys old soul records, especially Curtis Mayfield. Nora likes colourful old façades and little architectural oddities.",
+        "sourceQuote": "Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.",
+        "sourceMessageId": "441c735b-0ee2-449a-b5ac-4402e591f84a"
+      },
+      {
+        "label": "Breakfast preferences",
+        "value": "Enjoy a long breakfast first, with coffee for both; Nora is particularly fond of a lemon pastry.",
+        "sourceQuote": "Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry.",
+        "sourceMessageId": "7ee52670-4593-4c45-8434-3831eda51208"
+      },
+      {
+        "label": "Food preferences and allergies",
+        "value": "Frederik loves oysters; Nora dislikes shellfish. This is a dislike, and neither reports an allergy.",
+        "sourceQuote": "I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy.",
+        "sourceMessageId": "ae67f59f-5389-4654-b090-54caabb54dbc"
+      },
+      {
+        "label": "Dining atmosphere and interaction",
+        "value": "Prefer friendly places with a bit of life, not too formal; enjoy chatting and hearing people's personal local favourites.",
+        "sourceQuote": "Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites.",
+        "sourceMessageId": "1a17bb5b-7112-4c6c-afbc-cb8ccde26468"
+      },
+      {
+        "label": "Sleep comfort",
+        "value": "Nora gets cold and Frederik gets hot when sharing a bed.",
+        "sourceQuote": "Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft.",
+        "sourceMessageId": "95bc81bd-4e2e-4c18-88e5-b1a30308bc7d"
+      },
+      {
+        "label": "Duvet preference",
+        "value": "Would prefer one duvet each, as they are accustomed to; not a confirmed arrangement.",
+        "sourceQuote": "One each would be perfect, that's what we're used to. Nothing else to add, thank you.",
+        "sourceMessageId": "25a402dd-d944-472f-bf07-246b4f7ff385"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-13",
+    "handoff": "reception",
+    "hotelId": "hotel_amour_nice",
+    "revoked": false,
+    "revision": 20,
+    "chatError": null,
+    "createdAt": "2026-10-06T08:27:51.962Z",
+    "departure": "2026-11-17",
+    "expiresAt": "2026-10-13T08:27:51.962Z",
+    "guestName": "Frederik — Conversation v3 02",
+    "hotelName": "Hotel Amour Nice",
+    "partySize": 2,
+    "updatedAt": "2026-10-06T08:37:42.809Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "227f93c8-2030-4f6f-9c50-c30f2efd56a5",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "18d48048-9cd6-496d-afeb-1b3a67715430",
+      "role": "assistant",
+      "content": "Hello Frederik! I'd love to get to know you a little before your stay at Hotel Amour Nice, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T08:27:51.962Z"
+    },
+    {
+      "id": "667e51a0-2851-477d-8652-aa05172b6e5e",
+      "role": "user",
+      "content": "We're coming from Copenhagen for a few days wandering around Nice, my partner Nora and me.",
+      "createdAt": "2026-10-06T08:30:18.382Z"
+    },
+    {
+      "id": "22261076-f2dd-4da8-a627-547d00fd76bc",
+      "role": "assistant",
+      "content": "What do you and Nora most enjoy stumbling upon when you wander—a little café, an interesting gallery, or something else entirely?",
+      "createdAt": "2026-10-06T08:30:25.483Z"
+    },
+    {
+      "id": "072cf699-521a-4cc4-8603-4bbd8a365a5b",
+      "role": "user",
+      "content": "I love finding old record shops, and Nora sketches building facades. We prefer wandering to ticking off landmarks.",
+      "createdAt": "2026-10-06T08:31:00.552Z"
+    },
+    {
+      "id": "f4c17d41-5403-456a-8806-403ec4ea9fda",
+      "role": "assistant",
+      "content": "Old record shops and façades worth sketching sound like good reasons to take the side streets. What sort of music do you hunt for, and what kinds of buildings tend to catch Nora’s eye?",
+      "createdAt": "2026-10-06T08:31:11.329Z"
+    },
+    {
+      "id": "441c735b-0ee2-449a-b5ac-4402e591f84a",
+      "role": "user",
+      "content": "Old soul records, especially Curtis Mayfield. Nora likes colourful old facades and little architectural oddities.",
+      "createdAt": "2026-10-06T08:31:36.671Z"
+    },
+    {
+      "id": "2be31a28-5ecb-4602-b654-8ff68b705758",
+      "role": "assistant",
+      "content": "Does a day of wandering usually start slowly over breakfast for you two, or are you keen to head out early?",
+      "createdAt": "2026-10-06T08:31:47.869Z"
+    },
+    {
+      "id": "7ee52670-4593-4c45-8434-3831eda51208",
+      "role": "user",
+      "content": "Definitely a long breakfast first. Coffee for both of us, and Nora is very partial to a lemon pastry.",
+      "createdAt": "2026-10-06T08:32:10.515Z"
+    },
+    {
+      "id": "456f6e0e-186e-4b38-8ede-46c5aa486acc",
+      "role": "assistant",
+      "content": "A long breakfast sounds like part of the holiday in its own right. Are there any food dislikes or dietary needs for either of you that would be useful to know?",
+      "createdAt": "2026-10-06T08:32:20.822Z"
+    },
+    {
+      "id": "ae67f59f-5389-4654-b090-54caabb54dbc",
+      "role": "user",
+      "content": "I love oysters, but Nora dislikes shellfish. It's just a dislike, neither of us has an allergy.",
+      "createdAt": "2026-10-06T08:32:53.775Z"
+    },
+    {
+      "id": "664778e0-e3d5-4765-a5e8-16c167718381",
+      "role": "assistant",
+      "content": "Oysters for you, but no shellfish for Nora—just a matter of taste. After a day exploring, do you two enjoy a lively place for dinner, or somewhere quieter to linger?",
+      "createdAt": "2026-10-06T08:33:10.163Z"
+    },
+    {
+      "id": "1a17bb5b-7112-4c6c-afbc-cb8ccde26468",
+      "role": "user",
+      "content": "Somewhere friendly with a bit of life, nothing too formal. We like chatting and getting people's own local favourites.",
+      "createdAt": "2026-10-06T08:33:40.080Z"
+    },
+    {
+      "id": "c8c8c551-bb4e-48ed-b55d-b6c6b4d8923e",
+      "role": "assistant",
+      "content": "Personal favourites from a good conversation sound more your style than a checklist. Is there anything else you or Nora would like us to know before your stay?",
+      "createdAt": "2026-10-06T08:33:53.118Z"
+    },
+    {
+      "id": "95bc81bd-4e2e-4c18-88e5-b1a30308bc7d",
+      "role": "user",
+      "content": "Just sleep, actually: Nora gets cold and I get hot. Sharing a bed can turn into duvet theft.",
+      "createdAt": "2026-10-06T08:35:35.774Z"
+    },
+    {
+      "id": "f7b46ba3-a43b-46cd-9cf8-682ea45d88bf",
+      "role": "assistant",
+      "content": "Duvet diplomacy! Would you and Nora prefer one duvet each, if that’s possible, rather than sharing?",
+      "createdAt": "2026-10-06T08:35:49.229Z"
+    },
+    {
+      "id": "25a402dd-d944-472f-bf07-246b4f7ff385",
+      "role": "user",
+      "content": "One each would be perfect, that's what we're used to. Nothing else to add, thank you.",
+      "createdAt": "2026-10-06T08:36:31.258Z"
+    },
+    {
+      "id": "9f6498a5-832d-42b5-94ba-463416aa8b81",
+      "role": "assistant",
+      "content": "Thank you, Frederik—one duvet each is your preference, rather than sharing. It’s been a pleasure getting to know a little about you and Nora; enjoy your Nice wanderings!",
+      "createdAt": "2026-10-06T08:36:46.426Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "227f93c8-2030-4f6f-9c50-c30f2efd56a5",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nReservation: Frederik — Conversation v3 02; 13–17 November 2026, four nights, two guests.\nFrederik and his partner Nora are travelling from Copenhagen for a few days wandering around Nice. They prefer discovery over ticking off landmarks. They enjoy chatting and hearing people’s own local favourites; no preference about frequency of staff contact was expressed.\n\nB) COORDINATION\nReception is the assigned lead for preparation and experience support, coordinating with housekeeping, kitchen and restaurant staff.\nHotel DNA is public/historical preparation, not operationally confirmed; published prices are reference points, not quotes or inclusions.\nPriorities: check the booked bed configuration and separate-duvet feasibility; confirm breakfast entitlement and current service; prepare a few genuinely personal local recommendations rather than a packed itinerary. Nothing is booked or authorised.\n\nC) GUEST PROFILE\n- Frederik seeks old record shops and old soul records, especially Curtis Mayfield.\n- Nora sketches colourful old building façades and small architectural oddities.\n- Both favour a long breakfast before heading out and drink coffee. Nora particularly likes lemon pastries.\n- Frederik loves oysters. Nora dislikes shellfish: explicitly a dislike, not an allergy; neither guest has an allergy.\n- Dinner preference: friendly, informal and with some life, rather than formal dining.\n- Sleep: Nora gets cold; Frederik gets hot. They are accustomed to one duvet each and explicitly confirmed this would be perfect.\n\nD) RECEPTION\nWelcome them conversationally, with one or two staff-owned local favourites relevant to records or interesting façades. This reflects their stated enjoyment of local conversations, not permission for frequent unsolicited contact.\nConfirm the duvet request can be met and communicate any limitation before arrival where possible. Offer the researched wandering suggestions as loose options, not a timed programme; only ask about walking range if needed to make the route practical.\n\nE) ROOM PREPARATION\nExpressed request — Reception/housekeeping: prepare one duvet per person on the shared bed if the booked configuration and linen stock allow. Given their opposite temperature preferences, consider a lighter covering for Frederik and a warmer one for Nora, subject to available bedding and their acceptance; do not assume specialist duvet stock.\nOptional hotel-approved attention — Reception/housekeeping could leave a short hotel-authored welcome note acknowledging their Nice wanderings. Keep it simple; no gifts or elaborate room theme are warranted.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Record-and-sketch wandering: reception to research currently operating old/second-hand record shops with soul selections, alongside nearby colourful older façades and architectural oddities. Check opening days during the stay and whether shops stock soul; do not promise Curtis Mayfield records. Prepare a flexible route with pauses for Nora to sketch, rather than landmark stops.\n- Slow breakfast opportunity: reception may offer a leisurely hotel breakfast with coffee for both, coordinated with the kitchen/restaurant. Check inclusion, current prices, table options and service ending time. Ask the kitchen whether a lemon pastry is genuinely available or feasible; it is not established by the published menu. If unavailable, research a nearby bakery for Nora instead.\n- Informal dinner opportunity: reception may propose a Greek/Cypriot sharing meal at the hotel, with restaurant staff selecting current dishes suited to both guests and avoiding shellfish in Nora’s choices. Confirm portions, atmosphere, seating and price before offering.\n- Oyster outing: reception to research an informal, friendly place serving oysters for Frederik with appealing non-shellfish choices for Nora; verify current menus, hours and pricing. Any meal proposal is optional and paid where applicable, not a reservation or purchase.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "d8ff8763-c1d4-402c-a4de-45d432e6b9b5",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T08:37:42.807Z",
+      "updatedAt": "2026-10-06T08:37:42.807Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nReservation: Frederik — Conversation v3 02; 13–17 November 2026, four nights, two guests.\nFrederik and his partner Nora are travelling from Copenhagen for a few days wandering around Nice. They prefer discovery over ticking off landmarks. They enjoy chatting and hearing people’s own local favourites; no preference about frequency of staff contact was expressed.\n\nB) COORDINATION\nReception is the assigned lead for preparation and experience support, coordinating with housekeeping, kitchen and restaurant staff.\nHotel DNA is public/historical preparation, not operationally confirmed; published prices are reference points, not quotes or inclusions.\nPriorities: check the booked bed configuration and separate-duvet feasibility; confirm breakfast entitlement and current service; prepare a few genuinely personal local recommendations rather than a packed itinerary. Nothing is booked or authorised.\n\nC) GUEST PROFILE\n- Frederik seeks old record shops and old soul records, especially Curtis Mayfield.\n- Nora sketches colourful old building façades and small architectural oddities.\n- Both favour a long breakfast before heading out and drink coffee. Nora particularly likes lemon pastries.\n- Frederik loves oysters. Nora dislikes shellfish: explicitly a dislike, not an allergy; neither guest has an allergy.\n- Dinner preference: friendly, informal and with some life, rather than formal dining.\n- Sleep: Nora gets cold; Frederik gets hot. They are accustomed to one duvet each and explicitly confirmed this would be perfect.\n\nD) RECEPTION\nWelcome them conversationally, with one or two staff-owned local favourites relevant to records or interesting façades. This reflects their stated enjoyment of local conversations, not permission for frequent unsolicited contact.\nConfirm the duvet request can be met and communicate any limitation before arrival where possible. Offer the researched wandering suggestions as loose options, not a timed programme; only ask about walking range if needed to make the route practical.\n\nE) ROOM PREPARATION\nExpressed request — Reception/housekeeping: prepare one duvet per person on the shared bed if the booked configuration and linen stock allow. Given their opposite temperature preferences, consider a lighter covering for Frederik and a warmer one for Nora, subject to available bedding and their acceptance; do not assume specialist duvet stock.\nOptional hotel-approved attention — Reception/housekeeping could leave a short hotel-authored welcome note acknowledging their Nice wanderings. Keep it simple; no gifts or elaborate room theme are warranted.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n- Record-and-sketch wandering: reception to research currently operating old/second-hand record shops with soul selections, alongside nearby colourful older façades and architectural oddities. Check opening days during the stay and whether shops stock soul; do not promise Curtis Mayfield records. Prepare a flexible route with pauses for Nora to sketch, rather than landmark stops.\n- Slow breakfast opportunity: reception may offer a leisurely hotel breakfast with coffee for both, coordinated with the kitchen/restaurant. Check inclusion, current prices, table options and service ending time. Ask the kitchen whether a lemon pastry is genuinely available or feasible; it is not established by the published menu. If unavailable, research a nearby bakery for Nora instead.\n- Informal dinner opportunity: reception may propose a Greek/Cypriot sharing meal at the hotel, with restaurant staff selecting current dishes suited to both guests and avoiding shellfish in Nora’s choices. Confirm portions, atmosphere, seating and price before offering.\n- Oyster outing: reception to research an informal, friendly place serving oysters for Frederik with appealing non-shellfish choices for Nora; verify current menus, hours and pricing. Any meal proposal is optional and paid where applicable, not a reservation or purchase.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}

@@ -1,4 +1,4 @@
-# Local GPT trial — 5 October 2026
+# Local GPT trial — updated 6 October 2026
 
 Julien authorised GPT-6.1 Sol and up to USD 5 for the first fictional local conversation/brief trials. Email, real stays and deployment remain disabled. The API key is in the ignored local .env file and is never returned to the browser or written to source control.
 
@@ -8,7 +8,7 @@ Run the regular server with npm start (or npm run dev), not npm run demo: the la
 
 Create a new fictional stay in the console, choose a hotel and handoff, open the guest view, converse in English, and select Finish and share. The automatic A–F draft appears in Brief & review. Existing stays retain their original DNA snapshot. A guest who declines personalisation receives a minimal record, without experience suggestions.
 
-The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v2 and brief-v2; previous versions remain in source control. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context and transcript, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
+The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v3.1 and brief-v2; previous versions remain in source control. Conversation uses low reasoning effort; brief generation uses medium. Both use the full selected DNA, reservation context and transcript, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
 
 ## How the local allowance works
 
@@ -28,9 +28,13 @@ Automated checks exercise concurrent reservations, refusal before dispatch, unce
 
 The first live checks covered two chat turns and a normal A–F brief for Hôtel Amour Nice, plus a refusal turn and deterministic minimal record for Golden Well. All passed through the application service. The conservative allowance accounted for USD 0.082086 across four generations, leaving USD 4.917914 immediately after these checks, with no uncertain calls. See the [verification report](Verification%20report.md) for observations and limits. The console was then restarted in OpenAI mode with the same local account and database.
 
-Following the ten-case baseline, six new discovery profiles used 52 short guest replies and generated six live briefs. That campaign accounted for USD 1.481970, including the retained reservation for one timed-out chat call. A deliberate retry succeeded; the uncertain reservation was not removed or refunded. After export, cumulative accounting was USD 2.556417, leaving USD 2.443583 of the original USD 5, with one uncertain call. These are dated ledger readings, not a provider invoice or a claim about subsequent use. See the [six-case report](Rapport%20des%20six%20tests%20de%20découverte.md).
+Following the ten-case baseline, six new discovery profiles used 52 short guest replies and generated six live briefs. That campaign accounted for USD 1.481970, including the retained reservation for one timed-out chat call. A deliberate retry succeeded; the uncertain reservation was not removed or refunded. After export, cumulative accounting was USD 2.556417, leaving USD 2.443583 of the original USD 5, with one uncertain call. These are dated ledger readings, not a provider invoice or a claim about subsequent use. See the [six-case report](Six%20discovery%20tests.md).
 
-Official OpenAI documentation checked on 5 October 2026:
+On 6 October, three new fictional conversations with conversation-v3 produced 24 live replies and three unchanged brief-v2 drafts. The campaign accounted for USD 0.732144. Seven targeted live checks of the refined conversation-v3.1 accounted for another USD 0.178908. Cumulative accounting after these checks was USD 3.467469, leaving USD 1.532531 of the original allowance. The one uncertain call from 5 October remains retained; there were no new failed or uncertain calls in this campaign. These are conservative local amounts, not invoices. See the [three-case report](Three%20conversation%20tests.md).
+
+GPT-6.1 Sol is retained for now. The 6 October [official model comparison](https://developers.openai.com/api/docs/models/compare) lists Standard text input/output per million tokens at USD 2/10 for Sol, 10/50 for Astra and 0.10/0.50 for Luna, before cache effects. The measured local average was approximately USD 0.24 per complete test conversation plus brief. No Astra or Luna calls were made: the price comparison is documented, while any claim of equivalent or inferior Canopia quality on those models remains untested. No model migration, budget reset or spending-limit change was made.
+
+Official OpenAI documentation checked on 5 October 2026, with model comparison refreshed on 6 October:
 
 - [Model capabilities and pricing](https://developers.openai.com/api/docs/models/gpt-6.1-sol)
 - [Input token counting and output-limit semantics](https://developers.openai.com/api/docs/guides/token-counting)

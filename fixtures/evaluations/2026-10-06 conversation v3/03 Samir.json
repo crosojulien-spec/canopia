@@ -1,0 +1,181 @@
+{
+  "stay": {
+    "id": "f54ebbb1-7a2f-4c81-bce9-c6325474de5e",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Purpose of stay",
+        "value": "Travelling alone for work, with meetings most of the day; wants evenings to feel less like work.",
+        "sourceQuote": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.",
+        "sourceMessageId": "7b74b7da-297e-41b6-808f-101d51850d97"
+      },
+      {
+        "label": "Evening interests",
+        "value": "Would enjoy a good dinner seated at a counter and possibly live blues one evening.",
+        "sourceQuote": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening.",
+        "sourceMessageId": "2969f69a-d572-4ea4-bd52-4eefa5a21172"
+      },
+      {
+        "label": "Food preferences and allergies",
+        "value": "Likes grilled fish; avoids heavy cream sauces; reports no allergies.",
+        "sourceQuote": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.",
+        "sourceMessageId": "f4953830-2e5b-43e3-a2e8-0e11eae1e556"
+      },
+      {
+        "label": "Blues preferences",
+        "value": "Buddy Guy is a favourite; a friendly venue matters more than a big-name performer.",
+        "sourceQuote": "Buddy Guy is a favourite. A friendly place matters more than a big-name act.",
+        "sourceMessageId": "47264d03-523d-40da-a2c5-7ac08852cf2c"
+      },
+      {
+        "label": "Morning routine",
+        "value": "Enjoys an easy half-hour run followed by a quick breakfast and double espresso.",
+        "sourceQuote": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.",
+        "sourceMessageId": "c2e4562a-cefc-4324-aef1-b3910a102b2e"
+      },
+      {
+        "label": "Running route and departure time",
+        "value": "Would appreciate a simple, unambitious running route; needs to leave the hotel at 8:15.",
+        "sourceQuote": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.",
+        "sourceMessageId": "69467c7f-fed3-43dc-9ddc-ac5dac06b959"
+      },
+      {
+        "label": "Evening timing",
+        "value": "Usually returns around 6:30 in the evening and eats at eight.",
+        "sourceQuote": "I'm usually back around 6:30 and eat at eight.",
+        "sourceMessageId": "f8f7747e-1d03-4d07-9aea-1ecc1e9f49ec"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-09",
+    "handoff": "concierge",
+    "hotelId": "pavillon_reine_paris",
+    "revoked": false,
+    "revision": 18,
+    "chatError": null,
+    "createdAt": "2026-10-06T08:27:51.966Z",
+    "departure": "2026-11-12",
+    "expiresAt": "2026-10-13T08:27:51.966Z",
+    "guestName": "Samir — Conversation v3 03",
+    "hotelName": "Le Pavillon de la Reine",
+    "partySize": 1,
+    "updatedAt": "2026-10-06T08:36:50.058Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "1a5dd50f-847a-498c-9e52-8c7b65c40977",
+    "reservationNotes": ""
+  },
+  "messages": [
+    {
+      "id": "b11a8a1e-9f2a-4c4d-a2b2-982cc8d65795",
+      "role": "assistant",
+      "content": "Hello Samir! I'd love to get to know you a little before your stay at Le Pavillon de la Reine, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T08:27:51.966Z"
+    },
+    {
+      "id": "7b74b7da-297e-41b6-808f-101d51850d97",
+      "role": "user",
+      "content": "I'm travelling alone for work, with meetings most of the day. I'd like the evenings to feel a bit less like work.",
+      "createdAt": "2026-10-06T08:30:18.387Z"
+    },
+    {
+      "id": "93758388-cd58-49f1-86fa-6ca56b410177",
+      "role": "assistant",
+      "content": "After a day of meetings, what would help you switch off and make the evening feel like your own?",
+      "createdAt": "2026-10-06T08:30:26.880Z"
+    },
+    {
+      "id": "2969f69a-d572-4ea4-bd52-4eefa5a21172",
+      "role": "user",
+      "content": "A good dinner somewhere I can sit at the counter, maybe some live blues one evening.",
+      "createdAt": "2026-10-06T08:31:00.557Z"
+    },
+    {
+      "id": "ba221290-2445-41e7-b6e0-d5ad4b7262a0",
+      "role": "assistant",
+      "content": "A counter dinner and some live blues sound like a good change of pace. What kind of food would you most enjoy, and is there anything you avoid?",
+      "createdAt": "2026-10-06T08:31:10.432Z"
+    },
+    {
+      "id": "f4953830-2e5b-43e3-a2e8-0e11eae1e556",
+      "role": "user",
+      "content": "Grilled fish would be great. I avoid heavy cream sauces, but I don't have allergies.",
+      "createdAt": "2026-10-06T08:31:36.675Z"
+    },
+    {
+      "id": "2d4930fb-b471-4a91-9311-375d9582e399",
+      "role": "assistant",
+      "content": "Is there a blues artist or style you particularly enjoy, or is it more about finding a welcoming spot with good live music?",
+      "createdAt": "2026-10-06T08:31:46.585Z"
+    },
+    {
+      "id": "47264d03-523d-40da-a2c5-7ac08852cf2c",
+      "role": "user",
+      "content": "Buddy Guy is a favourite. A friendly place matters more than a big-name act.",
+      "createdAt": "2026-10-06T08:32:10.522Z"
+    },
+    {
+      "id": "6f134cab-e972-47f5-942c-07d1bb21ff70",
+      "role": "assistant",
+      "content": "A friendly room with good blues, rather than a headline name—that helps. On meeting mornings, what makes for a good start: do you like to take time over breakfast, or keep it quick with coffee and something small?",
+      "createdAt": "2026-10-06T08:32:21.903Z"
+    },
+    {
+      "id": "c2e4562a-cefc-4324-aef1-b3910a102b2e",
+      "role": "user",
+      "content": "A quick breakfast and double espresso after an easy run. Half an hour running usually sets me up well.",
+      "createdAt": "2026-10-06T08:32:53.779Z"
+    },
+    {
+      "id": "331487b3-964c-4cd9-a547-b2a384fc3642",
+      "role": "assistant",
+      "content": "An easy half-hour run before breakfast sounds like a good way to start a meeting day. Would you appreciate a suggested running route from the hotel, or do you prefer to find your own way?",
+      "createdAt": "2026-10-06T08:33:05.591Z"
+    },
+    {
+      "id": "69467c7f-fed3-43dc-9ddc-ac5dac06b959",
+      "role": "user",
+      "content": "A simple route would help. I need to leave the hotel at 8:15, so nothing too ambitious.",
+      "createdAt": "2026-10-06T08:33:40.084Z"
+    },
+    {
+      "id": "17710dba-3b53-444a-83a6-38e839ce9b2d",
+      "role": "assistant",
+      "content": "A simple half-hour route, with time for breakfast and your double espresso before leaving at 8:15—that gives a useful picture of your mornings. Is there anything else you’d like the team to know, or anything you’d like to correct?",
+      "createdAt": "2026-10-06T08:33:53.885Z"
+    },
+    {
+      "id": "f8f7747e-1d03-4d07-9aea-1ecc1e9f49ec",
+      "role": "user",
+      "content": "I'm usually back around 6:30 and eat at eight. That's everything, thanks, I need to get back to work.",
+      "createdAt": "2026-10-06T08:35:35.777Z"
+    },
+    {
+      "id": "69ef7c5d-a525-4130-959d-43e5e8821e3b",
+      "role": "assistant",
+      "content": "Thank you, Samir—back around 6:30 and dinner at eight. I’ll leave you to your work; we look forward to welcoming you.",
+      "createdAt": "2026-10-06T08:35:49.004Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "1a5dd50f-847a-498c-9e52-8c7b65c40977",
+      "kind": "normal",
+      "text": "A) BASIC INFO\nGuest: Samir — Conversation v3 03.\nStay: 9–12 November 2026; three nights, one guest.\nTravelling alone for work, with meetings most of the day. Wants evenings to feel less like work. Usually returns around 18:30, eats at 20:00 and needs to leave the hotel at 08:15.\n\nB) COORDINATION\nAssign a concierge lead, with reception covering practical morning coordination. Hotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, current terms and proposed adaptations require staff approval. Nothing is booked or authorised.\n\nPriorities: a manageable morning routine and one well-matched dinner/blues evening. Confirm breakfast service timing and external evening schedules before presenting options. Share the cream-sauce preference with relevant food teams as a preference, not an allergy.\n\nC) GUEST PROFILE\n- Dinner: enjoys grilled fish and counter seating; avoids heavy cream sauces. Explicitly reports no allergies.\n- Music: Buddy Guy is a favourite. A friendly place matters more than a big-name act; interested in live blues one evening.\n- Morning routine: an easy 30-minute run, then quick breakfast and double espresso. Explicitly welcomes a simple running route, “nothing too ambitious.”\n- Fixed practical constraint: 08:15 departure; allow time for showering and breakfast rather than fitting the run tightly against departure.\n- No staff-contact preference was expressed; ending the interview to return to work is not a request for reduced contact.\n\nD) RECEPTION\nPrepare a concise morning plan with the concierge’s route and confirmed breakfast location/hours. Reception and the breakfast kitchen should check whether a quick breakfast with double espresso can fit comfortably before 08:15; clarify only the breakfast choice and timing needed to deliver this. Confirm any charge or reservation entitlement rather than assuming breakfast is included.\n\nAt arrival, provide the prepared options without restarting discovery. Concierge should establish which evening is available for music and how late Samir wishes to stay out, since this determines a workable dinner/show sequence.\n\nE) ROOM PREPARATION\nReception/housekeeping: no special bedding, sensory or room-layout requests were expressed; use standard preparation.\n\nOptional hotel-approved attention: a short printed running-route card in the room, coordinated with concierge, could make the requested routine easy to follow. Include clear return directions and approximate duration, not a fixed departure time or guaranteed running conditions. Check the route before placement. Do not assume the booked room has the published Superior-room coffee equipment.\n\nF) CONCIERGE\n- Requested running support: research a straightforward, approximately 30-minute easy loop from the hotel. Check early-morning access, November light and route conditions; favour simple navigation and an easy shortened return. Supply directions without claiming a measured pace-dependent duration.\n- Optional paid evening composition: research counter-seating restaurants serving grilled fish without heavy cream sauces, plus a welcoming live-blues venue for one evening. Use Buddy Guy as a musical reference, not an expected performer. Build around 20:00 dinner and his usual 18:30 return; verify actual performances, counter availability, travel time, cover/minimum spend and restaurant pricing. Present separately bookable choices, not a fabricated package.\n- Optional paid in-house fallback: concierge can ask Anne’s restaurant/kitchen whether a seasonal fish-led dinner with lighter sauces is feasible around 20:00 on Tuesday or Wednesday. Check actual service, menu format and price; counter seating is not documented. Position this as a convenient alternative, not a substitute for his preferred counter experience.",
+      "model": "gpt-6.1-sol",
+      "source": "openai",
+      "stayId": "f54ebbb1-7a2f-4c81-bce9-c6325474de5e",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T08:36:50.055Z",
+      "updatedAt": "2026-10-06T08:36:50.055Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\nGuest: Samir — Conversation v3 03.\nStay: 9–12 November 2026; three nights, one guest.\nTravelling alone for work, with meetings most of the day. Wants evenings to feel less like work. Usually returns around 18:30, eats at 20:00 and needs to leave the hotel at 08:15.\n\nB) COORDINATION\nAssign a concierge lead, with reception covering practical morning coordination. Hotel DNA is public preparation checked on 5 October 2026, not operational confirmation; availability, current terms and proposed adaptations require staff approval. Nothing is booked or authorised.\n\nPriorities: a manageable morning routine and one well-matched dinner/blues evening. Confirm breakfast service timing and external evening schedules before presenting options. Share the cream-sauce preference with relevant food teams as a preference, not an allergy.\n\nC) GUEST PROFILE\n- Dinner: enjoys grilled fish and counter seating; avoids heavy cream sauces. Explicitly reports no allergies.\n- Music: Buddy Guy is a favourite. A friendly place matters more than a big-name act; interested in live blues one evening.\n- Morning routine: an easy 30-minute run, then quick breakfast and double espresso. Explicitly welcomes a simple running route, “nothing too ambitious.”\n- Fixed practical constraint: 08:15 departure; allow time for showering and breakfast rather than fitting the run tightly against departure.\n- No staff-contact preference was expressed; ending the interview to return to work is not a request for reduced contact.\n\nD) RECEPTION\nPrepare a concise morning plan with the concierge’s route and confirmed breakfast location/hours. Reception and the breakfast kitchen should check whether a quick breakfast with double espresso can fit comfortably before 08:15; clarify only the breakfast choice and timing needed to deliver this. Confirm any charge or reservation entitlement rather than assuming breakfast is included.\n\nAt arrival, provide the prepared options without restarting discovery. Concierge should establish which evening is available for music and how late Samir wishes to stay out, since this determines a workable dinner/show sequence.\n\nE) ROOM PREPARATION\nReception/housekeeping: no special bedding, sensory or room-layout requests were expressed; use standard preparation.\n\nOptional hotel-approved attention: a short printed running-route card in the room, coordinated with concierge, could make the requested routine easy to follow. Include clear return directions and approximate duration, not a fixed departure time or guaranteed running conditions. Check the route before placement. Do not assume the booked room has the published Superior-room coffee equipment.\n\nF) CONCIERGE\n- Requested running support: research a straightforward, approximately 30-minute easy loop from the hotel. Check early-morning access, November light and route conditions; favour simple navigation and an easy shortened return. Supply directions without claiming a measured pace-dependent duration.\n- Optional paid evening composition: research counter-seating restaurants serving grilled fish without heavy cream sauces, plus a welcoming live-blues venue for one evening. Use Buddy Guy as a musical reference, not an expected performer. Build around 20:00 dinner and his usual 18:30 return; verify actual performances, counter availability, travel time, cover/minimum spend and restaurant pricing. Present separately bookable choices, not a fabricated package.\n- Optional paid in-house fallback: concierge can ask Anne’s restaurant/kitchen whether a seasonal fish-led dinner with lighter sauces is feasible around 20:00 on Tuesday or Wednesday. Check actual service, menu format and price; counter seating is not documented. Position this as a convenient alternative, not a substitute for his preferred counter experience.",
+      "promptVersion": "brief-v2"
+    }
+  ],
+  "invitations": []
+}
