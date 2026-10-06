@@ -1,0 +1,435 @@
+{
+  "startedAt": "2026-10-06T12:43:59.871Z",
+  "baselineCommit": "3a3cf267eb6e7ae1db8778881512dc26a04edb12",
+  "model": "gpt-6-luna",
+  "conversationPromptVersion": "conversation-v5",
+  "briefPromptVersion": "brief-v4",
+  "chatReasoning": "medium",
+  "briefReasoning": "medium",
+  "hashes": {
+    "prompts/conversation-v5.txt": "472ca4c9ad89eac68e50221b1a837231b8cf375aa6e4d09ccf28160b8325326a",
+    "prompts/brief-v4.txt": "6ead11cc81f06d7d0312838c615a3873b95b4f042467779ffbeec699d10079ca",
+    "server/ai.ts": "1703af55c56d2fc716dc4a2c502a760d78994b323123040f4fb8c23c31f1d38c",
+    "server/discovery.ts": "11d06ae6a82253bb636acf778fd6b8959e6d87b47ffc13c2c8e6906b6f1bdee0",
+    "server/service.ts": "ee71f1c44ef0ad08ef13de73c8bec640dbf288bd11ecf735c7d709c18b9f7343",
+    "shared/types.ts": "cd3a2806a0078ccdaa70ca57536b46fc849f81647615cb14a19adb114be5814a",
+    "server/ai-budget.ts": "9fe387a3625ba9512aa3701ab912e28de3a02b599bf97c6beb1caccbf701467a",
+    "prompts/discovery-output-v1.txt": "2d14aba4744c1a7fb77a27f5f161d3921696eef27a96991a12d1a953144cefcc",
+    "prompts/discovery-examples-v1.txt": "1472bdc9207f83e7030836e950a475df3e366adb9f5770d83fcf293a0f9b8a5f"
+  },
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.39509,
+    "remainingUsd": 0.60491,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "authentication": "Temporary local operator session inserted for the fixture; account/password unchanged. Routes retain normal authentication. Browser login is covered separately by the scripted regression.",
+  "finishedAt": "2026-10-06T13:18:58.092Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.556046,
+    "remainingUsd": 0.443954,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "usage": [
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 7906,
+      "output_tokens": 1096,
+      "reserved_micro": 5463,
+      "accounted_micro": 1844,
+      "created_at": "2026-10-06T12:44:46.406Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9365,
+      "output_tokens": 1024,
+      "reserved_micro": 5682,
+      "accounted_micro": 2020,
+      "created_at": "2026-10-06T12:44:46.440Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 7306,
+      "output_tokens": 1153,
+      "reserved_micro": 5373,
+      "accounted_micro": 1788,
+      "created_at": "2026-10-06T12:44:46.546Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 8252,
+      "output_tokens": 1628,
+      "reserved_micro": 5515,
+      "accounted_micro": 2215,
+      "created_at": "2026-10-06T12:46:09.488Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10118,
+      "output_tokens": 1634,
+      "reserved_micro": 5795,
+      "accounted_micro": 2499,
+      "created_at": "2026-10-06T12:46:09.498Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 8765,
+      "output_tokens": 1532,
+      "reserved_micro": 5592,
+      "accounted_micro": 2234,
+      "created_at": "2026-10-06T12:46:09.969Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9199,
+      "output_tokens": 2055,
+      "reserved_micro": 5657,
+      "accounted_micro": 2613,
+      "created_at": "2026-10-06T12:47:57.706Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 8841,
+      "output_tokens": 2056,
+      "reserved_micro": 5603,
+      "accounted_micro": 2560,
+      "created_at": "2026-10-06T12:47:57.855Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10536,
+      "output_tokens": 1812,
+      "reserved_micro": 5858,
+      "accounted_micro": 2668,
+      "created_at": "2026-10-06T12:47:57.917Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10823,
+      "output_tokens": 2357,
+      "reserved_micro": 5901,
+      "accounted_micro": 3038,
+      "created_at": "2026-10-06T12:49:51.019Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9284,
+      "output_tokens": 1980,
+      "reserved_micro": 5670,
+      "accounted_micro": 2581,
+      "created_at": "2026-10-06T12:49:51.061Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9551,
+      "output_tokens": 2160,
+      "reserved_micro": 5710,
+      "accounted_micro": 2729,
+      "created_at": "2026-10-06T12:49:51.067Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10104,
+      "output_tokens": 2733,
+      "reserved_micro": 5793,
+      "accounted_micro": 3156,
+      "created_at": "2026-10-06T12:51:32.025Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11230,
+      "output_tokens": 1979,
+      "reserved_micro": 5962,
+      "accounted_micro": 2872,
+      "created_at": "2026-10-06T12:51:32.080Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9539,
+      "output_tokens": 2257,
+      "reserved_micro": 5708,
+      "accounted_micro": 2786,
+      "created_at": "2026-10-06T12:51:32.104Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 9195,
+      "output_tokens": 2032,
+      "reserved_micro": 5657,
+      "accounted_micro": 2599,
+      "created_at": "2026-10-06T12:55:52.519Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10604,
+      "output_tokens": 2505,
+      "reserved_micro": 5868,
+      "accounted_micro": 3094,
+      "created_at": "2026-10-06T12:55:52.521Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 9988,
+      "output_tokens": 2810,
+      "reserved_micro": 5775,
+      "accounted_micro": 3185,
+      "created_at": "2026-10-06T12:55:52.523Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10597,
+      "output_tokens": 3089,
+      "reserved_micro": 5867,
+      "accounted_micro": 3443,
+      "created_at": "2026-10-06T12:56:44.630Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10682,
+      "output_tokens": 3430,
+      "reserved_micro": 5880,
+      "accounted_micro": 3661,
+      "created_at": "2026-10-06T12:56:44.905Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11348,
+      "output_tokens": 3484,
+      "reserved_micro": 5979,
+      "accounted_micro": 3793,
+      "created_at": "2026-10-06T12:57:34.698Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11301,
+      "output_tokens": 3305,
+      "reserved_micro": 5972,
+      "accounted_micro": 3679,
+      "created_at": "2026-10-06T12:57:34.705Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11606,
+      "output_tokens": 3465,
+      "reserved_micro": 6018,
+      "accounted_micro": 3820,
+      "created_at": "2026-10-06T12:58:19.442Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11412,
+      "output_tokens": 3926,
+      "reserved_micro": 5989,
+      "accounted_micro": 4068,
+      "created_at": "2026-10-06T12:58:19.485Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11725,
+      "output_tokens": 4754,
+      "reserved_micro": 6036,
+      "accounted_micro": 4612,
+      "created_at": "2026-10-06T12:59:43.844Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11905,
+      "output_tokens": 4297,
+      "reserved_micro": 6063,
+      "accounted_micro": 4364,
+      "created_at": "2026-10-06T12:59:43.892Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11965,
+      "output_tokens": 4075,
+      "reserved_micro": 6072,
+      "accounted_micro": 4240,
+      "created_at": "2026-10-06T13:00:14.604Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12285,
+      "output_tokens": 4048,
+      "reserved_micro": 6120,
+      "accounted_micro": 4272,
+      "created_at": "2026-10-06T13:01:12.737Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12445,
+      "output_tokens": 3492,
+      "reserved_micro": 6144,
+      "accounted_micro": 3962,
+      "created_at": "2026-10-06T13:01:12.755Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12752,
+      "output_tokens": 3796,
+      "reserved_micro": 6190,
+      "accounted_micro": 4191,
+      "created_at": "2026-10-06T13:02:40.511Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12303,
+      "output_tokens": 4288,
+      "reserved_micro": 6123,
+      "accounted_micro": 4419,
+      "created_at": "2026-10-06T13:02:40.544Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 10389,
+      "output_tokens": 3140,
+      "reserved_micro": 5836,
+      "accounted_micro": 3443,
+      "created_at": "2026-10-06T13:03:46.017Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 13187,
+      "output_tokens": 4214,
+      "reserved_micro": 6255,
+      "accounted_micro": 4507,
+      "created_at": "2026-10-06T13:03:46.036Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 13366,
+      "output_tokens": 4317,
+      "reserved_micro": 6282,
+      "accounted_micro": 4596,
+      "created_at": "2026-10-06T13:05:09.581Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 13674,
+      "output_tokens": 4620,
+      "reserved_micro": 6328,
+      "accounted_micro": 4824,
+      "created_at": "2026-10-06T13:06:50.006Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 13785,
+      "output_tokens": 4504,
+      "reserved_micro": 6345,
+      "accounted_micro": 4771,
+      "created_at": "2026-10-06T13:08:21.767Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 13845,
+      "output_tokens": 4535,
+      "reserved_micro": 6354,
+      "accounted_micro": 4798,
+      "created_at": "2026-10-06T13:08:56.561Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 14071,
+      "output_tokens": 4544,
+      "reserved_micro": 6388,
+      "accounted_micro": 4838,
+      "created_at": "2026-10-06T13:09:54.109Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 14600,
+      "output_tokens": 4833,
+      "reserved_micro": 6467,
+      "accounted_micro": 5090,
+      "created_at": "2026-10-06T13:11:16.171Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 14904,
+      "output_tokens": 5094,
+      "reserved_micro": 6513,
+      "accounted_micro": 5292,
+      "created_at": "2026-10-06T13:12:31.244Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 15280,
+      "output_tokens": 5312,
+      "reserved_micro": 6569,
+      "accounted_micro": 5480,
+      "created_at": "2026-10-06T13:13:54.568Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 15345,
+      "output_tokens": 4806,
+      "reserved_micro": 6579,
+      "accounted_micro": 5186,
+      "created_at": "2026-10-06T13:14:37.017Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 15301,
+      "output_tokens": 4514,
+      "reserved_micro": 6572,
+      "accounted_micro": 5004,
+      "created_at": "2026-10-06T13:15:51.853Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 12932,
+      "output_tokens": 3636,
+      "reserved_micro": 6217,
+      "accounted_micro": 4122,
+      "created_at": "2026-10-06T13:17:16.349Z"
+    }
+  ],
+  "runtimeUnchangedDuringCampaign": true
+}

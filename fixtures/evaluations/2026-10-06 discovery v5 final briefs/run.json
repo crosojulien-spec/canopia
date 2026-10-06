@@ -1,0 +1,66 @@
+{
+  "startedAt": "2026-10-06T13:26:42.054Z",
+  "baselineCommit": "3a3cf267eb6e7ae1db8778881512dc26a04edb12",
+  "model": "gpt-6-luna",
+  "conversationPromptVersion": "conversation-v5.1",
+  "briefPromptVersion": "brief-v4.2",
+  "chatReasoning": "medium",
+  "briefReasoning": "medium",
+  "hashes": {
+    "prompts/conversation-v5.1.txt": "3dbec47597f878743b2ea5906f9669887d4a15918063aa6782cf9cf282f3741a",
+    "prompts/brief-v4.2.txt": "fc6bbb628146c8eab81c30776e11945d36a85901b90ac8911afc46d6bad283eb",
+    "server/ai.ts": "2869bbea2f837a5bfdc100a1382fa2a0c2f4f4a01c5f1ece5bf9c30c7c4c4a72",
+    "server/discovery.ts": "11d06ae6a82253bb636acf778fd6b8959e6d87b47ffc13c2c8e6906b6f1bdee0",
+    "server/service.ts": "ee71f1c44ef0ad08ef13de73c8bec640dbf288bd11ecf735c7d709c18b9f7343",
+    "shared/types.ts": "cd3a2806a0078ccdaa70ca57536b46fc849f81647615cb14a19adb114be5814a",
+    "server/ai-budget.ts": "9fe387a3625ba9512aa3701ab912e28de3a02b599bf97c6beb1caccbf701467a",
+    "prompts/discovery-output-v1.1.txt": "0bfbd72177a172511d81e261d5cbfd97dab87a60e80922118b6f5d0a08e21247",
+    "prompts/discovery-examples-v1.1.txt": "1291ae0bc88991ade93a6f8503d5d6c3e222259ce7f3ffc432e0077aa0f037f3"
+  },
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.589584,
+    "remainingUsd": 0.410416,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "authentication": "Temporary local operator session inserted for the fixture; account/password unchanged. Routes retain normal authentication. Browser login is covered separately by the scripted regression.",
+  "finishedAt": "2026-10-06T13:29:29.717Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.599348,
+    "remainingUsd": 0.400652,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "usage": [
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 9663,
+      "output_tokens": 1527,
+      "reserved_micro": 5727,
+      "accounted_micro": 2366,
+      "created_at": "2026-10-06T13:27:25.437Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 13400,
+      "output_tokens": 2637,
+      "reserved_micro": 6287,
+      "accounted_micro": 3593,
+      "created_at": "2026-10-06T13:27:25.480Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 10857,
+      "output_tokens": 3626,
+      "reserved_micro": 5906,
+      "accounted_micro": 3805,
+      "created_at": "2026-10-06T13:27:25.536Z"
+    }
+  ],
+  "runtimeUnchangedDuringCampaign": true
+}

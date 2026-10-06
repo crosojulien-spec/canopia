@@ -1,0 +1,121 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 12143,
+  "guest": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Eight years together and a first visit to Prague make this a special trip. What are you most looking forward to discovering together, and have you already made any plans?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Prague plans and interests",
+    "closing": {
+      "basis": "continue",
+      "reason": "Discovery is just beginning and useful preferences remain unexplored.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Eight-year anniversary and first visit to Prague",
+        "detail": "They are celebrating eight years together on their first visit to Prague.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      {
+        "topic": "Prague plans and interests",
+        "detail": "Their hopes for discovering Prague and any plans already made are not yet known.",
+        "person": "Nora and Ben",
+        "status": "open",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Favourite snacks or small treats could inform a thoughtful room touch.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Useful morning, evening or other daily routines are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Their interests and what they hope to discover in Prague are still to be explored.",
+        "status": "open",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Their preferred style of welcome and interaction with the hotel team is not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Food and drink preferences, including coffee, tea and alcohol-free choices, could help personalise the stay.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "plans_and_pace": {
+        "detail": "Plans, preferred pace and practical timing are not yet known.",
+        "status": "open",
+        "sourceMessageIds": []
+      },
+      "personal_touches": {
+        "detail": "The anniversary is a relevant occasion; what sort of celebratory touch, if any, they would welcome is not yet known.",
+        "status": "open",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "Bedding, pillows and other sleep or comfort needs are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Nora and Ben are celebrating eight years together and visiting Prague for the first time.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Fragrance and flower preferences could inform a personal touch for their celebration.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Allergies or dietary restrictions are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions",
+      "value": "Nora is travelling with Ben.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Occasion",
+      "value": "Nora and Ben are celebrating eight years together.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Visit history",
+      "value": "This is Nora and Ben's first time in Prague.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    }
+  ]
+}

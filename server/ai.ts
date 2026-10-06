@@ -7,10 +7,14 @@ import type { AiProvider, ChatResult, GenerationInput } from '../shared/types.ts
 import type { Config } from './config.ts';
 import { AppError, assert } from './security.ts';
 import { AiBudget, approvedModel } from './ai-budget.ts';
-import { discoverySchema, discoveryReady, groundedDiscovery } from './discovery.ts';
+import { discoverySchema, discoveryReady, groundedDiscovery, closureIssues } from './discovery.ts';
 
-export const conversationPromptVersion = 'conversation-v4';
-export const briefPromptVersion = 'brief-v3';
+export const conversationPromptVersion = 'conversation-v5.1';
+export const briefPromptVersion = 'brief-v4.2';
+export const conversationSupportFiles = [
+  'prompts/discovery-output-v1.1.txt',
+  'prompts/discovery-examples-v1.1.txt',
+];
 
 const resultSchema = z.object({
   reply: z.string().min(1).max(3000),
@@ -27,6 +31,35 @@ const resultSchema = z.object({
     )
     .max(60),
 });
+
+function turnFormat(input: GenerationInput) {
+  const format = zodTextFormat(resultSchema, 'canopia_turn');
+  const schema = format.schema as Record<string, unknown>;
+  const ids = input.messages.filter((message) => message.role === 'user').map((message) => message.id);
+  // Constrain copying at generation time; grounding below remains a second check.
+  // One shared enum avoids repeating long IDs for every coverage domain.
+  const visit = (node: unknown) => {
+    if (!node || typeof node !== 'object') return;
+    const object = node as Record<string, unknown>;
+    if (object.properties && typeof object.properties === 'object') {
+      const properties = object.properties as Record<string, unknown>;
+      if ('sourceMessageId' in properties) properties.sourceMessageId = { $ref: '#/$defs/guest_source_id' };
+      if ('sourceMessageIds' in properties)
+        properties.sourceMessageIds = {
+          type: 'array',
+          items: { $ref: '#/$defs/guest_source_id' },
+          maxItems: 4,
+        };
+    }
+    Object.values(object).forEach(visit);
+  };
+  visit(schema);
+  schema.$defs = {
+    ...((schema.$defs ?? {}) as Record<string, unknown>),
+    guest_source_id: { type: 'string', enum: ids.length ? ids : ['__no_guest_message__'] },
+  };
+  return format;
+}
 export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?: OpenAI): AiProvider {
   if (config.aiMode === 'simulation') return new SimulationProvider();
   if (config.aiMode !== 'openai' || !config.apiKey || !config.model || !config.allowAiCalls)
@@ -120,49 +153,75 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
     model: config.model,
     budget: () => limiter.status(),
     async chat(input, signal) {
-      const result = await response(
-        {
-          model: config.model!,
-          store: false,
-          max_output_tokens: 4000,
-          reasoning: { effort: 'low' },
-          instructions: await readFile(`prompts/${conversationPromptVersion}.txt`, 'utf8'),
-          input: inputData(input),
-          text: { format: zodTextFormat(resultSchema, 'canopia_turn') },
-        },
-        'chat',
-        signal,
-      );
-      if (result.status !== 'completed' || !result.output_text)
-        throw new AppError(
-          502,
-          'The AI response could not be read. Your message is saved; retry when ready.',
-        );
-      let output: ChatResult;
-      try {
-        const parsed = resultSchema.parse(JSON.parse(result.output_text));
-        const discovery = groundedDiscovery(parsed.discovery, input.messages);
-        const stopRequested = parsed.stopRequested || discovery.nextMove === 'withdraw';
-        output = {
-          ...parsed,
-          discovery: stopRequested ? { ...discovery, nextMove: 'withdraw', focus: '' } : discovery,
-          stopRequested,
-          readyToFinish: !stopRequested && discoveryReady(discovery),
-        };
-      } catch {
-        throw new AppError(
-          502,
-          'The AI reply format was incomplete. Your message is saved; retry when ready.',
-        );
-      }
-      output.facts = output.facts.filter(
-        (f) =>
-          f.sourceQuote.length > 0 &&
-          input.messages.some(
-            (m) => m.role === 'user' && m.id === f.sourceMessageId && m.content.includes(f.sourceQuote),
+      const instructions = (
+        await Promise.all(
+          [`prompts/${conversationPromptVersion}.txt`, ...conversationSupportFiles].map((path) =>
+            readFile(path, 'utf8'),
           ),
-      );
-      return output;
+        )
+      ).join('\n\n');
+      let correction = '';
+      // One bounded repair of premature host-led closure. Both generations use
+      // the same ledger; no SDK retry, silent fallback or fabricated guest reply.
+      for (let attempt = 0; attempt < 2; attempt++) {
+        const result = await response(
+          {
+            model: config.model!,
+            store: false,
+            max_output_tokens: 7000,
+            reasoning: { effort: 'medium' },
+            instructions: instructions + correction,
+            input: inputData(input),
+            text: { format: turnFormat(input) },
+          },
+          'chat',
+          signal,
+        );
+        if (result.status !== 'completed' || !result.output_text)
+          throw new AppError(
+            502,
+            'The AI response could not be read. Your message is saved; retry when ready.',
+          );
+        let output: ChatResult;
+        try {
+          const parsed = resultSchema.parse(JSON.parse(result.output_text));
+          const discovery = groundedDiscovery(parsed.discovery, input.messages);
+          const stopRequested = parsed.stopRequested || discovery.nextMove === 'withdraw';
+          output = {
+            ...parsed,
+            discovery: stopRequested ? { ...discovery, nextMove: 'withdraw', focus: '' } : discovery,
+            stopRequested,
+            readyToFinish: !stopRequested && discoveryReady(discovery),
+          };
+        } catch {
+          throw new AppError(
+            502,
+            'The AI reply format was incomplete. Your message is saved; retry when ready.',
+          );
+        }
+        const issues = output.discovery && !output.stopRequested ? closureIssues(output.discovery) : [];
+        if (issues.length) {
+          if (attempt === 1)
+            throw new AppError(
+              502,
+              'The host could not resolve incomplete discovery. Your message is saved; please retry.',
+            );
+          correction =
+            '\n\nAPPLICATION CHECK: Your previous draft proposed ending with unresolved discovery: ' +
+            issues.join(' ') +
+            '\nReturn a replacement for this same turn. Continue with one useful natural question unless the guest has actually asked to finish. Do not fabricate coverage or guest impatience. The rejected draft was not shown to the guest.';
+          continue;
+        }
+        output.facts = output.facts.filter(
+          (f) =>
+            f.sourceQuote.length > 0 &&
+            input.messages.some(
+              (m) => m.role === 'user' && m.id === f.sourceMessageId && m.content.includes(f.sourceQuote),
+            ),
+        );
+        return output;
+      }
+      throw new AppError(502, 'Discovery could not be completed.');
     },
     async brief(input, signal) {
       const result = await response(

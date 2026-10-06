@@ -1,0 +1,219 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 25116,
+  "guest": "About 24 degrees works for us. I like a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. We share a duvet, and Leo has his own blanket.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "That gives a helpful picture of how you each sleep, especially with Marc being a light sleeper. Is there anything in particular that helps him sleep well away from home, or something any of you would especially appreciate having in the room?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "sleep comfort",
+    "closing": {
+      "basis": "continue",
+      "reason": "Clara is engaging, and useful sleep-comfort details and other personalisation opportunities remain to be explored.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Tenth wedding anniversary",
+        "detail": "They want one romantic dinner for the two of them, perhaps on the beach; nothing is booked. A personal touch they would welcome or avoid remains unknown.",
+        "person": "Clara and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Family time",
+        "detail": "They would like family time during the stay; individual interests and wishes remain to be explored.",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Dinner evening arrangement",
+        "detail": "Clara and Marc would be happy with a trusted sitter to keep Leo busy for a couple of hours while they have dinner together. Childcare availability is not confirmed.",
+        "person": "Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "36d85641-51e1-4328-948a-86c68877a6fc"
+        ]
+      },
+      {
+        "topic": "Breakfast and drinks",
+        "detail": "They like a slow breakfast with fruit and eggs. Clara likes coconut water, Marc likes fresh pineapple juice, and Leo would choose watermelon juice.",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+        ]
+      },
+      {
+        "topic": "Shellfish allergy",
+        "detail": "Leo has a severe shellfish allergy, and the family carries an EpiPen. Food handling would need to be confirmed directly by the hotel team.",
+        "person": "Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+        ]
+      },
+      {
+        "topic": "Favourite snacks",
+        "detail": "Clara and Marc like mango, coconut and pineapple; Leo likes chocolate-chip cookies and also loves watermelon.",
+        "person": "Clara, Marc and Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "539be151-5441-4d10-8ad4-e7798fc01302"
+        ]
+      },
+      {
+        "topic": "Sleep and room comfort",
+        "detail": "They find about 24°C comfortable; Clara prefers a firm pillow, Marc a soft pillow, and Leo is not bothered. Clara and Marc share a duvet, and Leo has his own blanket. Marc is a light sleeper; helpful habits or things to,",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "cdee403b-bfa3-41d5-bd1a-72078dc5a110"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Clara and Marc like mango, coconut and pineapple; Leo likes chocolate-chip cookies and also loves watermelon.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "539be151-5441-4d10-8ad4-e7798fc01302"
+        ]
+      },
+      "routines": {
+        "detail": "They enjoy taking breakfast slowly with fruit and eggs; other routines and useful practical details remain unexplored.",
+        "status": "open",
+        "sourceMessageIds": [
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+        ]
+      },
+      "interests": {
+        "detail": "Clara is keen to learn local cooking and Marc is happy to try local food. They do not yet know dish names; Leo's interests and other individual interests remain unexplored.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+        ]
+      },
+      "interaction": {
+        "detail": "Their preferred style of welcome, recommendations, or staff interaction remains to be explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Clara wants local food and to learn local cooking; Marc is happy to try things, and they do not yet know dish names. They enjoy a slow breakfast with fruit and eggs; Clara likes coconut water, Marc fresh pineapple juice, and Leo watermelon.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+          "2b9c4a4d-8667-475b-98da-6eb265c8a61e",
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+        ]
+      },
+      "plans_and_pace": {
+        "detail": "They want family time and one romantic dinner, perhaps on the beach; nothing is booked. They would be happy with a trusted sitter keeping Leo busy for a couple of hours, but childcare availability needs checking.",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320",
+          "36d85641-51e1-4328-948a-86c68877a6fc"
+        ]
+      },
+      "personal_touches": {
+        "detail": "Their tenth anniversary is a possible occasion for a personal touch; what they would welcome or prefer to avoid remains unknown.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "They find about 24°C comfortable; Clara prefers a firm pillow, Marc a soft pillow, and Leo is not bothered. Clara and Marc share a duvet, and Leo has his own blanket. Marc is a light sleeper; helpful sleep habits or things from home remain.",
+        "status": "open",
+        "sourceMessageIds": [
+          "cdee403b-bfa3-41d5-bd1a-72078dc5a110"
+        ]
+      },
+      "people_and_purpose": {
+        "detail": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary. They want family time and a dinner for Clara and Marc; whether this is a first visit and other individual wishes remain open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Preferences about scents or flowers could inform an anniversary touch.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "No valid guest evidence retained.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions and occasion",
+      "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+      "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+    },
+    {
+      "label": "Anniversary plans",
+      "value": "They want family time and one romantic dinner just for Clara and Marc, perhaps on the beach. Nothing is booked yet, and they would need to work around Leo.",
+      "sourceQuote": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+      "sourceMessageId": "b833043d-c497-419e-ae79-2156c3f9d320"
+    },
+    {
+      "label": "Childcare preference for dinner",
+      "value": "Clara and Marc would be happy with a trusted sitter who can keep Leo busy for a couple of hours while they spend the evening together.",
+      "sourceQuote": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+      "sourceMessageId": "36d85641-51e1-4328-948a-86c68877a6fc"
+    },
+    {
+      "label": "Local food and cooking",
+      "value": "Clara would love local food and is keen to learn some local cooking; Marc is happy to try things. They do not know dish names yet and would enjoy learning.",
+      "sourceQuote": "Local food would be lovely. I'm also keen to learn some local cooking; Marc is happy to try things.",
+      "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+    },
+    {
+      "label": "Dietary restrictions for Clara and Marc",
+      "value": "Clara says she and Marc have no dietary restrictions; this does not specify Leo's requirements or allergies.",
+      "sourceQuote": "We don't have any dietary restrictions ourselves.",
+      "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+    },
+    {
+      "label": "Leo's food preference and allergy",
+      "value": "Leo is described as not fussy. He has a severe shellfish allergy, and the family carries an EpiPen.",
+      "sourceQuote": "I don't know the dish names yet—we'd enjoy learning. Leo isn't fussy, but he has a severe shellfish allergy and we carry an EpiPen.",
+      "sourceMessageId": "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+    },
+    {
+      "label": "Breakfast and drinks",
+      "value": "They like taking breakfast slowly, with fruit and eggs. Clara loves coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+      "sourceQuote": "We like taking breakfast slowly—fruit and eggs. I love coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+      "sourceMessageId": "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+    },
+    {
+      "label": "Favourite snacks",
+      "value": "Clara and Marc love mango, coconut and pineapple. Leo prefers chocolate-chip cookies, though he loves watermelon too.",
+      "sourceQuote": "Marc and I love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+      "sourceMessageId": "539be151-5441-4d10-8ad4-e7798fc01302"
+    },
+    {
+      "label": "Sleep and room comfort",
+      "value": "About 24 degrees works for them. Clara likes a firm pillow, Marc a soft one, and Leo is not bothered. Marc is a light sleeper. Clara and Marc share a duvet, and Leo has his own blanket.",
+      "sourceQuote": "About 24 degrees works for us. I like a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. We share a duvet, and Leo has his own blanket.",
+      "sourceMessageId": "cdee403b-bfa3-41d5-bd1a-72078dc5a110"
+    }
+  ]
+}

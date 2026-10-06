@@ -38,8 +38,33 @@ export interface Message {
   content: string;
   createdAt: string;
 }
-// Internal working interpretation, not guest-verified facts or a mandatory checklist.
+export const discoveryDomains = [
+  'people_and_purpose',
+  'plans_and_pace',
+  'food_and_drink',
+  'snacks',
+  'dietary_requirements',
+  'sleep_and_comfort',
+  'routines',
+  'interests',
+  'scents_and_flowers',
+  'interaction',
+  'personal_touches',
+] as const;
+export type DiscoveryDomain = (typeof discoveryDomains)[number];
+export interface DiscoveryCoverage {
+  status: 'unexplored' | 'open' | 'understood' | 'unknown' | 'indifferent' | 'declined' | 'not_relevant';
+  detail: string;
+  sourceMessageIds: string[];
+}
+// Internal interpretation, not guest-verified facts. Optional additions preserve old stays.
 export interface DiscoveryState {
+  coverage?: Record<DiscoveryDomain, DiscoveryCoverage>;
+  closing?: {
+    basis: 'continue' | 'sufficient' | 'guest_finished' | 'guest_short_on_time' | 'guest_disengaging';
+    reason: string;
+    sourceMessageIds: string[];
+  };
   threads: {
     person: string;
     topic: string;

@@ -1,0 +1,109 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 12870,
+  "guest": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "A tenth anniversary with Leo along sounds like a lovely family milestone. Have you started imagining how you’d like to mark it here—something all three of you can enjoy, or a moment for you and Marc?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Anniversary plans",
+    "closing": {
+      "basis": "continue",
+      "reason": "The guest is participating, and useful discovery about the anniversary and the family's preferences remains.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Tenth wedding anniversary",
+        "detail": "They are travelling as a family for their tenth wedding anniversary; how they would like to mark it is still to be discovered.",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      {
+        "topic": "Family context",
+        "detail": "Leo is Clara and Marc's seven-year-old son.",
+        "person": "Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Explore any favourite snacks or small treats that could make the stay feel personal.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Explore any morning or evening routines that would be useful to know.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Explore interests or personal references for Clara, Marc and Leo that might inform a thoughtful touch or experience.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Explore what kind of welcome, recommendations or interaction with staff they enjoy.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Explore food, breakfast and drink preferences for the family.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "plans_and_pace": {
+        "detail": "Useful opening: whether they have plans for celebrating and what pace or shared time would suit the family.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "personal_touches": {
+        "detail": "Their anniversary could invite a personal touch; what they would welcome or prefer to avoid is not yet known.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "Explore useful room-comfort preferences or things from home that would help them sleep well.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Clara, her husband Marc and their seven-year-old son Leo are coming for their tenth wedding anniversary; their individual wishes and how they would like to mark it are still open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Explore liked or disliked scents and flowers if useful for anniversary personalisation.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Ask about any allergies or dietary requirements when natural.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions and occasion",
+      "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+      "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+    }
+  ]
+}

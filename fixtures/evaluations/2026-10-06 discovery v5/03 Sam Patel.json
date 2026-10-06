@@ -1,0 +1,287 @@
+{
+  "stay": {
+    "id": "801c27d4-d7ac-4874-8fc8-549edf4bb432",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Stay purpose and party",
+        "value": "Travelling solo for work for two nights.",
+        "sourceQuote": "Solo for work, two nights.",
+        "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+      },
+      {
+        "label": "Time constraint and preference",
+        "value": "Has about a minute before a meeting and wants to keep the exchange practical; then said they needed to go.",
+        "sourceQuote": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+        "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+      },
+      {
+        "label": "Morning routine and timing",
+        "value": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around seven-thirty.",
+        "sourceQuote": "A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.",
+        "sourceMessageId": "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+      },
+      {
+        "label": "Dietary requirements",
+        "value": "No allergies or dietary restrictions.",
+        "sourceQuote": "No allergies or dietary restrictions.",
+        "sourceMessageId": "31b32523-84dd-4075-a9c3-a349baeb6e93"
+      },
+      {
+        "label": "Sleep and room comfort",
+        "value": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+        "sourceQuote": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+        "sourceMessageId": "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+      },
+      {
+        "label": "Post-run snack preference",
+        "value": "Banana and yoghurt are enough; does not want an additional snack.",
+        "sourceQuote": "Banana and yoghurt are enough. I need to go now, thanks.",
+        "sourceMessageId": "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-24",
+    "handoff": "concierge",
+    "hotelId": "sukhothai_bangkok",
+    "revoked": false,
+    "revision": 14,
+    "chatError": null,
+    "createdAt": "2026-10-06T12:44:43.908Z",
+    "departure": "2026-11-26",
+    "discovery": {
+      "focus": "Close for time",
+      "closing": {
+        "basis": "guest_short_on_time",
+        "reason": "Sam said they need to go now after mentioning a meeting and wanting to keep the exchange practical.",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37",
+          "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+        ]
+      },
+      "threads": [
+        {
+          "topic": "Work stay and timing",
+          "detail": "Travelling solo for two nights for work; has an early run and leaves around 7:30. Other plans are unknown.",
+          "person": "Sam",
+          "status": "open",
+          "sourceMessageIds": [
+            "c9514625-a44a-4416-ac1e-69da18044f37",
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+          ]
+        },
+        {
+          "topic": "Early-run morning routine",
+          "detail": "Double espresso before an early run, then banana and plain yoghurt; leaves for work around 7:30.",
+          "person": "Sam",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+          ]
+        },
+        {
+          "topic": "Post-run snack",
+          "detail": "Banana and plain yoghurt are enough; no additional snack is wanted.",
+          "person": "Sam",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+            "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+          ]
+        },
+        {
+          "topic": "Dietary requirements",
+          "detail": "No allergies or dietary restrictions.",
+          "person": "Sam",
+          "status": "understood",
+          "sourceMessageIds": [
+            "31b32523-84dd-4075-a9c3-a349baeb6e93"
+          ]
+        },
+        {
+          "topic": "Room comfort and fragrance",
+          "detail": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+          "person": "Sam",
+          "status": "understood",
+          "sourceMessageIds": [
+            "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+          ]
+        }
+      ],
+      "coverage": {
+        "snacks": {
+          "detail": "Banana and plain yoghurt after the run are enough; no additional snack is wanted.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+            "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+          ]
+        },
+        "routines": {
+          "detail": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around 7:30.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+          ]
+        },
+        "interests": {
+          "detail": "Personal interests have not been explored.",
+          "status": "unexplored",
+          "sourceMessageIds": []
+        },
+        "interaction": {
+          "detail": "Preferred style of interaction with hotel staff has not been explored.",
+          "status": "unexplored",
+          "sourceMessageIds": []
+        },
+        "food_and_drink": {
+          "detail": "Has a double espresso before a run, followed by banana and plain yoghurt; other food and drink preferences remain unknown.",
+          "status": "open",
+          "sourceMessageIds": [
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+          ]
+        },
+        "plans_and_pace": {
+          "detail": "Has an early run and leaves for work around 7:30; other plans and timings are unknown.",
+          "status": "open",
+          "sourceMessageIds": [
+            "c9514625-a44a-4416-ac1e-69da18044f37",
+            "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+          ]
+        },
+        "personal_touches": {
+          "detail": "No occasion or personal-touch preference has been shared.",
+          "status": "unexplored",
+          "sourceMessageIds": []
+        },
+        "sleep_and_comfort": {
+          "detail": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+          ]
+        },
+        "people_and_purpose": {
+          "detail": "Travelling solo for work for two nights.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "c9514625-a44a-4416-ac1e-69da18044f37"
+          ]
+        },
+        "scents_and_flowers": {
+          "detail": "Requests no added fragrance; flower preferences have not been explored.",
+          "status": "open",
+          "sourceMessageIds": [
+            "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+          ]
+        },
+        "dietary_requirements": {
+          "detail": "Sam reports no allergies or dietary restrictions.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "31b32523-84dd-4075-a9c3-a349baeb6e93"
+          ]
+        }
+      },
+      "nextMove": "close"
+    },
+    "expiresAt": "2026-10-13T12:44:43.908Z",
+    "guestName": "Sam Patel",
+    "hotelName": "The Sukhothai Bangkok",
+    "partySize": 1,
+    "updatedAt": "2026-10-06T12:56:18.971Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "4b1a0541-53f7-4daf-b81e-3d7d625802a5",
+    "reservationNotes": "Fictional discovery evaluation, 6 October 2026."
+  },
+  "messages": [
+    {
+      "id": "28fc92da-fbab-49e6-857c-9f26e1cbc4cc",
+      "role": "assistant",
+      "content": "Hello Sam! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T12:44:43.908Z"
+    },
+    {
+      "id": "c9514625-a44a-4416-ac1e-69da18044f37",
+      "role": "user",
+      "content": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+      "createdAt": "2026-10-06T12:44:45.174Z"
+    },
+    {
+      "id": "7700640d-de17-4902-ac14-4718eb30f55b",
+      "role": "assistant",
+      "content": "Understood—I’ll keep it practical. What’s your usual morning coffee or tea order?",
+      "createdAt": "2026-10-06T12:44:56.813Z"
+    },
+    {
+      "id": "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+      "role": "user",
+      "content": "A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.",
+      "createdAt": "2026-10-06T12:46:08.861Z"
+    },
+    {
+      "id": "d455e77e-5ac6-4449-aba5-230d00d93d44",
+      "role": "assistant",
+      "content": "That’s a useful early-start picture. Any allergies or dietary restrictions the team should keep in mind for breakfast?",
+      "createdAt": "2026-10-06T12:46:25.109Z"
+    },
+    {
+      "id": "31b32523-84dd-4075-a9c3-a349baeb6e93",
+      "role": "user",
+      "content": "No allergies or dietary restrictions.",
+      "createdAt": "2026-10-06T12:47:57.173Z"
+    },
+    {
+      "id": "1e845d83-d45d-4eaa-857f-1ceb00628269",
+      "role": "assistant",
+      "content": "Thanks—that helps. One practical room detail: is there anything that reliably helps you sleep well before an early run, such as quiet, darkness or a particular pillow?",
+      "createdAt": "2026-10-06T12:48:13.027Z"
+    },
+    {
+      "id": "88e1e1f7-9835-4b4a-881b-94f0b71c6e03",
+      "role": "user",
+      "content": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+      "createdAt": "2026-10-06T12:49:50.463Z"
+    },
+    {
+      "id": "983126b2-cd84-48c0-b682-5ad71b4d08bf",
+      "role": "assistant",
+      "content": "A quiet room, firm pillow, around 20°C and no added fragrance—understood. One quick practical question: after your run, would you welcome a snack beyond the banana and plain yoghurt, or is that exactly what you want?",
+      "createdAt": "2026-10-06T12:50:11.058Z"
+    },
+    {
+      "id": "b96518e2-3c57-41a9-87af-9d4fe14d83b0",
+      "role": "user",
+      "content": "Banana and yoghurt are enough. I need to go now, thanks.",
+      "createdAt": "2026-10-06T12:51:31.485Z"
+    },
+    {
+      "id": "d226169a-a114-4ec5-99ab-d51c83819c15",
+      "role": "assistant",
+      "content": "Of course, Sam—good luck with your meeting. Thank you, and I hope your stay goes smoothly.",
+      "createdAt": "2026-10-06T12:51:47.516Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "4b1a0541-53f7-4daf-b81e-3d7d625802a5",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nSam Patel | 24–26 November 2026 | Two nights | One guest, travelling solo for work.\n\nStaff interaction preference was not stated.\n\nB) COORDINATION\n\nConcierge is the assigned lead. Hotel information available is public or historical preparation, not operationally confirmed; verify live services, availability, policies and charges before offering anything.\n\nCoordinate the room requests with reception and housekeeping, and any morning food or drink proposal with in-room dining. No general discovery follow-up is needed. If useful, concierge can prepare concise, verified running-route information without assuming Sam wants a particular route.\n\nC) GUEST PROFILE\n\nSam’s early routine is a double espresso before a run, followed by a banana and plain yoghurt. They leave for work around 7:30. Banana and yoghurt are enough; Sam does not want an additional snack. Sam reports no allergies or dietary restrictions.\n\nFor sleep, Sam prefers a quiet room at around 20°C, a firm pillow and no added fragrance.\n\nExperience suggestions: support the practical morning routine and, optionally, research nearby running options; see F.\n\nD) RECEPTION\n\nPrioritise a quiet-room allocation if available and coordinate the requested temperature and firm pillow with the relevant team. Keep any practical clarification focused on these arrangements; do not treat the short discovery exchange as evidence of a preferred level of staff contact.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room and a temperature around 20°C; confirm room-specific control and feasibility. Ask housekeeping to provide a firm pillow if available—the current pillow options are unconfirmed. Do not add room fragrance; confirm which preparation steps can honour this request. Room category and wing are not supplied, so verify applicable room features rather than assuming them.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\n• Morning routine — paid proposal, not an order: Sam’s double espresso before an early run, then banana and plain yoghurt, fits the published in-room breakfast service (listed hours 05:00–11:30). Coordinate with in-room dining/F&B to check whether the espresso can be prepared as a double, whether banana and plain yoghurt are available, ordering lead time and charges. Align any proposed timing with Sam’s run and 7:30 work departure; do not add another snack. The custom combination and its price are not confirmed.\n\n• Running information — optional concierge research: Sam has an early-run routine. If useful, prepare concise local route options and verify distance, surface, access and practical early-morning conditions before sharing. Do not assume a route, make a booking or imply hotel-run facilities beyond confirmed capabilities.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "801c27d4-d7ac-4874-8fc8-549edf4bb432",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T12:56:18.969Z",
+      "updatedAt": "2026-10-06T12:56:18.969Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nSam Patel | 24–26 November 2026 | Two nights | One guest, travelling solo for work.\n\nStaff interaction preference was not stated.\n\nB) COORDINATION\n\nConcierge is the assigned lead. Hotel information available is public or historical preparation, not operationally confirmed; verify live services, availability, policies and charges before offering anything.\n\nCoordinate the room requests with reception and housekeeping, and any morning food or drink proposal with in-room dining. No general discovery follow-up is needed. If useful, concierge can prepare concise, verified running-route information without assuming Sam wants a particular route.\n\nC) GUEST PROFILE\n\nSam’s early routine is a double espresso before a run, followed by a banana and plain yoghurt. They leave for work around 7:30. Banana and yoghurt are enough; Sam does not want an additional snack. Sam reports no allergies or dietary restrictions.\n\nFor sleep, Sam prefers a quiet room at around 20°C, a firm pillow and no added fragrance.\n\nExperience suggestions: support the practical morning routine and, optionally, research nearby running options; see F.\n\nD) RECEPTION\n\nPrioritise a quiet-room allocation if available and coordinate the requested temperature and firm pillow with the relevant team. Keep any practical clarification focused on these arrangements; do not treat the short discovery exchange as evidence of a preferred level of staff contact.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room and a temperature around 20°C; confirm room-specific control and feasibility. Ask housekeeping to provide a firm pillow if available—the current pillow options are unconfirmed. Do not add room fragrance; confirm which preparation steps can honour this request. Room category and wing are not supplied, so verify applicable room features rather than assuming them.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\n• Morning routine — paid proposal, not an order: Sam’s double espresso before an early run, then banana and plain yoghurt, fits the published in-room breakfast service (listed hours 05:00–11:30). Coordinate with in-room dining/F&B to check whether the espresso can be prepared as a double, whether banana and plain yoghurt are available, ordering lead time and charges. Align any proposed timing with Sam’s run and 7:30 work departure; do not add another snack. The custom combination and its price are not confirmed.\n\n• Running information — optional concierge research: Sam has an early-run routine. If useful, prepare concise local route options and verify distance, surface, access and practical early-morning conditions before sharing. Do not assume a route, make a booking or imply hotel-run facilities beyond confirmed capabilities.",
+      "promptVersion": "brief-v4"
+    }
+  ],
+  "invitations": []
+}

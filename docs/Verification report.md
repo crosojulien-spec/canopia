@@ -1,13 +1,13 @@
 # Verification report — updated 6 October 2026
 
-The local implementation passes compilation, twelve server/data tests and one complete simulated browser journey. The live GPT-6.1 Sol integration has initial connection checks, a ten-case baseline and a new six-hotel discovery campaign within Julien's authorised USD 5 trial. The latter produces useful personalisation material but still misses meaningful cues and uses repetitive conversation patterns; **product quality is not accepted**. Email delivery, remote PostgreSQL and hosting remain **unverified**.
+The current local implementation passes compilation, eighteen server/data tests, source formatting and a full simulated browser journey. The approved discovery replacement now uses GPT-6 Luna, conversation-v5.1 and brief-v4.2. Three live fictional application journeys and the subsequent targeted corrections are documented in [Discovery v5 integration](Discovery%20v5%20integration.md). These authored trials are not independent guest or hotel acceptance. Earlier Sol evidence below is historical. Email delivery, remote PostgreSQL and hosting remain unverified.
 
 ## Checks completed
 
 | Evidence | Result and scope |
 |---|---|
 | `npm run build` | Strict TypeScript check and Vite production bundle pass. |
-| `npm test` | Twelve tests pass against real in-memory PGlite and Express endpoints, including research refresh protection and persistent AI-budget enforcement; AI is simulated or deliberately made to fail. |
+| `npm test` | Eighteen tests pass against real in-memory PGlite and Express endpoints, including research refresh protection and persistent AI-budget enforcement; AI is simulated or deliberately made to fail. |
 | `npm run test:e2e` | One full journey passes in a fresh Edge context using a separate local database. |
 | `npm run format:check` | Source formatting passes. |
 | Screenshot inspection | Desktop console, six-hotel collection, guest conversation on desktop/mobile, edited brief, refusal record and mobile console inspected. Mobile overflow found during testing and corrected. |

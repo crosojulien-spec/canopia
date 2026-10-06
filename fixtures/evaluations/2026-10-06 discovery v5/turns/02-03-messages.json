@@ -1,0 +1,199 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 17098,
+  "guest": "We both like fish, roast vegetables and lemon desserts. I usually drink sparkling water; Ben sometimes has red wine. Nothing too drawn-out or formal.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Fish, roast vegetables and lemon desserts sound like a lovely fit for an unhurried dinner; I’ll keep Nora’s sparkling water and Ben’s occasional red wine distinct. Do either of you have any food allergies or dietary restrictions the restaurant should know about?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Dietary requirements",
+    "closing": {
+      "basis": "continue",
+      "reason": "They are engaging, and a useful dietary clarification and other everyday preferences remain to be explored.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Eight-year anniversary and first visit to Prague",
+        "detail": "They are celebrating eight years together and visiting Prague for the first time.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      {
+        "topic": "Prague plans and pace",
+        "detail": "Nothing is booked yet; they want one nice dinner and slow wandering. Specific plans and practical timing remain open.",
+        "person": "Nora and Ben",
+        "status": "open",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      {
+        "topic": "Architecture and old staircases",
+        "detail": "Nora loves architecture and old staircases.",
+        "person": "Nora",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      {
+        "topic": "Jazz and bookshops",
+        "detail": "Ben likes jazz and little bookshops.",
+        "person": "Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      {
+        "topic": "Dinner tastes, drinks and style",
+        "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e54acfbd-7380-438a-a211-c966103b1058"
+        ]
+      },
+      {
+        "topic": "Dietary requirements",
+        "detail": "Allergies or dietary restrictions for either guest are not yet known.",
+        "person": "Nora and Ben",
+        "status": "open",
+        "sourceMessageIds": [
+          "e54acfbd-7380-438a-a211-c966103b1058"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Favourite snacks or small treats are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Useful morning, evening or other daily routines are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Nora loves architecture and old staircases; Ben likes jazz and little bookshops.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      "interaction": {
+        "detail": "Their preferred style of welcome and interaction with the hotel team is not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e54acfbd-7380-438a-a211-c966103b1058"
+        ]
+      },
+      "plans_and_pace": {
+        "detail": "They have nothing booked yet and want one nice dinner and slow wandering; specific plans and practical timing remain open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      "personal_touches": {
+        "detail": "Their eight-year celebration is a relevant occasion; what celebratory touch, if any, they would welcome remains unknown.",
+        "status": "open",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "Bedding, pillows and other sleep or comfort needs are not yet known.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Nora and Ben are celebrating eight years together and visiting Prague for the first time.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Fragrance and flower preferences could inform a personal touch for their anniversary.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Allergies or dietary restrictions for either guest are not yet known.",
+        "status": "open",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions",
+      "value": "Nora is travelling with Ben.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Occasion",
+      "value": "Nora and Ben are celebrating eight years together.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Visit history",
+      "value": "This is Nora and Ben's first time in Prague.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Plans and pace",
+      "value": "They have nothing booked; they want one nice dinner and slow wandering.",
+      "sourceQuote": "Nothing booked. We want one nice dinner and slow wandering.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Nora's interests",
+      "value": "Nora loves architecture and old staircases.",
+      "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Ben's interests",
+      "value": "Ben likes jazz and little bookshops.",
+      "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Food preferences",
+      "value": "They both like fish, roast vegetables and lemon desserts.",
+      "sourceQuote": "We both like fish, roast vegetables and lemon desserts.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    },
+    {
+      "label": "Drink preferences",
+      "value": "Nora usually drinks sparkling water; Ben sometimes has red wine.",
+      "sourceQuote": "I usually drink sparkling water; Ben sometimes has red wine.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    },
+    {
+      "label": "Dinner style",
+      "value": "They prefer dinner that is not too drawn-out or formal.",
+      "sourceQuote": "Nothing too drawn-out or formal.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    }
+  ]
+}

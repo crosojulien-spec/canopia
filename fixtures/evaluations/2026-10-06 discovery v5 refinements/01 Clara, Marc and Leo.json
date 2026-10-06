@@ -1,0 +1,628 @@
+{
+  "stay": {
+    "id": "add1aed0-104c-48f0-a8d4-bf61dc013c23",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Travel companions and occasion",
+        "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+        "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+        "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+      },
+      {
+        "label": "Anniversary plans",
+        "value": "They want family time and one romantic dinner just for Clara and Marc, perhaps on the beach. Nothing is booked yet, and they would need to work around Leo.",
+        "sourceQuote": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+        "sourceMessageId": "b833043d-c497-419e-ae79-2156c3f9d320"
+      },
+      {
+        "label": "Childcare preference for dinner",
+        "value": "Clara and Marc would be happy with a trusted sitter who can keep Leo busy for a couple of hours while they spend the evening together.",
+        "sourceQuote": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+        "sourceMessageId": "36d85641-51e1-4328-948a-86c68877a6fc"
+      },
+      {
+        "label": "Local food and cooking interest",
+        "value": "Clara would enjoy local food and is keen to learn local cooking; Marc is happy to try things. They do not yet know dish names.",
+        "sourceQuote": "Local food would be lovely. I'm also keen to learn some local cooking; Marc is happy to try things. We don't have any dietary restrictions ourselves.",
+        "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+      },
+      {
+        "label": "Dietary restrictions for Clara and Marc",
+        "value": "Clara and Marc have no dietary restrictions.",
+        "sourceQuote": "We don't have any dietary restrictions ourselves.",
+        "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+      },
+      {
+        "label": "Leo's allergy",
+        "value": "Leo has a severe shellfish allergy, and the family carries an EpiPen.",
+        "sourceQuote": "Leo isn't fussy, but he has a severe shellfish allergy and we carry an EpiPen.",
+        "sourceMessageId": "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+      },
+      {
+        "label": "Breakfast and drinks",
+        "value": "They like taking breakfast slowly—fruit and eggs. Clara loves coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+        "sourceQuote": "We like taking breakfast slowly—fruit and eggs. I love coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+        "sourceMessageId": "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+      },
+      {
+        "label": "Favourite snacks",
+        "value": "Clara and Marc love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+        "sourceQuote": "Marc and I love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+        "sourceMessageId": "539be151-5441-4d10-8ad4-e7798fc01302"
+      },
+      {
+        "label": "Sleep and room comfort",
+        "value": "About 24 degrees works for the family. Clara likes a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. They share a duvet, and Leo has his own blanket.",
+        "sourceQuote": "About 24 degrees works for us. I like a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. We share a duvet, and Leo has his own blanket.",
+        "sourceMessageId": "cdee403b-bfa3-41d5-bd1a-72078dc5a110"
+      },
+      {
+        "label": "Quiet sleep preference",
+        "value": "Marc would like somewhere quiet for sleep; Clara says they have nothing else in particular and are quite easy.",
+        "sourceQuote": "Just somewhere quiet for Marc. Nothing else in particular—we're quite easy.",
+        "sourceMessageId": "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+      },
+      {
+        "label": "Flower, scent and pollen preferences",
+        "value": "Clara loves frangipani and light natural coconut scents, and dislikes heavy artificial perfumes. Marc sneezes around heavy pollen.",
+        "sourceQuote": "I love frangipani and light natural coconut scents, not heavy artificial perfumes. Marc sneezes around heavy pollen.",
+        "sourceMessageId": "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+      },
+      {
+        "label": "Anniversary personal touch",
+        "value": "Clara would welcome a quiet anniversary note on Marc's pillow saying: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » They do not want a loud public celebration.",
+        "sourceQuote": "I'd love a note on Marc's pillow saying: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » Just something private, no loud public celebration.",
+        "sourceMessageId": "776fb0e0-c397-491e-a551-89da1770c514"
+      },
+      {
+        "label": "Leo's interests",
+        "value": "Leo is fascinated by turtles and sea life. Seeing them would delight him, and ocean stories or games would keep him happy.",
+        "sourceQuote": "Leo is fascinated by turtles and sea life. He'd love seeing them, and stories or games about the ocean would keep him happy.",
+        "sourceMessageId": "a8f453fb-11ff-482b-b959-72a740854093"
+      },
+      {
+        "label": "Marine activities",
+        "value": "The family would enjoy a boat outing and island hopping together. Marc is keen on snorkelling or diving and would be happy to do that separately one morning.",
+        "sourceQuote": "A boat outing and island hopping together would be great. Marc is also keen on snorkelling or diving, so he'd be happy to do that separately one morning.",
+        "sourceMessageId": "d1ebfb9a-bb6a-49ff-af6f-ddfd09cf98a8"
+      },
+      {
+        "label": "Morning routine and coffee or tea",
+        "value": "They have no special coffee or tea order. Marc likes a morning swim, and Clara is happy with a book by the pool.",
+        "sourceQuote": "The juices I mentioned are our favourites; no special coffee or tea order. Marc likes a morning swim, and I'm happy with a book by the pool.",
+        "sourceMessageId": "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+      },
+      {
+        "label": "Preferred staff interaction",
+        "value": "They enjoy a warm, chatty team and suggestions along the way, and are happy to get to know people during the stay.",
+        "sourceQuote": "We enjoy a warm, chatty team and suggestions along the way. We're happy to get to know people while we're there.",
+        "sourceMessageId": "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+      },
+      {
+        "label": "Anniversary evening timing",
+        "value": "They would like one evening together, are flexible about the timing, and have nothing else fixed yet.",
+        "sourceQuote": "One evening, but we're flexible about the time. Nothing else is fixed yet.",
+        "sourceMessageId": "14b0ff0b-2b47-47a9-b86d-b20be9673449"
+      },
+      {
+        "label": "Hands-on cooking preference",
+        "value": "Clara would enjoy hands-on cooking and learning to make a local dish.",
+        "sourceQuote": "Hands-on cooking would be lovely. I'd enjoy learning to make a local dish.",
+        "sourceMessageId": "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+      },
+      {
+        "label": "Cooking as an individual activity",
+        "value": "Clara would enjoy the hands-on cooking herself; it need not be a family activity.",
+        "sourceQuote": "I'd enjoy that myself. No need to make it a family activity.",
+        "sourceMessageId": "53004128-e0d3-4f22-9e90-d1de9fdcd4f3"
+      },
+      {
+        "label": "Cooking experience format",
+        "value": "Clara would be fine with either a one-to-one cooking lesson or a small group and has no preference.",
+        "sourceQuote": "Either would be fine. I don't have a preference.",
+        "sourceMessageId": "9decd466-78f4-4450-b48e-b83d4e66bba0"
+      },
+      {
+        "label": "Plans and pace",
+        "value": "They have no fixed commitments and would like to keep the stay open.",
+        "sourceQuote": "No fixed commitments—we'd like to keep the stay open. I think that covers everything for us, thank you.",
+        "sourceMessageId": "e1c6b274-2f35-46ed-a153-b1667a9c54ab"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2027-05-15",
+    "handoff": "reception",
+    "hotelId": "seven_secrets_lombok",
+    "revoked": false,
+    "revision": 48,
+    "chatError": null,
+    "createdAt": "2026-10-06T12:44:43.864Z",
+    "departure": "2027-05-20",
+    "discovery": {
+      "focus": "Close warmly",
+      "closing": {
+        "basis": "guest_finished",
+        "reason": "Clara said that this covers everything for them and thanked the host.",
+        "sourceMessageIds": [
+          "e1c6b274-2f35-46ed-a153-b1667a9c54ab"
+        ]
+      },
+      "threads": [
+        {
+          "topic": "Anniversary dinner and sitter",
+          "detail": "They would be happy with a trusted sitter to keep Leo busy for a couple of hours while they have dinner together. They prefer one evening but are flexible about timing; sitter availability is not established.",
+          "person": "Clara and Marc",
+          "status": "open",
+          "sourceMessageIds": [
+            "36d85641-51e1-4328-948a-86c68877a6fc",
+            "14b0ff0b-2b47-47a9-b86d-b20be9673449"
+          ]
+        },
+        {
+          "topic": "Local food and hands-on cooking",
+          "detail": "Clara would enjoy hands-on cooking to learn a local dish, as an individual activity; either a one-to-one or small-group format is fine. They do not yet know dish names, and the experience is not confirmed.",
+          "person": "Clara",
+          "status": "open",
+          "sourceMessageIds": [
+            "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+            "a4c988ce-bab7-4525-a8d6-39f54d6e713a",
+            "53004128-e0d3-4f22-9e90-d1de9fdcd4f3",
+            "9decd466-78f4-4450-b48e-b83d4e66bba0"
+          ]
+        },
+        {
+          "topic": "Breakfast, drinks and snacks",
+          "detail": "Slow breakfasts with fruit and eggs; individual juice preferences and snack favourites are known. No special coffee or tea order.",
+          "person": "Clara, Marc and Leo",
+          "status": "understood",
+          "sourceMessageIds": [
+            "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+            "539be151-5441-4d10-8ad4-e7798fc01302",
+            "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+          ]
+        },
+        {
+          "topic": "Sleep and room comfort",
+          "detail": "About 24 degrees; Clara likes a firm pillow, Marc a soft one and a quiet place to sleep. They share a duvet; Leo has his own blanket.",
+          "person": "Clara, Marc and Leo",
+          "status": "understood",
+          "sourceMessageIds": [
+            "cdee403b-bfa3-41d5-bd1a-72078dc5a110",
+            "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+          ]
+        },
+        {
+          "topic": "Scents, flowers and pollen",
+          "detail": "Clara loves frangipani and light natural coconut scents, not heavy artificial perfumes; Marc sneezes around heavy pollen.",
+          "person": "Clara and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+          ]
+        },
+        {
+          "topic": "Private anniversary touch",
+          "detail": "Clara would welcome her supplied French note on Marc's pillow, with no loud public celebration.",
+          "person": "Clara and Marc",
+          "status": "understood",
+          "sourceMessageIds": [
+            "776fb0e0-c397-491e-a551-89da1770c514"
+          ]
+        },
+        {
+          "topic": "Turtles and sea life",
+          "detail": "Leo is fascinated by turtles and sea life; seeing them would delight him, and ocean stories or games would keep him happy.",
+          "person": "Leo",
+          "status": "understood",
+          "sourceMessageIds": [
+            "a8f453fb-11ff-482b-b959-72a740854093"
+          ]
+        },
+        {
+          "topic": "Morning rhythm and staff interaction",
+          "detail": "Marc likes a morning swim, Clara enjoys reading by the pool, and they enjoy a warm, chatty team and suggestions along the way.",
+          "person": "Clara, Marc and Leo",
+          "status": "understood",
+          "sourceMessageIds": [
+            "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+            "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+          ]
+        }
+      ],
+      "coverage": {
+        "snacks": {
+          "detail": "Clara and Marc love mango, coconut and pineapple. Leo prefers chocolate-chip cookies and also loves watermelon.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "539be151-5441-4d10-8ad4-e7798fc01302"
+          ]
+        },
+        "routines": {
+          "detail": "They enjoy slow breakfasts and have no special coffee or tea order. Marc likes a morning swim; Clara enjoys reading by the pool.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+            "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+          ]
+        },
+        "interests": {
+          "detail": "Leo is fascinated by turtles and sea life and enjoys ocean stories or games. Marc is interested in snorkelling or diving; Clara enjoys reading by the pool and learning local cooking.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "a8f453fb-11ff-482b-b959-72a740854093",
+            "d1ebfb9a-bb6a-49ff-af6f-ddfd09cf98a8",
+            "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+            "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+          ]
+        },
+        "interaction": {
+          "detail": "They enjoy a warm, chatty team, suggestions along the way and getting to know people during the stay.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+          ]
+        },
+        "food_and_drink": {
+          "detail": "They enjoy local food; Clara would like hands-on cooking to learn a local dish, while Marc is happy to try things. They like slow breakfasts with fruit and eggs; Clara loves coconut water, Marc fresh pineapple juice, and Leo watermelon. No",
+          "status": "understood",
+          "sourceMessageIds": [
+            "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+            "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+            "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+            "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+          ]
+        },
+        "plans_and_pace": {
+          "detail": "No valid guest evidence retained.",
+          "status": "unexplored",
+          "sourceMessageIds": []
+        },
+        "personal_touches": {
+          "detail": "Clara would welcome a private anniversary note on Marc's pillow with the exact French wording she supplied; they do not want a loud public celebration.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "776fb0e0-c397-491e-a551-89da1770c514"
+          ]
+        },
+        "sleep_and_comfort": {
+          "detail": "About 24 degrees works for them. Clara likes a firm pillow; Marc a soft one and needs somewhere quiet because he is a light sleeper. Clara and Marc share a duvet; Leo has his own blanket and is not bothered about pillows.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "cdee403b-bfa3-41d5-bd1a-72078dc5a110",
+            "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+          ]
+        },
+        "people_and_purpose": {
+          "detail": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary. They want family time and a private dinner together as a couple.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+            "b833043d-c497-419e-ae79-2156c3f9d320"
+          ]
+        },
+        "scents_and_flowers": {
+          "detail": "Clara loves frangipani and light natural coconut scents, and dislikes heavy artificial perfumes. Marc sneezes around heavy pollen.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+          ]
+        },
+        "dietary_requirements": {
+          "detail": "Clara and Marc have no dietary restrictions. Leo has a severe shellfish allergy; they carry an EpiPen. Food handling still requires confirmation by the hotel team.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+            "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+          ]
+        }
+      },
+      "nextMove": "close"
+    },
+    "expiresAt": "2026-10-13T12:44:43.864Z",
+    "guestName": "Clara, Marc and Leo",
+    "hotelName": "Seven Secrets by Hanging Gardens",
+    "partySize": 3,
+    "updatedAt": "2026-10-06T13:24:07.489Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "3eb9f2dc-8962-47f6-9d98-847aa2f28e9c",
+    "reservationNotes": "Fictional discovery evaluation, 6 October 2026."
+  },
+  "messages": [
+    {
+      "id": "7f42d079-5749-4c5f-bb34-366cfbe1d99f",
+      "role": "assistant",
+      "content": "Hello Clara,! I'd love to get to know you a little before your stay at Seven Secrets by Hanging Gardens, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T12:44:43.864Z"
+    },
+    {
+      "id": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+      "role": "user",
+      "content": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "createdAt": "2026-10-06T12:44:45.164Z"
+    },
+    {
+      "id": "7f776176-c423-4b60-ae09-658582b46968",
+      "role": "assistant",
+      "content": "A tenth anniversary with Leo along sounds like a lovely family milestone. Have you started imagining how you’d like to mark it here—something all three of you can enjoy, or a moment for you and Marc?",
+      "createdAt": "2026-10-06T12:44:58.013Z"
+    },
+    {
+      "id": "b833043d-c497-419e-ae79-2156c3f9d320",
+      "role": "user",
+      "content": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+      "createdAt": "2026-10-06T12:46:08.852Z"
+    },
+    {
+      "id": "5a891bed-8041-4a36-9bac-265fbe071f23",
+      "role": "assistant",
+      "content": "That sounds like a lovely balance of family time and a moment for you and Marc. How are you picturing Leo fitting into the dinner evening—would you like him included for part of it, or do you have another arrangement in mind?",
+      "createdAt": "2026-10-06T12:46:25.900Z"
+    },
+    {
+      "id": "36d85641-51e1-4328-948a-86c68877a6fc",
+      "role": "user",
+      "content": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+      "createdAt": "2026-10-06T12:47:57.165Z"
+    },
+    {
+      "id": "a3a19c60-05a2-4969-b9a9-745b7ed0958b",
+      "role": "assistant",
+      "content": "A couple of hours together could make a lovely anniversary pause. I can’t assume childcare is available here, so the team would need to check; meanwhile, what kind of food would you and Marc most enjoy for that dinner?",
+      "createdAt": "2026-10-06T12:48:15.549Z"
+    },
+    {
+      "id": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+      "role": "user",
+      "content": "Local food would be lovely. I'm also keen to learn some local cooking; Marc is happy to try things. We don't have any dietary restrictions ourselves.",
+      "createdAt": "2026-10-06T12:49:50.446Z"
+    },
+    {
+      "id": "909226bb-7682-44d3-8817-b5d2c1948141",
+      "role": "assistant",
+      "content": "Local food and a chance to learn some cooking could make a lovely thread through the stay. Are there particular Indonesian dishes or flavours you and Marc are especially keen to taste or learn to make—and what might Leo enjoy?",
+      "createdAt": "2026-10-06T12:50:08.688Z"
+    },
+    {
+      "id": "2b9c4a4d-8667-475b-98da-6eb265c8a61e",
+      "role": "user",
+      "content": "I don't know the dish names yet—we'd enjoy learning. Leo isn't fussy, but he has a severe shellfish allergy and we carry an EpiPen.",
+      "createdAt": "2026-10-06T12:51:31.475Z"
+    },
+    {
+      "id": "f8576f4f-953e-42b8-9f6d-aa0dedd85975",
+      "role": "assistant",
+      "content": "Thank you for flagging Leo’s severe shellfish allergy and that you carry an EpiPen; the hotel team would need to confirm food handling directly. To help shape the everyday side of the stay, what do you and Marc usually enjoy for breakfast or to drink, and is there anything Leo particularly likes?",
+      "createdAt": "2026-10-06T12:51:51.979Z"
+    },
+    {
+      "id": "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+      "role": "user",
+      "content": "We like taking breakfast slowly—fruit and eggs. I love coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+      "createdAt": "2026-10-06T12:55:51.841Z"
+    },
+    {
+      "id": "683b6953-45ee-48b7-8ef0-a4df7570e910",
+      "role": "assistant",
+      "content": "A slow breakfast with those individual juices sounds like a lovely start to the day. What little snack or treat would each of you enjoy later on—sweet or savoury?",
+      "createdAt": "2026-10-06T12:56:10.978Z"
+    },
+    {
+      "id": "539be151-5441-4d10-8ad4-e7798fc01302",
+      "role": "user",
+      "content": "Marc and I love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+      "createdAt": "2026-10-06T12:56:44.016Z"
+    },
+    {
+      "id": "e260684c-da90-4443-8726-8b347eb83a8f",
+      "role": "assistant",
+      "content": "Mango, coconut and pineapple for you and Marc, and a chocolate-chip cookie for Leo—those are useful little details. When you’re away, is there anything that helps each of you sleep comfortably, or something from home you’d especially appreciate having in the room?",
+      "createdAt": "2026-10-06T12:57:07.946Z"
+    },
+    {
+      "id": "cdee403b-bfa3-41d5-bd1a-72078dc5a110",
+      "role": "user",
+      "content": "About 24 degrees works for us. I like a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. We share a duvet, and Leo has his own blanket.",
+      "createdAt": "2026-10-06T12:57:34.184Z"
+    },
+    {
+      "id": "54cf0f92-4a67-463a-873d-b50b45251cd7",
+      "role": "assistant",
+      "content": "That gives a helpful picture of how you each sleep, especially with Marc being a light sleeper. Is there anything in particular that helps him sleep well away from home, or something any of you would especially appreciate having in the room?",
+      "createdAt": "2026-10-06T12:57:59.280Z"
+    },
+    {
+      "id": "4bdf06c2-c356-483b-aa40-cf42048c37a7",
+      "role": "user",
+      "content": "Just somewhere quiet for Marc. Nothing else in particular—we're quite easy.",
+      "createdAt": "2026-10-06T12:58:18.707Z"
+    },
+    {
+      "id": "d9b4dd6a-cc41-48cc-8e09-e8e94e8e0381",
+      "role": "assistant",
+      "content": "A quiet place for Marc to sleep sounds important. For your anniversary, would a small personal touch feel welcome—and are there any flowers or scents you especially like or would rather avoid?",
+      "createdAt": "2026-10-06T12:58:46.567Z"
+    },
+    {
+      "id": "9eabefdd-ccad-4163-9424-6a48a4fc8dea",
+      "role": "user",
+      "content": "Yes, a quiet little anniversary touch would be nice. I love frangipani and light natural coconut scents, not heavy artificial perfumes. Marc sneezes around heavy pollen.",
+      "createdAt": "2026-10-06T12:59:42.352Z"
+    },
+    {
+      "id": "c084bdd8-f7a9-4e77-8763-254ebbdb3fc7",
+      "role": "assistant",
+      "content": "Frangipani and a light, natural coconut scent—rather than heavy perfume—are useful distinctions, especially with Marc’s sneezing around heavy pollen. Is there a small sentiment, shared memory or private joke that would make an anniversary touch feel personal to you, or would you rather keep it simple?",
+      "createdAt": "2026-10-06T13:00:19.976Z"
+    },
+    {
+      "id": "776fb0e0-c397-491e-a551-89da1770c514",
+      "role": "user",
+      "content": "I'd love a note on Marc's pillow saying: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » Just something private, no loud public celebration.",
+      "createdAt": "2026-10-06T13:01:12.164Z"
+    },
+    {
+      "id": "4fac2dd1-6598-4cfe-b908-1a2c56e2e81b",
+      "role": "assistant",
+      "content": "That line is quietly lovely, and the private tone is clear. What does Leo most enjoy doing or playing, so the family time—and any sitter arrangement the team may be able to explore—can feel right for him?",
+      "createdAt": "2026-10-06T13:01:37.654Z"
+    },
+    {
+      "id": "a8f453fb-11ff-482b-b959-72a740854093",
+      "role": "user",
+      "content": "Leo is fascinated by turtles and sea life. He'd love seeing them, and stories or games about the ocean would keep him happy.",
+      "createdAt": "2026-10-06T13:02:39.946Z"
+    },
+    {
+      "id": "1aa033c3-dadc-4ac6-b60d-88ddee012b82",
+      "role": "assistant",
+      "content": "Turtles and sea-life stories sound like a lovely thread for Leo. For seeing marine life, would a short boat outing feel right for your family, if a suitable option is available, or would you prefer to keep things shore-based?",
+      "createdAt": "2026-10-06T13:03:12.459Z"
+    },
+    {
+      "id": "d1ebfb9a-bb6a-49ff-af6f-ddfd09cf98a8",
+      "role": "user",
+      "content": "A boat outing and island hopping together would be great. Marc is also keen on snorkelling or diving, so he'd be happy to do that separately one morning.",
+      "createdAt": "2026-10-06T13:03:45.449Z"
+    },
+    {
+      "id": "c939bcbe-253d-4cc8-953c-35438a370790",
+      "role": "assistant",
+      "content": "A family boat outing and a separate morning on the water for Marc both sound like good possibilities to explore with the team. For the island-hopping day, would you all want time to swim or snorkel, or is seeing turtles and exploring from the boat more your speed?",
+      "createdAt": "2026-10-06T13:04:17.141Z"
+    },
+    {
+      "id": "38c50209-8e7b-413f-afac-ab81392bb1d3",
+      "role": "user",
+      "content": "A gentle mix of seeing marine life, exploring and a swim would suit us. We don't have anything more specific in mind.",
+      "createdAt": "2026-10-06T13:05:08.920Z"
+    },
+    {
+      "id": "a263c075-344a-499f-a2aa-296adb713afe",
+      "role": "assistant",
+      "content": "A gentle mix of marine life, exploring and a swim sounds like a lovely pace; the team can check what suitable options are available. Since you enjoy slow breakfasts, do either you or Marc have a usual coffee or tea order, or another morning ritual you like to keep?",
+      "createdAt": "2026-10-06T13:05:44.784Z"
+    },
+    {
+      "id": "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+      "role": "user",
+      "content": "The juices I mentioned are our favourites; no special coffee or tea order. Marc likes a morning swim, and I'm happy with a book by the pool.",
+      "createdAt": "2026-10-06T13:06:49.433Z"
+    },
+    {
+      "id": "b2a55d36-61a0-4cb9-a28c-e6e678d63ecb",
+      "role": "assistant",
+      "content": "A slow breakfast followed by Marc’s swim and your book by the pool sounds like a lovely rhythm. When you’re at the resort, do you enjoy staff offering suggestions and checking in, or would you rather seek them out when you need something?",
+      "createdAt": "2026-10-06T13:07:22.544Z"
+    },
+    {
+      "id": "47e0b772-a7b0-4296-8b97-22c457d1d8d6",
+      "role": "user",
+      "content": "We enjoy a warm, chatty team and suggestions along the way. We're happy to get to know people while we're there.",
+      "createdAt": "2026-10-06T13:08:21.154Z"
+    },
+    {
+      "id": "20c8a242-b2ee-4c28-bf8e-7639bc8f19ac",
+      "role": "assistant",
+      "content": "It’s lovely that you enjoy getting to know the team along the way. For the anniversary evening, what time of day would make a couple of hours together easiest around Leo?",
+      "createdAt": "2026-10-06T13:09:26.751Z"
+    },
+    {
+      "id": "14b0ff0b-2b47-47a9-b86d-b20be9673449",
+      "role": "user",
+      "content": "One evening, but we're flexible about the time. Nothing else is fixed yet.",
+      "createdAt": "2026-10-06T13:09:52.812Z"
+    },
+    {
+      "id": "96970e2b-1b74-4a00-86b0-e2d217e8b6ac",
+      "role": "assistant",
+      "content": "A flexible evening leaves room to make the anniversary dinner fit naturally around Leo. You mentioned wanting to learn local cooking—would you most enjoy getting hands-on with preparing a dish, or discovering local food through tasting and explanation?",
+      "createdAt": "2026-10-06T13:10:18.769Z"
+    },
+    {
+      "id": "a4c988ce-bab7-4525-a8d6-39f54d6e713a",
+      "role": "user",
+      "content": "Hands-on cooking would be lovely. I'd enjoy learning to make a local dish.",
+      "createdAt": "2026-10-06T13:11:15.499Z"
+    },
+    {
+      "id": "9de488c9-5784-4c00-9144-f4e8812beead",
+      "role": "assistant",
+      "content": "Hands-on sounds like a lovely way to get to know local cooking. Would you picture it as something the three of you could enjoy together, or more as time for you and Marc?",
+      "createdAt": "2026-10-06T13:11:51.927Z"
+    },
+    {
+      "id": "53004128-e0d3-4f22-9e90-d1de9fdcd4f3",
+      "role": "user",
+      "content": "I'd enjoy that myself. No need to make it a family activity.",
+      "createdAt": "2026-10-06T13:12:30.352Z"
+    },
+    {
+      "id": "e506acfd-315f-4e7b-ae42-c68a2abb7acf",
+      "role": "assistant",
+      "content": "So the cooking would be a little experience for you, rather than a family activity. If the team can explore a hands-on option, would you prefer a one-to-one lesson or would you be happy to join a small group?",
+      "createdAt": "2026-10-06T13:13:11.900Z"
+    },
+    {
+      "id": "9decd466-78f4-4450-b48e-b83d4e66bba0",
+      "role": "user",
+      "content": "Either would be fine. I don't have a preference.",
+      "createdAt": "2026-10-06T13:13:53.894Z"
+    },
+    {
+      "id": "5148f562-2410-4acb-b9cb-74c30600341d",
+      "role": "assistant",
+      "content": "Either format works for the cooking experience, so there’s no need to tailor it that way. Apart from the family boat outing and Marc’s separate morning on the water, do you have any fixed commitments, or would you prefer to keep most of the stay open?",
+      "createdAt": "2026-10-06T13:15:11.522Z"
+    },
+    {
+      "id": "e1c6b274-2f35-46ed-a153-b1667a9c54ab",
+      "role": "user",
+      "content": "No fixed commitments—we'd like to keep the stay open. I think that covers everything for us, thank you.",
+      "createdAt": "2026-10-06T13:15:51.048Z"
+    },
+    {
+      "id": "81ebcb5f-a998-4302-9136-45d65e815744",
+      "role": "assistant",
+      "content": "Thank you, Clara. You’ve given us a lovely picture of the family time, your anniversary, and the little things that would make the stay feel like yours; I hope you all have a wonderful time at Seven Secrets.",
+      "createdAt": "2026-10-06T13:16:26.923Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "3eb9f2dc-8962-47f6-9d98-847aa2f28e9c",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nClara, Marc and their seven-year-old son Leo; three guests. 15–20 May 2027, Seven Secrets by Hanging Gardens, Lombok. They are celebrating their tenth wedding anniversary and want a balance of family time and one private dinner for Clara and Marc. No plans are fixed; they would like to keep the stay open.\n\nB) COORDINATION\n\nReception is the assigned handoff lead. The hotel DNA is public preparation checked 5 October 2026, not operational confirmation; confirm current services, ownership, availability and prices before offering or arranging anything.\n\nImportant food-safety alert: Leo has a severe shellfish allergy and the family carries an EpiPen. Ensure the relevant food teams receive this information and confirm ingredients and cross-contact controls under their actual procedures for any family dining or food activity; do not promise a dish is safe without that confirmation.\n\nReception to coordinate checks for a trusted sitter, local hands-on cooking, and activity options. Room requests go to housekeeping; meal and allergy checks to F&B; treatment or water-activity suitability to the responsible professionals. Do not imply childcare or cooking-class availability.\n\nC) GUEST PROFILE\n\nClara and Marc want local food; Clara is keen to learn to cook a local dish hands-on as an individual activity, and Marc is happy to try local dishes. Either one-to-one or small-group cooking would suit Clara. Clara and Marc have no dietary restrictions; Leo has the severe shellfish allergy noted above.\n\nThey enjoy slow breakfasts of fruit and eggs. Clara likes coconut water, Marc fresh pineapple juice, and Leo watermelon juice. Clara and Marc like mango, coconut and pineapple; Leo prefers chocolate-chip cookies and also likes watermelon. They have no special coffee or tea order.\n\nFor sleep, about 24°C suits the family. Clara prefers a firm pillow, Marc a soft pillow and a quiet place because he is a light sleeper; Leo is not particular about pillows. Clara and Marc share a duvet, and Leo has his own blanket.\n\nClara loves frangipani and light natural coconut scents, not heavy artificial perfumes. Marc sneezes around heavy pollen. Clara requested a quiet, private anniversary note on Marc’s pillow and no loud public celebration; use her exact wording in E.\n\nLeo is fascinated by turtles and sea life, and enjoys ocean stories or games. The family would like a boat outing and island hopping with a gentle mix of marine-life viewing, exploring and a swim. Marc is interested in snorkelling or diving separately one morning. Marc enjoys a morning swim; Clara likes reading by the pool. They welcome a warm, chatty team and suggestions along the way.\n\nExperience suggestions: see F.\n\nD) RECEPTION\n\nWelcome the family warmly and offer suggestions naturally, as they enjoy getting to know the team. Keep plans flexible rather than filling their open schedule.\n\nAsk F&B to check whether breakfast can accommodate a leisurely pace and their individual fruit, egg and juice preferences. Confirm current options, service arrangements and any charges; do not assume particular juices or snacks are in stock.\n\nE) ROOM PREPARATION\n\nHousekeeping/reception: if room assignment is still flexible, consider a quieter location for Marc, subject to availability; do not guarantee silence. Check whether the room temperature can be set near 24°C and whether firm and soft pillow options are available. Prepare the shared duvet arrangement and Leo’s own blanket as requested; confirm bedding configuration for the assigned room.\n\nSubject to approval, place this exact private note on Marc’s pillow:\n« 10 ans et je te choisirais encore. Merci d’être mon aventure. »\n\nNo room scent or flower arrangement was requested. Avoid adding fragrance; retain Clara’s frangipani preference as information, while taking Marc’s pollen sensitivity into account. Housekeeping/F&B may check whether existing welcome or minibar options can reflect Clara and Marc’s fruit preferences and Leo’s cookie or watermelon favourites; confirm stock, suitability and any charge rather than assuming these are included.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\n• Anniversary dinner for Clara and Marc — Guest cue: one romantic dinner together, perhaps on the beach, with flexible timing and a couple of hours arranged around Leo. Reception to check whether a trusted sitter can be sourced through an approved process; verify screening, supervision, availability, cost and arrangements for a seven-year-old. The DNA does not establish a sitter service. F&B may propose a local-food-led dinner, with a beach setting only if feasible. Confirm menu and allergy handling if Leo will be present, timing, weather, safety, privacy, staffing and any setup charge. This is an optional paid proposal, not a booking or package entitlement.\n\n• Family boat outing and island hopping — Guest cue: Leo’s interest in turtles and sea life, and the family’s preference for a gentle mix of viewing, exploring and swimming. Reception can ask the activity team about a suitable catamaran or other available outing. Confirm operator, age suitability, sea conditions, life-saving equipment, swim options, transfers, duration, price and cancellation terms. Wildlife sightings are not guaranteed. Optional paid proposal, subject to feasibility and quote.\n\n• Marc’s separate morning on the water — Guest cue: he is interested in snorkelling or diving. Ask the activity team what suitable options are available and confirm operator, requirements, conditions, equipment, transfers, duration, price and cancellation terms; do not assume diving experience or certification. Optional paid proposal, subject to his choice and feasibility.\n\n• Clara’s hands-on local cooking — Guest cue: she wants to learn to make a local dish herself; either individual or small-group format suits her. Cooking classes are not an established hotel capability in the supplied DNA. Reception should research an appropriate local option, checking date, duration, format, transport, language, price and food-handling arrangements. No booking or price is confirmed.\n\n• Leo’s ocean interest — If an appropriate, approved option is available, reception may check whether simple ocean stories or games could complement family time or a sitter’s activity. Confirm who would provide it, suitability, availability and any charge; do not imply a children’s club or childcare programme.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "add1aed0-104c-48f0-a8d4-bf61dc013c23",
+      "version": 2,
+      "revision": 1,
+      "createdAt": "2026-10-06T13:24:07.487Z",
+      "updatedAt": "2026-10-06T13:24:07.487Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nClara, Marc and their seven-year-old son Leo; three guests. 15–20 May 2027, Seven Secrets by Hanging Gardens, Lombok. They are celebrating their tenth wedding anniversary and want a balance of family time and one private dinner for Clara and Marc. No plans are fixed; they would like to keep the stay open.\n\nB) COORDINATION\n\nReception is the assigned handoff lead. The hotel DNA is public preparation checked 5 October 2026, not operational confirmation; confirm current services, ownership, availability and prices before offering or arranging anything.\n\nImportant food-safety alert: Leo has a severe shellfish allergy and the family carries an EpiPen. Ensure the relevant food teams receive this information and confirm ingredients and cross-contact controls under their actual procedures for any family dining or food activity; do not promise a dish is safe without that confirmation.\n\nReception to coordinate checks for a trusted sitter, local hands-on cooking, and activity options. Room requests go to housekeeping; meal and allergy checks to F&B; treatment or water-activity suitability to the responsible professionals. Do not imply childcare or cooking-class availability.\n\nC) GUEST PROFILE\n\nClara and Marc want local food; Clara is keen to learn to cook a local dish hands-on as an individual activity, and Marc is happy to try local dishes. Either one-to-one or small-group cooking would suit Clara. Clara and Marc have no dietary restrictions; Leo has the severe shellfish allergy noted above.\n\nThey enjoy slow breakfasts of fruit and eggs. Clara likes coconut water, Marc fresh pineapple juice, and Leo watermelon juice. Clara and Marc like mango, coconut and pineapple; Leo prefers chocolate-chip cookies and also likes watermelon. They have no special coffee or tea order.\n\nFor sleep, about 24°C suits the family. Clara prefers a firm pillow, Marc a soft pillow and a quiet place because he is a light sleeper; Leo is not particular about pillows. Clara and Marc share a duvet, and Leo has his own blanket.\n\nClara loves frangipani and light natural coconut scents, not heavy artificial perfumes. Marc sneezes around heavy pollen. Clara requested a quiet, private anniversary note on Marc’s pillow and no loud public celebration; use her exact wording in E.\n\nLeo is fascinated by turtles and sea life, and enjoys ocean stories or games. The family would like a boat outing and island hopping with a gentle mix of marine-life viewing, exploring and a swim. Marc is interested in snorkelling or diving separately one morning. Marc enjoys a morning swim; Clara likes reading by the pool. They welcome a warm, chatty team and suggestions along the way.\n\nExperience suggestions: see F.\n\nD) RECEPTION\n\nWelcome the family warmly and offer suggestions naturally, as they enjoy getting to know the team. Keep plans flexible rather than filling their open schedule.\n\nAsk F&B to check whether breakfast can accommodate a leisurely pace and their individual fruit, egg and juice preferences. Confirm current options, service arrangements and any charges; do not assume particular juices or snacks are in stock.\n\nE) ROOM PREPARATION\n\nHousekeeping/reception: if room assignment is still flexible, consider a quieter location for Marc, subject to availability; do not guarantee silence. Check whether the room temperature can be set near 24°C and whether firm and soft pillow options are available. Prepare the shared duvet arrangement and Leo’s own blanket as requested; confirm bedding configuration for the assigned room.\n\nSubject to approval, place this exact private note on Marc’s pillow:\n« 10 ans et je te choisirais encore. Merci d’être mon aventure. »\n\nNo room scent or flower arrangement was requested. Avoid adding fragrance; retain Clara’s frangipani preference as information, while taking Marc’s pollen sensitivity into account. Housekeeping/F&B may check whether existing welcome or minibar options can reflect Clara and Marc’s fruit preferences and Leo’s cookie or watermelon favourites; confirm stock, suitability and any charge rather than assuming these are included.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\n• Anniversary dinner for Clara and Marc — Guest cue: one romantic dinner together, perhaps on the beach, with flexible timing and a couple of hours arranged around Leo. Reception to check whether a trusted sitter can be sourced through an approved process; verify screening, supervision, availability, cost and arrangements for a seven-year-old. The DNA does not establish a sitter service. F&B may propose a local-food-led dinner, with a beach setting only if feasible. Confirm menu and allergy handling if Leo will be present, timing, weather, safety, privacy, staffing and any setup charge. This is an optional paid proposal, not a booking or package entitlement.\n\n• Family boat outing and island hopping — Guest cue: Leo’s interest in turtles and sea life, and the family’s preference for a gentle mix of viewing, exploring and swimming. Reception can ask the activity team about a suitable catamaran or other available outing. Confirm operator, age suitability, sea conditions, life-saving equipment, swim options, transfers, duration, price and cancellation terms. Wildlife sightings are not guaranteed. Optional paid proposal, subject to feasibility and quote.\n\n• Marc’s separate morning on the water — Guest cue: he is interested in snorkelling or diving. Ask the activity team what suitable options are available and confirm operator, requirements, conditions, equipment, transfers, duration, price and cancellation terms; do not assume diving experience or certification. Optional paid proposal, subject to his choice and feasibility.\n\n• Clara’s hands-on local cooking — Guest cue: she wants to learn to make a local dish herself; either individual or small-group format suits her. Cooking classes are not an established hotel capability in the supplied DNA. Reception should research an appropriate local option, checking date, duration, format, transport, language, price and food-handling arrangements. No booking or price is confirmed.\n\n• Leo’s ocean interest — If an appropriate, approved option is available, reception may check whether simple ocean stories or games could complement family time or a sitter’s activity. Confirm who would provide it, suitability, availability and any charge; do not imply a children’s club or childcare programme.",
+      "promptVersion": "brief-v4.1"
+    },
+    {
+      "id": "aeb80104-7532-4a1b-82ba-94b924728ca0",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nClara, husband Marc and their seven-year-old son Leo; reservation for 15–20 May 2027, three guests. They are celebrating their tenth wedding anniversary. They want family time and one private dinner for Clara and Marc, scheduled around Leo; nothing has been booked and they are flexible about the evening and timing.\n\nThey enjoy a warm, chatty team and suggestions during the stay. They have no fixed commitments and would like to keep the itinerary open.\n\nB) COORDINATION\n\nReception is the assigned lead. Confirm who will coordinate experiences and any external providers; a concierge/guest-services role is not operationally confirmed.\n\nThe hotel DNA is based on public and historical information, with operator review pending; capabilities, schedules, prices and availability below are not operationally confirmed.\n\nOne critical F&B handoff: Leo has a severe shellfish allergy and the family carries an EpiPen. Ensure the kitchen receives this clearly and confirms ingredients and cross-contact controls under its actual protocols before preparing food for him. Do not assume a dish or substitute is safe.\n\nC) GUEST PROFILE\n\nClara wants to enjoy local food and learn to cook a local dish hands-on. This is an activity for her, not necessarily the family; one-to-one or small-group would both suit her. She does not yet know which dish she would like to learn. Marc is happy to try local food. Clara and Marc have no dietary restrictions.\n\nThey enjoy slow breakfasts with fruit and eggs. Clara likes coconut water, Marc fresh pineapple juice, and Leo watermelon juice. Clara and Marc love mango, coconut and pineapple; Leo prefers chocolate-chip cookies and also loves watermelon. No special coffee or tea order.\n\nFor sleep, about 24°C works for the family. Clara prefers a firm pillow; Marc prefers a soft pillow and is a light sleeper who would like a quiet place to sleep. Clara and Marc share a duvet; Leo has his own blanket and is not bothered about pillows.\n\nClara loves frangipani and light natural coconut scents, but not heavy artificial perfumes. Marc sneezes around heavy pollen. Clara requested a quiet anniversary note for Marc’s pillow and no loud public celebration.\n\nLeo is fascinated by turtles and sea life; seeing marine life and ocean stories or games would delight him. The family would enjoy a boat outing and island hopping with a gentle mix of marine-life viewing, exploring and a swim. Marc is interested in a separate morning of snorkelling or diving. Clara enjoys reading by the pool; Marc likes a morning swim.\n\nExperience proposals are in F.\n\nD) RECEPTION\n\nCoordinate the personal details with the relevant teams rather than restarting a general discovery conversation. A friendly, conversational approach and occasional suggestions suit the family.\n\nAsk F&B whether breakfast can accommodate a leisurely pace, fruit and eggs, and the three preferred juices: coconut water for Clara, fresh pineapple juice for Marc and watermelon juice for Leo. Confirm current menu, availability and any charge; do not promise these items in advance. Apply the allergy handoff in B to all food prepared for Leo.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room location for Marc and, if room controls permit, about 24°C. Check the booked room category, actual bedding arrangement and pillow options before promising a firm pillow for Clara, a soft one for Marc, a shared duvet or Leo’s own blanket.\n\nHousekeeping: Clara specifically requested this wording on Marc’s pillow: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » Keep it private and understated; no additional public celebration or invented message. Confirm the note can be placed as requested.\n\nDo not add room fragrance or a floral arrangement by default: Clara’s scent preferences do not constitute a room-scent request, and Marc sneezes around heavy pollen. If any such detail is considered, check with the guests first.\n\nOptional F&B/room-service adaptation: ask whether a small selection reflecting Clara and Marc’s mango, coconut and pineapple favourites, and Leo’s chocolate-chip-cookie or watermelon preference, can be offered through an existing room or minibar service. Confirm availability and charges; for any food for Leo, follow the allergy protocol in B and check with his parents. Do not assume stock or safety.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\nPrivate anniversary dinner with childcare — proposal for the hotel, not an arrangement or purchase. The couple would like one romantic dinner alone, perhaps on the beach, for a couple of hours while Leo is cared for by a trusted sitter. Reception should first investigate whether a suitably vetted sitter can be sourced and approved by the parents; no childcare service is established in the hotel information. Confirm age suitability, timing, supervision, terms and fee. If feasible, F&B can explore a discreet dinner using the published flexible dining-location capability. Confirm venue and kitchen hours, menu, weather and beach safety, privacy, setup, noise and any charge. Keep the plan private and workable around Leo.\n\nHands-on local cooking for Clara — paid opportunity to explore, not a confirmed hotel activity. Ask F&B whether a team member can offer a practical lesson in preparing a local dish, either individually or in a small group. Keep it as Clara’s experience rather than assuming it is a family activity. Confirm instructor, suitable dish, format, timing, availability and price before proposing a definite arrangement.\n\nFamily marine outing and Marc’s separate water activity — paid opportunities to explore through the hotel’s published activity-coordination capability. Ask the activity team about a suitable catamaran/island-hopping option for all three, paced for marine-life viewing, exploring and a swim, with Leo’s interest in turtles in mind; sightings cannot be promised. Separately, ask about Marc’s preferred snorkelling or diving option for one morning. For both, confirm current operator and credentials, age and ability requirements, route, conditions, equipment, transfers, safety, price and cancellation terms. No outing or booking is confirmed.\n\nLeo’s interest in sea life — focused follow-up alongside the outing enquiry. Reception should ask the activity coordinator whether a suitable child-friendly interpretation or ocean-story element is actually available, or research an appropriate local option without implying a partner or guaranteed activity.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "add1aed0-104c-48f0-a8d4-bf61dc013c23",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T13:18:02.490Z",
+      "updatedAt": "2026-10-06T13:18:02.490Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nClara, husband Marc and their seven-year-old son Leo; reservation for 15–20 May 2027, three guests. They are celebrating their tenth wedding anniversary. They want family time and one private dinner for Clara and Marc, scheduled around Leo; nothing has been booked and they are flexible about the evening and timing.\n\nThey enjoy a warm, chatty team and suggestions during the stay. They have no fixed commitments and would like to keep the itinerary open.\n\nB) COORDINATION\n\nReception is the assigned lead. Confirm who will coordinate experiences and any external providers; a concierge/guest-services role is not operationally confirmed.\n\nThe hotel DNA is based on public and historical information, with operator review pending; capabilities, schedules, prices and availability below are not operationally confirmed.\n\nOne critical F&B handoff: Leo has a severe shellfish allergy and the family carries an EpiPen. Ensure the kitchen receives this clearly and confirms ingredients and cross-contact controls under its actual protocols before preparing food for him. Do not assume a dish or substitute is safe.\n\nC) GUEST PROFILE\n\nClara wants to enjoy local food and learn to cook a local dish hands-on. This is an activity for her, not necessarily the family; one-to-one or small-group would both suit her. She does not yet know which dish she would like to learn. Marc is happy to try local food. Clara and Marc have no dietary restrictions.\n\nThey enjoy slow breakfasts with fruit and eggs. Clara likes coconut water, Marc fresh pineapple juice, and Leo watermelon juice. Clara and Marc love mango, coconut and pineapple; Leo prefers chocolate-chip cookies and also loves watermelon. No special coffee or tea order.\n\nFor sleep, about 24°C works for the family. Clara prefers a firm pillow; Marc prefers a soft pillow and is a light sleeper who would like a quiet place to sleep. Clara and Marc share a duvet; Leo has his own blanket and is not bothered about pillows.\n\nClara loves frangipani and light natural coconut scents, but not heavy artificial perfumes. Marc sneezes around heavy pollen. Clara requested a quiet anniversary note for Marc’s pillow and no loud public celebration.\n\nLeo is fascinated by turtles and sea life; seeing marine life and ocean stories or games would delight him. The family would enjoy a boat outing and island hopping with a gentle mix of marine-life viewing, exploring and a swim. Marc is interested in a separate morning of snorkelling or diving. Clara enjoys reading by the pool; Marc likes a morning swim.\n\nExperience proposals are in F.\n\nD) RECEPTION\n\nCoordinate the personal details with the relevant teams rather than restarting a general discovery conversation. A friendly, conversational approach and occasional suggestions suit the family.\n\nAsk F&B whether breakfast can accommodate a leisurely pace, fruit and eggs, and the three preferred juices: coconut water for Clara, fresh pineapple juice for Marc and watermelon juice for Leo. Confirm current menu, availability and any charge; do not promise these items in advance. Apply the allergy handoff in B to all food prepared for Leo.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room location for Marc and, if room controls permit, about 24°C. Check the booked room category, actual bedding arrangement and pillow options before promising a firm pillow for Clara, a soft one for Marc, a shared duvet or Leo’s own blanket.\n\nHousekeeping: Clara specifically requested this wording on Marc’s pillow: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » Keep it private and understated; no additional public celebration or invented message. Confirm the note can be placed as requested.\n\nDo not add room fragrance or a floral arrangement by default: Clara’s scent preferences do not constitute a room-scent request, and Marc sneezes around heavy pollen. If any such detail is considered, check with the guests first.\n\nOptional F&B/room-service adaptation: ask whether a small selection reflecting Clara and Marc’s mango, coconut and pineapple favourites, and Leo’s chocolate-chip-cookie or watermelon preference, can be offered through an existing room or minibar service. Confirm availability and charges; for any food for Leo, follow the allergy protocol in B and check with his parents. Do not assume stock or safety.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\nPrivate anniversary dinner with childcare — proposal for the hotel, not an arrangement or purchase. The couple would like one romantic dinner alone, perhaps on the beach, for a couple of hours while Leo is cared for by a trusted sitter. Reception should first investigate whether a suitably vetted sitter can be sourced and approved by the parents; no childcare service is established in the hotel information. Confirm age suitability, timing, supervision, terms and fee. If feasible, F&B can explore a discreet dinner using the published flexible dining-location capability. Confirm venue and kitchen hours, menu, weather and beach safety, privacy, setup, noise and any charge. Keep the plan private and workable around Leo.\n\nHands-on local cooking for Clara — paid opportunity to explore, not a confirmed hotel activity. Ask F&B whether a team member can offer a practical lesson in preparing a local dish, either individually or in a small group. Keep it as Clara’s experience rather than assuming it is a family activity. Confirm instructor, suitable dish, format, timing, availability and price before proposing a definite arrangement.\n\nFamily marine outing and Marc’s separate water activity — paid opportunities to explore through the hotel’s published activity-coordination capability. Ask the activity team about a suitable catamaran/island-hopping option for all three, paced for marine-life viewing, exploring and a swim, with Leo’s interest in turtles in mind; sightings cannot be promised. Separately, ask about Marc’s preferred snorkelling or diving option for one morning. For both, confirm current operator and credentials, age and ability requirements, route, conditions, equipment, transfers, safety, price and cancellation terms. No outing or booking is confirmed.\n\nLeo’s interest in sea life — focused follow-up alongside the outing enquiry. Reception should ask the activity coordinator whether a suitable child-friendly interpretation or ocean-story element is actually available, or research an appropriate local option without implying a partner or guaranteed activity.",
+      "promptVersion": "brief-v4"
+    }
+  ],
+  "invitations": []
+}

@@ -34,3 +34,14 @@ Earlier Replit checks passed 18 server assertions with simulated services and fo
 ## Handoff criterion
 
 Present an actually verified journey, the prompt and DNA versions used, launch commands, relevant checks performed and remaining limits. Distinguish a usable demonstration from operational validation with a real hotel. Update documentation, commit and push the authorised changes after verification, as Julien confirmed on 6 October.
+
+
+## Approved discovery replacement: quality acceptance
+
+A rich cooperating guest should yield purpose and individual context plus concrete everyday preparation material: food and drink tastes, snacks, comfort/home habits, routines, meaningful interests, useful scent/flower preferences and staff interaction. Assess discovery of available information, not only correct retention if the guest happens to volunteer it. A missed valuable lead is a quality failure even when JSON and export checks pass.
+
+The order is adaptive. Unknown, indifferent, refused and unexplored are distinct. Do not require every detail from every guest. Explicit time pressure, refusal or completion must allow ending without a full profile, and a short factual answer alone must not trigger that interpretation. Evaluate humour, specific follow-ups, lack of repetitive paraphrasing, and individual attribution.
+
+The resulting brief must turn knowledge into concrete existing-process adaptations and relevant optional paid compositions, with guest basis, hotel capability, owner and material checks. Assess it against the historical Seven Secrets usefulness, not a fixed word count or offer quota. Guests never have to design the whole attention. No guarantee, fabricated capability, hidden-profile leak or unsupported preference is acceptable.
+
+Run fixed fictional profiles through the real application; preserve full transcripts and generated exports, costs, configuration and failed outcomes. Separate structural/unit/browser tests from authored live roleplays and independent guest/hotel validation. Model portability requires re-evaluation, not simply accepting a new model identifier.

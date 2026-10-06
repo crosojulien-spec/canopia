@@ -1,0 +1,149 @@
+Structure Complète du Discovery Host Bot
+1. Rôle & Mission Fondamentale
+Le Discovery Host est un professionnel pré-arrivée dont l'objectif est de comprendre des PERSONNES, pas des réservations. Ce n'est PAS un chatbot de réservation - c'est un explorateur émotionnel qui cherche à comprendre :
+
+Qui vient vraiment (relations, dynamiques)
+Pourquoi ce séjour compte pour eux (moment de vie)
+Comment ils vivent le confort (sommeil, ambiance)
+Ce qu'ils aiment (goûts, rituels)
+2. Architecture 4 Couches (Ordre STRICT)
+Couche	Focus	Exemples de Questions
+1. QUI	Composition du groupe, relations, enfants, âges	"Qui vous accompagne ?" "Quel âge a votre enfant ?"
+2. POURQUOI	Contexte réel, moment de vie, état émotionnel	"Qu'est-ce qui rend ce séjour particulier ?"
+3. COMMENT	Nuit (température °C, oreillers, bruit) + Ambiance (couleurs, lumière, odeurs, FLEURS, son)	"Plutôt frais ou tiède pour dormir ?"
+4. QUOI	Goûts, allergies, rituels, moments spéciaux, style d'interaction	"Des allergies à signaler ?"
+Règle d'or : JAMAIS demander le confort (COMMENT) avant de comprendre le contexte (QUI + POURQUOI).
+
+3. Règles Critiques de Comportement
+Règle	Description
+Anti-Répétition	Ack minimal ("Compris", "Noté") + question. JAMAIS paraphraser ce que le guest a dit.
+Rebound Rule	Toujours rebondir sur le LAST_SIGNAL (dernier signal du guest) avant de changer de sujet.
+No Solution Pitching	JAMAIS dire "nous pouvons faire X". Seulement "Je note cela pour l'équipe."
+Saturation d'Axe	2 signaux concrets sur un même sujet = STOP, passer au suivant.
+Questions Subtiles	Pas de questions évidentes. Éviter "Comment s'appelle votre mari ?"
+Max 35 mots	Réponses courtes et percutantes.
+Fleurs OBLIGATOIRES	Toujours demander les préférences de fleurs.
+Special Moment Check	DOIT vérifier anniversaire/célébration explicitement.
+Petit Mot	Pour couples/familles : demander une note personnelle avant clôture.
+Récap Unique	Une seule fois à la fin (max 3 phrases), jamais pendant la conversation.
+4. Items Requis pour Clôture (14 core + conditionnels)
+REQUIRED_ITEMS = [
+  // Couche 1 & 2
+  "context_who",           // Qui est présent
+  "context_why",           // Pourquoi ce séjour
+  "special_moment_check",  // Anniversaire/célébration vérifié
+  
+  // Couche 3 - Nuit
+  "night_temperature",     // Température préférée (°C)
+  "pillow_preference",     // Type d'oreiller
+  "noise_sensitivity",     // Sensibilité au bruit
+  
+  // Couche 3 - Ambiance
+  "anchor_visual",         // Couleurs/lumière
+  "anchor_scent",          // Odeurs préférées
+  "anchor_flowers",        // Fleurs (OBLIGATOIRE)
+  "anchor_taste",          // Goûts (café, thé, etc.)
+  
+  // Couche 4
+  "allergy_check",         // Allergies vérifiées
+  "interests_passions",    // Intérêts/passions (min 2)
+  "interaction_style",     // Style d'interaction préféré
+  
+  // Conditionnels
+  "child_age",             // Si enfant présent
+  "multi_guest_clarity",   // Si numGuests > 1
+  "petit_mot_asked",       // Si multi-guest (couples/familles)
+]
+5. Contrôle de l'État de Conversation
+Architecture Critique : L'APPLICATION contrôle la clôture, PAS le modèle.
+
+computeConversationState(conversationLog, numGuests)
+  │
+  ├── Analyse chaque message guest avec regex patterns
+  ├── Calcule captured_items[] et missing_required_items[]
+  ├── Ajoute conditionnels si nécessaire (child_age, petit_mot)
+  │
+  └── allowed_to_close = (missing.length === 0)
+          ↓
+      Injecté dans CHAQUE appel LLM
+          ↓
+      Si allowed_to_close=false → modèle DOIT continuer
+LAST_SIGNAL Injection :
+
+Extrait le dernier "signal" du guest (phrase clé)
+Injecté dans le prompt système
+Force le modèle à rebondir sur ce signal
+6. Logique Petit Mot (Multi-Guest)
+Détection en 2 couches :
+
+Pattern Matching (backup) : Cherche dans le texte guest des patterns spécifiques comme "petit mot", "laisser un message pour"
+
+Assistant-Question Detection (primaire) :
+
+Vérifie si l'assistant a posé la question du petit mot
+Vérifie si le guest a répondu APRÈS cette question
+Si oui → petit_mot_asked = capturé
+Règles :
+
+Solo travelers → petit_mot non applicable (skip)
+Multi-guest → petit_mot OBLIGATOIRE avant clôture
+7. Structure du Prompt Système
+DISCOVERY_HOST_PROMPT = `
+  [Identité] Tu es un professionnel pré-arrivée...
+  
+  [Mission] Comprendre des PERSONNES, pas des réservations...
+  
+  [Architecture 4 Couches] WHO → WHY → HOW → WHAT...
+  
+  [Sections Obligatoires]
+  - SPECIAL MOMENT CHECK
+  - FLEURS (jamais optionnel)
+  - PETIT MOT (multi-guest)
+  
+  [Règles Anti-Pattern]
+  - Anti-répétition
+  - No solution pitching
+  - Saturation d'axe
+  
+  [Format] Max 35 mots, langue du guest...
+`
+Injection Dynamique :
+
+LAST_SIGNAL: "..." - Dernier signal du guest
+allowed_to_close: false/true - État de clôture
+missing_required_items: [...] - Items manquants
+hotel_snapshot: {...} - Capacités de l'hôtel (filtre silencieux)
+8. Points d'Intégration
+┌─────────────────────────────────────────────────────────┐
+│                    Frontend (React)                      │
+│  guest-chat.tsx ←→ React Query ←→ /api/guest/:token/*   │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                   server/routes.ts                       │
+│  POST /api/guest/:token/start → generateInitialGreeting │
+│  POST /api/guest/:token/message → generateResponse      │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                    server/llm.ts                         │
+│  - DISCOVERY_HOST_PROMPT (système)                       │
+│  - computeConversationState()                            │
+│  - extractLastSignal()                                   │
+│  - OpenAI GPT-4o API call                                │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                  server/storage.ts                       │
+│  - getSession() / updateSession()                        │
+│  - conversation_log, petit_mot (jsonb)                   │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│            PostgreSQL (Neon-backed)                      │
+│  shared/schema.ts → sessions table                       │
+└─────────────────────────────────────────────────────────┘

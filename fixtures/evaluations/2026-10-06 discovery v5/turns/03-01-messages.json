@@ -1,0 +1,108 @@
+{
+  "case": "03",
+  "action": "messages",
+  "elapsedMs": 11667,
+  "guest": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "Understood—I’ll keep it practical. What’s your usual morning coffee or tea order?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Morning drink routine",
+    "closing": {
+      "basis": "guest_short_on_time",
+      "reason": "Sam said they have about a minute before a meeting; keeping discovery brief.",
+      "sourceMessageIds": [
+        "c9514625-a44a-4416-ac1e-69da18044f37"
+      ]
+    },
+    "threads": [
+      {
+        "topic": "Work stay and limited time",
+        "detail": "Solo for two nights for work; has about a minute before a meeting and wants to keep the exchange practical.",
+        "person": "Sam",
+        "status": "open",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Snack or small-pleasure preferences could inform the stay.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Morning routine is a useful opening.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Personal interests have not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Preferred style of interaction with hotel staff has not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Food and drink preferences, including the morning drink asked about now.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "plans_and_pace": {
+        "detail": "Work trip; meeting shortly. Useful timings and plans during the stay are not yet known.",
+        "status": "open",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37"
+        ]
+      },
+      "personal_touches": {
+        "detail": "No occasion or personal-touch opening has been shared.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "sleep_and_comfort": {
+        "detail": "Could explore practical sleep or room-comfort needs for a work stay.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Travelling solo for work for two nights.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Preferences or sensitivities have not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Dietary requirements have not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and party",
+      "value": "Travelling solo for work for two nights.",
+      "sourceQuote": "Solo for work, two nights.",
+      "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+    },
+    {
+      "label": "Time constraint and preference",
+      "value": "Has about a minute before a meeting and wants to keep the exchange practical.",
+      "sourceQuote": "I have about a minute before a meeting, so let's keep this practical.",
+      "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+    }
+  ]
+}

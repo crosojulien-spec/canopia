@@ -1,0 +1,327 @@
+{
+  "case": "02",
+  "action": "messages",
+  "elapsedMs": 30596,
+  "guest": "No added room fragrance, please. I love irises but not a strong floral smell. Ben doesn't have a favourite flower.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "We’ll keep the room free of added fragrance; irises without a strong floral scent sound more your style, and Ben has no favourite flower. As you explore Prague, would you enjoy a few tailored suggestions from the team, or prefer to find things yourselves?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Prague recommendations and staff style",
+    "closing": {
+      "basis": "continue",
+      "reason": "They are actively sharing useful preferences, and their preferred interaction with the team remains open.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Eight-year anniversary and first visit to Prague",
+        "detail": "They are celebrating eight years together and visiting Prague for the first time.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      {
+        "topic": "Prague plans and pace",
+        "detail": "Nothing is booked; they want one nice dinner and slow wandering. They prefer breakfast after nine and no early tours; other plans and practical timings remain open.",
+        "person": "Nora and Ben",
+        "status": "open",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7",
+          "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+        ]
+      },
+      {
+        "topic": "Architecture and old staircases",
+        "detail": "Nora loves architecture and old staircases.",
+        "person": "Nora",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      {
+        "topic": "Jazz and bookshops",
+        "detail": "Ben likes jazz and little bookshops.",
+        "person": "Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      {
+        "topic": "Dinner tastes, drinks and style",
+        "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e54acfbd-7380-438a-a211-c966103b1058"
+        ]
+      },
+      {
+        "topic": "Sleep setup and morning habits",
+        "detail": "They share a bed but prefer two duvets; Nora is usually warm and prefers a firm pillow, while Ben is usually cold and prefers a soft pillow. Ben reads before breakfast.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "0bd7af79-8cbf-4af4-872a-e360f4863658"
+        ]
+      },
+      {
+        "topic": "Morning routine and timing",
+        "detail": "Nora has a cappuccino and does ten minutes of yoga; Ben drinks Earl Grey without milk. They like breakfast after nine and do not want early tours.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+        ]
+      },
+      {
+        "topic": "Separate snacks",
+        "detail": "Nora loves dried apricots and Ben loves dark chocolate; they joked about having different stashes.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+        ]
+      },
+      {
+        "topic": "Private anniversary reference",
+        "detail": "They welcome a small, private nod to meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "828985ba-976d-4cbd-afb4-fe039680c9f9"
+        ]
+      },
+      {
+        "topic": "Scents and flowers",
+        "detail": "Nora requests no added room fragrance, likes irises, and dislikes a strong floral smell. Ben has no favourite flower.",
+        "person": "Nora and Ben",
+        "status": "understood",
+        "sourceMessageIds": [
+          "56b3767c-1b05-467c-a197-687907eb7dd6"
+        ]
+      },
+      {
+        "topic": "Prague recommendations and staff style",
+        "detail": "Their preference for tailored suggestions from the team versus exploring independently is being asked.",
+        "person": "Nora and Ben",
+        "status": "open",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Nora loves dried apricots; Ben loves dark chocolate. They joked about having separate stashes.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+        ]
+      },
+      "routines": {
+        "detail": "Nora has a cappuccino and does ten minutes of yoga; Ben drinks Earl Grey without milk and likes to read before breakfast. They like breakfast after nine and do not want early tours.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6",
+          "0bd7af79-8cbf-4af4-872a-e360f4863658"
+        ]
+      },
+      "interests": {
+        "detail": "Nora loves architecture and old staircases; Ben likes jazz and little bookshops.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7"
+        ]
+      },
+      "interaction": {
+        "detail": "Their preferred style of welcome and interaction with the hotel team is still being explored; the current question asks whether they welcome tailored suggestions or prefer to explore independently.",
+        "status": "open",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "e54acfbd-7380-438a-a211-c966103b1058"
+        ]
+      },
+      "plans_and_pace": {
+        "detail": "Nothing is booked; they want one nice dinner and slow wandering, with breakfast after nine and no early tours. Other plans and practical timings remain open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "222e2c23-9c65-455e-b685-758e4334afe7",
+          "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+        ]
+      },
+      "personal_touches": {
+        "detail": "They welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "828985ba-976d-4cbd-afb4-fe039680c9f9"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "They share a bed but prefer two duvets. Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "0bd7af79-8cbf-4af4-872a-e360f4863658"
+        ]
+      },
+      "people_and_purpose": {
+        "detail": "Nora and Ben are celebrating eight years together and visiting Prague for the first time.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Nora requests no added room fragrance, likes irises, and dislikes a strong floral smell. Ben has no favourite flower.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "56b3767c-1b05-467c-a197-687907eb7dd6"
+        ]
+      },
+      "dietary_requirements": {
+        "detail": "No valid guest evidence retained.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions",
+      "value": "Nora is travelling with Ben.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Occasion",
+      "value": "Nora and Ben are celebrating eight years together.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Visit history",
+      "value": "This is Nora and Ben's first time in Prague.",
+      "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+    },
+    {
+      "label": "Plans and pace",
+      "value": "They have nothing booked; they want one nice dinner and slow wandering.",
+      "sourceQuote": "Nothing booked. We want one nice dinner and slow wandering.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Nora's interests",
+      "value": "Nora loves architecture and old staircases.",
+      "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Ben's interests",
+      "value": "Ben likes jazz and little bookshops.",
+      "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+      "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+    },
+    {
+      "label": "Food preferences",
+      "value": "They both like fish, roast vegetables and lemon desserts.",
+      "sourceQuote": "We both like fish, roast vegetables and lemon desserts.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    },
+    {
+      "label": "Drink preferences",
+      "value": "Nora usually drinks sparkling water; Ben sometimes has red wine.",
+      "sourceQuote": "I usually drink sparkling water; Ben sometimes has red wine.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    },
+    {
+      "label": "Dinner style",
+      "value": "They prefer dinner that is not too drawn-out or formal.",
+      "sourceQuote": "Nothing too drawn-out or formal.",
+      "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+    },
+    {
+      "label": "Shared bed and duvet preference",
+      "value": "They share a bed but definitely prefer two duvets.",
+      "sourceQuote": "We share a bed but definitely prefer two duvets—I'm always warm and Ben is always cold!",
+      "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+    },
+    {
+      "label": "Sleep temperature preferences",
+      "value": "Nora is always warm and Ben is always cold.",
+      "sourceQuote": "We share a bed but definitely prefer two duvets—I'm always warm and Ben is always cold!",
+      "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+    },
+    {
+      "label": "Pillow preferences",
+      "value": "Nora prefers a firm pillow; Ben prefers a soft pillow.",
+      "sourceQuote": "Firm pillow for me, soft for Ben.",
+      "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+    },
+    {
+      "label": "Ben's morning reading",
+      "value": "Ben likes to read before breakfast.",
+      "sourceQuote": "He likes to read before breakfast.",
+      "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+    },
+    {
+      "label": "Nora's morning drink",
+      "value": "Nora likes a cappuccino in the morning.",
+      "sourceQuote": "A cappuccino for me and Earl Grey without milk for Ben.",
+      "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+    },
+    {
+      "label": "Ben's morning drink",
+      "value": "Ben likes Earl Grey without milk in the morning.",
+      "sourceQuote": "A cappuccino for me and Earl Grey without milk for Ben.",
+      "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+    },
+    {
+      "label": "Nora's morning routine",
+      "value": "Nora does ten minutes of yoga.",
+      "sourceQuote": "I do ten minutes of yoga.",
+      "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+    },
+    {
+      "label": "Breakfast timing and tours",
+      "value": "They like breakfast after nine and definitely do not want early tours.",
+      "sourceQuote": "We like breakfast after nine and definitely don't want early tours.",
+      "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+    },
+    {
+      "label": "Nora's snack preference",
+      "value": "Nora loves dried apricots.",
+      "sourceQuote": "I love dried apricots; Ben loves dark chocolate. Different stashes!",
+      "sourceMessageId": "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+    },
+    {
+      "label": "Ben's snack preference",
+      "value": "Ben loves dark chocolate.",
+      "sourceQuote": "I love dried apricots; Ben loves dark chocolate. Different stashes!",
+      "sourceMessageId": "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+    },
+    {
+      "label": "Anniversary personal touch",
+      "value": "They welcome a small private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+      "sourceQuote": "A small private nod would be lovely. We met sheltering from the rain outside a bookshop. We always say we're still taking the scenic route together. No public announcements or staged romance though.",
+      "sourceMessageId": "828985ba-976d-4cbd-afb4-fe039680c9f9"
+    },
+    {
+      "label": "Scents and flowers",
+      "value": "Nora requests no added room fragrance, likes irises but not a strong floral smell; Ben has no favourite flower.",
+      "sourceQuote": "No added room fragrance, please. I love irises but not a strong floral smell. Ben doesn't have a favourite flower.",
+      "sourceMessageId": "56b3767c-1b05-467c-a197-687907eb7dd6"
+    }
+  ]
+}

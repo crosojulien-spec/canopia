@@ -1,0 +1,26 @@
+{
+  "recoveredOn": "2026-10-06",
+  "sources": [
+    {
+      "file": "references/historical/Discovery host role original.txt",
+      "origin": "C:\\Users\\croso\\.codex\\attachments\\88304de5-b2cc-454a-92ad-5723ad6de7ff\\Texte coll\u00e9.txt",
+      "sha256": "f6a433a9b4af3809b978a87e7c517d74855ef282aec61841d5a246a498796c96",
+      "status": "Historical user-supplied reference, original language retained. Not active instructions."
+    },
+    {
+      "file": "references/historical/Replit discovery implementation original.txt",
+      "origin": "C:\\Users\\croso\\.codex\\attachments\\8331762c-fe5b-4ed9-859a-55627e6b06b1\\Texte coll\u00e9.txt",
+      "sha256": "cfcb3ce9bd33daf79be9962f1a855f43b10fd79771bd614f8e9cb1957e80d65b",
+      "status": "Historical user-supplied reference, original language retained. Not active instructions. The implementation excerpt ends with a truncation notice in the supplied source."
+    }
+  ],
+  "related": [
+    "references/historical/testing_notes.txt",
+    "references/historical/testing_notes_v3.txt",
+    "references/historical/internal_review.txt",
+    "fixtures/historical/seven_secrets/conversation.txt",
+    "fixtures/historical/seven_secrets/brief_coordinator_en.txt",
+    "fixtures/historical/seven_secrets/experience_suggestions.txt"
+  ],
+  "precedence": "Current approved product decisions and role override historical fixed ordering, mandatory full coverage, keyword detection and brevity-based impatience."
+}

@@ -1,5 +1,7 @@
 # Three anniversary journeys — 6 October 2026
 
+Historical v4 campaign. Julien subsequently rejected its qualitative level; it is retained as unedited evidence, not current acceptance. See [the v5 replacement](Discovery%20v5%20integration.md).
+
 **The product was changed and three new fictional couples completed the real application flow from discovery to exported service recommendations.** There were 22 live conversation replies and three live briefs, using GPT-6.1 Sol. All three exports exactly match the generated drafts. The local allowance accounted for **USD 0.927621**, leaving **USD 0.604910** of the original USD 5.
 
 These are diagnostic roleplays with actual model outputs. Codex authored and played the guests and assessed the results. They are not independent guest feedback, hotel approval or proof of an improvement rate against the old version. The hundred earlier offline simulations informed the design; they were not model training.

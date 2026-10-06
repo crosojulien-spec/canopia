@@ -4,13 +4,13 @@ The local application runs without another service account. These are the remain
 
 ## OpenAI: conversation and brief generation
 
-Julien's existing API key is now stored locally, and access to **gpt-6.1-sol** was verified. He explicitly authorised up to **USD 5** for the first fictional conversation/brief trials on 5 October 2026. The app applies a persistent local allowance before dispatching generation. See [AI trial and budget](AI%20trial%20and%20budget.md) for accounting, limits and operation. No account-wide billing setting was changed.
+Julien's existing API key is stored locally. Sol was verified in the earlier trials; the current configuration pins **gpt-6-luna**, verified through the v5 fictional journeys. He explicitly authorised up to **USD 5** for the first fictional conversation/brief trials on 5 October 2026. The app applies a persistent local allowance before dispatching generation. See [AI trial and budget](AI%20trial%20and%20budget.md) for accounting, limits and operation. No account-wide billing setting was changed.
 
 Put the key directly into the local ignored `.env` file or process environment. Do not paste it into a conversation, browser code or Git. Codex can configure the other fields once the key is available locally, without displaying it.
 
 ```dotenv
 CANOPIA_AI_MODE=openai
-OPENAI_MODEL=gpt-6.1-sol
+OPENAI_MODEL=gpt-6-luna
 OPENAI_API_KEY=<local secret only>
 CANOPIA_ALLOW_AI_CALLS=false
 CANOPIA_AI_BUDGET_USD=5

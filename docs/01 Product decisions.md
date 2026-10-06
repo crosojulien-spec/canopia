@@ -50,12 +50,23 @@ Hôtel Amour Nice replaced the WindsoR. The selection contains six hotels, rathe
 
 ## Guest conversation
 
+### Approved replacement on 6 October: active discovery and adaptive pace
+
+Julien rejected the qualitative level of the v4 anniversary journeys. Technical success and offline roleplays did not demonstrate the required guest understanding. He approved the full replacement role in `docs/Conversation agent role.md` and explicitly requested application integration, documentation updates, commit and push.
+
+Food, drinks, snacks, comfort and everyday routines are priority material for adapting existing hotel processes and relevant paid opportunities. Scents and flowers must be explored when hotel capabilities make them useful. The agent takes initiative rather than waiting for unsolicited preferences. Purpose, companions, interests, memories, practical plans and staff interaction remain part of the discovery. The nineteen agreed information areas are grouped by the role; they are not a mandatory sequence or a requirement for every guest to answer every detail.
+
+The path and pace adapt to the person. Follow valuable leads, accept indifference and refusal, keep useful threads for later, and distinguish an unexplored area from no preference. Short answers alone do not establish disengagement. Host-led closure needs sufficient useful material; stated time pressure or a wish to finish allows shortening. Current instructions supersede historical strict ordering and keyword-based impatience detection. The Seven Secrets example establishes the desired breadth and operational usefulness, not a conversation to reproduce verbatim.
+
+Julien's cheaper-model request applies to the Canopia agent, not this Codex chat. Implementation selects `gpt-6-luna` for the revised role and tests it within the same original USD 5 allowance. No budget reset, new spending allowance, deployment or real email is authorised. Live evaluation and its limits are recorded separately; approval of the role is not acceptance of every resulting conversation.
+
+
 Clarifications approved on 6 October after reviewing Julien's `05_Tests.zip` archive:
 
 - A common behaviour across all six hotels is acceptable at this stage. The stay's purpose guides the questions; DNA remains in the background without imposing identical questions on everyone.
 - For a celebration, naturally start with existing plans or the person's interests. Age is not the automatic first question. The agent may initiate the idea of a little note or personal nod, then ask for a sentiment or shared reference. The guest need not write the note or design the whole attention; execution belongs to the hotel.
 - For a city visit, understand the way of exploring, specific experiences and interests, and memories of previous visits. For work, prioritise the day's rhythm, meals, exercise, transport and evenings. A solo traveller is not necessarily travelling for work.
-- Sleep, snacks, tastes, scents, flowers and other habits may enrich discovery when the exchange allows; they are not a mandatory questionnaire.
+- Earlier wording treated sleep, snacks, tastes, scents, flowers and habits as possible enrichment. The approved replacement above explicitly makes everyday personalisation an active discovery priority, while preserving adaptive pace.
 - Awareness of cultural habits can reveal a useful question, such as one duvet each or a shared duvet. It does not authorise assigning a preference to a nationality or inventing hotel customs or equipment. The tone may be light and playful.
 - The full archive was examined as design evidence: 27 DOCX and 19 PDF files, including review notes. Old briefs and ideas remain fallible examples, not expected answers. Personal details, conditions and companions' different tastes must survive summarisation.
 - Julien requested a role rewrite, a model quality/cost assessment and three new conversation tests. `conversation-v3` was tested on three new fictional guests; the subsequent `conversation-v3.1` clarified closure, previous visits and comfort after seven targeted checks. Keeping GPT-6.1 Sol is an implementation recommendation, not a demonstrated comparison against Luna or Astra. Julien's qualitative approval remains pending after reviewing the tests.
@@ -117,7 +128,7 @@ Proposals remain subject to the hotel's decision. The product does not book, pro
 ### Confirmed implementation decisions
 
 - On 5 October, Julien instructed Codex to begin development. Construction of the core product is authorised in this project. Real emails and deployment remain prohibited without authorisation; spending requires approval except for the AI trial below.
-- After storing his key locally, Julien explicitly approved GPT-6.1 Sol with a maximum USD 5 allowance for initial conversation and brief tests. This covers local fictional stays, not emails, deployment, real travellers or other spending. The model is `gpt-6.1-sol`; the key is not versioned. The trial ledger persists in the database and does not reset on restart.
+- After storing his key locally, Julien explicitly approved GPT-6.1 Sol with a maximum USD 5 allowance for initial conversation and brief tests. This covers local fictional stays, not emails, deployment, real travellers or other spending. The original model was `gpt-6.1-sol`; the approved cheaper-model direction now uses `gpt-6-luna` under the same cap (see the replacement role decision above). The key is not versioned. The trial ledger persists in the database and does not reset on restart.
 - On withdrawal/refusal, produce a minimal record of already collected information with a prominent notice that the guest does not want it used for personalisation. No new experience suggestions in this branch. Retention remains undecided.
 - Approved format: A–F retained; "BlooM Experience Tips" replaced by "Experience suggestions"; labels match known roles, with reception handling suggestions when there is no concierge.
 - Approved editing/regeneration: each regeneration creates a new version without overwriting previous ones; export uses the saved version selected in the dashboard.

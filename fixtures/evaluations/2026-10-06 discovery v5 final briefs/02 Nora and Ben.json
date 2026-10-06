@@ -1,0 +1,573 @@
+{
+  "stay": {
+    "id": "66aab05b-076e-4650-964d-158d656e7ac4",
+    "demo": true,
+    "email": "",
+    "facts": [
+      {
+        "label": "Travel companions",
+        "value": "Nora is travelling with Ben.",
+        "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+        "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+      },
+      {
+        "label": "Occasion",
+        "value": "Nora and Ben are celebrating eight years together.",
+        "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+        "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+      },
+      {
+        "label": "Visit history",
+        "value": "This is Nora and Ben's first time in Prague.",
+        "sourceQuote": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+        "sourceMessageId": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+      },
+      {
+        "label": "Plans and pace",
+        "value": "They have nothing booked; they want one nice dinner and slow, unhurried wandering with café and bookshop stops whenever something catches their eye. They do not need a schedule or group tour.",
+        "sourceQuote": "Unhurried, with café and bookshop stops whenever something catches our eye. We don't need a schedule or a group tour.",
+        "sourceMessageId": "0488e63b-36a2-4bef-9128-28c03ace1b54"
+      },
+      {
+        "label": "Nora's interests",
+        "value": "Nora loves architecture and old staircases.",
+        "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+        "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+      },
+      {
+        "label": "Ben's interests",
+        "value": "Ben likes jazz and little bookshops.",
+        "sourceQuote": "I love architecture and old staircases; Ben likes jazz and little bookshops.",
+        "sourceMessageId": "222e2c23-9c65-455e-b685-758e4334afe7"
+      },
+      {
+        "label": "Food preferences",
+        "value": "They both like fish, roast vegetables and lemon desserts.",
+        "sourceQuote": "We both like fish, roast vegetables and lemon desserts.",
+        "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+      },
+      {
+        "label": "Drink preferences",
+        "value": "Nora usually drinks sparkling water; Ben sometimes has red wine.",
+        "sourceQuote": "I usually drink sparkling water; Ben sometimes has red wine.",
+        "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+      },
+      {
+        "label": "Dinner style",
+        "value": "They prefer dinner that is not too drawn-out or formal.",
+        "sourceQuote": "Nothing too drawn-out or formal.",
+        "sourceMessageId": "e54acfbd-7380-438a-a211-c966103b1058"
+      },
+      {
+        "label": "Dietary requirements",
+        "value": "Neither Nora nor Ben has allergies or dietary restrictions.",
+        "sourceQuote": "Neither of us has allergies or dietary restrictions.",
+        "sourceMessageId": "124a82af-793d-4cce-8d8e-a66d3f8f0c35"
+      },
+      {
+        "label": "Nora's snack preference",
+        "value": "Nora loves dried apricots.",
+        "sourceQuote": "I love dried apricots; Ben loves dark chocolate. Different stashes!",
+        "sourceMessageId": "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+      },
+      {
+        "label": "Ben's snack preference",
+        "value": "Ben loves dark chocolate.",
+        "sourceQuote": "I love dried apricots; Ben loves dark chocolate. Different stashes!",
+        "sourceMessageId": "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+      },
+      {
+        "label": "Shared bed and duvet preference",
+        "value": "They share a bed but definitely prefer two duvets.",
+        "sourceQuote": "We share a bed but definitely prefer two duvets—I'm always warm and Ben is always cold!",
+        "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+      },
+      {
+        "label": "Sleep temperature preferences",
+        "value": "Nora is always warm and Ben is always cold.",
+        "sourceQuote": "We share a bed but definitely prefer two duvets—I'm always warm and Ben is always cold!",
+        "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+      },
+      {
+        "label": "Pillow preferences",
+        "value": "Nora prefers a firm pillow; Ben prefers a soft pillow.",
+        "sourceQuote": "Firm pillow for me, soft for Ben.",
+        "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+      },
+      {
+        "label": "Ben's morning reading",
+        "value": "Ben likes to read before breakfast.",
+        "sourceQuote": "He likes to read before breakfast.",
+        "sourceMessageId": "0bd7af79-8cbf-4af4-872a-e360f4863658"
+      },
+      {
+        "label": "Nora's morning drink",
+        "value": "Nora likes a cappuccino in the morning.",
+        "sourceQuote": "A cappuccino for me and Earl Grey without milk for Ben.",
+        "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+      },
+      {
+        "label": "Ben's morning drink",
+        "value": "Ben likes Earl Grey without milk in the morning.",
+        "sourceQuote": "A cappuccino for me and Earl Grey without milk for Ben.",
+        "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+      },
+      {
+        "label": "Nora's morning routine",
+        "value": "Nora does ten minutes of yoga.",
+        "sourceQuote": "I do ten minutes of yoga.",
+        "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+      },
+      {
+        "label": "Breakfast timing and tours",
+        "value": "They like breakfast after nine and definitely do not want early tours.",
+        "sourceQuote": "We like breakfast after nine and definitely don't want early tours.",
+        "sourceMessageId": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+      },
+      {
+        "label": "Anniversary personal touch",
+        "value": "They welcome a small private anniversary nod inspired by meeting while sheltering from the rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+        "sourceQuote": "A small private nod would be lovely. We met sheltering from the rain outside a bookshop. We always say we're still taking the scenic route together. No public announcements or staged romance though.",
+        "sourceMessageId": "828985ba-976d-4cbd-afb4-fe039680c9f9"
+      },
+      {
+        "label": "Scents and flowers",
+        "value": "Nora requests no added room fragrance, likes irises but not a strong floral smell; Ben has no favourite flower.",
+        "sourceQuote": "No added room fragrance, please. I love irises but not a strong floral smell. Ben doesn't have a favourite flower.",
+        "sourceMessageId": "56b3767c-1b05-467c-a197-687907eb7dd6"
+      },
+      {
+        "label": "Staff interaction",
+        "value": "They enjoy warm, informal chats and people's own recommendations, prefer wandering independently, and do not want constant check-ins.",
+        "sourceQuote": "We enjoy warm, informal chats and people's own recommendations. Just not someone checking on us constantly. We like wandering on our own.",
+        "sourceMessageId": "e14318cc-8002-4407-ae45-b6be581e45ae"
+      }
+    ],
+    "status": "completed",
+    "arrival": "2026-11-20",
+    "handoff": "reception",
+    "hotelId": "golden_well_prague",
+    "revoked": false,
+    "revision": 32,
+    "chatError": null,
+    "createdAt": "2026-10-06T12:44:43.887Z",
+    "departure": "2026-11-23",
+    "discovery": {
+      "focus": "Warm farewell",
+      "closing": {
+        "basis": "guest_finished",
+        "reason": "Nora said there was nothing else after the final invitation for additions or corrections.",
+        "sourceMessageIds": [
+          "bb84f35c-708d-4c8a-b7df-f3a391442390"
+        ]
+      },
+      "threads": [
+        {
+          "topic": "Eight-year anniversary and first visit to Prague",
+          "detail": "They are celebrating eight years together and visiting Prague for the first time.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+          ]
+        },
+        {
+          "topic": "Prague plans and pace",
+          "detail": "Nothing is booked; they want one nice dinner and slow, unhurried wandering with café and bookshop stops. They prefer breakfast after nine and no early tours, schedules or group tours.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "222e2c23-9c65-455e-b685-758e4334afe7",
+            "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6",
+            "0488e63b-36a2-4bef-9128-28c03ace1b54"
+          ]
+        },
+        {
+          "topic": "Architecture and old staircases",
+          "detail": "Nora loves architecture and old staircases.",
+          "person": "Nora",
+          "status": "understood",
+          "sourceMessageIds": [
+            "222e2c23-9c65-455e-b685-758e4334afe7"
+          ]
+        },
+        {
+          "topic": "Jazz and bookshops",
+          "detail": "Ben likes jazz and little bookshops.",
+          "person": "Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "222e2c23-9c65-455e-b685-758e4334afe7"
+          ]
+        },
+        {
+          "topic": "Dinner tastes, drinks and style",
+          "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e54acfbd-7380-438a-a211-c966103b1058"
+          ]
+        },
+        {
+          "topic": "Dietary requirements",
+          "detail": "Neither has allergies or dietary restrictions.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "124a82af-793d-4cce-8d8e-a66d3f8f0c35"
+          ]
+        },
+        {
+          "topic": "Separate snacks",
+          "detail": "Nora loves dried apricots and Ben loves dark chocolate; they like separate stashes.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+          ]
+        },
+        {
+          "topic": "Sleep setup and morning habits",
+          "detail": "They share a bed but prefer two duvets. Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Ben reads before breakfast.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "0bd7af79-8cbf-4af4-872a-e360f4863658"
+          ]
+        },
+        {
+          "topic": "Morning routine and timing",
+          "detail": "Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk and reads before breakfast. They like breakfast after nine and do not want early tours.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "0bd7af79-8cbf-4af4-872a-e360f4863658",
+            "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+          ]
+        },
+        {
+          "topic": "Private anniversary reference",
+          "detail": "They welcome a small, private nod to meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "828985ba-976d-4cbd-afb4-fe039680c9f9"
+          ]
+        },
+        {
+          "topic": "Scents and flowers",
+          "detail": "Nora requests no added room fragrance, likes irises and dislikes a strong floral smell. Ben has no favourite flower.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "56b3767c-1b05-467c-a197-687907eb7dd6"
+          ]
+        },
+        {
+          "topic": "Recommendations and staff interaction",
+          "detail": "They enjoy warm, informal chats and people's own recommendations, prefer wandering independently and do not want constant check-ins.",
+          "person": "Nora and Ben",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e14318cc-8002-4407-ae45-b6be581e45ae"
+          ]
+        }
+      ],
+      "coverage": {
+        "snacks": {
+          "detail": "Nora loves dried apricots and Ben loves dark chocolate; they like separate stashes.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "eaa81c75-2a93-49f1-a4b9-938d5ce350cc"
+          ]
+        },
+        "routines": {
+          "detail": "Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk and reads before breakfast. They like breakfast after nine and do not want early tours.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "0bd7af79-8cbf-4af4-872a-e360f4863658",
+            "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6"
+          ]
+        },
+        "interests": {
+          "detail": "Nora loves architecture and old staircases; Ben likes jazz and little bookshops.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "222e2c23-9c65-455e-b685-758e4334afe7"
+          ]
+        },
+        "interaction": {
+          "detail": "They enjoy warm, informal chats and people's own recommendations, prefer wandering independently and do not want constant check-ins.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e14318cc-8002-4407-ae45-b6be581e45ae"
+          ]
+        },
+        "food_and_drink": {
+          "detail": "They both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "e54acfbd-7380-438a-a211-c966103b1058"
+          ]
+        },
+        "plans_and_pace": {
+          "detail": "Nothing is booked; they want one nice dinner and unhurried wandering with café and bookshop stops. They prefer breakfast after nine and no early tours, schedules or group tours.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "222e2c23-9c65-455e-b685-758e4334afe7",
+            "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6",
+            "0488e63b-36a2-4bef-9128-28c03ace1b54"
+          ]
+        },
+        "personal_touches": {
+          "detail": "They welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” They do not want public announcements or staged romance.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "828985ba-976d-4cbd-afb4-fe039680c9f9"
+          ]
+        },
+        "sleep_and_comfort": {
+          "detail": "They share a bed but prefer two duvets. Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "0bd7af79-8cbf-4af4-872a-e360f4863658"
+          ]
+        },
+        "people_and_purpose": {
+          "detail": "Nora and Ben are celebrating eight years together and visiting Prague for the first time.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "1866c8ee-1ea2-47ff-89f9-4a832005f0aa"
+          ]
+        },
+        "scents_and_flowers": {
+          "detail": "Nora requests no added room fragrance, likes irises and dislikes a strong floral smell. Ben has no favourite flower.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "56b3767c-1b05-467c-a197-687907eb7dd6"
+          ]
+        },
+        "dietary_requirements": {
+          "detail": "Neither Nora nor Ben has allergies or dietary restrictions.",
+          "status": "understood",
+          "sourceMessageIds": [
+            "124a82af-793d-4cce-8d8e-a66d3f8f0c35"
+          ]
+        }
+      },
+      "nextMove": "close"
+    },
+    "expiresAt": "2026-10-13T12:44:43.887Z",
+    "guestName": "Nora and Ben",
+    "hotelName": "Golden Well / U Zlate Studne",
+    "partySize": 2,
+    "updatedAt": "2026-10-06T13:28:02.742Z",
+    "briefError": null,
+    "dnaVersion": 2,
+    "briefStatus": "ready",
+    "readyToFinish": false,
+    "selectedBriefId": "828c92aa-3156-4e5f-b52b-a186a5cfadc0",
+    "reservationNotes": "Fictional discovery evaluation, 6 October 2026."
+  },
+  "messages": [
+    {
+      "id": "696a13ff-5ceb-4a1c-a514-c5652c336c7f",
+      "role": "assistant",
+      "content": "Hello Nora! I'd love to get to know you a little before your stay at Golden Well / U Zlate Studne, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+      "createdAt": "2026-10-06T12:44:43.887Z"
+    },
+    {
+      "id": "1866c8ee-1ea2-47ff-89f9-4a832005f0aa",
+      "role": "user",
+      "content": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "createdAt": "2026-10-06T12:44:45.169Z"
+    },
+    {
+      "id": "28972840-bae7-42f0-acc1-500cb44f14c5",
+      "role": "assistant",
+      "content": "Eight years together and a first visit to Prague make this a special trip. What are you most looking forward to discovering together, and have you already made any plans?",
+      "createdAt": "2026-10-06T12:44:57.292Z"
+    },
+    {
+      "id": "222e2c23-9c65-455e-b685-758e4334afe7",
+      "role": "user",
+      "content": "Nothing booked. We want one nice dinner and slow wandering. I love architecture and old staircases; Ben likes jazz and little bookshops.",
+      "createdAt": "2026-10-06T12:46:08.856Z"
+    },
+    {
+      "id": "3adb8460-0dc9-4550-9e70-a2ede0ec41a1",
+      "role": "assistant",
+      "content": "Slow wandering sounds like a lovely way to meet Prague, with plenty to catch both your eyes and Ben’s. For your dinner, what kinds of food or flavours do you both enjoy—and what do you like to drink with it?",
+      "createdAt": "2026-10-06T12:46:24.782Z"
+    },
+    {
+      "id": "e54acfbd-7380-438a-a211-c966103b1058",
+      "role": "user",
+      "content": "We both like fish, roast vegetables and lemon desserts. I usually drink sparkling water; Ben sometimes has red wine. Nothing too drawn-out or formal.",
+      "createdAt": "2026-10-06T12:47:57.169Z"
+    },
+    {
+      "id": "c6badaba-5379-4cd4-9a51-06c870233baf",
+      "role": "assistant",
+      "content": "Fish, roast vegetables and lemon desserts sound like a lovely fit for an unhurried dinner; I’ll keep Nora’s sparkling water and Ben’s occasional red wine distinct. Do either of you have any food allergies or dietary restrictions the restaurant should know about?",
+      "createdAt": "2026-10-06T12:48:14.242Z"
+    },
+    {
+      "id": "124a82af-793d-4cce-8d8e-a66d3f8f0c35",
+      "role": "user",
+      "content": "Neither of us has allergies or dietary restrictions.",
+      "createdAt": "2026-10-06T12:49:50.459Z"
+    },
+    {
+      "id": "59d606de-1b7e-4fe9-94ae-608e8172f73f",
+      "role": "assistant",
+      "content": "Good to know neither of you has any restrictions. After a slow day of wandering, do you tend to reach for a favourite sweet or savoury treat—or is there a particular snack you’d both enjoy finding in your room?",
+      "createdAt": "2026-10-06T12:50:06.372Z"
+    },
+    {
+      "id": "eaa81c75-2a93-49f1-a4b9-938d5ce350cc",
+      "role": "user",
+      "content": "I love dried apricots; Ben loves dark chocolate. Different stashes!",
+      "createdAt": "2026-10-06T12:51:31.479Z"
+    },
+    {
+      "id": "9338ac44-5754-49ad-bc7f-181ffab08516",
+      "role": "assistant",
+      "content": "Different stashes—excellent diplomacy. Is there anything about your usual sleep setup or a small bedtime habit from home that makes a real difference when you’re away?",
+      "createdAt": "2026-10-06T12:51:47.766Z"
+    },
+    {
+      "id": "0bd7af79-8cbf-4af4-872a-e360f4863658",
+      "role": "user",
+      "content": "We share a bed but definitely prefer two duvets—I'm always warm and Ben is always cold! Firm pillow for me, soft for Ben. He likes to read before breakfast.",
+      "createdAt": "2026-10-06T12:55:51.846Z"
+    },
+    {
+      "id": "5c70a3f6-7b7a-4c4c-93e2-51d209fd4376",
+      "role": "assistant",
+      "content": "Two duvets and different pillows sound like a sensible truce—and Ben’s pre-breakfast reading is a lovely morning detail. What do mornings usually look like for you both: is there a coffee or tea ritual, or anything else you like to ease into the day?",
+      "createdAt": "2026-10-06T12:56:13.798Z"
+    },
+    {
+      "id": "f0e8d33f-4fb7-4e98-9ccf-df29778ce7e6",
+      "role": "user",
+      "content": "A cappuccino for me and Earl Grey without milk for Ben. I do ten minutes of yoga. We like breakfast after nine and definitely don't want early tours.",
+      "createdAt": "2026-10-06T12:56:44.021Z"
+    },
+    {
+      "id": "f79b48e8-35f8-4128-83cc-e638e6d4a9b0",
+      "role": "assistant",
+      "content": "A cappuccino after yoga and a slow breakfast sounds like a lovely start. For your anniversary, would you enjoy a small personal touch—perhaps a note or a playful nod to your eight years—or would you rather keep it low-key?",
+      "createdAt": "2026-10-06T12:57:09.500Z"
+    },
+    {
+      "id": "828985ba-976d-4cbd-afb4-fe039680c9f9",
+      "role": "user",
+      "content": "A small private nod would be lovely. We met sheltering from the rain outside a bookshop. We always say we're still taking the scenic route together. No public announcements or staged romance though.",
+      "createdAt": "2026-10-06T12:57:34.189Z"
+    },
+    {
+      "id": "0f24024a-d544-4729-b128-24fb6f7e5b0a",
+      "role": "assistant",
+      "content": "The bookshop-in-the-rain story and “still taking the scenic route together” make a lovely private reference; I’ll keep the no-public-announcements, no-staged-romance boundary in mind. Are there any scents or flowers you especially like—or prefer to avoid—for a subtle anniversary detail?",
+      "createdAt": "2026-10-06T12:57:58.556Z"
+    },
+    {
+      "id": "56b3767c-1b05-467c-a197-687907eb7dd6",
+      "role": "user",
+      "content": "No added room fragrance, please. I love irises but not a strong floral smell. Ben doesn't have a favourite flower.",
+      "createdAt": "2026-10-06T12:58:18.711Z"
+    },
+    {
+      "id": "6121fb67-324c-43d9-9363-b5059b9cc358",
+      "role": "assistant",
+      "content": "We’ll keep the room free of added fragrance; irises without a strong floral scent sound more your style, and Ben has no favourite flower. As you explore Prague, would you enjoy a few tailored suggestions from the team, or prefer to find things yourselves?",
+      "createdAt": "2026-10-06T12:58:49.281Z"
+    },
+    {
+      "id": "e14318cc-8002-4407-ae45-b6be581e45ae",
+      "role": "user",
+      "content": "We enjoy warm, informal chats and people's own recommendations. Just not someone checking on us constantly. We like wandering on our own.",
+      "createdAt": "2026-10-06T12:59:42.356Z"
+    },
+    {
+      "id": "f30fb7c2-a7c7-4531-b19d-e6a0cb7f3f14",
+      "role": "assistant",
+      "content": "That sounds like a lovely balance: friendly local tips when you want them, and room to wander without check-ins. For those architecture-and-bookshop meanders, what does a comfortable walking pace and a good break look like for you both?",
+      "createdAt": "2026-10-06T13:00:41.376Z"
+    },
+    {
+      "id": "0488e63b-36a2-4bef-9128-28c03ace1b54",
+      "role": "user",
+      "content": "Unhurried, with café and bookshop stops whenever something catches our eye. We don't need a schedule or a group tour.",
+      "createdAt": "2026-10-06T13:01:12.168Z"
+    },
+    {
+      "id": "47960ba2-f8da-47cf-9bdf-b53270e979fc",
+      "role": "assistant",
+      "content": "Unhurried wandering with café and bookshop stops sounds just right—and no schedule or group tour. Before we leave it there, is there anything else you’d like the team to know, or anything I’ve got wrong?",
+      "createdAt": "2026-10-06T13:01:40.010Z"
+    },
+    {
+      "id": "bb84f35c-708d-4c8a-b7df-f3a391442390",
+      "role": "user",
+      "content": "Nothing else, thank you.",
+      "createdAt": "2026-10-06T13:02:39.950Z"
+    },
+    {
+      "id": "3825a5a8-d2e9-4f47-a48a-7054d7d54b55",
+      "role": "assistant",
+      "content": "Thank you, Nora. Wishing you and Ben a lovely first visit to Prague—and a happy anniversary, with plenty of scenic-route moments.",
+      "createdAt": "2026-10-06T13:03:06.394Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "828c92aa-3156-4e5f-b52b-a186a5cfadc0",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nNora and Ben; two guests, 20–23 November 2026. First visit to Prague and celebration of eight years together. They have no plans booked and hope for one nice dinner and unhurried independent wandering.\n\nB) COORDINATION\n\nReception is the assigned handoff and should coordinate with housekeeping and the restaurant as needed. Dedicated concierge availability is unconfirmed. Hotel information is based on public material checked 5 October 2026; operational details, availability and proposed arrangements are not confirmed.\n\nKey checks: whether the room can provide two separate duvets and Nora’s firm/Ben’s soft pillow preferences; no added room fragrance; morning drink and breakfast service options after 09:00; and whether the restaurant can offer a shorter, less formal seasonal dinner with a new quote. No early tours or constant check-ins.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and small bookshops. Together they enjoy slow wandering, stopping at cafés and bookshops when something catches their eye, without a schedule or group tour. They welcome warm, informal conversation and staff recommendations, but prefer to explore independently without frequent check-ins.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. Neither has allergies or dietary restrictions. They prefer dinner that is not too drawn-out or formal.\n\nNora loves dried apricots; Ben loves dark chocolate, and they prefer separate stashes. They share a bed but want two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Nora does ten minutes of yoga and likes a morning cappuccino. Ben likes Earl Grey without milk and to read before breakfast. They both prefer breakfast after 09:00.\n\nThey welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcements or staged romance. Nora likes irises but not a strong floral smell, and requests no added room fragrance. Ben has no favourite flower.\n\nExperience suggestions: see F.\n\nD) RECEPTION\n\nOffer friendly, informal recommendations when useful, without scheduled check-ins. Keep any Prague suggestions self-guided and flexible; do not steer them toward an early start, group tour or fixed itinerary.\n\nFor mornings, preserve the separate preferences: Nora’s yoga and cappuccino; Ben’s tea and reading before breakfast; breakfast after 09:00. Confirm available drinks and service timing rather than assuming a particular service or delivery.\n\nE) ROOM PREPARATION\n\nReception to ask housekeeping to check whether the assigned room can be set with two separate duvets and a firm pillow for Nora and soft pillow for Ben. The published bedding menu does not confirm these exact options or availability. Do not add room fragrance.\n\nConsider, subject to hotel approval and relevant stock/fee checks, placing separate dried-apricot and dark-chocolate options for Nora and Ben. These are distinct preferences, not a request or a confirmed minibar offering; reception should check with the appropriate food/service team before arranging anything.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\n• Dinner proposal — The restaurant’s published menu demonstrates fish, vegetable and dessert expertise, but does not establish a shorter menu or guarantee particular dishes. Ask the restaurant whether it can offer a concise, less formal seasonal dinner shaped around their interest in fish, roast vegetables and lemon desserts. Confirm feasibility, current dishes, service pace, availability and a new price before presenting it. Keep Nora’s sparkling water and Ben’s possible red wine distinct; confirm current choices. The published full tasting menu is not the lead proposal for their stated preference.\n\n• Independent Prague recommendations — Reception, or a concierge if one is confirmed, to have warm, date-relevant suggestions ready for architecture and old staircases, small bookshops, cafés and jazz during 20–23 November. Verify current details, especially live jazz listings, and offer recommendations without turning them into a schedule or booking. If the hotel cannot verify suitable options internally, reception should undertake focused research for those dates.\n\n• Private anniversary detail — Consider a discreet, hotel-authored card placed privately in the room, subject to hotel approval. It could use the shared phrase “still taking the scenic route together” and a small illustrated iris as a quiet reference to their story and Nora’s flower preference. This avoids added room fragrance and does not assume a floral arrangement, public recognition or staged display. Coordinate placement with housekeeping; do not represent the card or any other attention as included or already arranged.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "66aab05b-076e-4650-964d-158d656e7ac4",
+      "version": 3,
+      "revision": 1,
+      "createdAt": "2026-10-06T13:28:02.740Z",
+      "updatedAt": "2026-10-06T13:28:02.740Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nNora and Ben; two guests, 20–23 November 2026. First visit to Prague and celebration of eight years together. They have no plans booked and hope for one nice dinner and unhurried independent wandering.\n\nB) COORDINATION\n\nReception is the assigned handoff and should coordinate with housekeeping and the restaurant as needed. Dedicated concierge availability is unconfirmed. Hotel information is based on public material checked 5 October 2026; operational details, availability and proposed arrangements are not confirmed.\n\nKey checks: whether the room can provide two separate duvets and Nora’s firm/Ben’s soft pillow preferences; no added room fragrance; morning drink and breakfast service options after 09:00; and whether the restaurant can offer a shorter, less formal seasonal dinner with a new quote. No early tours or constant check-ins.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and small bookshops. Together they enjoy slow wandering, stopping at cafés and bookshops when something catches their eye, without a schedule or group tour. They welcome warm, informal conversation and staff recommendations, but prefer to explore independently without frequent check-ins.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. Neither has allergies or dietary restrictions. They prefer dinner that is not too drawn-out or formal.\n\nNora loves dried apricots; Ben loves dark chocolate, and they prefer separate stashes. They share a bed but want two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Nora does ten minutes of yoga and likes a morning cappuccino. Ben likes Earl Grey without milk and to read before breakfast. They both prefer breakfast after 09:00.\n\nThey welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcements or staged romance. Nora likes irises but not a strong floral smell, and requests no added room fragrance. Ben has no favourite flower.\n\nExperience suggestions: see F.\n\nD) RECEPTION\n\nOffer friendly, informal recommendations when useful, without scheduled check-ins. Keep any Prague suggestions self-guided and flexible; do not steer them toward an early start, group tour or fixed itinerary.\n\nFor mornings, preserve the separate preferences: Nora’s yoga and cappuccino; Ben’s tea and reading before breakfast; breakfast after 09:00. Confirm available drinks and service timing rather than assuming a particular service or delivery.\n\nE) ROOM PREPARATION\n\nReception to ask housekeeping to check whether the assigned room can be set with two separate duvets and a firm pillow for Nora and soft pillow for Ben. The published bedding menu does not confirm these exact options or availability. Do not add room fragrance.\n\nConsider, subject to hotel approval and relevant stock/fee checks, placing separate dried-apricot and dark-chocolate options for Nora and Ben. These are distinct preferences, not a request or a confirmed minibar offering; reception should check with the appropriate food/service team before arranging anything.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\n• Dinner proposal — The restaurant’s published menu demonstrates fish, vegetable and dessert expertise, but does not establish a shorter menu or guarantee particular dishes. Ask the restaurant whether it can offer a concise, less formal seasonal dinner shaped around their interest in fish, roast vegetables and lemon desserts. Confirm feasibility, current dishes, service pace, availability and a new price before presenting it. Keep Nora’s sparkling water and Ben’s possible red wine distinct; confirm current choices. The published full tasting menu is not the lead proposal for their stated preference.\n\n• Independent Prague recommendations — Reception, or a concierge if one is confirmed, to have warm, date-relevant suggestions ready for architecture and old staircases, small bookshops, cafés and jazz during 20–23 November. Verify current details, especially live jazz listings, and offer recommendations without turning them into a schedule or booking. If the hotel cannot verify suitable options internally, reception should undertake focused research for those dates.\n\n• Private anniversary detail — Consider a discreet, hotel-authored card placed privately in the room, subject to hotel approval. It could use the shared phrase “still taking the scenic route together” and a small illustrated iris as a quiet reference to their story and Nora’s flower preference. This avoids added room fragrance and does not assume a floral arrangement, public recognition or staged display. Coordinate placement with housekeeping; do not represent the card or any other attention as included or already arranged.",
+      "promptVersion": "brief-v4.2"
+    },
+    {
+      "id": "8183ea53-241b-4bce-b481-9f7332aa8dae",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nNora and Ben | 20–23 November 2026 | Two guests. First visit to Prague; celebrating eight years together. Nothing is booked. They want one enjoyable dinner and slow, independent wandering.\n\nB) COORDINATION\n\nReception is the handoff lead. A dedicated concierge role is not confirmed; route experience research and coordination through reception unless the hotel confirms an appropriate lead.\n\nHotel information is public preparation reviewed 5 October 2026, not operational confirmation. Check current availability, service details and pricing before offering or arranging anything. Keep recommendations warm and informal, offer them when useful, and avoid repeated check-ins.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and small bookshops. They enjoy unhurried wandering, stopping at cafés and bookshops as the mood takes them; they do not want a schedule or group tour. They welcome local recommendations and prefer to explore independently.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal. Neither has allergies or dietary restrictions.\n\nNora loves dried apricots; Ben loves dark chocolate—they prefer separate stashes. They share a bed but prefer two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Ben reads before breakfast. Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk. They prefer breakfast after nine and do not want early tours.\n\nThey welcome a small, private anniversary nod inspired by meeting in the rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcement or staged romance. Nora requests no added room fragrance, likes irises, and does not like a strong floral smell. Ben has no favourite flower.\n\nExperience suggestions: a relaxed, suitably brief dinner; see F for independent local recommendations and a possible breakfast adaptation.\n\nD) RECEPTION\n\n- Share the separate duvet and pillow preferences with housekeeping. Confirm whether the bedding menu can meet Nora’s firm and Ben’s soft preference, and whether two duvets can be prepared.\n- Ask housekeeping whether the allocated room can accommodate a small clear floor area for Nora’s ten-minute yoga routine; room category and layout are not supplied.\n- Brief the breakfast team that they prefer breakfast after nine, with cappuccino for Nora and Earl Grey without milk for Ben. Confirm availability rather than assuming these specific drinks are included or stocked.\n- On arrival, offer a few informal recommendations if helpful; do not schedule a tour or initiate frequent check-ins.\n\nE) ROOM PREPARATION\n\n- Housekeeping: prepare two duvets if available and confirm pillow fill/firmness options and stock before promising a firm pillow for Nora and soft for Ben. Avoid assuming their preferred warmth can be achieved through room temperature settings.\n- Housekeeping/reception: no added room fragrance. Do not arrange flowers without checking; Nora’s liking for irises is a preference, not a request for an arrangement.\n- Reception/housekeeping: consider separate welcome or minibar snacks—dried apricots for Nora and dark chocolate for Ben—only after confirming sourcing, any charge and suitability for the room. These are optional, not an assumed entitlement.\n- A small hotel-authored anniversary note is suitable for approval, kept private and simple; it could use their phrase “still taking the scenic route together.” Do not add public recognition, staged romance, fragrance or petals.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\n- Dinner proposal, not a booking: ask Terasa U Zlaté studně whether the kitchen can offer a shorter, relaxed seasonal meal for two reflecting their interest in fish, roast vegetables and lemon dessert, with sparkling water for Nora and red wine as an option for Ben. A shorter sequence or à la carte combination is not established as available; the restaurant must confirm format, current dishes, timing and a new price. Do not lead with the published full tasting menu as though it could simply be shortened.\n- Independent Prague recommendations: reception should prepare a small, informal set of current suggestions matching Nora’s interest in architecture and old staircases and Ben’s interest in bookshops and jazz, with café pauses and no fixed route or early start. Check current venues, opening times and any relevant access or timing details; do not invent venues or make bookings. A private guide is a possible separate option only if they express interest, with pace, route, timing and price confirmed first.\n- Breakfast adaptation: offer, if useful, breakfast delivered to the room after nine so Ben can read and Nora can keep her morning unhurried. Room breakfast delivery is published at CZK 200 for delivery only; confirm whether breakfast itself is included in their rate, the available drinks/food, timing and any additional cost before presenting a total.\n- Optional discreet anniversary touch: with hotel approval and confirmation of any cost, ask whether the restaurant can serve a suitable lemon dessert as a quiet nod during their dinner. Confirm availability and presentation with the restaurant; no announcement or staged setup.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "66aab05b-076e-4650-964d-158d656e7ac4",
+      "version": 2,
+      "revision": 1,
+      "createdAt": "2026-10-06T13:24:02.276Z",
+      "updatedAt": "2026-10-06T13:24:02.276Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nNora and Ben | 20–23 November 2026 | Two guests. First visit to Prague; celebrating eight years together. Nothing is booked. They want one enjoyable dinner and slow, independent wandering.\n\nB) COORDINATION\n\nReception is the handoff lead. A dedicated concierge role is not confirmed; route experience research and coordination through reception unless the hotel confirms an appropriate lead.\n\nHotel information is public preparation reviewed 5 October 2026, not operational confirmation. Check current availability, service details and pricing before offering or arranging anything. Keep recommendations warm and informal, offer them when useful, and avoid repeated check-ins.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and small bookshops. They enjoy unhurried wandering, stopping at cafés and bookshops as the mood takes them; they do not want a schedule or group tour. They welcome local recommendations and prefer to explore independently.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal. Neither has allergies or dietary restrictions.\n\nNora loves dried apricots; Ben loves dark chocolate—they prefer separate stashes. They share a bed but prefer two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Ben reads before breakfast. Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk. They prefer breakfast after nine and do not want early tours.\n\nThey welcome a small, private anniversary nod inspired by meeting in the rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcement or staged romance. Nora requests no added room fragrance, likes irises, and does not like a strong floral smell. Ben has no favourite flower.\n\nExperience suggestions: a relaxed, suitably brief dinner; see F for independent local recommendations and a possible breakfast adaptation.\n\nD) RECEPTION\n\n- Share the separate duvet and pillow preferences with housekeeping. Confirm whether the bedding menu can meet Nora’s firm and Ben’s soft preference, and whether two duvets can be prepared.\n- Ask housekeeping whether the allocated room can accommodate a small clear floor area for Nora’s ten-minute yoga routine; room category and layout are not supplied.\n- Brief the breakfast team that they prefer breakfast after nine, with cappuccino for Nora and Earl Grey without milk for Ben. Confirm availability rather than assuming these specific drinks are included or stocked.\n- On arrival, offer a few informal recommendations if helpful; do not schedule a tour or initiate frequent check-ins.\n\nE) ROOM PREPARATION\n\n- Housekeeping: prepare two duvets if available and confirm pillow fill/firmness options and stock before promising a firm pillow for Nora and soft for Ben. Avoid assuming their preferred warmth can be achieved through room temperature settings.\n- Housekeeping/reception: no added room fragrance. Do not arrange flowers without checking; Nora’s liking for irises is a preference, not a request for an arrangement.\n- Reception/housekeeping: consider separate welcome or minibar snacks—dried apricots for Nora and dark chocolate for Ben—only after confirming sourcing, any charge and suitability for the room. These are optional, not an assumed entitlement.\n- A small hotel-authored anniversary note is suitable for approval, kept private and simple; it could use their phrase “still taking the scenic route together.” Do not add public recognition, staged romance, fragrance or petals.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\n- Dinner proposal, not a booking: ask Terasa U Zlaté studně whether the kitchen can offer a shorter, relaxed seasonal meal for two reflecting their interest in fish, roast vegetables and lemon dessert, with sparkling water for Nora and red wine as an option for Ben. A shorter sequence or à la carte combination is not established as available; the restaurant must confirm format, current dishes, timing and a new price. Do not lead with the published full tasting menu as though it could simply be shortened.\n- Independent Prague recommendations: reception should prepare a small, informal set of current suggestions matching Nora’s interest in architecture and old staircases and Ben’s interest in bookshops and jazz, with café pauses and no fixed route or early start. Check current venues, opening times and any relevant access or timing details; do not invent venues or make bookings. A private guide is a possible separate option only if they express interest, with pace, route, timing and price confirmed first.\n- Breakfast adaptation: offer, if useful, breakfast delivered to the room after nine so Ben can read and Nora can keep her morning unhurried. Room breakfast delivery is published at CZK 200 for delivery only; confirm whether breakfast itself is included in their rate, the available drinks/food, timing and any additional cost before presenting a total.\n- Optional discreet anniversary touch: with hotel approval and confirmation of any cost, ask whether the restaurant can serve a suitable lemon dessert as a quiet nod during their dinner. Confirm availability and presentation with the restaurant; no announcement or staged setup.",
+      "promptVersion": "brief-v4.1"
+    },
+    {
+      "id": "5139742b-efec-4b50-90fe-5737b335cdeb",
+      "kind": "normal",
+      "text": "A) BASIC INFO\n\nNora and Ben; two guests, 20–23 November 2026 (three nights). First visit to Prague; celebrating eight years together. Nothing is booked. They want one nice dinner and unhurried, independent wandering.\n\nB) COORDINATION\n\nReception is the handoff lead; confirm whether a dedicated concierge is available before assigning experience research. Hotel information is public preparation checked 5 October 2026; operator review is pending and no operational details have been confirmed.\n\nCoordinate only the key checks: room-specific bedding and layout; breakfast and morning-drink availability after 9:00; current restaurant menu, dinner pacing and pricing; and discreet handling of the anniversary note. Keep the no-added-room-fragrance request visible to reception and housekeeping.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and little bookshops. Together they prefer slow wandering with spontaneous café and bookshop stops, without a schedule or group tour. They welcome warm, informal chats and local recommendations, but not constant check-ins.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal. Neither has food allergies or dietary restrictions.\n\nNora loves dried apricots; Ben loves dark chocolate, and they like having separate stashes. They share a bed but prefer two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Ben reads before breakfast. Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk. They prefer breakfast after 9:00 and do not want early tours.\n\nThey welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcements or staged romance. Nora requests no added room fragrance; she likes irises but not a strong floral smell. Ben has no favourite flower.\n\nExperience suggestions: independent, tailored local recommendations and a relaxed dinner; see F.\n\nD) RECEPTION\n\nWelcome them warmly and informally. Offer local recommendations conversationally, without repeated check-ins or imposing a planned itinerary. For their first Prague visit, reception can have a few independently usable ideas ready, especially architecture, bookshops and cafés; include jazz options only as current, optional information.\n\nCheck that breakfast is available after 9:00 and whether cappuccino and Earl Grey without milk can be provided at breakfast. Do not offer early tours. If mentioning in-room breakfast, present it as an optional choice: published delivery is CZK 200, but food inclusion depends on their rate and timing and availability need confirmation.\n\nE) ROOM PREPARATION\n\nReception and housekeeping: request two duvets and Nora’s firm and Ben’s soft pillow preferences. The published bedding menu includes down or hypoallergenic pillows and duvet or French bedding, but exact fills, firmness and stock are unconfirmed. Check the allocated room and suitable setup; do not promise a particular pillow or bedding configuration before confirmation.\n\nDo not add room fragrance. Avoid optional aromatic bath preparation or scented anniversary/turndown additions; confirm what can be omitted in the actual room setup. Do not infer a flower or food preference from Nora’s mention of irises.\n\nIf the room layout allows, housekeeping can leave a clear, practical floor area for Nora’s ten-minute yoga routine; confirm feasibility for the allocated room. Ben’s reading-before-breakfast routine is a reason to keep any optional morning delivery unobtrusive, not to assume he wants room service.\n\nIf existing welcome or minibar processes allow, consider separate small snack placements: dried apricots for Nora and dark chocolate for Ben. Reception/housekeeping to confirm stock, suitability and any charge before arranging; neither item is an authorised purchase.\n\nFor approval, reception/housekeeping could place a small private hotel-authored note, for example: “A quiet Prague stop along the scenic route. Happy anniversary, Nora and Ben.” Confirm discreet placement and avoid public announcements, staged romance or an unapproved gift.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\nDinner proposal — restaurant, coordinated by reception: offer to check a relaxed dinner that suits their wish for one nice meal and their shared preferences for fish, roast vegetables and lemon desserts. The published tasting menu is CZK 4,100 per person, with coffee and mineral water included and gratuity excluded; this is a paid proposal, not a booking or entitlement. Before offering it, check current menu and date availability, whether the format and pace suit their preference not to have a drawn-out or formal dinner, and current price. Nora usually drinks sparkling water; Ben sometimes has red wine. The restaurant can confirm current choices, including whether a suitable Czech red by the glass is available. Do not imply lemon dessert or any menu item is guaranteed.\n\nIndependent discovery — reception or confirmed concierge: prepare a few current, optional recommendations for architecture and bookshops, with cafés as natural stopping points. Separately check whether there are suitable jazz options during 20–23 November. Keep this as useful, flexible information rather than a timed route, group tour or repeated follow-up; confirm opening/event dates and any costs before sharing.\n\nOptional room-breakfast choice — reception to coordinate with the food team: room delivery could support Ben’s unhurried reading and their preference for a later breakfast, if they choose it. Confirm service timing, what their rate includes and the published CZK 200 delivery charge before presenting it as an option.",
+      "model": "gpt-6-luna",
+      "source": "openai",
+      "stayId": "66aab05b-076e-4650-964d-158d656e7ac4",
+      "version": 1,
+      "revision": 1,
+      "createdAt": "2026-10-06T13:04:23.741Z",
+      "updatedAt": "2026-10-06T13:04:23.741Z",
+      "dnaVersion": 2,
+      "generatedText": "A) BASIC INFO\n\nNora and Ben; two guests, 20–23 November 2026 (three nights). First visit to Prague; celebrating eight years together. Nothing is booked. They want one nice dinner and unhurried, independent wandering.\n\nB) COORDINATION\n\nReception is the handoff lead; confirm whether a dedicated concierge is available before assigning experience research. Hotel information is public preparation checked 5 October 2026; operator review is pending and no operational details have been confirmed.\n\nCoordinate only the key checks: room-specific bedding and layout; breakfast and morning-drink availability after 9:00; current restaurant menu, dinner pacing and pricing; and discreet handling of the anniversary note. Keep the no-added-room-fragrance request visible to reception and housekeeping.\n\nC) GUEST PROFILE\n\nNora loves architecture and old staircases; Ben likes jazz and little bookshops. Together they prefer slow wandering with spontaneous café and bookshop stops, without a schedule or group tour. They welcome warm, informal chats and local recommendations, but not constant check-ins.\n\nThey both like fish, roast vegetables and lemon desserts. Nora usually drinks sparkling water; Ben sometimes has red wine. They prefer dinner that is not too drawn-out or formal. Neither has food allergies or dietary restrictions.\n\nNora loves dried apricots; Ben loves dark chocolate, and they like having separate stashes. They share a bed but prefer two duvets: Nora is usually warm and prefers a firm pillow; Ben is usually cold and prefers a soft pillow. Ben reads before breakfast. Nora does ten minutes of yoga and likes a morning cappuccino; Ben likes Earl Grey without milk. They prefer breakfast after 9:00 and do not want early tours.\n\nThey welcome a small, private anniversary nod inspired by meeting while sheltering from rain outside a bookshop and their phrase “still taking the scenic route together.” No public announcements or staged romance. Nora requests no added room fragrance; she likes irises but not a strong floral smell. Ben has no favourite flower.\n\nExperience suggestions: independent, tailored local recommendations and a relaxed dinner; see F.\n\nD) RECEPTION\n\nWelcome them warmly and informally. Offer local recommendations conversationally, without repeated check-ins or imposing a planned itinerary. For their first Prague visit, reception can have a few independently usable ideas ready, especially architecture, bookshops and cafés; include jazz options only as current, optional information.\n\nCheck that breakfast is available after 9:00 and whether cappuccino and Earl Grey without milk can be provided at breakfast. Do not offer early tours. If mentioning in-room breakfast, present it as an optional choice: published delivery is CZK 200, but food inclusion depends on their rate and timing and availability need confirmation.\n\nE) ROOM PREPARATION\n\nReception and housekeeping: request two duvets and Nora’s firm and Ben’s soft pillow preferences. The published bedding menu includes down or hypoallergenic pillows and duvet or French bedding, but exact fills, firmness and stock are unconfirmed. Check the allocated room and suitable setup; do not promise a particular pillow or bedding configuration before confirmation.\n\nDo not add room fragrance. Avoid optional aromatic bath preparation or scented anniversary/turndown additions; confirm what can be omitted in the actual room setup. Do not infer a flower or food preference from Nora’s mention of irises.\n\nIf the room layout allows, housekeeping can leave a clear, practical floor area for Nora’s ten-minute yoga routine; confirm feasibility for the allocated room. Ben’s reading-before-breakfast routine is a reason to keep any optional morning delivery unobtrusive, not to assume he wants room service.\n\nIf existing welcome or minibar processes allow, consider separate small snack placements: dried apricots for Nora and dark chocolate for Ben. Reception/housekeeping to confirm stock, suitability and any charge before arranging; neither item is an authorised purchase.\n\nFor approval, reception/housekeeping could place a small private hotel-authored note, for example: “A quiet Prague stop along the scenic route. Happy anniversary, Nora and Ben.” Confirm discreet placement and avoid public announcements, staged romance or an unapproved gift.\n\nF) RECEPTION — EXPERIENCE SUPPORT\n\nDinner proposal — restaurant, coordinated by reception: offer to check a relaxed dinner that suits their wish for one nice meal and their shared preferences for fish, roast vegetables and lemon desserts. The published tasting menu is CZK 4,100 per person, with coffee and mineral water included and gratuity excluded; this is a paid proposal, not a booking or entitlement. Before offering it, check current menu and date availability, whether the format and pace suit their preference not to have a drawn-out or formal dinner, and current price. Nora usually drinks sparkling water; Ben sometimes has red wine. The restaurant can confirm current choices, including whether a suitable Czech red by the glass is available. Do not imply lemon dessert or any menu item is guaranteed.\n\nIndependent discovery — reception or confirmed concierge: prepare a few current, optional recommendations for architecture and bookshops, with cafés as natural stopping points. Separately check whether there are suitable jazz options during 20–23 November. Keep this as useful, flexible information rather than a timed route, group tour or repeated follow-up; confirm opening/event dates and any costs before sharing.\n\nOptional room-breakfast choice — reception to coordinate with the food team: room delivery could support Ben’s unhurried reading and their preference for a later breakfast, if they choose it. Confirm service timing, what their rate includes and the published CZK 200 delivery charge before presenting it as an option.",
+      "promptVersion": "brief-v4"
+    }
+  ],
+  "invitations": []
+}

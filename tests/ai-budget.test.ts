@@ -8,10 +8,37 @@ import type { Config } from '../server/config.ts';
 import type { GenerationInput } from '../shared/types.ts';
 import { loadHotelProfiles } from '../server/hotel-profiles.ts';
 
+test('Luna migration preserves settled and uncertain Sol entries and uses each call model rates', async () => {
+  const db = await openDatabase(':memory:');
+  try {
+    const budget = await AiBudget.open(db, 5);
+    await db.query(
+      "INSERT INTO ai_calls(id,model,purpose,reserved_micro,accounted_micro) VALUES('settled','gpt-6.1-sol','chat',90000,30000),('pending','gpt-6.1-sol','chat',90000,NULL),('uncertain','gpt-6.1-sol','chat',90000,NULL)",
+    );
+    const id = await budget.reserve(approvedModel, 100, 200, 'chat');
+    await budget.settle(id, { input_tokens: 100, output_tokens: 200 }, 'luna', 'default');
+    await budget.settle('pending', { input_tokens: 100, output_tokens: 200 }, 'sol', 'default');
+    const rows = (
+      await db.query<{ id: string; accounted_micro: number | null; reserved_micro: number }>(
+        'SELECT id,accounted_micro,reserved_micro FROM ai_calls',
+      )
+    ).rows;
+    assert.equal(rows.find((r) => r.id === id)!.accounted_micro, 135);
+    assert.equal(rows.find((r) => r.id === 'pending')!.accounted_micro, 2700);
+    assert.equal(rows.find((r) => r.id === 'settled')!.accounted_micro, 30000);
+    assert.equal(rows.find((r) => r.id === 'uncertain')!.accounted_micro, null);
+    assert.equal(rows.find((r) => r.id === 'uncertain')!.reserved_micro, 90000);
+    assert.equal((await budget.status()).uncertainCalls, 1);
+    await assert.rejects(budget.reserve('gpt-6.1-sol', 100, 200, 'chat'));
+  } finally {
+    await db.close();
+  }
+});
+
 test('trial budget reserves concurrent maximum costs and cannot refill on restart', async () => {
   const db = await openDatabase(':memory:');
   try {
-    const budget = await AiBudget.open(db, 0.1);
+    const budget = await AiBudget.open(db, 0.005);
     const calls = await Promise.allSettled(
       [0, 1, 2].map(() => budget.reserve(approvedModel, 0, 4000, 'chat')),
     );
@@ -19,7 +46,7 @@ test('trial budget reserves concurrent maximum costs and cannot refill on restar
     assert.equal(accepted.length, 2);
     assert.equal(calls.filter((c) => c.status === 'rejected').length, 1);
     const reserved = (await budget.status()).accountedUsd;
-    assert.ok(reserved < 0.1 && reserved > 0.09);
+    assert.ok(reserved < 0.005 && reserved > 0.0045);
     await budget.settle(accepted[0].value, { input_tokens: 100, output_tokens: 200 }, 'fictional', 'default');
     const settled = await budget.status();
     assert.ok(settled.accountedUsd < reserved);
@@ -29,7 +56,7 @@ test('trial budget reserves concurrent maximum costs and cannot refill on restar
     assert.deepEqual(await budget.status(), settled);
     const restarted = await AiBudget.open(db, 5);
     assert.deepEqual(await restarted.status(), settled);
-    assert.equal(settled.limitUsd, 0.1);
+    assert.equal(settled.limitUsd, 0.005);
     assert.equal(settled.uncertainCalls, 1);
     await assert.rejects(budget.reserve('unapproved-model', 100, 4000, 'chat'));
     await assert.rejects(budget.reserve(approvedModel, 100001, 4000, 'chat'));
@@ -67,7 +94,7 @@ test('provider fails closed before dispatch and retains uncertain cost after net
       apiKey: 'fictional-key',
       model: approvedModel,
       allowAiCalls: true,
-      aiBudgetUsd: 0.1,
+      aiBudgetUsd: 0.009,
       emailMode: 'preview',
       allowEmail: false,
       smtpPort: 587,
@@ -122,7 +149,7 @@ test('provider fails closed before dispatch and retains uncertain cost after net
         throw new Error('Fictional network outage after dispatch');
       },
     });
-    const budget = await AiBudget.open(db, 0.1);
+    const budget = await AiBudget.open(db, 0.009);
     const ai = makeProvider(config, budget, client);
     await assert.rejects(ai.chat(input));
     assert.equal(generationCalls, 0);

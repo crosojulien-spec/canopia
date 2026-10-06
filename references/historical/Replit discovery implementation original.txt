@@ -1,0 +1,919 @@
+PARTIE 1 : PROMPT SYSTÈME GPT-4o (server/llm.ts lignes 9-206)
+ROLE: Pre-Arrival Discovery Host — GPT-4o
+============================================================
+MISSION FONDAMENTALE (NON NÉGOCIABLE)
+============================================================
+Tu sers à COMPRENDRE DES PERSONNES, pas des réservations.
+Tu n'es PAS un chatbot, PAS un formulaire, PAS un concierge scripté.
+Tu te comportes comme un excellent professionnel Guest Relations : 
+tu écoutes, tu remarques les détails, tu poses la prochaine question naturellement.
+Le succès N'EST PAS :
+- d'avoir posé X questions
+- d'avoir suivi un flow
+- d'avoir fini vite
+Le succès EST :
+- que le guest ait eu l'impression de parler à quelqu'un d'intelligent
+- que l'hôtel ait des leviers concrets pour agir
+============================================================
+HIÉRARCHIE STRICTE DES 4 COUCHES (ORDRE OBLIGATOIRE)
+============================================================
+Tu dois comprendre 4 couches, DANS CET ORDRE. Ne jamais inverser.
+COUCHE 1 : WHO (PRIORITÉ ABSOLUE)
+- Composition : solo / couple / famille / groupe
+- Si enfant présent → âge approximatif
+- Attribution multi-guest : vous / partenaire / enfant
+⚠️ JAMAIS de questions sur le confort ou l'ambiance AVANT de savoir pour QUI tu parles.
+COUCHE 2 : WHY (CONTEXTE RÉEL, PAS ÉTIQUETTES)
+- Pas "leisure / business / celebration" = insuffisant
+- Cherche le contexte réel : moment de vie, intention
+- MUST CHECK: special moment (anniversaire/célébration) — TOUJOURS demander si pas mentionné
+- État émotionnel implicite (besoin de calme, de lien, de simplicité)
+COUCHE 3 : HOW (NUIT + AMBIANCE)
+Seulement après Couches 1 et 2.
+Nuit (CŒUR OPÉRATIONNEL) :
+- Température idéale en °C (valeur exacte ou petite plage comme 21-23°C)
+- Oreillers (souple/ferme, bas/haut) — par adulte si couple
+- Aides au sommeil si sommeil léger (bouchons/masque/blackout) — demander SUBTILEMENT
+- Check habitude culturelle si pertinent (ex: couettes individuelles)
+Ambiance chambre :
+- Couleurs spécifiques (essayer d'obtenir des couleurs précises, pas seulement chaud/froid)
+- Lumière (naturelle vs tamisée; sensibilité lumière nocturne)
+- Odeurs + odeurs à éviter + option "sans odeur"
+- FLEURS/PLANTES (OBLIGATOIRE) : aimées + détestées + option "aucune"
+COUCHE 4 : WHAT (CE QUI FAIT LA DIFFÉRENCE)
+- Sécurité alimentaire : allergies UNE SEULE FOIS (enfant d'abord)
+- Goûts : fruits/snacks préférés (par personne si pertinent)
+- Café/thé si naturellement mentionné
+- Intérêts/Passions : minimum 2 (adulte ou enfant) — artiste, musique, hobby
+- Style d'interaction : discret vs engageant
+============================================================
+SPECIAL MOMENT CHECK (OBLIGATOIRE)
+============================================================
+Tu DOIS toujours vérifier si anniversaire/célébration/occasion spéciale.
+Si pas encore mentionné → demander UNE FOIS de façon naturelle.
+Si mentionné → capturer :
+- Pour qui
+- Discret vs visible
+- 1 détail personnel
+- Ce qu'il faut éviter
+============================================================
+MULTI-GUEST INTELLIGENCE (OBLIGATOIRE SI >1 PERSONNE)
+============================================================
+Quand plusieurs personnes sont présentes :
+- DIFFÉRENCIE les préférences par personne
+- ÉVITE le mot "you" ambigu
+- ATTRIBUE explicitement :
+  • "for you personally" / "pour vous"
+  • "for your wife/partner" / "pour votre femme/partenaire"  
+  • "for your child" / "pour votre enfant"
+============================================================
+REBOUND RULE (CRITIQUE — CE QUI TE REND HUMAIN)
+============================================================
+AVANT de changer de sujet, tu DOIS faire UN suivi sur le dernier signal du guest.
+Le système t'injecte LAST_SIGNAL à chaque appel. Tu DOIS y rebondir d'abord.
+C'est ce qui fait que la conversation paraît humaine et pas procédurale.
+Exemple :
+- Guest : "Ma femme adore les tulipes et le jasmin"
+- TOI : "Les tulipes avec du jasmin, c'est un beau mélange — elle a une préférence de couleur pour les tulipes ?"
+- PUIS seulement tu changes de sujet.
+============================================================
+ANTI-REPETITION (RÈGLE DURE)
+============================================================
+NE PAS reformuler/paraphraser les réponses du guest à chaque tour.
+NE PAS utiliser "Merci de partager" comme remplissage.
+Acknowledge minimal UNIQUEMENT : "Compris" / "Noté" / "D'accord" — ou rien du tout.
+Puis ta question.
+INTERDIT :
+- "Je note que vous aimez..."
+- "C'est noté, vous préférez..."
+- "Thank you for sharing that..."
+============================================================
+NO SOLUTION PITCHING (DISCOVERY MODE ONLY)
+============================================================
+Pendant la discovery, tu ne proposes JAMAIS de solutions.
+INTERDIT :
+- "On pourrait organiser..."
+- "Nous proposons..."
+- "On peut prévoir..."
+- "Je peux arranger..."
+- Toute promesse
+UNIQUEMENT : "Je note cela pour l'équipe."
+============================================================
+AXIS SATURATION (STOP OVER-ASKING)
+============================================================
+Si tu as déjà 2 signaux concrets sur un axe OU le guest répond "non / rien d'autre" :
+→ ARRÊTE d'explorer cet axe et passe au suivant.
+============================================================
+STYLE CONVERSATIONNEL
+============================================================
+- Maximum 35 mots par message
+- 1-2 phrases max
+- UNE question par message (exception : oreiller + température = même sujet)
+- Questions ouvertes, pas binaires
+- Transitions naturelles connectées au dernier signal
+PHRASES INTERDITES :
+- "Now," / "Maintenant,"
+- "Let's talk about..." / "Parlons de..."
+- "To wrap up..." / "Pour conclure..."
+- "That sounds wonderful!" / "C'est merveilleux!"
+- "Excellent choice!" / "Excellent choix!"
+- "I'll make sure..." / "Je vais m'assurer..."
+- "We will ensure..." / "Nous allons garantir..."
+============================================================
+QUESTIONS SUBTILES (PAS DE QUESTIONS ÉVIDENTES)
+============================================================
+Ne pose JAMAIS de questions avec des réponses évidentes.
+INTERDIT : "Voulez-vous du calme la nuit ?"
+À LA PLACE, demande subtilement :
+"Y a-t-il quelque chose dont vous avez habituellement besoin pour bien dormir — bouchons, masque, chambre très fraîche ?"
+"Quand le sommeil est léger, qu'est-ce qui a tendance à gêner ?"
+============================================================
+PETIT MOT (OBLIGATOIRE AVANT CLÔTURE)
+============================================================
+Juste avant de conclure (et UNE SEULE FOIS), demande :
+"Si vous deviez laisser un petit mot ou une phrase pour [wife/enfant], que dirait-il et où l'imagineriez-vous ?"
+Si le guest décline → arrête (pas d'insistance).
+Capture : texte du mot, destinataire, emplacement imaginé.
+============================================================
+FILTRE CAPACITÉS HÔTEL (SILENCIEUX, STRICT)
+============================================================
+Les capacités de l'hôtel :
+- Ne doivent JAMAIS être listées
+- Ne doivent JAMAIS être vendues
+- Servent UNIQUEMENT à filtrer les questions possibles
+Jamais demander sur un service non offert.
+Jamais promettre de résultats.
+============================================================
+FIN DE CONVERSATION (STRICT)
+============================================================
+Tu ne décides JAMAIS seul de la fin.
+Tu ne conclus QUE lorsque CONVERSATION_STATE.allowed_to_close = true.
+AUCUN récap pendant la conversation.
+UN SEUL récap à la toute fin — MAXIMUM 3 phrases.
+Puis question de validation : "Est-ce que cela vous semble juste ?"
+Fermeture chaleureuse sans promesses : "Merci — nous avons hâte de vous accueillir."
+============================================================
+LANGUE
+============================================================
+Réponds dans la langue du guest (indiquée dans STAY_CONTEXT), sinon anglais.
+============================================================
+OUTPUT
+============================================================
+Output UNIQUEMENT le message conversationnel au guest.
+Pas de bullets. Pas d'explications meta. Reste pleinement dans le personnage.
+PARTIE 2 : FONCTIONS DE CONTEXTE (server/llm.ts lignes 208-270)
+buildHotelProfileContext() - Lignes 208-234
+function buildHotelProfileContext(hotel: Hotel): string {
+  const capabilities = hotel.capabilities || {};
+  const standards = hotel.service_standards || {};
+  
+  const availableServices: string[] = [];
+  const unavailableServices: string[] = [];
+  
+  for (const [key, value] of Object.entries(capabilities)) {
+    const formattedKey = key.replace(/_/g, ' ');
+    if (value?.available) {
+      availableServices.push(value.notes ? `${formattedKey} (${value.notes})` : formattedKey);
+    } else {
+      unavailableServices.push(formattedKey);
+    }
+  }
+  
+  return `HOTEL_PROFILE:
+- Name: ${hotel.name}
+- Location: ${hotel.city}, ${hotel.country}
+- Category: ${hotel.category.replace('_', ' ')}
+- Type: ${hotel.type.replace(/_/g, ' ')}
+- Positioning: ${(hotel.positioning_tags || []).join(', ') || 'N/A'}
+- AVAILABLE services (you may ask about these): ${availableServices.join(', ') || 'Standard hotel services'}
+- NOT AVAILABLE (never mention these): ${unavailableServices.join(', ') || 'none'}
+- Service style: ${standards.service_style || 'warm'}
+- Privacy sensitivity: ${standards.privacy_sensitivity || 'medium'}`;
+}
+buildStayContext() - Lignes 236-243
+function buildStayContext(session: Session): string {
+  return `STAY_CONTEXT:
+- Check-in: ${session.check_in_date}
+- Check-out: ${session.check_out_date}
+- Number of guests: ${session.num_guests}
+- Guest name: ${session.guest_name || 'Unknown'}
+- Language: ${session.guest_language || 'en'}`;
+}
+buildFlowPlan() - Lignes 245-270
+function buildFlowPlan(session: Session, hotel: Hotel): string {
+  const capabilities = hotel.capabilities || {};
+  
+  const coreTopics = ["stay_intent", "top_priorities", "interaction_style", "comfort_essentials", "no_go"];
+  const moduleTopics: string[] = [];
+  
+  if (capabilities.spa?.available || capabilities.gym?.available) {
+    moduleTopics.push("wellness_goals");
+  }
+  if (capabilities.restaurants?.available || capabilities.room_service?.available) {
+    moduleTopics.push("dietary_constraints", "food_vibe");
+  }
+  if (capabilities.airport_transfer?.available) {
+    moduleTopics.push("arrival_logistics");
+  }
+  if (capabilities.kids_friendly?.available) {
+    moduleTopics.push("kids_needs");
+  }
+  if (capabilities.business_facilities?.available) {
+    moduleTopics.push("work_setup");
+  }
+  return `FLOW_PLAN:
+- Core topics (must cover): ${coreTopics.join(', ')}
+- Module topics (if relevant): ${moduleTopics.length > 0 ? moduleTopics.join(', ') : 'none'}`;
+}
+PARTIE 3 : REQUIRED_ITEMS - Items obligatoires (server/llm.ts lignes 313-337)
+const REQUIRED_ITEMS = [
+  // COUCHE 1: WHO (PRIORITÉ ABSOLUE - must be captured FIRST)
+  "context_who",           // qui séjourne (composition + relations)
+  
+  // COUCHE 2: WHY (contexte réel, pas étiquettes)
+  "context_why",           // contexte réel (moment de vie, intention)
+  "special_moment_check",  // OBLIGATOIRE: check anniversaire/célébration
+  
+  // COUCHE 3: HOW (nuit + ambiance) - seulement après Couches 1 & 2
+  "night_temperature",     // température nuit idéale en °C
+  "pillow_preference",     // souple/bas vs ferme/haut par adulte
+  "noise_sensitivity",     // ce qu'il faut éviter la nuit (demandé subtilement)
+  "anchor_visual",         // couleurs (spécifiques) + ambiance lumière
+  "anchor_scent",          // préférence odeur + à éviter + option "sans odeur"
+  "anchor_flowers",        // OBLIGATOIRE: fleurs/plantes (aimées, détestées, aucune)
+  
+  // COUCHE 4: WHAT (ce qui fait la différence)
+  "anchor_taste",          // fruits/snacks préférés (par personne si pertinent)
+  "allergy_check",         // check allergies/sensibilités (UNE SEULE FOIS, enfant d'abord)
+  "interests_passions",    // OBLIGATOIRE: au moins 2 intérêts/passions/artistes
+  "interaction_style",     // discret vs engageant
+  
+  // AVANT CLÔTURE (OBLIGATOIRE)
+  "petit_mot_asked",       // OBLIGATOIRE: demander le petit mot avant clôture
+];
+PARTIE 4 : PATTERNS DE DÉTECTION (server/llm.ts lignes 340-456)
+const ITEM_DETECTION_PATTERNS: Record<string, RegExp[]> = {
+  context_why: [
+    /vacation/i, /vacances/i, /holiday/i,
+    /work/i, /business/i, /travail/i, /conference/i, /meeting/i,
+    /getaway/i, /escapade/i, /relax/i, /repos/i, /break/i, /honeymoon/i,
+    /wedding/i, /mariage/i, /romantic/i,
+    /family\s*(trip|vacation|time)/i, /voyage\s*en\s*famille/i,
+    /just\s*need/i, /besoin\s*de/i, /want\s*to/i, /envie\s*de/i,
+  ],
+  
+  special_moment_check: [
+    /annivers/i, /birthday/i, /celebration/i, /fête/i, /célébr/i,
+    /special\s*occasion/i, /occasion\s*spéciale/i,
+    /no\s*special/i, /pas\s*d'occasion/i, /rien\s*de\s*spécial/i, /nothing\s*special/i,
+    /surprise/i, /propose/i, /engagement/i,
+    /just\s*a\s*(regular|normal)/i, /juste\s*un\s*séjour/i,
+  ],
+  
+  context_who: [
+    /wife/i, /husband/i, /partner/i, /spouse/i, /femme/i, /mari/i,
+    /child/i, /kid/i, /enfant/i, /daughter/i, /son/i, /fille/i, /fils/i,
+    /alone/i, /seul/i, /just\s*me/i, /couple/i, /family/i, /famille/i,
+    /two\s*of\s*us/i, /nous\s*deux/i, /three/i, /quatre/i, /with\s*my/i,
+    /solo/i, /myself/i, /moi-même/i, /together/i, /ensemble/i,
+  ],
+  
+  night_temperature: [
+    /\d{2}\s*°?c/i, /\d{2}\s*degrees/i, /\d{2}\s*degrés/i,
+    /cool/i, /cold/i, /warm/i, /frais/i, /froid/i, /chaud/i,
+    /around\s*\d{2}/i, /environ\s*\d{2}/i, /between\s*\d{2}/i,
+    /temperature/i, /température/i, /thermostat/i,
+  ],
+  
+  pillow_preference: [
+    /pillow/i, /oreiller/i, /soft/i, /doux/i, /firm/i, /ferme/i,
+    /low/i, /bas/i, /high/i, /haut/i, /plat/i, /flat/i, /thick/i,
+  ],
+  
+  noise_sensitivity: [
+    /noise/i, /bruit/i, /quiet/i, /calme/i, /silence/i, /silencieux/i,
+    /loud/i, /bruyant/i, /sound/i, /son/i, /street/i, /rue/i,
+    /sensitive/i, /sensible/i, /light\s*sleep/i, /sommeil\s*léger/i,
+  ],
+  
+  anchor_sound: [
+    /music/i, /musique/i,
+    /jazz/i, /classical/i, /classique/i, /piano/i, /acoustic/i,
+    /spotify/i, /playlist/i, /artist/i, /artiste/i,
+    /lounge/i, /ambient/i, /no\s*music/i, /pas\s*de\s*musique/i,
+    /préf[èe]re\s*(le\s*)?(silence|calme)/i, /prefer\s*(silence|quiet)/i,
+    /listen\s*to/i, /écoute[rz]?/i,
+  ],
+  
+  anchor_visual: [
+    /color/i, /couleur/i, /light/i, /lumière/i, /lighting/i, /éclairage/i,
+    /warm/i, /chaud/i, /cool/i, /froid/i, /soft/i, /doux/i, /dim/i, /tamisé/i,
+    /bright/i, /lumineux/i, /natural/i, /naturel/i, /mood/i, /ambiance/i,
+    /blue/i, /bleu/i, /green/i, /vert/i, /beige/i, /earth/i, /terre/i,
+  ],
+  
+  anchor_scent: [
+    /scent/i, /parfum/i, /smell/i, /odeur/i, /fragrance/i,
+    /fresh/i, /frais/i, /lavender/i, /lavande/i, /citrus/i, /agrume/i,
+    /vanilla/i, /vanille/i, /no\s*scent/i, /sans\s*parfum/i, /neutral/i,
+    /floral/i, /woody/i, /boisé/i, /essential\s*oil/i, /huile\s*essentielle/i,
+  ],
+  
+  anchor_flowers: [
+    /flower/i, /fleur/i, /plant/i, /plante/i, /rose/i, /orchid/i, /orchidée/i,
+    /tulip/i, /tulipe/i, /lily/i, /lys/i, /no\s*flower/i, /pas\s*de\s*fleur/i,
+    /prefer\s*none/i, /préfère\s*pas/i, /greenery/i, /verdure/i, /bouquet/i,
+  ],
+  
+  anchor_taste: [
+    /fruit/i, /snack/i, /encas/i, /goûter/i, /chocolate/i, /chocolat/i,
+    /apple/i, /pomme/i, /orange/i, /banana/i, /banane/i, /berry/i, /baie/i,
+    /sweet/i, /sucré/i, /savory/i, /salé/i, /nut/i, /noix/i, /cheese/i, /fromage/i,
+    /coffee/i, /café/i, /tea/i, /thé/i, /croissant/i, /pastry/i, /viennoiserie/i,
+  ],
+  
+  allergy_check: [
+    /allergy/i, /allergie/i, /allergic/i, /allergique/i, /intoleran/i,
+    /gluten/i, /dairy/i, /lactose/i, /nut/i, /noix/i, /peanut/i, /arachide/i,
+    /shellfish/i, /crustacé/i, /no\s*allerg/i, /pas\s*d'allerg/i, /aucune\s*allerg/i,
+    /sensitivity/i, /sensibilité/i, /restriction/i,
+  ],
+  
+  interaction_style: [
+    /discreet/i, /discret/i, /private/i, /privé/i,
+    /engaging/i, /engageant/i, /friendly/i, /amical/i, /chatty/i, /bavard/i,
+    /low\s*touch/i, /minimal/i, /proactive/i, /attentive/i, /attentionné/i,
+    /left\s*alone/i, /tranquille/i, /independent/i, /autonome/i,
+    /prefer\s*(not\s*to\s*be|less)/i, /préfère\s*(pas|moins)/i,
+  ],
+  
+  interests_passions: [
+    // Music/Artists
+    /jazz/i, /classical/i, /classique/i, /rock/i, /pop/i, /hip\s*hop/i,
+    /spotify/i, /playlist/i, /artist/i, /artiste/i, /singer/i, /chanteur/i,
+    /piano/i, /guitar/i, /guitare/i, /music/i, /musique/i,
+    // Hobbies/Interests
+    /read/i, /lire/i, /book/i, /livre/i, /yoga/i, /meditation/i, /méditation/i,
+    /sport/i, /tennis/i, /golf/i, /swim/i, /nager/i, /run/i, /courir/i,
+    /art/i, /paint/i, /peint/i, /photo/i, /cinema/i, /film/i, /movie/i,
+    /cook/i, /cuisine/i, /wine/i, /vin/i, /travel/i, /voyage/i,
+    /garden/i, /jardin/i, /nature/i, /hiking/i, /randonnée/i,
+    // Child-specific
+    /cartoon/i, /dessin\s*animé/i, /disney/i, /frozen/i, /paw\s*patrol/i,
+    /dinosaur/i, /dinosaure/i, /princess/i, /princesse/i, /lego/i,
+    /baby\s*shark/i, /peppa/i, /spider/i, /super\s*hero/i,
+    /love[s]?\s+(to|doing)/i, /adore/i, /passion/i, /hobby/i,
+    /favourite/i, /favorite/i, /préféré/i, /fan\s*of/i, /fan\s*de/i,
+  ],
+  
+  petit_mot_asked: [
+    // PATTERNS RESSERRÉS - uniquement discussion explicite petit mot
+    /petit\s*mot/i,
+    /laisser\s+un\s+(mot|message)/i,
+    /leave\s+a\s+(note|message)\s+for/i,
+    /note\s+(sur|on)\s+(l'oreiller|le\s*miroir|the\s*pillow|the\s*mirror)/i,
+    // Patterns de refus explicite
+    /pas\s+de\s+mot/i, /no\s+note\s+needed/i, /prefer\s+not\s+to\s+leave/i,
+    /pas\s+besoin\s+de\s+(mot|message)/i, /skip\s+the\s+note/i,
+  ],
+};
+PARTIE 5 : computeConversationState() - Logique de contrôle (server/llm.ts lignes 463-569)
+export function computeConversationState(
+  conversationLog: Message[], 
+  hasChild: boolean = false, 
+  numGuests: number = 1
+): ConversationState {
+  const captured: string[] = [];
+  const missing: string[] = [];
+  
+  // CRITIQUE: Analyser UNIQUEMENT les messages du GUEST
+  const guestText = conversationLog
+    .filter(msg => msg.role === "guest")
+    .map(msg => msg.content)
+    .join(" ");
+  
+  // Vérifier chaque item requis contre les messages guest UNIQUEMENT
+  for (const item of REQUIRED_ITEMS) {
+    const patterns = ITEM_DETECTION_PATTERNS[item];
+    if (!patterns) {
+      missing.push(item);
+      continue;
+    }
+    
+    const isMatched = patterns.some(pattern => pattern.test(guestText));
+    
+    if (isMatched) {
+      captured.push(item);
+    } else {
+      missing.push(item);
+    }
+  }
+  
+  // Ajouter child_age aux manquants si enfant présent mais âge non capturé
+  if (hasChild) {
+    const agePatterns = [
+      /\d+\s*(year|ans|yo|y\.o\.)/i,
+      /\d+\s*mois/i,
+      /(toddler|bébé|baby|infant|teen|teenager|adolescent)/i,
+    ];
+    const hasAge = agePatterns.some(p => p.test(guestText));
+    if (!hasAge) {
+      missing.push("child_age");
+    } else {
+      captured.push("child_age");
+    }
+  }
+  
+  // Ajouter multi_guest_clarity si plus d'un guest
+  if (numGuests > 1) {
+    const multiGuestPatterns = [
+      /for you/i, /pour vous/i, /for your (wife|husband|partner)/i,
+      /pour (votre|ta) (femme|mari|partenaire)/i,
+      /for your (child|kid|daughter|son)/i,
+      /pour (votre|ton) (enfant|fils|fille)/i,
+      /both of us/i, /nous deux/i, /each of us/i, /chacun de nous/i,
+      /we both/i, /on aime tous/i, /my wife|my husband|mon mari|ma femme/i,
+    ];
+    const hasMultiGuestClarity = multiGuestPatterns.some(p => p.test(guestText));
+    if (hasMultiGuestClarity) {
+      captured.push("multi_guest_clarity");
+    } else {
+      missing.push("multi_guest_clarity");
+    }
+  }
+  
+  // Si voyageur solo, petit_mot non applicable - le retirer des manquants
+  if (numGuests <= 1) {
+    const petitMotIndex = missing.indexOf("petit_mot_asked");
+    if (petitMotIndex !== -1) {
+      missing.splice(petitMotIndex, 1);
+      captured.push("petit_mot_asked"); // Marquer comme "capturé" (non applicable)
+    }
+  } else {
+    // Pour multi-guest: Vérifier si l'assistant a demandé le petit mot
+    // et si le guest a répondu après
+    const petitMotQuestionPattern = /petit\s*mot|laisser\s+un\s+(mot|message)\s+(pour|à)|leave\s+a\s+(note|message)\s+for|short\s+note\s+for|phrase\s+(pour|à)\s+(votre|your)/i;
+    
+    // Trouver l'index du message assistant qui a posé la question petit mot
+    const petitMotQuestionIndex = conversationLog.findIndex(m => 
+      m.role === "assistant" && petitMotQuestionPattern.test(m.content)
+    );
+    
+    // Vérifier s'il y a un message guest APRÈS la question petit mot
+    if (petitMotQuestionIndex !== -1) {
+      const hasGuestResponseAfter = conversationLog
+        .slice(petitMotQuestionIndex + 1)
+        .some(m => m.role === "guest");
+      if (hasGuestResponseAfter) {
+        const petitMotIndex = missing.indexOf("petit_mot_asked");
+        if (petitMotIndex !== -1) {
+          missing.splice(petitMotIndex, 1);
+        }
+        if (!captured.includes("petit_mot_asked")) {
+          captured.push("petit_mot_asked");
+        }
+      }
+    }
+  }
+  
+  // CRITIQUE: allowed_to_close est TRUE **UNIQUEMENT** quand TOUS les items requis sont capturés
+  // PAS DE HEURISTIQUE, PAS DE SEUIL. L'application est la seule autorité.
+  const allowed_to_close = missing.length === 0;
+  
+  return {
+    allowed_to_close,
+    missing_required_items: missing,
+    captured_items: captured,
+  };
+}
+PARTIE 6 : Fonctions auxiliaires (server/llm.ts lignes 571-647)
+detectChildPresence()
+function detectChildPresence(conversationLog: Message[]): boolean {
+  const text = conversationLog.map(m => m.content).join(" ");
+  const childPatterns = [
+    /child/i, /kid/i, /enfant/i, /daughter/i, /son/i, /fille/i, /fils/i,
+    /baby/i, /bébé/i, /toddler/i, /infant/i, /teen/i, /adolescent/i,
+  ];
+  return childPatterns.some(p => p.test(text));
+}
+extractLastGuestSignal() - Pour la Rebound Rule
+function extractLastGuestSignal(conversationLog: Message[]): { signal_type: string; signal_content: string } | null {
+  const guestMessages = conversationLog.filter(m => m.role === "guest");
+  if (guestMessages.length === 0) return null;
+  
+  const lastGuestMessage = guestMessages[guestMessages.length - 1].content;
+  
+  const signalPatterns: { type: string; patterns: RegExp[] }[] = [
+    { type: "anniversary_birthday", patterns: [/annivers/i, /birthday/i, /fête/i, /célébr/i] },
+    { type: "allergy", patterns: [/allerg/i, /intoleran/i, /gluten/i, /lactose/i, /noix/i, /nut/i] },
+    { type: "temperature", patterns: [/\d{2}\s*°?c/i, /degrés/i, /degrees/i, /chaud/i, /froid/i, /cold/i, /hot/i, /frais/i] },
+    { type: "flowers", patterns: [/fleur/i, /flower/i, /rose/i, /orchid/i, /tulip/i, /plante/i, /plant/i] },
+    { type: "scent", patterns: [/odeur/i, /parfum/i, /scent/i, /smell/i, /lavande/i, /lavender/i, /vanille/i] },
+    { type: "color", patterns: [/couleur/i, /color/i, /bleu/i, /blue/i, /vert/i, /green/i, /beige/i, /warm/i, /cool/i] },
+    { type: "music", patterns: [/musique/i, /music/i, /jazz/i, /classical/i, /spotify/i, /playlist/i, /silence/i] },
+    { type: "food_snack", patterns: [/fruit/i, /snack/i, /chocolat/i, /chocolate/i, /café/i, /coffee/i, /thé/i, /tea/i] },
+    { type: "child_comfort", patterns: [/dessin animé/i, /cartoon/i, /peluche/i, /jouet/i, /toy/i] },
+    { type: "noise_sleep", patterns: [/bruit/i, /noise/i, /sommeil/i, /sleep/i, /calme/i, /quiet/i, /light sleep/i] },
+    { type: "pillow", patterns: [/oreiller/i, /pillow/i, /ferme/i, /firm/i, /souple/i, /soft/i] },
+  ];
+  
+  for (const { type, patterns } of signalPatterns) {
+    for (const pattern of patterns) {
+      const match = lastGuestMessage.match(pattern);
+      if (match) {
+        return { signal_type: type, signal_content: match[0] };
+      }
+    }
+  }
+  
+  return null;
+}
+detectImpatience()
+function detectImpatience(conversationLog: Message[]): { isImpatient: boolean; count: number } {
+  const guestMessages = conversationLog.filter(m => m.role === "guest");
+  if (guestMessages.length < 2) return { isImpatient: false, count: 0 };
+  
+  const recentMessages = guestMessages.slice(-3);
+  const impatiencePatterns = [
+    /^(ok|oui|yes|non|no|sure|d'accord|bien|bon)\.?$/i,
+    /^(idk|je sais pas|don't know|pas sûr)\.?$/i,
+    /^(that's all|c'est tout|that's it|c'est bon|rien d'autre)\.?$/i,
+  ];
+  
+  let impatienceCount = 0;
+  for (const msg of recentMessages) {
+    const content = msg.content.trim();
+    if (content.length < 15 || impatiencePatterns.some(p => p.test(content))) {
+      impatienceCount++;
+    }
+  }
+  
+  return { isImpatient: impatienceCount >= 2, count: impatienceCount };
+}
+PARTIE 7 : buildConversationStateBlock() - Bloc injecté à chaque appel LLM (server/llm.ts lignes 652-709)
+function buildConversationStateBlock(
+  state: ConversationState, 
+  lastSignal: { signal_type: string; signal_content: string } | null = null,
+  impatience: { isImpatient: boolean; count: number } = { isImpatient: false, count: 0 },
+  hasMultipleGuests: boolean = false
+): string {
+  const onlyPetitMotMissing = state.missing_required_items.length === 1 && 
+    state.missing_required_items[0] === "petit_mot_asked";
+  
+  const petitMotCaptured = state.captured_items.includes("petit_mot_asked");
+  
+  return `
+============================================================
+CONVERSATION_STATE (APPLICATION-CONTROLLED - NON-NÉGOCIABLE)
+============================================================
+${JSON.stringify({
+  allowed_to_close: state.allowed_to_close,
+  missing_required_items: state.missing_required_items,
+  captured_items: state.captured_items,
+  last_guest_signal: lastSignal,
+  impatience_detected: impatience.isImpatient,
+}, null, 2)}
+RÈGLE DE CONTRÔLE CRITIQUE:
+Si allowed_to_close est FALSE:
+- Tu N'ES PAS autorisé à résumer, récapituler, ou clore la conversation.
+- Tu DOIS continuer l'exploration basée sur missing_required_items.
+- NE PAS utiliser de phrases de clôture comme "Merci", "Nous avons hâte de vous accueillir", "À bientôt".
+- NE PAS fournir de récap ou résumé.
+- Continue à poser des questions sur les éléments manquants.
+${lastSignal ? `
+LAST_SIGNAL (REBOUND OBLIGATOIRE):
+Le guest vient de mentionner: "${lastSignal.signal_content}" (type: ${lastSignal.signal_type})
+→ Tu DOIS d'abord rebondir sur ce signal avec une courte question de suivi AVANT de changer de sujet.
+` : ''}
+${onlyPetitMotMissing && !petitMotCaptured && hasMultipleGuests ? `
+INSTRUCTION PETIT MOT (OBLIGATOIRE MAINTENANT):
+Tous les autres éléments sont capturés. Il est temps de demander le petit mot.
+Demande MAINTENANT de façon naturelle :
+"Si vous deviez laisser un petit mot ou une phrase pour [votre femme/partenaire/enfant], que dirait-il et où l'imagineriez-vous ?"
+Si le guest décline, note-le et procède au récap.
+` : ''}
+${impatience.isImpatient ? `
+ALERTE IMPATIENCE DÉTECTÉE (${impatience.count} réponses courtes):
+→ Le guest semble vouloir terminer rapidement.
+→ Si les éléments essentiels (qui, pourquoi, nuit, fleurs) sont capturés, propose de conclure.
+→ Sinon, pose UNE dernière question haute-valeur puis récapitule.
+` : ''}
+Seulement quand allowed_to_close est TRUE, tu peux procéder au récap (MAX 3 phrases) et à la clôture.
+============================================================`;
+}
+PARTIE 8 : Fonctions de génération LLM (server/llm.ts lignes 738-981)
+generateInitialGreeting() - Message d'accueil
+export async function generateInitialGreeting(session: Session): Promise<string> {
+  const hotel = session.hotel_snapshot as Hotel;
+  
+  const hotelContext = buildHotelProfileContext(hotel);
+  const stayContext = buildStayContext(session);
+  const flowPlan = buildFlowPlan(session, hotel);
+  
+  const initialState: ConversationState = {
+    allowed_to_close: false,
+    missing_required_items: [...REQUIRED_ITEMS],
+    captured_items: [],
+  };
+  const stateBlock = buildConversationStateBlock(initialState);
+  
+  console.log("[CONVERSATION_STATE] Initial greeting:", JSON.stringify({
+    allowed_to_close: initialState.allowed_to_close,
+    missing_required_items: initialState.missing_required_items,
+  }));
+  const response = await openai.chat.completions.create({
+    model: "gpt-4o",
+    messages: [
+      { role: "system", content: DISCOVERY_HOST_SYSTEM_PROMPT },
+      {
+        role: "user",
+        content: `${hotelContext}
+${stayContext}
+${flowPlan}
+${stateBlock}
+CONVERSATION_LOG: (empty - this is the start of the conversation)
+INSTRUCTION DE GREETING (STRICTE):
+- Message COURT (max 25 mots)
+- Salutation simple et chaleureuse avec le nom du guest
+- UNE SEULE question ouverte sur QUI vient (pas pourquoi, pas le confort)
+- Pas de "It's wonderful to have you" ou phrases script
+- Exemples bons : "Bonjour [nom], avec qui venez-vous passer ces quelques jours ?"
+- Langue : ${session.guest_language}`,
+      },
+    ],
+    max_tokens: 100,
+    temperature: 0.8,
+  });
+  return extractGuestMessage(response.choices[0]?.message?.content || "...");
+}
+generateResponseStream() - Réponse en streaming
+export async function* generateResponseStream(session: Session, guestMessage: string, conversationLogWithGuestMessage: Message[]) {
+  const hotel = session.hotel_snapshot as Hotel;
+  
+  const hotelContext = buildHotelProfileContext(hotel);
+  const stayContext = buildStayContext(session);
+  const flowPlan = buildFlowPlan(session, hotel);
+  
+  // === CONVERSATION STATE CONTROL ===
+  const hasChild = detectChildPresence(conversationLogWithGuestMessage);
+  const numGuests = session.num_guests || 1;
+  const conversationState = computeConversationState(conversationLogWithGuestMessage, hasChild, numGuests);
+  
+  // Extraire le dernier signal pour la rebound rule
+  const lastSignal = extractLastGuestSignal(conversationLogWithGuestMessage);
+  
+  // Détecter l'impatience
+  const impatience = detectImpatience(conversationLogWithGuestMessage);
+  
+  const hasMultipleGuests = numGuests > 1;
+  const stateBlock = buildConversationStateBlock(conversationState, lastSignal, impatience, hasMultipleGuests);
+  
+  // DEBUG LOG - chaque tour
+  console.log("[CONVERSATION_STATE] Turn:", JSON.stringify({
+    allowed_to_close: conversationState.allowed_to_close,
+    missing_required_items: conversationState.missing_required_items,
+    captured_items: conversationState.captured_items,
+    message_count: conversationLogWithGuestMessage.length,
+    last_signal: lastSignal,
+    impatience: impatience,
+    hasMultipleGuests,
+  }));
+  
+  const conversationMessages = buildConversationMessages(conversationLogWithGuestMessage);
+  const stream = await openai.chat.completions.create({
+    model: "gpt-4o",
+    messages: [
+      { role: "system", content: DISCOVERY_HOST_SYSTEM_PROMPT },
+      {
+        role: "user",
+        content: `${hotelContext}
+${stayContext}
+${flowPlan}
+${stateBlock}
+The conversation so far is provided in the following messages. Continue the conversation naturally.`,
+      },
+      ...conversationMessages,
+    ],
+    max_tokens: 150,  // Enforce short responses (max ~35 words)
+    temperature: 0.8,
+    stream: true,
+  });
+  let fullResponse = "";
+  
+  for await (const chunk of stream) {
+    const content = chunk.choices[0]?.delta?.content || "";
+    if (content) {
+      fullResponse += content;
+      if (!fullResponse.includes("<!--META")) {
+        yield { type: 'token', content };
+      }
+    }
+  }
+  const guestVisibleMessage = extractGuestMessage(fullResponse);
+  const meta = extractMeta(fullResponse);
+  
+  // === CRITIQUE: isComplete contrôlé UNIQUEMENT par conversation_state.allowed_to_close ===
+  const isComplete = conversationState.allowed_to_close;
+  yield { type: 'done', fullResponse: guestVisibleMessage, isComplete, meta, conversationState };
+}
+PARTIE 9 : SCHÉMA BASE DE DONNÉES (shared/schema.ts)
+Structure Message
+export const messageSchema = z.object({
+  role: z.enum(["assistant", "guest"]),
+  content: z.string(),
+  timestamp: z.string(),
+});
+export type Message = z.infer<typeof messageSchema>;
+Structure PetitMot
+export const petitMotSchema = z.object({
+  text: z.string().optional(),
+  target: z.enum(["wife", "husband", "partner", "child", "children", "both", "other"]).optional(),
+  location: z.string().optional(),
+  declined: z.boolean().optional(),
+});
+export type PetitMot = z.infer<typeof petitMotSchema>;
+Table Sessions
+export const sessions = pgTable("sessions", {
+  id: text("id").primaryKey(),
+  token: text("token").notNull().unique(),
+  hotel_id: text("hotel_id").notNull(),
+  hotel_snapshot: jsonb("hotel_snapshot").$type<Hotel>(),
+  check_in_date: text("check_in_date").notNull(),
+  check_out_date: text("check_out_date").notNull(),
+  num_guests: integer("num_guests").notNull().default(1),
+  guest_language: text("guest_language").notNull().default("en"),
+  guest_name: text("guest_name"),
+  source: text("source").default("direct"),
+  status: text("status").notNull().default("draft"),
+  flow_plan: jsonb("flow_plan").$type<string[]>().default([]),
+  conversation_log: jsonb("conversation_log").$type<Message[]>().default([]),
+  guest_answers: jsonb("guest_answers").$type<Record<string, string>>().default({}),
+  petit_mot: jsonb("petit_mot").$type<PetitMot>().default({}),
+  brief_draft: text("brief_draft"),
+  brief_final: text("brief_final"),
+  operator_notes: text("operator_notes"),
+});
+PARTIE 10 : ROUTES API - GUEST FLOW (server/routes.ts)
+GET /api/guest/:token - Récupérer session par token
+app.get("/api/guest/:token", async (req, res) => {
+  const session = await storage.getSessionByToken(req.params.token);
+  if (!session) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  res.json(session);
+});
+POST /api/guest/:token/start - Démarrer conversation
+app.post("/api/guest/:token/start", async (req, res) => {
+  const session = await storage.getSessionByToken(req.params.token);
+  if (!session) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  const conversationLog = (session.conversation_log || []) as Message[];
+  if (conversationLog.length > 0) {
+    return res.json(session);
+  }
+  // Générer le message d'accueil via LLM
+  const greeting = await generateInitialGreeting(session);
+  
+  conversationLog.push({
+    role: "assistant",
+    content: greeting,
+    timestamp: new Date().toISOString(),
+  });
+  const updated = await storage.updateSession(session.id, {
+    conversation_log: conversationLog,
+    status: "started",
+  });
+  res.json(updated);
+});
+POST /api/guest/:token/message/stream - Message avec streaming
+app.post("/api/guest/:token/message/stream", async (req, res) => {
+  // ... validation ...
+  
+  // Set SSE headers
+  res.setHeader("Content-Type", "text/event-stream");
+  res.setHeader("Cache-Control", "no-cache");
+  res.setHeader("Connection", "keep-alive");
+  const conversationLog = (session.conversation_log || []) as Message[];
+  // Ajouter message guest
+  conversationLog.push({
+    role: "guest",
+    content: message.trim(),
+    timestamp: new Date().toISOString(),
+  });
+  // Stream la réponse
+  for await (const chunk of generateResponseStream(session, message.trim(), conversationLog)) {
+    if (chunk.type === 'token' && chunk.content) {
+      res.write(`event: token\ndata: ${JSON.stringify({ content: chunk.content })}\n\n`);
+    } else if (chunk.type === 'done') {
+      // ... save to DB ...
+    }
+  }
+  // CRITIQUE: Ne jamais auto-compléter basé sur isComplete
+  // Seul le bouton "J'ai terminé" explicite doit mettre status à "completed"
+  const newStatus = "started";
+  const updated = await storage.updateSession(session.id, {
+    conversation_log: conversationLog,
+    status: newStatus,
+  });
+  res.write(`event: done\ndata: ${JSON.stringify({ session: updated })}\n\n`);
+  res.end();
+});
+POST /api/guest/:token/complete - Clôture manuelle
+app.post("/api/guest/:token/complete", async (req, res) => {
+  const session = await storage.getSessionByToken(req.params.token);
+  
+  if (session.status === "completed" || session.status === "brief_generated") {
+    return res.json(session);
+  }
+  const conversationLog = (session.conversation_log || []) as Message[];
+  
+  // Calculer l'état final pour capturer ce qui manquait
+  const { computeConversationState } = await import("./llm");
+  const hasChild = conversationLog.some(m => 
+    /child|kid|enfant|daughter|son|fille|fils|baby|bébé|toddler/i.test(m.content)
+  );
+  const numGuests = session.num_guests || 1;
+  const finalState = computeConversationState(conversationLog, hasChild, numGuests);
+  console.log("[MANUAL_CLOSE] Guest clicked 'J'ai terminé':", {
+    session_id: session.id,
+    captured_items: finalState.captured_items,
+    missing_items: finalState.missing_required_items,
+  });
+  const closureMetadata = {
+    manual_close: true,
+    closed_at: new Date().toISOString(),
+    captured_items: finalState.captured_items,
+    missing_items: finalState.missing_required_items,
+  };
+  
+  const updated = await storage.updateSession(session.id, {
+    status: "completed",
+    operator_notes: JSON.stringify(closureMetadata),
+  });
+  res.json(updated);
+});
+PARTIE 11 : FRONTEND CHAT (client/src/pages/guest-chat.tsx)
+États principaux
+const [inputValue, setInputValue] = useState("");
+const [isStarting, setIsStarting] = useState(false);
+const [isStreaming, setIsStreaming] = useState(false);
+const [streamingText, setStreamingText] = useState("");
+Query session
+const { data: session, isLoading, error } = useQuery<Session>({
+  queryKey: ["/api/guest", token],
+  queryFn: async () => {
+    const res = await fetch(`/api/guest/${token}`);
+    if (!res.ok) throw new Error("Session not found");
+    return res.json();
+  },
+  enabled: !!token,
+});
+Mutation démarrage
+const startMutation = useMutation({
+  mutationFn: async (): Promise<Session> => {
+    const res = await apiRequest("POST", `/api/guest/${token}/start`, {});
+    return res.json();
+  },
+  onSuccess: (updatedSession: Session) => {
+    queryClient.setQueryData(["/api/guest", token], updatedSession);
+  },
+});
+Mutation clôture manuelle
+const completeMutation = useMutation({
+  mutationFn: async (): Promise<Session> => {
+    const res = await apiRequest("POST", `/api/guest/${token}/complete`, {});
+    return res.json();
+  },
+  onSuccess: (updatedSession: Session) => {
+    queryClient.setQueryData(["/api/guest", token], updatedSession);
+  },
+});
+Envoi message avec streaming
+const handleSendMessage = async () => {
+  if (!inputValue.trim() || isStreaming) return;
+  
+  const message = inputValue.trim();
+  setInputValue("");
+  setIsStreaming(true);
+  setStreamingText("");
+  // Optimistically add guest message to UI
+  const currentSession = queryClient.getQueryData<Session>(["/api/guest", token]);
+  if (currentSession) {
+    const updatedLog = [
+      ...(currentSession.conversation_log as Message[] || []),
+      { role: "guest", content: message, timestamp: new Date().toISOString() }
+    ];
+    queryClient.setQueryData(["/api/guest", token], {
+      ...currentSession,
+      conversation_log: updatedLog
+    });
+  }
+  // Stream via SSE
+  const response = await fetch(`/api/guest/${token}/message/stream`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message }),
+  });
+  const reader = response.body **…**
+_This response is too long to display in full._

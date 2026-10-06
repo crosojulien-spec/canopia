@@ -12,6 +12,7 @@ import { AiBudget, approvedModel } from '../server/ai-budget.ts';
 import { AppError } from '../server/security.ts';
 import type { Config } from '../server/config.ts';
 import type { ChatResult, GenerationInput } from '../shared/types.ts';
+import { discoveryDomains } from '../shared/types.ts';
 
 const config: Config = {
   port: 4312,
@@ -372,7 +373,15 @@ test('discovery survives turns and reaches the brief, corrections replace it, an
 test('real adapter contract passes prior discovery, grounds output and derives closure or withdrawal without network', async () => {
   const { s } = await stay();
   const input = await service.input(s.id);
-  input.messages = [{ id: 'guest-message', role: 'user', content: 'No flowers, please.', createdAt: '' }];
+  input.messages = [
+    { id: 'host-message', role: 'assistant', content: 'Any flower preferences?', createdAt: '' },
+    {
+      id: 'guest-message',
+      role: 'user',
+      content: 'No flowers, please. I need to finish now.',
+      createdAt: '',
+    },
+  ];
   input.stay.discovery = { threads: [], nextMove: 'bridge', focus: 'Comfort' };
   const thread = {
     person: 'Guest',
@@ -382,6 +391,8 @@ test('real adapter contract passes prior discovery, grounds output and derives c
     sourceMessageIds: ['guest-message'],
   };
   let move = 'closing_invitation';
+  let repairMode = false;
+  let generations = 0;
   const client = new OpenAI({
     apiKey: 'fictional-key',
     maxRetries: 0,
@@ -391,6 +402,21 @@ test('real adapter contract passes prior discovery, grounds output and derives c
       assert.deepEqual(context.previousDiscovery, input.stay.discovery);
       assert.deepEqual(context.retainedFacts, input.stay.facts);
       assert.ok(!('email' in context.reservation));
+      assert.equal(requestBody.model, 'gpt-6-luna');
+      assert.equal(requestBody.reasoning.effort, 'medium');
+      assert.match(requestBody.instructions, /Snacks and small pleasures/);
+      assert.match(requestBody.instructions, /ILLUSTRATIVE DISCOVERY MOVES/);
+      assert.deepEqual(requestBody.text.format.schema.$defs.guest_source_id.enum, ['guest-message']);
+      assert.equal(
+        requestBody.text.format.schema.properties.facts.items.properties.sourceMessageId.$ref,
+        '#/$defs/guest_source_id',
+      );
+      if (!String(url).endsWith('/input_tokens')) generations++;
+      if (repairMode && generations === 1) move = 'closing_invitation';
+      if (repairMode && generations >= 2) {
+        assert.match(requestBody.instructions, /APPLICATION CHECK/);
+        move = 'bridge';
+      }
       const value = String(url).endsWith('/input_tokens')
         ? { object: 'response.input_tokens', input_tokens: 100 }
         : {
@@ -417,6 +443,17 @@ test('real adapter contract passes prior discovery, grounds output and derives c
                         },
                       ],
                       discovery: {
+                        coverage: Object.fromEntries(
+                          discoveryDomains.map((domain) => [
+                            domain,
+                            { status: 'unexplored', detail: '', sourceMessageIds: [] },
+                          ]),
+                        ),
+                        closing: {
+                          basis: repairMode ? 'sufficient' : 'guest_finished',
+                          reason: repairMode ? 'Enough' : 'Guest needs to finish',
+                          sourceMessageIds: ['guest-message'],
+                        },
                         threads: [thread, { ...thread, sourceMessageIds: ['other-stay'] }],
                         nextMove: move,
                         focus: '',
@@ -445,4 +482,10 @@ test('real adapter contract passes prior discovery, grounds output and derives c
   const withdrawal = await provider.chat(input);
   assert.equal(withdrawal.stopRequested, true);
   assert.equal(withdrawal.readyToFinish, false);
+  repairMode = true;
+  generations = 0;
+  const repaired = await provider.chat(input);
+  assert.equal(generations, 2);
+  assert.equal(repaired.discovery?.nextMove, 'bridge');
+  assert.equal(repaired.readyToFinish, false);
 });

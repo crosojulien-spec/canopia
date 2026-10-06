@@ -1,0 +1,120 @@
+{
+  "startedAt": "2026-10-06T13:20:55.816Z",
+  "baselineCommit": "3a3cf267eb6e7ae1db8778881512dc26a04edb12",
+  "model": "gpt-6-luna",
+  "conversationPromptVersion": "conversation-v5.1",
+  "briefPromptVersion": "brief-v4.1",
+  "chatReasoning": "medium",
+  "briefReasoning": "medium",
+  "hashes": {
+    "prompts/conversation-v5.1.txt": "3dbec47597f878743b2ea5906f9669887d4a15918063aa6782cf9cf282f3741a",
+    "prompts/brief-v4.1.txt": "327589cbe6f812a1e9c570a965f8f414f82b11306e340d7979d64ba77bea1749",
+    "server/ai.ts": "a7eda5bb41b3c062ffbaf5d60f38e39771044d73d1bad735d38fe211e5b0903d",
+    "server/discovery.ts": "11d06ae6a82253bb636acf778fd6b8959e6d87b47ffc13c2c8e6906b6f1bdee0",
+    "server/service.ts": "ee71f1c44ef0ad08ef13de73c8bec640dbf288bd11ecf735c7d709c18b9f7343",
+    "shared/types.ts": "cd3a2806a0078ccdaa70ca57536b46fc849f81647615cb14a19adb114be5814a",
+    "server/ai-budget.ts": "9fe387a3625ba9512aa3701ab912e28de3a02b599bf97c6beb1caccbf701467a",
+    "prompts/discovery-output-v1.1.txt": "0bfbd72177a172511d81e261d5cbfd97dab87a60e80922118b6f5d0a08e21247",
+    "prompts/discovery-examples-v1.1.txt": "1291ae0bc88991ade93a6f8503d5d6c3e222259ce7f3ffc432e0077aa0f037f3"
+  },
+  "startingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.556046,
+    "remainingUsd": 0.443954,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "authentication": "Temporary local operator session inserted for the fixture; account/password unchanged. Routes retain normal authentication. Browser login is covered separately by the scripted regression.",
+  "finishedAt": "2026-10-06T13:25:55.713Z",
+  "endingBudget": {
+    "limitUsd": 5,
+    "accountedUsd": 4.589584,
+    "remainingUsd": 0.410416,
+    "uncertainCalls": 1,
+    "blocked": false
+  },
+  "usage": [
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 11626,
+      "output_tokens": 2022,
+      "reserved_micro": 6021,
+      "accounted_micro": 2958,
+      "created_at": "2026-10-06T13:20:57.953Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 16058,
+      "output_tokens": 4923,
+      "reserved_micro": 6686,
+      "accounted_micro": 5363,
+      "created_at": "2026-10-06T13:22:04.271Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12199,
+      "output_tokens": 3589,
+      "reserved_micro": 6107,
+      "accounted_micro": 3984,
+      "created_at": "2026-10-06T13:22:04.283Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 10363,
+      "output_tokens": 2334,
+      "reserved_micro": 5832,
+      "accounted_micro": 2955,
+      "created_at": "2026-10-06T13:22:04.346Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 14865,
+      "output_tokens": 4551,
+      "reserved_micro": 6507,
+      "accounted_micro": 4961,
+      "created_at": "2026-10-06T13:22:04.404Z"
+    },
+    {
+      "purpose": "chat",
+      "model": "gpt-6-luna",
+      "input_tokens": 12330,
+      "output_tokens": 3606,
+      "reserved_micro": 6127,
+      "accounted_micro": 4014,
+      "created_at": "2026-10-06T13:22:04.456Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 9341,
+      "output_tokens": 1829,
+      "reserved_micro": 5678,
+      "accounted_micro": 2499,
+      "created_at": "2026-10-06T13:23:33.402Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 13078,
+      "output_tokens": 2949,
+      "reserved_micro": 6239,
+      "accounted_micro": 3732,
+      "created_at": "2026-10-06T13:23:33.411Z"
+    },
+    {
+      "purpose": "brief",
+      "model": "gpt-6-luna",
+      "input_tokens": 10535,
+      "output_tokens": 2485,
+      "reserved_micro": 5858,
+      "accounted_micro": 3072,
+      "created_at": "2026-10-06T13:23:33.413Z"
+    }
+  ],
+  "runtimeUnchangedDuringCampaign": true
+}

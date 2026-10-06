@@ -1,0 +1,135 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 18409,
+  "guest": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "A couple of hours together could make a lovely anniversary pause. I can’t assume childcare is available here, so the team would need to check; meanwhile, what kind of food would you and Marc most enjoy for that dinner?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Food for the anniversary dinner",
+    "closing": {
+      "basis": "continue",
+      "reason": "Clara is participating, and several useful preferences for the family stay remain unexplored.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Tenth wedding anniversary",
+        "detail": "They are travelling for their tenth wedding anniversary and would like one romantic dinner just for the two of them, perhaps on the beach; nothing is booked. Their dinner food preferences are not yet known.",
+        "person": "Clara and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Family time",
+        "detail": "They would like family time during the stay; individual interests and wishes remain to be explored.",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Dinner evening arrangement",
+        "detail": "Clara and Marc would be happy with a trusted sitter to keep Leo busy for a couple of hours while they have dinner together. Childcare availability is not confirmed and would need checking.",
+        "person": "Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "36d85641-51e1-4328-948a-86c68877a6fc"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Explore favourite snacks or small treats that could make the stay feel personal.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Explore useful morning or evening routines.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Explore interests or personal references for Clara, Marc and Leo that might inform a thoughtful touch or experience.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Explore what kind of welcome, recommendations or interaction with staff they enjoy.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Explore food and drink preferences; the couple's dinner offers a natural opening for what they enjoy eating.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "plans_and_pace": {
+        "detail": "They would like family time and one romantic dinner, perhaps on the beach; nothing is booked. They would be happy with a trusted sitter keeping Leo busy for a couple of hours, but whether childcare can be arranged needs checking.",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320",
+          "36d85641-51e1-4328-948a-86c68877a6fc"
+        ]
+      },
+      "personal_touches": {
+        "detail": "Their tenth anniversary is an occasion for a possible personal touch; what they would welcome or prefer to avoid is not yet known.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "Explore useful room-comfort preferences or things from home that would help them sleep well.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary. They want family time and a dinner for just Clara and Marc; their individual wishes are still to be explored.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Explore liked or disliked scents and flowers if useful for anniversary personalisation.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Ask about allergies or dietary requirements when natural.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "bridge"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions and occasion",
+      "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+      "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+    },
+    {
+      "label": "Anniversary plans",
+      "value": "They want family time and one romantic dinner just for Clara and Marc, perhaps on the beach. Nothing is booked yet, and they would need to work around Leo.",
+      "sourceQuote": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+      "sourceMessageId": "b833043d-c497-419e-ae79-2156c3f9d320"
+    },
+    {
+      "label": "Childcare preference for dinner",
+      "value": "Clara and Marc would be happy with a trusted sitter who can keep Leo busy for a couple of hours while they spend the evening together.",
+      "sourceQuote": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+      "sourceMessageId": "36d85641-51e1-4328-948a-86c68877a6fc"
+    }
+  ]
+}

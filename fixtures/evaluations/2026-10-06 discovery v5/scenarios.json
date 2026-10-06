@@ -1,0 +1,63 @@
+{
+  "method": "Live local application calls on GPT-6 Luna. Fixed fictional profiles, played by Codex from actual questions without revealing hidden details unsolicited. The Seven Secrets case is a historical reference replay, not a held-out test. Two new cases exercise transfer. All raw replies and failed drafts remain counted; authored evaluation is not independent guest validation.",
+  "cases": [
+    {
+      "id": "01",
+      "name": "Clara, Marc and Leo",
+      "hotelId": "seven_secrets_lombok",
+      "handoff": "reception",
+      "arrival": "2027-05-15",
+      "departure": "2027-05-20",
+      "partySize": 3,
+      "opening": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "hidden": "Historical reference replay. Family bonding plus one couple-only beach dinner, nothing booked, childcare with an engaging sitter acceptable if asked. Clara likes pool/book, learning local cooking and authentic villages/temples. Marc snorkelling/diving and pearl farm, not temples. Leo turtles and sea life. Island hopping together, one separate active morning fine. Room 24C, Clara firm pillow Marc soft, Leo indifferent, one shared duvet parents Leo own blanket; Marc light sleeper. Light natural coconut scent, no heavy artificial fragrance; Clara likes frangipani, avoid heavy pollen Marc sneezes. Adults mango/coconut/pineapple, Leo chocolate chip cookies/watermelon. Leo severe crustacean/shellfish allergy, Epipen carried, parents no dietary restrictions. Clara coconut water, Marc fresh pineapple juice, Leo watermelon juice; no drink restriction. Warm conversational staff. Private French note for Marc left pillow: 10 ans et je te choisirais encore. Merci d'être mon aventure. No loud public performance. Adults slow breakfast fruit and eggs, Marc morning swim; no work obligations. Do not volunteer undiscovered facts at closing.",
+      "evaluate": [
+        "Personal preferences by person",
+        "Food AND drinks AND snacks discovered",
+        "Scent and flower preferences discovered",
+        "Comfort and routine",
+        "Shared versus separate experiences and childcare need",
+        "Staff interaction",
+        "Everyday room/welcome adaptations and useful compositions tied to DNA; no old tariff imported"
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Nora and Ben",
+      "hotelId": "golden_well_prague",
+      "handoff": "reception",
+      "arrival": "2026-11-20",
+      "departure": "2026-11-23",
+      "partySize": 2,
+      "opening": "Ben and I are celebrating eight years together, and it's our first time in Prague.",
+      "hidden": "No bookings, one nice dinner and slow wandering, no group tour. Nora architecture and old staircases, Ben jazz and small bookshops. Both like a private personal nod but no public announcement or staged romance; met sheltering from rain outside a bookshop, sentiment still taking the scenic route together. Shared bed two duvets, Nora warm Ben cold, firm pillow Nora soft Ben. Quiet room, no added room fragrance; Nora likes irises but no strong floral smell, Ben no favourite flower. Nora cappuccino morning, sparkling water in day; Ben Earl Grey no milk and red wine occasionally. Nora loves dried apricots, Ben dark chocolate. Both roast vegetables, fish, lemon desserts, no allergies or dietary restrictions. Nora morning yoga10min, Ben reads before breakfast, both late breakfast after9, stay in bed rather than early tours. Warm informal staff with personal recommendations, no constant checking. Distinctive tastes only in response to related questions.",
+      "evaluate": [
+        "Everyday consumables",
+        "Different bedding and routines",
+        "No scent respected independently of flower interest",
+        "Specific interests and flexible plans",
+        "Private attention without guest designing it",
+        "Relevant paid hotel dining and concrete welcome/minibar proposals subject to capability confirmation"
+      ]
+    },
+    {
+      "id": "03",
+      "name": "Sam Patel",
+      "hotelId": "sukhothai_bangkok",
+      "handoff": "concierge",
+      "arrival": "2026-11-24",
+      "departure": "2026-11-26",
+      "partySize": 1,
+      "opening": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+      "hidden": "Early work start7:30; wants firm pillow,cool20C,quiet sleep, no scent or flowers. Morning double espresso before6:30 run, likes banana and plain yoghurt after. Runs5km outdoors or gym if necessary. No allergies. One quick solo dinner at hotel, likes Thai food medium chilli, alcohol-free. No occasion, note or surprise, minimal brief staff interaction as time short. Answer the actual question in short sentences. If offered closing accept; do not dump profile. If more than four substantive guest replies required, explicitly need to go.",
+      "evaluate": [
+        "Honours expressed time pressure",
+        "One compact useful follow-up and no full grid",
+        "Retains practical known facts",
+        "Guest-led close despite missing domains",
+        "No invented tastes or forced flowers",
+        "Normal completion not withdrawal"
+      ]
+    }
+  ]
+}

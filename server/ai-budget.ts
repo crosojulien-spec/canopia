@@ -4,10 +4,17 @@ import type { AiBudgetStatus } from '../shared/types.ts';
 import { AppError, assert } from './security.ts';
 
 // Approved 2026-10-05: this installation's first USD 5 trial, not a monthly reset.
-// Standard gpt-6.1-sol: $2/M input, $10/M output. Count more conservatively
-// ($3/M input including cache writes, $12/M output); never discount cached input.
-const microDollars = (input: number, output: number) => input * 3 + output * 12;
-export const approvedModel = 'gpt-6.1-sol';
+// Conservative Standard rates, including cache-write headroom; no cache discount.
+// Keep Sol rates for settling historical calls. Migration never rewrites the ledger.
+const rates: Record<string, [number, number]> = {
+  'gpt-6.1-sol': [3, 12],
+  'gpt-6-luna': [0.15, 0.6],
+};
+const microDollars = (model: string, input: number, output: number) => {
+  assert(rates[model], 503, 'No approved accounting rates exist for this model.');
+  return Math.ceil(input * rates[model][0] + output * rates[model][1]);
+};
+export const approvedModel = 'gpt-6-luna';
 export class AiBudget {
   private constructor(private db: Database) {}
   static async open(db: Database, dollars: number) {
@@ -56,7 +63,7 @@ export class AiBudget {
     };
   }
   async reserve(model: string, inputTokens: number, maxOutputTokens: number, purpose: 'chat' | 'brief') {
-    assert(model === approvedModel, 503, 'The trial budget is configured for GPT-6.1 Sol only.');
+    assert(model === approvedModel, 503, 'New trial calls are configured for GPT-6 Luna only.');
     assert(
       Number.isSafeInteger(inputTokens) &&
         inputTokens >= 0 &&
@@ -69,7 +76,7 @@ export class AiBudget {
     );
     // Include framing headroom beyond the provider's preflight count. The input
     // remains well below the 272K threshold for long-context pricing.
-    const reserved = microDollars(inputTokens + 512, maxOutputTokens);
+    const reserved = microDollars(model, inputTokens + 512, maxOutputTokens);
     const id = randomUUID();
     await this.db.transaction(async (tx) => {
       const row = (
@@ -105,13 +112,13 @@ export class AiBudget {
     const needsReview = await this.db.transaction(async (tx) => {
       await tx.query("SELECT id FROM ai_budget WHERE id='initial-trial' FOR UPDATE");
       const call = (
-        await tx.query<{ reserved_micro: number; accounted_micro: number | null }>(
-          'SELECT reserved_micro,accounted_micro FROM ai_calls WHERE id=$1 FOR UPDATE',
+        await tx.query<{ model: string; reserved_micro: number; accounted_micro: number | null }>(
+          'SELECT model,reserved_micro,accounted_micro FROM ai_calls WHERE id=$1 FOR UPDATE',
           [id],
         )
       ).rows[0];
       if (!call || call.accounted_micro !== null) return false;
-      const amount = microDollars(input, output);
+      const amount = microDollars(call.model, input, output);
       if ((serviceTier && serviceTier !== 'default') || amount > call.reserved_micro) {
         await tx.query("UPDATE ai_budget SET blocked=true WHERE id='initial-trial'");
         return true;

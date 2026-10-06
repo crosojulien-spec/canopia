@@ -1,0 +1,319 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 35899,
+  "guest": "No fixed commitments—we'd like to keep the stay open. I think that covers everything for us, thank you.",
+  "status": "in_progress",
+  "ready": true,
+  "reply": "Thank you, Clara. You’ve given us a lovely picture of the family time, your anniversary, and the little things that would make the stay feel like yours; I hope you all have a wonderful time at Seven Secrets.",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Close warmly",
+    "closing": {
+      "basis": "guest_finished",
+      "reason": "Clara said that this covers everything for them and thanked the host.",
+      "sourceMessageIds": [
+        "e1c6b274-2f35-46ed-a153-b1667a9c54ab"
+      ]
+    },
+    "threads": [
+      {
+        "topic": "Anniversary dinner and sitter",
+        "detail": "They would be happy with a trusted sitter to keep Leo busy for a couple of hours while they have dinner together. They prefer one evening but are flexible about timing; sitter availability is not established.",
+        "person": "Clara and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "36d85641-51e1-4328-948a-86c68877a6fc",
+          "14b0ff0b-2b47-47a9-b86d-b20be9673449"
+        ]
+      },
+      {
+        "topic": "Local food and hands-on cooking",
+        "detail": "Clara would enjoy hands-on cooking to learn a local dish, as an individual activity; either a one-to-one or small-group format is fine. They do not yet know dish names, and the experience is not confirmed.",
+        "person": "Clara",
+        "status": "open",
+        "sourceMessageIds": [
+          "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+          "a4c988ce-bab7-4525-a8d6-39f54d6e713a",
+          "53004128-e0d3-4f22-9e90-d1de9fdcd4f3",
+          "9decd466-78f4-4450-b48e-b83d4e66bba0"
+        ]
+      },
+      {
+        "topic": "Breakfast, drinks and snacks",
+        "detail": "Slow breakfasts with fruit and eggs; individual juice preferences and snack favourites are known. No special coffee or tea order.",
+        "person": "Clara, Marc and Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+          "539be151-5441-4d10-8ad4-e7798fc01302",
+          "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+        ]
+      },
+      {
+        "topic": "Sleep and room comfort",
+        "detail": "About 24 degrees; Clara likes a firm pillow, Marc a soft one and a quiet place to sleep. They share a duvet; Leo has his own blanket.",
+        "person": "Clara, Marc and Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "cdee403b-bfa3-41d5-bd1a-72078dc5a110",
+          "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+        ]
+      },
+      {
+        "topic": "Scents, flowers and pollen",
+        "detail": "Clara loves frangipani and light natural coconut scents, not heavy artificial perfumes; Marc sneezes around heavy pollen.",
+        "person": "Clara and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+        ]
+      },
+      {
+        "topic": "Private anniversary touch",
+        "detail": "Clara would welcome her supplied French note on Marc's pillow, with no loud public celebration.",
+        "person": "Clara and Marc",
+        "status": "understood",
+        "sourceMessageIds": [
+          "776fb0e0-c397-491e-a551-89da1770c514"
+        ]
+      },
+      {
+        "topic": "Turtles and sea life",
+        "detail": "Leo is fascinated by turtles and sea life; seeing them would delight him, and ocean stories or games would keep him happy.",
+        "person": "Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a8f453fb-11ff-482b-b959-72a740854093"
+        ]
+      },
+      {
+        "topic": "Morning rhythm and staff interaction",
+        "detail": "Marc likes a morning swim, Clara enjoys reading by the pool, and they enjoy a warm, chatty team and suggestions along the way.",
+        "person": "Clara, Marc and Leo",
+        "status": "understood",
+        "sourceMessageIds": [
+          "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+          "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Clara and Marc love mango, coconut and pineapple. Leo prefers chocolate-chip cookies and also loves watermelon.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "539be151-5441-4d10-8ad4-e7798fc01302"
+        ]
+      },
+      "routines": {
+        "detail": "They enjoy slow breakfasts and have no special coffee or tea order. Marc likes a morning swim; Clara enjoys reading by the pool.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+          "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+        ]
+      },
+      "interests": {
+        "detail": "Leo is fascinated by turtles and sea life and enjoys ocean stories or games. Marc is interested in snorkelling or diving; Clara enjoys reading by the pool and learning local cooking.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "a8f453fb-11ff-482b-b959-72a740854093",
+          "d1ebfb9a-bb6a-49ff-af6f-ddfd09cf98a8",
+          "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+          "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+        ]
+      },
+      "interaction": {
+        "detail": "They enjoy a warm, chatty team, suggestions along the way and getting to know people during the stay.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+        ]
+      },
+      "food_and_drink": {
+        "detail": "They enjoy local food; Clara would like hands-on cooking to learn a local dish, while Marc is happy to try things. They like slow breakfasts with fruit and eggs; Clara loves coconut water, Marc fresh pineapple juice, and Leo watermelon. No",
+        "status": "understood",
+        "sourceMessageIds": [
+          "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+          "f5a92c92-b35f-486b-9291-1549ef1f5fce",
+          "febf6ab7-30fc-4307-b77a-42645e1ea1be",
+          "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+        ]
+      },
+      "plans_and_pace": {
+        "detail": "No valid guest evidence retained.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "personal_touches": {
+        "detail": "Clara would welcome a private anniversary note on Marc's pillow with the exact French wording she supplied; they do not want a loud public celebration.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "776fb0e0-c397-491e-a551-89da1770c514"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "About 24 degrees works for them. Clara likes a firm pillow; Marc a soft one and needs somewhere quiet because he is a light sleeper. Clara and Marc share a duvet; Leo has his own blanket and is not bothered about pillows.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "cdee403b-bfa3-41d5-bd1a-72078dc5a110",
+          "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+        ]
+      },
+      "people_and_purpose": {
+        "detail": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary. They want family time and a private dinner together as a couple.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Clara loves frangipani and light natural coconut scents, and dislikes heavy artificial perfumes. Marc sneezes around heavy pollen.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+        ]
+      },
+      "dietary_requirements": {
+        "detail": "Clara and Marc have no dietary restrictions. Leo has a severe shellfish allergy; they carry an EpiPen. Food handling still requires confirmation by the hotel team.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c",
+          "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+        ]
+      }
+    },
+    "nextMove": "close"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions and occasion",
+      "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+      "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+    },
+    {
+      "label": "Anniversary plans",
+      "value": "They want family time and one romantic dinner just for Clara and Marc, perhaps on the beach. Nothing is booked yet, and they would need to work around Leo.",
+      "sourceQuote": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+      "sourceMessageId": "b833043d-c497-419e-ae79-2156c3f9d320"
+    },
+    {
+      "label": "Childcare preference for dinner",
+      "value": "Clara and Marc would be happy with a trusted sitter who can keep Leo busy for a couple of hours while they spend the evening together.",
+      "sourceQuote": "We'd be happy with a trusted sitter who can keep him busy for a couple of hours, so Marc and I can have that evening together.",
+      "sourceMessageId": "36d85641-51e1-4328-948a-86c68877a6fc"
+    },
+    {
+      "label": "Local food and cooking interest",
+      "value": "Clara would enjoy local food and is keen to learn local cooking; Marc is happy to try things. They do not yet know dish names.",
+      "sourceQuote": "Local food would be lovely. I'm also keen to learn some local cooking; Marc is happy to try things. We don't have any dietary restrictions ourselves.",
+      "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+    },
+    {
+      "label": "Dietary restrictions for Clara and Marc",
+      "value": "Clara and Marc have no dietary restrictions.",
+      "sourceQuote": "We don't have any dietary restrictions ourselves.",
+      "sourceMessageId": "2e9ba39d-ca0a-425d-b3e9-5a60b04b2c3c"
+    },
+    {
+      "label": "Leo's allergy",
+      "value": "Leo has a severe shellfish allergy, and the family carries an EpiPen.",
+      "sourceQuote": "Leo isn't fussy, but he has a severe shellfish allergy and we carry an EpiPen.",
+      "sourceMessageId": "2b9c4a4d-8667-475b-98da-6eb265c8a61e"
+    },
+    {
+      "label": "Breakfast and drinks",
+      "value": "They like taking breakfast slowly—fruit and eggs. Clara loves coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+      "sourceQuote": "We like taking breakfast slowly—fruit and eggs. I love coconut water, Marc likes fresh pineapple juice, and Leo would always choose watermelon juice.",
+      "sourceMessageId": "f5a92c92-b35f-486b-9291-1549ef1f5fce"
+    },
+    {
+      "label": "Favourite snacks",
+      "value": "Clara and Marc love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+      "sourceQuote": "Marc and I love mango, coconut and pineapple. Leo is more of a chocolate-chip-cookie boy, though he loves watermelon too.",
+      "sourceMessageId": "539be151-5441-4d10-8ad4-e7798fc01302"
+    },
+    {
+      "label": "Sleep and room comfort",
+      "value": "About 24 degrees works for the family. Clara likes a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. They share a duvet, and Leo has his own blanket.",
+      "sourceQuote": "About 24 degrees works for us. I like a firm pillow, Marc a soft one; Leo isn't bothered. Marc's a light sleeper. We share a duvet, and Leo has his own blanket.",
+      "sourceMessageId": "cdee403b-bfa3-41d5-bd1a-72078dc5a110"
+    },
+    {
+      "label": "Quiet sleep preference",
+      "value": "Marc would like somewhere quiet for sleep; Clara says they have nothing else in particular and are quite easy.",
+      "sourceQuote": "Just somewhere quiet for Marc. Nothing else in particular—we're quite easy.",
+      "sourceMessageId": "4bdf06c2-c356-483b-aa40-cf42048c37a7"
+    },
+    {
+      "label": "Flower, scent and pollen preferences",
+      "value": "Clara loves frangipani and light natural coconut scents, and dislikes heavy artificial perfumes. Marc sneezes around heavy pollen.",
+      "sourceQuote": "I love frangipani and light natural coconut scents, not heavy artificial perfumes. Marc sneezes around heavy pollen.",
+      "sourceMessageId": "9eabefdd-ccad-4163-9424-6a48a4fc8dea"
+    },
+    {
+      "label": "Anniversary personal touch",
+      "value": "Clara would welcome a quiet anniversary note on Marc's pillow saying: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » They do not want a loud public celebration.",
+      "sourceQuote": "I'd love a note on Marc's pillow saying: « 10 ans et je te choisirais encore. Merci d’être mon aventure. » Just something private, no loud public celebration.",
+      "sourceMessageId": "776fb0e0-c397-491e-a551-89da1770c514"
+    },
+    {
+      "label": "Leo's interests",
+      "value": "Leo is fascinated by turtles and sea life. Seeing them would delight him, and ocean stories or games would keep him happy.",
+      "sourceQuote": "Leo is fascinated by turtles and sea life. He'd love seeing them, and stories or games about the ocean would keep him happy.",
+      "sourceMessageId": "a8f453fb-11ff-482b-b959-72a740854093"
+    },
+    {
+      "label": "Marine activities",
+      "value": "The family would enjoy a boat outing and island hopping together. Marc is keen on snorkelling or diving and would be happy to do that separately one morning.",
+      "sourceQuote": "A boat outing and island hopping together would be great. Marc is also keen on snorkelling or diving, so he'd be happy to do that separately one morning.",
+      "sourceMessageId": "d1ebfb9a-bb6a-49ff-af6f-ddfd09cf98a8"
+    },
+    {
+      "label": "Morning routine and coffee or tea",
+      "value": "They have no special coffee or tea order. Marc likes a morning swim, and Clara is happy with a book by the pool.",
+      "sourceQuote": "The juices I mentioned are our favourites; no special coffee or tea order. Marc likes a morning swim, and I'm happy with a book by the pool.",
+      "sourceMessageId": "febf6ab7-30fc-4307-b77a-42645e1ea1be"
+    },
+    {
+      "label": "Preferred staff interaction",
+      "value": "They enjoy a warm, chatty team and suggestions along the way, and are happy to get to know people during the stay.",
+      "sourceQuote": "We enjoy a warm, chatty team and suggestions along the way. We're happy to get to know people while we're there.",
+      "sourceMessageId": "47e0b772-a7b0-4296-8b97-22c457d1d8d6"
+    },
+    {
+      "label": "Anniversary evening timing",
+      "value": "They would like one evening together, are flexible about the timing, and have nothing else fixed yet.",
+      "sourceQuote": "One evening, but we're flexible about the time. Nothing else is fixed yet.",
+      "sourceMessageId": "14b0ff0b-2b47-47a9-b86d-b20be9673449"
+    },
+    {
+      "label": "Hands-on cooking preference",
+      "value": "Clara would enjoy hands-on cooking and learning to make a local dish.",
+      "sourceQuote": "Hands-on cooking would be lovely. I'd enjoy learning to make a local dish.",
+      "sourceMessageId": "a4c988ce-bab7-4525-a8d6-39f54d6e713a"
+    },
+    {
+      "label": "Cooking as an individual activity",
+      "value": "Clara would enjoy the hands-on cooking herself; it need not be a family activity.",
+      "sourceQuote": "I'd enjoy that myself. No need to make it a family activity.",
+      "sourceMessageId": "53004128-e0d3-4f22-9e90-d1de9fdcd4f3"
+    },
+    {
+      "label": "Cooking experience format",
+      "value": "Clara would be fine with either a one-to-one cooking lesson or a small group and has no preference.",
+      "sourceQuote": "Either would be fine. I don't have a preference.",
+      "sourceMessageId": "9decd466-78f4-4450-b48e-b83d4e66bba0"
+    },
+    {
+      "label": "Plans and pace",
+      "value": "They have no fixed commitments and would like to keep the stay open.",
+      "sourceQuote": "No fixed commitments—we'd like to keep the stay open. I think that covers everything for us, thank you.",
+      "sourceMessageId": "e1c6b274-2f35-46ed-a153-b1667a9c54ab"
+    }
+  ]
+}

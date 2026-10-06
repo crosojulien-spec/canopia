@@ -1,0 +1,167 @@
+{
+  "case": "03",
+  "action": "messages",
+  "elapsedMs": 20629,
+  "guest": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "A quiet room, firm pillow, around 20°C and no added fragrance—understood. One quick practical question: after your run, would you welcome a snack beyond the banana and plain yoghurt, or is that exactly what you want?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Post-run snack",
+    "closing": {
+      "basis": "guest_short_on_time",
+      "reason": "Sam said they have about a minute before a meeting and asked to keep the exchange practical; asking one brief practical question.",
+      "sourceMessageIds": [
+        "c9514625-a44a-4416-ac1e-69da18044f37"
+      ]
+    },
+    "threads": [
+      {
+        "topic": "Work stay and timing",
+        "detail": "Solo for two nights for work; has about a minute before a meeting and leaves for work around 7:30.",
+        "person": "Sam",
+        "status": "open",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37",
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      {
+        "topic": "Early-run morning routine",
+        "detail": "Double espresso before an early run, then banana and plain yoghurt; leaves for work around 7:30.",
+        "person": "Sam",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      {
+        "topic": "Dietary requirements",
+        "detail": "No allergies or dietary restrictions.",
+        "person": "Sam",
+        "status": "understood",
+        "sourceMessageIds": [
+          "31b32523-84dd-4075-a9c3-a349baeb6e93"
+        ]
+      },
+      {
+        "topic": "Room comfort and fragrance",
+        "detail": "Prefers a quiet room around 20°C and a firm pillow; requests no added fragrance.",
+        "person": "Sam",
+        "status": "understood",
+        "sourceMessageIds": [
+          "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Banana and plain yoghurt are part of the post-run routine; preferences for other snacks are still open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      "routines": {
+        "detail": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around 7:30.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      "interests": {
+        "detail": "Personal interests have not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Preferred style of interaction with hotel staff has not been explored.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Has a double espresso before an early run, followed by banana and plain yoghurt; other food and drink preferences remain unknown.",
+        "status": "open",
+        "sourceMessageIds": [
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      "plans_and_pace": {
+        "detail": "Has an early run and leaves for work around 7:30; other plans and useful timings are unknown.",
+        "status": "open",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37",
+          "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        ]
+      },
+      "personal_touches": {
+        "detail": "No occasion or personal-touch preference has been shared.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "sleep_and_comfort": {
+        "detail": "Prefers a quiet room around 20°C and a firm pillow; asks for no added fragrance.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+        ]
+      },
+      "people_and_purpose": {
+        "detail": "Travelling solo for work for two nights.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "c9514625-a44a-4416-ac1e-69da18044f37"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Requests no added fragrance; flower preferences have not been explored.",
+        "status": "open",
+        "sourceMessageIds": [
+          "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+        ]
+      },
+      "dietary_requirements": {
+        "detail": "Sam reports no allergies or dietary restrictions.",
+        "status": "understood",
+        "sourceMessageIds": [
+          "31b32523-84dd-4075-a9c3-a349baeb6e93"
+        ]
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Stay purpose and party",
+      "value": "Travelling solo for work for two nights.",
+      "sourceQuote": "Solo for work, two nights.",
+      "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+    },
+    {
+      "label": "Time constraint and preference",
+      "value": "Has about a minute before a meeting and wants to keep the exchange practical.",
+      "sourceQuote": "I have about a minute before a meeting, so let's keep this practical.",
+      "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+    },
+    {
+      "label": "Morning routine and timing",
+      "value": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around seven-thirty.",
+      "sourceQuote": "A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.",
+      "sourceMessageId": "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+    },
+    {
+      "label": "Dietary requirements",
+      "value": "No allergies or dietary restrictions.",
+      "sourceQuote": "No allergies or dietary restrictions.",
+      "sourceMessageId": "31b32523-84dd-4075-a9c3-a349baeb6e93"
+    },
+    {
+      "label": "Sleep and room comfort",
+      "value": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+      "sourceQuote": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+      "sourceMessageId": "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "case": "01",
+  "action": "messages",
+  "elapsedMs": 17080,
+  "guest": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+  "status": "in_progress",
+  "ready": false,
+  "reply": "That sounds like a lovely balance of family time and a moment for you and Marc. How are you picturing Leo fitting into the dinner evening—would you like him included for part of it, or do you have another arrangement in mind?",
+  "error": null,
+  "briefStatus": "none",
+  "discovery": {
+    "focus": "Dinner plans around Leo",
+    "closing": {
+      "basis": "continue",
+      "reason": "The guest is participating, and the dinner arrangement and other useful personalisation details remain open.",
+      "sourceMessageIds": []
+    },
+    "threads": [
+      {
+        "topic": "Tenth wedding anniversary",
+        "detail": "They are travelling for their tenth wedding anniversary and would like one romantic dinner just for the two of them, perhaps on the beach; nothing is booked.",
+        "person": "Clara and Marc",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Family time",
+        "detail": "They would like family time during the stay.",
+        "person": "Clara, Marc and Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      {
+        "topic": "Dinner evening arrangement",
+        "detail": "The couple's dinner needs to work around their seven-year-old son; how they picture his involvement or another arrangement is not yet known.",
+        "person": "Leo",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      }
+    ],
+    "coverage": {
+      "snacks": {
+        "detail": "Explore favourite snacks or small treats that could make the stay feel personal.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "routines": {
+        "detail": "Explore useful morning or evening routines.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interests": {
+        "detail": "Explore interests or personal references for Clara, Marc and Leo that might inform a thoughtful touch or experience.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "interaction": {
+        "detail": "Explore what kind of welcome, recommendations or interaction with staff they enjoy.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "food_and_drink": {
+        "detail": "Explore food, breakfast and drink preferences for the family.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "plans_and_pace": {
+        "detail": "They want family time and one dinner just for Clara and Marc, perhaps on the beach; nothing is booked and the plan needs to work around Leo. The practical arrangement remains open.",
+        "status": "open",
+        "sourceMessageIds": [
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      "personal_touches": {
+        "detail": "Their tenth anniversary is an occasion for a possible personal touch; what they would welcome or prefer to avoid is not yet known.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+        ]
+      },
+      "sleep_and_comfort": {
+        "detail": "Explore useful room-comfort preferences or things from home that would help them sleep well.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "people_and_purpose": {
+        "detail": "Clara, Marc and their seven-year-old son Leo are travelling for their tenth wedding anniversary; they want family time and a romantic dinner for Clara and Marc, but individual wishes are still to be explored.",
+        "status": "open",
+        "sourceMessageIds": [
+          "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6",
+          "b833043d-c497-419e-ae79-2156c3f9d320"
+        ]
+      },
+      "scents_and_flowers": {
+        "detail": "Explore liked or disliked scents and flowers if useful for anniversary personalisation.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      },
+      "dietary_requirements": {
+        "detail": "Ask about allergies or dietary requirements when natural.",
+        "status": "unexplored",
+        "sourceMessageIds": []
+      }
+    },
+    "nextMove": "deepen"
+  },
+  "retainedFacts": [
+    {
+      "label": "Travel companions and occasion",
+      "value": "Clara is travelling with her husband Marc and their seven-year-old son Leo for their tenth wedding anniversary.",
+      "sourceQuote": "My husband Marc, our seven-year-old son Leo and I are coming for our tenth wedding anniversary.",
+      "sourceMessageId": "2fdbdc21-f5cc-4c77-84cc-f1cea4273bf6"
+    },
+    {
+      "label": "Anniversary plans",
+      "value": "They want family time and one romantic dinner just for Clara and Marc, perhaps on the beach. Nothing is booked yet, and they would need to work around Leo.",
+      "sourceQuote": "We'd like family time and one romantic dinner just the two of us, perhaps on the beach. Nothing booked yet; we'd need to work around Leo.",
+      "sourceMessageId": "b833043d-c497-419e-ae79-2156c3f9d320"
+    }
+  ]
+}
