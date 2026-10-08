@@ -1,8 +1,8 @@
 # Canopia — local application
 
-Status: 6 October 2026. Julien authorised construction on 5 October.
+Status: 8 October 2026. Julien authorised construction on 5 October.
 
-This repository contains the local application, approved product decisions, prompts, six enriched hotel DNA profiles and historical examples. The console, guest conversation, briefs and maintained documentation are in English. Julien authorised initial GPT-6.1 Sol trials on fictional stays within a persistent application-controlled USD 5 allowance. No real email or deployment has taken place. The six DNAs were researched on 5 October, keeping menus, prices, capabilities, proposals and limits distinct; they are not hotel-approved operational profiles. The [review guide](data/dna/Review%20guide.md) explains their structure, gaps and versioned import, which protects operator edits and existing stays.
+This repository contains the local application, approved product decisions, prompts, six enriched hotel DNA profiles and historical examples. The console, guest conversation, briefs and maintained documentation are in English. Julien authorised initial GPT-6.1 Sol trials on fictional stays within a persistent application-controlled USD 5 allowance, then raised its total ceiling to USD 50 on 8 October 2026 while preserving all accounted costs. No real email or deployment has taken place. The six DNAs were researched on 5 October, keeping menus, prices, capabilities, proposals and limits distinct; they are not hotel-approved operational profiles. The [review guide](data/dna/Review%20guide.md) explains their structure, gaps and versioned import, which protects operator edits and existing stays.
 
 ## Run locally
 

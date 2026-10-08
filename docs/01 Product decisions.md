@@ -1,4 +1,4 @@
-# Approved product decisions — updated 6 October 2026
+# Approved product decisions — updated 8 October 2026
 
 This document consolidates Julien's decisions for this project. Choices explicitly labelled as proposals elsewhere are not approvals.
 
@@ -58,7 +58,7 @@ Food, drinks, snacks, comfort and everyday routines are priority material for ad
 
 The path and pace adapt to the person. Follow valuable leads, accept indifference and refusal, keep useful threads for later, and distinguish an unexplored area from no preference. Short answers alone do not establish disengagement. Host-led closure needs sufficient useful material; stated time pressure or a wish to finish allows shortening. Current instructions supersede historical strict ordering and keyword-based impatience detection. The Seven Secrets example establishes the desired breadth and operational usefulness, not a conversation to reproduce verbatim.
 
-Julien's cheaper-model request applies to the Canopia agent, not this Codex chat. Implementation selects `gpt-6-luna` for the revised role and tests it within the same original USD 5 allowance. No budget reset, new spending allowance, deployment or real email is authorised. Live evaluation and its limits are recorded separately; approval of the role is not acceptance of every resulting conversation.
+Julien's cheaper-model request applies to the Canopia agent, not this Codex chat. Implementation selects `gpt-6-luna` for the revised role and tests it within the same original USD 5 allowance. At that stage, no budget reset, new spending allowance, deployment or real email was authorised; the later allowance change is recorded below. Live evaluation and its limits are recorded separately; approval of the role is not acceptance of every resulting conversation.
 
 
 Clarifications approved on 6 October after reviewing Julien's `05_Tests.zip` archive:
@@ -128,11 +128,15 @@ Proposals remain subject to the hotel's decision. The product does not book, pro
 ### Confirmed implementation decisions
 
 - On 5 October, Julien instructed Codex to begin development. Construction of the core product is authorised in this project. Real emails and deployment remain prohibited without authorisation; spending requires approval except for the AI trial below.
-- After storing his key locally, Julien explicitly approved GPT-6.1 Sol with a maximum USD 5 allowance for initial conversation and brief tests. This covers local fictional stays, not emails, deployment, real travellers or other spending. The original model was `gpt-6.1-sol`; the approved cheaper-model direction now uses `gpt-6-luna` under the same cap (see the replacement role decision above). The key is not versioned. The trial ledger persists in the database and does not reset on restart.
+- After storing his key locally, Julien explicitly approved GPT-6.1 Sol with a maximum USD 5 allowance for initial conversation and brief tests. This covers local fictional stays, not emails, deployment, real travellers or other spending. The original model was `gpt-6.1-sol`; the approved cheaper-model migration used `gpt-6-luna` under the same cap at that time (see the replacement role decision above). The later USD 50 ceiling is recorded below. The key is not versioned. The trial ledger persists in the database and does not reset on restart.
 - On withdrawal/refusal, produce a minimal record of already collected information with a prominent notice that the guest does not want it used for personalisation. No new experience suggestions in this branch. Retention remains undecided.
 - Approved format: A–F retained; "BlooM Experience Tips" replaced by "Experience suggestions"; labels match known roles, with reception handling suggestions when there is no concierge.
 - Approved editing/regeneration: each regeneration creates a new version without overwriting previous ones; export uses the saved version selected in the dashboard.
 - The whole application is in English, including the operator console, guest dialogue and briefs.
+
+### Local AI allowance — confirmed 8 October
+
+Julien explicitly requested raising this installation's total AI ceiling to USD 50, replacing the original USD 5 ceiling. This is a total cumulative allowance, not USD 50 added to the remaining balance and not a monthly reset. Preserve all accounted costs, uncertain reservations and safety blocks in the existing database. The local configuration and persistent limit must both reflect USD 50; ordinary restarts or configuration edits still cannot raise a stored limit. The API key, model and other operating boundaries remain unchanged. This does not change any OpenAI account-wide billing limit or authorise a separate allowance for another installation.
 
 ### Repository language and updates — confirmed 6 October
 
@@ -145,7 +149,7 @@ Proposals remain subject to the hotel's decision. The product does not book, pro
 - Develop directly with Codex in an independent private Git project.
 - Julien confirmed `crosojulien-spec/canopia` on 5 October, linked to `C:\Users\croso\Desktop\Canopia_Codex_Preparation`. Git setup alone did not authorise construction; the subsequent development instruction did.
 - Develop and host outside Replit; the old Replit application remains a reference and must stay intact.
-- Prefer existing AI, email, database and hosting accounts. Only the initial USD 5 AI allowance above has been approved as spending.
+- Prefer existing AI, email, database and hosting accounts. The local cumulative AI allowance is USD 50 following the explicit 8 October extension above; other spending requires approval.
 - Preparation and construction take place in the local project linked to the chosen repository.
 - Consult Julien before resolving an unknown product decision or contradiction. Continue independent work.
 - Additional research is reserved for the hackathon. Prepare its integration contract without building it in advance.

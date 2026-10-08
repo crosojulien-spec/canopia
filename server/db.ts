@@ -55,10 +55,18 @@ export async function openDatabase(dataDir: string, url?: string): Promise<Datab
   }
   // Each statement separately works with both node-postgres and PGlite prepared queries.
   for (const sql of schema) await db.query(sql);
+  // Permit the authorised USD 50 ceiling on older installations as well.
+  // This schema migration does not raise any stored allowance or change its ledger.
+  await db.transaction(async (tx) => {
+    await tx.query('ALTER TABLE ai_budget DROP CONSTRAINT IF EXISTS ai_budget_limit_micro_check');
+    await tx.query(
+      'ALTER TABLE ai_budget ADD CONSTRAINT ai_budget_limit_micro_check CHECK(limit_micro>0 AND limit_micro<=50000000)',
+    );
+  });
   return db;
 }
 const schema = [
-  `CREATE TABLE IF NOT EXISTS ai_budget (id text PRIMARY KEY CHECK (id='initial-trial'), limit_micro integer NOT NULL CHECK(limit_micro>0 AND limit_micro<=5000000), blocked boolean NOT NULL DEFAULT false)`,
+  `CREATE TABLE IF NOT EXISTS ai_budget (id text PRIMARY KEY CHECK (id='initial-trial'), limit_micro integer NOT NULL CHECK(limit_micro>0 AND limit_micro<=50000000), blocked boolean NOT NULL DEFAULT false)`,
   `CREATE TABLE IF NOT EXISTS ai_calls (id text PRIMARY KEY, model text NOT NULL, purpose text NOT NULL, reserved_micro integer NOT NULL, accounted_micro integer, input_tokens integer, output_tokens integer, request_id text, created_at timestamptz NOT NULL DEFAULT now())`,
   `CREATE TABLE IF NOT EXISTS operator_account (id text PRIMARY KEY CHECK (id='owner'), email text NOT NULL, password_hash text NOT NULL)`,
   `CREATE TABLE IF NOT EXISTS auth_sessions (token_hash text PRIMARY KEY, expires_at bigint NOT NULL)`,

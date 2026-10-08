@@ -3,7 +3,8 @@ import type { Database, Queryable } from './db.ts';
 import type { AiBudgetStatus } from '../shared/types.ts';
 import { AppError, assert } from './security.ts';
 
-// Approved 2026-10-05: this installation's first USD 5 trial, not a monthly reset.
+// Approved 2026-10-08: total local allowance raised from USD 5 to USD 50.
+// Existing limits and accounted/uncertain calls never reset automatically.
 // Conservative Standard rates, including cache-write headroom; no cache discount.
 // Keep Sol rates for settling historical calls. Migration never rewrites the ledger.
 const rates: Record<string, [number, number]> = {
@@ -19,9 +20,9 @@ export class AiBudget {
   private constructor(private db: Database) {}
   static async open(db: Database, dollars: number) {
     assert(
-      Number.isFinite(dollars) && dollars > 0 && dollars <= 5,
+      Number.isFinite(dollars) && dollars > 0 && dollars <= 50,
       503,
-      'Configure the authorised AI trial budget (up to USD 5) before activation.',
+      'Configure the authorised AI trial budget (up to USD 50) before activation.',
     );
     const limit = Math.floor(dollars * 1_000_000);
     await db.query(

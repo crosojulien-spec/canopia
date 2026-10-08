@@ -1,10 +1,16 @@
 # Current model and allowance
 
-Following Julien's explicit cheaper-Canopia-model request and approval of the replacement role, the local application selects GPT-6 Luna. The original USD 5 cap, older uncertain call and accounted costs are preserved. New Sol calls are rejected rather than used as a silent fallback. The new live campaign is recorded in [Discovery v5 integration](Discovery%20v5%20integration.md).
+Following Julien's explicit cheaper-Canopia-model request and approval of the replacement role, the local application selects GPT-6 Luna. Julien raised the total local ceiling to USD 50 on 8 October 2026. The older uncertain call and all accounted costs are preserved. New Sol calls are rejected rather than used as a silent fallback. The new live campaign is recorded in [Discovery v5 integration](Discovery%20v5%20integration.md).
 
 Official [Luna documentation](https://developers.openai.com/api/docs/models/gpt-6-luna) confirms Responses, structured output, medium reasoning and Standard text rates of USD 0.10/0.50 per million input/output tokens. Token unit rates are 20 times lower than Sol's published USD 2/10; actual journey costs depend on token counts, reasoning and corrective calls. This does not establish equivalent quality or a comparison against all models.
 
-# Local GPT trial — updated 6 October 2026
+## Authorised ceiling change — 8 October 2026
+
+Julien requested a total USD 50 ceiling for this existing installation, replacing USD 5. The schema and runtime now accept a maximum of USD 50. The schema migration only widens the constraint; it does not raise existing stored limits. The authorised local update changes the persistent limit and ignored configuration together, retaining every call and any safety block. Ordinary restarts still cannot replenish or increase the allowance. This is not an OpenAI billing setting or a separate USD 50 allowance for each copied installation.
+
+The local update was verified on 8 October: USD 50.000000 limit, USD 4.599348 accounted, USD 45.400652 remaining, and the same one uncertain call. All 228 ledger rows retained the same SHA-256 fingerprint before and after the update and database reopening. A local backup was taken before migration. Build, formatting and all 19 automated tests passed, including migration of the old USD 5 constraint, preservation across restarts, the maximum USD 50 bound and existing safety blocks. No live generation or provider billing change was made for this update.
+
+# Initial GPT trial — historical authorisation of 6 October 2026
 
 Julien authorised GPT-6.1 Sol and up to USD 5 for the first fictional local conversation/brief trials. Email, real stays and deployment remain disabled. The API key is in the ignored local .env file and is never returned to the browser or written to source control.
 

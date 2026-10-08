@@ -1,4 +1,7 @@
 import { test } from 'node:test';
+import { mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { dirname, join, resolve } from 'node:path';
 import assert from 'node:assert/strict';
 import OpenAI from 'openai';
 import { openDatabase } from '../server/db.ts';
@@ -7,6 +10,49 @@ import { makeProvider } from '../server/ai.ts';
 import type { Config } from '../server/config.ts';
 import type { GenerationInput } from '../shared/types.ts';
 import { loadHotelProfiles } from '../server/hotel-profiles.ts';
+
+test('legacy budget migration permits USD 50 without refilling or clearing the ledger', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'canopia-budget-migration-'));
+  let db = await openDatabase(directory);
+  try {
+    await AiBudget.open(db, 5);
+    await db.query('ALTER TABLE ai_budget DROP CONSTRAINT ai_budget_limit_micro_check');
+    await db.query(
+      'ALTER TABLE ai_budget ADD CONSTRAINT ai_budget_limit_micro_check CHECK(limit_micro>0 AND limit_micro<=5000000)',
+    );
+    await db.query(
+      "INSERT INTO ai_calls(id,model,purpose,reserved_micro,accounted_micro) VALUES('settled','gpt-6.1-sol','chat',90000,30000),('uncertain','gpt-6.1-sol','chat',90000,NULL)",
+    );
+    await db.query("UPDATE ai_budget SET blocked=true WHERE id='initial-trial'");
+    const calls = (await db.query('SELECT * FROM ai_calls ORDER BY id')).rows;
+    await db.close();
+    db = await openDatabase(directory);
+    const budget = await AiBudget.open(db, 50);
+    assert.equal((await budget.status()).limitUsd, 5);
+    // The authorised increase is an explicit local database operation, not a refill on startup.
+    await db.query("UPDATE ai_budget SET limit_micro=50000000 WHERE id='initial-trial'");
+    const expected = {
+      limitUsd: 50,
+      accountedUsd: 0.12,
+      remainingUsd: 49.88,
+      uncertainCalls: 1,
+      blocked: true,
+    };
+    assert.deepEqual(await budget.status(), expected);
+    await assert.rejects(AiBudget.open(db, 50.01));
+    await assert.rejects(db.query("UPDATE ai_budget SET limit_micro=50000001 WHERE id='initial-trial'"));
+    await db.close();
+    db = await openDatabase(directory);
+    assert.deepEqual(await (await AiBudget.open(db, 50)).status(), expected);
+    assert.deepEqual((await db.query('SELECT * FROM ai_calls ORDER BY id')).rows, calls);
+    await AiBudget.open(db, 49);
+    assert.equal((await (await AiBudget.open(db, 50)).status()).limitUsd, 49);
+  } finally {
+    await db.close();
+    assert.equal(dirname(resolve(directory)), resolve(tmpdir()));
+    await rm(directory, { recursive: true, force: true });
+  }
+});
 
 test('Luna migration preserves settled and uncertain Sol entries and uses each call model rates', async () => {
   const db = await openDatabase(':memory:');
