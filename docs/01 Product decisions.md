@@ -134,6 +134,10 @@ Proposals remain subject to the hotel's decision. The product does not book, pro
 - Approved editing/regeneration: each regeneration creates a new version without overwriting previous ones; export uses the saved version selected in the dashboard.
 - The whole application is in English, including the operator console, guest dialogue and briefs.
 
+### Conversation latency — confirmed 8 October
+
+Julien approved GPT-6 Luna with low reasoning for the conversation agent; final briefs retain medium reasoning. He wants complete chat responses within 5–10 seconds. This is a target to measure, not a demonstrated guarantee. This change does not approve removing reasoning, rewriting the discovery role or changing the internal state format. The hackathon demonstration is intended to run locally on his laptop with internet access and the same private API key, independently of the desktop PC; no public hosting is requested.
+
 ### Local AI allowance — confirmed 8 October
 
 Julien explicitly requested raising this installation's total AI ceiling to USD 50, replacing the original USD 5 ceiling. This is a total cumulative allowance, not USD 50 added to the remaining balance and not a monthly reset. Preserve all accounted costs, uncertain reservations and safety blocks in the existing database. The local configuration and persistent limit must both reflect USD 50; ordinary restarts or configuration edits still cannot raise a stored limit. The API key, model and other operating boundaries remain unchanged. This does not change any OpenAI account-wide billing limit or authorise a separate allowance for another installation.

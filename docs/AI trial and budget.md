@@ -4,6 +4,10 @@ Following Julien's explicit cheaper-Canopia-model request and approval of the re
 
 Official [Luna documentation](https://developers.openai.com/api/docs/models/gpt-6-luna) confirms Responses, structured output, medium reasoning and Standard text rates of USD 0.10/0.50 per million input/output tokens. Token unit rates are 20 times lower than Sol's published USD 2/10; actual journey costs depend on token counts, reasoning and corrective calls. This does not establish equivalent quality or a comparison against all models.
 
+## Chat reasoning — 8 October 2026
+
+Julien approved changing only the conversation agent from medium to low reasoning. The brief remains on medium. Prompts, discovery tracking, output format, corrective generation, token limits and budget accounting are unchanged. The 5–10 second response-time target is an objective, not an established result; automated adapter checks verify the request setting but do not establish live latency or conversation quality.
+
 ## Authorised ceiling change — 8 October 2026
 
 Julien requested a total USD 50 ceiling for this existing installation, replacing USD 5. The schema and runtime now accept a maximum of USD 50. The schema migration only widens the constraint; it does not raise existing stored limits. The authorised local update changes the persistent limit and ignored configuration together, retaining every call and any safety block. Ordinary restarts still cannot replenish or increase the allowance. This is not an OpenAI billing setting or a separate USD 50 allowance for each copied installation.
@@ -20,7 +24,7 @@ Run the regular server with npm start (or npm run dev), not npm run demo: the la
 
 Create a new fictional stay in the console, choose a hotel and handoff, open the guest view, converse in English, and select Finish and share. The automatic A–F draft appears in Brief & review. Existing stays retain their original DNA snapshot. A guest who declines personalisation receives a minimal record, without experience suggestions.
 
-The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v5.1 and brief-v4.2, with the discovery output contract and illustrative moves. Previous versions remain in source control. Both dialogue and briefs use medium reasoning on GPT-6 Luna. Both use the full selected DNA, reservation context, transcript, retained facts and the internal discovery map, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
+The initial greeting is a fixed application introduction. Subsequent replies and the normal brief call the model. The active prompts are conversation-v5.1 and brief-v4.2, with the discovery output contract and illustrative moves. Previous versions remain in source control. Following Julien's approval on 8 October, dialogue uses low reasoning on GPT-6 Luna; briefs retain medium reasoning. Both use the full selected DNA, reservation context, transcript, retained facts and the internal discovery map, with store:false, no tools and no automatic SDK retries. The guest email is omitted from model input. This is not a promise of zero provider retention.
 
 ## How the local allowance works
 

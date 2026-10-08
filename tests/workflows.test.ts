@@ -403,7 +403,7 @@ test('real adapter contract passes prior discovery, grounds output and derives c
       assert.deepEqual(context.retainedFacts, input.stay.facts);
       assert.ok(!('email' in context.reservation));
       assert.equal(requestBody.model, 'gpt-6-luna');
-      assert.equal(requestBody.reasoning.effort, 'medium');
+      assert.equal(requestBody.reasoning.effort, 'low');
       assert.match(requestBody.instructions, /Snacks and small pleasures/);
       assert.match(requestBody.instructions, /ILLUSTRATIVE DISCOVERY MOVES/);
       assert.deepEqual(requestBody.text.format.schema.$defs.guest_source_id.enum, ['guest-message']);

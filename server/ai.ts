@@ -169,7 +169,7 @@ export function makeProvider(config: Config, budget?: AiBudget, suppliedClient?:
             model: config.model!,
             store: false,
             max_output_tokens: 7000,
-            reasoning: { effort: 'medium' },
+            reasoning: { effort: 'low' },
             instructions: instructions + correction,
             input: inputData(input),
             text: { format: turnFormat(input) },
